@@ -1,0 +1,185 @@
+{
+  "version": "v04",
+  "fecha": "2026-11-09",
+  "proyecto": "RevitElectrico - T5-SantaMarta",
+  "descripcion": "Configuracion del ruteo. v04 agrega servicio fijado por capa (COMUNICACIONES) y ancla de coordenadas por panel.",
+  "decisiones_operador": {
+    "comunicaciones_3_4": "Las tuberias de COMUNICACIONES se fijan en 3/4\" porque los cables de voz/datos no son 12 AWG y no estan marcados en el DXF.",
+    "caja_familia": "Familia 'M_Caja de conexiones hexagonal', tipo '120V'.",
+    "conexion_caja_aparato": "La conexion caja->aparato es exclusivamente cableado, NO tuberia.",
+    "ventilador": "Bloque 'ELEC-F-VENT' en capa 'ELEC-APPL-ILUM'. Existe en el DXF de E 05, no en el de F 02.",
+    "tramos_en_revision": "Deben poder visualizarse; opcion de forzar Servicio_Conduit=FUERZA para localizarlos en Revit.",
+    "tomas_sobre_power_pipe": "Los tramos de tomas van como TOMAS. FUERZA no esta definida dentro del apartamento.",
+    "banda": "Arranca en 2.65 m para librar la estructura del cielorraso, con ~10 cm de holgura segun cruces.",
+    "extremos_sin_aparato": "Cajas de conexion hexagonales previas a luminaria o ventilador.",
+    "herencia_cables": "Aprobada entre tramos vecinos.",
+    "ancla": "Las coordenadas del DXF no coinciden con el modelo Revit; el offset se calcula con el panel TB-Parcial como ancla (regla G7 del proyecto)."
+  },
+  "zona": {
+    "nombre": "apartamento",
+    "material": "PVC",
+    "calibre": "12 AWG",
+    "nota": "Apartamentos: PVC + 12 AWG. Corredores: EMT o PVC-SCH40, se define en su momento."
+  },
+  "zonas_alternativas": {
+    "apartamento": {
+      "material": "PVC",
+      "calibre": "12 AWG"
+    },
+    "corredor_emt": {
+      "material": "EMT",
+      "calibre": "12 AWG"
+    },
+    "corredor_pvc_sch40": {
+      "material": "PVC-SCH40",
+      "calibre": "12 AWG"
+    }
+  },
+  "archivos_capacidad": {
+    "PVC": "data\\Calibre-12-34-1-1-14-1-12-2-PVC.csv",
+    "PVC-SCH40": "data\\Calibre-12-34-1-1-14-1-12-2-PVC-SCH40.csv",
+    "EMT": "data\\Calibre-12-34-1-1-14-1-12-2-EMT.csv"
+  },
+  "servicios_permitidos": [
+    "TOMAS",
+    "ILUMINACION",
+    "COMUNICACIONES",
+    "FUERZA"
+  ],
+  "mapeo_capa_tuberia_a_servicio": {
+    "ELEC-LIGHT-PIPE": "ILUMINACION",
+    "ELEC-POWER- PIPE": "TOMAS",
+    "ELEC-Powr-service": "FUERZA",
+    "ELEC-Data-Service": "COMUNICACIONES"
+  },
+  "mapeo_capa_dispositivo_a_servicio": {
+    "ELEC-APPL-TOMAS": "TOMAS",
+    "ELEC-APPL-ILUM": "ILUMINACION",
+    "ELEC-APPL-ILLUM": "ILUMINACION",
+    "ELEC-BALA LED 13 W": "ILUMINACION",
+    "Elec-Lite-Lite-Emer": "ILUMINACION",
+    "ELEC-STA_ Hermetica 40W": "ILUMINACION",
+    "E-Lite-Swch": "ILUMINACION",
+    "ELEC-APPL-NETWORD": "COMUNICACIONES",
+    "E-Comm-Appl-Netw": "COMUNICACIONES",
+    "ELEC-Powr-Appl": "FUERZA",
+    "ELEC-Powr-service": "FUERZA",
+    "ELEC-POWER-PANEL": "FUERZA",
+    "HVAC-Equipos": "FUERZA",
+    "CONDENSADORAS": "FUERZA"
+  },
+  "prioridad_servicio": [
+    "COMUNICACIONES",
+    "TOMAS",
+    "ILUMINACION",
+    "FUERZA"
+  ],
+  "altura_por_capa_dispositivo_m": {
+    "ELEC-BALA LED 13 W": 2.65,
+    "Elec-Lite-Lite-Emer": 2.65,
+    "ELEC-STA_ Hermetica 40W": 2.2,
+    "ELEC-APPL-TOMAS": 0.3,
+    "ELEC-APPL-ILUM": 1.1,
+    "ELEC-APPL-ILLUM": 1.1,
+    "E-Lite-Swch": 1.1,
+    "ELEC-APPL-NETWORD": 0.3,
+    "E-Comm-Appl-Netw": 0.3,
+    "ELEC-Powr-Appl": 1.2,
+    "ELEC-Powr-service": 1.2,
+    "ELEC-POWER-PANEL": 1.2
+  },
+  "altura_por_bloque_m": {
+    "ELEC-F-VENT": 2.65
+  },
+  "altura_default_dispositivo_m": 1.2,
+  "diametro_fijo_por_servicio": {
+    "COMUNICACIONES": {
+      "pulgadas": "3/4\"",
+      "mm": 19.05,
+      "motivo": "Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador."
+    }
+  },
+  "banda": {
+    "cota_min_m": 2.65,
+    "cota_max_m": 2.75,
+    "holgura_m": 0.1,
+    "criterio": "Reparto por servicio dentro de la banda para que los sistemas se crucen a distinta cota.",
+    "nota": "2.65 m libra la estructura del cielorraso; los 10 cm hacia arriba se usan para resolver cruces."
+  },
+  "cota_banda_tuberia_m": {
+    "ILUMINACION": 2.65,
+    "TOMAS": 2.68,
+    "COMUNICACIONES": 2.71,
+    "FUERZA": 2.74
+  },
+  "cota_banda_default_m": 2.65,
+  "cajas_conexion": {
+    "habilitado": true,
+    "radio_busqueda_m": 2.0,
+    "cota_m": 2.65,
+    "modelar": true,
+    "familia": "M_Caja de conexiones hexagonal",
+    "tipo": "120V",
+    "conexion_a_aparato": "cableado",
+    "nota_conexion": "Entre la caja y el aparato NO va tuberia: la conexion es solo cableado. La tuberia termina en la caja.",
+    "capas_aparato_destino": [
+      "ELEC-BALA LED 13 W",
+      "Elec-Lite-Lite-Emer",
+      "ELEC-STA_ Hermetica 40W",
+      "ELEC-APPL-ILUM",
+      "ELEC-APPL-ILLUM",
+      "HVAC-Equipos",
+      "CONDENSADORAS"
+    ],
+    "bloques_aparato_destino": [
+      "ELEC-F-VENT"
+    ]
+  },
+  "marcado_revision": {
+    "habilitado": false,
+    "servicio_para_tramos_sin_resolver": "FUERZA",
+    "nota": "Si se habilita, los tramos con extremos sin resolver se emiten con este Servicio_Conduit para localizarlos visualmente en Revit. No cambia el diametro."
+  },
+  "tolerancias": {
+    "asociacion_marcador_polilinea_m": 0.3,
+    "asociacion_extremo_dispositivo_m": 0.5,
+    "union_extremos_m": 0.05,
+    "cruce_coordenadas_revit_m": 0.2,
+    "asociacion_texto_circuito_m": 1.0
+  },
+  "reglas_cables": {
+    "cables_min": 1,
+    "cables_max_sin_revision": 11,
+    "cables_default_sin_marcador": 3,
+    "heredar_de_polilinea_vecina_m": 1.0,
+    "herencia_aprobada": true
+  },
+  "reglas_geometria": {
+    "modo_altura": "horizontal_con_bajantes",
+    "separacion_minima_entre_tuberias_m": 0.05,
+    "radio_curvatura_m": 0.15,
+    "longitud_minima_tramo_m": 0.05,
+    "fusionar_colineales": true,
+    "avisar_cruce_misma_cota_m": 0.02
+  },
+  "reglas_servicio": {
+    "si_extremos_coinciden_gana_extremos": true,
+    "si_extremos_difieren_gana_prioridad": true,
+    "avisar_si_capa_y_extremos_difieren": true
+  },
+  "notas_para_operador": [
+    "La etiqueta de servicio solo controla color y filtro en la vista Discipline > Electrical; NO cambia el diametro, salvo la excepcion fija de COMUNICACIONES.",
+    "COMUNICACIONES usa 3/4\" fijo por decision del operador; el resto depende de la cantidad de cables del marcador.",
+    "La columna ALTURA_INST del DXF esta contaminada con identificadores de red (TTICS-01/TTICS-02); las alturas se toman de altura_por_capa_dispositivo_m.",
+    "Los extremos sin aparato se resuelven como cajas de conexion cuando hay luminaria o ventilador dentro del radio de busqueda."
+  ],
+  "servicios_fijados_por_capa": {
+    "ELEC-Data-Service": "COMUNICACIONES"
+  },
+  "ancla": {
+    "bloque_dxf": "TB-Parcial",
+    "capa_dxf": "ELEC-POWER-PANEL",
+    "nombre_en_revit": "TB-Parcial",
+    "nota": "El writer localiza este aparato en Revit y usa su posicion como origen del offset XY."
+  }
+}

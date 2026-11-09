@@ -79,6 +79,35 @@
 
 ---
 
+## Fase 4 — Ruteo de conduit (activa desde 2026-11-09)
+
+**Esquema completo:** [`docs/RE_RUTEO_ESQUEMA_v01.md`](docs/RE_RUTEO_ESQUEMA_v01.md)
+
+| ID | Pendiente | Detalle | Estado |
+|----|-----------|---------|--------|
+| 4.1 | Tabla de equivalencias | Capacidad por material/calibre desde `data\Calibre-*.csv` (PVC, PVC-SCH40, EMT) | ✅ |
+| 4.2 | Configuración semántica | `config\ruteo_config_v04.json`: servicios, banda, cajas, comunicaciones 3/4", ancla | ✅ |
+| 4.3 | Pipeline Python de ruteo | `src\fase-6-revit\ruteo\` (10 módulos) + CLI | ✅ 55 tests |
+| 4.4 | Corridas F 02 y E 05 | F02 38 tramos · 179,01 m · E05 49 tramos · 226,04 m · 2 cajas | ✅ |
+| 4.5 | Writer pyRevit | `RE_RUTEAR_CONDUITS_v01.py` con `dry_run` y offset por ancla | ✅ listo, sin ejecutar |
+| 4.6 | Ejecutar `dry_run=True` en V03 | Validar tipos, nivel, ancla y segmentos | ⏳ requiere Revit |
+| 4.7 | Crear conduits en el modelo | Solo tras aprobación del operador | ⏳ |
+| 4.8 | Validación posicional contra RVT | V8 del esquema; el JSON viejo no es ground truth | ⏳ |
+| 4.9 | Definir corredores | EMT vs PVC-SCH40 y cota de bandeja | ⏳ decisión operador |
+| 4.10 | Invariantes post-creación | V9 colisiones · V10 `Servicio_Conduit` poblado | ⏳ |
+| 4.11 | Familia de caja | ✅ `M_Caja de conexiones hexagonal` / `120V` | ✅ |
+| 4.12 | Visor de tramos | ✅ `visor.py` con SVG interactivo y filtros | ✅ |
+| 4.13 | Ancla de coordenadas | ✅ `TB-Parcial` detectado; offset calculado en el writer | ✅ |
+| 4.14 | Crear cajas en Revit | El writer las reporta; falta crear FamilyInstance | ⏳ |
+
+**Decisiones cerradas 2026-11-09:** D1 tomas = TOMAS · D2 banda 2,65 m + 10 cm · D3 extremos sin aparato = cajas · D4 herencia aprobada · D5 comunicaciones 3/4" · D6 familia `M_Caja de conexiones hexagonal`/`120V` · D7 caja→aparato solo cableado · D8 ventilador `ELEC-F-VENT` · D9 visor de revisión.
+
+**Insumo correcto:** DXF por apartamento (`ArchivosBase\Apartamento Tipo F 02.dxf`), no el plano general.
+
+> **Hallazgo:** `apto_F_02_aplicar_mapa_v3.json` no es referencia válida de coordenadas (0/37 coincidencias con el DXF, mejor traslación 10/37). La validación posicional debe hacerse contra el RVT.
+
+---
+
 ## Orden de ejecución inmediato
 
 1. **0.5** — regenerar los JSON de diagnóstico corruptos en la primera corrida sobre V03.
