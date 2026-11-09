@@ -1,0 +1,1304 @@
+{
+  "borradas": [], 
+  "resumen": {
+    "fallos_creacion": 15, 
+    "instancias_fuera_nivel": 128, 
+    "creados": 22, 
+    "acciones_preparadas": 37, 
+    "instancias_electricas_total": 216, 
+    "a_borrar": 216
+  }, 
+  "elevacion_nivel_m": 43.372700000000002, 
+  "modo": "aplicar", 
+  "fuera_de_nivel": [
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Ventilador", 
+      "id": 5532079
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Ventilador", 
+      "id": 5532121
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Ventilador", 
+      "id": 5532122
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Ventilador", 
+      "id": 5532166
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Ventilador", 
+      "id": 5532204
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.703000000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5565812
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.703000000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5565967
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 45.554699999999997, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5566446
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.671500000000002, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5566510
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 45.508299999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5566744
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 45.554699999999997, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5566841
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5567171
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 47.122199999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5567316
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 51.387300000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Toma - 220V", 
+      "id": 5567459
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 45.447600000000001, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5567641
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5568009
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma resistente a la intemperie", 
+      "id": 5568207
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Interruptor", 
+      "id": 5569701
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 51.574800000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Ventilador", 
+      "id": 5571029
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.703000000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658570
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.703000000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658572
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 45.554699999999997, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658574
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.671500000000002, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658575
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 45.508299999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658576
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 45.554699999999997, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658577
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658578
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 47.122199999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658580
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 51.387300000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Toma - 220V", 
+      "id": 5658582
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 45.447600000000001, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658584
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma doble", 
+      "id": 5658585
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma resistente a la intemperie", 
+      "id": 5658587
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Interruptor", 
+      "id": 5658592
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 51.574800000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Ventilador", 
+      "id": 5658600
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "familia": "Medidor HS", 
+      "id": 1839851
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "familia": "Medidor HS", 
+      "id": 1839852
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "familia": "Medidor HS", 
+      "id": 2278155
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "familia": "Medidor HS", 
+      "id": 2278156
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "familia": "Medidor HS", 
+      "id": 2279417
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "familia": "Medidor HS", 
+      "id": 2279418
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 33.202100000000002, 
+      "nivel_id": 192468, 
+      "familia": "Medidor HS", 
+      "id": 2280679
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 33.202100000000002, 
+      "nivel_id": 192468, 
+      "familia": "Medidor HS", 
+      "id": 2280680
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "familia": "Medidor HS", 
+      "id": 3259051
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "familia": "Medidor HS", 
+      "id": 3259052
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "familia": "Medidor HS", 
+      "id": 3298063
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "familia": "Medidor HS", 
+      "id": 3298363
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 33.202100000000002, 
+      "nivel_id": 192468, 
+      "familia": "Medidor HS", 
+      "id": 3298366
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "familia": "Medidor HS", 
+      "id": 3298420
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "familia": "Medidor HS", 
+      "id": 3681748
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "familia": "Medidor HS", 
+      "id": 3681749
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "familia": "Medidor HS", 
+      "id": 3689064
+    }, 
+    {
+      "motivos": [
+        "z_bajo_nivel"
+      ], 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "familia": "Medidor HS", 
+      "id": 3689065
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532081
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532082
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532083
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532084
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532085
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532086
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532124
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532125
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532126
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532127
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532128
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532129
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532130
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532131
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532132
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532174
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532175
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532176
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532177
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532178
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532179
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532180
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532181
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532208
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532209
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532210
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532211
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532212
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532213
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532214
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "COMBO MOUNTING RING", 
+      "id": 5532215
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5574864
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5574907
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5574948
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5575025
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5575265
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5575301
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 49.614199999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5575557
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5642716
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5658602
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5658603
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5658604
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5658605
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5658606
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5658607
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 49.614199999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5658608
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "familia": "SONO FLEX trim", 
+      "id": 5658663
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.231900000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Pulsador - Interruptor", 
+      "id": 5564192
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "id": 5564504
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "id": 5568848
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "id": 5569962
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.231900000000003, 
+      "nivel_id": -1, 
+      "familia": "M_Pulsador - Interruptor", 
+      "id": 5658563
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "id": 5658564
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "id": 5658589
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "id": 5658594
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "M_Timbre", 
+      "id": 5532076
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "M_Timbre", 
+      "id": 5532093
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "M_Timbre", 
+      "id": 5532116
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "M_Timbre", 
+      "id": 5532145
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "M_Timbre", 
+      "id": 5532161
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "M_Timbre", 
+      "id": 5532187
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "M_Timbre", 
+      "id": 5532199
+    }, 
+    {
+      "motivos": [
+        "sin_nivel", 
+        "z_bajo_nivel"
+      ], 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "familia": "M_Timbre", 
+      "id": 5532229
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 51.325499999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Zumbador", 
+      "id": 5564955
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 51.325499999999998, 
+      "nivel_id": -1, 
+      "familia": "M_Zumbador", 
+      "id": 5658567
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5570447
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5570846
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5570882
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.616199999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5654976
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.616199999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5655240
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.616199999999999, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5655308
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5658596
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5658598
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5658599
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.612499999999997, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5658768
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.612499999999997, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5658769
+    }, 
+    {
+      "motivos": [
+        "sin_nivel"
+      ], 
+      "z_min": 48.612499999999997, 
+      "nivel_id": -1, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "id": 5658770
+    }
+  ], 
+  "nivel_destino": "Piso 5", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "fallos": [], 
+  "creadas": [
+    {
+      "id": null, 
+      "nombre": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-CAMPANA"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-F-VENT"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-EXT"
+    }, 
+    {
+      "id": null, 
+      "nombre": "Bala Stil Led 22W"
+    }, 
+    {
+      "id": null, 
+      "nombre": "Bala Stil Led 22W"
+    }, 
+    {
+      "id": null, 
+      "nombre": "Bala Stil Led 10W"
+    }, 
+    {
+      "id": null, 
+      "nombre": "Bala Stil Led 10W"
+    }, 
+    {
+      "id": null, 
+      "nombre": "Bala Stil Led 10W"
+    }, 
+    {
+      "id": null, 
+      "nombre": "Bala Stil Led 10W"
+    }, 
+    {
+      "id": null, 
+      "nombre": "Bala Stil Led 13W"
+    }, 
+    {
+      "id": null, 
+      "nombre": "Bala Stil Led 13W"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "id": null, 
+      "nombre": "ELEC-T-D-t-15A"
+    }
+  ]
+}

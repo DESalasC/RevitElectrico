@@ -1,0 +1,45 @@
+{
+  "fecha_ejecucion": "2026-10-21 22:56:48", 
+  "nivel_id": "192512", 
+  "nivel": "Piso 5", 
+  "detalle": [
+    {
+      "nombre_bloque": "ELEC-TIMBRE", 
+      "id": "5554243", 
+      "motivo": "Simbolo no encontrado: M_Interruptor bipolar/M_Interruptor bipolar"
+    }, 
+    {
+      "nombre_bloque": "ELEC-CAMPANA", 
+      "id": "5554244", 
+      "motivo": "Simbolo no encontrado: M_Timbre/M_Timbre"
+    }, 
+    {
+      "nombre_bloque": "ELEC-I-S-2-5A", 
+      "id": "5554245", 
+      "motivo": "Simbolo no encontrado: M_Interruptor bipolar/M_Interruptor bipolar"
+    }, 
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A", 
+      "id": "5554246", 
+      "motivo": "Simbolo no encontrado: M_Interruptor bipolar/M_Interruptor bipolar"
+    }, 
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A", 
+      "id": "5554247", 
+      "motivo": "Simbolo no encontrado: M_Interruptor bipolar/M_Interruptor bipolar"
+    }, 
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A", 
+      "id": "5554248", 
+      "motivo": "Simbolo no encontrado: M_Interruptor bipolar/M_Interruptor bipolar"
+    }, 
+    {
+      "nombre_bloque": "ELEC-F-CONTROL", 
+      "id": "5554250", 
+      "motivo": "Simbolo no encontrado: M_Interruptor bipolar/M_Interruptor bipolar"
+    }
+  ], 
+  "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRA-prueba 01", 
+  "exitos": 0, 
+  "fallos": 7
+}

@@ -1,0 +1,114 @@
+{
+  "chip": "SANTAMARTA_T5",
+  "nota": "Fixture de entrada para testear RE4_EXPORT_EXCEL_v01.py. Contiene un JSON RE1 (DXF normalizado) y un JSON RE2 (mapeo bloques→Revit) mínimos pero representativos.",
+  "re1": {
+    "metadatos": {
+      "chip": "SANTAMARTA_T5",
+      "origen_dxf": "entrada/SantaMarta_T5_Electrico.dxf",
+      "version": "v01.0"
+    },
+    "resumen": {
+      "bloques_total": 3,
+      "bloques_electricos": 2,
+      "bloques_no_electricos": 1,
+      "bloques_basura_filtrados": 0,
+      "polilineas": 2,
+      "polilineas_electricas": 1,
+      "lineas": 1,
+      "arcos": 1,
+      "circulos": 0
+    },
+    "bloques": [
+      {
+        "nombre_bloque": "Paneles",
+        "capa": "ELEC-PANEL",
+        "es_electrica": true,
+        "punto_insert": [10.5, 20.3, 0.0],
+        "familia_revit_sugerida": "Panel Eléctrico 220V"
+      },
+      {
+        "nombre_bloque": "Bala Stil Led 12W",
+        "capa": "ELEC-LIGHT",
+        "es_electrica": true,
+        "punto_insert": [15.0, 25.0, 0.0],
+        "familia_revit_sugerida": "Luminaria LED 12W"
+      },
+      {
+        "nombre_bloque": "sadfasdggfjhkkl",
+        "capa": "0",
+        "es_electrica": false,
+        "punto_insert": [0.0, 0.0, 0.0],
+        "familia_revit_sugerida": ""
+      }
+    ],
+    "polilineas": [
+      {
+        "capa": "ELEC-CIRCUITO",
+        "es_electrica": true,
+        "puntos": [[0.0, 0.0, 0.0], [10.0, 10.0, 0.0], [20.0, 10.0, 0.0]],
+        "cerrada": false
+      },
+      {
+        "capa": "0",
+        "es_electrica": false,
+        "puntos": [[0.0, 0.0, 0.0], [5.0, 5.0, 0.0]],
+        "cerrada": false
+      }
+    ],
+    "lineas": [
+      {
+        "capa": "ELEC-LIGHT-PIPE",
+        "es_electrica": true,
+        "inicio": [0.0, 0.0, 0.0],
+        "fin": [10.0, 0.0, 0.0]
+      }
+    ],
+    "arcos": [
+      {
+        "capa": "ELEC-CONDUIT",
+        "es_electrica": true,
+        "centro": [0.0, 0.0, 0.0],
+        "radio": 5.0
+      }
+    ],
+    "circulos": []
+  },
+  "re2": {
+    "metadatos": {
+      "chip": "SANTAMARTA_T5",
+      "version": "v01.0"
+    },
+    "resumen": {
+      "bloques_distintos": 2,
+      "instancias_total": 3,
+      "instancias_a_modelar": 2,
+      "instancias_descartar": 0,
+      "instancias_basura": 1,
+      "instancias_codigo_conductores": 0
+    },
+    "mapeo": [
+      {
+        "nombre_bloque": "Paneles",
+        "categoria": "Electrical Equipment",
+        "familia_revit": "Panel Eléctrico 220V",
+        "altura_default_m": 1.2,
+        "modelar": true,
+        "es_codigo_conductores": false,
+        "instancias": 1,
+        "capas": ["ELEC-PANEL"],
+        "nota": "Panel eléctrico de baja tensión"
+      },
+      {
+        "nombre_bloque": "Bala Stil Led 12W",
+        "categoria": "Lighting Fixtures",
+        "familia_revit": "Luminaria LED 12W",
+        "altura_default_m": 3.0,
+        "modelar": true,
+        "es_codigo_conductores": false,
+        "instancias": 1,
+        "capas": ["ELEC-LIGHT"],
+        "nota": "Luminaria LED empotrada"
+      }
+    ]
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "nivel_encontrado": true, 
+  "nivel_id": "192512", 
+  "nivel": "Piso 5", 
+  "script": "CORREGIR_LEVELID_PISO5_v01.py", 
+  "fallos": [
+    {
+      "id": "1734865", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1734901", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1734921", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1734946", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1734986", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735025", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735035", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735047", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735088", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735121", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735155", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735173", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735216", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735294", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735335", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1735363", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1736452", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1736453", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1736454", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "1736455", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura"
+    }
+  ], 
+  "ya_correctas": [
+    {
+      "id": "1736779", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736780", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736781", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736782", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736783", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736784", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736785", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736786", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736789", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736790", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736791", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736792", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736793", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736795", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736797", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1736798", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1800587", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1800588", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1800590", 
+      "nivel_nombre": "Piso 5"
+    }, 
+    {
+      "id": "1800592", 
+      "nivel_nombre": "Piso 5"
+    }
+  ], 
+  "version": "v01-corregir-levelid-piso5", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V00", 
+  "elevacion_nivel_m": 43.372703412073484, 
+  "corregidas": [
+    {
+      "id": "1799225", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799226", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799228", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799230", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799231", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799232", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799233", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799234", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799235", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799236", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799237", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799238", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799239", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799240", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799241", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799242", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799243", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799244", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799245", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799246", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799247", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799249", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799250", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799251", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799252", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799253", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799450", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1799453", 
+      "nivel_anterior": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801949", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801950", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801952", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801954", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801955", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801956", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801957", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801958", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801959", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801960", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801961", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801962", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801963", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801964", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801965", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801966", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801967", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801968", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801969", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801970", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801971", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }, 
+    {
+      "id": "1801973", 
+      "nivel_anterior": "Piso 6", 
+      "nivel_nuevo": "Piso 5"
+    }
+  ], 
+  "estadisticas": {
+    "corregidas": 3429, 
+    "total_instancias_revisadas": 14299, 
+    "fallos": 10368, 
+    "ya_correctas": 502
+  }, 
+  "fecha_ejecucion": "2026-10-24 23:46:20"
+}

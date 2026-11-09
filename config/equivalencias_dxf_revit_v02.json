@@ -1,0 +1,49 @@
+{
+  "version": "v02",
+  "fecha": "2026-11-08",
+  "nota": "v03: agrega simbolo por bloque. ELEC-T-D-t-15A es toma normal (Estandar); ELEC-T-GFCI-t-15A es GFCI.",
+  "por_bloque": {
+    "ELEC-T-D-t-15A": "M_Toma doble",
+    "ELEC-T-GFCI-t-15A": "M_Toma doble",
+    "ELEC-T-220": "M_Toma - 220V",
+    "ELEC-EXT": "M_Toma resistente a la intemperie",
+    "ELEC-TEL": "M_Toma de telefono - Datos",
+    "ELEC-NET-PAU": "M_Toma de telefono - Datos",
+    "ELEC-TIMBRE": "M_Timbre",
+    "ELEC-ZUMBADOR": "M_Zumbador",
+    "ELEC-I-S-1-5A": "M_Interruptor",
+    "ELEC-I-S-2-5A": "M_Interruptor",
+    "ELEC-I-S-C1-5A": "M_Interruptor",
+    "ELEC-F-CONTROL": "M_Interruptor",
+    "ELEC-CAMPANA": "M_Interruptor",
+    "ELEC-F-VENT": "M_Ventilador",
+    "Bala Stil Led 22W": "COMBO MOUNTING RING",
+    "Bala Stil Led 10W": "COMBO MOUNTING RING",
+    "Bala Stil Led 13W": "COMBO MOUNTING RING",
+    "S3": "M_Interruptor"
+  },
+  "por_capa": {
+    "ELEC-APPL-NETWORD": "M_Toma de telefono - Datos",
+    "ELEC-Data-Service": "M_Toma de telefono - Datos",
+    "ELEC-CONTROL ILUM": "M_Interruptor"
+  },
+  "excluidos": [
+    "M_Interruptor bipolar",
+    "M_Toma simple"
+  ],
+  "simbolo_por_bloque": {
+    "ELEC-T-D-t-15A": "Estandar",
+    "ELEC-T-GFCI-t-15A": "GFCI",
+    "ELEC-T-220": "Estandar",
+    "ELEC-EXT": "Estandar",
+    "ELEC-TEL": "Estandar",
+    "ELEC-NET-PAU": "Estandar",
+    "ELEC-TIMBRE": "Estandar",
+    "ELEC-I-S-1-5A": "Estandar",
+    "ELEC-I-S-2-5A": "Estandar",
+    "ELEC-I-S-C1-5A": "Estandar",
+    "ELEC-F-CONTROL": "Estandar",
+    "ELEC-CAMPANA": "Puerta motorizada",
+    "ELEC-F-VENT": "Estandar"
+  }
+}

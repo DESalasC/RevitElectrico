@@ -1,0 +1,91 @@
+{
+  "creados": 23, 
+  "modo": "aplicar", 
+  "delta_panel_m": 0.038300000000000001, 
+  "fallos": [
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Interruptor bipolar", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Interruptor bipolar", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Interruptor bipolar", 
+      "bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Interruptor bipolar", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Interruptor bipolar", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Interruptor bipolar", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Interruptor bipolar", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Interruptor bipolar", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma simple", 
+      "bloque": "ELEC-TEL"
+    }
+  ], 
+  "apartamento": "Apartamento Tipo E 05", 
+  "omitidos_ok": 1, 
+  "a_mover": 6, 
+  "movidos": 6, 
+  "existentes": 220, 
+  "a_crear": 42, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "panel_id": 5665951
+}

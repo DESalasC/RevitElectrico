@@ -1,0 +1,31 @@
+{
+  "fecha": "2026-10-24",
+  "proyecto": "RevitElectrico / T5-SantaMarta",
+  "documento_activo": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02",
+  "ruta_rvt": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\3.-Proceso\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02.rvt",
+  "nivel_destino": "Piso 5",
+  "elevacion_nivel_m": 43.3727,
+  "causa_raiz": "Los dispositivos electricos se modelaron con Z LOCAL (0.3 / 1.1 / 1.2 / 2.6 m) como Z ABSOLUTA, quedando a nivel de calle (Z~0) en lugar de Z = 43.3727 + altura_local (43.67 - 46.0 m). Adicionalmente, LevelId = -1 (sin nivel asignado).",
+  "estado_modelo": {
+    "total_instancias_electricas": 37,
+    "sin_nivel_valido": 36,
+    "nivel_incorrecto": 36,
+    "altura_incorrecta": 36,
+    "con_nivel_valido": 1,
+    "conduits": 0,
+    "solo_ok": "id 867008 (E_Distribution Panel, z_relativo 1.2 m)"
+  },
+  "reporte_map_v3": {
+    "acciones_modelar": 37,
+    "anfitrion_muro": 27,
+    "anfitrion_techo": 10,
+    "acciones_saltar_marcador": 22,
+    "alturas_locales": [0.3, 1.1, 1.2, 2.6]
+  },
+  "script_correccion": "src/fase-6-revit/F6_CORREGIR_UBICACION_ELECTRICA_v01.py",
+  "modo_ejecucion": "confirmar=True (borrar y recrear las 36 instancias mal colocadas)",
+  "procedimiento_revit": "exec(open(r\"src/fase-6-revit/F6_CORREGIR_UBICACION_ELECTRICA_v01.py\").read()); corregir_ubicacion(doc, confirmar=True)",
+  "verificador_invariantes": "src/fase-6-revit/F6_VERIFICAR_INVARIANTS_v01.py --estado data/estado_modelo_v01.json --nivel \"Piso 5\" --min-instancias 37",
+  "resultado_verificacion": "FALLIDA - 3 errores (I3, I4, I5) en 36 instancias",
+  "pendiente": "Ejecutar F6_CORREGIR_UBICACION_ELECTRICA_v01.py con confirmar=True dentro de Revit 2026, luego re-ejecutar F6_VERIFICAR_INVARIANTS_v01 para confirmar aprobado"
+}

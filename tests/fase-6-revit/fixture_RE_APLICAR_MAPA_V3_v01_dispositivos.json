@@ -1,0 +1,85 @@
+{
+  "bloque_padre": "Apatamento Tipo F 02",
+  "inserts_padre": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "xscale": 1,
+      "yscale": 1,
+      "rot": 0
+    }
+  ],
+  "dispositivos_internos": [
+    {
+      "nombre_bloque_hijo": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x_abs_dxf": 2.822,
+      "y_abs_dxf": 8.7015,
+      "x_revit": 2.822,
+      "y_revit": 8.7015,
+      "xscale": 1,
+      "yscale": 1,
+      "rotacion": 0,
+      "insert_padre_x": 0.0,
+      "insert_padre_y": 0.0,
+      "orden": 0
+    },
+    {
+      "nombre_bloque_hijo": "ELEC-CAMPANA",
+      "capa": "ELEC-APPL-TOMAS",
+      "x_abs_dxf": 5.3375,
+      "y_abs_dxf": 2.2423,
+      "x_revit": 5.3375,
+      "y_revit": 2.2423,
+      "xscale": -1.25,
+      "yscale": 1.25,
+      "rotacion": 180.0,
+      "insert_padre_x": 0.0,
+      "insert_padre_y": 0.0,
+      "orden": 9
+    },
+    {
+      "nombre_bloque_hijo": "Bala Stil Led 22W",
+      "capa": "ELEC-APPL-ILUM",
+      "x_abs_dxf": 5.0709,
+      "y_abs_dxf": 4.3372,
+      "x_revit": 5.0709,
+      "y_revit": 4.3372,
+      "xscale": -1.0,
+      "yscale": 1,
+      "rotacion": 0,
+      "insert_padre_x": 0.0,
+      "insert_padre_y": 0.0,
+      "orden": 18
+    },
+    {
+      "nombre_bloque_hijo": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "x_abs_dxf": 6.1119,
+      "y_abs_dxf": 4.038,
+      "x_revit": 6.1119,
+      "y_revit": 4.038,
+      "xscale": 0.6,
+      "yscale": 0.6,
+      "rotacion": 90.0,
+      "insert_padre_x": 0.0,
+      "insert_padre_y": 0.0,
+      "orden": 27
+    },
+    {
+      "nombre_bloque_hijo": "BLOQUE_NO_EXISTENTE",
+      "capa": "ELEC-APPL-ILUM",
+      "x_abs_dxf": 9.0,
+      "y_abs_dxf": 9.0,
+      "x_revit": 9.0,
+      "y_revit": 9.0,
+      "xscale": 1,
+      "yscale": 1,
+      "rotacion": 0,
+      "insert_padre_x": 0.0,
+      "insert_padre_y": 0.0,
+      "orden": 99
+    }
+  ]
+}

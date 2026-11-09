@@ -1,0 +1,123 @@
+{
+  "corregidas_detalle": [], 
+  "nivel_id": "192512", 
+  "script": "ASIGNAR_NIVEL_RED_SI_v01.py", 
+  "nivel": "Piso 5", 
+  "fallos": 36, 
+  "ya_correctas": 1, 
+  "total_red_si": 37, 
+  "version": "v01-asignar-nivel-red-si", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "elevacion_nivel_m": 43.372703412073484, 
+  "corregidas": 0, 
+  "ya_correctas_detalle": [
+    {
+      "nombre_tipo": "EPB25-304C", 
+      "id": "5562795"
+    }
+  ], 
+  "fallos_detalle": [
+    {
+      "nombre_tipo": "GFCI", 
+      "id": "5562769", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "id": "5562770", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "id": "5562771", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "id": "5562772", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "id": "5562773", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "id": "5562774", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "id": "5562775", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "id": "5562776", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Puerta motorizada", 
+      "id": "5562778", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562783", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "id": "5562785", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562786", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562796", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562797", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562798", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562799", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562800", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562801", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562802", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "id": "5562803", 
+      "motivo": "Parametro FAMILY_LEVEL_PARAM es de solo lectura o no existe"
+    }
+  ], 
+  "fecha_ejecucion": "2026-10-25 00:13:47", 
+  "para_corregir": 36
+}

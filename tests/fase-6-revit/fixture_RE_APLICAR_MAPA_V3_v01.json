@@ -1,0 +1,58 @@
+{
+  "version": "v3",
+  "proyecto": "RevitElectrico - T5-SantaMarta",
+  "bloque_padre": "Apatamento Tipo F 02",
+  "nivel": "Piso 5",
+  "nota": "Fixture reducido para tests de RE_APLICAR_MAPA_V3_v01.py",
+  "mapeo": {
+    "ELEC-T-GFCI-t-15A": {
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "mapear": true,
+      "anfitrion": "muro",
+      "altura_m": 0.30,
+      "capa": "ELEC-APPL-TOMAS"
+    },
+    "ELEC-CAMPANA": {
+      "familia": "M_Interruptor",
+      "simbolo": "Puerta motorizada",
+      "mapear": true,
+      "anfitrion": "ceiling",
+      "altura_m": 2.60,
+      "capa": "ELEC-APPL-TOMAS"
+    },
+    "Bala Stil Led 22W": {
+      "familia": "COMBO MOUNTING RING",
+      "simbolo": "MOUNTING RING trimless, 064-1906700",
+      "mapear": true,
+      "anfitrion": "ceiling",
+      "altura_m": 2.60,
+      "capa": "ELEC-APPL-ILUM"
+    },
+    "1FTN": {
+      "familia": null,
+      "simbolo": null,
+      "mapear": false,
+      "anfitrion": null,
+      "altura_m": null,
+      "capa": "Elec-Lite-Wire",
+      "nota": "Marcador de conductor — no es dispositivo físico"
+    },
+    "1FTNR": {
+      "familia": null,
+      "simbolo": null,
+      "mapear": false,
+      "anfitrion": null,
+      "altura_m": null,
+      "capa": "Elec-Lite-Wire",
+      "nota": "Marcador de conductor — no es dispositivo físico"
+    }
+  },
+  "estadisticas": {
+    "total_entradas": 5,
+    "dispositivos_fisicos": 3,
+    "marcadores_conductores": 2,
+    "con_mapeo": 3,
+    "sin_mapeo": 2
+  }
+}

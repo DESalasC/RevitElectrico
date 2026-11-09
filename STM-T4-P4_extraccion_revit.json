@@ -1,0 +1,7586 @@
+{
+  "origen_dxf": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\3.-Proceso\\STM-T4-P4_todos_bloques_electricos.dxf",
+  "estadisticas": {
+    "total_insert": 233,
+    "con_atributos": 164,
+    "sin_atributos": 69,
+    "capa_electrica": 205,
+    "capa_no_electrica": 28,
+    "red_valido": 164
+  },
+  "mapeo_revit": {
+    "RED": "RED_Sistema",
+    "CIRCUITO": "Circuito",
+    "ALTURA_INST": "Altura_Instalacion",
+    "ACOMETIDA": "Acometida",
+    "CABLEADO": "Cableado",
+    "DEVUELTO": "Devuelto",
+    "TIPO": "Tipo_Dispositivo",
+    "FASE": "Fase",
+    "AMPERAJE": "Amperaje",
+    "VOLTAJE": "Voltaje",
+    "OBSERVACIONES": "Observaciones"
+  },
+  "bloques": [
+    {
+      "nombre_bloque": "Apartamento Tipo E2 21",
+      "capa": "Apartamento Tipo E2 21",
+      "es_electrica": true,
+      "punto_insert": [
+        -61.443,
+        -0.302,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E 20",
+      "capa": "Apartamento Tipo E 20",
+      "es_electrica": true,
+      "punto_insert": [
+        -61.726,
+        -8.106,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E2 19",
+      "capa": "Apartamento Tipo E2 19",
+      "es_electrica": true,
+      "punto_insert": [
+        -59.238,
+        -13.422,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamentos Tipo F 18 y 04",
+      "capa": "Apartamento Tipo F 18 y 04",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.36,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo B 16",
+      "capa": "Apartamento Tipo B 16",
+      "es_electrica": true,
+      "punto_insert": [
+        -44.821,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo F 17 y 03",
+      "capa": "Apartamento Tipo F 17 y 03",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.36,
+        -9.663,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamentos Tipo F 14",
+      "capa": "Apartamento Tipo F 14",
+      "es_electrica": true,
+      "punto_insert": [
+        -43.004,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo B 15",
+      "capa": "Apartamento Tipo B 15",
+      "es_electrica": true,
+      "punto_insert": [
+        -44.821,
+        -9.663,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo F 13",
+      "capa": "Apartamento Tipo F 13",
+      "es_electrica": true,
+      "punto_insert": [
+        -43.004,
+        -9.663,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo D 12",
+      "capa": "Apartamento Tipo D 12",
+      "es_electrica": true,
+      "punto_insert": [
+        -39.122,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo C 11",
+      "capa": "Apartamento Tipo C 11",
+      "es_electrica": true,
+      "punto_insert": [
+        -36.216,
+        -11.971,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apatamentos Tipo E 10",
+      "capa": "Apartamento Tipo E 10",
+      "es_electrica": true,
+      "punto_insert": [
+        -28.592,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamentos Tipo E 09",
+      "capa": "Apartamento Tipo E 09",
+      "es_electrica": true,
+      "punto_insert": [
+        -28.591,
+        -9.663,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E 08",
+      "capa": "Apartamento Tipo E 08",
+      "es_electrica": true,
+      "punto_insert": [
+        -15.607,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E 07",
+      "capa": "Apartamento Tipo E 07",
+      "es_electrica": true,
+      "punto_insert": [
+        -16.519,
+        -9.663,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E 06",
+      "capa": "Apartamento Tipo E 06",
+      "es_electrica": true,
+      "punto_insert": [
+        -11.904,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apatamento Tipo E 05",
+      "capa": "Apartamento Tipo E 05",
+      "es_electrica": true,
+      "punto_insert": [
+        -11.904,
+        -9.663,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamentos Tipo F 18 y 04",
+      "capa": "Apartamento Tipo F 18 y 04",
+      "es_electrica": true,
+      "punto_insert": [
+        -7.629,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo F 17 y 03",
+      "capa": "Apartamento Tipo F 17 y 03",
+      "es_electrica": true,
+      "punto_insert": [
+        -7.629,
+        -9.663,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apatamento Tipo F 02",
+      "capa": "Apartamento Tipo F 02",
+      "es_electrica": true,
+      "punto_insert": [
+        -0.12,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo F 01",
+      "capa": "Apartamento Tipo F 01",
+      "es_electrica": true,
+      "punto_insert": [
+        -0.12,
+        -9.663,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT E-21",
+      "capa": "TDT Apto E2-21",
+      "es_electrica": true,
+      "punto_insert": [
+        -61.175,
+        -0.302,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT E-20",
+      "capa": "TDT Apto E-20",
+      "es_electrica": true,
+      "punto_insert": [
+        -64.831,
+        -8.743,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT E-19",
+      "capa": "TDT Apto E2-19",
+      "es_electrica": true,
+      "punto_insert": [
+        -65.798,
+        -14.582,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT-F18",
+      "capa": "TDT Apto F-18",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.36,
+        -8.023,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT F-17",
+      "capa": "TDT Apto F-17",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.36,
+        -16.016,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT-B15",
+      "capa": "TDT Apto B-15",
+      "es_electrica": true,
+      "punto_insert": [
+        -53.458,
+        -16.018,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT B-16",
+      "capa": "TDT Apto B-16",
+      "es_electrica": true,
+      "punto_insert": [
+        -53.638,
+        -8.023,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT-F14",
+      "capa": "TDT Apto F-14",
+      "es_electrica": true,
+      "punto_insert": [
+        -43.004,
+        -8.023,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT F-13",
+      "capa": "TDT Apto F-13",
+      "es_electrica": true,
+      "punto_insert": [
+        -43.004,
+        -16.01,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT D-12",
+      "capa": "TDT Apto D-12",
+      "es_electrica": true,
+      "punto_insert": [
+        -36.153,
+        -8.023,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT C-11",
+      "capa": "TDT Apto C-11",
+      "es_electrica": true,
+      "punto_insert": [
+        -37.49,
+        -9.663,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT E-10",
+      "capa": "TDT Apto E-10",
+      "es_electrica": true,
+      "punto_insert": [
+        -24.679,
+        -8.023,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT E-09",
+      "capa": "TDT Apto E-09",
+      "es_electrica": true,
+      "punto_insert": [
+        -24.679,
+        -9.663,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT E-08",
+      "capa": "TDT Apto E-08",
+      "es_electrica": true,
+      "punto_insert": [
+        -19.77,
+        -8.023,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT E-07",
+      "capa": "TDT Apto E-07",
+      "es_electrica": true,
+      "punto_insert": [
+        -19.769,
+        -9.663,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT E-06",
+      "capa": "TDT Apto E-07",
+      "es_electrica": true,
+      "punto_insert": [
+        -7.749,
+        -8.023,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT E-05",
+      "capa": "TDT Apto E-05",
+      "es_electrica": true,
+      "punto_insert": [
+        -7.749,
+        -9.663,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT F-04",
+      "capa": "TDT Apto F-04",
+      "es_electrica": true,
+      "punto_insert": [
+        -7.629,
+        -8.023,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT F-03",
+      "capa": "TDT Apto F-03",
+      "es_electrica": true,
+      "punto_insert": [
+        -5.431,
+        -12.379,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT F-02",
+      "capa": "TDT Apto F-02",
+      "es_electrica": true,
+      "punto_insert": [
+        -0.12,
+        -8.023,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "TDT F-01",
+      "capa": "TDT Apto F-01",
+      "es_electrica": true,
+      "punto_insert": [
+        -0.12,
+        -9.663,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Deteccion de Incendio Piso 4",
+      "capa": "Deteccion de Incendio Piso 4",
+      "es_electrica": false,
+      "punto_insert": [
+        -24.379,
+        -6.339,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdfghfj",
+      "capa": "Hatch",
+      "es_electrica": false,
+      "punto_insert": [
+        -2789.493,
+        -1328.254,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "fdfgfghgjfhkj",
+      "capa": "Hatch",
+      "es_electrica": false,
+      "punto_insert": [
+        -3028.637,
+        1225.296,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfadsgfsdhj",
+      "capa": "Hatch",
+      "es_electrica": false,
+      "punto_insert": [
+        -3288.902,
+        1351.19,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SADFASG",
+      "capa": "Hatch",
+      "es_electrica": false,
+      "punto_insert": [
+        -3290.187,
+        1351.19,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        -668.792,
+        66.287,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        -669.911,
+        66.287,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        -671.036,
+        66.287,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        -668.601,
+        -83.942,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        -669.721,
+        -83.942,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        -670.837,
+        -83.942,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        -667.468,
+        -83.942,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        -667.699,
+        66.287,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        67.702,
+        -660.164,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        67.702,
+        -659.029,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [
+        67.702,
+        -657.895,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "adsfasdggfdjh",
+      "capa": "Hatch",
+      "es_electrica": false,
+      "punto_insert": [
+        -3288.902,
+        1351.19,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "*U776",
+      "capa": "AA-REJILLA VENTILACIÓN",
+      "es_electrica": false,
+      "punto_insert": [
+        -20.679,
+        -1.12,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "COTAS T4",
+      "capa": "Cotas",
+      "es_electrica": false,
+      "punto_insert": [
+        -3006.807,
+        -1226.878,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ASDFASGGDSF",
+      "capa": "E-EJES",
+      "es_electrica": false,
+      "punto_insert": [
+        -2906.807,
+        -1326.878,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "asdfah",
+      "capa": "Cotas",
+      "es_electrica": false,
+      "punto_insert": [
+        -3006.807,
+        -1197.909,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "dsfgfhfj",
+      "capa": "Hatch",
+      "es_electrica": false,
+      "punto_insert": [
+        -3006.807,
+        -1247.621,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "asdfashj",
+      "capa": "VACIOS",
+      "es_electrica": false,
+      "punto_insert": [
+        -3139.761,
+        -1197.621,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "sdfsdsfhd",
+      "capa": "Cotas",
+      "es_electrica": false,
+      "punto_insert": [
+        -3006.807,
+        -1197.621,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Comunicaciones ZC Pisos 2-5",
+      "capa": "Comunicaciones ZC Pisos 2-5",
+      "es_electrica": false,
+      "punto_insert": [
+        -60.895,
+        -1.253,
+        0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Acometidas Electricas Piso 2",
+      "capa": "Acometidas Electricas Piso 1",
+      "es_electrica": false,
+      "punto_insert": [
+        2.422,
+        -9.548,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "\\A1;BAJA 20 ALTURAS\\PDE 0.167m",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "BAJA 20 ALTURASPDE 0.167m",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Acometidas Aire Piso 2-5",
+      "capa": "Acometidas Aire Piso 1",
+      "es_electrica": false,
+      "punto_insert": [
+        2.421,
+        -9.554,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.135,
+        -16.941,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.135,
+        -13.401,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -24.835,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -21.635,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -28.035,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -31.235,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -34.435,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -37.635,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -40.835,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -44.035,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -47.235,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -50.435,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -53.635,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -56.835,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.269,
+        -10.357,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.269,
+        -13.357,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.269,
+        -16.357,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.269,
+        -7.757,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.269,
+        -4.757,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.269,
+        -1.757,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -18.435,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -15.235,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -12.035,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -8.835,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -5.635,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -2.435,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        0.765,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.287,
+        -14.607,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.272,
+        -4.107,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.276,
+        -9.059,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -50.658,
+        -9.059,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -42.993,
+        -9.059,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -35.879,
+        -9.059,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -28.695,
+        -9.059,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.15,
+        -14.766,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -1.774,
+        -9.059,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -9.505,
+        -9.059,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -17.269,
+        -9.059,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.699,
+        -9.057,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.269,
+        -17.279,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.269,
+        -0.819,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -20.815,
+        -16.95,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.135,
+        -10.401,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.439,
+        -16.789,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -24.313,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -26.397,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -28.409,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -30.11,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "DIAGONAL 69.75 MTS",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "DIAGONAL 69.75 MTS",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -32.935,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -35.167,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -36.808,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -39.344,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -42.042,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -43.581,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -45.731,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "G. INCENDIOS",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "G. INCENDIOS",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -49.017,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -52.277,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -55.478,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.716,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.295,
+        -8.298,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.295,
+        -6.167,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.295,
+        -4.36,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.295,
+        -2.899,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.272,
+        -1.254,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.532,
+        -0.813,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.295,
+        -9.693,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.295,
+        -11.887,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.295,
+        -13.986,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.295,
+        -15.543,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.272,
+        -16.754,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.539,
+        -16.942,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.429,
+        -16.561,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.527,
+        -17.071,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.859,
+        -0.807,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "2FT2N",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -22.237,
+        -16.942,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "2F2N1T1R",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.117,
+        -15.662,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "2FT2N",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -20.804,
+        -16.532,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "1%%c3\" EMT",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "1%%c3\" EMT",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "2F2N1T1R",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.153,
+        -13.902,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "2F2N1T1R",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.121,
+        -12.123,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "2F2N1T1R",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.683,
+        -9.748,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        1.639,
+        -11.119,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        1.639,
+        -13.218,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        0.747,
+        -9.498,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        0.754,
+        -9.268,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1TNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        0.742,
+        -10.352,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1TNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        1.63,
+        -12.214,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -22.875,
+        -9.065,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -17.885,
+        -9.065,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -19.977,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-04",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-04",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -16.309,
+        -9.065,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -10.894,
+        -9.065,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -9.202,
+        -9.065,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -7.207,
+        -9.065,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -13.489,
+        -9.038,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-04",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-04",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -3.919,
+        -9.065,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -2.164,
+        -9.065,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -0.766,
+        -9.065,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "SALIDA 2",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "SALIDA 2",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -21.295,
+        -7.437,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -20.912,
+        -7.433,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.695,
+        -4.401,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.695,
+        -1.401,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.699,
+        -4.137,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -22.323,
+        0.102,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.451,
+        -0.341,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.698,
+        -2.733,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "\\A1;18",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "18",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.711,
+        -0.652,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1TNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -22.989,
+        0.105,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.695,
+        -7.401,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.693,
+        -5.613,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-04",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-04",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        -20.546,
+        -7.971,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TTICS-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TTICS-02",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "HERMETICA 40W",
+      "capa": "ELEC-STA_ Hermetica 40W",
+      "es_electrica": true,
+      "punto_insert": [
+        1.705,
+        -7.813,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        1.23,
+        -7.691,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        1.754,
+        -7.535,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.467,
+        -11.801,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.466,
+        -5.99,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -49.408,
+        -8.147,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -30.736,
+        -8.147,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -24.534,
+        -11.058,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "TE 09",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TE 09",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -24.486,
+        -9.179,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -28.803,
+        -8.177,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -40.46,
+        -8.38,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TF 14",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TF 14",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -50.393,
+        -8.177,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -56.403,
+        -8.195,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -57.641,
+        -9.459,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -39.068,
+        -8.147,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -35.711,
+        -8.38,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -13.846,
+        -8.142,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-04",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-04",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -22.82,
+        -8.215,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -18.953,
+        -8.179,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -7.746,
+        -8.142,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-04",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-04",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -20.258,
+        -8.141,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "SUBE",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "SUBE",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -11.254,
+        -8.179,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -22.998,
+        -4.776,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-04",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-04",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "2FT2N",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        -24.099,
+        -14.088,
+        0.027
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -20.356,
+        -8.021,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "SUBE",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "SUBE",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        -21.285,
+        -6.094,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "BAJA",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "BAJA",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "HERMETICA 40W",
+      "capa": "ELEC-STA_ Hermetica 40W",
+      "es_electrica": true,
+      "punto_insert": [
+        -21.408,
+        -5.889,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "\\A1;10",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "10",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -20.903,
+        -5.768,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC22-32",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC22-32",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        -21.359,
+        -5.611,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "\\A1;10",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "10",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "HERMETICA 40W",
+      "capa": "ELEC-STA_ Hermetica 40W",
+      "es_electrica": true,
+      "punto_insert": [
+        -21.408,
+        -1.249,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "en muro h=2m",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "en muro h=2m",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        -22.089,
+        -1.249,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "Baja",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "Baja",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        -21.359,
+        -1.47,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "en muro h=2m",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "en muro h=2m",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "HERMETICA 40W",
+      "capa": "ELEC-STA_ Hermetica 40W",
+      "es_electrica": true,
+      "punto_insert": [
+        1.188,
+        -3.177,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "en muro h=2m",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "en muro h=2m",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        0.507,
+        -3.177,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC22-40",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC22-40",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        1.238,
+        -3.397,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "en muro h=2m",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "en muro h=2m",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.276,
+        -5.434,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-02",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-02",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -58.276,
+        -13.015,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -56.432,
+        -9.036,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "h=1m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "h=1m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -50.04,
+        -9.036,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -44.369,
+        -9.036,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -37.298,
+        -9.036,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -30.91,
+        -9.036,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-03",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-03",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -21.298,
+        -9.036,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -14.88,
+        -9.036,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -5.996,
+        -9.036,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        0.404,
+        -9.036,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "en muro h=2m",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "en muro h=2m",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.69,
+        -2.01,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.69,
+        -7.09,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.129,
+        -13.022,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -21.307,
+        -16.943,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -23.129,
+        -10.818,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        -20.574,
+        -7.435,
+        0.0
+      ],
+      "atributos_raw": {
+        "RED": "TZC4-01",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-01",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "TZC4-01",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-01",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "ELEC-SUBEELEC",
+      "capa": "ELEC-Powr-service",
+      "es_electrica": true,
+      "punto_insert": [
+        -19.89,
+        -16.458,
+        -0.0
+      ],
+      "atributos_raw": {
+        "RED": "sube5P",
+        "CIRCUITO": "",
+        "ALTURA_INST": "TTICS-02",
+        "ACOMETIDA": "",
+        "CABLEADO": "",
+        "DEVUELTO": "",
+        "TIPO": "",
+        "FASE": "",
+        "AMPERAJE": "",
+        "VOLTAJE": "",
+        "OBSERVACIONES": ""
+      },
+      "atributos_para_revit": {
+        "RED_Sistema": "sube5P",
+        "Circuito": "",
+        "Altura_Instalacion": "TTICS-02",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    },
+    {
+      "nombre_bloque": "SETI",
+      "capa": "E-Comm-Appl-Netw",
+      "es_electrica": false,
+      "punto_insert": [
+        -19.889,
+        -8.023,
+        -0.0
+      ],
+      "atributos_raw": {},
+      "atributos_para_revit": {
+        "RED_Sistema": "",
+        "Circuito": "",
+        "Altura_Instalacion": "",
+        "Acometida": "",
+        "Cableado": "",
+        "Devuelto": "",
+        "Tipo_Dispositivo": "",
+        "Fase": "",
+        "Amperaje": "",
+        "Voltaje": "",
+        "Observaciones": ""
+      }
+    }
+  ]
+}

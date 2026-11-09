@@ -1,0 +1,4574 @@
+{
+  "vista_activa": {
+    "rango_vista": {}, 
+    "categorias_ocultas_electricas": {
+      "Accesorios de bandeja": false, 
+      "Comunicaciones": false, 
+      "Dispositivos de iluminacion (interruptores)": false, 
+      "Tuberia (conduit)": false, 
+      "Circuitos": false, 
+      "Telefonia": false, 
+      "Luminarias": false, 
+      "Alarma de incendio": false, 
+      "Dispositivos de datos": false, 
+      "Bandeja portacables": false, 
+      "Equipos electricos (tableros)": false, 
+      "Accesorios de conduit": false, 
+      "Seguridad": false, 
+      "Aparatos electricos (tomas)": false
+    }, 
+    "nivel_asociado": null, 
+    "nombre": "{3D} Copy 1", 
+    "disciplina": "Electrical", 
+    "fase": "Nueva construcci\\xf3n", 
+    "tipo": "ThreeD", 
+    "detalle": "Fine"
+  }, 
+  "niveles": [
+    {
+      "elevacion_m": -3.5432999999999999, 
+      "nombre": "Sotano"
+    }, 
+    {
+      "elevacion_m": 0.7218, 
+      "nombre": "CLASIFICACI\\xd3N ACABADOS MUROS MAMPOSTERIA PISO 1"
+    }, 
+    {
+      "elevacion_m": 11.384499999999999, 
+      "nombre": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 2-3"
+    }, 
+    {
+      "elevacion_m": 22.047200000000000, 
+      "nombre": "Piso 3"
+    }, 
+    {
+      "elevacion_m": 32.710000000000001, 
+      "nombre": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 4-18"
+    }, 
+    {
+      "elevacion_m": 43.372700000000002, 
+      "nombre": "Piso 5"
+    }, 
+    {
+      "elevacion_m": 54.035400000000003, 
+      "nombre": "Piso 6"
+    }, 
+    {
+      "elevacion_m": 64.698200000000000, 
+      "nombre": "Piso 7"
+    }, 
+    {
+      "elevacion_m": 75.360900000000001, 
+      "nombre": "Piso 8"
+    }, 
+    {
+      "elevacion_m": 86.023600000000002, 
+      "nombre": "Piso 9"
+    }, 
+    {
+      "elevacion_m": 96.686400000000006, 
+      "nombre": "Piso 10"
+    }, 
+    {
+      "elevacion_m": 107.34910000000001, 
+      "nombre": "Piso 11"
+    }, 
+    {
+      "elevacion_m": 118.01179999999999, 
+      "nombre": "Piso 12"
+    }, 
+    {
+      "elevacion_m": 128.67449999999999, 
+      "nombre": "Piso 13"
+    }, 
+    {
+      "elevacion_m": 139.33730000000000, 
+      "nombre": "Piso 14"
+    }, 
+    {
+      "elevacion_m": 150.0, 
+      "nombre": "Piso 15"
+    }, 
+    {
+      "elevacion_m": 160.66270000000000, 
+      "nombre": "Piso 16"
+    }, 
+    {
+      "elevacion_m": 171.32550000000001, 
+      "nombre": "Piso 17"
+    }, 
+    {
+      "elevacion_m": 181.98820000000001, 
+      "nombre": "Piso 18"
+    }, 
+    {
+      "elevacion_m": 192.65090000000001, 
+      "nombre": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 19-21"
+    }, 
+    {
+      "elevacion_m": 203.31360000000001, 
+      "nombre": "Piso 20"
+    }, 
+    {
+      "elevacion_m": 213.97640000000001, 
+      "nombre": "Piso 21"
+    }, 
+    {
+      "elevacion_m": 224.63910000000001, 
+      "nombre": "Cubierta"
+    }, 
+    {
+      "elevacion_m": 235.79400000000001, 
+      "nombre": "SobreCubierta"
+    }
+  ], 
+  "conteo_categorias": {
+    "Accesorios de bandeja": 0, 
+    "Comunicaciones": 10, 
+    "Dispositivos de iluminacion (interruptores)": 8, 
+    "Tuberia (conduit)": 145, 
+    "Circuitos": 2, 
+    "Telefonia": 12, 
+    "Luminarias": 47, 
+    "Alarma de incendio": 0, 
+    "Dispositivos de datos": 0, 
+    "Bandeja portacables": 0, 
+    "Equipos electricos (tableros)": 82, 
+    "Accesorios de conduit": 88, 
+    "Seguridad": 0, 
+    "Aparatos electricos (tomas)": 61
+  }, 
+  "instancias_electricas": [
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Ventilador", 
+      "elevacion_nivel": null, 
+      "z_max": -0.0, 
+      "id": 5532079, 
+      "punto": [
+        -8.6978000000000009, 
+        7.7133000000000003, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Ventilador", 
+      "elevacion_nivel": null, 
+      "z_max": -0.0, 
+      "id": 5532121, 
+      "punto": [
+        -5.8586999999999998, 
+        7.7133000000000003, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Ventilador", 
+      "elevacion_nivel": null, 
+      "z_max": -0.0, 
+      "id": 5532122, 
+      "punto": [
+        -2.9420999999999999, 
+        6.2268999999999997, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Ventilador", 
+      "elevacion_nivel": null, 
+      "z_max": -0.0, 
+      "id": 5532166, 
+      "punto": [
+        0.66210000000000002, 
+        6.9406999999999996, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.082000000000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Ventilador", 
+      "elevacion_nivel": null, 
+      "z_max": -0.0, 
+      "id": 5532204, 
+      "punto": [
+        4.3841999999999999, 
+        6.9470000000000001, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2766693]", 
+      "z_min": 46.703000000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 46.932200000000002, 
+      "id": 5565812, 
+      "punto": [
+        46.080500000000001, 
+        33.168999999999997, 
+        46.817599999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2765780]", 
+      "z_min": 46.703000000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 46.932200000000002, 
+      "id": 5565967, 
+      "punto": [
+        45.382599999999996, 
+        37.391700000000000, 
+        46.817599999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2765780]", 
+      "z_min": 45.554699999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 45.783900000000003, 
+      "id": 5566446, 
+      "punto": [
+        45.394799999999996, 
+        38.476900000000001, 
+        45.669300000000000
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2765780]", 
+      "z_min": 48.671500000000002, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 48.900700000000001, 
+      "id": 5566510, 
+      "punto": [
+        45.394799999999996, 
+        38.902999999999999, 
+        48.786099999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2765780]", 
+      "z_min": 45.508299999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 45.737499999999997, 
+      "id": 5566744, 
+      "punto": [
+        45.394799999999996, 
+        41.128100000000003, 
+        45.622900000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2765780]", 
+      "z_min": 45.554699999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 45.783900000000003, 
+      "id": 5566841, 
+      "punto": [
+        45.394799999999996, 
+        46.797800000000002, 
+        45.669300000000000
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2766695]", 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 44.544499999999999, 
+      "id": 5567171, 
+      "punto": [
+        38.408099999999997, 
+        40.605899999999998, 
+        44.356999999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2765979]", 
+      "z_min": 47.122199999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 47.497199999999999, 
+      "id": 5567316, 
+      "punto": [
+        34.600999999999999, 
+        39.566200000000002, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2766689]", 
+      "z_min": 51.387300000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma - 220V", 
+      "elevacion_nivel": null, 
+      "z_max": 51.762300000000003, 
+      "id": 5567459, 
+      "punto": [
+        33.700699999999998, 
+        43.419899999999998, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2766689]", 
+      "z_min": 45.447600000000001, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 45.822600000000001, 
+      "id": 5567641, 
+      "punto": [
+        33.700699999999998, 
+        42.994199999999999, 
+        45.635100000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2766690]", 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 44.544499999999999, 
+      "id": 5568009, 
+      "punto": [
+        34.354599999999998, 
+        52.572600000000001, 
+        44.356999999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2766707]", 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma resistente a la intemperie", 
+      "elevacion_nivel": null, 
+      "z_max": 44.544499999999999, 
+      "id": 5568207, 
+      "punto": [
+        34.354599999999998, 
+        53.005699999999997, 
+        44.356999999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": "Walls [2766695]", 
+      "z_min": 46.325499999999998, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 2.9527999999999999, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptor-Doble", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 46.702800000000003, 
+      "id": 5569268, 
+      "punto": [
+        38.406399999999998, 
+        40.061599999999999, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [2766695]", 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptor", 
+      "elevacion_nivel": null, 
+      "z_max": 46.512999999999998, 
+      "id": 5569701, 
+      "punto": [
+        38.408099999999997, 
+        41.426099999999998, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Ceilings [5487663]", 
+      "z_min": 51.574800000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Ventilador", 
+      "elevacion_nivel": null, 
+      "z_max": 51.656799999999997, 
+      "id": 5571029, 
+      "punto": [
+        39.866700000000002, 
+        47.025700000000001, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5581244, 
+      "punto": [
+        42.299599999999998, 
+        38.657600000000002, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5581906, 
+      "punto": [
+        42.299599999999998, 
+        34.335799999999999, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5582027, 
+      "punto": [
+        42.240299999999998, 
+        43.008400000000002, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5582102, 
+      "punto": [
+        36.142699999999998, 
+        42.997300000000003, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5601518, 
+      "punto": [
+        42.225400000000000, 
+        51.472900000000003, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5601519, 
+      "punto": [
+        36.127800000000001, 
+        51.461799999999997, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5601664, 
+      "punto": [
+        39.866700000000002, 
+        47.214100000000002, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5601820, 
+      "punto": [
+        36.114400000000003, 
+        35.575800000000001, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5642717, 
+      "punto": [
+        39.964300000000001, 
+        55.389400000000002, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": "Walls [2766695]", 
+      "z_min": 44.184699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 0.81200000000000006, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma-Comunicaciones", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 44.561999999999998, 
+      "id": 5653092, 
+      "punto": [
+        38.406399999999998, 
+        39.818500000000000, 
+        44.184699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": "Walls [2766695]", 
+      "z_min": 51.246699999999997, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 7.8739999999999997, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma-Comunicaciones", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 51.624000000000002, 
+      "id": 5653542, 
+      "punto": [
+        38.406399999999998, 
+        40.361800000000002, 
+        51.246699999999997
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": "Walls [2765780]", 
+      "z_min": 46.456699999999998, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.0840000000000001, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma-Comunicaciones", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 46.834000000000003, 
+      "id": 5653654, 
+      "punto": [
+        45.435800000000000, 
+        47.750999999999998, 
+        46.456699999999998
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 94.894900000000007, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 51.522199999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Cajas de conexiones - Sin carga", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 95.222999999999999, 
+      "id": 5655927, 
+      "punto": [
+        38.195599999999999, 
+        40.369799999999998, 
+        94.894900000000007
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 51.328699999999998, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 7.9560000000000004, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Cajas de conexiones - Sin carga", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 51.656799999999997, 
+      "id": 5657117, 
+      "punto": [
+        38.215499999999999, 
+        40.361800000000002, 
+        51.328699999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [4830093]", 
+      "z_min": 46.703000000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 46.932200000000002, 
+      "id": 5658570, 
+      "punto": [
+        46.080500000000001, 
+        24.852900000000002, 
+        46.817599999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [5349586]", 
+      "z_min": 46.703000000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 46.932200000000002, 
+      "id": 5658572, 
+      "punto": [
+        45.382599999999996, 
+        20.630199999999999, 
+        46.817599999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [5349586]", 
+      "z_min": 45.554699999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 45.783900000000003, 
+      "id": 5658574, 
+      "punto": [
+        45.394799999999996, 
+        19.545000000000002, 
+        45.669300000000000
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [5349586]", 
+      "z_min": 48.671500000000002, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 48.900700000000001, 
+      "id": 5658575, 
+      "punto": [
+        45.394799999999996, 
+        19.118900000000000, 
+        48.786099999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [5349586]", 
+      "z_min": 45.508299999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 45.737499999999997, 
+      "id": 5658576, 
+      "punto": [
+        45.394799999999996, 
+        16.893799999999999, 
+        45.622900000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [5349586]", 
+      "z_min": 45.554699999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 45.783900000000003, 
+      "id": 5658577, 
+      "punto": [
+        45.394799999999996, 
+        11.224100000000000, 
+        45.669300000000000
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [4830095]", 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 44.544499999999999, 
+      "id": 5658578, 
+      "punto": [
+        38.408099999999997, 
+        17.416000000000000, 
+        44.356999999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.122199999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 47.497199999999999, 
+      "id": 5658580, 
+      "punto": [
+        34.600999999999999, 
+        18.455700000000000, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [4830089]", 
+      "z_min": 51.387300000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma - 220V", 
+      "elevacion_nivel": null, 
+      "z_max": 51.762300000000003, 
+      "id": 5658582, 
+      "punto": [
+        33.700699999999998, 
+        14.602000000000000, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [4830089]", 
+      "z_min": 45.447600000000001, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 45.822600000000001, 
+      "id": 5658584, 
+      "punto": [
+        33.700699999999998, 
+        15.027699999999999, 
+        45.635100000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma doble", 
+      "elevacion_nivel": null, 
+      "z_max": 44.544499999999999, 
+      "id": 5658585, 
+      "punto": [
+        34.354599999999998, 
+        5.4493000000000000, 
+        44.356999999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 44.169499999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma resistente a la intemperie", 
+      "elevacion_nivel": null, 
+      "z_max": 44.544499999999999, 
+      "id": 5658587, 
+      "punto": [
+        34.354599999999998, 
+        5.0162000000000004, 
+        44.356999999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": "Walls [4829442]", 
+      "z_min": 46.325499999999998, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 2.9527999999999999, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptor-Doble", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 46.702800000000003, 
+      "id": 5658591, 
+      "punto": [
+        38.215499999999999, 
+        17.960300000000000, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": true, 
+      "host": "Walls [4830095]", 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptor", 
+      "elevacion_nivel": null, 
+      "z_max": 46.512999999999998, 
+      "id": 5658592, 
+      "punto": [
+        38.408099999999997, 
+        16.595800000000001, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 51.574800000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Ventilador", 
+      "elevacion_nivel": null, 
+      "z_max": 51.656799999999997, 
+      "id": 5658600, 
+      "punto": [
+        39.866700000000002, 
+        10.996200000000000, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5658612, 
+      "punto": [
+        42.299599999999998, 
+        19.364400000000000, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5658613, 
+      "punto": [
+        42.299599999999998, 
+        23.686100000000000, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5658614, 
+      "punto": [
+        42.240299999999998, 
+        15.013600000000000, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5658615, 
+      "punto": [
+        36.142699999999998, 
+        15.024699999999999, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5658616, 
+      "punto": [
+        42.225400000000000, 
+        6.5490000000000004, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5658617, 
+      "punto": [
+        36.127800000000001, 
+        6.5601000000000003, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5658618, 
+      "punto": [
+        39.866700000000002, 
+        10.807800000000000, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5658619, 
+      "punto": [
+        36.114400000000003, 
+        22.446100000000001, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 52.149000000000001, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 8.7763000000000009, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Caja de conexiones hexagonal", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 52.273600000000002, 
+      "id": 5658664, 
+      "punto": [
+        39.964300000000001, 
+        2.6324999999999998, 
+        52.149000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": "Walls [4829442]", 
+      "z_min": 51.246699999999997, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 7.8739999999999997, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma-Comunicaciones", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 51.624000000000002, 
+      "id": 5658759, 
+      "punto": [
+        38.215499999999999, 
+        17.660100000000000, 
+        51.246699999999997
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": "Walls [5349586]", 
+      "z_min": 46.456699999999998, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.0840000000000001, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma-Comunicaciones", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 46.834000000000003, 
+      "id": 5658760, 
+      "punto": [
+        45.435800000000000, 
+        10.270899999999999, 
+        46.456699999999998
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 51.328699999999998, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 7.9560000000000004, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Cajas de conexiones - Sin carga", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 51.656799999999997, 
+      "id": 5658774, 
+      "punto": [
+        38.215499999999999, 
+        17.660100000000000, 
+        51.328699999999998
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 0.7218, 
+      "z_max": 3.8386000000000000, 
+      "id": 1839851, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        0.7218
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 0.7218, 
+      "z_max": 3.8386000000000000, 
+      "id": 1839852, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        0.7218
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 11.384499999999999, 
+      "z_max": 14.501300000000001, 
+      "id": 2278155, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        11.384499999999999
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 11.384499999999999, 
+      "z_max": 14.501300000000001, 
+      "id": 2278156, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        11.384499999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 22.047200000000000, 
+      "z_max": 25.164000000000001, 
+      "id": 2279417, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        22.047200000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 22.047200000000000, 
+      "z_max": 25.164000000000001, 
+      "id": 2279418, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        22.047200000000000
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 33.202100000000002, 
+      "nivel_id": 192468, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 32.710000000000001, 
+      "z_max": 35.826799999999999, 
+      "id": 2280679, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        32.710000000000001
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 33.202100000000002, 
+      "nivel_id": 192468, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 32.710000000000001, 
+      "z_max": 35.826799999999999, 
+      "id": 2280680, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        32.710000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 43.864800000000002, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 46.489500000000000, 
+      "id": 2281941, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        43.372700000000002
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 43.864800000000002, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 46.489500000000000, 
+      "id": 2281942, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        43.372700000000002
+      ]
+    }, 
+    {
+      "nivel": "Piso 6", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 54.527600000000000, 
+      "nivel_id": 192663, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 54.035400000000003, 
+      "z_max": 57.152200000000001, 
+      "id": 2283203, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        54.035400000000003
+      ]
+    }, 
+    {
+      "nivel": "Piso 6", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 54.527600000000000, 
+      "nivel_id": 192663, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 54.035400000000003, 
+      "z_max": 57.152200000000001, 
+      "id": 2283204, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        54.035400000000003
+      ]
+    }, 
+    {
+      "nivel": "Piso 7", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 65.190299999999993, 
+      "nivel_id": 192707, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 64.698200000000000, 
+      "z_max": 67.814999999999998, 
+      "id": 2284465, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        64.698200000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 7", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 65.190299999999993, 
+      "nivel_id": 192707, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 64.698200000000000, 
+      "z_max": 67.814999999999998, 
+      "id": 2284466, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        64.698200000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 8", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 75.852999999999994, 
+      "nivel_id": 192751, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 75.360900000000001, 
+      "z_max": 78.477699999999999, 
+      "id": 2285727, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        75.360900000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 8", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 75.852999999999994, 
+      "nivel_id": 192751, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 75.360900000000001, 
+      "z_max": 78.477699999999999, 
+      "id": 2285728, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        75.360900000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 9", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 86.515699999999995, 
+      "nivel_id": 192795, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 86.023600000000002, 
+      "z_max": 89.140400000000000, 
+      "id": 2286989, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        86.023600000000002
+      ]
+    }, 
+    {
+      "nivel": "Piso 9", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 86.515699999999995, 
+      "nivel_id": 192795, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 86.023600000000002, 
+      "z_max": 89.140400000000000, 
+      "id": 2286990, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        86.023600000000002
+      ]
+    }, 
+    {
+      "nivel": "Piso 10", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 97.178500000000000, 
+      "nivel_id": 192839, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 96.686400000000006, 
+      "z_max": 99.803100000000001, 
+      "id": 2288251, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        96.686400000000006
+      ]
+    }, 
+    {
+      "nivel": "Piso 10", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 97.178500000000000, 
+      "nivel_id": 192839, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 96.686400000000006, 
+      "z_max": 99.803100000000001, 
+      "id": 2288252, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        96.686400000000006
+      ]
+    }, 
+    {
+      "nivel": "Piso 11", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 107.84120000000000, 
+      "nivel_id": 192883, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 107.34910000000001, 
+      "z_max": 110.46590000000000, 
+      "id": 2289513, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        107.34910000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 11", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 107.84120000000000, 
+      "nivel_id": 192883, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 107.34910000000001, 
+      "z_max": 110.46590000000000, 
+      "id": 2289514, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        107.34910000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 12", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 118.50390000000000, 
+      "nivel_id": 192927, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 118.01179999999999, 
+      "z_max": 121.12860000000001, 
+      "id": 2290775, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        118.01179999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 12", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 118.50390000000000, 
+      "nivel_id": 192927, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 118.01179999999999, 
+      "z_max": 121.12860000000001, 
+      "id": 2290776, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        118.01179999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 13", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 129.16669999999999, 
+      "nivel_id": 192971, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 128.67449999999999, 
+      "z_max": 131.79130000000001, 
+      "id": 2292037, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        128.67449999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 13", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 129.16669999999999, 
+      "nivel_id": 192971, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 128.67449999999999, 
+      "z_max": 131.79130000000001, 
+      "id": 2292038, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        128.67449999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 14", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 139.82939999999999, 
+      "nivel_id": 193015, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 139.33730000000000, 
+      "z_max": 142.45410000000001, 
+      "id": 2293299, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        139.33730000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 14", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 139.82939999999999, 
+      "nivel_id": 193015, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 139.33730000000000, 
+      "z_max": 142.45410000000001, 
+      "id": 2293300, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        139.33730000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 15", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 150.49209999999999, 
+      "nivel_id": 193059, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 150.0, 
+      "z_max": 153.11680000000001, 
+      "id": 2294561, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        150.0
+      ]
+    }, 
+    {
+      "nivel": "Piso 15", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 150.49209999999999, 
+      "nivel_id": 193059, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 150.0, 
+      "z_max": 153.11680000000001, 
+      "id": 2294562, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        150.0
+      ]
+    }, 
+    {
+      "nivel": "Piso 16", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 161.15490000000000, 
+      "nivel_id": 193103, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 160.66270000000000, 
+      "z_max": 163.77950000000001, 
+      "id": 2295823, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        160.66270000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 16", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 161.15490000000000, 
+      "nivel_id": 193103, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 160.66270000000000, 
+      "z_max": 163.77950000000001, 
+      "id": 2295824, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        160.66270000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 17", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 171.81760000000000, 
+      "nivel_id": 193147, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 171.32550000000001, 
+      "z_max": 174.44229999999999, 
+      "id": 2297085, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        171.32550000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 17", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 171.81760000000000, 
+      "nivel_id": 193147, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 171.32550000000001, 
+      "z_max": 174.44229999999999, 
+      "id": 2297086, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        171.32550000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 18", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 182.48030000000000, 
+      "nivel_id": 193191, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 181.98820000000001, 
+      "z_max": 185.10499999999999, 
+      "id": 2298347, 
+      "punto": [
+        -163.93400000000000, 
+        26.566400000000002, 
+        181.98820000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 18", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 182.48030000000000, 
+      "nivel_id": 193191, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 181.98820000000001, 
+      "z_max": 185.10499999999999, 
+      "id": 2298348, 
+      "punto": [
+        -160.44440000000000, 
+        26.566400000000002, 
+        181.98820000000001
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 0.7218, 
+      "z_max": 3.8386000000000000, 
+      "id": 3259051, 
+      "punto": [
+        -193.90750000000000, 
+        18.026900000000001, 
+        0.7218
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 0.7218, 
+      "z_max": 3.8386000000000000, 
+      "id": 3259052, 
+      "punto": [
+        -193.90750000000000, 
+        21.154599999999999, 
+        0.7218
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 11.384499999999999, 
+      "z_max": 14.501300000000001, 
+      "id": 3298063, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        11.384499999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 22.047200000000000, 
+      "z_max": 25.164000000000001, 
+      "id": 3298363, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        22.047200000000000
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 33.202100000000002, 
+      "nivel_id": 192468, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 32.710000000000001, 
+      "z_max": 35.826799999999999, 
+      "id": 3298366, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        32.710000000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 43.864800000000002, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 46.489500000000000, 
+      "id": 3298369, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        43.372700000000002
+      ]
+    }, 
+    {
+      "nivel": "Piso 6", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 54.527600000000000, 
+      "nivel_id": 192663, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 54.035400000000003, 
+      "z_max": 57.152200000000001, 
+      "id": 3298372, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        54.035400000000003
+      ]
+    }, 
+    {
+      "nivel": "Piso 7", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 65.190299999999993, 
+      "nivel_id": 192707, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 64.698200000000000, 
+      "z_max": 67.814999999999998, 
+      "id": 3298375, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        64.698200000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 8", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 75.852999999999994, 
+      "nivel_id": 192751, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 75.360900000000001, 
+      "z_max": 78.477699999999999, 
+      "id": 3298378, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        75.360900000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 9", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 86.515699999999995, 
+      "nivel_id": 192795, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 86.023600000000002, 
+      "z_max": 89.140400000000000, 
+      "id": 3298381, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        86.023600000000002
+      ]
+    }, 
+    {
+      "nivel": "Piso 10", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 97.178500000000000, 
+      "nivel_id": 192839, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 96.686400000000006, 
+      "z_max": 99.803100000000001, 
+      "id": 3298384, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        96.686400000000006
+      ]
+    }, 
+    {
+      "nivel": "Piso 11", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 107.84120000000000, 
+      "nivel_id": 192883, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 107.34910000000001, 
+      "z_max": 110.46590000000000, 
+      "id": 3298387, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        107.34910000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 12", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 118.50390000000000, 
+      "nivel_id": 192927, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 118.01179999999999, 
+      "z_max": 121.12860000000001, 
+      "id": 3298390, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        118.01179999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 13", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 129.16669999999999, 
+      "nivel_id": 192971, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 128.67449999999999, 
+      "z_max": 131.79130000000001, 
+      "id": 3298393, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        128.67449999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 14", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 139.82939999999999, 
+      "nivel_id": 193015, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 139.33730000000000, 
+      "z_max": 142.45410000000001, 
+      "id": 3298396, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        139.33730000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 15", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 150.49209999999999, 
+      "nivel_id": 193059, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 150.0, 
+      "z_max": 153.11680000000001, 
+      "id": 3298399, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        150.0
+      ]
+    }, 
+    {
+      "nivel": "Piso 16", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 161.15490000000000, 
+      "nivel_id": 193103, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 160.66270000000000, 
+      "z_max": 163.77950000000001, 
+      "id": 3298402, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        160.66270000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 17", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 171.81760000000000, 
+      "nivel_id": 193147, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 171.32550000000001, 
+      "z_max": 174.44229999999999, 
+      "id": 3298405, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        171.32550000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 18", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 182.48030000000000, 
+      "nivel_id": 193191, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 181.98820000000001, 
+      "z_max": 185.10499999999999, 
+      "id": 3298408, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        181.98820000000001
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 19-21", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 193.14300000000000, 
+      "nivel_id": 193235, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 192.65090000000001, 
+      "z_max": 195.76769999999999, 
+      "id": 3298411, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        192.65090000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 20", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 203.80580000000000, 
+      "nivel_id": 193279, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 203.31360000000001, 
+      "z_max": 206.43039999999999, 
+      "id": 3298414, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        203.31360000000001
+      ]
+    }, 
+    {
+      "nivel": "Piso 21", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 214.46850000000001, 
+      "nivel_id": 193323, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 213.97640000000001, 
+      "z_max": 217.09320000000000, 
+      "id": 3298417, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        213.97640000000001
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 1.2139000000000000, 
+      "nivel_id": 933, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 0.7218, 
+      "z_max": 3.8386000000000000, 
+      "id": 3298420, 
+      "punto": [
+        -124.19820000000000, 
+        26.566400000000002, 
+        0.7218
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 11.384499999999999, 
+      "z_max": 14.501300000000001, 
+      "id": 3681748, 
+      "punto": [
+        -193.90750000000000, 
+        18.026900000000001, 
+        11.384499999999999
+      ]
+    }, 
+    {
+      "nivel": "CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 11.876600000000000, 
+      "nivel_id": 1679, 
+      "z_relativo_nivel": 0.49209999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 11.384499999999999, 
+      "z_max": 14.501300000000001, 
+      "id": 3681749, 
+      "punto": [
+        -193.90750000000000, 
+        21.154599999999999, 
+        11.384499999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 22.047200000000000, 
+      "z_max": 25.164000000000001, 
+      "id": 3689064, 
+      "punto": [
+        -193.90750000000000, 
+        18.026900000000001, 
+        22.047200000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 3", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 22.539400000000001, 
+      "nivel_id": 192424, 
+      "z_relativo_nivel": 0.49220000000000003, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "Medidor HS", 
+      "elevacion_nivel": 22.047200000000000, 
+      "z_max": 25.164000000000001, 
+      "id": 3689065, 
+      "punto": [
+        -193.90750000000000, 
+        21.154599999999999, 
+        22.047200000000000
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 87.945400000000006, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 44.572699999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 89.592399999999998, 
+      "id": 5532117, 
+      "punto": [
+        -1.1628000000000001, 
+        3.3435999999999999, 
+        87.945400000000006
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 87.945400000000006, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 44.572699999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 89.592399999999998, 
+      "id": 5532182, 
+      "punto": [
+        1.1463000000000001, 
+        2.7067000000000001, 
+        87.945400000000006
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 87.945400000000006, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 44.572699999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 89.592399999999998, 
+      "id": 5532189, 
+      "punto": [
+        1.1453000000000000, 
+        0.066199999999999995, 
+        87.945400000000006
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 87.945400000000006, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 44.572699999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 89.592399999999998, 
+      "id": 5532216, 
+      "punto": [
+        3.8875999999999999, 
+        2.7130000000000001, 
+        87.945400000000006
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 87.945400000000006, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 44.572699999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 89.592399999999998, 
+      "id": 5532231, 
+      "punto": [
+        3.8889999999999998, 
+        0.066600000000000006, 
+        87.945400000000006
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5577676, 
+      "punto": [
+        38.095100000000002, 
+        33.303899999999999, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5658610, 
+      "punto": [
+        38.095100000000002, 
+        24.718000000000000, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5665803, 
+      "punto": [
+        28.806300000000000, 
+        33.303899999999999, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5665804, 
+      "punto": [
+        28.806300000000000, 
+        24.718000000000000, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5665951, 
+      "punto": [
+        21.414700000000000, 
+        22.402100000000001, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5665959, 
+      "punto": [
+        21.414700000000000, 
+        35.566699999999997, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5666067, 
+      "punto": [
+        -18.536400000000000, 
+        35.272399999999998, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5666077, 
+      "punto": [
+        -18.536400000000000, 
+        22.477100000000000, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5666270, 
+      "punto": [
+        -34.048699999999997, 
+        35.552700000000002, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5666417, 
+      "punto": [
+        -34.048699999999997, 
+        22.572099999999999, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5666878, 
+      "punto": [
+        -72.508200000000002, 
+        35.411600000000000, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5667141, 
+      "punto": [
+        -72.508200000000002, 
+        22.813199999999998, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5667264, 
+      "punto": [
+        -86.207999999999998, 
+        25.150800000000000, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": "Piso 5", 
+      "categoria": "Electrical Equipment", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 47.309699999999999, 
+      "nivel_id": 192512, 
+      "z_relativo_nivel": 3.9369999999999998, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "E_Distribution Panel", 
+      "elevacion_nivel": 43.372700000000002, 
+      "z_max": 48.956699999999998, 
+      "id": 5667374, 
+      "punto": [
+        -86.207999999999998, 
+        33.352899999999998, 
+        47.309699999999999
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532081, 
+      "punto": [
+        -10.680000000000000, 
+        3.3500000000000001, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532082, 
+      "punto": [
+        -10.520700000000000, 
+        6.7969999999999997, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532083, 
+      "punto": [
+        -9.6126000000000005, 
+        5.1307999999999998, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532084, 
+      "punto": [
+        -8.6907999999999994, 
+        6.5984999999999996, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532085, 
+      "punto": [
+        -8.4803999999999995, 
+        4.6925999999999997, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532086, 
+      "punto": [
+        -9.6588999999999992, 
+        2.9661000000000000, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532124, 
+      "punto": [
+        -1.9342999999999999, 
+        3.3553999999999999, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532125, 
+      "punto": [
+        -3.8765000000000001, 
+        3.3500000000000001, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532126, 
+      "punto": [
+        -4.0358000000000001, 
+        6.7969999999999997, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532127, 
+      "punto": [
+        -1.9342999999999999, 
+        6.7969999999999997, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532128, 
+      "punto": [
+        -4.9439000000000002, 
+        5.1307999999999998, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532129, 
+      "punto": [
+        -2.8391999999999999, 
+        9.7271999999999998, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532130, 
+      "punto": [
+        -5.8657000000000004, 
+        6.5984999999999996, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532131, 
+      "punto": [
+        -6.0761000000000003, 
+        4.6925999999999997, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532132, 
+      "punto": [
+        -4.8975999999999997, 
+        2.9661000000000000, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532174, 
+      "punto": [
+        -0.0574, 
+        4.3266999999999998, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532175, 
+      "punto": [
+        -0.0659, 
+        3.0255999999999998, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532176, 
+      "punto": [
+        -0.052900000000000003, 
+        8.2367000000000008, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532177, 
+      "punto": [
+        1.8056000000000001, 
+        8.2367000000000008, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532178, 
+      "punto": [
+        -0.0574, 
+        5.6566999999999998, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532179, 
+      "punto": [
+        1.8010999999999999, 
+        5.6566999999999998, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532180, 
+      "punto": [
+        1.8073999999999999, 
+        3.3971000000000000, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532181, 
+      "punto": [
+        0.64200000000000002, 
+        9.4271999999999991, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532208, 
+      "punto": [
+        5.1036999999999999, 
+        4.3331000000000000, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532209, 
+      "punto": [
+        5.1121999999999996, 
+        3.0318999999999998, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532210, 
+      "punto": [
+        5.0991999999999997, 
+        8.2431000000000001, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532211, 
+      "punto": [
+        3.2406999999999999, 
+        8.2431000000000001, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532212, 
+      "punto": [
+        5.1036999999999999, 
+        5.6631000000000000, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532213, 
+      "punto": [
+        3.2452000000000001, 
+        5.6631000000000000, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532214, 
+      "punto": [
+        3.2389000000000001, 
+        3.4034000000000000, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "COMBO MOUNTING RING", 
+      "elevacion_nivel": null, 
+      "z_max": 0.0033, 
+      "id": 5532215, 
+      "punto": [
+        4.4043000000000001, 
+        9.4335000000000004, 
+        0.0033
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": true, 
+      "host": "Ceilings [5487663]", 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5574864, 
+      "punto": [
+        42.210599999999999, 
+        51.472900000000003, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": true, 
+      "host": "Ceilings [5487663]", 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5574907, 
+      "punto": [
+        36.113000000000000, 
+        51.472900000000003, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": true, 
+      "host": "Ceilings [5487663]", 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5574948, 
+      "punto": [
+        36.127899999999997, 
+        43.008400000000002, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": true, 
+      "host": "Ceilings [5487663]", 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5575025, 
+      "punto": [
+        42.225499999999997, 
+        43.008400000000002, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": true, 
+      "host": "Ceilings [5487663]", 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5575265, 
+      "punto": [
+        42.268200000000000, 
+        34.335799999999999, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": true, 
+      "host": "Ceilings [5487663]", 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5575301, 
+      "punto": [
+        42.281300000000002, 
+        38.644799999999996, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": true, 
+      "host": "Ceilings [5487718]", 
+      "z_min": 49.614199999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 54.888500000000001, 
+      "id": 5575557, 
+      "punto": [
+        36.118499999999997, 
+        35.575800000000001, 
+        51.607599999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5642716, 
+      "punto": [
+        39.949399999999997, 
+        55.389400000000002, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5658602, 
+      "punto": [
+        42.210599999999999, 
+        6.5490000000000004, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5658603, 
+      "punto": [
+        36.113000000000000, 
+        6.5490000000000004, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5658604, 
+      "punto": [
+        36.127899999999997, 
+        15.013600000000000, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5658605, 
+      "punto": [
+        42.225499999999997, 
+        15.013600000000000, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5658606, 
+      "punto": [
+        42.268200000000000, 
+        23.686100000000000, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5658607, 
+      "punto": [
+        42.281300000000002, 
+        19.377099999999999, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 49.614199999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 54.888500000000001, 
+      "id": 5658608, 
+      "punto": [
+        36.118499999999997, 
+        22.446100000000001, 
+        51.607599999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Fixtures", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 48.293999999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "SONO FLEX trim", 
+      "elevacion_nivel": null, 
+      "z_max": 53.568199999999997, 
+      "id": 5658663, 
+      "punto": [
+        39.949399999999997, 
+        2.6324999999999998, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Devices", 
+      "face_based": true, 
+      "host": "Walls [3309488]", 
+      "z_min": 46.231900000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Pulsador - Interruptor", 
+      "elevacion_nivel": null, 
+      "z_max": 46.418999999999997, 
+      "id": 5564192, 
+      "punto": [
+        42.341799999999999, 
+        31.304600000000001, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Devices", 
+      "face_based": true, 
+      "host": "Walls [2766694]", 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "elevacion_nivel": null, 
+      "z_max": 46.512999999999998, 
+      "id": 5564504, 
+      "punto": [
+        42.341799999999999, 
+        31.737700000000000, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Devices", 
+      "face_based": true, 
+      "host": "Walls [2766695]", 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "elevacion_nivel": null, 
+      "z_max": 46.512999999999998, 
+      "id": 5568848, 
+      "punto": [
+        38.408099999999997, 
+        36.616700000000002, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Devices", 
+      "face_based": true, 
+      "host": "Walls [2766690]", 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "elevacion_nivel": null, 
+      "z_max": 46.512999999999998, 
+      "id": 5569962, 
+      "punto": [
+        35.043700000000001, 
+        52.572600000000001, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Devices", 
+      "face_based": true, 
+      "host": "Walls [3309489]", 
+      "z_min": 46.231900000000003, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Pulsador - Interruptor", 
+      "elevacion_nivel": null, 
+      "z_max": 46.418999999999997, 
+      "id": 5658563, 
+      "punto": [
+        42.341799999999999, 
+        26.717300000000002, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Devices", 
+      "face_based": true, 
+      "host": "Walls [4830094]", 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "elevacion_nivel": null, 
+      "z_max": 46.512999999999998, 
+      "id": 5658564, 
+      "punto": [
+        42.341799999999999, 
+        26.284199999999998, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Devices", 
+      "face_based": true, 
+      "host": "Walls [4830095]", 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "elevacion_nivel": null, 
+      "z_max": 46.512999999999998, 
+      "id": 5658589, 
+      "punto": [
+        38.408099999999997, 
+        21.405200000000001, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Lighting Devices", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": 46.137999999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Interruptores de iluminaci\\xf3n", 
+      "elevacion_nivel": null, 
+      "z_max": 46.512999999999998, 
+      "id": 5658594, 
+      "punto": [
+        35.043700000000001, 
+        5.4493000000000000, 
+        46.325499999999998
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Timbre", 
+      "elevacion_nivel": null, 
+      "z_max": 0.20999999999999999, 
+      "id": 5532076, 
+      "punto": [
+        -11.200100000000001, 
+        2.2120000000000002, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Timbre", 
+      "elevacion_nivel": null, 
+      "z_max": 0.20999999999999999, 
+      "id": 5532093, 
+      "punto": [
+        -11.200100000000001, 
+        0.56140000000000001, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Timbre", 
+      "elevacion_nivel": null, 
+      "z_max": 0.20999999999999999, 
+      "id": 5532116, 
+      "punto": [
+        -3.3563999999999998, 
+        2.2370000000000001, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Timbre", 
+      "elevacion_nivel": null, 
+      "z_max": 0.20999999999999999, 
+      "id": 5532145, 
+      "punto": [
+        -3.3515000000000001, 
+        0.56140000000000001, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Timbre", 
+      "elevacion_nivel": null, 
+      "z_max": 0.20999999999999999, 
+      "id": 5532161, 
+      "punto": [
+        -0.3241, 
+        2.2067999999999999, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Timbre", 
+      "elevacion_nivel": null, 
+      "z_max": 0.20999999999999999, 
+      "id": 5532187, 
+      "punto": [
+        -0.33750000000000002, 
+        0.56610000000000005, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Timbre", 
+      "elevacion_nivel": null, 
+      "z_max": 0.20999999999999999, 
+      "id": 5532199, 
+      "punto": [
+        5.3704000000000001, 
+        2.2381000000000002, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": false, 
+      "host": null, 
+      "z_min": -0.0, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Timbre", 
+      "elevacion_nivel": null, 
+      "z_max": 0.20999999999999999, 
+      "id": 5532229, 
+      "punto": [
+        5.3718000000000004, 
+        0.5665, 
+        -0.0
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": true, 
+      "host": "Walls [2766694]", 
+      "z_min": 51.325499999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Zumbador", 
+      "elevacion_nivel": null, 
+      "z_max": 51.590400000000002, 
+      "id": 5564955, 
+      "punto": [
+        42.408999999999999, 
+        31.737700000000000, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Communication Devices", 
+      "face_based": true, 
+      "host": "Walls [4830094]", 
+      "z_min": 51.325499999999998, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Zumbador", 
+      "elevacion_nivel": null, 
+      "z_max": 51.574800000000003, 
+      "id": 5658567, 
+      "punto": [
+        42.408999999999999, 
+        26.284199999999998, 
+        51.574800000000003
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [2765780]", 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 49.472700000000003, 
+      "id": 5570447, 
+      "punto": [
+        45.394799999999996, 
+        48.045999999999999, 
+        46.653500000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [2765780]", 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 49.472700000000003, 
+      "id": 5570846, 
+      "punto": [
+        45.394799999999996, 
+        48.635599999999997, 
+        46.653500000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [2765780]", 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 49.472700000000003, 
+      "id": 5570882, 
+      "punto": [
+        45.394799999999996, 
+        48.340800000000002, 
+        46.653500000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [2766695]", 
+      "z_min": 48.616199999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 51.622900000000001, 
+      "id": 5654976, 
+      "punto": [
+        38.408099999999997, 
+        40.738799999999998, 
+        51.435400000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [2766695]", 
+      "z_min": 48.616199999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 51.622900000000001, 
+      "id": 5655240, 
+      "punto": [
+        38.408099999999997, 
+        41.001899999999999, 
+        51.435400000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [2766695]", 
+      "z_min": 48.616199999999999, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 51.622900000000001, 
+      "id": 5655308, 
+      "punto": [
+        38.408099999999997, 
+        41.265000000000001, 
+        51.435400000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [5349586]", 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 49.476500000000001, 
+      "id": 5658596, 
+      "punto": [
+        45.394799999999996, 
+        9.9758999999999993, 
+        46.653500000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [5349586]", 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 49.476500000000001, 
+      "id": 5658598, 
+      "punto": [
+        45.394799999999996, 
+        9.3863000000000003, 
+        46.653500000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [5349586]", 
+      "z_min": 46.466000000000001, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 49.476500000000001, 
+      "id": 5658599, 
+      "punto": [
+        45.394799999999996, 
+        9.6811000000000007, 
+        46.653500000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [4830095]", 
+      "z_min": 48.612499999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 51.622900000000001, 
+      "id": 5658768, 
+      "punto": [
+        38.408099999999997, 
+        17.283200000000001, 
+        51.435400000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [4830095]", 
+      "z_min": 48.612499999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 51.622900000000001, 
+      "id": 5658769, 
+      "punto": [
+        38.408099999999997, 
+        17.020000000000000, 
+        51.435400000000001
+      ]
+    }, 
+    {
+      "nivel": null, 
+      "categoria": "Telephone Devices", 
+      "face_based": true, 
+      "host": "Walls [4830095]", 
+      "z_min": 48.612499999999997, 
+      "nivel_id": -1, 
+      "z_relativo_nivel": null, 
+      "tipo": null, 
+      "oculto_en_vista": false, 
+      "familia": "M_Toma de tel\\xe9fono - Datos", 
+      "elevacion_nivel": null, 
+      "z_max": 51.622900000000001, 
+      "id": 5658770, 
+      "punto": [
+        38.408099999999997, 
+        16.756900000000002, 
+        51.435400000000001
+      ]
+    }
+  ], 
+  "documento": {
+    "ruta": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\3.-Proceso\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt", 
+    "modificado": false, 
+    "titulo": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03"
+  }, 
+  "vinculos": [
+    {
+      "id": 3651435, 
+      "nombre": "STM TORRE5 Celosia.rvt : 3 : location <Not Shared>"
+    }
+  ], 
+  "hallazgos": [
+    "Hay 110 instancias sin nivel (LevelId = -1): pertenecen a categorias Electrical Fixtures o Lighting Fixtures, para las cuales Revit no persiste LevelId via API y no aparecen en vistas filtradas por nivel.", 
+    "El documento contiene 1 vinculo(s) Revit: verificar que el modelo electrico no este dentro del vinculo."
+  ], 
+  "conduits": {
+    "accesorios": 88, 
+    "total": 145, 
+    "por_tipo": {
+      "Tubo Comunicaciones": 1, 
+      "Tubo": 144
+    }
+  }, 
+  "resumen_instancias": {
+    "total": 220, 
+    "face_based": 52, 
+    "sin_nivel": 110, 
+    "z_min_global": -0.082000000000000003, 
+    "z_max_global": 217.09320000000000, 
+    "ocultas_en_vista_activa": 0
+  }
+}

@@ -1,0 +1,1629 @@
+{
+  "total_familias": 107, 
+  "fecha_ejecucion": "2026-10-24 00:08:02", 
+  "version": "v01", 
+  "niveles": [
+    {
+      "id": "27", 
+      "elevacion_pies": null, 
+      "nombre": "1/4\" Head"
+    }, 
+    {
+      "id": "30", 
+      "elevacion_pies": 0.0, 
+      "nombre": "Level 1"
+    }, 
+    {
+      "id": "9946", 
+      "elevacion_pies": 9.9999999999984350, 
+      "nombre": "Level 2"
+    }, 
+    {
+      "id": "10390", 
+      "elevacion_pies": null, 
+      "nombre": "No Head"
+    }, 
+    {
+      "id": "407714", 
+      "elevacion_pies": null, 
+      "nombre": "Plenum"
+    }, 
+    {
+      "id": "853347", 
+      "elevacion_pies": 0.72178477690288645, 
+      "nombre": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1"
+    }, 
+    {
+      "id": "853348", 
+      "elevacion_pies": 11.384514435695536, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3"
+    }, 
+    {
+      "id": "853349", 
+      "elevacion_pies": 22.047244094488185, 
+      "nombre": "Piso 3"
+    }, 
+    {
+      "id": "853350", 
+      "elevacion_pies": 32.709973753280835, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18"
+    }, 
+    {
+      "id": "853351", 
+      "elevacion_pies": 43.372703412073484, 
+      "nombre": "Piso 5"
+    }, 
+    {
+      "id": "853352", 
+      "elevacion_pies": 54.035433070866134, 
+      "nombre": "Piso 6"
+    }, 
+    {
+      "id": "853353", 
+      "elevacion_pies": 64.698162729658776, 
+      "nombre": "Piso 7"
+    }, 
+    {
+      "id": "853354", 
+      "elevacion_pies": 75.360892388451418, 
+      "nombre": "Piso 8"
+    }, 
+    {
+      "id": "853355", 
+      "elevacion_pies": 86.023622047244061, 
+      "nombre": "Piso 9"
+    }, 
+    {
+      "id": "853356", 
+      "elevacion_pies": 96.686351706036703, 
+      "nombre": "Piso 10"
+    }, 
+    {
+      "id": "853357", 
+      "elevacion_pies": 107.34908136482935, 
+      "nombre": "Piso 11"
+    }, 
+    {
+      "id": "853358", 
+      "elevacion_pies": 118.01181102362199, 
+      "nombre": "Piso 12"
+    }, 
+    {
+      "id": "853359", 
+      "elevacion_pies": 128.67454068241463, 
+      "nombre": "Piso 13"
+    }, 
+    {
+      "id": "853360", 
+      "elevacion_pies": 139.33727034120727, 
+      "nombre": "Piso 14"
+    }, 
+    {
+      "id": "853361", 
+      "elevacion_pies": 149.99999999999991, 
+      "nombre": "Piso 15"
+    }, 
+    {
+      "id": "853362", 
+      "elevacion_pies": 160.66272965879256, 
+      "nombre": "Piso 16"
+    }, 
+    {
+      "id": "853363", 
+      "elevacion_pies": 171.32545931758520, 
+      "nombre": "Piso 17"
+    }, 
+    {
+      "id": "853364", 
+      "elevacion_pies": 181.98818897637784, 
+      "nombre": "Piso 18"
+    }, 
+    {
+      "id": "853365", 
+      "elevacion_pies": 192.65091863517048, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 19-21"
+    }, 
+    {
+      "id": "853366", 
+      "elevacion_pies": 203.31364829396313, 
+      "nombre": "Piso 20"
+    }, 
+    {
+      "id": "853367", 
+      "elevacion_pies": 213.97637795275577, 
+      "nombre": "Piso 21"
+    }, 
+    {
+      "id": "853368", 
+      "elevacion_pies": 224.63910761154841, 
+      "nombre": "Cubierta"
+    }, 
+    {
+      "id": "853369", 
+      "elevacion_pies": -3.5433070866141740, 
+      "nombre": "Sotano"
+    }, 
+    {
+      "id": "853370", 
+      "elevacion_pies": 235.79396325459317, 
+      "nombre": "SobreCubierta"
+    }, 
+    {
+      "id": "853371", 
+      "elevacion_pies": null, 
+      "nombre": "Nivel 1"
+    }
+  ], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA", 
+  "familias": [
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "Glazed"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Wall"
+        }
+      ], 
+      "num_simbolos": 2, 
+      "id": "20915", 
+      "nombre_familia": "System Panel"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "2.5\" x 5\" rectangular"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "28595", 
+      "nombre_familia": "Rectangular Mullion"
+    }, 
+    {
+      "simbolos": [], 
+      "num_simbolos": 0, 
+      "id": "28596", 
+      "nombre_familia": "Circular Mullion"
+    }, 
+    {
+      "simbolos": [], 
+      "num_simbolos": 0, 
+      "id": "43497", 
+      "nombre_familia": "L Corner Mullion"
+    }, 
+    {
+      "simbolos": [], 
+      "num_simbolos": 0, 
+      "id": "43501", 
+      "nombre_familia": "V Corner Mullion"
+    }, 
+    {
+      "simbolos": [], 
+      "num_simbolos": 0, 
+      "id": "43505", 
+      "nombre_familia": "Trapezoid Corner Mullion"
+    }, 
+    {
+      "simbolos": [], 
+      "num_simbolos": 0, 
+      "id": "43509", 
+      "nombre_familia": "Quad Corner Mullion"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "3/8\" x 3/32\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "1/2\" x 3/16\""
+        }
+      ], 
+      "num_simbolos": 2, 
+      "id": "96031", 
+      "nombre_familia": "Section Tail - Filled Horizontal"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Stair Nosing - Pan"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "105553", 
+      "nombre_familia": "Stair Nosing - Pan"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "24\" x 12\""
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "105764", 
+      "nombre_familia": "Slab Edge-Thickened"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "2\" x 2\""
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "106432", 
+      "nombre_familia": "Rectangular Handrail"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "6\" x 6\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "5\" x 5\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "4\" x 4\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "4\" x 5\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "5\" x 6\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "6\" x 4\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "6\" x 5\""
+        }
+      ], 
+      "num_simbolos": 7, 
+      "id": "106881", 
+      "nombre_familia": "Gutter Profile-Bevel"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "1x8"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "1x6"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "1x10"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "1x12"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "1x4"
+        }
+      ], 
+      "num_simbolos": 5, 
+      "id": "107137", 
+      "nombre_familia": "Fascia-Flat"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Running Section"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "110386", 
+      "nombre_familia": "Brick Standard"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Window Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "111028", 
+      "nombre_familia": "Window Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "1/4\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "1/2\""
+        }
+      ], 
+      "num_simbolos": 2, 
+      "id": "111224", 
+      "nombre_familia": "Wall Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "View Title"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "111426", 
+      "nombre_familia": "View Title"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "3/32\" x 3/8\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "3/16\" x 1/2\""
+        }
+      ], 
+      "num_simbolos": 2, 
+      "id": "112018", 
+      "nombre_familia": "Section Tail - Filled"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Section Head - Open"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "112230", 
+      "nombre_familia": "Section Head - Open"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Section Head - no arrow"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "112430", 
+      "nombre_familia": "Section Head - no arrow"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Section Head - Filled"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "112626", 
+      "nombre_familia": "Section Head - Filled"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Room Tag"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Room Tag With Area"
+        }
+      ], 
+      "num_simbolos": 2, 
+      "id": "112850", 
+      "nombre_familia": "Room Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "North Arrow 2"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "113056", 
+      "nombre_familia": "North Arrow 2"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Level Head - No Bubble"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "113256", 
+      "nombre_familia": "Level Head - No Bubble"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Level Head - Circle"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "113446", 
+      "nombre_familia": "Level Head - Circle"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Grid Head - No Bubble"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "113660", 
+      "nombre_familia": "Grid Head - No Bubble"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Grid Head - Circle"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "113853", 
+      "nombre_familia": "Grid Head - Circle"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Door Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "114376", 
+      "nombre_familia": "Door Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Centerline"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "114573", 
+      "nombre_familia": "Centerline"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Callout Head"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "114762", 
+      "nombre_familia": "Callout Head"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Area Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "114966", 
+      "nombre_familia": "Area Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Duct Size Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "175905", 
+      "nombre_familia": "Duct Size Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Pipe Size Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "313077", 
+      "nombre_familia": "Pipe Size Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Flex Duct Tag Round"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "313275", 
+      "nombre_familia": "Flex Duct Tag Round"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Spot Elevation - Target Filled"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "370759", 
+      "nombre_familia": "Spot Elevation - Target Filled"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Spot Elevation - Crosshair"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "370966", 
+      "nombre_familia": "Spot Elevation - Crosshair"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Circle Wire Tick Mark"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "408494", 
+      "nombre_familia": "Circle Wire Tick Mark"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Hook Wire Tick Mark"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "408696", 
+      "nombre_familia": "Hook Wire Tick Mark"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Long Wire Tick Mark"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "408895", 
+      "nombre_familia": "Long Wire Tick Mark"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Short Wire Tick Mark"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "409093", 
+      "nombre_familia": "Short Wire Tick Mark"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Zone Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "409306", 
+      "nombre_familia": "Zone Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Boxed"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 2, 
+      "id": "410000", 
+      "nombre_familia": "Lighting Fixture Circuit Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Telephone Device Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "410393", 
+      "nombre_familia": "Telephone Device Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Wire Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "410589", 
+      "nombre_familia": "Wire Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Data Device Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "410784", 
+      "nombre_familia": "Data Device Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Electrical Device Circuit Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "410980", 
+      "nombre_familia": "Electrical Device Circuit Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Electrical Device Panel Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "411176", 
+      "nombre_familia": "Electrical Device Panel Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Electrical Equipment Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "411372", 
+      "nombre_familia": "Electrical Equipment Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Fire Alarm Device Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "411764", 
+      "nombre_familia": "Fire Alarm Device Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Boxed"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 2, 
+      "id": "416869", 
+      "nombre_familia": "Light Switch Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "Plain"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Public"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Wall"
+        }
+      ], 
+      "num_simbolos": 3, 
+      "id": "438542", 
+      "nombre_familia": "Telephone Outlet"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "Plain"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "439511", 
+      "nombre_familia": "Data Outlet"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "Plain"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "445481", 
+      "nombre_familia": "Telephone Outlet - Data"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "3/4\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "1\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "2\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "1 1/2\""
+        }
+      ], 
+      "num_simbolos": 4, 
+      "id": "464285", 
+      "nombre_familia": "Baluster - Square"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Flex Pipe Size Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "465193", 
+      "nombre_familia": "Flex Pipe Size Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Diffuser Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "470970", 
+      "nombre_familia": "Diffuser Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "View Reference"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "471893", 
+      "nombre_familia": "View Reference"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Filled Arrow"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Detail Number"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Detail Number and View Name"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Filled Arrow and View Name"
+        }
+      ], 
+      "num_simbolos": 4, 
+      "id": "473411", 
+      "nombre_familia": "Elevation Mark Body_Circle"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Detail Number"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Filled Arrow"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Detail Number and View Name"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Filled Arrow and View Name"
+        }
+      ], 
+      "num_simbolos": 4, 
+      "id": "473632", 
+      "nombre_familia": "Elevation Mark Pointer_Circle"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Filled Arrow"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Detail Number and View Name"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Detail Number"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Filled Arrow and View Name"
+        }
+      ], 
+      "num_simbolos": 4, 
+      "id": "473906", 
+      "nombre_familia": "Elevation Mark Body_Square"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Detail Number and View Name"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Detail Number"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Filled Arrow"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Filled Arrow and View Name"
+        }
+      ], 
+      "num_simbolos": 4, 
+      "id": "474154", 
+      "nombre_familia": "Elevation Mark Pointer_Square"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Conduit Size Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "505204", 
+      "nombre_familia": "Conduit Size Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Cable Tray Size Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "505427", 
+      "nombre_familia": "Cable Tray Size Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "Three Way"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Single Pole"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Four Way"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Circuit Breaker"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Dimmer"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Door"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Key Operated"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Pilot Lighted"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Low Voltage"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Timer"
+        }
+      ], 
+      "num_simbolos": 10, 
+      "id": "509949", 
+      "nombre_familia": "Lighting Switches"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "15 kVA"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "45 kVA"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "30 kVA"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "75 kVA"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "112.5 kVA"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "150 kVA"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "225 kVA"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "300 kVA"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "500 kVA"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "750 kVA"
+        }
+      ], 
+      "num_simbolos": 10, 
+      "id": "511177", 
+      "nombre_familia": "Dry Type Transformer - 480-208Y120 - NEMA Type 2"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "125 A"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "250 A"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "400 A"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "600 A"
+        }
+      ], 
+      "num_simbolos": 4, 
+      "id": "512051", 
+      "nombre_familia": "Lighting and Appliance Panelboard - 480V MLO"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "100 A"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "225 A"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "400 A"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "600 A"
+        }
+      ], 
+      "num_simbolos": 4, 
+      "id": "512822", 
+      "nombre_familia": "Lighting and Appliance Panelboard - 208V MLO"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Space Tag"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Space Tag With Area"
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "Space Tag With Volume"
+        }
+      ], 
+      "num_simbolos": 3, 
+      "id": "513793", 
+      "nombre_familia": "Space Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Communication Devices Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "514022", 
+      "nombre_familia": "Communication Devices Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Nurse Call Devices Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "514244", 
+      "nombre_familia": "Nurse Call Devices Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Security Devices Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "514466", 
+      "nombre_familia": "Security Devices Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Electrical Equipment Type Mark Tag"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "514762", 
+      "nombre_familia": "Electrical Equipment Type Mark Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "GFCI"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 2, 
+      "id": "515809", 
+      "nombre_familia": "Duplex Receptacle"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "12\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "24\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "36\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "48\" Radius"
+        }
+      ], 
+      "num_simbolos": 4, 
+      "id": "517482", 
+      "nombre_familia": "Channel Horizontal Cross"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "12\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "24\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "36\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "48\" Radius"
+        }
+      ], 
+      "num_simbolos": 4, 
+      "id": "518519", 
+      "nombre_familia": "Channel Horizontal Tee"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "519465", 
+      "nombre_familia": "Channel Reducer"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "521073", 
+      "nombre_familia": "Channel Union"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "521904", 
+      "nombre_familia": "Channel Vertical Inside Bend"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "523206", 
+      "nombre_familia": "Channel Vertical Outside Bend"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "524508", 
+      "nombre_familia": "Ladder Horizontal Bend"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "12\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "24\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "36\" Radius"
+        }
+      ], 
+      "num_simbolos": 3, 
+      "id": "526092", 
+      "nombre_familia": "Ladder Horizontal Cross"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "12\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "24\" Radius"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "36\" Radius"
+        }
+      ], 
+      "num_simbolos": 3, 
+      "id": "527267", 
+      "nombre_familia": "Ladder Horizontal Tee"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "528330", 
+      "nombre_familia": "Ladder Reducer"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "530682", 
+      "nombre_familia": "Ladder Union"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "531950", 
+      "nombre_familia": "Ladder Vertical Inside Bend"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "533555", 
+      "nombre_familia": "Ladder Vertical Outside Bend"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "535160", 
+      "nombre_familia": "Channel Horizontal Bend"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "536461", 
+      "nombre_familia": "Conduit Junction Box - Transition - PVC"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "537276", 
+      "nombre_familia": "Conduit Coupling - Aluminum"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "538047", 
+      "nombre_familia": "Conduit Coupling - PVC"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "538820", 
+      "nombre_familia": "Conduit Coupling - Steel"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "539593", 
+      "nombre_familia": "Conduit Elbow - Aluminum"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "540384", 
+      "nombre_familia": "Conduit Elbow - Steel"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "541177", 
+      "nombre_familia": "Conduit Elbow - without Fittings - EMT"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "541970", 
+      "nombre_familia": "Conduit Elbow - without Fittings - RMC"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "542761", 
+      "nombre_familia": "Conduit Elbow - without Fittings - RNC"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "543554", 
+      "nombre_familia": "Conduit Junction Box - Cross - Aluminum"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "544346", 
+      "nombre_familia": "Conduit Junction Box - Cross - PVC"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "545138", 
+      "nombre_familia": "Conduit Junction Box - Tee - Aluminum"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "545927", 
+      "nombre_familia": "Conduit Junction Box - Tee - PVC"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "546716", 
+      "nombre_familia": "Conduit Junction Box - Transition - Aluminum"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "547534", 
+      "nombre_familia": "Conduit Elbow - Plain End - PVC"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "1x4 - 120"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "1x4 - 277"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "20x4 - 120"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "20x4 - 277"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "2x2 - 120"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "2x2 - 277"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "2x4 - 120"
+        }, 
+        {
+          "activo": false, 
+          "nombre_simbolo": "2x4 - 277"
+        }
+      ], 
+      "num_simbolos": 8, 
+      "id": "549949", 
+      "nombre_familia": "Plain Recessed Lighting Fixture"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "1/4\""
+        }, 
+        {
+          "activo": true, 
+          "nombre_simbolo": "1/2\""
+        }
+      ], 
+      "num_simbolos": 2, 
+      "id": "843115", 
+      "nombre_familia": "Area Based Load Tag"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "E1 30x42 Horizontal"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "845441", 
+      "nombre_familia": "E1 30 x 42 Horizontal"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": false, 
+          "nombre_simbolo": "Standard"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "849302", 
+      "nombre_familia": "Ethernet Switch"
+    }, 
+    {
+      "simbolos": [
+        {
+          "activo": true, 
+          "nombre_simbolo": "Extremo de nivel"
+        }
+      ], 
+      "num_simbolos": 1, 
+      "id": "853380", 
+      "nombre_familia": "Extremo de nivel"
+    }
+  ], 
+  "total_niveles": 30
+}

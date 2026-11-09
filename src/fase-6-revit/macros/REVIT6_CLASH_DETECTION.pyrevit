@@ -1,0 +1,7 @@
+__title__ = "6.4 Clash Detection"
+__author__ = RevitElectrico / T5-SantaMarta
+__doc__ = Ejecuta deteccion de interferencias contra HVAC, fontaneria y estructura. Placeholder — requiere implementacion de interseccion de geometria real.
+__context__ = selection
+__url__ =
+__minrevitver__ = 2021
+__maxrevitver__ = 2026

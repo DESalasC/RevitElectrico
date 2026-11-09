@@ -1,0 +1,141 @@
+{
+  "creadas": [], 
+  "nivel_id": "192512", 
+  "script": "REPARAR_NIVEL_F02_v01.py", 
+  "nivel": "Piso 5", 
+  "fallos": [
+    {
+      "orden": 0, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 1, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 2, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 3, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 4, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 5, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 6, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 7, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 8, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "orden": 9, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "orden": 10, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-I-S-2-5A"
+    }, 
+    {
+      "orden": 11, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "orden": 12, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "orden": 13, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "orden": 14, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "orden": 15, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "orden": 16, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 17, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "ELEC-EXT"
+    }, 
+    {
+      "orden": 18, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "orden": 19, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 341, in reparar_nivel_f02\n    inst = doc.Create.NewFamilyInstance(location, simbolo, nivel)\nTypeError: expected Line, got XYZ\n", 
+      "motivo": "Excepcion al crear: TypeError (expected Line, got XYZ)", 
+      "nombre_bloque": "Bala Stil Led 22W"
+    }
+  ], 
+  "version": "v01-reparar-nivel-f02", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "borradas_sin_nivel": 0, 
+  "elevacion_nivel_m": 43.372703412073484, 
+  "estadisticas": {
+    "creadas": 0, 
+    "nivel_incorrecto": 0, 
+    "fallos": 37, 
+    "borradas_sin_nivel": 0, 
+    "nivel_correcto": 0, 
+    "total_acciones": 37
+  }, 
+  "fecha_ejecucion": "2026-10-25 00:16:29"
+}

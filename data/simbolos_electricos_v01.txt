@@ -1,0 +1,11 @@
+FAMILIA: M_Toma doble | SIMBOLOS: GFCI || Estándar
+FAMILIA: M_Ventilador | SIMBOLOS: Estándar
+FAMILIA: M_Interruptor | SIMBOLOS: Ventilador
+FAMILIA: M_Toma resistente a la intemperie | SIMBOLOS: Estándar
+FAMILIA: COMBO MOUNTING RING | SIMBOLOS: MOUNTING RING trimless, 064-1906300
+FAMILIA: E_Distribution Panel | SIMBOLOS: EPB25-304C
+FAMILIA: M_Toma - 220V | SIMBOLOS: Estándar
+FAMILIA: M_Toma de tel_fono - Datos | SIMBOLOS: Simple
+FAMILIA: M_Pulsador - Interruptor | SIMBOLOS: Estándar
+FAMILIA: M_Zumbador | SIMBOLOS: Estándar
+FAMILIA: M_Timbre | SIMBOLOS: Estándar

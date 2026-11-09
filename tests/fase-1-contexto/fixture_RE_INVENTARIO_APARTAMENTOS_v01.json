@@ -1,0 +1,124 @@
+{
+  "version": "v01",
+  "proyecto": "RevitElectrico - T5-SantaMarta",
+  "origen_dxf": "3.-Proceso/Apartamento Tipo F 02.dxf",
+  "chip": "SANTAMARTA_T5",
+  "version_dxf": "AC1032",
+  "nivel_revit": "Piso 5",
+  "elevacion_nivel_m": 43.3727,
+  "total_apartamentos": 1,
+  "apartamentos_con_tablero": 1,
+  "total_dispositivos_hijos": 4,
+  "total_marcadores_conductor": 2,
+  "tableros_identificados": ["TAB-F-02-P5"],
+  "apartamentos": [
+    {
+      "nombre_normalizado": "Apartamento Tipo F 02",
+      "nombre_dxf_original": "Apartamento Tipo F 02.dxf",
+      "tipo": "F",
+      "nro": "02",
+      "piso": 5,
+      "nivel_revit": "Piso 5",
+      "elevacion_nivel_m": 43.3727,
+      "identificador_apartamento": "APT-F-02-P5",
+      "identificador_tablero": "TAB-F-02-P5",
+      "insert_padre_dxf": {"x": -0.12, "y": -8.0233},
+      "insert_revit": {"x": 6.36, "y": 2.2067},
+      "tablero": {
+        "nombre_bloque_hijo": "TB-Parcial",
+        "capa": "ELEC-POWER-PANEL",
+        "x_dxf": 3.8547,
+        "y_dxf": 2.7172,
+        "z_local_m": 1.2,
+        "z_absoluta_m": 44.5727,
+        "familia_revit": "E_Distribution Panel_MEPcontent_ABB_Protecta Compact_INT-EN",
+        "simbolo": "EPB25-304C",
+        "anfitrion": "muro",
+        "rotacion": 270.0,
+        "identificador_ancla": "TAB-F-02-P5",
+        "orden": 0
+      },
+      "dispositivos_hijos": [
+        {
+          "nombre_bloque_hijo": "ELEC-T-GFCI-t-15A",
+          "capa": "ELEC-APPL-TOMAS",
+          "x_dxf": 2.822,
+          "y_dxf": 8.7015,
+          "z_local_m": 0.3,
+          "familia_revit": "M_Toma doble",
+          "simbolo": "GFCI",
+          "anfitrion": "muro",
+          "rotacion": 0,
+          "orden": 0
+        },
+        {
+          "nombre_bloque_hijo": "ELEC-I-S-1-5A",
+          "capa": "ELEC-APPL-ILUM",
+          "x_dxf": 5.1072,
+          "y_dxf": 2.2938,
+          "z_local_m": 2.6,
+          "familia_revit": "M_Interruptor bipolar",
+          "simbolo": "Estándar",
+          "anfitrion": "ceiling",
+          "rotacion": 90.0,
+          "orden": 1
+        },
+        {
+          "nombre_bloque_hijo": "Bala Stil Led 10W",
+          "capa": "ELEC-APPL-ILUM",
+          "x_dxf": 5.0664,
+          "y_dxf": 8.2472,
+          "z_local_m": 2.6,
+          "familia_revit": "COMBO MOUNTING RING",
+          "simbolo": "MOUNTING RING trimless, 064-1906300",
+          "anfitrion": "ceiling",
+          "rotacion": 0,
+          "orden": 2
+        },
+        {
+          "nombre_bloque_hijo": "ELEC-TEL",
+          "capa": "ELEC-APPL-NETWORD",
+          "x_dxf": 6.1419,
+          "y_dxf": 7.2148,
+          "z_local_m": 0.3,
+          "familia_revit": "M_Toma simple",
+          "simbolo": "Estándar",
+          "anfitrion": "muro",
+          "rotacion": 90.0,
+          "orden": 3
+        }
+      ],
+      "marcadores_conductor": [
+        {
+          "nombre_bloque_hijo": "1FTN",
+          "capa": "ELEC-Powr-Pipe-Idem Piso",
+          "x_dxf": 6.1119,
+          "y_dxf": 4.038,
+          "rotacion": 90.0,
+          "orden": 0
+        },
+        {
+          "nombre_bloque_hijo": "1TNR",
+          "capa": "Elec-Lite-Wire",
+          "x_dxf": 3.2131,
+          "y_dxf": 8.919,
+          "rotacion": 90.0,
+          "orden": 1
+        }
+      ],
+      "offset_calculado": {
+        "offset_x": null,
+        "offset_y": null,
+        "nota": "pendiente de colocacion manual del tablero en Revit (Paso 1)"
+      },
+      "total_dispositivos_hijos": 4,
+      "total_marcadores": 2,
+      "tiene_tablero": true
+    }
+  ],
+  "regla_datum": "z_revit = altura local (m); Z_absoluta = nivel.Elevation + z_revit (convertir a pies para Revit)",
+  "tableros_oficiales": {
+    "F 01": "TAB-F-01-P5",
+    "F 02": "TAB-F-02-P5"
+  }
+}

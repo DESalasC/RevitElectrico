@@ -1,0 +1,100 @@
+FAMILIA: Panel de sistema | ERROR: Name
+FAMILIA: Montante rectangular | ERROR: Name
+FAMILIA: Montante circular | SIMBOLOS: 
+FAMILIA: Montante angular en L | SIMBOLOS: 
+FAMILIA: Montante angular en V | SIMBOLOS: 
+FAMILIA: Montante angular trapezoidal | SIMBOLOS: 
+FAMILIA: Montante angular cuadril_tero | SIMBOLOS: 
+FAMILIA: Etiqueta de llamada | ERROR: Name
+FAMILIA: Rectangular | ERROR: Name
+FAMILIA: Perfil circular de barandilla | ERROR: Name
+FAMILIA: Perfil huella - exterior | ERROR: Name
+FAMILIA: Desag_e | ERROR: Name
+FAMILIA: S_mbolo de cota vertical | ERROR: Name
+FAMILIA: Extremo de nivel | ERROR: Name
+FAMILIA: Extremo inicial de secci_n | ERROR: Name
+FAMILIA: Titulo de vista | ERROR: Name
+FAMILIA: Extremo de rejilla | ERROR: Name
+FAMILIA: M_Cota de elevaci_n - Destino rellenado | ERROR: Name
+FAMILIA: Cuerpo de marca de alzado_C_rculo-12mm | ERROR: Name
+FAMILIA: Puntero de marca de alzado_C_rculo-12mm | ERROR: Name
+FAMILIA: Referencia a vista | ERROR: Name
+FAMILIA: Circular | ERROR: Name
+FAMILIA: M_Panel vac_o | ERROR: Name
+FAMILIA: Dilataciones en goma baranda balcones | ERROR: Name
+FAMILIA: Perfil muro baranda balcones | ERROR: Name
+FAMILIA: Perfil superior baranda balcones | ERROR: Name
+FAMILIA: Perfil vidrio baranda balcones | ERROR: Name
+FAMILIA: Perfil montante de muro cortina | ERROR: Name
+FAMILIA: FJR_A_Puerta_Batiente_Dobledilatacion_Marcosuperior_Madera | ERROR: Name
+FAMILIA: FJR_A_PuertaVentana_2hojas | ERROR: Name
+FAMILIA: FJR_A_Ventana_Batiente_2hojas | ERROR: Name
+FAMILIA: FJR_A_Ventana_Rejilla | ERROR: Name
+FAMILIA: FJR_A_Ventana_Corrediza_2hojas | ERROR: Name
+FAMILIA: FJR_A_Puerta_Deslizante_1hoja_Madera | ERROR: Name
+FAMILIA: FJR_A_PuertaVentana_4hojas | ERROR: Name
+FAMILIA: FJR_GuardaEscoba | ERROR: Name
+FAMILIA: FJR_A_Ducha_Corona_Monocontrol_Palma_Pro | ERROR: Name
+FAMILIA: FJR_A_ JaboneraDucha_Corona_Palma | ERROR: Name
+FAMILIA: FJR_A_Portarrollos_Corona_Palma | ERROR: Name
+FAMILIA: FJR_A_Espejo | ERROR: Name
+FAMILIA: FJR_A_Percha_Corona_Palma | ERROR: Name
+FAMILIA: FJR_A_Toallero_Argolla_Corona_Palma | ERROR: Name
+FAMILIA: FJR_A_Sanitario_Corona_Aluvia | ERROR: Name
+FAMILIA: FJR_A_MuebleBa_o__MarmolSinuDark_CinzaCobalto_0.90x0.64m | ERROR: Name
+FAMILIA: FJR_A_MuebleBa_o__MarmolSinuDark_CinzaCobalto_0.70x0.60m | ERROR: Name
+FAMILIA: FJR_A_Meson_Quarztone_GrisClasico | ERROR: Name
+FAMILIA: FJR_A_MuebleCocina_Quarztone_GrisClasico_1.65x0.60m | ERROR: Name
+FAMILIA: FJR_A_Closet | ERROR: Name
+FAMILIA: FJR_A_Puerta_Batiente_Aluminio | ERROR: Name
+FAMILIA: FJR_A_Perfil_Celosia | ERROR: Name
+FAMILIA: FJR_A_MuebleCocina_L_Quarztone_GrisClasico_1.80x0.60m | ERROR: Name
+FAMILIA: FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas | ERROR: Name
+FAMILIA: Medidor HS | ERROR: Name
+FAMILIA: FJR_A_MuebleCocina_Quarztone_GrisClasico_1.82x0.60m | ERROR: Name
+FAMILIA: FJR_A_Puerta_Plegable_2hojas_Madera | ERROR: Name
+FAMILIA: FJR_A_MuebleCocina_Quarztone_GrisClasico_2.60x0.60m | ERROR: Name
+FAMILIA: FJR_A_MuebleBa_o__MarmolSinuDark_CinzaCobalto_0.70x0.56m | ERROR: Name
+FAMILIA: FJR_A_Puerta_Batiente_Persiana_Aluminio_1Fija | ERROR: Name
+FAMILIA: FJR_A_Closet_L | ERROR: Name
+FAMILIA: Hormig_n-Rectangular-Pilar | ERROR: Name
+FAMILIA: Perfil anclado a escalera | ERROR: Name
+FAMILIA: Perfil anclado a pared | ERROR: Name
+FAMILIA: Puerta de ascensor residencial | ERROR: Name
+FAMILIA: FJR_A_Puerta_Antipanico_Aluminio | ERROR: Name
+FAMILIA: Perfil intermedio baranda escalera | ERROR: Name
+FAMILIA: FJR_A_Shut_AceroInoxidable | ERROR: Name
+FAMILIA: FJR_A_Ascensor | ERROR: Name
+FAMILIA: FJR_A_Angeo | ERROR: Name
+FAMILIA: Balustre 4 | ERROR: Name
+FAMILIA: FJR_A_Ventana_Rejilla L-146_Sencilla | ERROR: Name
+FAMILIA: FJR_A_Ventana_Rejilla L-146 | ERROR: Name
+FAMILIA: Formato pliego 100x70 Nakua | ERROR: Name
+FAMILIA: Anno_View_Title | ERROR: Name
+FAMILIA: Anno_View_Title_No_Detail_No | ERROR: Name
+FAMILIA: Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower | ERROR: Name
+FAMILIA: COTTO Floor drain round body CT640Y1PW(HM) | ERROR: Name
+FAMILIA: M_Ventilador | ERROR: Name
+FAMILIA: M_Interruptor | ERROR: Name
+FAMILIA: M_Toma - 220V | ERROR: Name
+FAMILIA: M_Toma doble | ERROR: Name
+FAMILIA: M_Toma resistente a la intemperie | ERROR: Name
+FAMILIA: COMBO MOUNTING RING | ERROR: Name
+FAMILIA: M_Toma de tel_fono - Datos | ERROR: Name
+FAMILIA: M_Pulsador - Interruptor | ERROR: Name
+FAMILIA: M_Zumbador | ERROR: Name
+FAMILIA: M_Timbre | ERROR: Name
+FAMILIA: M_Interruptores de iluminaci_n | ERROR: Name
+FAMILIA: M_Toma-Comunicaciones | ERROR: Name
+FAMILIA: M_Interruptor-Doble | ERROR: Name
+FAMILIA: M_Cajas de conexiones - Sin carga | ERROR: Name
+FAMILIA: E_Distribution Panel | ERROR: Name
+FAMILIA: SONO FLEX trim | ERROR: Name
+FAMILIA: M_Caja de conexiones de tubo - Cruz - PVC | ERROR: Name
+FAMILIA: M_Caja de conexiones de tubo - Te - PVC | ERROR: Name
+FAMILIA: M_Casquillo reductor de tubo - PVC | ERROR: Name
+FAMILIA: M_Extremo abocardado de tubo - PVC | ERROR: Name
+FAMILIA: M_Codo de tubo - Sin uniones - RNC | ERROR: Name
+FAMILIA: M_Codo de tubo - Extremo abocardado - PVC | ERROR: Name
+FAMILIA: M_Caja de conexiones hexagonal | ERROR: Name
+FAMILIA: EA | ERROR: Name

@@ -1,0 +1,61 @@
+{
+  "exitos": [
+    {
+      "motivo": "Cargada correctamente", 
+      "ruta_relativa": "04_Tomas_e_Interruptores/M_Toma simple.rfa", 
+      "nombre": "M_Toma simple", 
+      "ruta_completa": "D:/Work/LIBRARIES/bim/RevitElectrico\\04_Tomas_e_Interruptores/M_Toma simple.rfa"
+    }, 
+    {
+      "motivo": "Cargada correctamente", 
+      "ruta_relativa": "04_Tomas_e_Interruptores/M_Toma resistente a la intemperie.rfa", 
+      "nombre": "M_Toma resistente a la intemperie", 
+      "ruta_completa": "D:/Work/LIBRARIES/bim/RevitElectrico\\04_Tomas_e_Interruptores/M_Toma resistente a la intemperie.rfa"
+    }, 
+    {
+      "motivo": "Cargada correctamente", 
+      "ruta_relativa": "04_Tomas_e_Interruptores/M_Interruptor bipolar.rfa", 
+      "nombre": "M_Interruptor bipolar", 
+      "ruta_completa": "D:/Work/LIBRARIES/bim/RevitElectrico\\04_Tomas_e_Interruptores/M_Interruptor bipolar.rfa"
+    }, 
+    {
+      "motivo": "Cargada correctamente", 
+      "ruta_relativa": "04_Tomas_e_Interruptores/M_Interruptor.rfa", 
+      "nombre": "M_Interruptor", 
+      "ruta_completa": "D:/Work/LIBRARIES/bim/RevitElectrico\\04_Tomas_e_Interruptores/M_Interruptor.rfa"
+    }, 
+    {
+      "motivo": "Cargada correctamente", 
+      "ruta_relativa": "06_Ventilacion_Extractores/M_Ventilador.rfa", 
+      "nombre": "M_Ventilador", 
+      "ruta_completa": "D:/Work/LIBRARIES/bim/RevitElectrico\\06_Ventilacion_Extractores/M_Ventilador.rfa"
+    }, 
+    {
+      "motivo": "Cargada correctamente", 
+      "ruta_relativa": "01_Tableros_y_Protecciones/E_Distribution Panel_MEPcontent_ABB_Protecta Compact_INT-EN.rfa", 
+      "nombre": "E_Distribution Panel_MEPcontent_ABB_Protecta Compact_INT-EN", 
+      "ruta_completa": "D:/Work/LIBRARIES/bim/RevitElectrico\\01_Tableros_y_Protecciones/E_Distribution Panel_MEPcontent_ABB_Protecta Compact_INT-EN.rfa"
+    }, 
+    {
+      "motivo": "Cargada correctamente", 
+      "ruta_relativa": "02_Iluminacion_Interior/COMBO trim.rfa", 
+      "nombre": "COMBO MOUNTING RING", 
+      "ruta_completa": "D:/Work/LIBRARIES/bim/RevitElectrico\\02_Iluminacion_Interior/COMBO trim.rfa"
+    }
+  ], 
+  "lib_dir": "D:/Work/LIBRARIES/bim/RevitElectrico", 
+  "total_familias": 8, 
+  "fecha_ejecucion": "2026-10-24 01:25:29", 
+  "exitosas": 7, 
+  "version": "v01", 
+  "omitidas": [
+    {
+      "ruta_relativa": "04_Tomas_e_Interruptores/M_Toma doble.rfa", 
+      "motivo": "Ya cargada", 
+      "nombre": "M_Toma doble"
+    }
+  ], 
+  "fallidas": 0, 
+  "fallos": [], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA"
+}

@@ -1,0 +1,1107 @@
+{
+  "fuente": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\3.-Proceso\\STM-T4-P4_datos_3d.json",
+  "resumen": {
+    "bloques_distintos": 71,
+    "instancias_totales": 233,
+    "instancias_a_modelar": 98,
+    "instancias_marcador_conductores": 64
+  },
+  "mapeo": [
+    {
+      "categoria": "Luminarias",
+      "familia_sugerida": "M_Foco empotrado - Redondo - LED.rfa",
+      "altura_default_m": 2.65,
+      "modelar": true,
+      "nota": "Luminaria tipo bala LED de techo",
+      "bloque": "Bala Stil Led 12W",
+      "instancias": 38,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [
+        1.0,
+        2.0
+      ],
+      "capas": [
+        "ELEC-BALA LED 13 W"
+      ]
+    },
+    {
+      "categoria": "Marcador de conductores",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Define cantidad de conductores del tubo; NO se modela como dispositivo.",
+      "bloque": "1FTNR",
+      "instancias": 29,
+      "es_codigo_conductores": true,
+      "conductores": 4,
+      "alturas_detectadas_m": [
+        1.0,
+        2.0
+      ],
+      "capas": [
+        "Elec-Lite-Wire"
+      ]
+    },
+    {
+      "categoria": "Marcador de conductores",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Define cantidad de conductores del tubo; NO se modela como dispositivo.",
+      "bloque": "1FTN",
+      "instancias": 21,
+      "es_codigo_conductores": true,
+      "conductores": 3,
+      "alturas_detectadas_m": [
+        1.0,
+        2.0
+      ],
+      "capas": [
+        "ELEC-Powr-Pipe-Idem Piso",
+        "Elec-Lite-Wire"
+      ]
+    },
+    {
+      "categoria": "Luminarias",
+      "familia_sugerida": "M_Aplique de emergencia.rfa",
+      "altura_default_m": 2.65,
+      "modelar": true,
+      "nota": "Luminaria de emergencia con batería LED",
+      "bloque": "ELEC-LAF EMERG BAT LED",
+      "instancias": 21,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [
+        1.0,
+        2.0
+      ],
+      "capas": [
+        "ELEC-APPL-ILUM",
+        "Elec-Lite-Lite-Emer"
+      ]
+    },
+    {
+      "categoria": "Dispositivos eléctricos",
+      "familia_sugerida": "M_Sensor de ocupación de techo - Voltaje normal.rfa",
+      "altura_default_m": 2.65,
+      "modelar": true,
+      "nota": "Sensor de proximidad/ocupación",
+      "bloque": "SS-Sensor Proximidad",
+      "instancias": 17,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [
+        1.0,
+        2.0
+      ],
+      "capas": [
+        "E-Lite-Swch"
+      ]
+    },
+    {
+      "categoria": "Dispositivos eléctricos",
+      "familia_sugerida": "M_Toma-Doble.rfa",
+      "altura_default_m": 0.3,
+      "modelar": true,
+      "nota": "Toma doble 15A",
+      "bloque": "ELEC-T-D-t-15A",
+      "instancias": 12,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [
+        1.0
+      ],
+      "capas": [
+        "ELEC-APPL-TOMAS"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "sadfasdggfjhkkl",
+      "instancias": 11,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "HVAC-Equipos"
+      ]
+    },
+    {
+      "categoria": "Dispositivos eléctricos",
+      "familia_sugerida": "M_Interruptor-Simple.rfa",
+      "altura_default_m": 1.1,
+      "modelar": true,
+      "nota": "Interruptor simple 5A",
+      "bloque": "ELEC-I-S-1-5A",
+      "instancias": 6,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [
+        1.0,
+        2.0
+      ],
+      "capas": [
+        "ELEC-APPL-ILUM"
+      ]
+    },
+    {
+      "categoria": "Marcador de conductores",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Define cantidad de conductores del tubo; NO se modela como dispositivo.",
+      "bloque": "1FTR",
+      "instancias": 4,
+      "es_codigo_conductores": true,
+      "conductores": 3,
+      "alturas_detectadas_m": [
+        1.0
+      ],
+      "capas": [
+        "Elec-Lite-Wire"
+      ]
+    },
+    {
+      "categoria": "Marcador de conductores",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Define cantidad de conductores del tubo; NO se modela como dispositivo.",
+      "bloque": "2F2N1T1R",
+      "instancias": 4,
+      "es_codigo_conductores": true,
+      "conductores": 6,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Elec-Lite-Wire"
+      ]
+    },
+    {
+      "categoria": "Luminarias",
+      "familia_sugerida": "M_Luz de techo - Redondo plano.rfa",
+      "altura_default_m": 2.65,
+      "modelar": true,
+      "nota": "Luminaria hermética 40W de techo",
+      "bloque": "HERMETICA 40W",
+      "instancias": 4,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [
+        2.0
+      ],
+      "capas": [
+        "ELEC-STA_ Hermetica 40W"
+      ]
+    },
+    {
+      "categoria": "Marcador de conductores",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Define cantidad de conductores del tubo; NO se modela como dispositivo.",
+      "bloque": "1TNR",
+      "instancias": 3,
+      "es_codigo_conductores": true,
+      "conductores": 3,
+      "alturas_detectadas_m": [
+        2.0
+      ],
+      "capas": [
+        "Elec-Lite-Wire"
+      ]
+    },
+    {
+      "categoria": "Marcador de conductores",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Define cantidad de conductores del tubo; NO se modela como dispositivo.",
+      "bloque": "2FT2N",
+      "instancias": 3,
+      "es_codigo_conductores": true,
+      "conductores": 5,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "ELEC-Powr-Pipe-Idem Piso",
+        "Elec-Lite-Wire"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo F 17 y 03",
+      "instancias": 2,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo F 17 y 03"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamentos Tipo F 18 y 04",
+      "instancias": 2,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo F 18 y 04"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "*U776",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "AA-REJILLA VENTILACIÓN"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "ASDFASGGDSF",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "E-EJES"
+      ]
+    },
+    {
+      "categoria": "Marcador",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Marcador de acometida de aire. No es dispositivo.",
+      "bloque": "Acometidas Aire Piso 2-5",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Acometidas Aire Piso 1"
+      ]
+    },
+    {
+      "categoria": "Marcador",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Marcador de acometida. No es dispositivo.",
+      "bloque": "Acometidas Electricas Piso 2",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [
+        2.0
+      ],
+      "capas": [
+        "Acometidas Electricas Piso 1"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo B 15",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo B 15"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo B 16",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo B 16"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo C 11",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo C 11"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo D 12",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo D 12"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo E 06",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo E 06"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo E 07",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo E 07"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo E 08",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo E 08"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo E 20",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo E 20"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo E2 19",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo E2 19"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo E2 21",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo E2 21"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo F 01",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo F 01"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamento Tipo F 13",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo F 13"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamentos Tipo E 09",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo E 09"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apartamentos Tipo F 14",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo F 14"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apatamento Tipo E 05",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo E 05"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apatamento Tipo F 02",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo F 02"
+      ]
+    },
+    {
+      "categoria": "Marcador de unidad",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Símbolo de apartamento. No modelar.",
+      "bloque": "Apatamentos Tipo E 10",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Apartamento Tipo E 10"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "COTAS T4",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Cotas"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "Comunicaciones ZC Pisos 2-5",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Comunicaciones ZC Pisos 2-5"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "Deteccion de Incendio Piso 4",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Deteccion de Incendio Piso 4"
+      ]
+    },
+    {
+      "categoria": "Marcador",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Marcador de subida eléctrica (riser). No es dispositivo.",
+      "bloque": "ELEC-SUBEELEC",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "ELEC-Powr-service"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "SADFASG",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Hatch"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "SETI",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "E-Comm-Appl-Netw"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT B-16",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto B-16"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT C-11",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto C-11"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT D-12",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto D-12"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT E-05",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto E-05"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT E-06",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto E-07"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT E-07",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto E-07"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT E-08",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto E-08"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT E-09",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto E-09"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT E-10",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto E-10"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT E-19",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto E2-19"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT E-20",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto E-20"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT E-21",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto E2-21"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT F-01",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto F-01"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT F-02",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto F-02"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT F-03",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto F-03"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT F-04",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto F-04"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT F-13",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto F-13"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT F-17",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto F-17"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT-B15",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto B-15"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT-F14",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto F-14"
+      ]
+    },
+    {
+      "categoria": "Dispositivos de datos",
+      "familia_sugerida": "M_Toma-Comunicaciones.rfa",
+      "altura_default_m": 0.3,
+      "modelar": false,
+      "nota": "Caja TDT de apartamento. Fuera del alcance eléctrico; modelar solo si se requiere coordinación de datos.",
+      "bloque": "TDT-F18",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "TDT Apto F-18"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "adsfasdggfdjh",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Hatch"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "asdfah",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Cotas"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "asdfashj",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "VACIOS"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "dsfgfhfj",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Hatch"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "fdfgfghgjfhkj",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Hatch"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "sadfadsgfsdhj",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Hatch"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "sadfasdfghfj",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Hatch"
+      ]
+    },
+    {
+      "categoria": "Descartar",
+      "familia_sugerida": null,
+      "altura_default_m": null,
+      "modelar": false,
+      "nota": "Bloque basura / anotación / otro sistema.",
+      "bloque": "sdfsdsfhd",
+      "instancias": 1,
+      "es_codigo_conductores": false,
+      "conductores": null,
+      "alturas_detectadas_m": [],
+      "capas": [
+        "Cotas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "aprobado": false,
+  "apartamento": "Apartamento Tipo E 05",
+  "dxf": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-T4-P4_bloques_electricos.dxf",
+  "panel_dxf_m": {
+    "x": 6.5448,
+    "y": 6.8622
+  },
+  "panel_rvt_m": {
+    "id": 5665951,
+    "x": 6.5272,
+    "y": 6.8282,
+    "z_rel_m": 1.2
+  },
+  "delta_panel_xy_m": 0.0383,
+  "ajuste_ancla": {
+    "x": -0.0176,
+    "y": -0.034
+  },
+  "tolerancia_xy_m": 0.2,
+  "dispositivos_comprobados": 49,
+  "max_desviacion_dispositivos_m": 12.1478,
+  "errores": [
+    "Dispositivos del JSON desviados hasta 12.148 m (>0.20 m)."
+  ],
+  "advertencias": []
+}

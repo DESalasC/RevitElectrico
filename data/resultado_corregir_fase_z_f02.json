@@ -1,0 +1,34 @@
+{
+  "fase_id": "0", 
+  "sin_fase_despues": 0, 
+  "script": "CORREGIR_FASE_Y_Z_F02_v01.py", 
+  "sin_fase_antes": 0, 
+  "total_red_si": 38, 
+  "fase": "Nueva construcci\\u00f3n", 
+  "version": "v01-corregir-fase-z-f02", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "detalles_z": [
+    {
+      "z_despues_ft": 142.95506826246717, 
+      "nombre": "EPB25-304C", 
+      "z_antes_ft": 189.60861167454067, 
+      "diferencia_ft": -46.653543412073503, 
+      "id": "5562795"
+    }, 
+    {
+      "z_despues_ft": 142.95506826246717, 
+      "nombre": "EPB25-304C", 
+      "z_antes_ft": 189.60861167454067, 
+      "diferencia_ft": -46.653543412073503, 
+      "id": "5562858"
+    }
+  ], 
+  "estadisticas": {
+    "fase_fallos": 0, 
+    "z_corregidas": 2, 
+    "z_fallos": 0, 
+    "fase_asignadas": 38, 
+    "total_instancias": 38
+  }, 
+  "fecha_ejecucion": "2026-10-25 00:27:55"
+}

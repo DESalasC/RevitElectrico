@@ -1,0 +1,209 @@
+{
+  "eliminados": 0, 
+  "dispositivos": 49, 
+  "sin_cara": 0, 
+  "modo": "aplicar", 
+  "creados": 49, 
+  "fallos": [
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "S3"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "2F2N1T1R"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "2F2N1T1R"
+    }, 
+    {
+      "motivo": "nivel: can't assign to read-only property LevelId of type 'FamilyInstance'", 
+      "bloque": "ELEC-T-D-t-15A"
+    }
+  ], 
+  "con_nivel": 0, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "con_host": 0, 
+  "con_cara": 49
+}

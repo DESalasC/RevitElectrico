@@ -1,0 +1,39 @@
+{
+  "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRA-prueba 01", 
+  "fallos": 7, 
+  "nivel_id": "192512", 
+  "fecha_ejecucion": "2026-10-21 22:54:39", 
+  "exitos": 0, 
+  "detalle": [
+    {
+      "id": "5554243", 
+      "motivo": "Error asignando nivel: can't assign to read-only property LevelId of type 'FamilyInstance'"
+    }, 
+    {
+      "id": "5554244", 
+      "motivo": "Error asignando nivel: can't assign to read-only property LevelId of type 'FamilyInstance'"
+    }, 
+    {
+      "id": "5554245", 
+      "motivo": "Error asignando nivel: can't assign to read-only property LevelId of type 'FamilyInstance'"
+    }, 
+    {
+      "id": "5554246", 
+      "motivo": "Error asignando nivel: can't assign to read-only property LevelId of type 'FamilyInstance'"
+    }, 
+    {
+      "id": "5554247", 
+      "motivo": "Error asignando nivel: can't assign to read-only property LevelId of type 'FamilyInstance'"
+    }, 
+    {
+      "id": "5554248", 
+      "motivo": "Error asignando nivel: can't assign to read-only property LevelId of type 'FamilyInstance'"
+    }, 
+    {
+      "id": "5554250", 
+      "motivo": "Error asignando nivel: can't assign to read-only property LevelId of type 'FamilyInstance'"
+    }
+  ], 
+  "nivel_asignado": "Piso 5", 
+  "elevacion_m": 13.219999576960012
+}

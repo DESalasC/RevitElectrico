@@ -1,0 +1,69 @@
+{
+  "version": "v3",
+  "proyecto": "RevitElectrico - T5-SantaMarta",
+  "bloque_padre": "Apatamento Tipo F 02",
+  "nivel": "Piso 5",
+  "chip": "SANTAMARTA_T5",
+  "altura_cieloraso_m": 15.82,
+  "acciones_modelar": [
+    {
+      "orden": 0,
+      "nombre_bloque": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x_revit": 2.822,
+      "y_revit": 8.7015,
+      "z_revit": 0.3,
+      "rotacion": 0,
+      "xscale": 1,
+      "yscale": 1,
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "anfitrion": "muro",
+      "nivel_revit": "Piso 5",
+      "metodo_instancia": "NewFamilyInstance(level, ...)"
+    },
+    {
+      "orden": 9,
+      "nombre_bloque": "ELEC-CAMPANA",
+      "capa": "ELEC-APPL-TOMAS",
+      "x_revit": 5.3375,
+      "y_revit": 2.2423,
+      "z_revit": 15.82,
+      "rotacion": 180.0,
+      "xscale": -1.25,
+      "yscale": 1.25,
+      "familia": "M_Interruptor",
+      "simbolo": "Puerta motorizada",
+      "anfitrion": "ceiling",
+      "nivel_revit": null,
+      "metodo_instancia": "NewFamilyInstance(face, ...)"
+    },
+    {
+      "orden": 18,
+      "nombre_bloque": "Bala Stil Led 22W",
+      "capa": "ELEC-APPL-ILUM",
+      "x_revit": 5.0709,
+      "y_revit": 4.3372,
+      "z_revit": 15.82,
+      "rotacion": 0,
+      "xscale": -1.0,
+      "yscale": 1,
+      "familia": "COMBO MOUNTING RING",
+      "simbolo": "MOUNTING RING trimless, 064-1906700",
+      "anfitrion": "ceiling",
+      "nivel_revit": null,
+      "metodo_instancia": "NewFamilyInstance(face, ...)"
+    }
+  ],
+  "acciones_saltar": [
+    {
+      "orden": 27,
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "x_revit": 6.1119,
+      "y_revit": 4.038,
+      "motivo": "Marcador de conductor — no es dispositivo físico"
+    }
+  ],
+  "acciones_sin_mapeo": []
+}

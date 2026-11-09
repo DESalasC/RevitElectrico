@@ -1,0 +1,86 @@
+{
+  "detalle": [
+    {
+      "nombre_bloque": "ELEC-TEL", 
+      "motivo": "OK \u2014 Comments='RED=SI'", 
+      "id": "867009", 
+      "x": 6.1418999999999997, 
+      "orden": 42, 
+      "z": 0.29999999999999999, 
+      "y": 7.2148000000000003
+    }, 
+    {
+      "nombre_bloque": "ELEC-TEL", 
+      "motivo": "OK \u2014 Comments='RED=SI'", 
+      "id": "867010", 
+      "x": 6.1418999999999997, 
+      "orden": 43, 
+      "z": 0.29999999999999999, 
+      "y": 7.0648999999999997
+    }, 
+    {
+      "nombre_bloque": "ELEC-TEL", 
+      "motivo": "OK \u2014 Comments='RED=SI'", 
+      "id": "867011", 
+      "x": 6.1418999999999997, 
+      "orden": 44, 
+      "z": 0.29999999999999999, 
+      "y": 7.3543000000000003
+    }, 
+    {
+      "nombre_bloque": "ELEC-NET-PAU", 
+      "motivo": "OK \u2014 Comments='RED=SI'", 
+      "id": "867012", 
+      "x": 3.9609999999999999, 
+      "orden": 45, 
+      "z": 0.29999999999999999, 
+      "y": 5.0511999999999997
+    }, 
+    {
+      "nombre_bloque": "ELEC-TEL", 
+      "motivo": "OK \u2014 Comments='RED=SI'", 
+      "id": "867013", 
+      "x": 3.9634999999999998, 
+      "orden": 46, 
+      "z": 0.29999999999999999, 
+      "y": 5.0853999999999999
+    }, 
+    {
+      "nombre_bloque": "ELEC-TEL", 
+      "motivo": "OK \u2014 Comments='RED=SI'", 
+      "id": "867014", 
+      "x": 3.9634999999999998, 
+      "orden": 47, 
+      "z": 0.29999999999999999, 
+      "y": 5.2352999999999996
+    }, 
+    {
+      "nombre_bloque": "ELEC-TEL", 
+      "motivo": "OK \u2014 Comments='RED=SI'", 
+      "id": "867015", 
+      "x": 3.9634999999999998, 
+      "orden": 48, 
+      "z": 0.29999999999999999, 
+      "y": 4.9459999999999997
+    }, 
+    {
+      "nombre_bloque": "ELEC-TEL", 
+      "motivo": "OK \u2014 Comments='RED=SI'", 
+      "id": "867016", 
+      "x": 3.9634999999999998, 
+      "orden": 49, 
+      "z": 0.29999999999999999, 
+      "y": 4.8083000000000000
+    }
+  ], 
+  "estrategia": "posicion_XY_tolerancia_0.02m", 
+  "fecha_ejecucion": "2026-10-24 12:35:47", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "campo": "Comments (ALL_MODEL_INSTANCE_COMENTARIOS)", 
+  "valor": "RED=SI", 
+  "exitos": 8, 
+  "no_encontrados": 0, 
+  "reporte_origen": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\data\\apto_F_02_aplicar_mapa_v3.json", 
+  "fallos": 0, 
+  "dispositivos_red_reporte": 8
+}

@@ -1,0 +1,128 @@
+{
+  "LightingDevices": {
+    "M_Pulsador - Interruptor": {
+      "instancias": 2, 
+      "simbolos": [
+        "Est_ndar"
+      ]
+    }, 
+    "M_Interruptores de iluminaci_n": {
+      "instancias": 6, 
+      "simbolos": [
+        "Piloto encendido"
+      ]
+    }
+  }, 
+  "ElectricalFixtures": {
+    "M_Toma-Comunicaciones": {
+      "instancias": 5, 
+      "simbolos": [
+        "Teledatos", 
+        "Tel_fono"
+      ]
+    }, 
+    "M_Caja de conexiones hexagonal": {
+      "instancias": 18, 
+      "simbolos": [
+        "120V"
+      ]
+    }, 
+    "M_Toma doble": {
+      "instancias": 38, 
+      "simbolos": [
+        "Est_ndar", 
+        "GFCI"
+      ]
+    }, 
+    "M_Toma - 220V": {
+      "instancias": 2, 
+      "simbolos": [
+        "Est_ndar"
+      ]
+    }, 
+    "M_Interruptor": {
+      "instancias": 3, 
+      "simbolos": [
+        "Ventilador"
+      ]
+    }, 
+    "M_Cajas de conexiones - Sin carga": {
+      "instancias": 3, 
+      "simbolos": [
+        "100 Cuadrada"
+      ]
+    }, 
+    "M_Ventilador": {
+      "instancias": 9, 
+      "simbolos": [
+        "Est_ndar"
+      ]
+    }, 
+    "M_Interruptor-Doble": {
+      "instancias": 2, 
+      "simbolos": [
+        "Doble"
+      ]
+    }, 
+    "M_Toma resistente a la intemperie": {
+      "instancias": 2, 
+      "simbolos": [
+        "Est_ndar"
+      ]
+    }
+  }, 
+  "ElectricalEquipment": {
+    "E_Distribution Panel": {
+      "instancias": 19, 
+      "simbolos": [
+        "EPB25-304C"
+      ]
+    }, 
+    "Medidor HS": {
+      "instancias": 63, 
+      "simbolos": [
+        "Medidor HS"
+      ]
+    }
+  }, 
+  "DataDevices": {}, 
+  "CommunicationDevices": {
+    "M_Zumbador": {
+      "instancias": 2, 
+      "simbolos": [
+        "Est_ndar"
+      ]
+    }, 
+    "M_Timbre": {
+      "instancias": 8, 
+      "simbolos": [
+        "Est_ndar"
+      ]
+    }
+  }, 
+  "LightingFixtures": {
+    "COMBO MOUNTING RING": {
+      "instancias": 33, 
+      "simbolos": [
+        "MOUNTING RING trimless, 064-1906300"
+      ]
+    }, 
+    "SONO FLEX trim": {
+      "instancias": 16, 
+      "simbolos": [
+        "SONO FLEX 100 trim", 
+        "_SONO FLEX 200 trim", 
+        "_SONO FLEX 150 trim", 
+        "SONO FLEX 350 trim, 3000 K, non DIM, 063-3238517O"
+      ]
+    }
+  }, 
+  "TelephoneDevices": {
+    "M_Toma de tel_fono - Datos": {
+      "instancias": 12, 
+      "simbolos": [
+        "Simple"
+      ]
+    }
+  }
+}

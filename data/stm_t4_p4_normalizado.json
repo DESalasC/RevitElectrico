@@ -1,0 +1,8545 @@
+{
+  "metadatos": {
+    "origen_dxf": "3.-Proceso\\STM-T4-P4.dxf",
+    "chip": "STM_T4_P4",
+    "offset_aplicado_x": -991.903,
+    "offset_aplicado_y": -1714.822,
+    "version_dxf": "AC1032",
+    "unidades": 6
+  },
+  "resumen": {
+    "bloques_total": 218,
+    "bloques_electricos": 205,
+    "bloques_no_electricos": 13,
+    "bloques_basura_filtrados": 15,
+    "polilineas": 100,
+    "polilineas_electricas": 88,
+    "lineas": 254,
+    "lineas_electricas": 0,
+    "arcos": 35,
+    "circulos": 13
+  },
+  "bloques": [
+    {
+      "nombre_bloque": "Apartamento Tipo E2 21",
+      "capa": "Apartamento Tipo E2 21",
+      "es_electrica": true,
+      "punto_insert": [
+        930.46,
+        1714.52,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E 20",
+      "capa": "Apartamento Tipo E 20",
+      "es_electrica": true,
+      "punto_insert": [
+        930.177,
+        1706.716,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E2 19",
+      "capa": "Apartamento Tipo E2 19",
+      "es_electrica": true,
+      "punto_insert": [
+        932.665,
+        1701.4,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamentos Tipo F 18 y 04",
+      "capa": "Apartamento Tipo F 18 y 04",
+      "es_electrica": true,
+      "punto_insert": [
+        934.543,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo B 16",
+      "capa": "Apartamento Tipo B 16",
+      "es_electrica": true,
+      "punto_insert": [
+        947.082,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo F 17 y 03",
+      "capa": "Apartamento Tipo F 17 y 03",
+      "es_electrica": true,
+      "punto_insert": [
+        934.543,
+        1705.159,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamentos Tipo F 14",
+      "capa": "Apartamento Tipo F 14",
+      "es_electrica": true,
+      "punto_insert": [
+        948.899,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo B 15",
+      "capa": "Apartamento Tipo B 15",
+      "es_electrica": true,
+      "punto_insert": [
+        947.082,
+        1705.159,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo F 13",
+      "capa": "Apartamento Tipo F 13",
+      "es_electrica": true,
+      "punto_insert": [
+        948.899,
+        1705.159,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo D 12",
+      "capa": "Apartamento Tipo D 12",
+      "es_electrica": true,
+      "punto_insert": [
+        952.781,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo C 11",
+      "capa": "Apartamento Tipo C 11",
+      "es_electrica": true,
+      "punto_insert": [
+        955.687,
+        1702.851,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apatamentos Tipo E 10",
+      "capa": "Apartamento Tipo E 10",
+      "es_electrica": true,
+      "punto_insert": [
+        963.311,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamentos Tipo E 09",
+      "capa": "Apartamento Tipo E 09",
+      "es_electrica": true,
+      "punto_insert": [
+        963.312,
+        1705.159,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E 08",
+      "capa": "Apartamento Tipo E 08",
+      "es_electrica": true,
+      "punto_insert": [
+        976.296,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E 07",
+      "capa": "Apartamento Tipo E 07",
+      "es_electrica": true,
+      "punto_insert": [
+        975.384,
+        1705.159,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo E 06",
+      "capa": "Apartamento Tipo E 06",
+      "es_electrica": true,
+      "punto_insert": [
+        979.999,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apatamento Tipo E 05",
+      "capa": "Apartamento Tipo E 05",
+      "es_electrica": true,
+      "punto_insert": [
+        979.999,
+        1705.159,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamentos Tipo F 18 y 04",
+      "capa": "Apartamento Tipo F 18 y 04",
+      "es_electrica": true,
+      "punto_insert": [
+        984.274,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo F 17 y 03",
+      "capa": "Apartamento Tipo F 17 y 03",
+      "es_electrica": true,
+      "punto_insert": [
+        984.274,
+        1705.159,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apatamento Tipo F 02",
+      "capa": "Apartamento Tipo F 02",
+      "es_electrica": true,
+      "punto_insert": [
+        991.783,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo F 01",
+      "capa": "Apartamento Tipo F 01",
+      "es_electrica": true,
+      "punto_insert": [
+        991.783,
+        1705.159,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-21",
+      "capa": "TDT Apto E2-21",
+      "es_electrica": true,
+      "punto_insert": [
+        930.728,
+        1714.52,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-20",
+      "capa": "TDT Apto E-20",
+      "es_electrica": true,
+      "punto_insert": [
+        927.072,
+        1706.079,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-19",
+      "capa": "TDT Apto E2-19",
+      "es_electrica": true,
+      "punto_insert": [
+        926.105,
+        1700.24,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT-F18",
+      "capa": "TDT Apto F-18",
+      "es_electrica": true,
+      "punto_insert": [
+        934.543,
+        1706.799,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT F-17",
+      "capa": "TDT Apto F-17",
+      "es_electrica": true,
+      "punto_insert": [
+        934.543,
+        1698.806,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT-B15",
+      "capa": "TDT Apto B-15",
+      "es_electrica": true,
+      "punto_insert": [
+        938.445,
+        1698.804,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT B-16",
+      "capa": "TDT Apto B-16",
+      "es_electrica": true,
+      "punto_insert": [
+        938.265,
+        1706.799,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT-F14",
+      "capa": "TDT Apto F-14",
+      "es_electrica": true,
+      "punto_insert": [
+        948.899,
+        1706.799,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT F-13",
+      "capa": "TDT Apto F-13",
+      "es_electrica": true,
+      "punto_insert": [
+        948.899,
+        1698.812,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT D-12",
+      "capa": "TDT Apto D-12",
+      "es_electrica": true,
+      "punto_insert": [
+        955.75,
+        1706.799,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT C-11",
+      "capa": "TDT Apto C-11",
+      "es_electrica": true,
+      "punto_insert": [
+        954.413,
+        1705.159,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-10",
+      "capa": "TDT Apto E-10",
+      "es_electrica": true,
+      "punto_insert": [
+        967.224,
+        1706.799,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-09",
+      "capa": "TDT Apto E-09",
+      "es_electrica": true,
+      "punto_insert": [
+        967.224,
+        1705.159,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-08",
+      "capa": "TDT Apto E-08",
+      "es_electrica": true,
+      "punto_insert": [
+        972.133,
+        1706.799,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-07",
+      "capa": "TDT Apto E-07",
+      "es_electrica": true,
+      "punto_insert": [
+        972.134,
+        1705.159,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-06",
+      "capa": "TDT Apto E-07",
+      "es_electrica": true,
+      "punto_insert": [
+        984.154,
+        1706.799,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-05",
+      "capa": "TDT Apto E-05",
+      "es_electrica": true,
+      "punto_insert": [
+        984.154,
+        1705.159,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT F-04",
+      "capa": "TDT Apto F-04",
+      "es_electrica": true,
+      "punto_insert": [
+        984.274,
+        1706.799,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT F-03",
+      "capa": "TDT Apto F-03",
+      "es_electrica": true,
+      "punto_insert": [
+        986.472,
+        1702.443,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT F-02",
+      "capa": "TDT Apto F-02",
+      "es_electrica": true,
+      "punto_insert": [
+        991.783,
+        1706.799,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT F-01",
+      "capa": "TDT Apto F-01",
+      "es_electrica": true,
+      "punto_insert": [
+        991.783,
+        1705.159,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Deteccion de Incendio Piso 4",
+      "capa": "Deteccion de Incendio Piso 4",
+      "es_electrica": false,
+      "punto_insert": [
+        967.524,
+        1708.483,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "SADFASG",
+      "capa": "Hatch",
+      "es_electrica": false,
+      "punto_insert": [
+        -2298.284,
+        3066.012,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "*U776",
+      "capa": "AA-REJILLA VENTILACIÓN",
+      "es_electrica": false,
+      "punto_insert": [
+        971.224,
+        1713.702,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "COTAS T4",
+      "capa": "Cotas",
+      "es_electrica": false,
+      "punto_insert": [
+        -2014.904,
+        487.944,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "ASDFASGGDSF",
+      "capa": "E-EJES",
+      "es_electrica": false,
+      "punto_insert": [
+        -1914.904,
+        387.944,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "asdfah",
+      "capa": "Cotas",
+      "es_electrica": false,
+      "punto_insert": [
+        -2014.904,
+        516.913,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "dsfgfhfj",
+      "capa": "Hatch",
+      "es_electrica": false,
+      "punto_insert": [
+        -2014.904,
+        467.201,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "asdfashj",
+      "capa": "VACIOS",
+      "es_electrica": false,
+      "punto_insert": [
+        -2147.858,
+        517.201,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "sdfsdsfhd",
+      "capa": "Cotas",
+      "es_electrica": false,
+      "punto_insert": [
+        -2014.904,
+        517.201,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Comunicaciones ZC Pisos 2-5",
+      "capa": "Comunicaciones ZC Pisos 2-5",
+      "es_electrica": false,
+      "punto_insert": [
+        931.008,
+        1713.569,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Acometidas Electricas Piso 2",
+      "capa": "Acometidas Electricas Piso 1",
+      "es_electrica": false,
+      "punto_insert": [
+        994.325,
+        1705.274,
+        0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Acometidas Aire Piso 2-5",
+      "capa": "Acometidas Aire Piso 1",
+      "es_electrica": false,
+      "punto_insert": [
+        994.324,
+        1705.268,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        968.768,
+        1697.881,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        968.768,
+        1701.421,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        967.068,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        970.268,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        963.868,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        960.668,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        957.468,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        954.268,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        951.068,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        947.868,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        944.668,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        941.468,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        938.268,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        935.068,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        933.634,
+        1704.465,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        933.634,
+        1701.465,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        933.634,
+        1698.465,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        933.634,
+        1707.065,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        933.634,
+        1710.065,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        933.634,
+        1713.065,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        973.468,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        976.668,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        979.868,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        983.068,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        986.268,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        989.468,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        992.668,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        933.616,
+        1700.215,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        933.631,
+        1710.715,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        933.627,
+        1705.763,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        941.245,
+        1705.763,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        948.91,
+        1705.763,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        956.024,
+        1705.763,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        963.208,
+        1705.763,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        968.753,
+        1700.056,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        990.129,
+        1705.763,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        982.398,
+        1705.763,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        974.634,
+        1705.763,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        968.204,
+        1705.765,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        933.634,
+        1697.543,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        933.634,
+        1714.003,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        971.088,
+        1697.872,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        968.768,
+        1704.421,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "1FTR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        968.464,
+        1698.033,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        967.59,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        965.506,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        963.494,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        961.793,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        958.968,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        956.736,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        955.095,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        952.559,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        949.861,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        948.322,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        946.172,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        942.886,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        939.626,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        936.425,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        934.187,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.608,
+        1706.524,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.608,
+        1708.655,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.608,
+        1710.462,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.608,
+        1711.923,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.631,
+        1713.568,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        934.371,
+        1714.009,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Interruptor simple 1x 5A"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.608,
+        1705.129,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.608,
+        1702.935,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.608,
+        1700.836,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.608,
+        1699.279,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        933.631,
+        1698.068,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        934.364,
+        1697.88,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Interruptor simple 1x 5A"
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        968.474,
+        1698.261,
+        0.0
+      ],
+      "familia_revit_sugerida": "Interruptor simple 1x 5A"
+    },
+    {
+      "nombre_bloque": "1FTR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        934.376,
+        1697.751,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "1FTR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        934.044,
+        1714.015,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "2FT2N",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        969.666,
+        1697.88,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "2F2N1T1R",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        968.786,
+        1699.16,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "2FT2N",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        971.099,
+        1698.29,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "2F2N1T1R",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        968.75,
+        1700.92,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "2F2N1T1R",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        968.782,
+        1702.699,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "2F2N1T1R",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        968.22,
+        1705.074,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        993.542,
+        1703.703,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        993.542,
+        1701.604,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        992.65,
+        1705.324,
+        0.0
+      ],
+      "familia_revit_sugerida": "Interruptor simple 1x 5A"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        992.657,
+        1705.554,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1TNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        992.645,
+        1704.47,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "1TNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        993.533,
+        1702.608,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        969.028,
+        1705.757,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        974.018,
+        1705.757,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        971.926,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        975.594,
+        1705.757,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        981.009,
+        1705.757,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        982.701,
+        1705.757,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        984.696,
+        1705.757,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        978.414,
+        1705.784,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        987.984,
+        1705.757,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        989.739,
+        1705.757,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        991.137,
+        1705.757,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        970.608,
+        1707.385,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "1FTR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        970.991,
+        1707.389,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        968.208,
+        1710.421,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        968.208,
+        1713.421,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        968.204,
+        1710.685,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        969.58,
+        1714.924,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        968.452,
+        1714.481,
+        0.0
+      ],
+      "familia_revit_sugerida": "Interruptor simple 1x 5A"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        968.205,
+        1712.089,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        968.192,
+        1714.17,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1TNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        968.914,
+        1714.927,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [
+        968.208,
+        1707.421,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [
+        968.21,
+        1709.209,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        971.357,
+        1706.851,
+        0.0
+      ],
+      "familia_revit_sugerida": "Interruptor simple 1x 5A"
+    },
+    {
+      "nombre_bloque": "HERMETICA 40W",
+      "capa": "ELEC-STA_ Hermetica 40W",
+      "es_electrica": true,
+      "punto_insert": [
+        993.608,
+        1707.009,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria hermética 40W"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        993.133,
+        1707.131,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        993.657,
+        1707.287,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        934.436,
+        1703.021,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        934.437,
+        1708.832,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        942.495,
+        1706.675,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        961.167,
+        1706.675,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        967.369,
+        1703.764,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        967.417,
+        1705.643,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        963.1,
+        1706.645,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        951.443,
+        1706.442,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        941.51,
+        1706.645,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        935.5,
+        1706.627,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        934.262,
+        1705.363,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        952.835,
+        1706.675,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        956.192,
+        1706.442,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        978.057,
+        1706.68,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        969.083,
+        1706.607,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        972.95,
+        1706.643,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        984.157,
+        1706.68,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        971.645,
+        1706.681,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "1FTN",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        980.649,
+        1706.643,
+        0.027
+      ],
+      "familia_revit_sugerida": "Luminaria tubular 1x"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        968.905,
+        1710.046,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "2FT2N",
+      "capa": "ELEC-Powr-Pipe-Idem Piso",
+      "es_electrica": true,
+      "punto_insert": [
+        967.804,
+        1700.734,
+        0.027
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        971.547,
+        1706.801,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [
+        970.618,
+        1708.728,
+        0.0
+      ],
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "HERMETICA 40W",
+      "capa": "ELEC-STA_ Hermetica 40W",
+      "es_electrica": true,
+      "punto_insert": [
+        970.495,
+        1708.933,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria hermética 40W"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        971.0,
+        1709.054,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        970.544,
+        1709.211,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "HERMETICA 40W",
+      "capa": "ELEC-STA_ Hermetica 40W",
+      "es_electrica": true,
+      "punto_insert": [
+        970.495,
+        1713.573,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria hermética 40W"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        969.814,
+        1713.573,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        970.544,
+        1713.352,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "HERMETICA 40W",
+      "capa": "ELEC-STA_ Hermetica 40W",
+      "es_electrica": true,
+      "punto_insert": [
+        993.091,
+        1711.645,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria hermética 40W"
+    },
+    {
+      "nombre_bloque": "SS-Sensor Proximidad",
+      "capa": "E-Lite-Swch",
+      "es_electrica": true,
+      "punto_insert": [
+        992.41,
+        1711.645,
+        0.0
+      ],
+      "familia_revit_sugerida": "Sensor de proximidad"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [
+        993.141,
+        1711.425,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        933.627,
+        1709.388,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        933.627,
+        1701.807,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        935.471,
+        1705.786,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        941.863,
+        1705.786,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        947.534,
+        1705.786,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        954.605,
+        1705.786,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        960.993,
+        1705.786,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        970.605,
+        1705.786,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        977.023,
+        1705.786,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        985.907,
+        1705.786,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        992.307,
+        1705.786,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        968.213,
+        1712.812,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        968.213,
+        1707.732,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        968.774,
+        1701.8,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        970.596,
+        1697.879,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        968.774,
+        1704.004,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-LAF EMERG BAT LED",
+      "capa": "Elec-Lite-Lite-Emer",
+      "es_electrica": true,
+      "punto_insert": [
+        971.329,
+        1707.387,
+        0.0
+      ],
+      "familia_revit_sugerida": "Luminaria emergencia LED batería"
+    },
+    {
+      "nombre_bloque": "ELEC-SUBEELEC",
+      "capa": "ELEC-Powr-service",
+      "es_electrica": true,
+      "punto_insert": [
+        972.013,
+        1698.364,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "SETI",
+      "capa": "E-Comm-Appl-Netw",
+      "es_electrica": false,
+      "punto_insert": [
+        972.014,
+        1706.799,
+        -0.0
+      ],
+      "familia_revit_sugerida": "Familia por definir"
+    }
+  ],
+  "polilineas": [
+    {
+      "capa": "ELEC-Data-Service",
+      "es_electrica": true,
+      "puntos": [
+        [
+          965.343,
+          1706.679,
+          0.0
+        ],
+        [
+          965.343,
+          1705.279,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "puntos": [
+        [
+          984.042,
+          1718.307,
+          0.0
+        ],
+        [
+          984.017,
+          1718.307,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "puntos": [
+        [
+          991.766,
+          1718.307,
+          0.0
+        ],
+        [
+          991.741,
+          1718.307,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "CONDENSADORAS",
+      "es_electrica": false,
+      "puntos": [
+        [
+          993.579,
+          1700.927,
+          0.0
+        ],
+        [
+          994.326,
+          1700.927,
+          0.0
+        ],
+        [
+          994.326,
+          1705.179,
+          0.0
+        ],
+        [
+          993.579,
+          1705.179,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "puntos": [
+        [
+          984.042,
+          1693.6,
+          0.0
+        ],
+        [
+          984.017,
+          1693.6,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "puntos": [
+        [
+          991.766,
+          1693.6,
+          0.0
+        ],
+        [
+          991.741,
+          1693.6,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "puntos": [
+        [
+          1003.286,
+          1711.5,
+          0.0
+        ],
+        [
+          1012.497,
+          1711.5,
+          0.0
+        ],
+        [
+          1012.497,
+          1706.024,
+          0.0
+        ],
+        [
+          1003.286,
+          1706.024,
+          0.0
+        ]
+      ],
+      "cerrada": true
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "puntos": [
+        [
+          1003.386,
+          1711.4,
+          0.0
+        ],
+        [
+          1012.397,
+          1711.4,
+          0.0
+        ],
+        [
+          1012.397,
+          1706.124,
+          0.0
+        ],
+        [
+          1003.386,
+          1706.124,
+          0.0
+        ]
+      ],
+      "cerrada": true
+    },
+    {
+      "capa": "AA-DUCTO SUMINISTRO",
+      "es_electrica": false,
+      "puntos": [
+        [
+          971.224,
+          1713.652,
+          0.0
+        ],
+        [
+          971.224,
+          1713.869,
+          0.0
+        ],
+        [
+          971.682,
+          1713.869,
+          0.0
+        ],
+        [
+          971.682,
+          1713.652,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "Proyecciones",
+      "es_electrica": false,
+      "puntos": [
+        [
+          932.725,
+          1709.628,
+          0.0
+        ],
+        [
+          932.845,
+          1709.628,
+          0.0
+        ],
+        [
+          932.845,
+          1709.027,
+          0.0
+        ],
+        [
+          932.725,
+          1709.027,
+          0.0
+        ]
+      ],
+      "cerrada": true
+    },
+    {
+      "capa": "Proyecciones",
+      "es_electrica": false,
+      "puntos": [
+        [
+          932.725,
+          1708.073,
+          0.0
+        ],
+        [
+          932.845,
+          1708.073,
+          0.0
+        ],
+        [
+          932.845,
+          1708.674,
+          0.0
+        ],
+        [
+          932.725,
+          1708.674,
+          0.0
+        ]
+      ],
+      "cerrada": true
+    },
+    {
+      "capa": "MUROS",
+      "es_electrica": false,
+      "puntos": [
+        [
+          970.609,
+          1714.523,
+          0.0
+        ],
+        [
+          972.014,
+          1714.523,
+          0.0
+        ],
+        [
+          972.014,
+          1713.774,
+          0.0
+        ],
+        [
+          970.609,
+          1713.774,
+          0.0
+        ]
+      ],
+      "cerrada": true
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "puntos": [
+        [
+          923.753,
+          1716.973,
+          0.0
+        ],
+        [
+          923.753,
+          1715.981,
+          0.0
+        ],
+        [
+          917.815,
+          1715.981,
+          0.0
+        ],
+        [
+          917.815,
+          1716.973,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.986,
+          1697.879,
+          0.0
+        ],
+        [
+          968.874,
+          1697.879,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.746,
+          1697.979,
+          0.0
+        ],
+        [
+          968.746,
+          1699.978,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.746,
+          1700.119,
+          0.0
+        ],
+        [
+          968.746,
+          1701.338,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.766,
+          1701.519,
+          0.0
+        ],
+        [
+          968.766,
+          1704.319,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.666,
+          1704.419,
+          0.0
+        ],
+        [
+          968.206,
+          1704.419,
+          0.0
+        ],
+        [
+          968.206,
+          1705.679,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.286,
+          1705.759,
+          0.0
+        ],
+        [
+          970.186,
+          1705.759,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.206,
+          1705.829,
+          0.0
+        ],
+        [
+          968.206,
+          1707.309,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.146,
+          1705.779,
+          0.0
+        ],
+        [
+          967.166,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          966.966,
+          1705.779,
+          0.0
+        ],
+        [
+          963.966,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          963.766,
+          1705.759,
+          0.0
+        ],
+        [
+          963.266,
+          1705.759,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          963.146,
+          1705.779,
+          0.0
+        ],
+        [
+          960.766,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          960.566,
+          1705.779,
+          0.0
+        ],
+        [
+          957.566,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          957.366,
+          1705.779,
+          0.0
+        ],
+        [
+          956.086,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          955.966,
+          1705.779,
+          0.0
+        ],
+        [
+          954.366,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          954.166,
+          1705.799,
+          0.0
+        ],
+        [
+          951.166,
+          1705.799,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          950.966,
+          1705.779,
+          0.0
+        ],
+        [
+          948.986,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          948.846,
+          1705.779,
+          0.0
+        ],
+        [
+          947.966,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          947.766,
+          1705.779,
+          0.0
+        ],
+        [
+          944.786,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          944.566,
+          1705.779,
+          0.0
+        ],
+        [
+          941.566,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          941.176,
+          1705.779,
+          0.0
+        ],
+        [
+          938.356,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          941.366,
+          1705.779,
+          0.0
+        ],
+        [
+          941.306,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          938.166,
+          1705.779,
+          0.0
+        ],
+        [
+          935.166,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          934.966,
+          1705.769,
+          0.0
+        ],
+        [
+          933.696,
+          1705.769,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.626,
+          1705.669,
+          0.0
+        ],
+        [
+          933.626,
+          1704.569,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.626,
+          1704.359,
+          0.0
+        ],
+        [
+          933.626,
+          1701.559,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.626,
+          1701.359,
+          0.0
+        ],
+        [
+          933.626,
+          1700.279,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.616,
+          1700.149,
+          0.0
+        ],
+        [
+          933.616,
+          1698.569,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.626,
+          1698.359,
+          0.0
+        ],
+        [
+          933.626,
+          1697.639,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.626,
+          1705.819,
+          0.0
+        ],
+        [
+          933.626,
+          1706.976,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.616,
+          1707.169,
+          0.0
+        ],
+        [
+          933.616,
+          1709.969,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.626,
+          1710.159,
+          0.0
+        ],
+        [
+          933.626,
+          1710.628,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.636,
+          1710.779,
+          0.0
+        ],
+        [
+          933.636,
+          1712.979,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.636,
+          1713.169,
+          0.0
+        ],
+        [
+          933.636,
+          1713.899,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          933.735,
+          1714.009,
+          0.0
+        ],
+        [
+          934.32,
+          1714.009,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          934.366,
+          1697.829,
+          0.0
+        ],
+        [
+          934.366,
+          1697.554,
+          0.0
+        ],
+        [
+          933.735,
+          1697.554,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.366,
+          1705.779,
+          0.0
+        ],
+        [
+          973.365,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          973.566,
+          1705.779,
+          0.0
+        ],
+        [
+          974.565,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          974.701,
+          1705.779,
+          0.0
+        ],
+        [
+          976.56,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          976.766,
+          1705.779,
+          0.0
+        ],
+        [
+          979.766,
+          1705.779,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          979.966,
+          1705.769,
+          0.0
+        ],
+        [
+          982.336,
+          1705.769,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          982.466,
+          1705.769,
+          0.0
+        ],
+        [
+          982.965,
+          1705.769,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          983.176,
+          1705.769,
+          0.0
+        ],
+        [
+          986.166,
+          1705.769,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          986.376,
+          1705.769,
+          0.0
+        ],
+        [
+          989.366,
+          1705.769,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          989.566,
+          1705.769,
+          0.0
+        ],
+        [
+          990.065,
+          1705.769,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          990.196,
+          1705.769,
+          0.0
+        ],
+        [
+          992.566,
+          1705.769,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.666,
+          1697.873,
+          0.0
+        ],
+        [
+          968.463,
+          1697.873,
+          0.0
+        ],
+        [
+          968.463,
+          1698.212,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          992.655,
+          1705.759,
+          0.0
+        ],
+        [
+          992.655,
+          1705.364,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          992.638,
+          1705.275,
+          0.0
+        ],
+        [
+          992.638,
+          1703.709,
+          0.0
+        ],
+        [
+          993.443,
+          1703.709,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          993.536,
+          1703.599,
+          0.0
+        ],
+        [
+          993.536,
+          1701.699,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.266,
+          1705.84,
+          0.0
+        ],
+        [
+          970.266,
+          1707.38,
+          0.0
+        ],
+        [
+          970.505,
+          1707.38,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.206,
+          1710.739,
+          0.0
+        ],
+        [
+          968.206,
+          1713.337,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.216,
+          1710.529,
+          0.0
+        ],
+        [
+          968.216,
+          1710.628,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          969.486,
+          1714.929,
+          0.0
+        ],
+        [
+          968.449,
+          1714.929,
+          0.0
+        ],
+        [
+          968.449,
+          1714.529,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.186,
+          1713.523,
+          0.0
+        ],
+        [
+          968.186,
+          1714.481,
+          0.0
+        ],
+        [
+          968.425,
+          1714.481,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.216,
+          1707.519,
+          0.0
+        ],
+        [
+          968.216,
+          1710.318,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.71,
+          1707.39,
+          0.0
+        ],
+        [
+          971.14,
+          1707.39,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          971.092,
+          1697.971,
+          0.0
+        ],
+        [
+          971.092,
+          1698.373,
+          0.0
+        ],
+        [
+          971.132,
+          1698.413,
+          0.0
+        ],
+        [
+          971.96,
+          1698.413,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          992.774,
+          1705.765,
+          0.0
+        ],
+        [
+          993.614,
+          1705.765,
+          0.0
+        ],
+        [
+          993.614,
+          1706.925,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          993.635,
+          1707.085,
+          0.0
+        ],
+        [
+          993.635,
+          1707.187,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          967.412,
+          1703.815,
+          0.0
+        ],
+        [
+          967.412,
+          1706.641,
+          0.0
+        ],
+        [
+          961.208,
+          1706.641,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          942.448,
+          1706.632,
+          0.0
+        ],
+        [
+          934.387,
+          1706.632,
+          0.0
+        ],
+        [
+          934.387,
+          1708.792,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          934.338,
+          1708.832,
+          0.0
+        ],
+        [
+          934.278,
+          1708.832,
+          0.0
+        ],
+        [
+          934.278,
+          1703.022,
+          0.0
+        ],
+        [
+          934.338,
+          1703.022,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          952.823,
+          1706.572,
+          0.0
+        ],
+        [
+          952.823,
+          1706.432,
+          0.0
+        ],
+        [
+          942.488,
+          1706.432,
+          0.0
+        ],
+        [
+          942.488,
+          1706.582,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          952.843,
+          1706.572,
+          0.0
+        ],
+        [
+          952.843,
+          1706.432,
+          0.0
+        ],
+        [
+          961.161,
+          1706.432,
+          0.0
+        ],
+        [
+          961.161,
+          1706.572,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          967.458,
+          1703.752,
+          0.0
+        ],
+        [
+          967.809,
+          1703.592,
+          0.0
+        ],
+        [
+          967.809,
+          1698.945,
+          0.0
+        ],
+        [
+          971.148,
+          1698.945,
+          0.0
+        ],
+        [
+          971.148,
+          1698.862,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.838,
+          1710.006,
+          0.0
+        ],
+        [
+          968.838,
+          1706.618,
+          0.0
+        ],
+        [
+          971.608,
+          1706.618,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          971.695,
+          1706.626,
+          0.0
+        ],
+        [
+          978.005,
+          1706.626,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          978.091,
+          1706.626,
+          0.0
+        ],
+        [
+          984.101,
+          1706.626,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          967.468,
+          1703.775,
+          0.0
+        ],
+        [
+          967.808,
+          1704.012,
+          0.0
+        ],
+        [
+          967.808,
+          1705.321,
+          0.0
+        ],
+        [
+          967.848,
+          1705.361,
+          0.0
+        ],
+        [
+          969.741,
+          1705.361,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.101,
+          1705.361,
+          0.0
+        ],
+        [
+          971.655,
+          1705.361,
+          0.0
+        ],
+        [
+          971.655,
+          1706.591,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.538,
+          1709.001,
+          0.0
+        ],
+        [
+          970.538,
+          1709.111,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.898,
+          1708.848,
+          0.0
+        ],
+        [
+          970.898,
+          1708.837,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.898,
+          1708.835,
+          0.0
+        ],
+        [
+          970.898,
+          1708.857,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.923,
+          1708.814,
+          0.0
+        ],
+        [
+          971.246,
+          1708.814,
+          0.0
+        ],
+        [
+          971.246,
+          1708.794,
+          0.0
+        ],
+        [
+          971.267,
+          1708.816,
+          0.0
+        ],
+        [
+          971.246,
+          1708.826,
+          0.0
+        ],
+        [
+          971.246,
+          1708.814,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.615,
+          1708.727,
+          0.0
+        ],
+        [
+          970.615,
+          1708.801,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          971.548,
+          1706.802,
+          0.0
+        ],
+        [
+          971.548,
+          1706.763,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.57,
+          1708.686,
+          0.0
+        ],
+        [
+          970.519,
+          1708.686,
+          0.0
+        ],
+        [
+          970.519,
+          1708.785,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          971.494,
+          1706.852,
+          0.0
+        ],
+        [
+          971.44,
+          1706.852,
+          0.0
+        ],
+        [
+          971.44,
+          1706.764,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.548,
+          1713.501,
+          0.0
+        ],
+        [
+          970.548,
+          1713.428,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.898,
+          1713.691,
+          0.0
+        ],
+        [
+          970.898,
+          1713.642,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.923,
+          1708.814,
+          0.0
+        ],
+        [
+          971.246,
+          1708.814,
+          0.0
+        ],
+        [
+          971.246,
+          1708.794,
+          0.0
+        ],
+        [
+          971.267,
+          1708.816,
+          0.0
+        ],
+        [
+          971.246,
+          1708.826,
+          0.0
+        ],
+        [
+          971.246,
+          1708.814,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          993.144,
+          1711.574,
+          0.0
+        ],
+        [
+          993.144,
+          1711.501,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          993.494,
+          1711.77,
+          0.0
+        ],
+        [
+          993.494,
+          1711.833,
+          0.0
+        ],
+        [
+          993.843,
+          1711.833,
+          0.0
+        ],
+        [
+          993.843,
+          1711.813,
+          0.0
+        ],
+        [
+          993.863,
+          1711.835,
+          0.0
+        ],
+        [
+          993.843,
+          1711.844,
+          0.0
+        ],
+        [
+          993.843,
+          1711.832,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          968.766,
+          1704.214,
+          0.0
+        ],
+        [
+          968.766,
+          1704.319,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-Powr-service",
+      "es_electrica": true,
+      "puntos": [
+        [
+          971.404,
+          1698.136,
+          0.0
+        ],
+        [
+          971.224,
+          1698.136,
+          0.0
+        ],
+        [
+          971.224,
+          1698.539,
+          0.0
+        ],
+        [
+          970.448,
+          1698.539,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          971.349,
+          1707.29,
+          0.0
+        ],
+        [
+          971.349,
+          1706.9,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    },
+    {
+      "capa": "ELEC-LIGHT-PIPE",
+      "es_electrica": true,
+      "puntos": [
+        [
+          970.305,
+          1713.691,
+          0.0
+        ],
+        [
+          970.305,
+          1713.642,
+          0.0
+        ]
+      ],
+      "cerrada": false
+    }
+  ],
+  "lineas": [
+    {
+      "capa": "DIAGONAL",
+      "es_electrica": false,
+      "inicio": [
+        924.702,
+        1696.137,
+        -0.0
+      ],
+      "fin": [
+        991.903,
+        1714.822,
+        0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        984.886,
+        1718.328,
+        -36.745
+      ],
+      "fin": [
+        987.567,
+        1718.328,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        984.911,
+        1718.354,
+        -36.745
+      ],
+      "fin": [
+        987.541,
+        1718.354,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        988.268,
+        1718.328,
+        -36.745
+      ],
+      "fin": [
+        990.949,
+        1718.328,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        988.294,
+        1718.354,
+        -36.745
+      ],
+      "fin": [
+        989.255,
+        1718.354,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        989.28,
+        1718.354,
+        -36.745
+      ],
+      "fin": [
+        990.924,
+        1718.354,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        973.774,
+        1718.328,
+        -36.745
+      ],
+      "fin": [
+        976.456,
+        1718.328,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        973.8,
+        1718.354,
+        -36.745
+      ],
+      "fin": [
+        976.43,
+        1718.354,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        979.78,
+        1718.328,
+        -36.745
+      ],
+      "fin": [
+        982.461,
+        1718.328,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        979.805,
+        1718.354,
+        -36.745
+      ],
+      "fin": [
+        982.435,
+        1718.354,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.071,
+        1718.328,
+        -36.745
+      ],
+      "fin": [
+        937.752,
+        1718.328,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.096,
+        1718.354,
+        -36.745
+      ],
+      "fin": [
+        937.726,
+        1718.354,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.502,
+        1718.328,
+        -36.745
+      ],
+      "fin": [
+        964.183,
+        1718.328,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.528,
+        1718.354,
+        -36.745
+      ],
+      "fin": [
+        964.158,
+        1718.354,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.054,
+        1718.343,
+        -36.745
+      ],
+      "fin": [
+        956.736,
+        1718.343,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.08,
+        1718.368,
+        -36.745
+      ],
+      "fin": [
+        956.71,
+        1718.368,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        940.67,
+        1718.328,
+        -36.745
+      ],
+      "fin": [
+        943.351,
+        1718.328,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        940.696,
+        1718.354,
+        -36.745
+      ],
+      "fin": [
+        943.326,
+        1718.354,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.25,
+        1718.328,
+        -36.745
+      ],
+      "fin": [
+        951.931,
+        1718.328,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.276,
+        1718.354,
+        -36.745
+      ],
+      "fin": [
+        951.906,
+        1718.354,
+        -36.745
+      ]
+    },
+    {
+      "capa": "MUEBLES",
+      "es_electrica": false,
+      "inicio": [
+        941.251,
+        1697.135,
+        -0.0
+      ],
+      "fin": [
+        938.36,
+        1697.135,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        987.747,
+        1717.354,
+        -0.0
+      ],
+      "fin": [
+        987.747,
+        1717.973,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        987.747,
+        1717.973,
+        -0.0
+      ],
+      "fin": [
+        985.066,
+        1717.973,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        985.066,
+        1717.973,
+        -0.0
+      ],
+      "fin": [
+        985.066,
+        1717.354,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        987.721,
+        1717.379,
+        -0.0
+      ],
+      "fin": [
+        987.721,
+        1717.948,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        987.721,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        985.091,
+        1717.948,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        985.091,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        985.091,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        986.052,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        986.052,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        986.078,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        986.078,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        991.129,
+        1717.354,
+        -0.0
+      ],
+      "fin": [
+        991.129,
+        1717.973,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        991.129,
+        1717.973,
+        -0.0
+      ],
+      "fin": [
+        988.448,
+        1717.973,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        988.448,
+        1717.973,
+        -0.0
+      ],
+      "fin": [
+        988.448,
+        1717.354,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        991.104,
+        1717.379,
+        -0.0
+      ],
+      "fin": [
+        991.104,
+        1717.948,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        991.104,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        988.474,
+        1717.948,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        988.474,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        988.474,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        989.435,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        989.435,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        989.46,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        989.46,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        976.456,
+        1717.354,
+        -0.0
+      ],
+      "fin": [
+        976.456,
+        1717.973,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        976.456,
+        1717.973,
+        -0.0
+      ],
+      "fin": [
+        973.774,
+        1717.973,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        973.774,
+        1717.973,
+        -0.0
+      ],
+      "fin": [
+        973.774,
+        1717.354,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        976.43,
+        1717.379,
+        -0.0
+      ],
+      "fin": [
+        976.43,
+        1717.948,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        976.43,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        974.787,
+        1717.948,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        974.761,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        973.8,
+        1717.948,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        973.8,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        973.8,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        974.761,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        974.761,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        974.787,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        974.787,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        982.641,
+        1717.354,
+        -0.0
+      ],
+      "fin": [
+        982.641,
+        1717.973,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        982.641,
+        1717.973,
+        -0.0
+      ],
+      "fin": [
+        979.96,
+        1717.973,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        979.96,
+        1717.973,
+        -0.0
+      ],
+      "fin": [
+        979.96,
+        1717.354,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        982.615,
+        1717.379,
+        -0.0
+      ],
+      "fin": [
+        982.615,
+        1717.948,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        982.615,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        979.985,
+        1717.948,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        979.985,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        979.985,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        980.946,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        980.946,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        980.972,
+        1717.948,
+        -0.0
+      ],
+      "fin": [
+        980.972,
+        1717.379,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        940.976,
+        1717.413,
+        -0.0
+      ],
+      "fin": [
+        943.658,
+        1717.413,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        943.658,
+        1717.413,
+        -0.0
+      ],
+      "fin": [
+        943.658,
+        1718.033,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        943.658,
+        1718.033,
+        -0.0
+      ],
+      "fin": [
+        940.976,
+        1718.033,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        940.976,
+        1718.033,
+        -0.0
+      ],
+      "fin": [
+        940.976,
+        1717.413,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        941.002,
+        1717.439,
+        -0.0
+      ],
+      "fin": [
+        943.632,
+        1717.439,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        943.632,
+        1717.439,
+        -0.0
+      ],
+      "fin": [
+        943.632,
+        1718.007,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        943.632,
+        1718.007,
+        -0.0
+      ],
+      "fin": [
+        941.002,
+        1718.007,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        941.002,
+        1718.007,
+        -0.0
+      ],
+      "fin": [
+        941.002,
+        1717.439,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        941.963,
+        1718.007,
+        -0.0
+      ],
+      "fin": [
+        941.963,
+        1717.439,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        941.989,
+        1718.007,
+        -0.0
+      ],
+      "fin": [
+        941.989,
+        1717.439,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.449,
+        1717.383,
+        -0.0
+      ],
+      "fin": [
+        952.13,
+        1717.383,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        952.13,
+        1717.383,
+        -0.0
+      ],
+      "fin": [
+        952.13,
+        1718.003,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        952.13,
+        1718.003,
+        -0.0
+      ],
+      "fin": [
+        949.449,
+        1718.003,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.449,
+        1718.003,
+        -0.0
+      ],
+      "fin": [
+        949.449,
+        1717.383,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.475,
+        1717.409,
+        -0.0
+      ],
+      "fin": [
+        952.105,
+        1717.409,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        952.105,
+        1717.409,
+        -0.0
+      ],
+      "fin": [
+        952.105,
+        1717.977,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        952.105,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        949.475,
+        1717.977,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.475,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        949.475,
+        1717.409,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        964.254,
+        1717.988,
+        -0.0
+      ],
+      "fin": [
+        961.573,
+        1717.988,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.573,
+        1717.988,
+        -0.0
+      ],
+      "fin": [
+        961.573,
+        1717.368,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.598,
+        1717.394,
+        -0.0
+      ],
+      "fin": [
+        964.228,
+        1717.394,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        964.228,
+        1717.394,
+        -0.0
+      ],
+      "fin": [
+        964.228,
+        1717.962,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        964.228,
+        1717.962,
+        -0.0
+      ],
+      "fin": [
+        961.598,
+        1717.962,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.598,
+        1717.962,
+        -0.0
+      ],
+      "fin": [
+        961.598,
+        1717.394,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        962.56,
+        1717.962,
+        -0.0
+      ],
+      "fin": [
+        962.56,
+        1717.394,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        962.585,
+        1717.962,
+        -0.0
+      ],
+      "fin": [
+        962.585,
+        1717.394,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.013,
+        1717.383,
+        -0.0
+      ],
+      "fin": [
+        956.694,
+        1717.383,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        956.694,
+        1717.383,
+        -0.0
+      ],
+      "fin": [
+        956.694,
+        1718.003,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        956.694,
+        1718.003,
+        -0.0
+      ],
+      "fin": [
+        954.013,
+        1718.003,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.013,
+        1718.003,
+        -0.0
+      ],
+      "fin": [
+        954.013,
+        1717.383,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.039,
+        1717.409,
+        -0.0
+      ],
+      "fin": [
+        956.669,
+        1717.409,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        956.669,
+        1717.409,
+        -0.0
+      ],
+      "fin": [
+        956.669,
+        1717.977,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        956.669,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        954.039,
+        1717.977,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.039,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        954.039,
+        1717.409,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        955.0,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        955.0,
+        1717.409,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        955.026,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        955.026,
+        1717.409,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        984.886,
+        1693.621,
+        -0.0
+      ],
+      "fin": [
+        987.567,
+        1693.621,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        987.567,
+        1693.621,
+        -0.0
+      ],
+      "fin": [
+        987.567,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        987.567,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        984.886,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        984.886,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        984.886,
+        1693.621,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        984.911,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        987.541,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        987.541,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        987.541,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        987.541,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        984.911,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        984.911,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        984.911,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        985.872,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        985.872,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        985.898,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        985.898,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        988.268,
+        1693.621,
+        -0.0
+      ],
+      "fin": [
+        990.949,
+        1693.621,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        990.949,
+        1693.621,
+        -0.0
+      ],
+      "fin": [
+        990.949,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        990.949,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        988.268,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        988.268,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        988.268,
+        1693.621,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        988.294,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        989.255,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        989.28,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        990.924,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        990.924,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        990.924,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        990.924,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        989.28,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        989.255,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        988.294,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        988.294,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        988.294,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        989.255,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        989.255,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        989.28,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        989.28,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        973.774,
+        1693.621,
+        -0.0
+      ],
+      "fin": [
+        976.456,
+        1693.621,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        976.456,
+        1693.621,
+        -0.0
+      ],
+      "fin": [
+        976.456,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        976.456,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        973.774,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        973.774,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        973.774,
+        1693.621,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        973.8,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        976.43,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        976.43,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        976.43,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        976.43,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        973.8,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        973.8,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        973.8,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        974.761,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        974.761,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        974.787,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        974.787,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        979.78,
+        1693.621,
+        -0.0
+      ],
+      "fin": [
+        982.461,
+        1693.621,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        982.461,
+        1693.621,
+        -0.0
+      ],
+      "fin": [
+        982.461,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        982.461,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        979.78,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        979.78,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        979.78,
+        1693.621,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        979.805,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        982.435,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        982.435,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        982.435,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        982.435,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        979.805,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        979.805,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        979.805,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        980.766,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        980.766,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        980.792,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        980.792,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.071,
+        1693.62,
+        -0.0
+      ],
+      "fin": [
+        937.752,
+        1693.62,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        937.752,
+        1693.62,
+        -0.0
+      ],
+      "fin": [
+        937.752,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        937.752,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        935.071,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.071,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        935.071,
+        1693.62,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.096,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        937.726,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        937.726,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        937.726,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        937.726,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        935.096,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.096,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        935.096,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        936.057,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        936.057,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        936.083,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        936.083,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.036,
+        1717.358,
+        -0.0
+      ],
+      "fin": [
+        937.717,
+        1717.358,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        937.717,
+        1717.358,
+        -0.0
+      ],
+      "fin": [
+        937.717,
+        1717.977,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        937.717,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        935.036,
+        1717.977,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.036,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        935.036,
+        1717.358,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.061,
+        1717.383,
+        -0.0
+      ],
+      "fin": [
+        937.691,
+        1717.383,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        937.691,
+        1717.383,
+        -0.0
+      ],
+      "fin": [
+        937.691,
+        1717.952,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        937.691,
+        1717.952,
+        -0.0
+      ],
+      "fin": [
+        935.061,
+        1717.952,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        935.061,
+        1717.952,
+        -0.0
+      ],
+      "fin": [
+        935.061,
+        1717.383,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        936.022,
+        1717.952,
+        -0.0
+      ],
+      "fin": [
+        936.022,
+        1717.383,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        936.048,
+        1717.952,
+        -0.0
+      ],
+      "fin": [
+        936.048,
+        1717.383,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        918.9,
+        1704.483,
+        -0.0
+      ],
+      "fin": [
+        921.581,
+        1704.483,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.581,
+        1704.483,
+        -0.0
+      ],
+      "fin": [
+        921.581,
+        1705.102,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.581,
+        1705.102,
+        -0.0
+      ],
+      "fin": [
+        918.9,
+        1705.102,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        918.9,
+        1705.102,
+        -0.0
+      ],
+      "fin": [
+        918.9,
+        1704.483,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        918.925,
+        1704.508,
+        -0.0
+      ],
+      "fin": [
+        921.555,
+        1704.508,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.555,
+        1704.508,
+        -0.0
+      ],
+      "fin": [
+        921.555,
+        1705.076,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        951.906,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        949.276,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.276,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        949.276,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        950.237,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        950.237,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        950.263,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        950.263,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.502,
+        1693.62,
+        -0.0
+      ],
+      "fin": [
+        964.183,
+        1693.62,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        964.183,
+        1693.62,
+        -0.0
+      ],
+      "fin": [
+        964.183,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        964.183,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        961.502,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.502,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        961.502,
+        1693.62,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.528,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        964.158,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        964.158,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        964.158,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        964.158,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        961.528,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.528,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        961.528,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        950.436,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        950.436,
+        1717.409,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        950.462,
+        1717.977,
+        -0.0
+      ],
+      "fin": [
+        950.462,
+        1717.409,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        961.573,
+        1717.368,
+        -0.0
+      ],
+      "fin": [
+        964.254,
+        1717.368,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        964.254,
+        1717.368,
+        -0.0
+      ],
+      "fin": [
+        964.254,
+        1717.988,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        962.489,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        962.489,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        962.515,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        962.515,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.054,
+        1693.635,
+        -0.0
+      ],
+      "fin": [
+        956.736,
+        1693.635,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        956.736,
+        1693.635,
+        -0.0
+      ],
+      "fin": [
+        956.736,
+        1694.255,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        956.736,
+        1694.255,
+        -0.0
+      ],
+      "fin": [
+        954.054,
+        1694.255,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.054,
+        1694.255,
+        -0.0
+      ],
+      "fin": [
+        954.054,
+        1693.635,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.08,
+        1693.661,
+        -0.0
+      ],
+      "fin": [
+        956.71,
+        1693.661,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        956.71,
+        1693.661,
+        -0.0
+      ],
+      "fin": [
+        956.71,
+        1694.229,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        956.71,
+        1694.229,
+        -0.0
+      ],
+      "fin": [
+        954.08,
+        1694.229,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        954.08,
+        1694.229,
+        -0.0
+      ],
+      "fin": [
+        954.08,
+        1693.661,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        955.041,
+        1694.229,
+        -0.0
+      ],
+      "fin": [
+        955.041,
+        1693.661,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        955.067,
+        1694.229,
+        -0.0
+      ],
+      "fin": [
+        955.067,
+        1693.661,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        940.67,
+        1693.62,
+        -0.0
+      ],
+      "fin": [
+        943.351,
+        1693.62,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        943.351,
+        1693.62,
+        -0.0
+      ],
+      "fin": [
+        943.351,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        943.351,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        940.67,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        940.67,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        940.67,
+        1693.62,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        940.696,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        943.326,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        943.326,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        943.326,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        943.326,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        940.696,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        940.696,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        940.696,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        941.657,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        941.657,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        941.683,
+        1694.214,
+        -0.0
+      ],
+      "fin": [
+        941.683,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.07,
+        1711.569,
+        -0.0
+      ],
+      "fin": [
+        921.751,
+        1711.564,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.751,
+        1711.564,
+        -0.0
+      ],
+      "fin": [
+        921.751,
+        1712.188,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.751,
+        1712.188,
+        -0.0
+      ],
+      "fin": [
+        919.07,
+        1712.188,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.07,
+        1712.188,
+        -0.0
+      ],
+      "fin": [
+        919.07,
+        1711.569,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.095,
+        1711.594,
+        -0.0
+      ],
+      "fin": [
+        921.725,
+        1711.589,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.725,
+        1711.589,
+        -0.0
+      ],
+      "fin": [
+        921.725,
+        1712.163,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.725,
+        1712.163,
+        -0.0
+      ],
+      "fin": [
+        919.095,
+        1712.163,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.095,
+        1712.163,
+        -0.0
+      ],
+      "fin": [
+        919.095,
+        1711.594,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        920.057,
+        1712.163,
+        -0.0
+      ],
+      "fin": [
+        920.057,
+        1711.594,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        920.082,
+        1712.163,
+        -0.0
+      ],
+      "fin": [
+        920.082,
+        1711.594,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.07,
+        1697.837,
+        -0.0
+      ],
+      "fin": [
+        921.751,
+        1697.837,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.751,
+        1697.837,
+        -0.0
+      ],
+      "fin": [
+        921.751,
+        1698.457,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.751,
+        1698.457,
+        -0.0
+      ],
+      "fin": [
+        919.07,
+        1698.457,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.07,
+        1698.457,
+        -0.0
+      ],
+      "fin": [
+        919.07,
+        1697.837,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.555,
+        1705.076,
+        -0.0
+      ],
+      "fin": [
+        918.925,
+        1705.076,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        918.925,
+        1705.076,
+        -0.0
+      ],
+      "fin": [
+        918.925,
+        1704.508,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.886,
+        1705.076,
+        -0.0
+      ],
+      "fin": [
+        919.886,
+        1704.508,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.912,
+        1705.076,
+        -0.0
+      ],
+      "fin": [
+        919.912,
+        1704.508,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.25,
+        1693.62,
+        -0.0
+      ],
+      "fin": [
+        951.931,
+        1693.62,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        951.931,
+        1693.62,
+        -0.0
+      ],
+      "fin": [
+        951.931,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        951.931,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        949.25,
+        1694.24,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.25,
+        1694.24,
+        -0.0
+      ],
+      "fin": [
+        949.25,
+        1693.62,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.095,
+        1697.863,
+        -0.0
+      ],
+      "fin": [
+        921.725,
+        1697.863,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.725,
+        1697.863,
+        -0.0
+      ],
+      "fin": [
+        921.725,
+        1698.431,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        921.725,
+        1698.431,
+        -0.0
+      ],
+      "fin": [
+        919.095,
+        1698.431,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        919.095,
+        1698.431,
+        -0.0
+      ],
+      "fin": [
+        919.095,
+        1697.863,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        920.057,
+        1698.431,
+        -0.0
+      ],
+      "fin": [
+        920.057,
+        1697.863,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        920.082,
+        1698.431,
+        -0.0
+      ],
+      "fin": [
+        920.082,
+        1697.863,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        949.276,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        951.906,
+        1693.646,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLEFIJO",
+      "es_electrica": false,
+      "inicio": [
+        951.906,
+        1693.646,
+        -0.0
+      ],
+      "fin": [
+        951.906,
+        1694.214,
+        -0.0
+      ]
+    },
+    {
+      "capa": "X-PISOS",
+      "es_electrica": false,
+      "inicio": [
+        932.705,
+        1710.037,
+        -0.0
+      ],
+      "fin": [
+        931.422,
+        1707.263,
+        -0.0
+      ]
+    },
+    {
+      "capa": "X-PISOS",
+      "es_electrica": false,
+      "inicio": [
+        931.422,
+        1710.436,
+        -0.0
+      ],
+      "fin": [
+        932.705,
+        1707.664,
+        -0.0
+      ]
+    },
+    {
+      "capa": "X-PISOS",
+      "es_electrica": false,
+      "inicio": [
+        932.725,
+        1702.943,
+        -0.0
+      ],
+      "fin": [
+        931.422,
+        1701.52,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUROS",
+      "es_electrica": false,
+      "inicio": [
+        925.927,
+        1715.992,
+        -0.0
+      ],
+      "fin": [
+        925.927,
+        1715.992,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLES",
+      "es_electrica": false,
+      "inicio": [
+        992.779,
+        1701.727,
+        -0.0
+      ],
+      "fin": [
+        992.779,
+        1700.927,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLES",
+      "es_electrica": false,
+      "inicio": [
+        992.719,
+        1701.727,
+        -0.0
+      ],
+      "fin": [
+        992.719,
+        1700.927,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUROS",
+      "es_electrica": false,
+      "inicio": [
+        992.779,
+        1701.847,
+        -0.0
+      ],
+      "fin": [
+        991.903,
+        1701.847,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUROS",
+      "es_electrica": false,
+      "inicio": [
+        992.779,
+        1701.727,
+        -0.0
+      ],
+      "fin": [
+        991.903,
+        1701.727,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUROS",
+      "es_electrica": false,
+      "inicio": [
+        992.779,
+        1701.847,
+        -0.0
+      ],
+      "fin": [
+        992.779,
+        1701.727,
+        -0.0
+      ]
+    },
+    {
+      "capa": "Hatch",
+      "es_electrica": false,
+      "inicio": [
+        992.084,
+        1701.286,
+        -0.0
+      ],
+      "fin": [
+        992.719,
+        1700.927,
+        -0.0
+      ]
+    },
+    {
+      "capa": "Hatch",
+      "es_electrica": false,
+      "inicio": [
+        992.047,
+        1701.346,
+        -0.0
+      ],
+      "fin": [
+        991.903,
+        1700.927,
+        -0.0
+      ]
+    },
+    {
+      "capa": "Hatch",
+      "es_electrica": false,
+      "inicio": [
+        992.164,
+        1701.392,
+        -0.0
+      ],
+      "fin": [
+        991.903,
+        1701.727,
+        -0.0
+      ]
+    },
+    {
+      "capa": "Hatch",
+      "es_electrica": false,
+      "inicio": [
+        992.151,
+        1701.286,
+        -0.0
+      ],
+      "fin": [
+        992.719,
+        1701.727,
+        -0.0
+      ]
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "inicio": [
+        1003.386,
+        1709.915,
+        -0.0
+      ],
+      "fin": [
+        1012.397,
+        1709.915,
+        -0.0
+      ]
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "inicio": [
+        1003.386,
+        1709.815,
+        -0.0
+      ],
+      "fin": [
+        1012.397,
+        1709.815,
+        -0.0
+      ]
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "inicio": [
+        1003.386,
+        1708.893,
+        -0.0
+      ],
+      "fin": [
+        1012.397,
+        1708.893,
+        -0.0
+      ]
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "inicio": [
+        1003.386,
+        1707.97,
+        -0.0
+      ],
+      "fin": [
+        1012.397,
+        1707.97,
+        -0.0
+      ]
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "inicio": [
+        1003.386,
+        1707.047,
+        -0.0
+      ],
+      "fin": [
+        1012.397,
+        1707.047,
+        -0.0
+      ]
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "inicio": [
+        1003.386,
+        1706.124,
+        -0.0
+      ],
+      "fin": [
+        1012.397,
+        1706.124,
+        -0.0
+      ]
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "inicio": [
+        1007.275,
+        1709.815,
+        -0.0
+      ],
+      "fin": [
+        1007.275,
+        1706.124,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLES",
+      "es_electrica": false,
+      "inicio": [
+        968.893,
+        1708.731,
+        -0.0
+      ],
+      "fin": [
+        968.893,
+        1707.919,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLES",
+      "es_electrica": false,
+      "inicio": [
+        968.893,
+        1707.799,
+        -0.0
+      ],
+      "fin": [
+        968.893,
+        1706.799,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLES",
+      "es_electrica": false,
+      "inicio": [
+        968.943,
+        1708.731,
+        -0.0
+      ],
+      "fin": [
+        968.943,
+        1707.919,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUEBLES",
+      "es_electrica": false,
+      "inicio": [
+        968.943,
+        1707.799,
+        -0.0
+      ],
+      "fin": [
+        968.943,
+        1706.799,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUROS",
+      "es_electrica": false,
+      "inicio": [
+        992.779,
+        1703.38,
+        -0.0
+      ],
+      "fin": [
+        992.779,
+        1703.5,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUROS",
+      "es_electrica": false,
+      "inicio": [
+        992.779,
+        1703.5,
+        -0.0
+      ],
+      "fin": [
+        991.903,
+        1703.5,
+        -0.0
+      ]
+    },
+    {
+      "capa": "MUROS",
+      "es_electrica": false,
+      "inicio": [
+        991.903,
+        1703.38,
+        -0.0
+      ],
+      "fin": [
+        992.779,
+        1703.38,
+        -0.0
+      ]
+    },
+    {
+      "capa": "0",
+      "es_electrica": false,
+      "inicio": [
+        917.815,
+        1716.973,
+        -18.372
+      ],
+      "fin": [
+        923.753,
+        1716.973,
+        -18.372
+      ]
+    }
+  ],
+  "arcos": [
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        969.678,
+        1700.686,
+        -0.0
+      ],
+      "radio": 1.196,
+      "angulo_inicio": 8181.34,
+      "angulo_fin": 12257.21
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        971.22,
+        1702.958,
+        -0.0
+      ],
+      "radio": 2.904,
+      "angulo_inicio": 8573.6,
+      "angulo_fin": 12121.05
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        969.093,
+        1702.887,
+        -0.0
+      ],
+      "radio": 3.082,
+      "angulo_inicio": 3930.91,
+      "angulo_fin": 6115.08
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        967.657,
+        1704.821,
+        -0.0
+      ],
+      "radio": 1.156,
+      "angulo_inicio": 3533.31,
+      "angulo_fin": 6921.09
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        967.464,
+        1706.636,
+        -0.0
+      ],
+      "radio": 1.089,
+      "angulo_inicio": 17928.96,
+      "angulo_fin": 2503.96
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        963.521,
+        1706.078,
+        -0.0
+      ],
+      "radio": 0.493,
+      "angulo_inicio": 13194.16,
+      "angulo_fin": 17956.34
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        961.996,
+        1710.637,
+        -0.0
+      ],
+      "radio": 5.084,
+      "angulo_inicio": 14588.05,
+      "angulo_fin": 16258.53
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        956.7,
+        1707.373,
+        -0.0
+      ],
+      "radio": 1.824,
+      "angulo_inicio": 14225.9,
+      "angulo_fin": 16882.77
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        955.216,
+        1708.02,
+        -0.0
+      ],
+      "radio": 2.477,
+      "angulo_inicio": 14163.66,
+      "angulo_fin": 16562.8
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        949.94,
+        1708.958,
+        -0.0
+      ],
+      "radio": 3.439,
+      "angulo_inicio": 14466.73,
+      "angulo_fin": 16578.41
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        948.427,
+        1706.772,
+        -0.0
+      ],
+      "radio": 1.201,
+      "angulo_inicio": 13841.14,
+      "angulo_fin": 16874.37
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        943.029,
+        1701.646,
+        -0.0
+      ],
+      "radio": 4.391,
+      "angulo_inicio": 3888.33,
+      "angulo_fin": 6529.34
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        939.887,
+        1711.463,
+        -0.0
+      ],
+      "radio": 5.962,
+      "angulo_inicio": 14546.13,
+      "angulo_fin": 16224.66
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        934.295,
+        1706.623,
+        -0.0
+      ],
+      "radio": 1.16,
+      "angulo_inicio": 13444.15,
+      "angulo_fin": 17781.23
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        932.671,
+        1706.478,
+        -0.0
+      ],
+      "radio": 1.153,
+      "angulo_inicio": 18625.62,
+      "angulo_fin": 1669.66
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        933.167,
+        1710.279,
+        -0.0
+      ],
+      "radio": 0.523,
+      "angulo_inicio": 19605.38,
+      "angulo_fin": 2145.23
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        930.782,
+        1711.903,
+        -0.0
+      ],
+      "radio": 3.065,
+      "angulo_inicio": 19370.01,
+      "angulo_fin": 1228.71
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        934.159,
+        1705.126,
+        -0.0
+      ],
+      "radio": 0.853,
+      "angulo_inicio": 7575.2,
+      "angulo_fin": 13003.66
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        974.086,
+        1704.199,
+        -0.0
+      ],
+      "radio": 1.719,
+      "angulo_inicio": 4088.49,
+      "angulo_fin": 6339.38
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        975.631,
+        1703.2,
+        -0.0
+      ],
+      "radio": 2.811,
+      "angulo_inicio": 3900.63,
+      "angulo_fin": 6345.52
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        981.103,
+        1702.219,
+        -0.0
+      ],
+      "radio": 3.806,
+      "angulo_inicio": 4039.42,
+      "angulo_fin": 6243.85
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        982.388,
+        1705.847,
+        -0.0
+      ],
+      "radio": 0.042,
+      "angulo_inicio": 14352.66,
+      "angulo_fin": 17622.33
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        982.733,
+        1705.257,
+        -0.0
+      ],
+      "radio": 0.658,
+      "angulo_inicio": 3319.38,
+      "angulo_fin": 6751.71
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        984.677,
+        1700.033,
+        -0.0
+      ],
+      "radio": 5.991,
+      "angulo_inicio": 4277.54,
+      "angulo_fin": 6039.36
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        987.859,
+        1698.673,
+        -0.0
+      ],
+      "radio": 7.316,
+      "angulo_inicio": 4429.69,
+      "angulo_fin": 5886.56
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        989.826,
+        1704.991,
+        -0.0
+      ],
+      "radio": 0.894,
+      "angulo_inicio": 3969.59,
+      "angulo_fin": 6520.68
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        933.785,
+        1700.872,
+        -0.0
+      ],
+      "radio": 0.61,
+      "angulo_inicio": 6247.22,
+      "angulo_fin": 14522.22
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        934.173,
+        1699.291,
+        -0.0
+      ],
+      "radio": 1.029,
+      "angulo_inicio": 7072.98,
+      "angulo_fin": 13258.7
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        991.448,
+        1700.728,
+        -0.0
+      ],
+      "radio": 5.249,
+      "angulo_inicio": 4369.13,
+      "angulo_fin": 5990.8
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        965.623,
+        1712.008,
+        -0.0
+      ],
+      "radio": 2.963,
+      "angulo_inicio": 19086.07,
+      "angulo_fin": 1615.17
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        971.346,
+        1707.666,
+        0.0
+      ],
+      "radio": 0.819,
+      "angulo_inicio": 11924.33,
+      "angulo_fin": 15315.11
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        934.133,
+        1697.414,
+        0.0
+      ],
+      "radio": 0.532,
+      "angulo_inicio": 3885.64,
+      "angulo_fin": 9068.43
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        968.504,
+        1697.994,
+        0.0
+      ],
+      "radio": 0.266,
+      "angulo_inicio": 20462.04,
+      "angulo_fin": 5571.06
+    },
+    {
+      "capa": "ELEC-CONTROL ILUM",
+      "es_electrica": true,
+      "centro": [
+        969.936,
+        1694.951,
+        0.0
+      ],
+      "radio": 3.241,
+      "angulo_inicio": 3949.41,
+      "angulo_fin": 6356.08
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        969.921,
+        1705.564,
+        0.0
+      ],
+      "radio": 0.271,
+      "angulo_inicio": 13088.8,
+      "angulo_fin": 17850.92
+    }
+  ],
+  "circulos": [
+    {
+      "capa": "Hatch",
+      "es_electrica": false,
+      "centro": [
+        992.114,
+        1701.346,
+        -0.0
+      ],
+      "radio": 0.067
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        971.986,
+        1698.498,
+        -0.0
+      ],
+      "radio": 0.026
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        971.986,
+        1698.412,
+        -0.0
+      ],
+      "radio": 0.026
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        970.897,
+        1708.811,
+        0.0
+      ],
+      "radio": 0.026
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        970.615,
+        1708.804,
+        0.0
+      ],
+      "radio": 0.025
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        971.546,
+        1706.747,
+        0.0
+      ],
+      "radio": 0.016
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        970.519,
+        1708.801,
+        0.0
+      ],
+      "radio": 0.018
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        971.44,
+        1706.746,
+        0.0
+      ],
+      "radio": 0.018
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        970.304,
+        1708.811,
+        0.0
+      ],
+      "radio": 0.026
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        970.897,
+        1713.714,
+        0.0
+      ],
+      "radio": 0.026
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        970.304,
+        1713.711,
+        0.0
+      ],
+      "radio": 0.026
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        993.494,
+        1711.744,
+        0.0
+      ],
+      "radio": 0.026
+    },
+    {
+      "capa": "ELEC-POWER- PIPE",
+      "es_electrica": true,
+      "centro": [
+        992.513,
+        1711.748,
+        0.0
+      ],
+      "radio": 0.026
+    }
+  ],
+  "mapeo_revit": {
+    "Bala Stil Led 12W": "Luminaria LED 12W",
+    "1FTN": "Luminaria tubular 1x",
+    "1FTNR": "Luminaria tubular 1x con reflector",
+    "ELEC-LAF EMERG BAT LED": "Luminaria emergencia LED batería",
+    "SS-Sensor Proximidad": "Sensor de proximidad",
+    "ELEC-I-S-1-5A": "Interruptor simple 1x 5A",
+    "ELEC-T-D-t-15A": "Toma doble 15A",
+    "Bala Stil Led 16W": "Luminaria LED 16W",
+    "HERMETICA 40W": "Luminaria hermética 40W",
+    "Paneles": "Tablero eléctrico",
+    "tablero": "Tablero eléctrico",
+    "Paneles Solares 550W": "Panel solar 550W"
+  }
+}

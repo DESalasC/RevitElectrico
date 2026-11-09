@@ -1,0 +1,13 @@
+{
+  "chip": "SANTAMARTA_T5",
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA.rvt",
+  "tipos_conduit_esperados": [
+    {"nombre": "Conduit 3/4\"",   "mm_min": 3,   "mm_max": 4,   "pulgadas": "3/4\"",   "diametro_mm": 19.05},
+    {"nombre": "Conduit 1\"",     "mm_min": 5,   "mm_max": 6,   "pulgadas": "1\"",     "diametro_mm": 25.40},
+    {"nombre": "Conduit 1-1/4\"", "mm_min": 7,   "mm_max": 8,   "pulgadas": "1-1/4\"", "diametro_mm": 31.75},
+    {"nombre": "Conduit 2\"",     "mm_min": 9,   "mm_max": 11,  "pulgadas": "2\"",     "diametro_mm": 50.80},
+    {"nombre": "Conduit 3\"",    "mm_min": 12,  "mm_max": 15,  "pulgadas": "3\"",     "diametro_mm": 76.20}
+  ],
+  "nivel_elevacion_pies": 0.0,
+  "tipo_base_nombre": "Conduit 3/4\" Existente"
+}

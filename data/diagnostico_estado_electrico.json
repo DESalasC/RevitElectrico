@@ -1,0 +1,38 @@
+{
+  "por_nivel": {
+    "Piso 16": 3, 
+    "Piso 13": 3, 
+    "Piso 15": 3, 
+    "Piso 5": 3, 
+    "Piso 10": 3, 
+    "Piso 18": 3, 
+    "Piso 11": 3, 
+    "Piso 3": 5, 
+    "Piso 14": 3, 
+    "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 19-21": 1, 
+    "Piso 8": 3, 
+    "(nulo)": 192, 
+    "Piso 21": 1, 
+    "Piso 6": 3, 
+    "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18": 3, 
+    "Piso 17": 3, 
+    "Piso 12": 3, 
+    "Piso 9": 3, 
+    "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3": 5, 
+    "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1": 5, 
+    "Piso 20": 1, 
+    "Piso 7": 3
+  }, 
+  "con_comentario_red_si": 0, 
+  "script": "DIAGNOSTICO_ESTADO_ELECTRICO_v01.py", 
+  "version": "v01-estado-electrico", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V00", 
+  "por_categoria": {
+    "OST_LightingDevices": 20, 
+    "OST_ElectricalEquipment": 129, 
+    "OST_ElectricalFixtures": 54, 
+    "OST_LightingFixtures": 52
+  }, 
+  "fecha_ejecucion": "2026-10-24 23:45:19", 
+  "total_electricas": 255
+}

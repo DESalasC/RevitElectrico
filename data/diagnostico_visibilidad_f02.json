@@ -1,0 +1,707 @@
+{
+  "vista_activa": {
+    "id": "192513", 
+    "tipo": "ViewPlan", 
+    "nombre": "Piso 5"
+  }, 
+  "total_vistas": 123, 
+  "script": "DIAGNOSTICO_VISIBILIDAD_F02_v01.py", 
+  "conteo_por_categoria": {
+    "Electrical Fixtures": 22, 
+    "Lighting Fixtures": 8, 
+    "Electrical Equipment": 1, 
+    "Lighting Devices": 6
+  }, 
+  "total_niveles": 24, 
+  "total_red_si": 37, 
+  "version": "v01-diagnostico-visibilidad-f02", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "instancias_red_si": [
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 28.548229259999999, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 9.2585304800000010, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563317"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 28.116470716000002, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 9.1873362519999997, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563318"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 22.436680508000002, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 20.217520331999999, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563319"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 16.620407356000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 20.176837916000000, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563320"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 14.541995216000002, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 20.166339228000002, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563321"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 14.115814100000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 20.166339228000002, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563322"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 8.6801183880000004, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 20.668963915999999, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563323"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 15.043307568000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 8.7004595960000000, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563324"
+    }, 
+    {
+      "nombre_tipo": "Puerta motorizada", 
+      "y_ft": 7.3566275320000010, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 17.511483500000001, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 150.82908426246718, 
+      "comentario": "RED=SI", 
+      "id": "5563326"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 22.805775008000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 14.275919092000001, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": -6.137491269689685e-15, 
+      "comentario": "RED=SI", 
+      "id": "5563331"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 12.785105396000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 20.176837916000000, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563333"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 10.118110560000000, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 9.2316275920000006, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563334"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 23.670604432000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 20.150591196000001, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563344"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 23.178806515999998, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 20.150591196000001, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563345"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 24.128281612000002, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 20.150591196000001, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563346"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 16.572179007999999, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 12.995407239999999, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563347"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 16.684383736000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 13.003609339999999, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563348"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 17.176181652000000, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 13.003609339999999, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563349"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 16.227034639999999, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 13.003609339999999, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563350"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 15.775262972000000, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 13.003609339999999, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563351"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 16.120407340000000, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 13.051181520000000, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563352"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "y_ft": 18.614173824000002, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 8.3815619479999999, 
+      "categoria": "Electrical Fixtures", 
+      "z_ft": 143.28315226246715, 
+      "comentario": "RED=SI", 
+      "id": "5563353"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 6.7250658319999994, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 16.741470352000000, 
+      "categoria": "Lighting Devices", 
+      "z_ft": 145.90782426246719, 
+      "comentario": "RED=SI", 
+      "id": "5563325"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 16.510499215999999, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 13.220800948000001, 
+      "categoria": "Lighting Devices", 
+      "z_ft": 145.90782426246719, 
+      "comentario": "RED=SI", 
+      "id": "5563327"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 7.5255907920000000, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 16.755906048000000, 
+      "categoria": "Lighting Devices", 
+      "z_ft": 145.90782426246719, 
+      "comentario": "RED=SI", 
+      "id": "5563328"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 27.942586195999997, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 9.8822181640000011, 
+      "categoria": "Lighting Devices", 
+      "z_ft": 145.90782426246719, 
+      "comentario": "RED=SI", 
+      "id": "5563329"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 12.470144756000000, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 12.774278624000001, 
+      "categoria": "Lighting Devices", 
+      "z_ft": 145.90782426246719, 
+      "comentario": "RED=SI", 
+      "id": "5563330"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "y_ft": 17.109252516000002, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 13.256562104000002, 
+      "categoria": "Lighting Devices", 
+      "z_ft": 145.90782426246719, 
+      "comentario": "RED=SI", 
+      "id": "5563332"
+    }, 
+    {
+      "nombre_tipo": "MOUNTING RING trimless, 064-1906700", 
+      "y_ft": 14.229659248000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 16.636811556000001, 
+      "categoria": "Lighting Fixtures", 
+      "z_ft": 0.0032808398950060977, 
+      "comentario": "RED=SI", 
+      "id": "5563335"
+    }, 
+    {
+      "nombre_tipo": "MOUNTING RING trimless, 064-1906700", 
+      "y_ft": 9.9609583239999999, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 16.664698695999999, 
+      "categoria": "Lighting Fixtures", 
+      "z_ft": 0.0032808398950060977, 
+      "comentario": "RED=SI", 
+      "id": "5563336"
+    }, 
+    {
+      "nombre_tipo": "MOUNTING RING trimless, 064-1906300", 
+      "y_ft": 27.057743647999999, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 16.622047775999999, 
+      "categoria": "Lighting Fixtures", 
+      "z_ft": 0.0032808398950060977, 
+      "comentario": "RED=SI", 
+      "id": "5563337"
+    }, 
+    {
+      "nombre_tipo": "MOUNTING RING trimless, 064-1906300", 
+      "y_ft": 27.057743647999999, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 10.524278552000000, 
+      "categoria": "Lighting Fixtures", 
+      "z_ft": 0.0032808398950060977, 
+      "comentario": "RED=SI", 
+      "id": "5563338"
+    }, 
+    {
+      "nombre_tipo": "MOUNTING RING trimless, 064-1906300", 
+      "y_ft": 18.593176448000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 16.636811556000001, 
+      "categoria": "Lighting Fixtures", 
+      "z_ft": 0.0032808398950060977, 
+      "comentario": "RED=SI", 
+      "id": "5563339"
+    }, 
+    {
+      "nombre_tipo": "MOUNTING RING trimless, 064-1906300", 
+      "y_ft": 18.593176448000001, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 10.539042331999999, 
+      "categoria": "Lighting Fixtures", 
+      "z_ft": 0.0032808398950060977, 
+      "comentario": "RED=SI", 
+      "id": "5563340"
+    }, 
+    {
+      "nombre_tipo": "MOUNTING RING trimless, 064-1906500", 
+      "y_ft": 11.179790384000000, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 10.518701124000000, 
+      "categoria": "Lighting Fixtures", 
+      "z_ft": 0.0032808398950060977, 
+      "comentario": "RED=SI", 
+      "id": "5563341"
+    }, 
+    {
+      "nombre_tipo": "MOUNTING RING trimless, 064-1906500", 
+      "y_ft": 30.963583667999998, 
+      "nivel_id": null, 
+      "nivel": "(nulo)", 
+      "x_ft": 14.342192060000000, 
+      "categoria": "Lighting Fixtures", 
+      "z_ft": 0.0032808398950060977, 
+      "comentario": "RED=SI", 
+      "id": "5563342"
+    }, 
+    {
+      "nombre_tipo": "EPB25-304C", 
+      "y_ft": 8.9146984479999993, 
+      "nivel_id": "192512", 
+      "nivel": "Piso 5", 
+      "x_ft": 12.646653947999999, 
+      "categoria": "Electrical Equipment", 
+      "z_ft": 189.60861167454067, 
+      "comentario": "RED=SI", 
+      "id": "5563343"
+    }
+  ], 
+  "vistas": [
+    {
+      "id": "746", 
+      "tipo": "View", 
+      "nombre": "Project View"
+    }, 
+    {
+      "id": "942", 
+      "tipo": "ViewPlan", 
+      "nombre": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1"
+    }, 
+    {
+      "id": "1075", 
+      "tipo": "View", 
+      "nombre": "System Browser"
+    }, 
+    {
+      "id": "1225", 
+      "tipo": "View", 
+      "nombre": "Este"
+    }, 
+    {
+      "id": "1233", 
+      "tipo": "View", 
+      "nombre": "Oeste"
+    }, 
+    {
+      "id": "1241", 
+      "tipo": "View", 
+      "nombre": "Sur"
+    }, 
+    {
+      "id": "1249", 
+      "tipo": "View", 
+      "nombre": "Norte"
+    }, 
+    {
+      "id": "1690", 
+      "tipo": "ViewPlan", 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3"
+    }, 
+    {
+      "id": "1740", 
+      "tipo": "ViewPlan", 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3"
+    }, 
+    {
+      "id": "1768", 
+      "tipo": "View", 
+      "nombre": "Tabla de planificaci?n de habitaciones"
+    }, 
+    {
+      "id": "23984", 
+      "tipo": "View", 
+      "nombre": "Alzados con sombras"
+    }, 
+    {
+      "id": "31394", 
+      "tipo": "ViewPlan", 
+      "nombre": "Planimetr?a general"
+    }, 
+    {
+      "id": "62117", 
+      "tipo": "View3D", 
+      "nombre": "{3D}"
+    }, 
+    {
+      "id": "76253", 
+      "tipo": "ViewPlan", 
+      "nombre": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1"
+    }, 
+    {
+      "id": "83568", 
+      "tipo": "View", 
+      "nombre": "Tabla de planificaci?n de puertas"
+    }, 
+    {
+      "id": "83670", 
+      "tipo": "ViewPlan", 
+      "nombre": "Suelo arquitect?nico 1-100"
+    }, 
+    {
+      "id": "83672", 
+      "tipo": "View", 
+      "nombre": "Secci?n arquitect?nica  1-100"
+    }, 
+    {
+      "id": "182782", 
+      "tipo": "ViewPlan", 
+      "nombre": "Plantas"
+    }, 
+    {
+      "id": "182859", 
+      "tipo": "View", 
+      "nombre": "Trabajo"
+    }, 
+    {
+      "id": "182946", 
+      "tipo": "ViewPlan", 
+      "nombre": "Techo"
+    }, 
+    {
+      "id": "182959", 
+      "tipo": "ViewPlan", 
+      "nombre": "Muros"
+    }, 
+    {
+      "id": "183518", 
+      "tipo": "View", 
+      "nombre": "Fachada"
+    }, 
+    {
+      "id": "183520", 
+      "tipo": "View", 
+      "nombre": "Secciones"
+    }, 
+    {
+      "id": "192425", 
+      "tipo": "ViewPlan", 
+      "nombre": "Piso 3"
+    }, 
+    {
+      "id": "192435", 
+      "tipo": "ViewPlan", 
+      "nombre": "Piso 3"
+    }, 
+    {
+      "id": "192444", 
+      "tipo": "ViewPlan", 
+      "nombre": "Piso 3"
+    }, 
+    {
+      "id": "192469", 
+      "tipo": "ViewPlan", 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18"
+    }, 
+    {
+      "id": "192479", 
+      "tipo": "ViewPlan", 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18"
+    }, 
+    {
+      "id": "192488", 
+      "tipo": "ViewPlan", 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18"
+    }, 
+    {
+      "id": "192513", 
+      "tipo": "ViewPlan", 
+      "nombre": "Piso 5"
+    }
+  ], 
+  "conteo_por_nivel": {
+    "(nulo)": 36, 
+    "Piso 5": 1
+  }, 
+  "fecha_ejecucion": "2026-10-25 00:40:42", 
+  "niveles": [
+    {
+      "id": "933", 
+      "elevacion_ft": 0.72178477690288534, 
+      "nombre": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1"
+    }, 
+    {
+      "id": "1679", 
+      "elevacion_ft": 11.384514435695534, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3"
+    }, 
+    {
+      "id": "192424", 
+      "elevacion_ft": 22.047244094488185, 
+      "nombre": "Piso 3"
+    }, 
+    {
+      "id": "192468", 
+      "elevacion_ft": 32.709973753280835, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18"
+    }, 
+    {
+      "id": "192512", 
+      "elevacion_ft": 43.372703412073484, 
+      "nombre": "Piso 5"
+    }, 
+    {
+      "id": "192663", 
+      "elevacion_ft": 54.035433070866134, 
+      "nombre": "Piso 6"
+    }, 
+    {
+      "id": "192707", 
+      "elevacion_ft": 64.698162729658776, 
+      "nombre": "Piso 7"
+    }, 
+    {
+      "id": "192751", 
+      "elevacion_ft": 75.360892388451418, 
+      "nombre": "Piso 8"
+    }, 
+    {
+      "id": "192795", 
+      "elevacion_ft": 86.023622047244061, 
+      "nombre": "Piso 9"
+    }, 
+    {
+      "id": "192839", 
+      "elevacion_ft": 96.686351706036703, 
+      "nombre": "Piso 10"
+    }, 
+    {
+      "id": "192883", 
+      "elevacion_ft": 107.34908136482935, 
+      "nombre": "Piso 11"
+    }, 
+    {
+      "id": "192927", 
+      "elevacion_ft": 118.01181102362199, 
+      "nombre": "Piso 12"
+    }, 
+    {
+      "id": "192971", 
+      "elevacion_ft": 128.67454068241463, 
+      "nombre": "Piso 13"
+    }, 
+    {
+      "id": "193015", 
+      "elevacion_ft": 139.33727034120727, 
+      "nombre": "Piso 14"
+    }, 
+    {
+      "id": "193059", 
+      "elevacion_ft": 149.99999999999991, 
+      "nombre": "Piso 15"
+    }, 
+    {
+      "id": "193103", 
+      "elevacion_ft": 160.66272965879256, 
+      "nombre": "Piso 16"
+    }, 
+    {
+      "id": "193147", 
+      "elevacion_ft": 171.32545931758520, 
+      "nombre": "Piso 17"
+    }, 
+    {
+      "id": "193191", 
+      "elevacion_ft": 181.98818897637784, 
+      "nombre": "Piso 18"
+    }, 
+    {
+      "id": "193235", 
+      "elevacion_ft": 192.65091863517048, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 19-21"
+    }, 
+    {
+      "id": "193279", 
+      "elevacion_ft": 203.31364829396313, 
+      "nombre": "Piso 20"
+    }, 
+    {
+      "id": "193323", 
+      "elevacion_ft": 213.97637795275577, 
+      "nombre": "Piso 21"
+    }, 
+    {
+      "id": "193367", 
+      "elevacion_ft": 224.63910761154841, 
+      "nombre": "Cubierta"
+    }, 
+    {
+      "id": "208719", 
+      "elevacion_ft": -3.5433070866141749, 
+      "nombre": "Sotano"
+    }, 
+    {
+      "id": "208852", 
+      "elevacion_ft": 235.79396325459317, 
+      "nombre": "SobreCubierta"
+    }
+  ]
+}

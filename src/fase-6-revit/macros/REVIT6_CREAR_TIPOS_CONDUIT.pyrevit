@@ -1,0 +1,7 @@
+__title__ = "6.3 Tipos de Conduit"
+__author__ = RevitElectrico / T5-SantaMarta
+__doc__ = Crea/verifica 5 tipos de conducto: 3/4", 1", 1-1/4", 2", 3" (incluye 2" y 3" para acometidas principales).
+__context__ = selection
+__url__ =
+__minrevitver__ = 2021
+__maxrevitver__ = 2026

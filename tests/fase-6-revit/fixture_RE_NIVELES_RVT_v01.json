@@ -1,0 +1,18 @@
+{
+  "chip": "SANTAMARTA_T5",
+  "nivel_piso5": "Piso 5",
+  "elevacion_piso5_m": 13.22,
+  "niveles_entrada": [
+    {"nombre": "Nivel 1", "elevacion_m": 0.0},
+    {"nombre": "Nivel 2", "elevacion_m": 3.5},
+    {"nombre": "Piso 5", "elevacion_m": 13.22},
+    {"nombre": "Flor plan 1 - Lighting", "elevacion_m": 0.0}
+  ],
+  "niveles_esperados": [
+    "Nivel 1",
+    "Nivel 2",
+    "Piso 5",
+    "Flor plan 1 - Lighting"
+  ],
+  "nivel_ausente": "Piso 10"
+}

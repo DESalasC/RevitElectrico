@@ -1,0 +1,47 @@
+{
+  "chip": "SANTAMARTA_T5",
+  "umbral_m": 2.0,
+  "origen_json_in": "data/SANTAMARTA_T5_normalizado.json",
+  "origen_dxf": "3.-Proceso/STM-T4-P4_todos_bloques_electricos.dxf",
+  "bloques_entrada": [
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "es_electrica": true,
+      "punto_insert": [5.0, 3.0, 0.0],
+      "familia_revit_sugerida": "M_Toma-Doble.rfa"
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-SW",
+      "es_electrica": true,
+      "punto_insert": [10.0, 8.0, 0.0],
+      "familia_revit_sugerida": "M_Interruptor-Simple.rfa"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-LITE-TECHO",
+      "es_electrica": true,
+      "punto_insert": [20.0, 15.0, 0.0],
+      "familia_revit_sugerida": "M_Foco empotrado - Redondo - LED.rfa"
+    }
+  ],
+  "mapeo_revit": {
+    "ELEC-T-D-t-15A": "M_Toma-Doble.rfa",
+    "ELEC-I-S-1-5A": "M_Interruptor-Simple.rfa",
+    "Bala Stil Led 12W": "M_Foco empotrado - Redondo - LED.rfa"
+  },
+  "textos_dxf": [
+    {"texto": "CIRCUITO-01", "capa": "ELEC-APPL-TOMAS", "punto": [5.3, 3.1, 0.0]},
+    {"texto": "ALTURA 2.60", "capa": "ELEC-APPL-SW", "punto": [10.5, 8.2, 0.0]},
+    {"texto": "PANEL PRINCIPAL", "capa": "ELEC-PANEL", "punto": [99.0, 99.0, 0.0]},
+    {"texto": "NOTA NO ELECTRICA", "capa": "0", "punto": [6.0, 3.5, 0.0]}
+  ],
+  "esperado": {
+    "bloque_CIRCUITO_01": "ELEC-T-D-t-15A",
+    "bloque_ALTURA_2_60": "ELEC-I-S-1-5A",
+    "texto_no_asociado": "PANEL PRINCIPAL",
+    "texto_no_electrico_no_asociado": "NOTA NO ELECTRICA",
+    "umbral": 2.0
+  }
+}

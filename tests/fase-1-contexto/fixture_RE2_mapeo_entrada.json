@@ -1,0 +1,73 @@
+{
+  "chip": "SANTAMARTA_T5",
+  "offset_aplicado_x": -991.903,
+  "offset_aplicado_y": -1714.822,
+  "bloques": [
+    {
+      "nombre_bloque": "Paneles",
+      "capa": "Paneles",
+      "es_electrica": true,
+      "punto_insert": [1091.903, 1914.822, 0.0],
+      "familia_revit_sugerida": "Tablero eléctrico"
+    },
+    {
+      "nombre_bloque": "Bala Stil Led 12W",
+      "capa": "ELEC-BALA LED 13 W",
+      "es_electrica": true,
+      "punto_insert": [1100.0, 1920.0, 2.65],
+      "familia_revit_sugerida": "Luminaria LED 12W"
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "es_electrica": true,
+      "punto_insert": [1110.0, 1930.0, 1.1],
+      "familia_revit_sugerida": "Interruptor simple 1x 5A"
+    },
+    {
+      "nombre_bloque": "1FTNR",
+      "capa": "Elec-Lite-Wire",
+      "es_electrica": true,
+      "punto_insert": [1120.0, 1940.0, 0.0],
+      "familia_revit_sugerida": "Luminaria tubular 1x con reflector"
+    },
+    {
+      "nombre_bloque": "sadfasdggfjhkkl",
+      "capa": "HVAC-Equipos",
+      "es_electrica": false,
+      "punto_insert": [1130.0, 1950.0, 0.0],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "Apartamento Tipo F 01",
+      "capa": "Apartamento Tipo F 01",
+      "es_electrica": false,
+      "punto_insert": [1140.0, 1960.0, 0.0],
+      "familia_revit_sugerida": "Familia por definir"
+    },
+    {
+      "nombre_bloque": "TDT E-07",
+      "capa": "TDT Apto E-07",
+      "es_electrica": false,
+      "punto_insert": [1150.0, 1970.0, 0.3],
+      "familia_revit_sugerida": "Familia por definir"
+    }
+  ],
+  "polilineas": [],
+  "lineas": [],
+  "arcos": [],
+  "circulos": [],
+  "resumen": {
+    "bloques_total": 7,
+    "bloques_electricos": 4,
+    "bloques_no_electricos": 3,
+    "bloques_basura_filtrados": 0,
+    "polilineas": 0,
+    "polilineas_electricas": 0,
+    "lineas": 0,
+    "lineas_electricas": 0,
+    "arcos": 0,
+    "circulos": 0
+  },
+  "mapeo_revit": {}
+}

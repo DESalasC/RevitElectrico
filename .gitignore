@@ -1,0 +1,24 @@
+# Archivos binarios pesados (no versionar)
+ArchivosBase/*.rvt
+ArchivosBase/*.dwg
+ArchivosBase/*.dxf
+ArchivosBase/*.7z
+*.rvt
+*.dwg
+*.dxf
+*.7z
+*.pcp
+
+# Entornos y cachés
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Librería compartida (symlink)
+familias
+
+# Temporales
+_archivo/
+*.tmp
+*.log

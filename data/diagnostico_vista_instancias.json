@@ -1,0 +1,519 @@
+{
+  "instancias_con_red_si": [
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898558"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898559"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898560"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898561"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898562"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898563"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898564"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898565"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898566"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898567"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898568"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898569"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898570"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898571"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": -6.137491269689685e-15, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898572"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898573"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898574"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898575"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898576"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898577"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898578"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898579"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898580"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898581"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898582"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898583"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898584"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898585"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898586"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898587"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898588"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898589"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898590"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898591"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898592"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898593"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898594"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898595"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898596"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898597"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898598"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898599"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898600"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898601"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898602"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Lighting Devices", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 44.472699999999996, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898603"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898604"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": -6.137491269689685e-15, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898605"
+    }, 
+    {
+      "nombre_tipo": "Est?ndar", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": -6.137491269689685e-15, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898606"
+    }, 
+    {
+      "nombre_tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "nivel_nombre": "", 
+      "z_absoluta_m": 43.672699999999992, 
+      "comentario": "RED=SI", 
+      "nivel_id": "-1", 
+      "id": "898607"
+    }
+  ], 
+  "conteo": {
+    "con_comentario_red_si": 171, 
+    "en_nivel_piso_5": 5, 
+    "total_family_instance_en_documento": 171
+  }, 
+  "fecha_ejecucion": "2026-10-24 23:10:04", 
+  "instancias_piso_5": [
+    {
+      "nombre_tipo": "Panel de energ?a", 
+      "categoria": "Electrical Equipment", 
+      "nivel_nombre": "Piso 5", 
+      "z_absoluta_m": 2.9527559055118102, 
+      "comentario": "RED=SI", 
+      "nivel_id": "853343", 
+      "id": "898724"
+    }, 
+    {
+      "nombre_tipo": "Panel de energ?a", 
+      "categoria": "Electrical Equipment", 
+      "nivel_nombre": "Piso 5", 
+      "z_absoluta_m": 2.9527559055118102, 
+      "comentario": "RED=SI", 
+      "nivel_id": "853343", 
+      "id": "898725"
+    }, 
+    {
+      "nombre_tipo": "Panel de energ?a", 
+      "categoria": "Electrical Equipment", 
+      "nivel_nombre": "Piso 5", 
+      "z_absoluta_m": 2.9527559055118102, 
+      "comentario": "RED=SI", 
+      "nivel_id": "853343", 
+      "id": "898726"
+    }, 
+    {
+      "nombre_tipo": "Panel de energ?a", 
+      "categoria": "Electrical Equipment", 
+      "nivel_nombre": "Piso 5", 
+      "z_absoluta_m": 2.9527559055118102, 
+      "comentario": "RED=SI", 
+      "nivel_id": "853343", 
+      "id": "898727"
+    }, 
+    {
+      "nombre_tipo": "Panel de energ?a", 
+      "categoria": "Electrical Equipment", 
+      "nivel_nombre": "Piso 5", 
+      "z_absoluta_m": 2.9527559055118102, 
+      "comentario": "RED=SI", 
+      "nivel_id": "853343", 
+      "id": "898728"
+    }
+  ], 
+  "script": "DIAGNOSTICO_VISTA_Y_INSTANCIAS_v01.py", 
+  "nivel_encontrado": true, 
+  "version": "v01-diagnostico-vista-instancias", 
+  "nivel_id": "853343", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V00", 
+  "vista_activa": {
+    "id": "163350", 
+    "nombre": "{3D}", 
+    "tipo": "View3D"
+  }, 
+  "elevacion_nivel_m": 43.372703412073484, 
+  "nivel": "Piso 5"
+}

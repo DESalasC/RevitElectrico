@@ -1,0 +1,304 @@
+{
+  "creadas": [
+    {
+      "familia": "M_Toma doble", 
+      "rotacion": 0, 
+      "simbolo": "GFCI", 
+      "orden": 0, 
+      "y_m": 8.7014999999999993, 
+      "z_m": 43.672703412073481, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A", 
+      "z_absoluta_m": 43.672703412073481, 
+      "x_m": 2.8220000000000001, 
+      "simbolo_usado": "GFCI", 
+      "comentario": "RED=SI", 
+      "id": "5562722"
+    }, 
+    {
+      "familia": "M_Interruptor bipolar", 
+      "rotacion": 0, 
+      "simbolo": "Est??ndar", 
+      "orden": 8, 
+      "y_m": 2.0497999999999998, 
+      "z_m": 44.472703412073486, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "ELEC-TIMBRE", 
+      "z_absoluta_m": 44.472703412073493, 
+      "x_m": 5.1028000000000002, 
+      "simbolo_usado": "Est?ndar", 
+      "comentario": "RED=SI", 
+      "id": "5562730"
+    }, 
+    {
+      "familia": "M_Interruptor bipolar", 
+      "rotacion": 0, 
+      "simbolo": "Est??ndar", 
+      "orden": 10, 
+      "y_m": 5.0324000000000000, 
+      "z_m": 44.472703412073486, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "ELEC-I-S-2-5A", 
+      "z_absoluta_m": 44.472703412073493, 
+      "x_m": 4.0297000000000001, 
+      "simbolo_usado": "Est?ndar", 
+      "comentario": "RED=SI", 
+      "id": "5562732"
+    }, 
+    {
+      "familia": "M_Interruptor bipolar", 
+      "rotacion": 0, 
+      "simbolo": "Est??ndar", 
+      "orden": 15, 
+      "y_m": 5.2149000000000001, 
+      "z_m": 44.472703412073486, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "ELEC-F-CONTROL", 
+      "z_absoluta_m": 44.472703412073493, 
+      "x_m": 4.0406000000000004, 
+      "simbolo_usado": "Est?ndar", 
+      "comentario": "RED=SI", 
+      "id": "5562737"
+    }, 
+    {
+      "familia": "M_Toma resistente a la intemperie", 
+      "rotacion": 0, 
+      "simbolo": "Est??ndar", 
+      "orden": 17, 
+      "y_m": 3.0840000000000001, 
+      "z_m": 43.672703412073481, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "ELEC-EXT", 
+      "z_absoluta_m": 43.672703412073481, 
+      "x_m": 2.8138000000000001, 
+      "simbolo_usado": "Est?ndar", 
+      "comentario": "RED=SI", 
+      "id": "5562739"
+    }, 
+    {
+      "familia": "COMBO MOUNTING RING", 
+      "rotacion": 0, 
+      "simbolo": "MOUNTING RING trimless, 064-1906700", 
+      "orden": 18, 
+      "y_m": 4.3372000000000002, 
+      "z_m": 45.972703412073486, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "Bala Stil Led 22W", 
+      "z_absoluta_m": 45.972703412073486, 
+      "x_m": 5.0709000000000000, 
+      "simbolo_usado": "MOUNTING RING trimless, 064-1906700", 
+      "comentario": "RED=SI", 
+      "id": "5562740"
+    }, 
+    {
+      "familia": "COMBO MOUNTING RING", 
+      "rotacion": 0, 
+      "simbolo": "MOUNTING RING trimless, 064-1906700", 
+      "orden": 19, 
+      "y_m": 3.0360999999999998, 
+      "z_m": 45.972703412073486, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "Bala Stil Led 22W", 
+      "z_absoluta_m": 45.972703412073486, 
+      "x_m": 5.0793999999999997, 
+      "simbolo_usado": "MOUNTING RING trimless, 064-1906700", 
+      "comentario": "RED=SI", 
+      "id": "5562741"
+    }, 
+    {
+      "familia": "COMBO MOUNTING RING", 
+      "rotacion": 0, 
+      "simbolo": "MOUNTING RING trimless, 064-1906300", 
+      "orden": 20, 
+      "y_m": 8.2471999999999994, 
+      "z_m": 45.972703412073486, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "Bala Stil Led 10W", 
+      "z_absoluta_m": 45.972703412073486, 
+      "x_m": 5.0663999999999998, 
+      "simbolo_usado": "MOUNTING RING trimless, 064-1906300", 
+      "comentario": "RED=SI", 
+      "id": "5562742"
+    }, 
+    {
+      "familia": "COMBO MOUNTING RING", 
+      "rotacion": 0, 
+      "simbolo": "MOUNTING RING trimless, 064-1906300", 
+      "orden": 21, 
+      "y_m": 8.2471999999999994, 
+      "z_m": 45.972703412073486, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "Bala Stil Led 10W", 
+      "z_absoluta_m": 45.972703412073486, 
+      "x_m": 3.2078000000000002, 
+      "simbolo_usado": "MOUNTING RING trimless, 064-1906300", 
+      "comentario": "RED=SI", 
+      "id": "5562743"
+    }, 
+    {
+      "familia": "COMBO MOUNTING RING", 
+      "rotacion": 0, 
+      "simbolo": "MOUNTING RING trimless, 064-1906300", 
+      "orden": 22, 
+      "y_m": 5.6672000000000002, 
+      "z_m": 45.972703412073486, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "Bala Stil Led 10W", 
+      "z_absoluta_m": 45.972703412073486, 
+      "x_m": 5.0709000000000000, 
+      "simbolo_usado": "MOUNTING RING trimless, 064-1906300", 
+      "comentario": "RED=SI", 
+      "id": "5562744"
+    }, 
+    {
+      "familia": "COMBO MOUNTING RING", 
+      "rotacion": 0, 
+      "simbolo": "MOUNTING RING trimless, 064-1906300", 
+      "orden": 23, 
+      "y_m": 5.6672000000000002, 
+      "z_m": 45.972703412073486, 
+      "nivel": "Piso 5", 
+      "nombre_bloque": "Bala Stil Led 10W", 
+      "z_absoluta_m": 45.972703412073486, 
+      "x_m": 3.2122999999999999, 
+      "simbolo_usado": "MOUNTING RING trimless, 064-1906300", 
+      "comentario": "RED=SI", 
+      "id": "5562745"
+    }
+  ], 
+  "total_acciones_f02": 37, 
+  "nivel_id": "192512", 
+  "script": "MODELAR_APTO_F02_v01.py", 
+  "nivel": "Piso 5", 
+  "fallos": [
+    {
+      "orden": 1, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 2, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 3, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 4, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 5, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 6, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 7, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 9, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "orden": 11, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "orden": 12, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "orden": 13, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "orden": 14, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "orden": 16, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 24, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "orden": 25, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "orden": 26, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "TB-Parcial"
+    }, 
+    {
+      "orden": 42, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-TEL"
+    }, 
+    {
+      "orden": 43, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-TEL"
+    }, 
+    {
+      "orden": 44, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-TEL"
+    }, 
+    {
+      "orden": 45, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 318, in modelar_apto_f02\n    param_rot = inst.get_Parameter(\nAttributeError: 'type' object has no attribute 'ROTATION'\n", 
+      "motivo": "Excepcion al crear: AttributeError ('type' object has no attribute 'ROTATION')", 
+      "nombre_bloque": "ELEC-NET-PAU"
+    }
+  ], 
+  "version": "v01-modelar-apto-f02", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "elevacion_nivel_m": 43.372703412073484, 
+  "estadisticas": {
+    "total_acciones": 37, 
+    "fallos": 26, 
+    "creadas": 11
+  }, 
+  "fecha_ejecucion": "2026-10-24 23:57:48"
+}

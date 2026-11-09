@@ -1,0 +1,18 @@
+{
+  "chip": "SANTAMARTA_T5",
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA.rvt",
+  "acciones_modelar": [
+    {"nombre_bloque": "ELEC-T-GFCI-t-15A", "familia": "M_Toma doble", "simbolo": "GFCI", "anfitrion": "muro", "nivel_revit": "Piso 5"},
+    {"nombre_bloque": "ELEC-T-D-t-15A", "familia": "M_Toma doble", "simbolo": "GFCI", "anfitrion": "muro", "nivel_revit": "Piso 5"},
+    {"nombre_bloque": "ELEC-TIMBRE", "familia": "M_Interruptor bipolar", "simbolo": "Estandar", "anfitrion": "muro", "nivel_revit": "Piso 5"},
+    {"nombre_bloque": "ELEC-CAMPANA", "familia": "M_Interruptor", "simbolo": "Puerta motorizada", "anfitrion": "ceiling", "nivel_revit": null},
+    {"nombre_bloque": "ELEC-I-S-1-5A", "familia": "M_Interruptor bipolar", "simbolo": "Estandar", "anfitrion": "muro", "nivel_revit": "Piso 5"},
+    {"nombre_bloque": "ELEC-TEL", "familia": "M_Toma simple", "simbolo": "Estandar", "anfitrion": "muro", "nivel_revit": "Piso 5"},
+    {"nombre_bloque": "ELEC-FAN-01", "familia": "M_Ventilador", "simbolo": "Estandar", "anfitrion": "ceiling", "nivel_revit": "Piso 5"},
+    {"nombre_bloque": "ELEC-PANEL-01", "familia": "E_Distribution Panel_MEPcontent_ABB_Protecta Compact_INT-EN", "simbolo": "Wall", "anfitrion": "muro", "nivel_revit": "Piso 5"},
+    {"nombre_bloque": "ELEC-COMBO-01", "familia": "COMBO MOUNTING RING", "simbolo": "trimless", "anfitrion": "ceiling", "nivel_revit": "Piso 5"},
+    {"nombre_bloque": "ELEC-EXT-01", "familia": "M_Toma resistente a la intemperie", "simbolo": "Estandar", "anfitrion": "muro", "nivel_revit": "Piso 5"}
+  ],
+  "acciones_saltar": [],
+  "acciones_sin_mapeo": []
+}

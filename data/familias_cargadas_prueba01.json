@@ -1,0 +1,1163 @@
+{
+  "familias": [
+    {
+      "familia": "Area Based Load Tag", 
+      "cantidad_simbolos": 2, 
+      "simbolos": [
+        {
+          "nombre": "1/4\"", 
+          "id": "843061"
+        }, 
+        {
+          "nombre": "1/2\"", 
+          "id": "843063"
+        }
+      ], 
+      "id": "843115"
+    }, 
+    {
+      "familia": "Area Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Area Tag", 
+          "id": "28593"
+        }
+      ], 
+      "id": "114966"
+    }, 
+    {
+      "familia": "Baluster - Square", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "3/4\"", 
+          "id": "31360"
+        }, 
+        {
+          "nombre": "1\"", 
+          "id": "464770"
+        }, 
+        {
+          "nombre": "2\"", 
+          "id": "464772"
+        }, 
+        {
+          "nombre": "1 1/2\"", 
+          "id": "464774"
+        }
+      ], 
+      "id": "464285"
+    }, 
+    {
+      "familia": "Brick Standard", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Running Section", 
+          "id": "57160"
+        }
+      ], 
+      "id": "110386"
+    }, 
+    {
+      "familia": "Cable Tray Size Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Cable Tray Size Tag", 
+          "id": "505652"
+        }
+      ], 
+      "id": "505427"
+    }, 
+    {
+      "familia": "Callout Head", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Callout Head", 
+          "id": "55151"
+        }
+      ], 
+      "id": "114762"
+    }, 
+    {
+      "familia": "Centerline", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Centerline", 
+          "id": "43150"
+        }
+      ], 
+      "id": "114573"
+    }, 
+    {
+      "familia": "Channel Horizontal Bend", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "493339"
+        }
+      ], 
+      "id": "535160"
+    }, 
+    {
+      "familia": "Channel Horizontal Cross", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "12\" Radius", 
+          "id": "475447"
+        }, 
+        {
+          "nombre": "24\" Radius", 
+          "id": "475449"
+        }, 
+        {
+          "nombre": "36\" Radius", 
+          "id": "475451"
+        }, 
+        {
+          "nombre": "48\" Radius", 
+          "id": "475453"
+        }
+      ], 
+      "id": "517482"
+    }, 
+    {
+      "familia": "Channel Horizontal Tee", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "12\" Radius", 
+          "id": "476391"
+        }, 
+        {
+          "nombre": "24\" Radius", 
+          "id": "476393"
+        }, 
+        {
+          "nombre": "36\" Radius", 
+          "id": "476395"
+        }, 
+        {
+          "nombre": "48\" Radius", 
+          "id": "476397"
+        }
+      ], 
+      "id": "518519"
+    }, 
+    {
+      "familia": "Channel Reducer", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "478001"
+        }
+      ], 
+      "id": "519465"
+    }, 
+    {
+      "familia": "Channel Union", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "478827"
+        }
+      ], 
+      "id": "521073"
+    }, 
+    {
+      "familia": "Channel Vertical Inside Bend", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "480124"
+        }
+      ], 
+      "id": "521904"
+    }, 
+    {
+      "familia": "Channel Vertical Outside Bend", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "481421"
+        }
+      ], 
+      "id": "523206"
+    }, 
+    {
+      "familia": "Circle Wire Tick Mark", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Circle Wire Tick Mark", 
+          "id": "408694"
+        }
+      ], 
+      "id": "408494"
+    }, 
+    {
+      "familia": "Circular Mullion", 
+      "cantidad_simbolos": 0, 
+      "simbolos": [], 
+      "id": "28596"
+    }, 
+    {
+      "familia": "Communication Devices Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Communication Devices Tag", 
+          "id": "514242"
+        }
+      ], 
+      "id": "514022"
+    }, 
+    {
+      "familia": "Conduit Coupling - Aluminum", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "494936"
+        }
+      ], 
+      "id": "537276"
+    }, 
+    {
+      "familia": "Conduit Coupling - PVC", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "495704"
+        }
+      ], 
+      "id": "538047"
+    }, 
+    {
+      "familia": "Conduit Coupling - Steel", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "496472"
+        }
+      ], 
+      "id": "538820"
+    }, 
+    {
+      "familia": "Conduit Elbow - Aluminum", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "497258"
+        }
+      ], 
+      "id": "539593"
+    }, 
+    {
+      "familia": "Conduit Elbow - Plain End - PVC", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "505149"
+        }
+      ], 
+      "id": "547534"
+    }, 
+    {
+      "familia": "Conduit Elbow - Steel", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "498046"
+        }
+      ], 
+      "id": "540384"
+    }, 
+    {
+      "familia": "Conduit Elbow - without Fittings - EMT", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "498834"
+        }
+      ], 
+      "id": "541177"
+    }, 
+    {
+      "familia": "Conduit Elbow - without Fittings - RMC", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "499620"
+        }
+      ], 
+      "id": "541970"
+    }, 
+    {
+      "familia": "Conduit Elbow - without Fittings - RNC", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "500408"
+        }
+      ], 
+      "id": "542761"
+    }, 
+    {
+      "familia": "Conduit Junction Box - Cross - Aluminum", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "501195"
+        }
+      ], 
+      "id": "543554"
+    }, 
+    {
+      "familia": "Conduit Junction Box - Cross - PVC", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "501982"
+        }
+      ], 
+      "id": "544346"
+    }, 
+    {
+      "familia": "Conduit Junction Box - Tee - Aluminum", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "502766"
+        }
+      ], 
+      "id": "545138"
+    }, 
+    {
+      "familia": "Conduit Junction Box - Tee - PVC", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "503550"
+        }
+      ], 
+      "id": "545927"
+    }, 
+    {
+      "familia": "Conduit Junction Box - Transition - Aluminum", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "504360"
+        }
+      ], 
+      "id": "546716"
+    }, 
+    {
+      "familia": "Conduit Junction Box - Transition - PVC", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "494170"
+        }
+      ], 
+      "id": "536461"
+    }, 
+    {
+      "familia": "Conduit Size Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Conduit Size Tag", 
+          "id": "505425"
+        }
+      ], 
+      "id": "505204"
+    }, 
+    {
+      "familia": "Data Device Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Data Device Tag", 
+          "id": "410978"
+        }
+      ], 
+      "id": "410784"
+    }, 
+    {
+      "familia": "Data Outlet", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Plain", 
+          "id": "155578"
+        }
+      ], 
+      "id": "439511"
+    }, 
+    {
+      "familia": "Diffuser Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Diffuser Tag", 
+          "id": "161916"
+        }
+      ], 
+      "id": "470970"
+    }, 
+    {
+      "familia": "Door Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Door Tag", 
+          "id": "41184"
+        }
+      ], 
+      "id": "114376"
+    }, 
+    {
+      "familia": "Dry Type Transformer - 480-208Y120 - NEMA Type 2", 
+      "cantidad_simbolos": 10, 
+      "simbolos": [
+        {
+          "nombre": "15 kVA", 
+          "id": "507354"
+        }, 
+        {
+          "nombre": "45 kVA", 
+          "id": "507356"
+        }, 
+        {
+          "nombre": "30 kVA", 
+          "id": "507358"
+        }, 
+        {
+          "nombre": "75 kVA", 
+          "id": "507360"
+        }, 
+        {
+          "nombre": "112.5 kVA", 
+          "id": "507362"
+        }, 
+        {
+          "nombre": "150 kVA", 
+          "id": "507364"
+        }, 
+        {
+          "nombre": "225 kVA", 
+          "id": "507366"
+        }, 
+        {
+          "nombre": "300 kVA", 
+          "id": "507368"
+        }, 
+        {
+          "nombre": "500 kVA", 
+          "id": "507370"
+        }, 
+        {
+          "nombre": "750 kVA", 
+          "id": "507372"
+        }
+      ], 
+      "id": "511177"
+    }, 
+    {
+      "familia": "Duct Size Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Duct Size Tag", 
+          "id": "162121"
+        }
+      ], 
+      "id": "175905"
+    }, 
+    {
+      "familia": "Duplex Receptacle", 
+      "cantidad_simbolos": 2, 
+      "simbolos": [
+        {
+          "nombre": "GFCI", 
+          "id": "516791"
+        }, 
+        {
+          "nombre": "Standard", 
+          "id": "516793"
+        }
+      ], 
+      "id": "515809"
+    }, 
+    {
+      "familia": "E1 30 x 42 Horizontal", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "E1 30x42 Horizontal", 
+          "id": "46795"
+        }
+      ], 
+      "id": "845441"
+    }, 
+    {
+      "familia": "Electrical Device Circuit Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Electrical Device Circuit Tag", 
+          "id": "411174"
+        }
+      ], 
+      "id": "410980"
+    }, 
+    {
+      "familia": "Electrical Device Panel Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Electrical Device Panel Tag", 
+          "id": "411370"
+        }
+      ], 
+      "id": "411176"
+    }, 
+    {
+      "familia": "Electrical Equipment Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Electrical Equipment Tag", 
+          "id": "411566"
+        }
+      ], 
+      "id": "411372"
+    }, 
+    {
+      "familia": "Electrical Equipment Type Mark Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Electrical Equipment Type Mark Tag", 
+          "id": "411762"
+        }
+      ], 
+      "id": "514762"
+    }, 
+    {
+      "familia": "Elevation Mark Body_Circle", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "Filled Arrow", 
+          "id": "473894"
+        }, 
+        {
+          "nombre": "Detail Number", 
+          "id": "473896"
+        }, 
+        {
+          "nombre": "Detail Number and View Name", 
+          "id": "473898"
+        }, 
+        {
+          "nombre": "Filled Arrow and View Name", 
+          "id": "473900"
+        }
+      ], 
+      "id": "473411"
+    }, 
+    {
+      "familia": "Elevation Mark Body_Square", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "Filled Arrow", 
+          "id": "474415"
+        }, 
+        {
+          "nombre": "Detail Number and View Name", 
+          "id": "474417"
+        }, 
+        {
+          "nombre": "Detail Number", 
+          "id": "474419"
+        }, 
+        {
+          "nombre": "Filled Arrow and View Name", 
+          "id": "474421"
+        }
+      ], 
+      "id": "473906"
+    }, 
+    {
+      "familia": "Elevation Mark Pointer_Circle", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "Detail Number", 
+          "id": "473622"
+        }, 
+        {
+          "nombre": "Filled Arrow", 
+          "id": "473623"
+        }, 
+        {
+          "nombre": "Detail Number and View Name", 
+          "id": "473624"
+        }, 
+        {
+          "nombre": "Filled Arrow and View Name", 
+          "id": "473890"
+        }
+      ], 
+      "id": "473632"
+    }, 
+    {
+      "familia": "Elevation Mark Pointer_Square", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "Detail Number and View Name", 
+          "id": "474143"
+        }, 
+        {
+          "nombre": "Detail Number", 
+          "id": "474144"
+        }, 
+        {
+          "nombre": "Filled Arrow", 
+          "id": "474145"
+        }, 
+        {
+          "nombre": "Filled Arrow and View Name", 
+          "id": "474153"
+        }
+      ], 
+      "id": "474154"
+    }, 
+    {
+      "familia": "Ethernet Switch", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "298728"
+        }
+      ], 
+      "id": "849302"
+    }, 
+    {
+      "familia": "Extremo de nivel", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Extremo de nivel", 
+          "id": "853398"
+        }
+      ], 
+      "id": "853372"
+    }, 
+    {
+      "familia": "Fascia-Flat", 
+      "cantidad_simbolos": 5, 
+      "simbolos": [
+        {
+          "nombre": "1x8", 
+          "id": "65266"
+        }, 
+        {
+          "nombre": "1x6", 
+          "id": "65268"
+        }, 
+        {
+          "nombre": "1x10", 
+          "id": "65270"
+        }, 
+        {
+          "nombre": "1x12", 
+          "id": "65272"
+        }, 
+        {
+          "nombre": "1x4", 
+          "id": "65274"
+        }
+      ], 
+      "id": "107137"
+    }, 
+    {
+      "familia": "Fire Alarm Device Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Fire Alarm Device Tag", 
+          "id": "411958"
+        }
+      ], 
+      "id": "411764"
+    }, 
+    {
+      "familia": "Flex Duct Tag Round", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Flex Duct Tag Round", 
+          "id": "313476"
+        }
+      ], 
+      "id": "313275"
+    }, 
+    {
+      "familia": "Flex Pipe Size Tag", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Flex Pipe Size Tag", 
+          "id": "465414"
+        }
+      ], 
+      "id": "465193"
+    }, 
+    {
+      "familia": "Grid Head - Circle", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Grid Head - Circle", 
+          "id": "50561"
+        }
+      ], 
+      "id": "113853"
+    }, 
+    {
+      "familia": "Grid Head - No Bubble", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Grid Head - No Bubble", 
+          "id": "50679"
+        }
+      ], 
+      "id": "113660"
+    }, 
+    {
+      "familia": "Gutter Profile-Bevel", 
+      "cantidad_simbolos": 7, 
+      "simbolos": [
+        {
+          "nombre": "6\" x 6\"", 
+          "id": "58005"
+        }, 
+        {
+          "nombre": "5\" x 5\"", 
+          "id": "58007"
+        }, 
+        {
+          "nombre": "4\" x 4\"", 
+          "id": "58009"
+        }, 
+        {
+          "nombre": "4\" x 5\"", 
+          "id": "58011"
+        }, 
+        {
+          "nombre": "5\" x 6\"", 
+          "id": "58013"
+        }, 
+        {
+          "nombre": "6\" x 4\"", 
+          "id": "58015"
+        }, 
+        {
+          "nombre": "6\" x 5\"", 
+          "id": "58017"
+        }
+      ], 
+      "id": "106881"
+    }, 
+    {
+      "familia": "Hook Wire Tick Mark", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Hook Wire Tick Mark", 
+          "id": "408893"
+        }
+      ], 
+      "id": "408696"
+    }, 
+    {
+      "familia": "L Corner Mullion", 
+      "cantidad_simbolos": 0, 
+      "simbolos": [], 
+      "id": "43497"
+    }, 
+    {
+      "familia": "Ladder Horizontal Bend", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "483000"
+        }
+      ], 
+      "id": "524508"
+    }, 
+    {
+      "familia": "Ladder Horizontal Cross", 
+      "cantidad_simbolos": 3, 
+      "simbolos": [
+        {
+          "nombre": "12\" Radius", 
+          "id": "484168"
+        }, 
+        {
+          "nombre": "24\" Radius", 
+          "id": "484170"
+        }, 
+        {
+          "nombre": "36\" Radius", 
+          "id": "484172"
+        }
+      ], 
+      "id": "526092"
+    }, 
+    {
+      "familia": "Ladder Horizontal Tee", 
+      "cantidad_simbolos": 3, 
+      "simbolos": [
+        {
+          "nombre": "12\" Radius", 
+          "id": "485228"
+        }, 
+        {
+          "nombre": "24\" Radius", 
+          "id": "485230"
+        }, 
+        {
+          "nombre": "36\" Radius", 
+          "id": "485232"
+        }
+      ], 
+      "id": "527267"
+    }, 
+    {
+      "familia": "Ladder Reducer", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "487580"
+        }
+      ], 
+      "id": "528330"
+    }, 
+    {
+      "familia": "Ladder Union", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "488843"
+        }
+      ], 
+      "id": "530682"
+    }, 
+    {
+      "familia": "Ladder Vertical Inside Bend", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "490443"
+        }
+      ], 
+      "id": "531950"
+    }, 
+    {
+      "familia": "Ladder Vertical Outside Bend", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Standard", 
+          "id": "492043"
+        }
+      ], 
+      "id": "533555"
+    }, 
+    {
+      "familia": "Level Head - Circle", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Level Head - Circle", 
+          "id": "50818"
+        }
+      ], 
+      "id": "113446"
+    }, 
+    {
+      "familia": "Level Head - No Bubble", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Level Head - No Bubble", 
+          "id": "50443"
+        }
+      ], 
+      "id": "113256"
+    }, 
+    {
+      "familia": "Light Switch Tag", 
+      "cantidad_simbolos": 2, 
+      "simbolos": [
+        {
+          "nombre": "Boxed", 
+          "id": "417077"
+        }, 
+        {
+          "nombre": "Standard", 
+          "id": "417079"
+        }
+      ], 
+      "id": "416869"
+    }, 
+    {
+      "familia": "Lighting and Appliance Panelboard - 208V MLO", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "100 A", 
+          "id": "509153"
+        }, 
+        {
+          "nombre": "225 A", 
+          "id": "509155"
+        }, 
+        {
+          "nombre": "400 A", 
+          "id": "509157"
+        }, 
+        {
+          "nombre": "600 A", 
+          "id": "509159"
+        }
+      ], 
+      "id": "512822"
+    }, 
+    {
+      "familia": "Lighting and Appliance Panelboard - 480V MLO", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "125 A", 
+          "id": "509920"
+        }, 
+        {
+          "nombre": "250 A", 
+          "id": "509922"
+        }, 
+        {
+          "nombre": "400 A", 
+          "id": "509924"
+        }, 
+        {
+          "nombre": "600 A", 
+          "id": "509926"
+        }
+      ], 
+      "id": "512051"
+    }, 
+    {
+      "familia": "Lighting Fixture Circuit Tag", 
+      "cantidad_simbolos": 2, 
+      "simbolos": [
+        {
+          "nombre": "Boxed", 
+          "id": "410191"
+        }, 
+        {
+          "nombre": "Standard", 
+          "id": "410193"
+        }
+      ], 
+      "id": "410000"
+    }, 
+    {
+      "familia": "Lighting Switches", 
+      "cantidad_simbolos": 10, 
+      "simbolos": [
+        {
+          "nombre": "Three Way", 
+          "id": "510958"
+        }, 
+        {
+          "nombre": "Single Pole", 
+          "id": "510960"
+        }, 
+        {
+          "nombre": "Four Way", 
+          "id": "510962"
+        }, 
+        {
+          "nombre": "Circuit Breaker", 
+          "id": "510964"
+        }, 
+        {
+          "nombre": "Dimmer", 
+          "id": "510966"
+        }, 
+        {
+          "nombre": "Door", 
+          "id": "510968"
+        }, 
+        {
+          "nombre": "Key Operated", 
+          "id": "510970"
+        }, 
+        {
+          "nombre": "Pilot Lighted", 
+          "id": "510972"
+        }, 
+        {
+          "nombre": "Low Voltage", 
+          "id": "510974"
+        }, 
+        {
+          "nombre": "Timer", 
+          "id": "510976"
+        }
+      ], 
+      "id": "509949"
+    }, 
+    {
+      "familia": "Long Wire Tick Mark", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "Long Wire Tick Mark", 
+          "id": "409091"
+        }
+      ], 
+      "id": "408895"
+    }, 
+    {
+      "familia": "M_Caja de conexiones hexagonal", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "120V", 
+          "id": "867965"
+        }, 
+        {
+          "nombre": "208V", 
+          "id": "867967"
+        }, 
+        {
+          "nombre": "277V", 
+          "id": "867969"
+        }, 
+        {
+          "nombre": "480V", 
+          "id": "867971"
+        }
+      ], 
+      "id": "866845"
+    }, 
+    {
+      "familia": "M_Caja de conexiones simple redonda", 
+      "cantidad_simbolos": 4, 
+      "simbolos": [
+        {
+          "nombre": "120V", 
+          "id": "869066"
+        }, 
+        {
+          "nombre": "208V", 
+          "id": "869068"
+        }, 
+        {
+          "nombre": "277V", 
+          "id": "869070"
+        }, 
+        {
+          "nombre": "480V", 
+          "id": "869072"
+        }
+      ], 
+      "id": "867986"
+    }, 
+    {
+      "familia": "M_Cajas de conexiones - Carga", 
+      "cantidad_simbolos": 6, 
+      "simbolos": [
+        {
+          "nombre": "100 Cuadrada 120 - 1", 
+          "id": "870171"
+        }, 
+        {
+          "nombre": "100 Cuadrada 208 - 2", 
+          "id": "870173"
+        }, 
+        {
+          "nombre": "100 Cuadrada 208 - 3", 
+          "id": "870175"
+        }, 
+        {
+          "nombre": "100 Cuadrada 277- 1", 
+          "id": "870177"
+        }, 
+        {
+          "nombre": "100 Cuadrada 480- 2", 
+          "id": "870179"
+        }, 
+        {
+          "nombre": "100 Cuadrada 480- 3", 
+          "id": "870181"
+        }
+      ], 
+      "id": "869087"
+    }, 
+    {
+      "familia": "M_Cajas de conexiones - Sin carga", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": "100 Cuadrada", 
+          "id": "866830"
+        }
+      ], 
+      "id": "865745"
+    }, 
+    {
+      "familia": "M_Calentador", 
+      "cantidad_simbolos": 1, 
+      "simbolos": [
+        {
+          "nombre": 

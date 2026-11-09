@@ -1,0 +1,6 @@
+{
+  "dxf_base_file": "ArchivosBase\\STM-T4-P4_bloques_electricos.dxf",
+  "descripcion": "Archivo base DXF para calcular posiciones de bloques dentro de Revit. Cambiar este valor para cada nuevo proyecto.",
+  "chip_por_defecto": "SANTAMARTA_T5",
+  "nota": "Los scripts de Fase 1 (RE1_NORMALIZA_DXF_v01.py) aceptan --dxf-in para sobrescribir este valor por proyecto."
+}

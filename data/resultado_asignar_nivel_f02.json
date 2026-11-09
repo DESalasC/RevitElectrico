@@ -1,0 +1,114 @@
+{
+  "instancias_encontradas": 38, 
+  "nivel_id": "192512", 
+  "script": "ASIGNAR_NIVEL_F02_v01.py", 
+  "nivel": "Piso 5", 
+  "fallos": [
+    {
+      "id": "5562832", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562833", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562834", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562835", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562836", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562837", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562838", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562839", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562841", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562846", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562848", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562849", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562859", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562860", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562861", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562862", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562863", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562864", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562865", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }, 
+    {
+      "id": "5562866", 
+      "motivo": "FAMILY_LEVEL_PARAM es de solo lectura"
+    }
+  ], 
+  "version": "v01-asignar-nivel-f02", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "detalles": [
+    {
+      "nivel_asignado": "Piso 5", 
+      "id": "5562795", 
+      "nombre": "EPB25-304C", 
+      "categoria": "Electrical Equipment"
+    }, 
+    {
+      "nivel_asignado": "Piso 5", 
+      "id": "5562858", 
+      "nombre": "EPB25-304C", 
+      "categoria": "Electrical Equipment"
+    }
+  ], 
+  "elevacion_nivel_m": 43.372703412073484, 
+  "estadisticas": {
+    "nivel_vacio": 0, 
+    "nivel_incorrecto": 36, 
+    "fallos": 36, 
+    "total_encontradas": 38, 
+    "nivel_correcto": 2, 
+    "asignadas": 2
+  }, 
+  "fecha_ejecucion": "2026-10-25 00:21:32"
+}

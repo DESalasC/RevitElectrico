@@ -1,0 +1,139 @@
+{
+  "creadas": [], 
+  "nivel_id": "192512", 
+  "script": "RECREAR_CON_NIVEL_v01.py", 
+  "nivel": "Piso 5", 
+  "fallos": [
+    {
+      "orden": 1, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 2, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-TEL"
+    }, 
+    {
+      "orden": 3, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-TEL"
+    }, 
+    {
+      "orden": 4, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 5, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 6, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "orden": 7, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "orden": 8, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "orden": 10, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "orden": 11, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-TEL"
+    }, 
+    {
+      "orden": 12, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-TEL"
+    }, 
+    {
+      "orden": 13, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 16, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "orden": 17, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 18, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "orden": 19, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "orden": 20, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "orden": 21, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "orden": 22, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "orden": 23, 
+      "detalle": "Traceback (most recent call last):\n  File \"<agent-script>\", line 336, in recrear_con_nivel\n    inst = doc.Create.NewFamilyInstance(\nNameError: global name 'Structure' is not defined\n", 
+      "motivo": "Excepcion al crear: NameError (global name 'Structure' is not defined)", 
+      "nombre_bloque": "Bala Stil Led 10W"
+    }
+  ], 
+  "version": "v01-recrear-con-nivel", 
+  "total_a_borrar": 158, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "elevacion_nivel_m": 43.372703412073484, 
+  "estadisticas": {
+    "total_acciones": 171, 
+    "fallos": 171, 
+    "creadas": 0, 
+    "borradas": 158
+  }, 
+  "fecha_ejecucion": "2026-10-24 23:54:09"
+}

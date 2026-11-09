@@ -1,0 +1,23 @@
+{
+  "chip": "SANTAMARTA_T5",
+  "nota": "Fixture de referencia para RE3_LECTURA_IFC_v01. El IFC de prueba se genera programáticamente en el test; este archivo documenta la estructura de salida esperada.",
+  "estructura_esperada": [
+    "metadatos.chip",
+    "metadatos.origen_ifc",
+    "metadatos.schema",
+    "metadatos.total_elementos",
+    "resumen.conteos_por_tipo",
+    "resumen.total_tipos_distintos",
+    "resumen.total_qto_sets",
+    "elementos[].guid",
+    "elementos[].tipo_ifc",
+    "elementos[].nombre",
+    "elementos[].cantidades[].nombre_cantidad",
+    "elementos[].cantidades[].valor",
+    "elementos[].cantidades[].unidad",
+    "qto_sets[].nombre_qto",
+    "qto_sets[].nombre_cantidad",
+    "tipos_elemento[].tipo_ifc",
+    "tipos_elemento[].conteo"
+  ]
+}

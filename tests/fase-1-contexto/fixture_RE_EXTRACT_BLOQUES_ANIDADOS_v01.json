@@ -1,0 +1,162 @@
+{
+  "origen_dxf": "3.-Proceso/_prueba_modelado/Apartamento Tipo F 02.dxf",
+  "chip": "SANTAMARTA_T5",
+  "version_dxf": "AC1032",
+  "unidades": 6,
+  "resumen": {
+    "bloques_apartamento_en_modelo": 3,
+    "definiciones_bloque_distintas": 2,
+    "total_componentes_internos": 25,
+    "tipos_componente": {
+      "INSERT": 3,
+      "CIRCLE": 10,
+      "LWPOLYLINE": 12
+    }
+  },
+  "bloques_apartamento": [
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "punto_insert": [2.8, 8.57, 0.0],
+      "rotacion": 180.0,
+      "escala": [1.0, 1.0, 1.0],
+      "es_electrica": true,
+      "definicion_bloque": "ELEC-T-D-t-15A",
+      "componentes_internos": [
+        {
+          "tipo": "CIRCLE",
+          "capa": "0",
+          "es_electrica": false,
+          "centro": [0.0, 0.052, 0.0],
+          "radio": 0.051
+        },
+        {
+          "tipo": "LWPOLYLINE",
+          "capa": "0",
+          "es_electrica": false,
+          "puntos": [[0.0, 0.0, 0.0], [0.1, 0.0, 0.0], [0.1, 0.1, 0.0]],
+          "cerrada": true
+        },
+        {
+          "tipo": "LWPOLYLINE",
+          "capa": "0",
+          "es_electrica": false,
+          "puntos": [[0.0, 0.0, 0.0], [0.05, 0.0, 0.0]],
+          "cerrada": false
+        }
+      ],
+      "total_componentes": 3,
+      "familia_revit_sugerida": "Toma doble 15A"
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "punto_insert": [5.107, 2.294, 0.0],
+      "rotacion": 0.0,
+      "escala": [1.0, 1.0, 1.0],
+      "es_electrica": true,
+      "definicion_bloque": "ELEC-I-S-1-5A",
+      "componentes_internos": [
+        {
+          "tipo": "CIRCLE",
+          "capa": "0",
+          "es_electrica": false,
+          "centro": [0.0, 0.0, 0.0],
+          "radio": 0.03
+        },
+        {
+          "tipo": "LWPOLYLINE",
+          "capa": "0",
+          "es_electrica": false,
+          "puntos": [[-0.05, -0.05, 0.0], [0.05, -0.05, 0.0], [0.05, 0.05, 0.0], [-0.05, 0.05, 0.0]],
+          "cerrada": true
+        }
+      ],
+      "total_componentes": 2,
+      "familia_revit_sugerida": "Interruptor simple 1x 5A"
+    },
+    {
+      "nombre_bloque": "ELEC-F-VENT",
+      "capa": "ELEC-APPL-ILUM",
+      "punto_insert": [4.351, 6.951, 0.0],
+      "rotacion": 0.0,
+      "escala": [1.0, 1.0, 1.0],
+      "es_electrica": true,
+      "definicion_bloque": "ELEC-F-VENT",
+      "componentes_internos": [
+        {
+          "tipo": "CIRCLE",
+          "capa": "0",
+          "es_electrica": false,
+          "centro": [0.0, 0.0, 0.0],
+          "radio": 0.15
+        },
+        {
+          "tipo": "ARC",
+          "capa": "0",
+          "es_electrica": false,
+          "centro": [0.0, 0.0, 0.0],
+          "radio": 0.15,
+          "angulo_inicio": 0.0,
+          "angulo_fin": 360.0
+        }
+      ],
+      "total_componentes": 2,
+      "familia_revit_sugerida": "Ventilador de techo"
+    }
+  ],
+  "definiciones_bloque": [
+    {
+      "nombre_bloque": "ELEC-T-D-t-15A",
+      "total_entidades": 3,
+      "entidades": [
+        {
+          "tipo": "CIRCLE",
+          "capa": "0",
+          "es_electrica": false,
+          "centro": [0.0, 0.052, 0.0],
+          "radio": 0.051
+        },
+        {
+          "tipo": "LWPOLYLINE",
+          "capa": "0",
+          "es_electrica": false,
+          "puntos": [[0.0, 0.0, 0.0], [0.1, 0.0, 0.0], [0.1, 0.1, 0.0]],
+          "cerrada": true
+        },
+        {
+          "tipo": "LWPOLYLINE",
+          "capa": "0",
+          "es_electrica": false,
+          "puntos": [[0.0, 0.0, 0.0], [0.05, 0.0, 0.0]],
+          "cerrada": false
+        }
+      ]
+    },
+    {
+      "nombre_bloque": "ELEC-I-S-1-5A",
+      "total_entidades": 2,
+      "entidades": [
+        {
+          "tipo": "CIRCLE",
+          "capa": "0",
+          "es_electrica": false,
+          "centro": [0.0, 0.0, 0.0],
+          "radio": 0.03
+        },
+        {
+          "tipo": "LWPOLYLINE",
+          "capa": "0",
+          "es_electrica": false,
+          "puntos": [[-0.05, -0.05, 0.0], [0.05, -0.05, 0.0], [0.05, 0.05, 0.0], [-0.05, 0.05, 0.0]],
+          "cerrada": true
+        }
+      ]
+    }
+  ],
+  "mapeo_sugerido_revit": {
+    "ELEC-T-D-t-15A": "Toma doble 15A",
+    "ELEC-I-S-1-5A": "Interruptor simple 1x 5A",
+    "ELEC-F-VENT": "Ventilador de techo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "nivel_id": "192512", 
+  "total_con_red_si": 163, 
+  "nivel": "Piso 5", 
+  "script": "CORREGIR_LEVELID_RED_SI_v01.py", 
+  "fallos": 158, 
+  "ya_correctas": 5, 
+  "version": "v01-corregir-levelid-red-si", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "elevacion_nivel_m": 43.372703412073484, 
+  "corregidas": 0, 
+  "para_corregir": 158, 
+  "fecha_ejecucion": "2026-10-24 23:52:58"
+}

@@ -1,0 +1,76 @@
+{
+  "fecha_ejecucion": "2026-10-24 00:13:40", 
+  "json_entrada": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\data\\apto_F_02_aplicar_mapa_v3.json", 
+  "total_simbolos_procesados": 10, 
+  "version": "v01", 
+  "resumen": {
+    "no_disponible": 0, 
+    "ya_existia_activo": 0, 
+    "se_duplico": 0, 
+    "se_activo": 0, 
+    "familia_no_encontrada": 10
+  }, 
+  "resultados": [
+    {
+      "simbolo_usado": null, 
+      "familia": "M_Toma doble", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "GFCI"
+    }, 
+    {
+      "simbolo_usado": null, 
+      "familia": "M_Interruptor bipolar", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "Est??ndar"
+    }, 
+    {
+      "simbolo_usado": null, 
+      "familia": "M_Interruptor", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "Puerta motorizada"
+    }, 
+    {
+      "simbolo_usado": null, 
+      "familia": "M_Ventilador", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "Est??ndar"
+    }, 
+    {
+      "simbolo_usado": null, 
+      "familia": "M_Toma resistente a la intemperie", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "Est??ndar"
+    }, 
+    {
+      "simbolo_usado": null, 
+      "familia": "COMBO MOUNTING RING", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "MOUNTING RING trimless, 064-1906700"
+    }, 
+    {
+      "simbolo_usado": null, 
+      "familia": "COMBO MOUNTING RING", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "MOUNTING RING trimless, 064-1906300"
+    }, 
+    {
+      "simbolo_usado": null, 
+      "familia": "COMBO MOUNTING RING", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "MOUNTING RING trimless, 064-1906500"
+    }, 
+    {
+      "simbolo_usado": null, 
+      "familia": "E_Distribution Panel_MEPcontent_ABB_Protecta Compact_INT-EN", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "EPB25-304C"
+    }, 
+    {
+      "simbolo_usado": null, 
+      "familia": "M_Toma simple", 
+      "accion": "familia_no_encontrada", 
+      "simbolo_solicitado": "Est??ndar"
+    }
+  ], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA"
+}

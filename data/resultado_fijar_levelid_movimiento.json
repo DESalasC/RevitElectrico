@@ -1,0 +1,207 @@
+{
+  "nivel_id": "192512", 
+  "script": "FIJAR_LEVELID_POR_MOVIMIENTO_v01.py", 
+  "nivel": "Piso 5", 
+  "nivel_incorrecto": 36, 
+  "total_encontradas": 37, 
+  "version": "v01-fijar-levelid-movimiento", 
+  "sin_levelid_antes": 0, 
+  "con_levelid_despues": 37, 
+  "detalles": [
+    {
+      "id": "5562995", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5562996", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5562997", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5562998", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5562999", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563000", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563001", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563002", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563004", 
+      "nombre": "Puerta motorizada", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563009", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563011", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563012", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563022", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563023", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563024", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563025", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563026", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563027", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563028", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563029", 
+      "nombre": "Est?ndar", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563030", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563031", 
+      "nombre": "GFCI", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "id": "5563003", 
+      "nombre": "Est?ndar", 
+      "categoria": "Lighting Devices"
+    }, 
+    {
+      "id": "5563005", 
+      "nombre": "Est?ndar", 
+      "categoria": "Lighting Devices"
+    }, 
+    {
+      "id": "5563006", 
+      "nombre": "Est?ndar", 
+      "categoria": "Lighting Devices"
+    }, 
+    {
+      "id": "5563007", 
+      "nombre": "Est?ndar", 
+      "categoria": "Lighting Devices"
+    }, 
+    {
+      "id": "5563008", 
+      "nombre": "Est?ndar", 
+      "categoria": "Lighting Devices"
+    }, 
+    {
+      "id": "5563010", 
+      "nombre": "Est?ndar", 
+      "categoria": "Lighting Devices"
+    }, 
+    {
+      "id": "5563013", 
+      "nombre": "MOUNTING RING trimless, 064-1906700", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "id": "5563014", 
+      "nombre": "MOUNTING RING trimless, 064-1906700", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "id": "5563015", 
+      "nombre": "MOUNTING RING trimless, 064-1906300", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "id": "5563016", 
+      "nombre": "MOUNTING RING trimless, 064-1906300", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "id": "5563017", 
+      "nombre": "MOUNTING RING trimless, 064-1906300", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "id": "5563018", 
+      "nombre": "MOUNTING RING trimless, 064-1906300", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "id": "5563019", 
+      "nombre": "MOUNTING RING trimless, 064-1906500", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "id": "5563020", 
+      "nombre": "MOUNTING RING trimless, 064-1906500", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "id": "5563021", 
+      "nombre": "EPB25-304C", 
+      "categoria": "Electrical Equipment"
+    }
+  ], 
+  "nivel_correcto": 1, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V01", 
+  "sin_levelid_despues": 0, 
+  "con_levelid_antes": 37, 
+  "fecha_ejecucion": "2026-10-25 00:29:52", 
+  "estadisticas": {
+    "fallos": 0, 
+    "total_procesadas": 37, 
+    "movidas": 37
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "chip": "SANTAMARTA_T5",
+  "offset_aplicado_x": -991.903,
+  "offset_aplicado_y": -1714.822,
+  "bloques_esperados": [
+    {
+      "nombre_bloque": "Paneles",
+      "capa": "Paneles",
+      "es_electrica": true,
+      "punto_insert_original": [100.0, 200.0, 0.0],
+      "punto_insert_esperado": [1091.903, 1914.822, 0.0],
+      "familia_revit_sugerida": "Tablero eléctrico"
+    }
+  ],
+  "bloques_basura_esperados": [
+    "sadfasdggfjhkkl"
+  ],
+  "polilineas_electricas_esperadas": 1,
+  "capa_polilinea_electrica": "ELEC-LIGHT-PIPE"
+}

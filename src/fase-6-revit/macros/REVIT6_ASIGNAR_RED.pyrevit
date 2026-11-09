@@ -1,0 +1,7 @@
+__title__ = "6.2 Asignar RED=SI"
+__author__ = RevitElectrico / T5-SantaMarta
+__doc__ = Marca RED=SI en el parametro Comments de 5 FamilyInstance (IDs: 5554265, 5554262, 5554263, 5554264, 5554269).
+__context__ = selection
+__url__ =
+__minrevitver__ = 2021
+__maxrevitver__ = 2026

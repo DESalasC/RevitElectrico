@@ -1,0 +1,39 @@
+{
+  "documento": {
+    "titulo": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02",
+    "ruta": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\3.-Proceso\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02.rvt",
+    "modificado": false
+  },
+  "niveles": [
+    {"nombre": "Piso 4", "elevacion_m": 32.71},
+    {"nombre": "Piso 5", "elevacion_m": 43.3727},
+    {"nombre": "Piso 6", "elevacion_m": 54.0354}
+  ],
+  "instancias_electricas": [
+    {
+      "id": 867008,
+      "categoria": "Electrical Equipment",
+      "familia": "E_Distribution Panel_MEPcontent_ABB_Protecta Compact_INT-EN",
+      "nivel": "Piso 5",
+      "nivel_id": 853351,
+      "elevacion_nivel": 43.3727,
+      "z_min": 44.5727,
+      "z_max": 46.2197,
+      "z_relativo_nivel": 1.2,
+      "oculto_en_vista": false
+    },
+    {
+      "id": 866982,
+      "categoria": "Electrical Fixtures",
+      "familia": "M_Toma doble",
+      "nivel": "Piso 5",
+      "nivel_id": 853351,
+      "elevacion_nivel": 43.3727,
+      "z_min": 43.6727,
+      "z_max": 43.6883,
+      "z_relativo_nivel": 0.3,
+      "oculto_en_vista": false
+    }
+  ],
+  "conduits": {"total": 0, "accesorios": 0, "por_tipo": {}}
+}

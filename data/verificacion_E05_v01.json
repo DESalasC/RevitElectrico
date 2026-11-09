@@ -1,0 +1,254 @@
+{
+  "max_en_3x3m": 45, 
+  "fuera_020m": 23, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "objetivos": 49, 
+  "detalle": [
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "dist": 4.1654000000000000, 
+      "estado": "fuera", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "dist": 4.0715000000000003, 
+      "estado": "fuera", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "dist": 4.3716999999999997, 
+      "estado": "fuera", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "dist": 2.3647999999999998, 
+      "estado": "fuera", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "dist": 7.6384999999999996, 
+      "estado": "fuera", 
+      "bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "dist": 5.3952999999999998, 
+      "estado": "fuera", 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "dist": 4.0418000000000003, 
+      "estado": "fuera", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "dist": 8.4987999999999992, 
+      "estado": "fuera", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "dist": 10.554900000000000, 
+      "estado": "fuera", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "dist": 4.4542999999999999, 
+      "estado": "fuera", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "dist": 0.91220000000000001, 
+      "estado": "fuera", 
+      "bloque": "S3"
+    }, 
+    {
+      "dist": 1.2018000000000000, 
+      "estado": "fuera", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "dist": 7.9238999999999997, 
+      "estado": "fuera", 
+      "bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "dist": 7.7968000000000002, 
+      "estado": "fuera", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "dist": 8.9991000000000003, 
+      "estado": "fuera", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "dist": 0.0, 
+      "estado": "ok", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "dist": 4.7244000000000002, 
+      "estado": "fuera", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "dist": 3.8957000000000002, 
+      "estado": "fuera", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "dist": 12.826400000000000, 
+      "estado": "fuera", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "dist": 9.1260999999999992, 
+      "estado": "fuera", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "dist": 12.129400000000000, 
+      "estado": "fuera", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "estado": "falta", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "estado": "falta", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "dist": 2.7544000000000000, 
+      "estado": "fuera", 
+      "bloque": "2F2N1T1R"
+    }, 
+    {
+      "dist": 5.0762999999999998, 
+      "estado": "fuera", 
+      "bloque": "2F2N1T1R"
+    }, 
+    {
+      "dist": 4.8483999999999998, 
+      "estado": "fuera", 
+      "bloque": "ELEC-T-D-t-15A"
+    }
+  ], 
+  "ok_020m": 24, 
+  "faltan": 2, 
+  "instancias_electricas": 259
+}

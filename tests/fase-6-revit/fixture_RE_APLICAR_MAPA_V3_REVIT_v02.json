@@ -1,0 +1,68 @@
+{
+  "version": "v3-host-fallback",
+  "proyecto": "RevitElectrico - T5-SantaMarta",
+  "bloque_padre": "Apartamento Tipo F 02",
+  "nivel": "Piso 5",
+  "chip": "SANTAMARTA_T5",
+  "altura_cieloraso_m": 15.82,
+  "acciones": [
+    {
+      "orden": 0,
+      "nombre_bloque": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x_revit": 5.0,
+      "y_revit": 3.0,
+      "z_revit": 15.82,
+      "rotacion": 0,
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "anfitrion": "ceiling",
+      "nivel_revit": null,
+      "metodo_instancia": "NewFamilyInstance(face, ...)"
+    },
+    {
+      "orden": 1,
+      "nombre_bloque": "ELEC-CAMPANA",
+      "capa": "ELEC-APPL-TOMAS",
+      "x_revit": 99.0,
+      "y_revit": 99.0,
+      "z_revit": 15.82,
+      "rotacion": 180.0,
+      "familia": "M_Interruptor",
+      "simbolo": "Puerta motorizada",
+      "anfitrion": "ceiling",
+      "nivel_revit": null,
+      "metodo_instancia": "NewFamilyInstance(face, ...)"
+    },
+    {
+      "orden": 2,
+      "nombre_bloque": "ELEC-T-GFCI-t-15A-muro",
+      "capa": "ELEC-APPL-TOMAS",
+      "x_revit": 2.0,
+      "y_revit": 8.0,
+      "z_revit": 1.0,
+      "rotacion": 0,
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "anfitrion": "muro",
+      "nivel_revit": "Piso 5",
+      "metodo_instancia": "NewFamilyInstance(level, ...)"
+    },
+    {
+      "orden": 3,
+      "nombre_bloque": "ELEC-SIN-CARA-SIN-MURO",
+      "capa": "ELEC-APPL-ILUM",
+      "x_revit": 999.0,
+      "y_revit": 999.0,
+      "z_revit": 15.82,
+      "rotacion": 0,
+      "familia": "COMBO MOUNTING RING",
+      "simbolo": "MOUNTING RING trimless",
+      "anfitrion": "ceiling",
+      "nivel_revit": null,
+      "metodo_instancia": "NewFamilyInstance(face, ...)"
+    }
+  ],
+  "acciones_saltar": [],
+  "acciones_sin_mapeo": []
+}

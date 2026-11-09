@@ -1,0 +1,222 @@
+{
+  "memoria_proceso_gb": 10.940000000000000, 
+  "elementos_totales": 239289, 
+  "vistas_total": 129, 
+  "ruta": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\3.-Proceso\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02.rvt", 
+  "elementos_sin_categoria": 24989, 
+  "vistas_3d_total": 3, 
+  "conteo_niveles": 0, 
+  "tiempo_total_s": 684.19000000000005, 
+  "categorias_distintas": 84, 
+  "conteo_mobiliario": 0, 
+  "tamano_rvt_mb": 470.60000000000002, 
+  "cad_vinculado_total": 1, 
+  "worksets_total": 0, 
+  "conteo_areas": 0, 
+  "grupos_top10": [
+    {
+      "tipo": "?", 
+      "instancias": 174
+    }
+  ], 
+  "opciones_diseno_total": 0, 
+  "conteo_tuberia": 0, 
+  "niveles_total": 24, 
+  "vistas_por_tipo": {
+    "Elevation": 5, 
+    "Section": 9, 
+    "SystemBrowser": 1, 
+    "CeilingPlan": 23, 
+    "ProjectBrowser": 1, 
+    "PLANTILLA": 26, 
+    "EngineeringPlan": 21, 
+    "ThreeD": 2, 
+    "Legend": 2, 
+    "Schedule": 2, 
+    "DrawingSheet": 4, 
+    "FloorPlan": 33
+  }, 
+  "conteo_bandejas": 0, 
+  "avisos_top10": [
+    {
+      "descripcion": "", 
+      "veces": 959
+    }
+  ], 
+  "conteo_ventanas": 0, 
+  "vista_activa": "Piso 5", 
+  "generado": "2026-10-29 00:09:20", 
+  "categorias_top30": [
+    {
+      "elementos": 88933, 
+      "categoria": "<Sketch>"
+    }, 
+    {
+      "elementos": 40114, 
+      "categoria": "Walls"
+    }, 
+    {
+      "elementos": 28268, 
+      "categoria": "Automatic Sketch Dimensions"
+    }, 
+    {
+      "elementos": 18048, 
+      "categoria": "Reference Planes"
+    }, 
+    {
+      "elementos": 16251, 
+      "categoria": "Constraints"
+    }, 
+    {
+      "elementos": 3403, 
+      "categoria": "Plumbing Fixtures"
+    }, 
+    {
+      "elementos": 3026, 
+      "categoria": "Balusters"
+    }, 
+    {
+      "elementos": 2799, 
+      "categoria": "Furniture"
+    }, 
+    {
+      "elementos": 2660, 
+      "categoria": "Doors"
+    }, 
+    {
+      "elementos": 2549, 
+      "categoria": "Floors"
+    }, 
+    {
+      "elementos": 1142, 
+      "categoria": "Structural Columns"
+    }, 
+    {
+      "elementos": 833, 
+      "categoria": "Railings"
+    }, 
+    {
+      "elementos": 774, 
+      "categoria": "Railing Rail Path Extension Lines"
+    }, 
+    {
+      "elementos": 715, 
+      "categoria": "Windows"
+    }, 
+    {
+      "elementos": 603, 
+      "categoria": "Top Rails"
+    }, 
+    {
+      "elementos": 556, 
+      "categoria": "Ceilings"
+    }, 
+    {
+      "elementos": 359, 
+      "categoria": "Wall Sweeps"
+    }, 
+    {
+      "elementos": 254, 
+      "categoria": "Materials"
+    }, 
+    {
+      "elementos": 230, 
+      "categoria": "Legend Components"
+    }, 
+    {
+      "elementos": 229, 
+      "categoria": "Sun Path"
+    }, 
+    {
+      "elementos": 222, 
+      "categoria": "Center line"
+    }, 
+    {
+      "elementos": 216, 
+      "categoria": "Lines"
+    }, 
+    {
+      "elementos": 174, 
+      "categoria": "Model Groups"
+    }, 
+    {
+      "elementos": 140, 
+      "categoria": "Conduits"
+    }, 
+    {
+      "elementos": 135, 
+      "categoria": "Views"
+    }, 
+    {
+      "elementos": 132, 
+      "categoria": "Electrical Load Classification Parameter Element"
+    }, 
+    {
+      "elementos": 126, 
+      "categoria": "Runs"
+    }, 
+    {
+      "elementos": 125, 
+      "categoria": "Space Type Settings"
+    }, 
+    {
+      "elementos": 123, 
+      "categoria": "Curtain Wall Mullions"
+    }, 
+    {
+      "elementos": 107, 
+      "categoria": "Curtain Panels"
+    }
+  ], 
+  "familias_inplace": 0, 
+  "revit_build": "26.4.20.9", 
+  "tipos_familia_total": 210, 
+  "cad_importado_total": 0, 
+  "nubes_puntos_total": 0, 
+  "workshared": false, 
+  "solo_lectura": false, 
+  "script": "F0_DIAGNOSTICO_RENDIMIENTO_REVIT_v02", 
+  "revit_version": "Autodesk Revit 2026", 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02", 
+  "vinculos_total": 1, 
+  "conteo_conduit": 0, 
+  "conteo_ejes": 0, 
+  "conteo_conductos": 0, 
+  "errores": [], 
+  "familias_total": 100, 
+  "conteo_habitaciones": 0, 
+  "conteo_puertas": 0, 
+  "modificado": false, 
+  "tipo_vista_activa": "FloorPlan", 
+  "hallazgos": [
+    {
+      "hallazgo": "Archivo .rvt de 470.6 MB: por encima de 300 MB el guardado y la regeneracion se degradan mucho.", 
+      "severidad": "ALTA"
+    }, 
+    {
+      "hallazgo": "959 avisos abiertos: se reevaluan en cada guardado e inflan el archivo.", 
+      "severidad": "ALTA"
+    }
+  ], 
+  "planos_total": 4, 
+  "carpeta_modelo": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\3.-Proceso", 
+  "secciones": {
+    "tamano_disco_s": 0.02, 
+    "familias_s": 0.20000000000000001, 
+    "pasada_unica_s": 681.75999999999999, 
+    "cad_s": 0.040000000000000001, 
+    "grupos_s": 0.40999999999999998, 
+    "vinculos_s": 0.029999999999999999, 
+    "avisos_s": 1.2700000000000000, 
+    "vistas_s": 0.32000000000000001
+  }, 
+  "avisos_total": 959, 
+  "grupos_total": 174, 
+  "conteo_muros": 0, 
+  "vinculos": [
+    {
+      "instancia": "STM TORRE5 Celosia.rvt : 3 : location <Not Shared>", 
+      "estado": "no cargado"
+    }
+  ]
+}
