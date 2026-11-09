@@ -1,0 +1,347 @@
+{
+  "revisar_manualmente": [], 
+  "faltantes": [], 
+  "detalle_ok": [
+    {
+      "elemento_id": "5673870", 
+      "z": 13.520000000000000, 
+      "dist": 0.035000000000000003, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5670927", 
+      "z": 13.520000000000000, 
+      "dist": 0.031, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5670929", 
+      "z": 13.520000000000000, 
+      "dist": 0.031, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5673876", 
+      "z": 13.520000000000000, 
+      "dist": 0.0080000000000000002, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673878", 
+      "z": 13.520000000000000, 
+      "dist": 0.0080000000000000002, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673879", 
+      "z": 14.320000000000000, 
+      "dist": 0.64000000000000001, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "elemento_id": "5673880", 
+      "z": 14.320000000000000, 
+      "dist": 0.373, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "elemento_id": "5673882", 
+      "z": 13.520000000000000, 
+      "dist": 0.0050000000000000001, 
+      "bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "elemento_id": "5673884", 
+      "z": 13.520000000000000, 
+      "dist": 0.058999999999999997, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5673886", 
+      "z": 13.520000000000000, 
+      "dist": 0.060999999999999999, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673888", 
+      "z": 13.520000000000000, 
+      "dist": 0.060999999999999999, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673890", 
+      "z": 13.520000000000000, 
+      "dist": 0.010999999999999999, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5673892", 
+      "z": 13.520000000000000, 
+      "dist": 0.0080000000000000002, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673893", 
+      "z": 13.520000000000000, 
+      "dist": 0.010999999999999999, 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "elemento_id": "5673895", 
+      "z": 14.320000000000000, 
+      "dist": 0.048000000000000001, 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "elemento_id": "5673897", 
+      "z": 13.520000000000000, 
+      "dist": 0.050999999999999997, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5670964", 
+      "z": 13.520000000000000, 
+      "dist": 0.045999999999999999, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5670966", 
+      "z": 13.520000000000000, 
+      "dist": 0.045999999999999999, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5673903", 
+      "z": 13.520000000000000, 
+      "dist": 0.0060000000000000001, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673905", 
+      "z": 13.520000000000000, 
+      "dist": 0.0030000000000000001, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5673907", 
+      "z": 14.320000000000000, 
+      "dist": 0.64200000000000002, 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "elemento_id": "5673908", 
+      "z": 14.320000000000000, 
+      "dist": 0.44800000000000001, 
+      "bloque": "S3"
+    }, 
+    {
+      "elemento_id": "5673910", 
+      "z": 13.520000000000000, 
+      "dist": 0.021999999999999999, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673912", 
+      "z": 13.520000000000000, 
+      "dist": 0.045999999999999999, 
+      "bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "elemento_id": "5673914", 
+      "z": 13.520000000000000, 
+      "dist": 0.027, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5673915", 
+      "z": 14.320000000000000, 
+      "dist": 0.66400000000000003, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "elemento_id": "5670990", 
+      "z": 13.520000000000000, 
+      "dist": 0.0089999999999999993, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5673919", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "elemento_id": "5673921", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "elemento_id": "5673923", 
+      "z": 13.520000000000000, 
+      "dist": 0.034000000000000002, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5673925", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "elemento_id": "5673927", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "elemento_id": "5673929", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "elemento_id": "5673931", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "elemento_id": "5673933", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "elemento_id": "5673935", 
+      "z": 15.820000000000000, 
+      "dist": 0.001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "elemento_id": "5673937", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "elemento_id": "5673939", 
+      "z": 15.820000000000000, 
+      "dist": 0.001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "elemento_id": "5673941", 
+      "z": 14.320000000000000, 
+      "dist": 0.014999999999999999, 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "elemento_id": "5673943", 
+      "z": 14.320000000000000, 
+      "dist": 0.016, 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "elemento_id": "5671021", 
+      "z": 13.520000000000000, 
+      "dist": 0.031, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671023", 
+      "z": 13.520000000000000, 
+      "dist": 0.0089999999999999993, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671025", 
+      "z": 13.520000000000000, 
+      "dist": 0.0089999999999999993, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671027", 
+      "z": 13.520000000000000, 
+      "dist": 0.0089999999999999993, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671029", 
+      "z": 13.520000000000000, 
+      "dist": 0.66000000000000003, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5673955", 
+      "z": 13.520000000000000, 
+      "dist": 0.48599999999999999, 
+      "bloque": "ELEC-T-D-t-15A"
+    }
+  ], 
+  "esperados": 46, 
+  "candidatos_borrado": [], 
+  "elev_m": 13.220000000000001, 
+  "sobrantes": [], 
+  "ajustes_mayores": [
+    {
+      "elemento_id": "5673879", 
+      "z": 14.320000000000000, 
+      "dist": 0.64000000000000001, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "elemento_id": "5673880", 
+      "z": 14.320000000000000, 
+      "dist": 0.373, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "elemento_id": "5673907", 
+      "z": 14.320000000000000, 
+      "dist": 0.64200000000000002, 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "elemento_id": "5673908", 
+      "z": 14.320000000000000, 
+      "dist": 0.44800000000000001, 
+      "bloque": "S3"
+    }, 
+    {
+      "elemento_id": "5673915", 
+      "z": 14.320000000000000, 
+      "dist": 0.66400000000000003, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "elemento_id": "5671029", 
+      "z": 13.520000000000000, 
+      "dist": 0.66000000000000003, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5673955", 
+      "z": 13.520000000000000, 
+      "dist": 0.48599999999999999, 
+      "bloque": "ELEC-T-D-t-15A"
+    }
+  ], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "duplicados": [], 
+  "anclas": [
+    {
+      "elemento_id": "5665951", 
+      "comentario": "", 
+      "x": 6.5270000000000001, 
+      "z": 14.420000000000000, 
+      "familia": "E_Distribution Panel", 
+      "y": 6.8280000000000003, 
+      "tipo": "EPB25-304C"
+    }
+  ], 
+  "huerfanos": [], 
+  "familias_obsoletas": {}, 
+  "ok": 46, 
+  "encontrados": 46
+}
