@@ -550,7 +550,15 @@ def rutear_conduits(doc, json_in=None, json_out=None, dry_run=True, solo_servici
     t.Start()
     try:
         for tramo, a, b in segmentos:
-            tipo_id = mapa_tipos.get(tramo.get("diametro_pulgadas"))
+            # Seleccionar tipo de conduit por SERVICIO, no solo por diametro.
+            # Regla 2026-11-10: 3/4" (27mm) es UNICAMENTE para COMUNICACIONES.
+            # El resto (TOMAS, ILUMINACION, FUERZA) usa 1/2" (21mm).
+            servicio = (tramo.get("servicio") or "").upper()
+            if servicio == "COMUNICACIONES":
+                diametro_clave = "3/4\""
+            else:
+                diametro_clave = "1/2\""
+            tipo_id = mapa_tipos.get(diametro_clave)
             try:
                 conduit = Conduit.Create(doc, tipo_id, a, b, nivel.Id)
                 if conduit is None:
