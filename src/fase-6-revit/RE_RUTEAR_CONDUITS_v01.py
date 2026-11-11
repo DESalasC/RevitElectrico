@@ -381,6 +381,18 @@ def _resolver_tipos(doc, diametros_requeridos):
     return mapa, detalle, [t[1] for t in tipos]
 
 
+def _buscar_tipo_por_nombre(doc, patron, excluir=None):
+    """Busca un ConduitType cuyo nombre contenga el patron dado."""
+    tipos = _tipos_conduit(doc)
+    for elem_id, nombre, ct in tipos:
+        nombre_lower = (nombre or "").lower()
+        if patron.lower() in nombre_lower:
+            if excluir and excluir.lower() in nombre_lower:
+                continue
+            return elem_id
+    return None
+
+
 def _set_servicio(conduit, servicio):
     """Escribe el servicio en Servicio_Conduit; si no existe, cae a Comments."""
     escrito = None
@@ -433,16 +445,26 @@ def _set_circuito(conduit, red):
     return escrito
 
 
-def rutear_conduits(doc, json_in=None, json_out=None, dry_run=True, solo_servicios=None,
+def _rutas_json_conduits(apartamento):
+    """Devuelve las rutas de JSON de entrada y salida para un apartamento."""
+    apartamento = (apartamento or "E06").strip().upper()
+    json_in = "data\\ruteo_apartamento_%s_v02.json" % apartamento
+    json_out = "data\\ruteo_conduits_revit_resultado_%s.json" % apartamento
+    return _ruta(json_in), _ruta(json_out)
+
+
+def rutear_conduits(doc, apartamento="E06", json_in=None, json_out=None,
+                    dry_run=True, solo_servicios=None,
                     limite=None, nombre_nivel=None, crear_cajas=True):
     """Crea los conduits definidos en el JSON de ruteo.
 
     dry_run=True  -> no modifica el modelo; solo valida y reporta.
+    apartamento -> identificador del apartamento (ej: "E06", "E05").
     solo_servicios -> lista opcional, p.ej. ["TOMAS"].
     limite -> cantidad maxima de tramos a procesar (para pruebas).
     """
-    json_in = _ruta(json_in or "data\\ruteo_apartamento_F02_v02.json")
-    json_out = _ruta(json_out or "data\\ruteo_conduits_revit_resultado.json")
+    json_in = _ruta(json_in) if json_in else _rutas_json_conduits(apartamento)[0]
+    json_out = _ruta(json_out) if json_out else _rutas_json_conduits(apartamento)[1]
 
     if not os.path.exists(json_in):
         raise IOError("No existe el JSON de ruteo: %s" % json_in)
@@ -514,8 +536,8 @@ def rutear_conduits(doc, json_in=None, json_out=None, dry_run=True, solo_servici
             reporte["omitidos"] += 1
             reporte["detalle"].append({"id": tramo.get("id"), "motivo": "sin puntos_3d"})
             continue
-        pts = [XYZ(_m_a_pies(p[0] + off_x), _m_a_pies(p[1] + off_y), _m_a_pies(p[2]))
-               for p in puntos]
+        pts = [XYZ(_m_a_pies(p[0] + off_x), _m_a_pies(p[1] + off_y),
+                   nivel.Elevation + _m_a_pies(p[2])) for p in puntos]
         for i in range(len(pts) - 1):
             a, b = pts[i], pts[i + 1]
             if a.DistanceTo(b) < 1e-6:
@@ -550,15 +572,20 @@ def rutear_conduits(doc, json_in=None, json_out=None, dry_run=True, solo_servici
     t.Start()
     try:
         for tramo, a, b in segmentos:
-            # Seleccionar tipo de conduit por SERVICIO, no solo por diametro.
-            # Regla 2026-11-10: 3/4" (27mm) es UNICAMENTE para COMUNICACIONES.
-            # El resto (TOMAS, ILUMINACION, FUERZA) usa 1/2" (21mm).
-            servicio = (tramo.get("servicio") or "").upper()
-            if servicio == "COMUNICACIONES":
-                diametro_clave = "3/4\""
-            else:
-                diametro_clave = "1/2\""
-            tipo_id = mapa_tipos.get(diametro_clave)
+            # Seleccionar tipo de conduit por diametro (del JSON de ruteo).
+            # El mapa se resuelve por diametro de instancia en _resolver_tipos:
+            #   1/2" (21mm) -> tipo con instancias a 21mm
+            #   3/4" (27mm) -> tipo con instancias a 27mm
+            diametro = tramo.get("diametro_pulgadas")
+            tipo_id = mapa_tipos.get(diametro) if diametro else None
+            if tipo_id is None:
+                reporte["errores"] += 1
+                reporte["detalle"].append({
+                    "id": tramo.get("id"),
+                    "accion": "error",
+                    "motivo": "No hay tipo de conduit para diametro %s" % diametro,
+                })
+                continue
             try:
                 conduit = Conduit.Create(doc, tipo_id, a, b, nivel.Id)
                 if conduit is None:

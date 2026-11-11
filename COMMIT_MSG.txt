@@ -1,0 +1,6 @@
+Seleccionar tipo de conduit por servicio no solo diametro
+
+COMUNICACIONES usa 3/4 pulgadas (27mm), el resto usa 1/2 pulgada (21mm)
+Arregla mapeo invertido: 1/2" iba a Tubo Comunicaciones y 3/4" a Tubo
+
+Co-Authored-By: Claude Code <noreply@anthropic.com>
