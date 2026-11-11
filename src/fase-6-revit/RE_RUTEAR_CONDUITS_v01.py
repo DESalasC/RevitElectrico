@@ -62,6 +62,23 @@ DIAMETRO_A_PULGADAS = {
     "4": 4.0,
 }
 
+# Mapeo de designacion de diametro a milimetros (registro 2026-11-10:
+# 1/2" = 21 mm, 3/4" = 27 mm, por usuario).
+# Los tipos de conduit del modelo no exponen el diametro como parametro
+# legible, por lo que el match se hace por diametro de instancias existentes.
+DIAMETRO_A_MM = {
+    "1/2": 21,
+    "3/4": 27,
+    "1": 33,
+    "1-1/4": 42,
+    "1-1/2": 48,
+    "2": 60,
+    "2-1/2": 73,
+    "3": 89,
+    "3-1/2": 102,
+    "4": 114,
+}
+
 
 def _root():
     raiz = os.environ.get("REVITELECTRICO_ROOT")
@@ -158,7 +175,7 @@ def _crear_cajas(doc, cajas, symbol, nivel, off_x, off_y, reporte):
             if len(reporte["detalle"]) < 200:
                 reporte["detalle"].append({
                     "id": caja.get("id"), "accion": "caja_creada",
-                    "element_id": inst.Id.IntegerValue,
+                    "element_id": _eid_str(inst.Id),
                     "aparato": caja.get("aparato_nombre"),
                 })
         except Exception as exc:
@@ -223,14 +240,37 @@ def _offset_por_ancla(doc, ancla):
         return 0.0, 0.0, "", False
 
 
+def _nombre_seguro(ct):
+    """Lee el nombre de un elemento de forma segura (IronPython 2.7 compatible)."""
+    try:
+        return ct.Name
+    except Exception:
+        pass
+    try:
+        p = ct.get_Parameter(BuiltInParameter.SYMBOL_NAME_PARAM)
+        if p is not None:
+            return p.AsString() or ""
+    except Exception:
+        pass
+    return ""
+
+
+def _eid_str(element_id):
+    """Convierte ElementId a string de forma segura en IronPython 2.7."""
+    try:
+        return str(element_id)
+    except Exception:
+        return element_id.ToString()
+
+
 def _tipos_conduit(doc):
-    """Devuelve lista de (ElementId, nombre) de los tipos de conduit."""
+    """Devuelve lista de (ElementId, nombre, elemento) de los tipos de conduit."""
     salida = []
     vistos = set()
     for ct in FilteredElementCollector(doc).OfClass(ConduitType):
         try:
-            nombre = ct.Name
-            clave = ("CT", ct.Id.IntegerValue)
+            nombre = _nombre_seguro(ct)
+            clave = ("CT", _eid_str(ct.Id))
             if clave in vistos:
                 continue
             vistos.add(clave)
@@ -239,7 +279,7 @@ def _tipos_conduit(doc):
             continue
     for fs in FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Conduit).WhereElementIsElementType():
         try:
-            clave = ("FS", fs.Id.IntegerValue)
+            clave = ("FS", _eid_str(fs.Id))
             if clave in vistos:
                 continue
             vistos.add(clave)
@@ -249,8 +289,34 @@ def _tipos_conduit(doc):
     return salida
 
 
+def _diametro_tipo_por_instancias(doc, ct):
+    """Determina el diametro mas comun (mm) de las instancias existentes de un tipo de conduit.
+
+    Como ConduitType no expone el diametro como parametro legible en IronPython 2.7,
+    se infiere del diametro de las instancias ya creadas en el modelo.
+    """
+    from collections import Counter
+    diametros = []
+    try:
+        for inst in FilteredElementCollector(doc).OfCategory(
+            BuiltInCategory.OST_Conduit
+        ).WhereElementIsNotElementType():
+            try:
+                if _eid_str(inst.GetTypeId()) == _eid_str(ct.Id):
+                    p = inst.get_Parameter(BuiltInParameter.RBS_CONDUIT_DIAMETER_PARAM)
+                    if p is not None:
+                        diametros.append(round(p.AsDouble() * 304.8, 1))
+            except Exception:
+                continue
+    except Exception:
+        pass
+    if not diametros:
+        return None
+    return Counter(diametros).most_common(1)[0][0]
+
+
 def _pulgadas_de_tipo(nombre):
-    """Extrae el diametro en pulgadas del nombre del tipo de conduit."""
+    """Extrae el diametro en pulgadas del nombre del tipo de conduit (fallback)."""
     texto = (nombre or "").replace('"', "").replace("CONDUIT", "").replace("Conduit", "").strip()
     texto = texto.replace(" ", "")
     for token, valor in DIAMETRO_A_PULGADAS.items():
@@ -260,19 +326,51 @@ def _pulgadas_de_tipo(nombre):
 
 
 def _resolver_tipos(doc, diametros_requeridos):
-    """Mapea cada designacion ('1/2"') al ElementId del tipo de conduit."""
+    """Mapea cada designacion ('1/2"') al ElementId del tipo de conduit.
+
+    Estrategia:
+      1. Analiza instancias existentes para inferir el diametro mas comun (mm)
+         de cada tipo de conduit.
+      2. Convierte cada diametro requerido de pulgadas a mm
+         (DIAMETRO_A_MM: 1/2"=21mm, 3/4"=27mm, etc.).
+      3. Hace match por diametro mm.
+      4. Fallback: intenta parsear el nombre del tipo (pulgadas).
+    """
     tipos = _tipos_conduit(doc)
+
+    # Construir mapa: id_del_tipo -> {id, nombre, diam_mm_inferido}
+    tipo_info = {}
+    for elem_id, nombre, ct in tipos:
+        d_mm = _diametro_tipo_por_instancias(doc, ct)
+        tipo_info[_eid_str(elem_id)] = {
+            "id": elem_id,
+            "nombre": nombre,
+            "diam_mm": d_mm,
+        }
+
     mapa = {}
     detalle = []
     for pulgadas_txt in sorted(set(diametros_requeridos)):
         token_buscado = _token_pulgadas(pulgadas_txt)
-        objetivo = DIAMETRO_A_PULGADAS.get(token_buscado)
+        objetivo_mm = DIAMETRO_A_MM.get(token_buscado)
+        objetivo_pulg = DIAMETRO_A_PULGADAS.get(token_buscado)
         encontrado = None
-        for elem_id, nombre, _elem in tipos:
-            valor, token = _pulgadas_de_tipo(nombre)
-            if valor is not None and objetivo is not None and abs(valor - objetivo) < 1e-6:
-                encontrado = (elem_id, nombre)
-                break
+
+        # Estrategia 1: match por diametro de instancias (mm)
+        if objetivo_mm is not None:
+            for info in tipo_info.values():
+                if info["diam_mm"] == objetivo_mm:
+                    encontrado = (info["id"], info["nombre"])
+                    break
+
+        # Estrategia 2: fallback - parsear nombre del tipo (pulgadas)
+        if encontrado is None and objetivo_pulg is not None:
+            for elem_id, nombre, _elem in tipos:
+                valor, token = _pulgadas_de_tipo(nombre)
+                if valor is not None and abs(valor - objetivo_pulg) < 1e-6:
+                    encontrado = (elem_id, nombre)
+                    break
+
         mapa[pulgadas_txt] = encontrado[0] if encontrado else None
         detalle.append({
             "diametro": pulgadas_txt,
@@ -467,7 +565,7 @@ def rutear_conduits(doc, json_in=None, json_out=None, dry_run=True, solo_servici
                         "diametro": tramo.get("diametro_pulgadas"),
                         "circuito": tramo.get("red"),
                         "circuito_escrito": circuito_escrito,
-                        "element_id": conduit.Id.IntegerValue,
+                        "element_id": _eid_str(conduit.Id),
                         "accion": "creado",
                     })
             except Exception as exc:
