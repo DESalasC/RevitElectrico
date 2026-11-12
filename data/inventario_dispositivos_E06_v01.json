@@ -1,0 +1,737 @@
+{
+  "fecha": "2026-11-11",
+  "dxf": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\Apartamento Tipo E 06.dxf",
+  "fuente": "INSERT del DXF",
+  "regla": "un dispositivo por INSERT fisico, nunca por extremos de tramos de ruteo",
+  "umbral_pares_cercanos_m": 0.2,
+  "resumen": {
+    "inserts_leidos": 74,
+    "dispositivos": 47,
+    "marcadores_descartados": 26,
+    "paneles_descartados": 1,
+    "pares_cercanos": 8
+  },
+  "dispositivos": [
+    {
+      "handle": "12A",
+      "nombre": "Bala Stil Led 13W",
+      "capa": "ELEC-BALA LED 13 W",
+      "x": 2.5848,
+      "y": 7.5204,
+      "z": 0.0,
+      "rotacion_grados": 180.0,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "DC",
+      "nombre": "ELEC-I-S-C1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 0.8592,
+      "y": 6.8534,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "DB",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 1.3115,
+      "y": 6.6791,
+      "z": 0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "85",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": -1.7942,
+      "y": 6.5859,
+      "z": 0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "CE",
+      "nombre": "ELEC-I-S-C1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 1.0815,
+      "y": 5.5331,
+      "z": 0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "6D",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 0.9107,
+      "y": 5.5244,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "107",
+      "nombre": "ELEC-F-VENT",
+      "capa": "ELEC-APPL-ILUM",
+      "x": -0.4348,
+      "y": 5.5065,
+      "z": 0.0,
+      "rotacion_grados": 328.7,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "1F2",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 0.9059,
+      "y": 5.4102,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "83",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 0.9059,
+      "y": 5.2716,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "7A",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 0.9059,
+      "y": 5.132,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "11F",
+      "nombre": "Bala Stil Led 10W",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 1.3881,
+      "y": 4.5903,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "128",
+      "nombre": "Bala Stil Led 10W",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 3.4896,
+      "y": 4.5903,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "D7",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 1.0425,
+      "y": 4.5812,
+      "z": 0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "1F6",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 1.0377,
+      "y": 4.4888,
+      "z": 0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "84",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": -1.7942,
+      "y": 4.4064,
+      "z": 0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "138",
+      "nombre": "Bala Stil Led 13W",
+      "capa": "ELEC-BALA LED 13 W",
+      "x": -0.4417,
+      "y": 4.3918,
+      "z": 0.0,
+      "rotacion_grados": 180.0,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "D9",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 1.0377,
+      "y": 4.3488,
+      "z": 0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "D8",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 1.0377,
+      "y": 4.2092,
+      "z": 0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "110",
+      "nombre": "ELEC-F-VENT",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 2.4819,
+      "y": 4.0201,
+      "z": -0.0,
+      "rotacion_grados": 328.7,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "224",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 4.1359,
+      "y": 3.9565,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "148",
+      "nombre": "ELEC-F-CONTROL",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 0.0715,
+      "y": 3.9189,
+      "z": -0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 1.2
+    },
+    {
+      "handle": "86",
+      "nombre": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 0.0605,
+      "y": 3.7519,
+      "z": 0.0,
+      "rotacion_grados": 180.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "164",
+      "nombre": "ELEC-F-CONTROL",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 1.0915,
+      "y": 3.7189,
+      "z": -0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 1.2
+    },
+    {
+      "handle": "129",
+      "nombre": "Bala Stil Led 10W",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 0.48,
+      "y": 2.9241,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "139",
+      "nombre": "Bala Stil Led 13W",
+      "capa": "ELEC-BALA LED 13 W",
+      "x": -0.6522,
+      "y": 2.4859,
+      "z": 0.0,
+      "rotacion_grados": 180.0,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "DA",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 3.2559,
+      "y": 2.4265,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "92",
+      "nombre": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "x": -0.1747,
+      "y": 2.4055,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "BD",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 2.8208,
+      "y": 2.3151,
+      "z": -0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "EE",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 3.2656,
+      "y": 2.2865,
+      "z": 0.0,
+      "rotacion_grados": 180.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "DF",
+      "nombre": "S3",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 1.096,
+      "y": 2.2179,
+      "z": -0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "103",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 0.897,
+      "y": 2.2058,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "BC",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 2.8238,
+      "y": 2.1886,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "106",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 2.822,
+      "y": 2.0925,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "BE",
+      "nombre": "ELEC-NET-PAU",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 2.8238,
+      "y": 2.0159,
+      "z": 0.0,
+      "rotacion_grados": 270.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "1F3",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 2.822,
+      "y": 1.9525,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "1F4",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 2.822,
+      "y": 1.8053,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "1F5",
+      "nombre": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "x": 2.822,
+      "y": 1.664,
+      "z": 0.0,
+      "rotacion_grados": 90.0,
+      "altura_nominal_m": 0.3
+    },
+    {
+      "handle": "112",
+      "nombre": "Bala Stil Led 22W",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 3.4896,
+      "y": 1.1486,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "11E",
+      "nombre": "Bala Stil Led 22W",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 1.5475,
+      "y": 1.1433,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "13A",
+      "nombre": "Bala Stil Led 13W",
+      "capa": "ELEC-BALA LED 13 W",
+      "x": 0.5264,
+      "y": 0.7594,
+      "z": 0.0,
+      "rotacion_grados": 180.0,
+      "altura_nominal_m": 2.6
+    },
+    {
+      "handle": "104",
+      "nombre": "ELEC-I-S-1-5A",
+      "capa": "ELEC-APPL-ILUM",
+      "x": 1.0741,
+      "y": 0.5754,
+      "z": 0.0,
+      "rotacion_grados": 180.0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "EF",
+      "nombre": "ELEC-CAMPANA",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 2.0675,
+      "y": 0.0303,
+      "z": -0.0,
+      "rotacion_grados": 180.0,
+      "altura_nominal_m": 1.2
+    },
+    {
+      "handle": "BA",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 2.453,
+      "y": 0.0271,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "BB",
+      "nombre": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 2.7116,
+      "y": 0.0271,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "111",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 0.4452,
+      "y": 0.0251,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "9E",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 3.2644,
+      "y": 0.0251,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 1.1
+    },
+    {
+      "handle": "96",
+      "nombre": "ELEC-TIMBRE",
+      "capa": "ELEC-APPL-TOMAS",
+      "x": 2.2211,
+      "y": -0.1668,
+      "z": 0.0,
+      "rotacion_grados": 0,
+      "altura_nominal_m": 1.2
+    }
+  ],
+  "descartados": [
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "16A"
+    },
+    {
+      "nombre": "1FTR",
+      "motivo": "marcador de conductor",
+      "handle": "179"
+    },
+    {
+      "nombre": "1FTN2R",
+      "motivo": "marcador de conductor",
+      "handle": "189"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "198"
+    },
+    {
+      "nombre": "1FTR",
+      "motivo": "marcador de conductor",
+      "handle": "199"
+    },
+    {
+      "nombre": "1FTNR",
+      "motivo": "marcador de conductor",
+      "handle": "19A"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "1A8"
+    },
+    {
+      "nombre": "1TNR",
+      "motivo": "marcador de conductor",
+      "handle": "1A9"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "1B6"
+    },
+    {
+      "nombre": "1FTN2R",
+      "motivo": "marcador de conductor",
+      "handle": "1B7"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "1B8"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "1C1"
+    },
+    {
+      "nombre": "2FT2N",
+      "motivo": "marcador de conductor",
+      "handle": "1C3"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "1D3"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "1D6"
+    },
+    {
+      "nombre": "1FTNR",
+      "motivo": "marcador de conductor",
+      "handle": "1D7"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "1D8"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "1D9"
+    },
+    {
+      "nombre": "1TNR",
+      "motivo": "marcador de conductor",
+      "handle": "1FF"
+    },
+    {
+      "nombre": "2FT2N",
+      "motivo": "marcador de conductor",
+      "handle": "207"
+    },
+    {
+      "nombre": "2FT2N",
+      "motivo": "marcador de conductor",
+      "handle": "20A"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "20C"
+    },
+    {
+      "nombre": "2F2N1T1R",
+      "motivo": "marcador de conductor",
+      "handle": "20D"
+    },
+    {
+      "nombre": "2FT2N",
+      "motivo": "marcador de conductor",
+      "handle": "21C"
+    },
+    {
+      "nombre": "2F2N1T1R",
+      "motivo": "marcador de conductor",
+      "handle": "21E"
+    },
+    {
+      "nombre": "1FTN",
+      "motivo": "marcador de conductor",
+      "handle": "227"
+    },
+    {
+      "nombre": "TB-Panel",
+      "motivo": "panel ancla de referencia",
+      "handle": "278"
+    }
+  ],
+  "pares_cercanos": [
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.1386,
+      "a": {
+        "handle": "1F2",
+        "x": 0.9059,
+        "y": 5.4102
+      },
+      "b": {
+        "handle": "83",
+        "x": 0.9059,
+        "y": 5.2716
+      }
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.1396,
+      "a": {
+        "handle": "83",
+        "x": 0.9059,
+        "y": 5.2716
+      },
+      "b": {
+        "handle": "7A",
+        "x": 0.9059,
+        "y": 5.132
+      }
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.1396,
+      "a": {
+        "handle": "D9",
+        "x": 1.0377,
+        "y": 4.3488
+      },
+      "b": {
+        "handle": "D8",
+        "x": 1.0377,
+        "y": 4.2092
+      }
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.14,
+      "a": {
+        "handle": "1F6",
+        "x": 1.0377,
+        "y": 4.4888
+      },
+      "b": {
+        "handle": "D9",
+        "x": 1.0377,
+        "y": 4.3488
+      }
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.14,
+      "a": {
+        "handle": "106",
+        "x": 2.822,
+        "y": 2.0925
+      },
+      "b": {
+        "handle": "1F3",
+        "x": 2.822,
+        "y": 1.9525
+      }
+    },
+    {
+      "tipo": "ELEC-T-D-t-15A",
+      "dist_m": 0.1403,
+      "a": {
+        "handle": "DA",
+        "x": 3.2559,
+        "y": 2.4265
+      },
+      "b": {
+        "handle": "EE",
+        "x": 3.2656,
+        "y": 2.2865
+      }
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.1413,
+      "a": {
+        "handle": "1F4",
+        "x": 2.822,
+        "y": 1.8053
+      },
+      "b": {
+        "handle": "1F5",
+        "x": 2.822,
+        "y": 1.664
+      }
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.1472,
+      "a": {
+        "handle": "1F3",
+        "x": 2.822,
+        "y": 1.9525
+      },
+      "b": {
+        "handle": "1F4",
+        "x": 2.822,
+        "y": 1.8053
+      }
+    }
+  ]
+}

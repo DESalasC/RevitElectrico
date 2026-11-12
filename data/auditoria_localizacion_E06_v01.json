@@ -1,0 +1,609 @@
+{
+  "fecha": "2026-11-11",
+  "apartamento": "E06",
+  "dxf": "ArchivosBase\\Apartamento Tipo E 06.dxf",
+  "json_colocacion": "data/colocar_dispositivos_E06_resultado.json",
+  "offset_xy_m": [
+    2.3682,
+    9.6937
+  ],
+  "insumos_dxf": {
+    "inserts_totales": 74,
+    "dispositivos": 47,
+    "marcadores": 26,
+    "panel": 1
+  },
+  "colocados_revit": 95,
+  "emparejados": 45,
+  "sobrantes_duplicados": 50,
+  "faltantes": 2,
+  "error_xy_m": {
+    "media": 0.0492,
+    "max": 0.1178
+  },
+  "tabla_por_tipo": [
+    {
+      "tipo": "Bala Stil Led 10W",
+      "dxf": 3,
+      "colocado": 8,
+      "emparejado": 3,
+      "sobrante": 5,
+      "faltante": 0
+    },
+    {
+      "tipo": "Bala Stil Led 13W",
+      "dxf": 4,
+      "colocado": 9,
+      "emparejado": 4,
+      "sobrante": 5,
+      "faltante": 0
+    },
+    {
+      "tipo": "Bala Stil Led 22W",
+      "dxf": 2,
+      "colocado": 8,
+      "emparejado": 2,
+      "sobrante": 6,
+      "faltante": 0
+    },
+    {
+      "tipo": "ELEC-CAMPANA",
+      "dxf": 1,
+      "colocado": 2,
+      "emparejado": 1,
+      "sobrante": 1,
+      "faltante": 0
+    },
+    {
+      "tipo": "ELEC-F-CONTROL",
+      "dxf": 2,
+      "colocado": 6,
+      "emparejado": 2,
+      "sobrante": 4,
+      "faltante": 0
+    },
+    {
+      "tipo": "ELEC-F-VENT",
+      "dxf": 2,
+      "colocado": 2,
+      "emparejado": 2,
+      "sobrante": 0,
+      "faltante": 0
+    },
+    {
+      "tipo": "ELEC-I-S-1-5A",
+      "dxf": 3,
+      "colocado": 4,
+      "emparejado": 3,
+      "sobrante": 1,
+      "faltante": 0
+    },
+    {
+      "tipo": "ELEC-I-S-C1-5A",
+      "dxf": 2,
+      "colocado": 4,
+      "emparejado": 2,
+      "sobrante": 2,
+      "faltante": 0
+    },
+    {
+      "tipo": "ELEC-NET-PAU",
+      "dxf": 1,
+      "colocado": 0,
+      "emparejado": 0,
+      "sobrante": 0,
+      "faltante": 1
+    },
+    {
+      "tipo": "ELEC-T-D-t-15A",
+      "dxf": 10,
+      "colocado": 20,
+      "emparejado": 10,
+      "sobrante": 10,
+      "faltante": 0
+    },
+    {
+      "tipo": "ELEC-T-GFCI-t-15A",
+      "dxf": 5,
+      "colocado": 8,
+      "emparejado": 4,
+      "sobrante": 4,
+      "faltante": 1
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dxf": 10,
+      "colocado": 21,
+      "emparejado": 10,
+      "sobrante": 11,
+      "faltante": 0
+    },
+    {
+      "tipo": "ELEC-TIMBRE",
+      "dxf": 1,
+      "colocado": 1,
+      "emparejado": 1,
+      "sobrante": 0,
+      "faltante": 0
+    },
+    {
+      "tipo": "S3",
+      "dxf": 1,
+      "colocado": 2,
+      "emparejado": 1,
+      "sobrante": 1,
+      "faltante": 0
+    }
+  ],
+  "faltantes_detalle": [
+    {
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "handle": "BC",
+      "dxf": [
+        2.8238,
+        2.1886
+      ],
+      "mejor_m": 1.927
+    },
+    {
+      "nombre": "ELEC-NET-PAU",
+      "handle": "BE",
+      "dxf": [
+        2.8238,
+        2.0159
+      ],
+      "mejor_m": null
+    }
+  ],
+  "sobrantes_detalle": [
+    {
+      "element_id": "5689714",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 5.2462,
+      "y": 11.9597
+    },
+    {
+      "element_id": "5689717",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 5.1402,
+      "y": 12.0647
+    },
+    {
+      "element_id": "5689727",
+      "nombre": "Bala Stil Led 10W",
+      "x": 3.7422,
+      "y": 14.2397
+    },
+    {
+      "element_id": "5689728",
+      "nombre": "ELEC-TEL",
+      "x": 3.2172,
+      "y": 14.8547
+    },
+    {
+      "element_id": "5689732",
+      "nombre": "Bala Stil Led 22W",
+      "x": 5.7372,
+      "y": 10.8407
+    },
+    {
+      "element_id": "5689733",
+      "nombre": "ELEC-I-S-C1-5A",
+      "x": 3.2172,
+      "y": 16.5107
+    },
+    {
+      "element_id": "5689736",
+      "nombre": "Bala Stil Led 13W",
+      "x": 1.8572,
+      "y": 14.0807
+    },
+    {
+      "element_id": "5689742",
+      "nombre": "ELEC-TEL",
+      "x": 3.2172,
+      "y": 14.9367
+    },
+    {
+      "element_id": "5689745",
+      "nombre": "Bala Stil Led 22W",
+      "x": 5.5742,
+      "y": 10.8407
+    },
+    {
+      "element_id": "5689749",
+      "nombre": "Bala Stil Led 10W",
+      "x": 2.8972,
+      "y": 12.6207
+    },
+    {
+      "element_id": "5689753",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 5.6772,
+      "y": 9.7457
+    },
+    {
+      "element_id": "5689757",
+      "nombre": "ELEC-F-CONTROL",
+      "x": 3.4582,
+      "y": 13.4787
+    },
+    {
+      "element_id": "5689764",
+      "nombre": "ELEC-TEL",
+      "x": 5.5482,
+      "y": 11.5607
+    },
+    {
+      "element_id": "5689771",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 5.6782,
+      "y": 12.1787
+    },
+    {
+      "element_id": "5689774",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 5.5872,
+      "y": 9.7657
+    },
+    {
+      "element_id": "5689777",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 5.6282,
+      "y": 9.8057
+    },
+    {
+      "element_id": "5689778",
+      "nombre": "ELEC-F-CONTROL",
+      "x": 3.7422,
+      "y": 13.6197
+    },
+    {
+      "element_id": "5689784",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 3.4582,
+      "y": 14.2387
+    },
+    {
+      "element_id": "5689790",
+      "nombre": "Bala Stil Led 13W",
+      "x": 2.3692,
+      "y": 14.0597
+    },
+    {
+      "element_id": "5689791",
+      "nombre": "ELEC-TEL",
+      "x": 5.1232,
+      "y": 11.3907
+    },
+    {
+      "element_id": "5689794",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 3.1622,
+      "y": 11.9007
+    },
+    {
+      "element_id": "5689806",
+      "nombre": "Bala Stil Led 22W",
+      "x": 3.7972,
+      "y": 10.8407
+    },
+    {
+      "element_id": "5689808",
+      "nombre": "ELEC-TEL",
+      "x": 5.1232,
+      "y": 11.5317
+    },
+    {
+      "element_id": "5689811",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 5.6282,
+      "y": 11.8797
+    },
+    {
+      "element_id": "5689819",
+      "nombre": "ELEC-TEL",
+      "x": 5.1232,
+      "y": 11.6117
+    },
+    {
+      "element_id": "5689828",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 0.6572,
+      "y": 14.0807
+    },
+    {
+      "element_id": "5689832",
+      "nombre": "ELEC-I-S-C1-5A",
+      "x": 3.2812,
+      "y": 16.5507
+    },
+    {
+      "element_id": "5689837",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 3.2172,
+      "y": 15.2437
+    },
+    {
+      "element_id": "5689838",
+      "nombre": "ELEC-TEL",
+      "x": 3.7422,
+      "y": 13.7117
+    },
+    {
+      "element_id": "5689839",
+      "nombre": "ELEC-F-CONTROL",
+      "x": 2.5052,
+      "y": 14.0597
+    },
+    {
+      "element_id": "5689842",
+      "nombre": "Bala Stil Led 13W",
+      "x": 1.7132,
+      "y": 12.2607
+    },
+    {
+      "element_id": "5689843",
+      "nombre": "ELEC-TEL",
+      "x": 3.5072,
+      "y": 13.8977
+    },
+    {
+      "element_id": "5689847",
+      "nombre": "Bala Stil Led 22W",
+      "x": 5.6682,
+      "y": 10.8407
+    },
+    {
+      "element_id": "5689851",
+      "nombre": "Bala Stil Led 10W",
+      "x": 2.8572,
+      "y": 12.6807
+    },
+    {
+      "element_id": "5689855",
+      "nombre": "ELEC-F-CONTROL",
+      "x": 2.4372,
+      "y": 13.6807
+    },
+    {
+      "element_id": "5689856",
+      "nombre": "ELEC-TEL",
+      "x": 5.2982,
+      "y": 11.4037
+    },
+    {
+      "element_id": "5689860",
+      "nombre": "Bala Stil Led 10W",
+      "x": 3.7072,
+      "y": 14.2807
+    },
+    {
+      "element_id": "5689864",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 5.5672,
+      "y": 12.1807
+    },
+    {
+      "element_id": "5689865",
+      "nombre": "ELEC-TEL",
+      "x": 5.1232,
+      "y": 11.4647
+    },
+    {
+      "element_id": "5689878",
+      "nombre": "ELEC-I-S-1-5A",
+      "x": 2.3722,
+      "y": 13.4557
+    },
+    {
+      "element_id": "5689885",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 3.2272,
+      "y": 15.1807
+    },
+    {
+      "element_id": "5689886",
+      "nombre": "ELEC-TEL",
+      "x": 3.4622,
+      "y": 14.0717
+    },
+    {
+      "element_id": "5689889",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 3.5082,
+      "y": 14.2807
+    },
+    {
+      "element_id": "5689892",
+      "nombre": "Bala Stil Led 22W",
+      "x": 3.9172,
+      "y": 10.9607
+    },
+    {
+      "element_id": "5689895",
+      "nombre": "Bala Stil Led 10W",
+      "x": 2.7972,
+      "y": 12.6207
+    },
+    {
+      "element_id": "5689897",
+      "nombre": "S3",
+      "x": 3.4122,
+      "y": 11.9007
+    },
+    {
+      "element_id": "5689900",
+      "nombre": "Bala Stil Led 22W",
+      "x": 4.0372,
+      "y": 10.8407
+    },
+    {
+      "element_id": "5689903",
+      "nombre": "ELEC-CAMPANA",
+      "x": 4.4772,
+      "y": 9.7557
+    },
+    {
+      "element_id": "5689909",
+      "nombre": "Bala Stil Led 13W",
+      "x": 2.9002,
+      "y": 10.5407
+    },
+    {
+      "element_id": "5689919",
+      "nombre": "Bala Stil Led 13W",
+      "x": 1.9262,
+      "y": 14.0057
+    }
+  ],
+  "rotaciones_dxf": {
+    "90.0": 13,
+    "270.0": 10,
+    "180.0": 8,
+    "0": 14,
+    "328.7": 2
+  },
+  "pares_cercanos_dxf": [
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.14,
+      "a": [
+        0.9059,
+        5.132
+      ],
+      "b": [
+        0.9059,
+        5.2716
+      ]
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.139,
+      "a": [
+        0.9059,
+        5.2716
+      ],
+      "b": [
+        0.9059,
+        5.4102
+      ]
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.14,
+      "a": [
+        1.0377,
+        4.2092
+      ],
+      "b": [
+        1.0377,
+        4.3488
+      ]
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.14,
+      "a": [
+        1.0377,
+        4.3488
+      ],
+      "b": [
+        1.0377,
+        4.4888
+      ]
+    },
+    {
+      "tipo": "ELEC-T-D-t-15A",
+      "dist_m": 0.14,
+      "a": [
+        3.2559,
+        2.4265
+      ],
+      "b": [
+        3.2656,
+        2.2865
+      ]
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.14,
+      "a": [
+        2.822,
+        2.0925
+      ],
+      "b": [
+        2.822,
+        1.9525
+      ]
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.147,
+      "a": [
+        2.822,
+        1.9525
+      ],
+      "b": [
+        2.822,
+        1.8053
+      ]
+    },
+    {
+      "tipo": "ELEC-TEL",
+      "dist_m": 0.141,
+      "a": [
+        2.822,
+        1.8053
+      ],
+      "b": [
+        2.822,
+        1.664
+      ]
+    }
+  ],
+  "avisos_host_face": [
+    {
+      "element_id": "5689753",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 5.6772,
+      "y": 9.7457,
+      "z_m": 13.52
+    },
+    {
+      "element_id": "5689774",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 5.5872,
+      "y": 9.7657,
+      "z_m": 13.52
+    },
+    {
+      "element_id": "5689777",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 5.6282,
+      "y": 9.8057,
+      "z_m": 13.52
+    },
+    {
+      "element_id": "5689822",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 4.8172,
+      "y": 9.7287,
+      "z_m": 13.52
+    },
+    {
+      "element_id": "5689871",
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 5.1302,
+      "y": 9.7657,
+      "z_m": 13.52
+    },
+    {
+      "element_id": "5689881",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 5.6432,
+      "y": 9.7207,
+      "z_m": 13.52
+    }
+  ]
+}
