@@ -1,0 +1,71 @@
+{
+  "version": "v01",
+  "fecha": "2026-11-09",
+  "proyecto": "RevitElectrico - T5-SantaMarta",
+  "nota": "Tabla de equivalencias de conduit basada en archivos CSV reales del proyecto (data\\Calibre-*.csv). Para apartamentos: PVC con cable 12 AWG. Para corredores: EMT o PVC-SCH40 (por definir). Los valores indican el diámetro MÍNIMO de conduit necesario para albergar la cantidad de cables indicada.",
+  "norma_referencia": "pendiente_de_confirmar_por_operador",
+  "cable_calibre_defecto": "12 AWG",
+  "materiales": {
+    "PVC": {
+      "uso": "apartamentos",
+      "archivo_csv": "data\\Calibre-12-34-1-1-14-1-12-2-PVC.csv",
+      "equivalencias_12AWG": [
+        { "cantidad_cables_min": 1,  "cantidad_cables_max": 11,  "diametro_conduit_pulgadas": "1/2\"",  "diametro_conduit_mm": 12.70 },
+        { "cantidad_cables_min": 12, "cantidad_cables_max": 19,  "diametro_conduit_pulgadas": "3/4\"",  "diametro_conduit_mm": 19.05 },
+        { "cantidad_cables_min": 20, "cantidad_cables_max": 32,  "diametro_conduit_pulgadas": "1\"",     "diametro_conduit_mm": 25.40 },
+        { "cantidad_cables_min": 33, "cantidad_cables_max": 53,  "diametro_conduit_pulgadas": "1-1/4\"", "diametro_conduit_mm": 31.75 },
+        { "cantidad_cables_min": 54, "cantidad_cables_max": 70,  "diametro_conduit_pulgadas": "1-1/2\"", "diametro_conduit_mm": 38.10 },
+        { "cantidad_cables_min": 71, "cantidad_cables_max": 109, "diametro_conduit_pulgadas": "2\"",     "diametro_conduit_mm": 50.80 }
+      ]
+    },
+    "PVC-SCH40": {
+      "uso": "corredores (por definir)",
+      "archivo_csv": "data\\Calibre-12-34-1-1-14-1-12-2-PVC-SCH40.csv",
+      "equivalencias_12AWG": [
+        { "cantidad_cables_min": 1,  "cantidad_cables_max": 8,   "diametro_conduit_pulgadas": "1/2\"",  "diametro_conduit_mm": 12.70 },
+        { "cantidad_cables_min": 9,  "cantidad_cables_max": 15,  "diametro_conduit_pulgadas": "3/4\"",  "diametro_conduit_mm": 19.05 },
+        { "cantidad_cables_min": 16, "cantidad_cables_max": 25,  "diametro_conduit_pulgadas": "1\"",     "diametro_conduit_mm": 25.40 },
+        { "cantidad_cables_min": 26, "cantidad_cables_max": 44,  "diametro_conduit_pulgadas": "1-1/4\"", "diametro_conduit_mm": 31.75 },
+        { "cantidad_cables_min": 45, "cantidad_cables_max": 60,  "diametro_conduit_pulgadas": "1-1/2\"", "diametro_conduit_mm": 38.10 },
+        { "cantidad_cables_min": 61, "cantidad_cables_max": 99,  "diametro_conduit_pulgadas": "2\"",     "diametro_conduit_mm": 50.80 }
+      ]
+    },
+    "EMT": {
+      "uso": "corredores (por definir)",
+      "archivo_csv": "data\\Calibre-12-34-1-1-14-1-12-2-EMT.csv",
+      "equivalencias_12AWG": [
+        { "cantidad_cables_min": 1,  "cantidad_cables_max": 9,   "diametro_conduit_pulgadas": "1/2\"",  "diametro_conduit_mm": 12.70 },
+        { "cantidad_cables_min": 10, "cantidad_cables_max": 16,  "diametro_conduit_pulgadas": "3/4\"",  "diametro_conduit_mm": 19.05 },
+        { "cantidad_cables_min": 17, "cantidad_cables_max": 26,  "diametro_conduit_pulgadas": "1\"",     "diametro_conduit_mm": 25.40 },
+        { "cantidad_cables_min": 27, "cantidad_cables_max": 44,  "diametro_conduit_pulgadas": "1-1/4\"", "diametro_conduit_mm": 31.75 },
+        { "cantidad_cables_min": 45, "cantidad_cables_max": 58,  "diametro_conduit_pulgadas": "1-1/2\"", "diametro_conduit_mm": 38.10 },
+        { "cantidad_cables_min": 59, "cantidad_cables_max": 97,  "diametro_conduit_pulgadas": "2\"",     "diametro_conduit_mm": 50.80 }
+      ]
+    }
+  },
+  "sistemas": {
+    "TOMAS": {
+      "color_etiqueta": "pendiente",
+      "codigo": "TOMAS",
+      "descripcion": "Tomas de corriente y receptáculos"
+    },
+    "ILUMINACION": {
+      "color_etiqueta": "pendiente",
+      "codigo": "ILUM",
+      "descripcion": "Circuitos de iluminación"
+    },
+    "ACOMETIDA": {
+      "color_etiqueta": "pendiente",
+      "codigo": "ACOM",
+      "descripcion": "Acometida principal"
+    }
+  },
+  "reglas_ruteado": [
+    "El diámetro del conduit depende únicamente de la cantidad de cables que indica el símbolo sobre cada línea del DXF y del material (PVC / EMT / PVC-SCH40).",
+    "Para apartamentos: material PVC, cable 12 AWG.",
+    "Para corredores: material EMT o PVC-SCH40 (por definir en su momento).",
+    "La etiqueta de sistema (TOMAS, ILUMINACIÓN, etc.) es solo una convención de color/visualización para el operador; no afecta el diámetro del conduit.",
+    "Toda la tubería es del mismo tipo material por zona; solo varía el diámetro según la carga de cables.",
+    "Antes de ruteado productivo, el operador debe revisar y aprobar los valores de esta tabla contra la norma aplicable (RETIE / NTC 2050 o NEC)."
+  ]
+}

@@ -23,23 +23,24 @@ DEFAULT_NIVEL = "Piso 5"
 DEFAULT_UMBRAL_DUP = 0.10
 DEFAULT_RADIO = 8.0
 
-# Mapeo DXF -> Familia Revit (nombres exactos de familia cargada en el modelo)
+# Mapeo DXF -> Familia Revit (nombres exactos de familia y símbolo cargados en el modelo)
 MAPEO_DEFAULT = {
-    "Bala Stil Led 13W": "M_Iluminacion",
-    "Bala Stil Led 10W": "M_Iluminacion",
-    "Bala Stil Led 22W": "M_Iluminacion",
-    "ELEC-I-S-C1-5A": "M_Interruptores",
-    "ELEC-I-S-1-5A": "M_Interruptores",
-    "ELEC-T-D-t-15A": "M_Toma doble",
-    "ELEC-T-GFCI-t-15A": "M_Toma doble",
-    "ELEC-F-VENT": "M_ClimatizacionV",
-    "ELEC-F-CONTROL": "M_Climatizacion",
-    "ELEC-TEL": "M_Comunicaciones",
-    "ELEC-NET-PAU": "Consolidation_Point",
-    "S3": "M_Interruptores",
-    "ELEC-CAMPANA": "M_Zumbador",
-    "ELEC-TIMBRE": "M_Pulsador - Interruptor",
-    "ELEC-PANEL": "E_Panel Distribucion",
+    "Bala Stil Led 13W": ("M_Iluminacion", "SONO FLEX 13 trim"),
+    "Bala Stil Led 10W": ("M_Iluminacion", "SONO FLEX 10 trim"),
+    "Bala Stil Led 22W": ("M_Iluminacion", "SONO FLEX 22 trim"),
+    "ELEC-I-S-C1-5A": ("M_Interruptores", "Conmutable"),
+    "ELEC-I-S-1-5A": ("M_Interruptores", "Simple"),
+    "ELEC-T-D-t-15A": ("M_Toma doble", "Normal"),
+    "ELEC-T-GFCI-t-15A": ("M_Toma doble", "GFCI"),
+    "ELEC-F-VENT": ("M_ClimatizacionV", "Ventilador"),
+    "ELEC-F-CONTROL": ("M_Climatizacion", "Interruptor Ventilador"),
+    "ELEC-TEL": ("M_Comunicaciones", "Telefono"),
+    "ELEC-NET-PAU": ("Consolidation_Point", "CPB24BL"),
+    "S3": ("M_Interruptores", "Triple"),
+    "ELEC-CAMPANA": ("M_Zumbador", "Campana Timbre"),
+    "ELEC-TIMBRE": ("M_Pulsador - Interruptor", "Timbre"),
+    "ELEC-PANEL": ("E_Panel Distribucion", "EPB25-304C"),
+    "ELEC-EXT": ("EA", "M_Extractor"),
 }
 
 FEET_PER_METER = 3.280839895
@@ -115,7 +116,16 @@ def obtener_nivel(doc, nombre_nivel):
     return None
 
 
-def cargar_muros_techos_nivel(doc, nivel_id_int):
+def cargar_muros_techos_nivel(doc, nivel_id_int, nivel_nombre):
+    """Carga muros y techos del nivel indicado.
+    
+    Muros: se filtran por ElementLevelFilter (funciona bien para paredes).
+    Techos: se traen TODOS de categoría OST_Ceilings y se filtran por tipo
+    de familia "Falso techo continuo de placa de yeso laminado" para excluir
+    "Flanche". No se usa ElementLevelFilter para techos porque muchos no
+    tienen LevelId asignado o pertenecen a otro nivel, y el techo más cercano
+    por XY ya se selecciona con techo_mas_cercano dentro del radio de búsqueda.
+    """
     nivel_id = _lid(nivel_id_int)
     nivel_filter = ElementLevelFilter(nivel_id)
     muros = []
@@ -141,13 +151,41 @@ def cargar_muros_techos_nivel(doc, nivel_id_int):
         except Exception:
             continue
 
+    # Techos: todos los de categoría Ceilings, filtrados por tipo de familia.
+    # No se aplica ElementLevelFilter para evitar excluir techos sin LevelId.
     cat_techos = ElementCategoryFilter(BuiltInCategory.OST_Ceilings)
-    for c in FilteredElementCollector(doc).WherePasses(cat_techos).WherePasses(nivel_filter):
+    for c in FilteredElementCollector(doc).WherePasses(cat_techos):
         try:
-            loc = c.Location
-            if not loc or not hasattr(loc, "Point"):
+            # Filtrar por nombre de tipo/familia: solo cielorrasos de placa de yeso
+            tipo_nombre = ""
+            try:
+                tipo_nombre = c.Name
+            except Exception:
+                pass
+            if "Falso techo continuo" not in tipo_nombre and "placa de yeso" not in tipo_nombre:
                 continue
-            p = loc.Point
+            loc = c.Location
+            p = None
+            if loc is not None:
+                if hasattr(loc, "Point"):
+                    p = loc.Point
+                elif hasattr(loc, "Curve"):
+                    curva = loc.Curve
+                    if curva is not None:
+                        p_mid = curva.Evaluate(0.5, True)
+                        p = p_mid
+            if p is None:
+                # Fallback: centro del BoundingBox como referencia XY
+                try:
+                    bb = c.get_BoundingBox(None)
+                    if bb is not None:
+                        cx = (bb.Min.X + bb.Max.X) / 2.0
+                        cy = (bb.Min.Y + bb.Max.Y) / 2.0
+                        p = XYZ(cx, cy, 0.0)
+                except Exception:
+                    p = None
+            if p is None:
+                continue
             techos.append({
                 "elemento": c,
                 "id": _eid(c.Id),
@@ -156,6 +194,8 @@ def cargar_muros_techos_nivel(doc, nivel_id_int):
         except Exception:
             continue
 
+    print("Muros '{}' cargados: {}".format(nivel_nombre, len(muros)))
+    print("Techos totales (tipo cielo de yeso, sin filtro de nivel): {}".format(len(techos)))
     return muros, techos
 
 
@@ -226,9 +266,10 @@ class SimboloCache:
         self.doc = doc
         self.cache = {}
 
-    def obtener(self, nombre_familia):
-        if nombre_familia in self.cache:
-            return self.cache[nombre_familia]
+    def obtener(self, nombre_familia, nombre_simbolo=None):
+        clave = (nombre_familia, nombre_simbolo)
+        if clave in self.cache:
+            return self.cache[clave]
         simbolo = None
         for fam in FilteredElementCollector(self.doc).OfClass(Family):
             try:
@@ -245,6 +286,13 @@ class SimboloCache:
                                         sym.Activate()
                                     except Exception:
                                         pass
+                                # Si se pide un símbolo específico, buscar por nombre
+                                if nombre_simbolo is not None:
+                                    try:
+                                        if sym.Name != nombre_simbolo:
+                                            continue
+                                    except Exception:
+                                        pass
                                 simbolo = sym
                                 break
                             except Exception:
@@ -252,7 +300,7 @@ class SimboloCache:
                     break
             except Exception:
                 continue
-        self.cache[nombre_familia] = simbolo
+        self.cache[clave] = simbolo
         return simbolo
 
 
@@ -263,6 +311,7 @@ def colocar_dispositivos(doc, inventario_path, salida_json, offset_xy, nivel_nom
     print("Documento: {}".format(doc.Title))
     print("Modo: {}".format("dry_run" if dry_run else "REAL"))
     print("Inventario: {}".format(inventario_path))
+    print("Fecha/Hora ejecucion: {}".format(time.strftime("%Y-%m-%d %H:%M:%S")))
     print("Nivel: {}".format(nivel_nombre))
     print("Offset XY: {}".format(offset_xy))
     print("Mapeo DXF->Familia: {} entradas".format(len(mapeo)))
@@ -276,12 +325,11 @@ def colocar_dispositivos(doc, inventario_path, salida_json, offset_xy, nivel_nom
         return {"error": "nivel_no_encontrado", "nivel": nivel_nombre}
 
     nivel_id_int = _eid(nivel.Id)
+    nivel_elev_m = nivel.Elevation * 0.3048
     print("Nivel '{}': id={} elev_m={}".format(
-        nivel_nombre, nivel_id_int, round(nivel.Elevation * 0.3048, 4)))
+        nivel_nombre, nivel_id_int, round(nivel_elev_m, 4)))
 
-    muros, techos = cargar_muros_techos_nivel(doc, nivel_id_int)
-    print("Muros '{}' cargados: {}".format(nivel_nombre, len(muros)))
-    print("Techos '{}' cargados: {}".format(nivel_nombre, len(techos)))
+    muros, techos = cargar_muros_techos_nivel(doc, nivel_id_int, nivel_nombre)
 
     radio_max_ft = _m_a_ft(radio_busqueda_m)
     umbral_dup_ft = _m_a_ft(umbral_dup_m)
@@ -315,39 +363,44 @@ def colocar_dispositivos(doc, inventario_path, salida_json, offset_xy, nivel_nom
                 "handle": handle,
                 "x": round(x_revit_m, 4),
                 "y": round(y_revit_m, 4),
-                "z_m": altura_nominal,
+                "z_m": round(nivel_elev_m + altura_nominal, 4),
                 "rotacion_grados": rot,
                 "accion": "saltado_duplicado",
                 "motivo": "ya existe instancia a <{} m".format(umbral_dup_m),
             })
             continue
 
-        nombre_familia = mapeo.get(nombre)
-        if nombre_familia is None:
+        entrada_mapeo = mapeo.get(nombre)
+        if entrada_mapeo is None:
             sin_mapeo += 1
             detalle.append({
                 "nombre": nombre,
                 "handle": handle,
                 "x": round(x_revit_m, 4),
                 "y": round(y_revit_m, 4),
-                "z_m": altura_nominal,
+                "z_m": round(nivel_elev_m + altura_nominal, 4),
                 "rotacion_grados": rot,
                 "accion": "error_sin_mapeo",
                 "motivo": "no hay mapeo DXF->familia Revit para '{}'".format(nombre),
             })
             continue
+        if isinstance(entrada_mapeo, tuple):
+            nombre_familia, nombre_simbolo = entrada_mapeo
+        else:
+            nombre_familia = entrada_mapeo
+            nombre_simbolo = None
 
         es_techo = altura_nominal >= 2.0
+        # Regla de datum G5: Z_absoluta = nivel.Elevation + altura_local
+        z_revit_m = nivel_elev_m + altura_nominal
         if es_techo:
             host_info, dist_ft = techo_mas_cercano(techos, px_ft, py_ft, radio_max_ft)
             host_categoria = "Ceilings" if host_info else None
             host_id = host_info["id"] if host_info else None
-            z_revit_m = altura_nominal
         else:
             host_info, dist_ft = muro_mas_cercano(muros, px_ft, py_ft, radio_max_ft)
             host_categoria = "Walls" if host_info else None
             host_id = host_info["id"] if host_info else None
-            z_revit_m = altura_nominal
 
         entry = {
             "nombre": nombre,
@@ -371,7 +424,7 @@ def colocar_dispositivos(doc, inventario_path, salida_json, offset_xy, nivel_nom
             continue
 
         try:
-            simbolo = simbolos.obtener(nombre_familia)
+            simbolo = simbolos.obtener(nombre_familia, nombre_simbolo)
             if simbolo is None:
                 errores += 1
                 entry["accion"] = "error_simbolo_no_encontrado"
@@ -385,15 +438,9 @@ def colocar_dispositivos(doc, inventario_path, salida_json, offset_xy, nivel_nom
             t = Transaction(doc, "Colocar dispositivo {}".format(nombre))
             t.Start()
             try:
-                if host_info is not None:
-                    elemento_host = host_info["elemento"]
-                    try:
-                        ref = elemento_host.FindNearestReference(punto_ft)
-                        inst = doc.Create.NewFamilyInstance(ref, punto_ft, direccion, simbolo)
-                    except Exception:
-                        inst = doc.Create.NewFamilyInstance(punto_ft, simbolo, elemento_host, nivel, StructuralType.NonStructural)
-                else:
-                    inst = doc.Create.NewFamilyInstance(punto_ft, simbolo, nivel, StructuralType.NonStructural)
+                # Crear SIN ref de host para que Revit interprete el Z como coordenada absoluta mundial,
+                # no como offset relativo al techo/pared (evita que queden en nivel 0.00).
+                inst = doc.Create.NewFamilyInstance(punto_ft, simbolo, nivel, StructuralType.NonStructural)
                 t.Commit()
             except Exception:
                 t.RollBack()
@@ -413,7 +460,7 @@ def colocar_dispositivos(doc, inventario_path, salida_json, offset_xy, nivel_nom
 
     t1 = time.time()
     resumen = {
-        "fecha": "2026-11-11",
+        "fecha": time.strftime("%Y-%m-%d %H:%M:%S"),
         "apartamento": nivel_nombre,
         "documento": doc.Title,
         "nivel": nivel_nombre,

@@ -1,7 +1,7 @@
 {
   "version": "v02",
   "fecha": "2026-11-08",
-  "nota": "v03: agrega simbolo por bloque. ELEC-T-D-t-15A es toma normal (Estandar); ELEC-T-GFCI-t-15A es GFCI.",
+  "nota": "v03: agrega simbolo por bloque. ELEC-T-D-t-15A es toma normal (Estandar); ELEC-T-GFCI-t-15A es GFCI. v04: Bala Stil Led 10W/13W/22W se mapean a SONO FLEX trim con simbolos SONO FLEX 100/150/200 trim respectivamente; se agrega EA -> M_Extractor para Tipo E 05.",
   "por_bloque": {
     "ELEC-T-D-t-15A": "M_Toma doble",
     "ELEC-T-GFCI-t-15A": "M_Toma doble",
@@ -17,9 +17,10 @@
     "ELEC-F-CONTROL": "M_Interruptor",
     "ELEC-CAMPANA": "M_Interruptor",
     "ELEC-F-VENT": "M_Ventilador",
-    "Bala Stil Led 22W": "COMBO MOUNTING RING",
-    "Bala Stil Led 10W": "COMBO MOUNTING RING",
-    "Bala Stil Led 13W": "COMBO MOUNTING RING",
+    "Bala Stil Led 22W": "SONO FLEX trim",
+    "Bala Stil Led 10W": "SONO FLEX trim",
+    "Bala Stil Led 13W": "SONO FLEX trim",
+    "EA": "M_Extractor",
     "S3": "M_Interruptor"
   },
   "por_capa": {
@@ -44,6 +45,9 @@
     "ELEC-I-S-C1-5A": "Estandar",
     "ELEC-F-CONTROL": "Estandar",
     "ELEC-CAMPANA": "Puerta motorizada",
-    "ELEC-F-VENT": "Estandar"
+    "ELEC-F-VENT": "Estandar",
+    "Bala Stil Led 10W": "SONO FLEX 100 trim",
+    "Bala Stil Led 13W": "SONO FLEX 150 trim",
+    "Bala Stil Led 22W": "SONO FLEX 200 trim"
   }
 }

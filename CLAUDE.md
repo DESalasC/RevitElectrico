@@ -28,12 +28,31 @@ Objetivo: llevar la información eléctrica 2D (comunicaciones, circuitos, cable
 
 ## Hardware y entorno
 
-- Revit 2026 instalado en la estación de trabajo (confirmado).
+- **Entorno dedicado (venv separado):** `D:\Work\PROJECTS\RevitElectrico\.venv\Scripts\python.exe` (Python 3.12, independiente del entorno de DiseñoParametrico). Todas las dependencias del proyecto (pytest, ezdxf, openpyxl, numpy, pandas, pyshp, ifcopenshell) se instalan aquí. **No reutilizar el venv de DiseñoParametrico.**
+- Revit 2026 instalado en la estacion de trabajo (confirmado).
 - pyRevit instalado en `C:\Users\Dario Salas\AppData\Roaming\pyRevit-Master\bin\pyrevit.exe` (plantilla de referencia en `D:\Work\Scripts\AgentKit\11-cad-bim\revit_pyrevit_template.py`).
-- ifcopenshell 0.8.5 instalado en el venv del proyecto (lectura IFC sin Revit).
-- ezdxf 1.4.4, openpyxl 3.1.5, pyshp 3.1.6, pywin32 312, rhino3dm 8.32.0, pandas, numpy.
-- Venv de referencia: `D:\Work\PROJECTS\DiseñoParametrico\.venv\Scripts\python.exe`.
+- Los scripts de Fase 6 (IronPython 2.7) se ejecutan dentro de Revit 2026 via pyRevit Python Shell, no desde el venv de CPython.
 
+### Variable de entorno
+
+- `$REVITELECTRICO_ROOT` → `D:\Work\PROJECTS\RevitElectrico` (definirla en el entorno de usuario; sin guion bajo entre REVIT y ELECTRICO).
+- Rutas relativas al proyecto preferidas sobre rutas absolutas de usuario. NUNCA hardcodear rutas absolutas de usuario.
+
+### Dependencias instaladas en `.venv`
+
+pytest, ezdxf, openpyxl, numpy, pandas, pyshp, ifcopenshell.
+
+### Creacion del entorno (una sola vez)
+
+```powershell
+# Desde D:\Work\PROJECTS\RevitElectrico
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install --upgrade pip
+.venv\Scripts\python.exe -m pip install pytest ezdxf openpyxl numpy pandas pyshp ifcopenshell
+```
+
+- Revit 2026 instalado en la estacion de trabajo (confirmado).
+- pyRevit instalado en `C:\Users\Dario Salas\AppData\Roaming\pyRevit-Master\bin\pyrevit.exe` (plantilla de referencia en `D:\Work\Scripts\AgentKit\11-cad-bim\revit_pyrevit_template.py`).
 ## Coordenadas
 
 - Origen local (0,0,0) para Revit/Rhino.
@@ -105,13 +124,27 @@ RevitElectrico/
 # Variable de entorno
 echo $env:REVITELECTRICO_ROOT
 
-# Tests
+# Tests (usar el venv dedicado de RevitElectrico)
 cd D:\Work\PROJECTS\RevitElectrico
-pytest tests/
+.venv\Scripts\python.exe -m pytest tests/
 
-# Scripts externos (Python 3.12)
-& "D:\Work\PROJECTS\DiseñoParametrico\.venv\Scripts\python.exe" src\fase-1-contexto\RE1_NORMALIZA_DXF_v01.py ...
+# Scripts externos (Python 3.12, venv propio de RevitElectrico)
+& "$env:REVITELECTRICO_ROOT\.venv\Scripts\python.exe" src\fase-1-contexto\RE1_NORMALIZA_DXF_v01.py ...
 ```
+## Configuración permanente de pytest
+
+El archivo `pytest.ini` en la raíz del proyecto fija `basetemp = .pytest_temps` para evitar el
+`PermissionError [WinError 5]` en el teardown de carpetas temporales de pytest en Windows
+(ruta con espacios en el nombre de usuario `Dario Salas` y symlinks/junctions temporales).
+
+Con esto, el comando de tests es permanente y estable:
+
+```powershell
+cd $env:REVITELECTRICO_ROOT
+.venv\Scripts\python.exe -m pytest tests/
+```
+
+No es necesario pasar `--basetemp` ni `-p no:cacheprovider` en cada ejecución.
 
 ## Cuándo preguntar vs. decidir
 - **Preguntar**: cambios arquitectónicos, nuevos plugins, modificar archivos fuente de `2.-Entradas/`, eliminar archivos.

@@ -1,0 +1,188 @@
+{
+  "version": "v01",
+  "fecha": "2026-11-09",
+  "proyecto": "RevitElectrico / T5-SantaMarta / Apartamento Tipo E 05",
+  "nota": "Mapeo corregido bloque DXF -> familia/simbolo real de Revit. Construido sobre el inventario vivo data/familias_electricas_reales_v01.json. La clave es que M_Interruptor SOLO tiene el simbolo 'Ventilador' (es el interruptor de ventilador, no un interruptor generico): los interruptores sencillos van a M_Pulsador - Interruptor y los dobles a M_Interruptor-Doble. v05: el JSON de transferencia traia los interruptores con anfitrion=ceiling y z_local_m=2.60, lo que los colocaba en el cielorraso y hacia que la pared elegida fuera un dintel. El mapeo ahora fuerza muro a 1.10 m y el script solo considera muros cuya altura cubra esa cota. v06: los interruptores dejan de ir a M_Interruptor (que solo tiene el simbolo Ventilador). Sencillo -> M_Interruptor-simple/Sencillo; 3 vias -> M_Interruptor-Doble/Doble. v07: el conmutado (ELEC-I-S-C1-5A) va a Keypad-Lutron-Homeworks_Sunnata / Conmutable.",
+  "advertencia": "Los campos marcados con confirmar=true son deducciones; validar contra la leyenda del DXF antes de ejecutar.",
+  "simbolos_canonicos": {
+    "M_Toma doble": [
+      "Estándar",
+      "GFCI"
+    ],
+    "M_Toma - 220V": [
+      "Estándar"
+    ],
+    "M_Toma-Comunicaciones": [
+      "Teledatos",
+      "Teléfono"
+    ],
+    "M_Toma de teléfono - Datos": [
+      "Simple"
+    ],
+    "M_Pulsador - Interruptor": [
+      "Estándar"
+    ],
+    "M_Interruptores de iluminación": [
+      "Piloto encendido"
+    ],
+    "M_Interruptor-Doble": [
+      "Doble"
+    ],
+    "M_Interruptor": [
+      "Ventilador"
+    ],
+    "M_Ventilador": [
+      "Estándar"
+    ],
+    "M_Timbre": [
+      "Estándar"
+    ],
+    "M_Zumbador": [
+      "Estándar"
+    ],
+    "SONO FLEX trim": [
+      "SONO FLEX 100 trim",
+      "SONO FLEX 150 trim",
+      "SONO FLEX 200 trim"
+    ],
+    "M_Interruptor-simple": [
+      "Sencillo"
+    ],
+    "Keypad-Lutron-Homeworks_Sunnata": [
+      "Conmutable"
+    ]
+  },
+  "dispositivos": {
+    "ELEC-T-D-t-15A": {
+      "familia": "M_Toma doble",
+      "simbolo": "Estándar",
+      "anfitrion": null,
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Toma doble 15A"
+    },
+    "ELEC-T-GFCI-t-15A": {
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "anfitrion": null,
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Toma doble GFCI"
+    },
+    "ELEC-TEL": {
+      "familia": "M_Toma de teléfono - Datos",
+      "simbolo": "Simple",
+      "anfitrion": null,
+      "modelar": true,
+      "confirmar": true,
+      "nota": "Solo tiene el simbolo 'Simple'. Si el bloque es en realidad un interruptor sencillo, debe ir a ELEC-I-S-1-5A en el DXF."
+    },
+    "ELEC-NET-PAU": {
+      "familia": "M_Toma-Comunicaciones",
+      "simbolo": "Teledatos",
+      "anfitrion": null,
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Punto de acceso de usuario / datos"
+    },
+    "ELEC-I-S-1-5A": {
+      "familia": "M_Interruptor-simple",
+      "simbolo": "Sencillo",
+      "anfitrion": "muro",
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Interruptor sencillo. Familia M_Interruptor-simple / Sencillo.",
+      "z_local_m": 1.1
+    },
+    "ELEC-I-S-C1-5A": {
+      "familia": "Keypad-Lutron-Homeworks_Sunnata",
+      "simbolo": "Conmutable",
+      "anfitrion": "muro",
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Interruptor conmutado -> Keypad-Lutron-Homeworks_Sunnata / Conmutable, en muro a 1.10 m.",
+      "z_local_m": 1.1
+    },
+    "S3": {
+      "familia": "M_Interruptor-Doble",
+      "simbolo": "Doble",
+      "anfitrion": "muro",
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Interruptor de 3 vias: familia M_Interruptor-Doble / Doble.",
+      "z_local_m": 1.1
+    },
+    "ELEC-F-CONTROL": {
+      "familia": "M_Interruptor",
+      "simbolo": "Ventilador",
+      "anfitrion": "muro",
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Control de ventilador: este SI es M_Interruptor -> 'Ventilador'. | 2026-11-09: forzado a muro 1.10 m. Control de ventilador en MURO a 1.10 m (el JSON traia 0.30).",
+      "z_local_m": 1.1
+    },
+    "ELEC-CAMPANA": {
+      "familia": "M_Toma - 220V",
+      "simbolo": "Estándar",
+      "anfitrion": null,
+      "modelar": true,
+      "confirmar": true,
+      "nota": "Salida de campana en capa ELEC-APPL-TOMAS. El simbolo 'Puerta motorizada' que traia el JSON no existe en ninguna familia cargada."
+    },
+    "ELEC-TIMBRE": {
+      "familia": "M_Timbre",
+      "simbolo": "Estándar",
+      "anfitrion": null,
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Timbre"
+    },
+    "ELEC-F-VENT": {
+      "familia": "M_Ventilador",
+      "simbolo": "Estándar",
+      "anfitrion": "techo",
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Ventilador de techo"
+    },
+    "Bala Stil Led 10W": {
+      "familia": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 100 trim",
+      "anfitrion": "techo",
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Lampara 10W -> SONO FLEX 100 trim, siempre en cielorraso"
+    },
+    "Bala Stil Led 13W": {
+      "familia": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 150 trim",
+      "anfitrion": "techo",
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Lampara 13W -> SONO FLEX 150 trim. El JSON de transferencia la marcaba anfitrion='muro': por eso cayo sobre un muro. Aqui se fuerza techo."
+    },
+    "Bala Stil Led 22W": {
+      "familia": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 200 trim",
+      "anfitrion": "techo",
+      "modelar": true,
+      "confirmar": false,
+      "nota": "Lampara 22W -> SONO FLEX 200 trim, siempre en cielorraso"
+    }
+  },
+  "excluir_por_bloque_y_capa": {
+    "Bala Stil Led 13W": [
+      "ELEC-POWER- PIPE"
+    ]
+  },
+  "nota_excluir_por_capa": "2026-11-09: el bloque 'Bala Stil Led 13W' aparece 3 veces en su capa correcta (ELEC-BALA LED 13 W) y una cuarta en 'ELEC-POWER- PIPE', que es una capa de tuberia y la unica insercion del apartamento en ella. No hay lampara en esa posicion del plano: es un bloque mal insertado en el DXF. Se excluye solo esa combinacion bloque+capa.",
+  "excluir": {
+    "2F2N1T1R": "Marcador de conductores (2 fases, 2 neutros, 1 tierra, 1 retorno). NO es dispositivo: no debe modelarse.",
+    "1FTN": "Marcador de conductores",
+    "1FTR": "Marcador de conductores",
+    "1FTNR": "Marcador de conductores",
+    "1TNR": "Marcador de conductores",
+    "2FT2N": "Marcador de conductores",
+    "1FTN2R": "Marcador de conductores"
+  }
+}

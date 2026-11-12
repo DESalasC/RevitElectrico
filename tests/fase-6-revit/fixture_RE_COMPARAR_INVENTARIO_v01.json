@@ -1,0 +1,162 @@
+{
+  "chip": "SANTAMARTA_T5",
+  "apartamento": "E06",
+  "offset_xy_m": [2.3682, 9.6937],
+  "nivel_elevacion_m": 13.22,
+  "tolerancias": {"nominal": 0.02, "final": 0.10, "z": 0.02, "rot": 2.0, "match": 0.25},
+  "pie_a_metros": 0.3048,
+  "inventario_canonico": {
+    "fecha": "2026-11-11",
+    "dxf": "data\\inventario_dispositivos_E06_v01.json",
+    "dispositivos": [
+      {
+        "handle": "H101",
+        "nombre": "ELEC-T-D-t-15A",
+        "capa": "ELEC-APPL-TOMAS",
+        "x": 1.0,
+        "y": 2.0,
+        "z": 0.0,
+        "rotacion_grados": 270.0,
+        "altura_nominal_m": 1.1
+      },
+      {
+        "handle": "H102",
+        "nombre": "Bala Stil Led 13W",
+        "capa": "ELEC-BALA LED 13 W",
+        "x": 3.0,
+        "y": 4.0,
+        "z": 0.0,
+        "rotacion_grados": 0.0,
+        "altura_nominal_m": 2.6
+      },
+      {
+        "handle": "H103",
+        "nombre": "ELEC-NET-PAU",
+        "capa": "ELEC-APPL-DATOS",
+        "x": 5.0,
+        "y": 6.0,
+        "z": 0.0,
+        "rotacion_grados": 0.0,
+        "altura_nominal_m": 1.1
+      },
+      {
+        "handle": "H104",
+        "nombre": "ELEC-TEL",
+        "capa": "ELEC-APPL-DATOS",
+        "x": 7.0,
+        "y": 8.0,
+        "z": 0.0,
+        "rotacion_grados": 90.0,
+        "altura_nominal_m": 0.3
+      }
+    ]
+  },
+  "export_revit": {
+    "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03",
+    "ruta_documento": "data\\posiciones_revit_export_E06_v01.json",
+    "nivel": "Piso 5",
+    "family_instances": [
+      {
+        "id": 1001,
+        "familia": "M_Toma doble",
+        "simbolo": "Normal",
+        "categoria": "Electrical Fixtures",
+        "x": 11.050525,
+        "y": 38.365157,
+        "z": 46.981627,
+        "panel_name": "",
+        "nivel": "Piso 5",
+        "host_id": 5554001,
+        "host_categoria": "Walls",
+        "orientacion_grados": null,
+        "comentarios": "",
+        "servicio_conduit": ""
+      },
+      {
+        "id": 1002,
+        "familia": "M_Toma doble",
+        "simbolo": "Normal",
+        "categoria": "Electrical Fixtures",
+        "x": 11.214567,
+        "y": 38.365157,
+        "z": 46.981627,
+        "panel_name": "",
+        "nivel": "Piso 5",
+        "host_id": 5554001,
+        "host_categoria": "Walls",
+        "orientacion_grados": null,
+        "comentarios": "",
+        "servicio_conduit": ""
+      },
+      {
+        "id": 1003,
+        "familia": "M_Iluminacion",
+        "simbolo": "SONO FLEX 13 trim",
+        "categoria": "Electrical Fixtures",
+        "x": 17.610236,
+        "y": 44.926837,
+        "z": 51.902887,
+        "panel_name": "",
+        "nivel": "Piso 5",
+        "host_id": 5554002,
+        "host_categoria": "Ceilings",
+        "orientacion_grados": null,
+        "comentarios": "",
+        "servicio_conduit": ""
+      },
+      {
+        "id": 1004,
+        "familia": "M_Comunicaciones",
+        "simbolo": "Datos",
+        "categoria": "Communication Devices",
+        "x": 30.900919,
+        "y": 58.050197,
+        "z": 44.356955,
+        "panel_name": "",
+        "nivel": "Piso 5",
+        "host_id": 5554003,
+        "host_categoria": "Walls",
+        "orientacion_grados": null,
+        "comentarios": "",
+        "servicio_conduit": ""
+      },
+      {
+        "id": 1005,
+        "familia": "Desconocida",
+        "simbolo": "SimboloX",
+        "categoria": "Generic Models",
+        "x": 100.0,
+        "y": 200.0,
+        "z": 10.0,
+        "panel_name": "",
+        "nivel": "Piso 5",
+        "host_id": null,
+        "host_categoria": "",
+        "orientacion_grados": null,
+        "comentarios": "",
+        "servicio_conduit": ""
+      }
+    ]
+  },
+  "esperado": {
+    "total_dispositivos_dxf": 4,
+    "total_instancias_revit": 5,
+    "emparejados": 3,
+    "ok": 2,
+    "desplazado": 1,
+    "desplazado_critico": 0,
+    "faltantes": 1,
+    "duplicados": 1,
+    "tipo_no_mapeado": 1,
+    "cobertura_pct": 75.0,
+    "clasificaciones": {
+      "H101": "OK",
+      "H102": "OK",
+      "H103": "FALTANTE",
+      "H104": "DESPLAZADO"
+    },
+    "distancias_m": {"H101": 0.0, "H102": 0.0, "H104": 0.05},
+    "sobrantes_ids": [1002, 1005],
+    "sobrantes_clase": {"1002": "DUPLICADO", "1005": "TIPO_NO_MAPEADO"}
+  }
+}
