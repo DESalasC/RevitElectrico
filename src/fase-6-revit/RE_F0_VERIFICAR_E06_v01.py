@@ -196,12 +196,36 @@ def evaluar_veredicto(instancias):
         p=proporcion * 100.0)
 
 
+def _a_texto(valor):
+    """Convierte bytes a unicode. En IronPython 2.7 los nombres de Revit son bytes (cp1252)."""
+    if not hasattr(valor, "decode"):
+        return valor
+    for codec in ("utf-8", "cp1252", "latin-1"):
+        try:
+            return valor.decode(codec)
+        except Exception:
+            continue
+    return valor.decode("latin-1", "replace")
+
+
+def _normalizar(objeto):
+    """Recorre dict/list y garantiza texto unicode antes de serializar."""
+    if isinstance(objeto, dict):
+        salida = {}
+        for clave, valor in objeto.items():
+            salida[_a_texto(clave)] = _normalizar(valor)
+        return salida
+    if isinstance(objeto, (list, tuple)):
+        return [_normalizar(item) for item in objeto]
+    return _a_texto(objeto)
+
+
 def guardar_json(ruta, datos):
     directorio = os.path.dirname(ruta)
     if directorio and not os.path.exists(directorio):
         os.makedirs(directorio)
     with open(ruta, "w") as fh:
-        json.dump(datos, fh, ensure_ascii=True, indent=2, sort_keys=True)
+        json.dump(_normalizar(datos), fh, ensure_ascii=True, indent=2, sort_keys=True)
 
 
 def resolver_salida(salida_json):

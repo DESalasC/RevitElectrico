@@ -122,6 +122,36 @@ def _longitud_m(elemento):
     return None
 
 
+def _a_texto(valor):
+    """Convierte bytes a unicode probando codificaciones.
+
+    En IronPython 2.7 los nombres de familia y tipo que devuelve Revit llegan como
+    ``str``, que es una cadena de BYTES en la codificacion local (cp1252). JSON con
+    ``ensure_ascii=True`` necesita unicode y falla con ``UnicodeDecodeError`` si no se
+    normaliza antes. En CPython 3 el texto no tiene ``decode`` y se devuelve intacto.
+    """
+    if not hasattr(valor, "decode"):
+        return valor
+    for codec in ("utf-8", "cp1252", "latin-1"):
+        try:
+            return valor.decode(codec)
+        except Exception:
+            continue
+    return valor.decode("latin-1", "replace")
+
+
+def _normalizar(objeto):
+    """Recorre dict/list y garantiza texto unicode antes de serializar."""
+    if isinstance(objeto, dict):
+        salida = {}
+        for clave, valor in objeto.items():
+            salida[_a_texto(clave)] = _normalizar(valor)
+        return salida
+    if isinstance(objeto, (list, tuple)):
+        return [_normalizar(item) for item in objeto]
+    return _a_texto(objeto)
+
+
 def censo_niveles(doc):
     niveles = []
     for nivel in FilteredElementCollector(doc).OfClass(Level):
@@ -417,7 +447,7 @@ def censo_benchmark(doc, salida_json=None, reporte_json=None):
     if directorio and not os.path.exists(directorio):
         os.makedirs(directorio)
     with open(ruta_salida, "w") as fh:
-        json.dump(resumen, fh, ensure_ascii=True, indent=2, sort_keys=True)
+        json.dump(_normalizar(resumen), fh, ensure_ascii=True, indent=2, sort_keys=True)
 
     print("\nJSON guardado en: {r}".format(r=ruta_salida))
     return resumen

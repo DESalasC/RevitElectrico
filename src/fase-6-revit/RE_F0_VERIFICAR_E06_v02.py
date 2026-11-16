@@ -93,6 +93,30 @@ def _host_id(inst):
     return None
 
 
+def _a_texto(valor):
+    """Convierte bytes a unicode. En IronPython 2.7 los nombres de Revit son bytes (cp1252)."""
+    if not hasattr(valor, "decode"):
+        return valor
+    for codec in ("utf-8", "cp1252", "latin-1"):
+        try:
+            return valor.decode(codec)
+        except Exception:
+            continue
+    return valor.decode("latin-1", "replace")
+
+
+def _normalizar(objeto):
+    """Recorre dict/list y garantiza texto unicode antes de serializar."""
+    if isinstance(objeto, dict):
+        salida = {}
+        for clave, valor in objeto.items():
+            salida[_a_texto(clave)] = _normalizar(valor)
+        return salida
+    if isinstance(objeto, (list, tuple)):
+        return [_normalizar(item) for item in objeto]
+    return _a_texto(objeto)
+
+
 def cargar_declarados(ruta_reporte):
     """Lee el reporte v13 y devuelve las entradas creadas con su UniqueId."""
     with open(ruta_reporte, "r") as fh:
@@ -203,7 +227,7 @@ def verificar_e06_por_uniqueid(doc, reporte_json=None, salida_json=None):
     if directorio and not os.path.exists(directorio):
         os.makedirs(directorio)
     with open(ruta_salida, "w") as fh:
-        json.dump(resumen, fh, ensure_ascii=True, indent=2, sort_keys=True)
+        json.dump(_normalizar(resumen), fh, ensure_ascii=True, indent=2, sort_keys=True)
 
     print("JSON guardado en: {r}".format(r=ruta_salida))
     return resumen
