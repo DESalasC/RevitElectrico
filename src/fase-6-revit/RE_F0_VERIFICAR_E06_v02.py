@@ -102,6 +102,22 @@ def _json_seguro(texto):
         return False
 
 
+def _transliterar(texto):
+    """Sustituye vocales acentuadas y enie por ASCII (el json de IronPython no las maneja)."""
+    mapa = {
+        u"\u00e1": "a", u"\u00e9": "e", u"\u00ed": "i", u"\u00f3": "o", u"\u00fa": "u",
+        u"\u00c1": "A", u"\u00c9": "E", u"\u00cd": "I", u"\u00d3": "O", u"\u00da": "U",
+        u"\u00f1": "n", u"\u00d1": "N", u"\u00fc": "u", u"\u00dc": "U",
+    }
+    try:
+        partes = []
+        for caracter in texto:
+            partes.append(mapa.get(caracter, caracter))
+        return "".join(partes)
+    except Exception:
+        return texto
+
+
 def _a_texto(valor):
     """Deja el valor serializable: decodifica si se puede y verifica el resultado con json.
 
@@ -120,14 +136,18 @@ def _a_texto(valor):
             continue
 
     if not _json_seguro(texto):
+        texto = _transliterar(texto)
+    if not _json_seguro(texto):
         try:
             texto = repr(valor)
-            if texto[:2] in ("b'", 'b"'):
-                texto = texto[2:]
+            for prefijo in ("b'", 'b"', "u'", 'u"'):
+                if texto[:2] == prefijo:
+                    texto = texto[2:]
+                    break
             if texto.endswith(("'", '"')):
                 texto = texto[:-1]
         except Exception:
-            texto = repr(Exception("valor_no_serializable"))
+            texto = "valor_no_serializable"
 
     try:
         if texto[:1] == u"\ufeff":

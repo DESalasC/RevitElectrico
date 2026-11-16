@@ -30,7 +30,7 @@ SCRIPTS = {
     "verificador_uniqueid": RAIZ / "RE_F0_VERIFICAR_E06_v02.py",
 }
 
-FUNCIONES = ("_json_seguro", "_a_texto", "_normalizar")
+FUNCIONES = ("_json_seguro", "_transliterar", "_a_texto", "_normalizar")
 
 
 def cargar_funciones(ruta: Path, nombres: tuple[str, ...] = FUNCIONES) -> dict:
@@ -110,6 +110,13 @@ def test_valor_no_serializable_cae_a_repr(funciones: dict) -> None:
 
     assert salida == "RARO<1>"
     assert json.dumps(salida, ensure_ascii=True)
+
+
+def test_translitera_acentos(funciones: dict) -> None:
+    """IronPython no serializa unicode acentuado: se translitera antes de caer a repr."""
+    assert funciones["_transliterar"]("M_Interruptores de iluminación") == "M_Interruptores de iluminacion"
+    assert funciones["_transliterar"]("Toma de teléfono - Datos") == "Toma de telefono - Datos"
+    assert funciones["_transliterar"]("Señal") == "Senal"
 
 
 def test_bytes_ascii_tambien_se_normalizan(funciones: dict) -> None:

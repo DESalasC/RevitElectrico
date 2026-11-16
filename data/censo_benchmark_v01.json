@@ -1,0 +1,1313 @@
+{
+  "censo": {
+    "conduits": {
+      "con_longitud_medible": 147, 
+      "longitud_total_m": 138.85200000000000, 
+      "por_tipo": [
+        {
+          "n": 146, 
+          "tipo": "Tubo"
+        }, 
+        {
+          "n": 1, 
+          "tipo": "Tubo Comunicaciones"
+        }
+      ], 
+      "total": 147
+    }, 
+    "electricas_detallado": {
+      "detalle": [
+        {
+          "categoria": "Communication Devices", 
+          "familia": "M_Zumbador", 
+          "n": 2, 
+          "tipo": "Campana Timbre"
+        }, 
+        {
+          "categoria": "Communication Devices", 
+          "familia": "M_Pulsador - Interruptor", 
+          "n": 1, 
+          "tipo": "Timbre"
+        }, 
+        {
+          "categoria": "Data Devices", 
+          "familia": "Consolidation_Point", 
+          "n": 2, 
+          "tipo": "CPB6BL"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "Medidor HS", 
+          "n": 63, 
+          "tipo": "Medidor HS"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 3, 
+          "tipo": "TF 01"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 2, 
+          "tipo": "TD 02"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 2, 
+          "tipo": "TF 18"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 2, 
+          "tipo": "TD 08"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 2, 
+          "tipo": "TF 17"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 1, 
+          "tipo": "TD 16"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 1, 
+          "tipo": "TD 07"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 1, 
+          "tipo": "TD 06"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 1, 
+          "tipo": "TD 14"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 1, 
+          "tipo": "TB 15"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 1, 
+          "tipo": "TE 05"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 1, 
+          "tipo": "TD 13"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 1, 
+          "tipo": "TF 02"
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "familia": "E_Panel Distribucion", 
+          "n": 1, 
+          "tipo": "TE 07"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_Caja de conexiones hexagonal", 
+          "n": 18, 
+          "tipo": "120V"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_Toma doble", 
+          "n": 18, 
+          "tipo": "Normal"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_Comunicaciones", 
+          "n": 7, 
+          "tipo": "Telefono"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_Comunicaciones", 
+          "n": 7, 
+          "tipo": "Datos"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_Climatizacion", 
+          "n": 2, 
+          "tipo": "Interruptor Ventilador"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_ClimatizacionV", 
+          "n": 2, 
+          "tipo": "Ventilador"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_Toma - 220V", 
+          "n": 2, 
+          "tipo": "u'Est\\xe1ndar"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_Toma doble", 
+          "n": 2, 
+          "tipo": "GFCI"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_Toma resistente a la intemperie", 
+          "n": 2, 
+          "tipo": "Intemperie"
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "familia": "M_Cajas de conexiones - Sin carga", 
+          "n": 1, 
+          "tipo": "100 Cuadrada"
+        }, 
+        {
+          "categoria": "Lighting Devices", 
+          "familia": "u'M_Interruptores de iluminaci\\xf3n", 
+          "n": 5, 
+          "tipo": "Piloto encendido"
+        }, 
+        {
+          "categoria": "Lighting Fixtures", 
+          "familia": "M_Iluminacion", 
+          "n": 8, 
+          "tipo": "SONO FLEX 10 trim"
+        }, 
+        {
+          "categoria": "Lighting Fixtures", 
+          "familia": "M_Iluminacion", 
+          "n": 6, 
+          "tipo": "SONO FLEX 13 trim"
+        }, 
+        {
+          "categoria": "Lighting Fixtures", 
+          "familia": "M_Iluminacion", 
+          "n": 4, 
+          "tipo": "SONO FLEX 22 trim"
+        }, 
+        {
+          "categoria": "Telephone Devices", 
+          "familia": "u'M_Toma de tel\\xe9fono - Datos", 
+          "n": 3, 
+          "tipo": "Simple"
+        }
+      ], 
+      "familias_distintas": 16, 
+      "total": 175
+    }, 
+    "equipos_electricos": {
+      "detalle": [
+        {
+          "familia": "Medidor HS", 
+          "id": "1839851", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 0.22
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "1839852", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 0.22
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2278155", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 3.4700000000000002
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2278156", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 3.4700000000000002
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2279417", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 6.7199999999999998
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2279418", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 6.7199999999999998
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2280679", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 9.9700000000000006
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2280680", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 9.9700000000000006
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2281941", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 13.220000000000001
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2281942", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 13.220000000000001
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2283203", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 16.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2283204", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 16.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2284465", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 19.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2284466", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 19.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2285727", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 22.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2285728", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 22.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2286989", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 26.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2286990", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 26.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2288251", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 29.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2288252", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 29.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2289513", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 32.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2289514", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 32.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2290775", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 35.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2290776", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 35.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2292037", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 39.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2292038", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 39.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2293299", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 42.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2293300", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 42.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2294561", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 45.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2294562", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 45.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2295823", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 48.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2295824", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 48.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2297085", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 52.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2297086", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 52.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2298347", 
+          "tipo": "Medidor HS", 
+          "x_m": -49.966999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 55.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "2298348", 
+          "tipo": "Medidor HS", 
+          "x_m": -48.902999999999999, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 55.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3259051", 
+          "tipo": "Medidor HS", 
+          "x_m": -59.103000000000002, 
+          "y_m": 5.4950000000000001, 
+          "z_m": 0.22
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3259052", 
+          "tipo": "Medidor HS", 
+          "x_m": -59.103000000000002, 
+          "y_m": 6.4480000000000004, 
+          "z_m": 0.22
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298063", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 3.4700000000000002
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298363", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 6.7199999999999998
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298366", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 9.9700000000000006
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298369", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 13.220000000000001
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298372", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 16.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298375", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 19.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298378", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 22.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298381", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 26.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298384", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 29.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298387", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 32.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298390", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 35.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298393", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 39.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298396", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 42.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298399", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 45.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298402", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 48.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298405", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 52.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298408", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 55.469999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298411", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 58.719999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298414", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 61.969999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298417", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 65.219999999999999
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3298420", 
+          "tipo": "Medidor HS", 
+          "x_m": -37.856000000000002, 
+          "y_m": 8.0969999999999995, 
+          "z_m": 0.22
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3681748", 
+          "tipo": "Medidor HS", 
+          "x_m": -59.103000000000002, 
+          "y_m": 5.4950000000000001, 
+          "z_m": 3.4700000000000002
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3681749", 
+          "tipo": "Medidor HS", 
+          "x_m": -59.103000000000002, 
+          "y_m": 6.4480000000000004, 
+          "z_m": 3.4700000000000002
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3689064", 
+          "tipo": "Medidor HS", 
+          "x_m": -59.103000000000002, 
+          "y_m": 5.4950000000000001, 
+          "z_m": 6.7199999999999998
+        }, 
+        {
+          "familia": "Medidor HS", 
+          "id": "3689065", 
+          "tipo": "Medidor HS", 
+          "x_m": -59.103000000000002, 
+          "y_m": 6.4480000000000004, 
+          "z_m": 6.7199999999999998
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5577676", 
+          "tipo": "TF 02", 
+          "x_m": 11.611000000000001, 
+          "y_m": 10.151000000000000, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5658610", 
+          "tipo": "TF 01", 
+          "x_m": 11.611000000000001, 
+          "y_m": 7.5339999999999998, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5665803", 
+          "tipo": "TF 18", 
+          "x_m": 8.7799999999999994, 
+          "y_m": 10.151000000000000, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5665804", 
+          "tipo": "TF 17", 
+          "x_m": 8.7799999999999994, 
+          "y_m": 7.5339999999999998, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5665951", 
+          "tipo": "TE 05", 
+          "x_m": 6.5270000000000001, 
+          "y_m": 6.8280000000000003, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5665959", 
+          "tipo": "TD 06", 
+          "x_m": 6.5270000000000001, 
+          "y_m": 10.840999999999999, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5666067", 
+          "tipo": "TD 08", 
+          "x_m": -5.6500000000000004, 
+          "y_m": 10.750999999999999, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5666077", 
+          "tipo": "TE 07", 
+          "x_m": -5.6500000000000004, 
+          "y_m": 6.8510000000000000, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5666878", 
+          "tipo": "TD 02", 
+          "x_m": -22.106000000000002, 
+          "y_m": 10.132999999999999, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5667141", 
+          "tipo": "TF 01", 
+          "x_m": -22.102000000000000, 
+          "y_m": 7.5129999999999999, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5675117", 
+          "tipo": "TD 14", 
+          "x_m": -29.375, 
+          "y_m": 6.9600000000000000, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5675158", 
+          "tipo": "TD 13", 
+          "x_m": -29.355000000000000, 
+          "y_m": 10.830000000000000, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5675251", 
+          "tipo": "TD 07", 
+          "x_m": -43.067999999999998, 
+          "y_m": 6.8810000000000002, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5675252", 
+          "tipo": "TD 08", 
+          "x_m": -43.076000000000001, 
+          "y_m": 10.804000000000000, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5675617", 
+          "tipo": "TB 15", 
+          "x_m": -46.290999999999997, 
+          "y_m": 8.1129999999999995, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5675658", 
+          "tipo": "TD 16", 
+          "x_m": -46.340000000000003, 
+          "y_m": 9.5670000000000002, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5695627", 
+          "tipo": "TD 02", 
+          "x_m": -14.305999999999999, 
+          "y_m": 10.132999999999999, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5695628", 
+          "tipo": "TF 01", 
+          "x_m": -14.302000000000000, 
+          "y_m": 7.5129999999999999, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5695682", 
+          "tipo": "TF 18", 
+          "x_m": -17.126000000000001, 
+          "y_m": 10.161000000000000, 
+          "z_m": 14.420000000000000
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "id": "5695713", 
+          "tipo": "TF 17", 
+          "x_m": -17.129999999999999, 
+          "y_m": 7.5129999999999999, 
+          "z_m": 14.420000000000000
+        }
+      ], 
+      "por_familia": [
+        {
+          "familia": "Medidor HS", 
+          "n": 63
+        }, 
+        {
+          "familia": "E_Panel Distribucion", 
+          "n": 20
+        }
+      ], 
+      "total": 83
+    }, 
+    "family_instances": {
+      "por_categoria": [
+        {
+          "categoria": "Plumbing Fixtures", 
+          "n": 3403
+        }, 
+        {
+          "categoria": "Balusters", 
+          "n": 3026
+        }, 
+        {
+          "categoria": "Furniture", 
+          "n": 2799
+        }, 
+        {
+          "categoria": "Doors", 
+          "n": 2660
+        }, 
+        {
+          "categoria": "Structural Columns", 
+          "n": 1142
+        }, 
+        {
+          "categoria": "Windows", 
+          "n": 715
+        }, 
+        {
+          "categoria": "Curtain Wall Mullions", 
+          "n": 123
+        }, 
+        {
+          "categoria": "Curtain Panels", 
+          "n": 107
+        }, 
+        {
+          "categoria": "Conduit Fittings", 
+          "n": 88
+        }, 
+        {
+          "categoria": "Electrical Equipment", 
+          "n": 83
+        }, 
+        {
+          "categoria": "Specialty Equipment", 
+          "n": 66
+        }, 
+        {
+          "categoria": "Electrical Fixtures", 
+          "n": 61
+        }, 
+        {
+          "categoria": "Generic Models", 
+          "n": 20
+        }, 
+        {
+          "categoria": "Lighting Fixtures", 
+          "n": 18
+        }, 
+        {
+          "categoria": "Lighting Devices", 
+          "n": 5
+        }, 
+        {
+          "categoria": "Title Blocks", 
+          "n": 4
+        }, 
+        {
+          "categoria": "Telephone Devices", 
+          "n": 3
+        }, 
+        {
+          "categoria": "Mechanical Equipment", 
+          "n": 3
+        }, 
+        {
+          "categoria": "Communication Devices", 
+          "n": 3
+        }, 
+        {
+          "categoria": "Data Devices", 
+          "n": 2
+        }
+      ], 
+      "por_familia_tipo": [
+        {
+          "familia": "Dilataciones en goma baranda balcones", 
+          "n": 907, 
+          "tipo": "25mm"
+        }, 
+        {
+          "familia": "Circular", 
+          "n": 742, 
+          "tipo": "20 mm"
+        }, 
+        {
+          "familia": "FJR_A_Puerta_Batiente_Dobledilatacion_Marcosuperior_Madera", 
+          "n": 597, 
+          "tipo": "FJR_0.70 x 2.40m"
+        }, 
+        {
+          "familia": "FJR_A_Sanitario_Corona_Aluvia", 
+          "n": 597, 
+          "tipo": "FJR_A_Sanitario_Corona_Aluvia"
+        }, 
+        {
+          "familia": "FJR_A_Ducha_Corona_Monocontrol_Palma_Pro", 
+          "n": 551, 
+          "tipo": "Ducha monocontrol Palma Pro"
+        }, 
+        {
+          "familia": "FJR_A_ JaboneraDucha_Corona_Palma", 
+          "n": 531, 
+          "tipo": "Jabonera Palma"
+        }, 
+        {
+          "familia": "Perfil anclado a escalera", 
+          "n": 518, 
+          "tipo": "Perfil anclado a escalera"
+        }, 
+        {
+          "familia": "FJR_A_Puerta_Batiente_Dobledilatacion_Marcosuperior_Madera", 
+          "n": 480, 
+          "tipo": "FJR_1.00 x 2.40m"
+        }, 
+        {
+          "familia": "u'FJR_A_MuebleBa\\xf1o__MarmolSinuDark_CinzaCobalto_0.70x0.56m", 
+          "n": 414, 
+          "tipo": "u'FJR_A_MuebleBa\\xf1o__MarmolSinuDark_CinzaCobalto_0.70x0.56m"
+        }, 
+        {
+          "familia": "Perfil anclado a pared", 
+          "n": 391, 
+          "tipo": "Perfil anclado a pared"
+        }, 
+        {
+          "familia": "FJR_A_Espejo", 
+          "n": 369, 
+          "tipo": "FJR_ 0.60 x 1.00 m"
+        }, 
+        {
+          "familia": "FJR_A_Puerta_Batiente_Dobledilatacion_Marcosuperior_Madera", 
+          "n": 360, 
+          "tipo": "FJR_0.80 x 2.40m"
+        }, 
+        {
+          "familia": "Circular", 
+          "n": 348, 
+          "tipo": "FJR_0.03"
+        }, 
+        {
+          "familia": "FJR_A_Toallero_Argolla_Corona_Palma", 
+          "n": 335, 
+          "tipo": "Toallero argolla Palma"
+        }, 
+        {
+          "familia": "FJR_A_Portarrollos_Corona_Palma", 
+          "n": 330, 
+          "tipo": "Portarrollo Palma"
+        }, 
+        {
+          "familia": "FJR_A_Ventana_Rejilla", 
+          "n": 273, 
+          "tipo": "FJR_0.60x0.80 m"
+        }, 
+        {
+          "familia": "FJR_A_Percha_Corona_Palma", 
+          "n": 272, 
+          "tipo": "Percha Palma"
+        }, 
+        {
+          "familia": "FJR_A_PuertaVentana_2hojas", 
+          "n": 255, 
+          "tipo": "FJR_2.47 x 2.20m"
+        }, 
+        {
+          "familia": "COTTO Floor drain round body CT640Y1PW(HM)", 
+          "n": 220, 
+          "tipo": "COTTO Floor drain round body CT640Y1PW(HM)"
+        }, 
+        {
+          "familia": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.65x0.60m", 
+          "n": 216, 
+          "tipo": "FJR_2_Puestos"
+        }, 
+        {
+          "familia": "FJR_A_Meson_Quarztone_GrisClasico", 
+          "n": 216, 
+          "tipo": "FJR_1.19x0.56m"
+        }, 
+        {
+          "familia": "FJR_A_Closet", 
+          "n": 210, 
+          "tipo": "FJR_ 1.31 x 2.60 m"
+        }, 
+        {
+          "familia": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower", 
+          "n": 189, 
+          "tipo": "1.13*2.10"
+        }, 
+        {
+          "familia": "u'FJR_A_MuebleBa\\xf1o__MarmolSinuDark_CinzaCobalto_0.90x0.64m", 
+          "n": 177, 
+          "tipo": "u'FJR_A_MuebleBa\\xf1o__MarmolSinuDark_CinzaCobalto_0.90x0.64m"
+        }, 
+        {
+          "familia": "FJR_A_Puerta_Plegable_2hojas_Madera", 
+          "n": 174, 
+          "tipo": "FJR_ 0.90 x 2.40m"
+        }, 
+        {
+          "familia": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.82x0.60m", 
+          "n": 168, 
+          "tipo": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.82x0.60m"
+        }, 
+        {
+          "familia": "u'Hormig\\xf3n-Rectangular-Pilar", 
+          "n": 156, 
+          "tipo": "0.40 x 1.45"
+        }, 
+        {
+          "familia": "FJR_A_Espejo", 
+          "n": 154, 
+          "tipo": "FJR_0.85 x 1.00m"
+        }, 
+        {
+          "familia": "FJR_A_Meson_Quarztone_GrisClasico", 
+          "n": 126, 
+          "tipo": "FJR_0.85x0.76m"
+        }, 
+        {
+          "familia": "Montante rectangular", 
+          "n": 123, 
+          "tipo": "Montante rectangular - FJR_ 0.02x0.02m"
+        }, 
+        {
+          "familia": "Circular", 
+          "n": 116, 
+          "tipo": "FJR_0.05"
+        }, 
+        {
+          "familia": "FJR_A_Puerta_Batiente_Aluminio", 
+          "n": 111, 
+          "tipo": "FJR_1.00 x 2.50m"
+        }, 
+        {
+          "familia": "Panel de sistema", 
+          "n": 107, 
+          "tipo": "Acristalado"
+        }, 
+        {
+          "familia": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas", 
+          "n": 105, 
+          "tipo": "FJR_0.87x1.30 m"
+        }, 
+        {
+          "familia": "FJR_A_PuertaVentana_2hojas", 
+          "n": 105, 
+          "tipo": "FJR_2.66 x 2.20m"
+        }, 
+        {
+          "familia": "FJR_A_Puerta_Batiente_Aluminio", 
+          "n": 103, 
+          "tipo": "FJR_0.80 x 2.50m"
+        }, 
+        {
+          "familia": "FJR_A_Ventana_Corrediza_2hojas", 
+          "n": 96, 
+          "tipo": "FJR_ 1.50 x 1.25m"
+        }, 
+        {
+          "familia": "FJR_A_Closet", 
+          "n": 93, 
+          "tipo": "FJR_ 1.65 x 2.60 m"
+        }, 
+        {
+          "familia": "u'Hormig\\xf3n-Rectangular-Pilar", 
+          "n": 84, 
+          "tipo": "0.35 x 1.15"
+        }, 
+        {
+          "familia": "FJR_A_PuertaVentana_2hojas", 
+          "n": 84, 
+          "tipo": "FJR_2.60 x 2.20m"
+        }
+      ], 
+      "rango_xy_electricas_m": {
+        "max": [
+          14.045332566212952, 
+          16.882693109074193
+        ], 
+        "min": [
+          -59.103007812947595, 
+          0.80238962206684938
+        ]
+      }, 
+      "total_electricas": 175, 
+      "total_family_instances": 14331
+    }, 
+    "niveles": [
+      {
+        "elevacion_m": -1.0800000000000001, 
+        "nombre": "Sotano"
+      }, 
+      {
+        "elevacion_m": 0.22, 
+        "nombre": "u'CLASIFICACI\\xd3N ACABADOS MUROS MAMPOSTERIA PISO 1"
+      }, 
+      {
+        "elevacion_m": 3.4700000000000002, 
+        "nombre": "u'CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 2-3"
+      }, 
+      {
+        "elevacion_m": 6.7199999999999998, 
+        "nombre": "Piso 3"
+      }, 
+      {
+        "elevacion_m": 9.9700000000000006, 
+        "nombre": "u'CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 4-18"
+      }, 
+      {
+        "elevacion_m": 13.220000000000001, 
+        "nombre": "Piso 5"
+      }, 
+      {
+        "elevacion_m": 16.469999999999999, 
+        "nombre": "Piso 6"
+      }, 
+      {
+        "elevacion_m": 19.719999999999999, 
+        "nombre": "Piso 7"
+      }, 
+      {
+        "elevacion_m": 22.969999999999999, 
+        "nombre": "Piso 8"
+      }, 
+      {
+        "elevacion_m": 26.219999999999999, 
+        "nombre": "Piso 9"
+      }, 
+      {
+        "elevacion_m": 29.469999999999999, 
+        "nombre": "Piso 10"
+      }, 
+      {
+        "elevacion_m": 32.719999999999999, 
+        "nombre": "Piso 11"
+      }, 
+      {
+        "elevacion_m": 35.969999999999999, 
+        "nombre": "Piso 12"
+      }, 
+      {
+        "elevacion_m": 39.219999999999999, 
+        "nombre": "Piso 13"
+      }, 
+      {
+        "elevacion_m": 42.469999999999999, 
+        "nombre": "Piso 14"
+      }, 
+      {
+        "elevacion_m": 45.719999999999999, 
+        "nombre": "Piso 15"
+      }, 
+      {
+        "elevacion_m": 48.969999999999999, 
+        "nombre": "Piso 16"
+      }, 
+      {
+        "elevacion_m": 52.219999999999999, 
+        "nombre": "Piso 17"
+      }, 
+      {
+        "elevacion_m": 55.469999999999999, 
+        "nombre": "Piso 18"
+      }, 
+      {
+        "elevacion_m": 58.719999999999999, 
+        "nombre": "u'CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 19-21"
+      }, 
+      {
+        "elevacion_m": 61.969999999999999, 
+        "nombre": "Piso 20"
+      }, 
+      {
+        "elevacion_m": 65.219999999999999, 
+        "nombre": "Piso 21"
+      }, 
+      {
+        "elevacion_m": 68.469999999999999, 
+        "nombre": "Cubierta"
+      }, 
+      {
+        "elevacion_m": 71.870000000000005, 
+        "nombre": "SobreCubierta"
+      }
+    ]
+  }, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f", 
+  "fase": "F0", 
+  "fecha": "2026-11-15 20:12:50", 
+  "lote_v13": {
+    "declarados": 44, 
+    "encontrados": 0, 
+    "estado": "no_persistido", 
+    "lote_guid": "46c3f138-025d-47d4-b24a-41cd21181a58"
+  }, 
+  "modificado_en_sesion": false, 
+  "motivo": "Hay 175 dispositivos electricos y 147 conduits (138.852 m): el benchmark si contiene aparatos y ruteo.", 
+  "proyecto": "RE", 
+  "ruta": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt", 
+  "veredicto_benchmark": "con_ruteo", 
+  "version": "1.3"
+}
