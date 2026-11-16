@@ -33,10 +33,10 @@
     "BB": { "altura_m": 1.65, "nota": "toma gabinete superior, muro de cocina", "element_id_revit": 5529849 },
     "9E": { "altura_m": 1.05, "nota": "GFCI sobre el meson de cocina (corregido: el DXF anota 1.05)", "element_id_revit": 5529855 },
     "EF": { "altura_m": 1.10, "nota": "extractor de gases (campana), sobre el meson", "element_id_revit": 5529844 },
-    "EE": { "altura_m": 1.05, "nota": "toma nevera, muro opuesto (element_id por confirmar entre 5529805 y 5529796)", "element_id_revit": 5529805 },
+    "EE": { "altura_m": 1.05, "nota": "toma nevera, muro opuesto. Confirmado: ElementID 5529805. El 5529796 es otra toma normal a 0,30 en la cara opuesta del muro", "element_id_revit": 5529805 },
     "103": { "altura_m": 1.05, "nota": "GFCI del bano, junto a la puerta (corregido: 1.05, no 1.10)", "element_id_revit": 5529811 },
     "BC": { "altura_m": 0.85, "nota": "GFCI junto al Consolidation_Point. En CENTRAL-V01 quedo sobre la cara opuesta del muro: correccion manual pendiente (no afecta la altura)", "element_id_revit": 5529814 },
-    "111": { "altura_m": 1.05, "nota": "GFCI (x 0,45 y 0,03); altura tomada del DXF, pendiente de confirmar", "element_id_revit": 5529852 },
+    "111": { "altura_m": 1.05, "nota": "GFCI (x 0,45 y 0,03). Confirmado por el operador a 1,05", "element_id_revit": 5529852 },
     "DB": { "altura_m": 0.30, "nota": "GFCI con anotacion h-0.3 en el DXF", "element_id_revit": 5529727 }
   },
   "anotaciones_dxf": {

@@ -173,6 +173,22 @@ def resolver(
     for fila in resueltos:
         por_origen[fila["origen_altura"]] = por_origen.get(fila["origen_altura"], 0) + 1
 
+    # Un aviso de "anotacion lejana" deja de ser conflicto si la anotacion coincide con la
+    # excepcion confirmada: la distancia era el unico motivo de duda y el valor la despeja.
+    conflictos = [
+        conflicto
+        for conflicto in conflictos
+        if not (
+            conflicto["motivo"] == "anotacion lejana"
+            and conflicto["handle"] in excepciones
+            and abs(
+                float(conflicto["detalle"]["altura_m"])
+                - float(excepciones[conflicto["handle"]]["altura_m"])
+            )
+            <= 0.02
+        )
+    ]
+
     return {
         "version": "2.0",
         "proyecto": "RE",

@@ -13,8 +13,9 @@
     { "handle": "BB", "element_id": 5529849, "familia": "M_Toma doble", "tipo": "Normal", "altura_m": 1.65, "dist_m": 0.129, "descripcion": "toma gabinete superior, muro de cocina", "confianza": "alta" },
     { "handle": "9E", "element_id": 5529855, "familia": "M_Toma doble", "tipo": "GFCI", "altura_m": 1.05, "dist_m": 0.126, "descripcion": "GFCI sobre el meson de cocina", "confianza": "alta" },
     { "handle": "EF", "element_id": 5529844, "familia": "M_Timbre", "tipo": "Campana", "altura_m": 1.10, "dist_m": 0.121, "descripcion": "extractor de gases sobre el meson", "confianza": "alta" },
-    { "handle": "EE", "element_id": 5529805, "familia": "M_Toma doble", "tipo": "Normal", "altura_m": 1.05, "dist_m": 0.101, "descripcion": "toma nevera, muro opuesto", "confianza": "media", "alternativa": { "element_id": 5529796, "dist_m": 0.127 } },
-    { "handle": "111", "element_id": 5529852, "familia": "M_Toma doble", "tipo": "GFCI", "altura_m": 1.05, "dist_m": 0.139, "descripcion": "GFCI; altura tomada del DXF", "confianza": "media" },
+    { "handle": "EE", "element_id": 5529805, "familia": "M_Toma doble", "tipo": "Normal", "altura_m": 1.05, "dist_m": 0.101, "descripcion": "toma nevera, muro opuesto", "confianza": "confirmada" },
+    { "handle": "DA", "element_id": 5529796, "familia": "M_Toma doble", "tipo": "Normal", "altura_m": 0.30, "dist_m": 0.121, "descripcion": "toma normal en la cara opuesta del muro de la nevera", "confianza": "confirmada" },
+    { "handle": "111", "element_id": 5529852, "familia": "M_Toma doble", "tipo": "GFCI", "altura_m": 1.05, "dist_m": 0.139, "descripcion": "GFCI; altura confirmada por el operador", "confianza": "confirmada" },
     { "handle": "DB", "element_id": 5529727, "familia": "M_Toma doble", "tipo": "GFCI", "altura_m": 0.30, "dist_m": 0.128, "descripcion": "GFCI con anotacion h-0.3", "confianza": "alta" },
     { "handle": "103", "element_id": 5529811, "familia": "M_Toma doble", "tipo": "GFCI", "altura_m": 1.05, "dist_m": 0.049, "descripcion": "GFCI del bano junto a la puerta", "confianza": "confirmada" },
     { "handle": "BC", "element_id": 5529814, "familia": "M_Toma doble", "tipo": "GFCI", "altura_m": 0.85, "dist_m": 0.085, "descripcion": "GFCI junto al Consolidation_Point. En el modelo quedo sobre la cara opuesta del muro: corregir a mano (la altura 0,85 es correcta)", "confianza": "confirmada" }

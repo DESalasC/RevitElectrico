@@ -118,6 +118,30 @@ def test_regla_base_y_sin_regla(resolver: ModuleType, config: dict) -> None:
     assert por_handle["X1"]["origen_altura"] == "sin_regla"
 
 
+def test_aviso_lejano_no_es_conflicto_si_coincide_con_la_excepcion(resolver: ModuleType, config: dict) -> None:
+    """111 tiene anotacion 1.05 a 0,42 m y excepcion 1.05: la distancia no es duda."""
+    inventario = {"dispositivos": [{"handle": "111", "nombre": "ELEC-T-GFCI-t-15A", "x": 0.0, "y": 0.0}]}
+    anotaciones = [{"texto": "1.05m", "x": 0.417, "y": 0.0, "altura_m": 1.05}]
+
+    resultado = resolver.resolver(inventario, config, anotaciones)
+
+    assert resultado["conflictos"] == []
+    assert resultado["dispositivos"][0]["altura_local_m"] == 1.05
+
+
+def test_anotacion_lejana_que_discrepa_si_reporta(resolver: ModuleType, config: dict) -> None:
+    config_prueba = dict(config)
+    config_prueba["excepciones_por_handle"] = dict(config["excepciones_por_handle"])
+    config_prueba["excepciones_por_handle"]["111"] = {"altura_m": 1.30, "nota": "prueba"}
+
+    inventario = {"dispositivos": [{"handle": "111", "nombre": "ELEC-T-GFCI-t-15A", "x": 0.0, "y": 0.0}]}
+    anotaciones = [{"texto": "1.05m", "x": 0.417, "y": 0.0, "altura_m": 1.05}]
+
+    resultado = resolver.resolver(inventario, config_prueba, anotaciones)
+
+    assert any(c["motivo"] == "anotacion contradice excepcion" for c in resultado["conflictos"])
+
+
 def test_z_absoluta_suma_la_elevacion_del_nivel(resolver: ModuleType, config: dict) -> None:
     inventario = {"dispositivos": [{"handle": "BA", "nombre": "ELEC-T-D-t-15A", "x": 0.0, "y": 0.0}]}
 

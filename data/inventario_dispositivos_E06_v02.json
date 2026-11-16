@@ -1,17 +1,7 @@
 {
   "anotaciones_dxf_detectadas": 8,
   "apartamento": "Apartamento Tipo E 06",
-  "conflictos": [
-    {
-      "detalle": {
-        "altura_m": 1.05,
-        "dist_m": 0.417,
-        "texto": "1.05m"
-      },
-      "handle": "111",
-      "motivo": "anotacion lejana"
-    }
-  ],
+  "conflictos": [],
   "dispositivos": [
     {
       "altura_local_m": 2.6,
