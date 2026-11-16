@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "proyecto": "RE",
+  "fecha": "2026-11-15",
+  "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt",
+  "rol": "vigente (D7)",
+  "fuente": "MCP mcp-server-for-revit: analyze_model_statistics, get_available_family_types, ai_element_filter",
+  "proposito": "Levantar el censo electrico de CENTRAL-V01 para confirmar el estado de E06 antes de F1/F2. La primera consulta de fixtures se hizo completa; las demas categorias quedan pendientes de detalle.",
+  "totales_modelo": {
+    "elementos": 123643,
+    "tipos": 5766,
+    "familias": 56,
+    "vistas": 94,
+    "planos": 4,
+    "niveles": 24,
+    "conduits": 0,
+    "conduit_fittings": 0
+  },
+  "electrico_por_categoria": {
+    "Electrical Equipment": 83,
+    "Electrical Fixtures": 25,
+    "Telephone Devices": 10,
+    "Lighting Fixtures": 9,
+    "Communication Devices": 2,
+    "Data Devices": 1,
+    "Lighting Devices": 0
+  },
+  "aparatos_totales": 47,
+  "hallazgo_principal": "47 aparatos, todos en Piso 5, y 0 conduits. El conteo coincide con los 47 dispositivos del inventario E06 del DXF. Hipotesis fuerte: E06 esta modelado manualmente en CENTRAL-V01 y sin ruteo. Pendiente de verificar con las categorias restantes (luminarias, telefono, comunicacion, datos).",
+  "electrical_fixtures_detalle": {
+    "total": 25,
+    "nivel": "Piso 5 (id 192512, 13.22 m)",
+    "por_familia_tipo": {
+      "M_Interruptores | Simple": 3,
+      "M_Interruptores | Simple conmutable": 2,
+      "M_Interruptores | Triple": 1,
+      "M_Toma doble | Normal": 10,
+      "M_Toma doble | GFCI": 5,
+      "M_ClimatizacionV | Ventilador": 2,
+      "M_Climatizacion | Interruptor Ventilador": 2
+    },
+    "rango_xy_m": { "x_min": 0.427, "x_max": 6.459, "y_min": 9.627, "y_max": 16.558 },
+    "alturas_locales_observadas_m": [0.24, 0.64, 0.99, 1.10, 2.60],
+    "nota_alturas": "Las tomas del modelo manual aparecen a 0.24, 0.64, 0.99 y 1.59 m sobre el nivel, no a una altura unica. El inventario DXF asigno 1.10 m a las tomas: el diff de F2/F3 va a marcarlas como DESPLAZADAS en Z. Hay que decidir cual es la fuente de verdad antes de corregir."
+  },
+  "diferencias_con_el_benchmark_V02f": {
+    "conduits": "V02-f tiene 147; CENTRAL-V01 tiene 0 (confirma 'sin ruteo')",
+    "aparatos": "V02-f tiene 175; CENTRAL-V01 tiene 47",
+    "equipos": "83 en ambos (63 medidores + 20 tableros)",
+    "familias_solo_en_CENTRAL": [
+      "M_Ventilador | Estándar (Electrical Fixtures)",
+      "EA | EA 1010, EA 1219, EA 1530 (Mechanical Equipment; en V02-f solo existia EA | M_Extractor)",
+      "E_Panel Distribucion1 | EPB25-304C",
+      "M_Caja de conexiones hexagonal | 120V, 208V, 277V, 480V (V02-f solo 120V)"
+    ],
+    "categoria_distinta": "M_Comunicaciones (Telefono, Datos) esta en Telephone Devices en CENTRAL-V01 y en Electrical Fixtures en V02-f",
+    "conclusion": "CENTRAL-V01 no es copia electrica de V02-f. Comparte geometria y equipos, pero cambia familias, tipos y categorias. Cualquier regla minada en V02-f debe validarse contra este documento antes de aplicarse."
+  },
+  "pendiente": [
+    "Detalle por familia de Lighting Fixtures (9), Telephone Devices (10), Communication Devices (2) y Data Devices (1) para confirmar que los 47 son E06.",
+    "Confirmar si los 47 aparatos pertenecen a un solo apartamento mediante bounding box.",
+    "Decidir la fuente de verdad de alturas (DXF vs modelo manual) antes de F2."
+  ],
+  "nota_mcp": "send_code_to_revit compila pero el template no expone 'doc', 'Document', 'uidoc' ni 'uiapp'. Se necesitaria el nombre real de la variable o la firma del template para usar C# en linea."
+}
