@@ -90,13 +90,16 @@ def _usa_isinstance_bytes(fuente: str) -> bool:
     return False
 
 
-def test_detecta_el_tipo_texto_del_interprete(ruta_actual: Path) -> None:
-    """Regresion doble: ni hasattr(decode) ni isinstance(bytes) sirven en IronPython."""
+def test_usa_prueba_de_seguridad_ascii(ruta_actual: Path) -> None:
+    """Regresion triple: hasattr(decode), isinstance(bytes) y unicode fallaron en Revit."""
     fuente = ruta_actual.read_text(encoding="utf-8")
-    assert "tipo_texto = unicode" in fuente
-    assert "except NameError" in fuente
-    assert "isinstance(valor, tipo_texto)" in fuente
+    assert 'valor.encode("ascii")' in fuente
     assert not _usa_isinstance_bytes(fuente)
+
+
+def test_bytes_ascii_tambien_se_normalizan(funciones: dict) -> None:
+    """En Python 3 los bytes ASCII tampoco son serializables por json."""
+    assert funciones["_a_texto"](b"SONO FLEX 22 trim") == "SONO FLEX 22 trim"
 
 
 def test_decodifica_objeto_con_decode_que_no_es_texto(funciones: dict) -> None:

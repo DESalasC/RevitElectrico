@@ -94,29 +94,26 @@ def _host_id(inst):
 
 
 def _a_texto(valor):
-    """Garantiza texto unicode y limpia el BOM inicial.
+    """Deja el valor en una forma que JSON pueda serializar sin ambiguedad.
 
-    Los nombres de Revit llegan como bytes en cp1252 o como unicode con BOM. Ni
-    ``hasattr(valor, "decode")`` ni ``isinstance(valor, bytes)`` sirven para distinguirlos
-    en IronPython 2.7 (``bytes`` devuelve False para ``str``). La comprobacion fiable es
-    contra el tipo TEXTO del interprete: ``unicode`` en Python 2, ``str`` en Python 3.
+    No clasifica tipos (en IronPython 2.7 ni ``hasattr(decode)`` ni ``isinstance(bytes)``
+    ni comparar contra ``unicode`` resultaron fiables): prueba el dato. Si se puede
+    codificar en ASCII ya es seguro; si no, se intenta decodificar como bytes con
+    utf-8, cp1252 y latin-1. Se elimina el BOM inicial (U+FEFF), que rompe la
+    comparacion exacta de nombres.
     """
     try:
-        tipo_texto = unicode
-    except NameError:
-        tipo_texto = str
+        valor.encode("ascii")
+        return valor
+    except Exception:
+        pass
 
-    if not isinstance(valor, tipo_texto) and hasattr(valor, "decode"):
-        texto = None
-        for codec in ("utf-8", "cp1252", "latin-1"):
-            try:
-                texto = valor.decode(codec)
-                break
-            except Exception:
-                continue
-        if texto is None:
-            texto = valor.decode("latin-1", "replace")
-        valor = texto
+    for codec in ("utf-8", "cp1252", "latin-1"):
+        try:
+            valor = valor.decode(codec)
+            break
+        except Exception:
+            continue
 
     try:
         if valor[:1] == u"\ufeff":
@@ -181,6 +178,7 @@ def verificar_e06_por_uniqueid(doc, reporte_json=None, salida_json=None):
         return {"error": "rutas_no_definidas"}
 
     print("=== F0 - VERIFICAR E06 POR UNIQUEID (RE-P-051) ===")
+    print("Fecha    : {t}".format(t=time.strftime("%Y-%m-%d %H:%M:%S")))
     print("Documento: {t}".format(t=doc.Title))
     print("Reporte  : {r}".format(r=ruta_reporte))
     print("Modo     : SOLO LECTURA")

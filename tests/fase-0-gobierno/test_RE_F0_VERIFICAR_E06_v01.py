@@ -80,10 +80,23 @@ def test_usa_variable_de_entorno(script: tuple[str, str, ast.Module]) -> None:
 
 
 def test_json_escrito_en_ascii(script: tuple[str, str, ast.Module]) -> None:
-    """IronPython escribe con la codificacion local: ensure_ascii=False produce cp1252."""
-    _, fuente, _ = script
+    """IronPython escribe con la codificacion local: ensure_ascii=False produce cp1252.
+
+    Se inspecciona el AST porque el docstring menciona el patron para explicar la historia.
+    """
+    _, fuente, arbol = script
     assert "ensure_ascii=True" in fuente
-    assert "ensure_ascii=False" not in fuente
+
+    usos = []
+    for nodo in ast.walk(arbol):
+        if not isinstance(nodo, ast.Call):
+            continue
+        for kw in nodo.keywords:
+            if kw.arg != "ensure_ascii":
+                continue
+            if isinstance(kw.value, ast.Constant) and kw.value.value is False:
+                usos.append(getattr(nodo, "lineno", "?"))
+    assert usos == [], "ensure_ascii=False en lineas {0}".format(usos)
 
 
 def test_verificador_guid_declara_funcion_y_lote() -> None:

@@ -30,7 +30,7 @@ import os
 import time
 
 FEET_PER_METER = 3.280839895
-VERSION_CENSO = "1.1"
+VERSION_CENSO = "1.2"
 
 REPORTE_V13_RELATIVO = os.path.join("data", "colocar_dispositivos_E06_v13_resultado.json")
 SALIDA_RELATIVA = os.path.join("data", "censo_benchmark_v01.json")
@@ -123,39 +123,36 @@ def _longitud_m(elemento):
 
 
 def _a_texto(valor):
-    """Garantiza texto unicode y limpia el BOM inicial.
+    """Deja el valor en una forma que JSON pueda serializar sin ambiguedad.
 
-    Hallazgos empiricos, en orden en que se descubrieron:
+    Historia de este helper (cada intento fallo en Revit por un motivo distinto):
 
-    1. Los nombres de Revit llegan como cadenas de BYTES en la codificacion local
-       (cp1252) y hay que decodificarlas antes de serializar.
-    2. Algunos llegan como ``unicode`` con BOM (U+FEFF) al inicio.
-    3. ``hasattr(valor, "decode")`` no sirve para distinguirlos: ``unicode`` tambien
-       expone ``decode`` y codifica primero en ASCII.
-    4. ``isinstance(valor, bytes)`` tampoco sirve: **en IronPython 2.7 devuelve False
-       para ``str``**. La comprobacion fiable es contra el tipo TEXTO del interprete:
-       ``unicode`` en Python 2, ``str`` en Python 3. Todo lo que no sea texto y tenga
-       ``decode`` es una cadena de bytes y se decodifica.
+    1. ``ensure_ascii=False`` escribia en cp1252.
+    2. ``hasattr(valor, "decode")`` no distingue: ``unicode`` tambien lo expone.
+    3. ``isinstance(valor, bytes)`` devuelve **False** para ``str`` en IronPython 2.7.
+    4. ``tipo_texto = unicode`` tampoco basto: en IronPython hay cadenas que no se dejan
+       clasificar asi y seguian llegando como bytes a ``py_encode_basestring_ascii``.
 
-    El BOM se elimina porque rompe la comparacion exacta de nombres de familia y tipo
-    (``"\\ufeffSONO FLEX 13 trim" != "SONO FLEX 13 trim"``), que es la base del mapeo.
+    Enfoque final, que no clasifica tipos sino que prueba el dato: si el valor se puede
+    codificar en ASCII, ya es seguro para JSON; si no, se intenta decodificar como bytes
+    con utf-8, cp1252 y latin-1 (el ultimo nunca falla). Si nada funciona, se devuelve el
+    original, que en ese punto solo puede ser texto unicode.
+
+    Se elimina ademas el BOM inicial (U+FEFF), que rompe la comparacion exacta de
+    nombres de familia y tipo y por tanto el mapeo.
     """
     try:
-        tipo_texto = unicode
-    except NameError:
-        tipo_texto = str
+        valor.encode("ascii")
+        return valor
+    except Exception:
+        pass
 
-    if not isinstance(valor, tipo_texto) and hasattr(valor, "decode"):
-        texto = None
-        for codec in ("utf-8", "cp1252", "latin-1"):
-            try:
-                texto = valor.decode(codec)
-                break
-            except Exception:
-                continue
-        if texto is None:
-            texto = valor.decode("latin-1", "replace")
-        valor = texto
+    for codec in ("utf-8", "cp1252", "latin-1"):
+        try:
+            valor = valor.decode(codec)
+            break
+        except Exception:
+            continue
 
     try:
         if valor[:1] == u"\ufeff":
@@ -408,6 +405,8 @@ def censo_benchmark(doc, salida_json=None, reporte_json=None):
         return {"error": "salida_no_definida"}
 
     print("=== F0 - CENSO DEL BENCHMARK ===")
+    print("Script   : RE_F0_CENSO_BENCHMARK_v01 · version {v}".format(v=VERSION_CENSO))
+    print("Fecha    : {t}".format(t=time.strftime("%Y-%m-%d %H:%M:%S")))
     print("Documento: {t}".format(t=doc.Title))
     print("Modo     : SOLO LECTURA")
 
