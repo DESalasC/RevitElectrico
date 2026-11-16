@@ -203,7 +203,7 @@ def verificar_e06_por_uniqueid(doc, reporte_json=None, salida_json=None):
     if directorio and not os.path.exists(directorio):
         os.makedirs(directorio)
     with open(ruta_salida, "w") as fh:
-        json.dump(resumen, fh, ensure_ascii=False, indent=2, sort_keys=True)
+        json.dump(resumen, fh, ensure_ascii=True, indent=2, sort_keys=True)
 
     print("JSON guardado en: {r}".format(r=ruta_salida))
     return resumen

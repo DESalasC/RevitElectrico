@@ -79,6 +79,13 @@ def test_usa_variable_de_entorno(script: tuple[str, str, ast.Module]) -> None:
     assert "REVITELECTRICO_ROOT" in fuente
 
 
+def test_json_escrito_en_ascii(script: tuple[str, str, ast.Module]) -> None:
+    """IronPython escribe con la codificacion local: ensure_ascii=False produce cp1252."""
+    _, fuente, _ = script
+    assert "ensure_ascii=True" in fuente
+    assert "ensure_ascii=False" not in fuente
+
+
 def test_verificador_guid_declara_funcion_y_lote() -> None:
     fuente = SCRIPTS["verificador_guid"].read_text(encoding="utf-8")
     assert "def verificar_e06(" in fuente
@@ -104,5 +111,7 @@ def test_censo_declara_bloques_y_veredictos() -> None:
     assert "def censo_benchmark(" in fuente
     assert "OST_Conduit" in fuente
     assert "IsModified" in fuente
+    assert "censo_electricas_detallado" in fuente
+    assert "censo_equipos" in fuente
     for veredicto in ("con_ruteo", "sin_ruteo", "sin_electricas", "vacio"):
         assert veredicto in fuente

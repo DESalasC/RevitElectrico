@@ -201,7 +201,7 @@ def guardar_json(ruta, datos):
     if directorio and not os.path.exists(directorio):
         os.makedirs(directorio)
     with open(ruta, "w") as fh:
-        json.dump(datos, fh, ensure_ascii=False, indent=2, sort_keys=True)
+        json.dump(datos, fh, ensure_ascii=True, indent=2, sort_keys=True)
 
 
 def resolver_salida(salida_json):

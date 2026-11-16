@@ -30,6 +30,7 @@ import os
 import time
 
 FEET_PER_METER = 3.280839895
+VERSION_CENSO = "1.1"
 
 REPORTE_V13_RELATIVO = os.path.join("data", "colocar_dispositivos_E06_v13_resultado.json")
 SALIDA_RELATIVA = os.path.join("data", "censo_benchmark_v01.json")
@@ -214,15 +215,44 @@ def censo_conduits(doc):
     }
 
 
-def censo_paneles(doc):
-    """Lista los paneles de distribucion con su posicion, si existen."""
-    paneles = []
+def censo_electricas_detallado(doc):
+    """Inventario COMPLETO de familias y tipos en categorias electricas (sin truncar a top-N).
+
+    Es el insumo de F1: sin esta lista no se puede saber que familias del mapeo existen
+    realmente en el benchmark ni minar su delta de rotacion y offset.
+    """
+    agregado = {}
+    total = 0
+    for inst in FilteredElementCollector(doc).OfClass(FamilyInstance):
+        cat = _nombre_categoria(inst)
+        if not _es_electrica(cat):
+            continue
+        total += 1
+        familia, tipo = _familia_y_tipo(inst)
+        clave = cat + "||" + familia + "||" + tipo
+        agregado[clave] = agregado.get(clave, 0) + 1
+
+    filas = []
+    for clave, n in agregado.items():
+        partes = clave.split("||")
+        filas.append({"categoria": partes[0], "familia": partes[1], "tipo": partes[2], "n": n})
+    filas.sort(key=lambda f: (f["categoria"], -f["n"], f["familia"]))
+    return {"total": total, "familias_distintas": len(set([f["familia"] for f in filas])), "detalle": filas}
+
+
+def censo_equipos(doc):
+    """Equipos electricos (OST_ElectricalEquipment) desglosados por familia.
+
+    No todos son tableros: el modelo incluye medidores. Se reporta el desglose para no
+    confundir 83 equipos con 83 paneles.
+    """
+    equipos = []
     try:
         filtro = ElementCategoryFilter(BuiltInCategory.OST_ElectricalEquipment)
         for elemento in FilteredElementCollector(doc).WherePasses(filtro).WhereElementIsNotElementType():
             familia, tipo = _familia_y_tipo(elemento)
             p = _xy_m(elemento)
-            paneles.append({
+            equipos.append({
                 "id": _eid(elemento.Id),
                 "familia": familia,
                 "tipo": tipo,
@@ -232,7 +262,16 @@ def censo_paneles(doc):
             })
     except Exception:
         pass
-    return paneles
+
+    por_familia = {}
+    for equipo in equipos:
+        por_familia[equipo["familia"]] = por_familia.get(equipo["familia"], 0) + 1
+    desglose = sorted(por_familia.items(), key=lambda kv: -kv[1])
+    return {
+        "total": len(equipos),
+        "por_familia": [{"familia": k, "n": v} for k, v in desglose],
+        "detalle": equipos,
+    }
 
 
 def lote_v13(doc, ruta_reporte):
@@ -323,7 +362,8 @@ def censo_benchmark(doc, salida_json=None, reporte_json=None):
     niveles = censo_niveles(doc)
     censo = censo_family_instances(doc)
     conduits = censo_conduits(doc)
-    paneles = censo_paneles(doc)
+    equipos = censo_equipos(doc)
+    electricas = censo_electricas_detallado(doc)
     veredicto, motivo = evaluar_benchmark(censo, conduits)
 
     print("\n--- B. Censo ---")
@@ -332,7 +372,11 @@ def censo_benchmark(doc, salida_json=None, reporte_json=None):
     print("  de categoria electrica: {n}".format(n=censo["total_electricas"]))
     print("Conduits             : {n}  ({l} m)".format(
         n=conduits.get("total", 0), l=conduits.get("longitud_total_m")))
-    print("Paneles              : {n}".format(n=len(paneles)))
+    print("Equipos electricos   : {n}".format(n=equipos["total"]))
+    for fila in equipos["por_familia"]:
+        print("    - {n:>3}  {f}".format(n=fila["n"], f=fila["familia"]))
+    print("Familias electricas  : {n} distintas en {t} instancias".format(
+        n=electricas["familias_distintas"], t=electricas["total"]))
     print("Veredicto            : {v}".format(v=veredicto))
     print("Motivo               : {m}".format(m=motivo))
 
@@ -350,7 +394,7 @@ def censo_benchmark(doc, salida_json=None, reporte_json=None):
         d=lote.get("declarados"), f=lote.get("encontrados")))
 
     resumen = {
-        "version": "1.0",
+        "version": VERSION_CENSO,
         "proyecto": "RE",
         "fase": "F0",
         "documento": doc.Title,
@@ -361,7 +405,8 @@ def censo_benchmark(doc, salida_json=None, reporte_json=None):
             "niveles": niveles,
             "family_instances": censo,
             "conduits": conduits,
-            "paneles": paneles,
+            "equipos_electricos": equipos,
+            "electricas_detallado": electricas,
         },
         "lote_v13": lote,
         "veredicto_benchmark": veredicto,
@@ -372,7 +417,7 @@ def censo_benchmark(doc, salida_json=None, reporte_json=None):
     if directorio and not os.path.exists(directorio):
         os.makedirs(directorio)
     with open(ruta_salida, "w") as fh:
-        json.dump(resumen, fh, ensure_ascii=False, indent=2, sort_keys=True)
+        json.dump(resumen, fh, ensure_ascii=True, indent=2, sort_keys=True)
 
     print("\nJSON guardado en: {r}".format(r=ruta_salida))
     return resumen
