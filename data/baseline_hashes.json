@@ -2,12 +2,12 @@
   "documentos": [
     {
       "archivo": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt",
-      "bytes": 391950336,
+      "bytes": 391954432,
       "encontrado": true,
-      "mtime_iso": "2026-11-14T19:26:56",
+      "mtime_iso": "2026-11-15T20:55:48",
       "rol": "vigente",
       "ruta_relativa": "ArchivosBase\\STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt",
-      "sha256": "9f6d8b9b151705d00ad55492171181764065470c52a66bc3e3ac578f3d824f72"
+      "sha256": "735b40b6b458b6b0e84faf2659b22b1c127842f2ae60c33d00a867cee74c16a4"
     },
     {
       "archivo": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt",
@@ -37,7 +37,7 @@
       "sha256": "0c13a20d3466e149472cf3975fd2d2592f97c95456ca5c9ffb1f10ff9bd87116"
     }
   ],
-  "generado": "2026-11-15T19:33:06",
+  "generado": "2026-11-15T20:56:05",
   "proyecto": "RE",
   "verificaciones": {
     "advertencias": [],
