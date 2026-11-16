@@ -152,6 +152,20 @@ def _normalizar(objeto):
     return _a_texto(objeto)
 
 
+def _escribir_json(ruta, datos):
+    """Escribe JSON de forma atomica: primero a .tmp y luego reemplaza.
+
+    Si la serializacion falla, el archivo anterior queda intacto. El censo previo se
+    perdio justo por escribir directo sobre el destino con open(..., "w").
+    """
+    temporal = ruta + ".tmp"
+    with open(temporal, "w") as fh:
+        json.dump(_normalizar(datos), fh, ensure_ascii=True, indent=2, sort_keys=True)
+    if os.path.exists(ruta):
+        os.remove(ruta)
+    os.rename(temporal, ruta)
+
+
 def censo_niveles(doc):
     niveles = []
     for nivel in FilteredElementCollector(doc).OfClass(Level):
@@ -446,8 +460,7 @@ def censo_benchmark(doc, salida_json=None, reporte_json=None):
     directorio = os.path.dirname(ruta_salida)
     if directorio and not os.path.exists(directorio):
         os.makedirs(directorio)
-    with open(ruta_salida, "w") as fh:
-        json.dump(_normalizar(resumen), fh, ensure_ascii=True, indent=2, sort_keys=True)
+    _escribir_json(ruta_salida, resumen)
 
     print("\nJSON guardado en: {r}".format(r=ruta_salida))
     return resumen

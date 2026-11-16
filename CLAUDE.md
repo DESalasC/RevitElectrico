@@ -26,7 +26,7 @@ Objetivo: llevar la información eléctrica 2D (comunicaciones, circuitos, cable
 - **Archivos de trabajo:** `D:\Work\PROJECTS\RevitElectrico\ArchivosBase`.
 - **V03 no es "documento canónico":** `E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt` es un **archivo de trabajo** y la base para trabajar proyectos distintos de T5-SantaMarta. Esa base puede cambiar de un proyecto a otro; no se declara inmutable ni se congela.
 - **Documento vigente (D7, F0 2026-11-15):** `STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt`. Benchmark de contraste: `E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt`. `V03` y `E06_BASE_LIMPIO_2026-11-12` quedan como histórico con hash registrado en `data/baseline_hashes.json`.
-- **Datum:** `Z_absoluta = nivel.Elevation + altura_local`. El nivel "Piso 5" tiene elevación 43.3727 m.
+- **Datum:** `Z_absoluta = nivel.Elevation + altura_local`. El nivel «Piso 5» tiene elevación **13,22 m (43,3727 pies)**.
 
 
 ## Hardware y entorno
@@ -67,6 +67,7 @@ python -m venv .venv
 
 - **`LevelId = -1` es normal en componentes eléctricos.** En modelos con objetos eléctricos (familias face-based / work-plane based) Revit reporta `LevelId = -1`; no es un defecto y no debe tratarse como bloqueador. La validación de ubicación se hace por **Z absoluta contra la elevación del nivel** y por **posición X,Y**, no por `LevelId`.
 - **Apartamentos F 01 y F 02 son referencia intocable.** Están modelados directamente en Revit (incluida la tubería y sus componentes) para servir de referencia válida de localización. **No se modifican, mueven, recrean ni borran.** Todo el trabajo se hace sobre los demás apartamentos.
+- **Identidad de nivel por elevación, no por nombre.** El edificio tiene **21 pisos** sobre una grilla de `0,22 + 3,25·(N−1)` m. Cuatro pisos llevan nombre de «CLASIFICACIÓN ACABADOS» y **son pisos reales**: Piso 1 (0,22), Piso 2 (3,47), Piso 4 (9,97) y Piso 19 (58,72). No excluirlos ni contarlos como no habitables. Tabla: `config/niveles_aliases_v01.json`; cualquier mapeo de niveles se resuelve por elevación con tolerancia 1 mm.
 - **Método de posicionamiento: tablero-anclaje.** El panel eléctrico ya bien ubicado de cada apartamento es el origen; los demás componentes se colocan relativos a él (ver `data/procedimiento_tablero_anclaje_apartamentos_v01.md`).
 - **No mover conduits existentes** al reposicionar dispositivos; los conduits se recrean después de validar posiciones.
 
