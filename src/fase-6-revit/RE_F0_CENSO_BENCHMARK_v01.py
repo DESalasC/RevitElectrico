@@ -125,20 +125,27 @@ def _longitud_m(elemento):
 def _a_texto(valor):
     """Garantiza texto unicode y limpia el BOM inicial.
 
-    En IronPython 2.7 conviven dos tipos de cadena: ``str`` (BYTES en la codificacion
-    local) y ``unicode``. Los nombres de Revit llegan de las dos formas, y algunos traen
-    un BOM (U+FEFF) al inicio. Detalles que costaron dos iteraciones:
+    Hallazgos empiricos, en orden en que se descubrieron:
 
-    * ``hasattr(valor, "decode")`` NO sirve para distinguirlos: en Python 2 ``unicode``
-      tambien expone ``decode`` y su implementacion codifica primero en ASCII, lo que
-      lanza ``UnicodeEncodeError`` con caracteres como U+FEFF.
-    * La distincion correcta es ``isinstance(valor, bytes)``: en Python 3 son los bytes,
-      en Python 2 es ``str``. ``unicode`` nunca entra por ahi y pasa intacto.
+    1. Los nombres de Revit llegan como cadenas de BYTES en la codificacion local
+       (cp1252) y hay que decodificarlas antes de serializar.
+    2. Algunos llegan como ``unicode`` con BOM (U+FEFF) al inicio.
+    3. ``hasattr(valor, "decode")`` no sirve para distinguirlos: ``unicode`` tambien
+       expone ``decode`` y codifica primero en ASCII.
+    4. ``isinstance(valor, bytes)`` tampoco sirve: **en IronPython 2.7 devuelve False
+       para ``str``**. La comprobacion fiable es contra el tipo TEXTO del interprete:
+       ``unicode`` en Python 2, ``str`` en Python 3. Todo lo que no sea texto y tenga
+       ``decode`` es una cadena de bytes y se decodifica.
 
     El BOM se elimina porque rompe la comparacion exacta de nombres de familia y tipo
     (``"\\ufeffSONO FLEX 13 trim" != "SONO FLEX 13 trim"``), que es la base del mapeo.
     """
-    if isinstance(valor, bytes):
+    try:
+        tipo_texto = unicode
+    except NameError:
+        tipo_texto = str
+
+    if not isinstance(valor, tipo_texto) and hasattr(valor, "decode"):
         texto = None
         for codec in ("utf-8", "cp1252", "latin-1"):
             try:
@@ -177,8 +184,10 @@ def _escribir_json(ruta, datos):
     perdio justo por escribir directo sobre el destino con open(..., "w").
     """
     temporal = ruta + ".tmp"
+    # Se serializa a memoria primero: si algo falla, no se crea ni un archivo parcial.
+    texto = json.dumps(_normalizar(datos), ensure_ascii=True, indent=2, sort_keys=True)
     with open(temporal, "w") as fh:
-        json.dump(_normalizar(datos), fh, ensure_ascii=True, indent=2, sort_keys=True)
+        fh.write(texto)
     if os.path.exists(ruta):
         os.remove(ruta)
     os.rename(temporal, ruta)

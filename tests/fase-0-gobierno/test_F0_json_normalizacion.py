@@ -78,23 +78,38 @@ def ruta_actual(request: pytest.FixtureRequest) -> Path:
     return SCRIPTS[request.param]
 
 
-def test_no_llama_hasattr_decode(ruta_actual: Path) -> None:
-    """Regresion: hasattr(valor, 'decode') tambien es True para unicode en Python 2.
-
-    Se inspecciona el AST y no el texto, porque el docstring menciona el patron para
-    explicar por que no se usa.
-    """
-    arbol = ast.parse(ruta_actual.read_text(encoding="utf-8"))
-    usos = []
-    for nodo in ast.walk(arbol):
+def _usa_isinstance_bytes(fuente: str) -> bool:
+    """Detecta llamadas reales a isinstance(x, bytes) ignorando docstrings."""
+    for nodo in ast.walk(ast.parse(fuente)):
         if not isinstance(nodo, ast.Call):
             continue
-        if not isinstance(nodo.func, ast.Name) or nodo.func.id != "hasattr":
+        if not isinstance(nodo.func, ast.Name) or nodo.func.id != "isinstance":
             continue
-        if len(nodo.args) >= 2 and isinstance(nodo.args[1], ast.Constant) and nodo.args[1].value == "decode":
-            usos.append(getattr(nodo, "lineno", "?"))
-    assert usos == [], "Llamada a hasattr(..., 'decode') en lineas {0}".format(usos)
-    assert "isinstance(valor, bytes)" in ruta_actual.read_text(encoding="utf-8")
+        if len(nodo.args) == 2 and isinstance(nodo.args[1], ast.Name) and nodo.args[1].id == "bytes":
+            return True
+    return False
+
+
+def test_detecta_el_tipo_texto_del_interprete(ruta_actual: Path) -> None:
+    """Regresion doble: ni hasattr(decode) ni isinstance(bytes) sirven en IronPython."""
+    fuente = ruta_actual.read_text(encoding="utf-8")
+    assert "tipo_texto = unicode" in fuente
+    assert "except NameError" in fuente
+    assert "isinstance(valor, tipo_texto)" in fuente
+    assert not _usa_isinstance_bytes(fuente)
+
+
+def test_decodifica_objeto_con_decode_que_no_es_texto(funciones: dict) -> None:
+    """Emula el caso IronPython: un ``str`` que no es el tipo texto del interprete."""
+
+    class FalsoBytes(object):
+        def __init__(self, crudo):
+            self.crudo = crudo
+
+        def decode(self, codec):
+            return self.crudo.decode(codec)
+
+    assert funciones["_a_texto"](FalsoBytes(b"Ba\xf1o")) == "Baño"
 
 
 def test_normaliza_estructura_anidada(funciones: dict) -> None:

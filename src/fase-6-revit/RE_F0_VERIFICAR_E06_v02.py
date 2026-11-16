@@ -96,12 +96,17 @@ def _host_id(inst):
 def _a_texto(valor):
     """Garantiza texto unicode y limpia el BOM inicial.
 
-    En IronPython 2.7 los nombres de Revit llegan como ``str`` (bytes cp1252) o como
-    ``unicode``, y algunos con BOM U+FEFF. No sirve ``hasattr(valor, "decode")``:
-    ``unicode`` tambien expone ``decode`` y codifica primero en ASCII. La distincion
-    correcta es ``isinstance(valor, bytes)``.
+    Los nombres de Revit llegan como bytes en cp1252 o como unicode con BOM. Ni
+    ``hasattr(valor, "decode")`` ni ``isinstance(valor, bytes)`` sirven para distinguirlos
+    en IronPython 2.7 (``bytes`` devuelve False para ``str``). La comprobacion fiable es
+    contra el tipo TEXTO del interprete: ``unicode`` en Python 2, ``str`` en Python 3.
     """
-    if isinstance(valor, bytes):
+    try:
+        tipo_texto = unicode
+    except NameError:
+        tipo_texto = str
+
+    if not isinstance(valor, tipo_texto) and hasattr(valor, "decode"):
         texto = None
         for codec in ("utf-8", "cp1252", "latin-1"):
             try:
