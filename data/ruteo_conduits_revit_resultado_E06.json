@@ -1,0 +1,1537 @@
+{
+  "json_entrada": "D:\\Work\\PROJECTS\\RevitElectrico\\data\\ruteo_apartamento_E06_v02.json", 
+  "familia_caja": "M_Caja de conexiones hexagonal", 
+  "fecha": "2026-11-10 22:51:29", 
+  "dry_run": false, 
+  "cajas_pendientes_de_modelar": 0, 
+  "tramos_a_procesar": 49, 
+  "detalle": [
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0001", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688967"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0001", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688970"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0001", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688973"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0001", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688976"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0002", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688979"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0002", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688982"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0002", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688985"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0002", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688988"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0003", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688991"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0003", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688994"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0003", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5688997"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0003", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689000"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0004", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689003"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0004", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689006"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0004", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689009"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0004", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689012"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0005", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689015"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0005", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689018"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0005", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689021"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0006", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689024"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0006", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689027"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0006", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689030"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0007", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689033"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0007", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689036"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0007", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689039"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0008", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689042"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0008", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689045"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0008", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689048"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0009", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-05", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689051"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0009", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-05", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689054"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0009", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-05", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689057"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0010", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-05", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689060"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0010", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-05", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689063"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0010", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-05", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689066"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0011", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-05", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689069"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0011", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-05", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689072"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0011", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-05", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689075"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0013", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689078"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0013", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689080"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0013", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689082"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0014", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689084"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0014", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689086"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0014", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689088"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0015", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689090"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0015", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689092"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0015", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689094"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0016", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "circuito_escrito": null, 
+      "element_id": "5689096"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0016", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "circuito_escrito": null, 
+      "element_id": "5689098"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0016", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "circuito_escrito": null, 
+      "element_id": "5689100"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0016", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "circuito_escrito": null, 
+      "element_id": "5689102"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0017", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689104"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0017", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689106"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0017", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689108"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0017", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689110"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0018", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689112"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0018", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689114"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0018", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689116"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0019", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689118"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0019", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689120"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0019", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689122"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0020", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689124"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0020", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689126"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0020", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689128"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0020", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689130"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0021", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689132"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0021", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689134"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0021", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689136"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0022", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689138"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0022", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689140"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0022", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689142"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0022", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689144"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0023", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689146"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0023", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689148"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0023", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689150"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0024", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689152"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0024", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689154"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0024", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689156"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0025", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689158"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0025", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689160"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0025", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689162"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0026", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-09", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689164"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0026", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-09", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689166"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0026", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-09", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689168"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0026", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-09", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689170"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0027", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689172"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0027", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689174"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0027", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689176"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0028", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689178"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0028", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689180"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0028", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689182"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0028", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689184"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0029", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689186"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0029", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689188"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0029", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689190"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0030", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689192"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0030", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689195"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0030", 
+      "diametro": "3/4\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689198"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0031", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689201"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0031", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689203"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0031", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689205"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0032", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689207"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0033", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689209"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0033", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689211"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0033", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689213"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0033", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689215"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0034", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689217"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0034", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689219"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0034", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689221"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0035", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-09", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689223"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0035", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-09", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689225"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0035", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-09", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689227"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0036", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689229"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0036", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689231"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0036", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689233"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0037", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689235"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0037", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689237"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0037", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689239"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0038", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689241"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0038", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689243"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0038", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689245"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0039", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689247"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0039", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689249"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0039", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689251"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0039", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689253"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0039", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689255"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0040", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689257"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0040", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689259"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0040", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689261"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0040", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689263"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0041", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "circuito_escrito": null, 
+      "element_id": "5689265"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0041", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "circuito_escrito": null, 
+      "element_id": "5689267"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0041", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "circuito_escrito": null, 
+      "element_id": "5689269"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0042", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689271"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0042", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689273"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0042", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689275"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0043", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689277"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0043", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689279"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0043", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689281"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0043", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689283"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0044", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689285"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0044", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689287"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0044", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689289"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0044", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689291"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0045", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689293"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0045", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689295"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0045", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689297"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0045", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689299"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0046", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689301"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0046", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689303"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0046", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689305"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0046", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689307"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0046", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689309"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0047", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689311"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0047", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689313"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0047", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-01", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689315"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0048", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689317"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0048", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689319"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0048", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689321"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0048", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689323"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0049", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689325"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0049", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689327"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0049", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689329"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0050", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689331"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0050", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689333"
+    }, 
+    {
+      "accion": "creado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0050", 
+      "diametro": "1/2\"", 
+      "circuito": "TE-03", 
+      "circuito_escrito": "Comments", 
+      "element_id": "5689335"
+    }
+  ], 
+  "resolucion_diametros": [
+    {
+      "token": "1/2", 
+      "diametro": "1/2\"", 
+      "ok": true, 
+      "tipo_encontrado": "Tubo Comunicaciones"
+    }, 
+    {
+      "token": "3/4", 
+      "diametro": "3/4\"", 
+      "ok": true, 
+      "tipo_encontrado": "Tubo"
+    }
+  ], 
+  "segmentos_planificados": 165, 
+  "nivel_solicitado": "Piso 5", 
+  "ancla_dxf": {
+    "y_dxf": 1.1470000000000000, 
+    "bloque_dxf": "TB-Panel", 
+    "x_dxf": 4.1589999999999998, 
+    "nombre_en_revit": "TE 06"
+  }, 
+  "cajas_en_json": 0, 
+  "tipos_conduit_disponibles": [
+    "Tubo", 
+    "Tubo", 
+    "Tubo Comunicaciones"
+  ], 
+  "creados": 165, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "offset_xy_m": [
+    2.3681999999999999, 
+    9.6936999999999998
+  ], 
+  "errores": 0, 
+  "omitidos": 0, 
+  "ancla_encontrada": true, 
+  "circuito_pendiente": 47, 
+  "tramos_en_json": 49, 
+  "ancla_en_revit": "TE 06", 
+  "ok": true, 
+  "nivel_encontrado": "Piso 5"
+}

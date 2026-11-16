@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visor 3D de ruteo — apartamento</title>
+<style>
+  :root { --bg:#0a0f18; --panel:#141f2b; --line:#263748; --txt:#e6edf3;
+           --muted:#8fa6bb; --rev:#ff2d95; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt);
+          font:14px/1.5 "Segoe UI",system-ui,sans-serif; }
+  header { padding:16px 22px 8px; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 2px; font-size:18px; }
+  .sub { color:var(--muted); font-size:12px; }
+  .kpis { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 4px; }
+  .kpi { background:var(--panel); border:1px solid var(--line); border-radius:8px;
+          padding:7px 12px; min-width:84px; }
+  .kpi b { display:block; font-size:17px; color:#7fd8cd; }
+  .kpi span { font-size:10.5px; color:var(--muted); text-transform:uppercase;
+               letter-spacing:.04em; }
+  .kpi.alerta b { color:var(--rev); }
+  .vistas { display:flex; gap:6px; margin:10px 0 4px; flex-wrap:wrap; }
+  .btn-vista { background:var(--panel); border:1px solid var(--line); border-radius:8px;
+                font-size:11px; padding:4px 10px; cursor:pointer; color:var(--txt); }
+  .btn-vista.activa { border-color:#7fd8cd; color:#7fd8cd; }
+  .chips { display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin-top:8px; }
+  .chip { display:inline-flex; align-items:center; gap:5px; font-size:11px;
+           background:var(--panel); border:1px solid var(--line); border-radius:999px;
+           padding:3px 9px 3px 7px; cursor:pointer; user-select:none; }
+  .chip input { display:none; }
+  .chip span { width:9px; height:9px; border-radius:3px; background:var(--c); opacity:.35; }
+  .chip input:checked + span { opacity:1; }
+  .chip input:checked ~ * { color:var(--txt); }
+  .toggle { display:inline-flex; align-items:center; gap:6px; font-size:11px; cursor:pointer;
+             background:var(--panel); border:1px solid var(--line); border-radius:999px;
+             padding:3px 10px; }
+  main { display:grid; grid-template-columns:1fr 330px; gap:12px; padding:12px 22px 22px; }
+  .plano { background:#0d151f; border:1px solid var(--line); border-radius:10px;
+            overflow:hidden; position:relative; }
+  svg { display:block; width:100%; height:min(70vh,720px); }
+  .tramo { fill:none; stroke-linecap:round; stroke-linejoin:round; transition:opacity .15s; }
+  .tramo.revision { stroke-dasharray:0.5 0.3; animation:pulso 1.6s linear infinite; }
+  @keyframes pulso { to { stroke-dashoffset:-1.6; } }
+  .tramo.apagado, .aparato.apagado, .caja.apagado { opacity:.10; }
+  .resaltado { stroke-width:0.35 !important; filter:drop-shadow(0 0 5px var(--rev)); }
+  aside { background:var(--panel); border:1px solid var(--line); border-radius:10px;
+           padding:12px; overflow:auto; max-height:min(70vh,720px); }
+  aside h2 { font-size:11px; margin:0 0 8px; color:var(--muted); text-transform:uppercase;
+              letter-spacing:.05em; }
+  ul { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:7px; }
+  .rev-item { border:1px solid var(--line); border-left:3px solid var(--rev); border-radius:7px;
+               padding:8px 10px; cursor:pointer; transition:background .15s; }
+  .rev-item:hover { background:#1a2836; }
+  .rev-item.activo { background:#1f2f3f; box-shadow:0 0 0 1px var(--rev) inset; }
+  .rev-head { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .pill { font-size:10px; text-transform:uppercase; letter-spacing:.04em;
+           background:#22323f; border-radius:5px; padding:1px 6px; color:#a8c0d4; }
+  .dim { font-size:11px; color:var(--muted); }
+  .rev-meta, .rev-ext { font-size:10.5px; color:var(--muted); margin-top:2px; word-break:break-word; }
+  .vacio { color:var(--muted); font-size:12.5px; }
+  .pista { font-size:11px; color:var(--muted); margin-top:8px; font-style:italic; }
+  @media (max-width:900px) {
+    main { grid-template-columns:1fr; padding:10px; }
+    aside { max-height:none; }
+    svg { height:54vh; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Visor 3D de ruteo — apartamento</h1>
+  <div class="sub">Apartamento Tipo E 06.dxf · PVC / 12 AWG · Piso 5 · proyeccion isometrica</div>
+  <div class="kpis">
+    <div class="kpi"><b>49</b><span>Tramos</span></div>
+    <div class="kpi"><b>232.9 m</b><span>Longitud</span></div>
+    <div class="kpi"><b>0</b><span>Cajas</span></div>
+    <div class="kpi alerta"><b>0</b><span>En revision</span></div>
+  </div>
+  <div class="vistas">
+    <button class="btn-vista activa" data-vista="iso">Isometrica</button>
+    <button class="btn-vista" data-vista="planta">Planta (Z=0)</button>
+    <button class="btn-vista" data-vista="elev-norte">Elevacion Norte</button>
+    <button class="btn-vista" data-vista="elev-este">Elevacion Este</button>
+  </div>
+  <div class="chips">
+    <label class="chip" style="--c:#6b8ff0"><input type="checkbox" checked data-filtro="serv:COMUNICACIONES"><span></span>COMUNICACIONES</label><label class="chip" style="--c:#3fb6a8"><input type="checkbox" checked data-filtro="serv:ILUMINACION"><span></span>ILUMINACION</label><label class="chip" style="--c:#f0a33c"><input type="checkbox" checked data-filtro="serv:TOMAS"><span></span>TOMAS</label>
+    <label class="chip" style="--c:#b388ff"><input type="checkbox" checked data-filtro="red:TE-01"><span></span>TE-01</label><label class="chip" style="--c:#b388ff"><input type="checkbox" checked data-filtro="red:TE-03"><span></span>TE-03</label><label class="chip" style="--c:#b388ff"><input type="checkbox" checked data-filtro="red:TE-05"><span></span>TE-05</label><label class="chip" style="--c:#b388ff"><input type="checkbox" checked data-filtro="red:TE-09"><span></span>TE-09</label>
+    <label class="toggle"><input type="checkbox" id="solo-revision"> Solo revision</label>
+  </div>
+</header>
+<main>
+  <div class="plano">
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.058 9.777" preserveAspectRatio="xMidYMid meet">
+      <path class="tramo" d="M 22.76 99.32 L 22.76 9.66 M 22.76 9.66 L -83.99 71.29 M -83.99 71.29 L -157.63 28.78 M -157.63 28.78 L -157.63 118.44" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-01" data-revision="0" data-id="RT-0001"><title>RT-0001 · COMUNICACIONES · 3/4&quot; · 3 cables · 9.67 m · RED TE-01</title></path>
+<path class="tramo" d="M 21.30 98.50 L 21.30 8.85 M 21.30 8.85 L -50.77 50.46 M -50.77 50.46 L -114.01 13.94 M -114.01 13.94 L -114.01 103.60" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-01" data-revision="0" data-id="RT-0002"><title>RT-0002 · COMUNICACIONES · 3/4&quot; · 3 cables · 8.46 m · RED TE-01</title></path>
+<path class="tramo" d="M 45.39 88.50 L 45.39 -1.16 M 45.39 -1.16 L 53.15 0.72 M 53.15 0.72 L 48.88 7.58 M 48.88 7.58 L 48.88 97.24" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-01" data-revision="0" data-id="RT-0003"><title>RT-0003 · COMUNICACIONES · 3/4&quot; · 3 cables · 5.22 m · RED TE-01</title></path>
+<path class="tramo" d="M 43.20 85.22 L 43.20 -4.44 M 43.20 -4.44 L 44.36 -3.77 M 44.36 -3.77 L 40.53 -1.56 M 40.53 -1.56 L 40.53 88.10" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-01" data-revision="0" data-id="RT-0004"><title>RT-0004 · COMUNICACIONES · 3/4&quot; · 3 cables · 4.95 m · RED TE-01</title></path>
+<path class="tramo" d="M -122.18 106.38 L -122.18 16.72 M -122.18 16.72 L -125.24 18.50 M -125.24 18.50 L -125.24 108.15" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-01" data-revision="0" data-id="RT-0005"><title>RT-0005 · COMUNICACIONES · 3/4&quot; · 3 cables · 4.90 m · RED TE-01</title></path>
+<path class="tramo" d="M -165.60 120.92 L -165.60 31.26 M -165.60 31.26 L -168.66 33.03 M -168.66 33.03 L -168.66 122.69" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-01" data-revision="0" data-id="RT-0006"><title>RT-0006 · COMUNICACIONES · 3/4&quot; · 3 cables · 4.90 m · RED TE-01</title></path>
+<path class="tramo" d="M -116.98 103.38 L -116.98 13.73 M -116.98 13.73 L -120.04 15.49 M -120.04 15.49 L -120.04 105.15" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-01" data-revision="0" data-id="RT-0007"><title>RT-0007 · COMUNICACIONES · 3/4&quot; · 3 cables · 4.90 m · RED TE-01</title></path>
+<path class="tramo" d="M -160.40 117.92 L -160.40 28.26 M -160.40 28.26 L -163.46 30.03 M -163.46 30.03 L -163.46 119.68" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-01" data-revision="0" data-id="RT-0008"><title>RT-0008 · COMUNICACIONES · 3/4&quot; · 3 cables · 4.90 m · RED TE-01</title></path>
+<path class="tramo" d="M 31.16 89.21 L 31.16 -0.44 M 31.16 -0.44 L 34.12 -2.15 M 34.12 -2.15 L 34.12 87.51" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-05" data-revision="0" data-id="RT-0009"><title>RT-0009 · COMUNICACIONES · 3/4&quot; · 3 cables · 4.90 m · RED TE-05</title></path>
+<path class="tramo" d="M 36.64 86.05 L 36.64 -3.60 M 36.64 -3.60 L 39.38 -5.19 M 39.38 -5.19 L 39.38 84.47" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-05" data-revision="0" data-id="RT-0010"><title>RT-0010 · COMUNICACIONES · 3/4&quot; · 3 cables · 4.89 m · RED TE-05</title></path>
+<path class="tramo" d="M 25.96 92.22 L 25.96 2.56 M 25.96 2.56 L 28.64 1.01 M 28.64 1.01 L 28.64 90.67" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-05" data-revision="0" data-id="RT-0011"><title>RT-0011 · COMUNICACIONES · 3/4&quot; · 3 cables · 4.89 m · RED TE-05</title></path>
+<path class="tramo" d="M -186.29 116.75 L -248.03 81.10 M -248.03 81.10 L -222.76 66.51 M -222.76 66.51 L -222.76 124.17" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0013"><title>RT-0013 · ILUMINACION · 1/2&quot; · 3 cables · 3.89 m · RED TE-01</title></path>
+<path class="tramo" d="M -145.74 46.19 L -145.74 -11.47 M -145.74 -11.47 L -203.40 21.82 M -203.40 21.82 L -222.74 10.65" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0014"><title>RT-0014 · ILUMINACION · 1/2&quot; · 3 cables · 3.62 m · RED TE-01</title></path>
+<path class="tramo" d="M -117.46 88.29 L -117.46 30.62 M -117.46 30.62 L -43.45 73.35 M -43.45 73.35 L -43.45 131.02" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0015"><title>RT-0015 · ILUMINACION · 1/2&quot; · 3 cables · 5.09 m · RED TE-01</title></path>
+<path class="tramo" d="M -89.19 33.30 L -89.19 -24.36 M -89.19 -24.36 L -57.76 -6.22 M -57.76 -6.22 L -94.93 15.25 M -94.93 15.25 L -94.93 72.91" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="" data-revision="0" data-id="RT-0016"><title>RT-0016 · ILUMINACION · 1/2&quot; · 4 cables · 4.94 m</title></path>
+<path class="tramo" d="M -92.91 33.73 L -92.91 -23.93 M -92.91 -23.93 L -144.24 5.71 M -144.24 5.71 L -157.34 -1.86 M -157.34 -1.86 L -157.34 55.81" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0017"><title>RT-0017 · ILUMINACION · 1/2&quot; · 3 cables · 4.83 m · RED TE-01</title></path>
+<path class="tramo" d="M -95.14 63.37 L -95.14 5.71 M -95.14 5.71 L -44.74 34.81 M -44.74 34.81 L -57.42 42.12" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0018"><title>RT-0018 · ILUMINACION · 1/2&quot; · 4 cables · 3.25 m · RED TE-01</title></path>
+<path class="tramo" d="M 76.62 52.57 L 76.62 -5.10 M 76.62 -5.10 L 19.44 -38.11 M 19.44 -38.11 L 19.44 19.56" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0019"><title>RT-0019 · ILUMINACION · 1/2&quot; · 6 cables · 4.64 m · RED TE-01</title></path>
+<path class="tramo" d="M 18.70 13.97 L 18.70 -44.81 M 18.70 -44.81 L 54.89 -65.71 M 54.89 -65.71 L 73.49 -54.97 M 73.49 -54.97 L 73.49 33.57" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-01" data-revision="0" data-id="RT-0020"><title>RT-0020 · TOMAS · 1/2&quot; · 3 cables · 5.43 m · RED TE-01</title></path>
+<path class="tramo" d="M -92.91 31.15 L -92.91 -26.51 M -92.91 -26.51 L -133.24 -49.80 M -133.24 -49.80 L -119.85 -57.53" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0021"><title>RT-0021 · ILUMINACION · 1/2&quot; · 3 cables · 2.99 m · RED TE-01</title></path>
+<path class="tramo" d="M 10.51 19.56 L 10.51 -38.11 M 10.51 -38.11 L -25.20 -17.49 M -25.20 -17.49 L -40.15 -26.12 M -40.15 -26.12 L -40.15 31.54" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0022"><title>RT-0022 · ILUMINACION · 1/2&quot; · 6 cables · 4.46 m · RED TE-01</title></path>
+<path class="tramo" d="M -182.19 -15.34 L -182.19 -16.46 M -182.19 -16.46 L -226.84 -42.23 M -226.84 -42.23 L -226.84 46.31" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-01" data-revision="0" data-id="RT-0023"><title>RT-0023 · TOMAS · 1/2&quot; · 3 cables · 3.61 m · RED TE-01</title></path>
+<path class="tramo" d="M 10.51 14.40 L 10.51 -43.26 M 10.51 -43.26 L -22.85 -62.53 M -22.85 -62.53 L -11.71 -68.96" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0024"><title>RT-0024 · ILUMINACION · 1/2&quot; · 3 cables · 2.75 m · RED TE-01</title></path>
+<path class="tramo" d="M -176.84 -15.46 L -156.38 -27.28 M -156.38 -27.28 L -139.80 -17.70 M -139.80 -17.70 L -139.80 39.96" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0025"><title>RT-0025 · ILUMINACION · 1/2&quot; · 4 cables · 2.55 m · RED TE-01</title></path>
+<path class="tramo" d="M -52.55 53.29 L -52.55 -35.25 M -52.55 -35.25 L -63.89 -41.80 M -63.89 -41.80 L -89.16 -27.21 M -89.16 -27.21 L -89.16 31.57" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-09" data-revision="0" data-id="RT-0026"><title>RT-0026 · TOMAS · 1/2&quot; · 5 cables · 4.94 m · RED TE-09</title></path>
+<path class="tramo" d="M -5.11 -69.47 L 12.75 -59.16 M 12.75 -59.16 L 17.20 -61.73 M 17.20 -61.73 L 17.20 -4.07" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0027"><title>RT-0027 · ILUMINACION · 1/2&quot; · 3 cables · 2.15 m · RED TE-01</title></path>
+<path class="tramo" d="M -199.68 162.51 L -199.68 73.97 M -199.68 73.97 L -204.51 76.76 M -204.51 76.76 L -221.10 67.18 M -221.10 67.18 L -221.10 125.96" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-01" data-revision="0" data-id="RT-0028"><title>RT-0028 · TOMAS · 1/2&quot; · 3 cables · 4.54 m · RED TE-01</title></path>
+<path class="tramo" d="M 112.08 69.32 L 112.08 15.37 M 112.08 15.37 L 91.32 3.39 M 91.32 3.39 L 91.32 61.06" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0029"><title>RT-0029 · ILUMINACION · 1/2&quot; · 5 cables · 3.56 m · RED TE-01</title></path>
+<path class="tramo" d="M -98.35 104.64 L -98.35 14.99 M -98.35 14.99 L -118.02 26.34 M -118.02 26.34 L -118.02 86.24" stroke="#6b8ff0" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="COMUNICACIONES" data-red="TE-01" data-revision="0" data-id="RT-0030"><title>RT-0030 · COMUNICACIONES · 3/4&quot; · 3 cables · 4.55 m · RED TE-01</title></path>
+<path class="tramo" d="M -114.11 -57.65 L -98.49 -48.63 M -98.49 -48.63 L -97.43 -49.24 M -97.43 -49.24 L -97.43 8.42" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0031"><title>RT-0031 · ILUMINACION · 1/2&quot; · 3 cables · 2.00 m · RED TE-01</title></path>
+<path class="tramo" d="M -162.41 -4.79 L -176.96 -13.18" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0032"><title>RT-0032 · ILUMINACION · 1/2&quot; · 4 cables · 0.39 m · RED TE-01</title></path>
+<path class="tramo" d="M 87.15 33.85 L 87.15 -54.69 M 87.15 -54.69 L 80.26 -50.71 M 80.26 -50.71 L 76.17 -53.07 M 76.17 -53.07 L 76.17 35.47" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-03" data-revision="0" data-id="RT-0033"><title>RT-0033 · TOMAS · 1/2&quot; · 3 cables · 5.06 m · RED TE-03</title></path>
+<path class="tramo" d="M -120.81 86.36 L -120.81 27.58 M -120.81 27.58 L -128.21 23.30 M -128.21 23.30 L -128.21 111.84" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-01" data-revision="0" data-id="RT-0034"><title>RT-0034 · TOMAS · 1/2&quot; · 3 cables · 4.16 m · RED TE-01</title></path>
+<path class="tramo" d="M -43.24 28.90 L -43.24 -29.88 M -43.24 -29.88 L -48.72 -33.04 M -48.72 -33.04 L -48.72 55.50" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-09" data-revision="0" data-id="RT-0035"><title>RT-0035 · TOMAS · 1/2&quot; · 5 cables · 4.11 m · RED TE-09</title></path>
+<path class="tramo" d="M -167.31 99.89 L -167.31 41.11 M -167.31 41.11 L -172.44 38.14 M -172.44 38.14 L -172.44 126.69" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-01" data-revision="0" data-id="RT-0036"><title>RT-0036 · TOMAS · 1/2&quot; · 3 cables · 4.10 m · RED TE-01</title></path>
+<path class="tramo" d="M -141.27 43.61 L -141.27 -14.05 M -141.27 -14.05 L -138.67 -15.55 M -138.67 -15.55 L -138.67 42.11" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0037"><title>RT-0037 · ILUMINACION · 1/2&quot; · 4 cables · 3.17 m · RED TE-01</title></path>
+<path class="tramo" d="M 82.69 56.07 L 82.69 -1.59 M 82.69 -1.59 L 80.12 -3.08 M 80.12 -3.08 L 80.12 54.59" stroke="#3fb6a8" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="ILUMINACION" data-red="TE-01" data-revision="0" data-id="RT-0038"><title>RT-0038 · ILUMINACION · 1/2&quot; · 6 cables · 3.17 m · RED TE-01</title></path>
+<path class="tramo" d="M 123.61 66.53 L 123.61 11.47 M 123.61 11.47 L 167.63 -13.95 M 167.63 -13.95 L 26.27 -95.56 M 26.27 -95.56 L 15.75 -89.52 M 15.75 -89.52 L 15.75 -0.98" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-03" data-revision="0" data-id="RT-0039"><title>RT-0039 · TOMAS · 1/2&quot; · 3 cables · 9.12 m · RED TE-03</title></path>
+<path class="tramo" d="M 6.76 160.47 L 6.76 71.93 M 6.76 71.93 L 59.57 41.44 M 59.57 41.44 L 30.69 24.76 M 30.69 24.76 L 30.69 113.30" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-03" data-revision="0" data-id="RT-0040"><title>RT-0040 · TOMAS · 1/2&quot; · 3 cables · 6.96 m · RED TE-03</title></path>
+<path class="tramo" d="M -230.56 47.17 L -230.56 -41.37 M -230.56 -41.37 L -307.94 3.30 M -307.94 3.30 L -307.94 91.85" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="" data-revision="0" data-id="RT-0041"><title>RT-0041 · TOMAS · 1/2&quot; · 3 cables · 6.84 m</title></path>
+<path class="tramo" d="M 117.13 61.26 L 117.13 -27.28 M 117.13 -27.28 L 39.95 17.28 M 39.95 17.28 L 39.95 105.82" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-01" data-revision="0" data-id="RT-0042"><title>RT-0042 · TOMAS · 1/2&quot; · 5 cables · 6.83 m · RED TE-01</title></path>
+<path class="tramo" d="M 119.89 65.24 L 119.89 10.18 M 119.89 10.18 L 153.15 -9.03 M 153.15 -9.03 L 121.16 -27.50 M 121.16 -27.50 L 121.16 61.04" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-03" data-revision="0" data-id="RT-0043"><title>RT-0043 · TOMAS · 1/2&quot; · 5 cables · 5.61 m · RED TE-03</title></path>
+<path class="tramo" d="M -222.00 123.73 L -222.00 64.95 M -222.00 64.95 L -216.79 61.94 M -216.79 61.94 L -174.88 37.74 M -174.88 37.74 L -174.88 126.28" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-01" data-revision="0" data-id="RT-0044"><title>RT-0044 · TOMAS · 1/2&quot; · 5 cables · 5.23 m · RED TE-01</title></path>
+<path class="tramo" d="M -131.60 109.89 L -131.60 21.35 M -131.60 21.35 L -138.66 17.27 M -138.66 17.27 L -172.15 36.60 M -172.15 36.60 L -172.15 125.14" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-01" data-revision="0" data-id="RT-0045"><title>RT-0045 · TOMAS · 1/2&quot; · 3 cables · 5.85 m · RED TE-01</title></path>
+<path class="tramo" d="M 89.82 42.20 L 89.82 -46.34 M 89.82 -46.34 L 92.71 -48.01 M 92.71 -48.01 L 123.41 -30.28 M 123.41 -30.28 L 120.82 -28.79 M 120.82 -28.79 L 120.82 59.75" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-03" data-revision="0" data-id="RT-0046"><title>RT-0046 · TOMAS · 1/2&quot; · 3 cables · 5.73 m · RED TE-03</title></path>
+<path class="tramo" d="M -128.54 109.87 L -128.54 21.33 M -128.54 21.33 L -100.27 5.00 M -100.27 5.00 L -100.27 63.78" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-01" data-revision="0" data-id="RT-0047"><title>RT-0047 · TOMAS · 1/2&quot; · 3 cables · 4.72 m · RED TE-01</title></path>
+<path class="tramo" d="M 26.51 110.96 L 26.51 22.42 M 26.51 22.42 L 10.60 13.24 M 10.60 13.24 L 14.91 10.75 M 14.91 10.75 L 14.91 99.29" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-03" data-revision="0" data-id="RT-0048"><title>RT-0048 · TOMAS · 1/2&quot; · 3 cables · 5.30 m · RED TE-03</title></path>
+<path class="tramo" d="M 117.10 59.52 L 117.10 -29.02 M 117.10 -29.02 L 100.08 -38.85 M 100.08 -38.85 L 100.08 49.69" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-03" data-revision="0" data-id="RT-0049"><title>RT-0049 · TOMAS · 1/2&quot; · 5 cables · 5.22 m · RED TE-03</title></path>
+<path class="tramo" d="M 30.95 110.98 L 30.95 22.44 M 30.95 22.44 L 36.55 19.20 M 36.55 19.20 L 36.55 107.74" stroke="#f0a33c" stroke-width="0.0722" fill="none" stroke-linecap="round" stroke-linejoin="round" data-servicio="TOMAS" data-red="TE-03" data-revision="0" data-id="RT-0050"><title>RT-0050 · TOMAS · 1/2&quot; · 3 cables · 4.91 m · RED TE-03</title></path>
+      <circle class="aparato" cx="-171.64" cy="127.06" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-157.22" cy="118.53" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-162.42" cy="121.52" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-230.67" cy="44.95" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-311.76" cy="91.76" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-137.33" cy="40.96" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-I-S-1-5A · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="-95.99" cy="6.99" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-I-S-1-5A · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="88.83" cy="32.96" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-TIMBRE · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="120.51" cy="59.49" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-GFCI-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="90.25" cy="42.11" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="99.87" cy="47.66" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="18.81" cy="99.15" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-165.61" cy="101.15" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-I-S-C1-5A · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="-131.65" cy="109.63" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-117.99" cy="101.54" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-123.18" cy="104.54" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="30.85" cy="110.89" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-199.69" cy="160.47" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-GFCI-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-223.00" cy="124.73" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-I-S-C1-5A · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="-41.74" cy="30.26" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>S3 · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="36.42" cy="108.09" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="75.79" cy="33.90" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-CAMPANA · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-48.69" cy="55.48" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-GFCI-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="18.56" cy="-5.49" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-I-S-1-5A · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="27.14" cy="94.40" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-221.03" cy="10.35" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-F-VENT · ELEC-APPL-ILUM · cota 2.65 m</title></circle>
+<circle class="aparato" cx="-57.23" cy="41.07" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-F-VENT · ELEC-APPL-ILUM · cota 2.65 m</title></circle>
+<circle class="aparato" cx="15.63" cy="-1.06" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-GFCI-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="87.09" cy="58.70" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 22W · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="15.04" cy="16.87" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 22W · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="-119.13" cy="87.49" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 10W · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="-40.95" cy="132.62" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 10W · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="-90.93" cy="32.19" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 10W · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="-183.62" cy="118.46" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 13W · ELEC-BALA LED 13 W · cota 2.65 m</title></circle>
+<circle class="aparato" cx="-179.82" cy="-13.74" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 13W · ELEC-BALA LED 13 W · cota 2.65 m</title></circle>
+<circle class="aparato" cx="-116.74" cy="-59.20" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 13W · ELEC-BALA LED 13 W · cota 2.65 m</title></circle>
+<circle class="aparato" cx="-8.67" cy="-70.97" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 13W · ELEC-BALA LED 13 W · cota 2.65 m</title></circle>
+<circle class="aparato" cx="-143.13" cy="44.79" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-F-CONTROL · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="-97.75" cy="62.40" r="0.215" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-F-CONTROL · ELEC-APPL-ILUM · cota 1.10 m</title></circle>
+<circle class="aparato" cx="-167.57" cy="124.50" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="32.35" cy="91.39" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="37.82" cy="88.23" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="43.08" cy="85.19" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="-128.39" cy="107.54" r="0.215" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD · cota 0.30 m</title></circle>
+<circle class="aparato" cx="6.67" cy="162.66" r="0.215" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS · cota 0.30 m</title></circle>
+<circle class="aparato" cx="116.56" cy="71.24" r="0.215" fill="#d95f6a" data-servicio="FUERZA"><title>TB-Panel · ELEC-POWER-PANEL · cota 1.20 m</title></circle>
+      
+    </svg>
+  </div>
+  <aside>
+    <h2>Tramos en revision (0)</h2>
+    <p class="vacio">Sin tramos en revision.</p>
+    <div class="pista">Proyeccion isometrica: el eje Z (altura) se inclina hacia abajo.
+    Los tramos de distinto servicio cruzan a distinta cota dentro de la banda 2.65-2.74 m.</div>
+  </aside>
+</main>
+<script>
+(function () {
+  var svg = document.getElementById("svg");
+  var items = Array.prototype.slice.call(document.querySelectorAll(".rev-item"));
+  var capas = Array.prototype.slice.call(document.querySelectorAll(".tramo, .aparato, .caja"));
+  var checks = Array.prototype.slice.call(document.querySelectorAll("[data-filtro]"));
+  var soloRev = document.getElementById("solo-revision");
+  var btns = Array.prototype.slice.call(document.querySelectorAll(".btn-vista"));
+
+  var viewBoxBase = "0 0 8.058 9.777";
+  var vistas = {
+    "planta": "0 0 8.058 9.777",
+    "elev-norte": "0 0 8.058 4.710",
+    "elev-este": "0 0 8.058 4.710",
+    "iso": viewBoxBase,
+  };
+
+  function aplicar() {
+    var activos = {};
+    checks.forEach(function (c) { activos[c.getAttribute("data-filtro")] = c.checked; });
+    var solo = soloRev.checked;
+    capas.forEach(function (el) {
+      var serv = el.getAttribute("data-servicio") || "";
+      var red = el.getAttribute("data-red") || "";
+      var rev = el.getAttribute("data-revision") === "1";
+      var okServ = serv === "" || activos["serv:" + serv] !== false;
+      var okRed = red === "" || activos["red:" + red] !== false;
+      var visible = solo ? rev : (okServ && okRed);
+      el.classList.toggle("apagado", !visible);
+    });
+  }
+  checks.forEach(function (c) { c.addEventListener("change", aplicar); });
+  soloRev.addEventListener("change", aplicar);
+
+  btns.forEach(function (b) {
+    b.addEventListener("click", function () {
+      btns.forEach(function (bb) { bb.classList.toggle("activa", bb === b); });
+      var vista = b.getAttribute("data-vista");
+      svg.setAttribute("viewBox", vistas[vista] || viewBoxBase);
+      items.forEach(function (i) { i.classList.remove("activo"); });
+    });
+  });
+
+  function enfocar(id) {
+    var path = svg.querySelector('[data-id="' + id + '"]');
+    items.forEach(function (i) { i.classList.toggle("activo", i.getAttribute("data-id") === id); });
+    if (!path) return;
+    var b = path.getBBox();
+    var pad = Math.max(b.width, b.height) * 0.6 + 1.2;
+    svg.setAttribute("viewBox", (b.x - pad) + " " + (b.y - pad) + " " +
+                                (b.width + 2 * pad) + " " + (b.height + 2 * pad));
+    path.classList.add("resaltado");
+    setTimeout(function () { path.classList.remove("resaltado"); }, 1600);
+  }
+  items.forEach(function (i) {
+    i.addEventListener("click", function () { enfocar(i.getAttribute("data-id")); });
+  });
+  svg.addEventListener("dblclick", function () {
+    svg.setAttribute("viewBox", viewBoxBase);
+    items.forEach(function (i) { i.classList.remove("activo"); });
+  };
+  aplicar();
+})();
+</script>
+</body></html>

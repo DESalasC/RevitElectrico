@@ -3,7 +3,7 @@
   "fecha": "2026-11-08",
   "apartamento": "Apartamento Tipo E 05",
   "nivel": "Piso 5",
-  "elevacion_nivel_m": 43.3727,
+  "elevacion_nivel_m": 13.22,
   "dxf_referencia": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-T4-P4_bloques_electricos.dxf",
   "unidades": {
     "dxf": "metros",
@@ -50,8 +50,8 @@
       "x_revit_ft": 10.4279,
       "y_revit_ft": 8.025,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -69,8 +69,8 @@
       "x_revit_ft": 10.4121,
       "y_revit_ft": 9.3124,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -88,8 +88,8 @@
       "x_revit_ft": 10.4121,
       "y_revit_ft": 8.8544,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-D-t-15A",
@@ -107,8 +107,8 @@
       "x_revit_ft": 1.5535,
       "y_revit_ft": 11.6929,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-D-t-15A",
@@ -126,8 +126,8 @@
       "x_revit_ft": 1.5535,
       "y_revit_ft": 4.5424,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-I-S-1-5A",
@@ -145,8 +145,8 @@
       "x_revit_ft": 6.6683,
       "y_revit_ft": 12.9055,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "ELEC-I-S-1-5A",
@@ -164,8 +164,8 @@
       "x_revit_ft": 15.4416,
       "y_revit_ft": 18.4702,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "ELEC-TIMBRE",
@@ -183,8 +183,8 @@
       "x_revit_ft": 14.7271,
       "y_revit_ft": 26.6969,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-GFCI-t-15A",
@@ -202,8 +202,8 @@
       "x_revit_ft": 17.5594,
       "y_revit_ft": 26.0935,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-D-t-15A",
@@ -221,8 +221,8 @@
       "x_revit_ft": 15.1047,
       "y_revit_ft": 26.087,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-D-t-15A",
@@ -240,8 +240,8 @@
       "x_revit_ft": 15.9213,
       "y_revit_ft": 26.087,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-GFCI-t-15A",
@@ -259,8 +259,8 @@
       "x_revit_ft": 16.7012,
       "y_revit_ft": 18.9692,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-D-t-15A",
@@ -278,8 +278,8 @@
       "x_revit_ft": 16.6913,
       "y_revit_ft": 18.5542,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-NET-PAU",
@@ -297,8 +297,8 @@
       "x_revit_ft": 16.7012,
       "y_revit_ft": 19.5358,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-I-S-C1-5A",
@@ -316,8 +316,8 @@
       "x_revit_ft": 10.9882,
       "y_revit_ft": 7.9964,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "ELEC-T-D-t-15A",
@@ -335,8 +335,8 @@
       "x_revit_ft": 10.8603,
       "y_revit_ft": 11.1195,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -354,8 +354,8 @@
       "x_revit_ft": 10.8445,
       "y_revit_ft": 12.3399,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -373,8 +373,8 @@
       "x_revit_ft": 10.8445,
       "y_revit_ft": 11.8819,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-D-t-15A",
@@ -392,8 +392,8 @@
       "x_revit_ft": 18.1221,
       "y_revit_ft": 18.3199,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-GFCI-t-15A",
@@ -411,8 +411,8 @@
       "x_revit_ft": 11.7274,
       "y_revit_ft": 4.2366,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-I-S-C1-5A",
@@ -430,14 +430,14 @@
       "x_revit_ft": 13.8458,
       "y_revit_ft": 5.7487,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "S3",
       "capa": "ELEC-CONTROL ILUM",
       "familia_revit": "M_Interruptor",
-      "simbolo": "Est\u00e1ndar",
+      "simbolo": "Estándar",
       "anfitrion": "ceiling",
       "rotacion": 129.2800529914669,
       "x_dxf_local_m": 2.3698,
@@ -449,8 +449,8 @@
       "x_revit_ft": 15.1985,
       "y_revit_ft": 19.1201,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "ELEC-T-D-t-15A",
@@ -468,8 +468,8 @@
       "x_revit_ft": 18.1539,
       "y_revit_ft": 18.648,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-CAMPANA",
@@ -487,8 +487,8 @@
       "x_revit_ft": 14.2231,
       "y_revit_ft": 26.1323,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-GFCI-t-15A",
@@ -506,8 +506,8 @@
       "x_revit_ft": 10.3928,
       "y_revit_ft": 18.9324,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-I-S-1-5A",
@@ -525,8 +525,8 @@
       "x_revit_ft": 10.2796,
       "y_revit_ft": 23.5994,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -544,8 +544,8 @@
       "x_revit_ft": 16.6953,
       "y_revit_ft": 19.2845,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-F-VENT",
@@ -563,8 +563,8 @@
       "x_revit_ft": 6.0135,
       "y_revit_ft": 8.0837,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "ELEC-F-VENT",
@@ -582,8 +582,8 @@
       "x_revit_ft": 15.5827,
       "y_revit_ft": 12.9603,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "ELEC-T-GFCI-t-15A",
@@ -601,14 +601,14 @@
       "x_revit_ft": 8.9006,
       "y_revit_ft": 26.1493,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "Bala Stil Led 22W",
       "capa": "ELEC-APPL-ILUM",
-      "familia_revit": "COMBO MOUNTING RING",
-      "simbolo": "MOUNTING RING trimless, 064-1906700",
+      "familia_revit": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 200 trim",
       "anfitrion": "ceiling",
       "rotacion": 180.0,
       "x_dxf_local_m": 3.4946,
@@ -620,14 +620,14 @@
       "x_revit_ft": 18.8888,
       "y_revit_ft": 22.3813,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "Bala Stil Led 22W",
       "capa": "ELEC-APPL-ILUM",
-      "familia_revit": "COMBO MOUNTING RING",
-      "simbolo": "MOUNTING RING trimless, 064-1906700",
+      "familia_revit": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 200 trim",
       "anfitrion": "ceiling",
       "rotacion": 180.0,
       "x_dxf_local_m": 1.5525,
@@ -639,14 +639,14 @@
       "x_revit_ft": 12.5171,
       "y_revit_ft": 22.3987,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "Bala Stil Led 10W",
       "capa": "ELEC-APPL-ILUM",
-      "familia_revit": "COMBO MOUNTING RING",
-      "simbolo": "MOUNTING RING trimless, 064-1906300",
+      "familia_revit": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 100 trim",
       "anfitrion": "ceiling",
       "rotacion": 180.0,
       "x_dxf_local_m": 1.3931,
@@ -658,14 +658,14 @@
       "x_revit_ft": 11.9941,
       "y_revit_ft": 11.0896,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "Bala Stil Led 10W",
       "capa": "ELEC-APPL-ILUM",
-      "familia_revit": "COMBO MOUNTING RING",
-      "simbolo": "MOUNTING RING trimless, 064-1906300",
+      "familia_revit": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 100 trim",
       "anfitrion": "ceiling",
       "rotacion": 180.0,
       "x_dxf_local_m": 3.4946,
@@ -677,14 +677,14 @@
       "x_revit_ft": 18.8888,
       "y_revit_ft": 11.0896,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "Bala Stil Led 10W",
       "capa": "ELEC-APPL-ILUM",
-      "familia_revit": "COMBO MOUNTING RING",
-      "simbolo": "MOUNTING RING trimless, 064-1906300",
+      "familia_revit": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 100 trim",
       "anfitrion": "ceiling",
       "rotacion": 180.0,
       "x_dxf_local_m": 0.485,
@@ -696,14 +696,14 @@
       "x_revit_ft": 9.0148,
       "y_revit_ft": 16.5561,
       "z_local_m": 2.6,
-      "z_abs_m": 45.9727,
-      "z_abs_ft": 150.8291
+      "z_abs_m": 15.82,
+      "z_abs_ft": 51.9029
     },
     {
       "nombre_bloque_hijo": "Bala Stil Led 13W",
       "capa": "ELEC-BALA LED 13 W",
-      "familia_revit": "COMBO MOUNTING RING",
-      "simbolo": "MOUNTING RING trimless, 064-1906500",
+      "familia_revit": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 150 trim",
       "anfitrion": "muro",
       "rotacion": 0.0,
       "x_dxf_local_m": 2.5898,
@@ -715,14 +715,14 @@
       "x_revit_ft": 15.9203,
       "y_revit_ft": 2.0614,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "Bala Stil Led 13W",
       "capa": "ELEC-BALA LED 13 W",
-      "familia_revit": "COMBO MOUNTING RING",
-      "simbolo": "MOUNTING RING trimless, 064-1906500",
+      "familia_revit": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 150 trim",
       "anfitrion": "muro",
       "rotacion": 0.0,
       "x_dxf_local_m": -0.4367,
@@ -734,14 +734,14 @@
       "x_revit_ft": 5.9909,
       "y_revit_ft": 11.7408,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "Bala Stil Led 13W",
       "capa": "ELEC-BALA LED 13 W",
-      "familia_revit": "COMBO MOUNTING RING",
-      "simbolo": "MOUNTING RING trimless, 064-1906500",
+      "familia_revit": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 150 trim",
       "anfitrion": "muro",
       "rotacion": 0.0,
       "x_dxf_local_m": -0.6472,
@@ -753,14 +753,14 @@
       "x_revit_ft": 5.3002,
       "y_revit_ft": 17.9938,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "Bala Stil Led 13W",
       "capa": "ELEC-POWER- PIPE",
-      "familia_revit": "COMBO MOUNTING RING",
-      "simbolo": "MOUNTING RING trimless, 064-1906500",
+      "familia_revit": "SONO FLEX trim",
+      "simbolo": "SONO FLEX 150 trim",
       "anfitrion": "muro",
       "rotacion": 0.0,
       "x_dxf_local_m": -1.7358,
@@ -772,8 +772,8 @@
       "x_revit_ft": 1.7287,
       "y_revit_ft": 4.7044,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-F-CONTROL",
@@ -791,8 +791,8 @@
       "x_revit_ft": 7.4528,
       "y_revit_ft": 13.8078,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-F-CONTROL",
@@ -810,8 +810,8 @@
       "x_revit_ft": 10.3639,
       "y_revit_ft": 8.0178,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -829,8 +829,8 @@
       "x_revit_ft": 10.4121,
       "y_revit_ft": 8.3996,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -848,8 +848,8 @@
       "x_revit_ft": 16.6953,
       "y_revit_ft": 19.7438,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -867,8 +867,8 @@
       "x_revit_ft": 16.6953,
       "y_revit_ft": 20.2267,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -886,8 +886,8 @@
       "x_revit_ft": 16.6953,
       "y_revit_ft": 20.6903,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-TEL",
@@ -905,14 +905,14 @@
       "x_revit_ft": 13.0315,
       "y_revit_ft": 25.4895,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "2F2N1T1R",
       "capa": "Elec-Lite-Wire",
       "familia_revit": "M_Toma doble",
-      "simbolo": "Est\u00e1ndar",
+      "simbolo": "Estándar",
       "anfitrion": "muro",
       "rotacion": 0.0,
       "x_dxf_local_m": 2.88,
@@ -924,14 +924,14 @@
       "x_revit_ft": 16.8724,
       "y_revit_ft": 22.3767,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "2F2N1T1R",
       "capa": "ELEC-Data-Service",
       "familia_revit": "M_Toma de telefono - Datos",
-      "simbolo": "Est\u00e1ndar",
+      "simbolo": "Estándar",
       "anfitrion": "muro",
       "rotacion": 90.0,
       "x_dxf_local_m": 3.1713,
@@ -943,8 +943,8 @@
       "x_revit_ft": 17.8281,
       "y_revit_ft": 20.0709,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     },
     {
       "nombre_bloque_hijo": "ELEC-T-D-t-15A",
@@ -962,8 +962,8 @@
       "x_revit_ft": 19.4197,
       "y_revit_ft": 13.7064,
       "z_local_m": 0.3,
-      "z_abs_m": 43.6727,
-      "z_abs_ft": 143.2831
+      "z_abs_m": 13.52,
+      "z_abs_ft": 44.357
     }
   ],
   "marcadores_conductor": [
@@ -1072,5 +1072,8 @@
       "M_Interruptor bipolar",
       "M_Toma simple"
     ]
-  }
+  },
+  "elevacion_nivel_m_fuente": "V03 en vivo: Level Piso 5 id=192512",
+  "nota_elevacion": "2026-11-09: CORREGIDO ERROR DE UNIDADES. El campo elevacion_nivel_m guardaba 43.3727, que son PIES, no metros: 43.3727 ft x 0.3048 = 13.219999 m, es decir la MISMA elevacion del Piso 5 que reporta el documento. Ademas z_abs_m sumaba pies de nivel (43.3727) con metros locales (0.30), mezclando unidades. Ahora elevacion_nivel_m = 13.22 m, elevacion_nivel_ft = 43.3727 ft y z_abs_m = 13.22 + z_local_m. Regla del proyecto: Revit trabaja en PIES; toda clave terminada en _m debe ir en metros y toda clave en _ft en pies, sin mezclar. Ningun script depende de z_abs_m: la ubicacion se calcula con nivel.Elevation + z_local_m.",
+  "elevacion_nivel_ft": 43.3727
 }

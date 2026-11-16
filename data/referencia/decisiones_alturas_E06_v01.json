@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "proyecto": "RE",
+  "apartamento": "Apartamento Tipo E 06",
+  "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt",
+  "fecha": "2026-11-16",
+  "fuente": "Veredicto del operador en sesion 2026-11-16",
+  "regla": "El valor del operador prevalece sobre el inventario v02 y sobre el modelo cuando ambos discrepan",
+  "tolerancia_desplazamiento_m": 0.10,
+  "nota_tolerancia": "Por debajo de 0,10 m el desfase es el offset entre punto de insercion y cara del host (57-90 mm medidos en Fase 6), no un error de cota.",
+  "cotas": [
+    {
+      "handle": "EF",
+      "element_id": 5529844,
+      "familia": "M_Timbre",
+      "tipo": "Campana",
+      "altura_correcta_m": 2.40,
+      "modelo_m": 2.40,
+      "inventario_m": 1.10,
+      "veredicto": "modelo_correcto",
+      "accion": "corregir_inventario",
+      "delta_modelo_m": 0.0
+    },
+    {
+      "handle": "BE",
+      "element_id": 5529820,
+      "familia": "Consolidation_Point",
+      "tipo": "CPB6BL",
+      "altura_correcta_m": 2.70,
+      "modelo_m": 2.685,
+      "inventario_m": 1.05,
+      "veredicto": "modelo_correcto",
+      "accion": "corregir_inventario",
+      "delta_modelo_m": 0.015,
+      "nota": "15 mm de diferencia respecto a 2,70: dentro de tolerancia"
+    },
+    {
+      "handle": null,
+      "element_id": 5529858,
+      "familia": "M_Pulsador - Interruptor",
+      "tipo": "Timbre",
+      "altura_correcta_m": 1.10,
+      "modelo_m": 0.851,
+      "inventario_m": 1.10,
+      "veredicto": "modelo_incorrecto",
+      "accion": "mover_en_modelo",
+      "delta_modelo_m": -0.249
+    }
+  ],
+  "hosts_perdidos": [
+    {
+      "element_id": 5529846,
+      "handle": null,
+      "familia": "M_Toma doble",
+      "tipo": "Normal",
+      "altura_correcta_m": 0.70,
+      "modelo_m": 0.70,
+      "veredicto": "altura_correcta_host_perdido",
+      "accion": "restaurar_host",
+      "nota": "Una de las tres tomas de cocina; conexion de estufa a 0,70 m del nivel. Perdio el host al cambiar la altura."
+    },
+    {
+      "element_id": 5529849,
+      "handle": null,
+      "familia": "M_Toma doble",
+      "tipo": "Normal",
+      "altura_correcta_m": 1.65,
+      "modelo_m": 1.65,
+      "veredicto": "altura_correcta_host_perdido",
+      "accion": "restaurar_host",
+      "nota": "Sobre el gabinete/extractor de la estufa."
+    },
+    {
+      "element_id": 5529855,
+      "handle": null,
+      "familia": "M_Toma doble",
+      "tipo": "GFCI",
+      "altura_correcta_m": 1.05,
+      "modelo_m": 1.05,
+      "veredicto": "altura_correcta_host_perdido",
+      "accion": "restaurar_host",
+      "nota": "Sobre el meson de cocina."
+    },
+    {
+      "element_id": 5529817,
+      "handle": null,
+      "familia": "M_Comunicaciones",
+      "tipo": "Datos",
+      "altura_correcta_m": 0.30,
+      "modelo_m": 0.30,
+      "veredicto": "altura_sin_veredicto_host_perdido",
+      "accion": "restaurar_host",
+      "nota": "En la fila de datos de x=5080.3, junto a 5529826."
+    },
+    {
+      "element_id": 5529823,
+      "handle": null,
+      "familia": "M_Comunicaciones",
+      "tipo": "Datos",
+      "altura_correcta_m": 0.30,
+      "modelo_m": 0.30,
+      "veredicto": "altura_sin_veredicto_host_perdido",
+      "accion": "restaurar_host",
+      "nota": "En la fila de datos de x=5080.3, junto a 5529829."
+    }
+  ],
+  "pendientes": [
+    {
+      "tema": "10 tomas de datos a 0,30 m frente a 1,05 m del inventario",
+      "estado": "sin_veredicto",
+      "nota": "El operador solo se pronuncio sobre el host de dos de ellas."
+    },
+    {
+      "tema": "interruptor de ventilador a 1,20 m frente a 1,10 m",
+      "estado": "dentro_de_tolerancia",
+      "nota": "100 mm, en el limite de la tolerancia de 0,10 m."
+    }
+  ]
+}

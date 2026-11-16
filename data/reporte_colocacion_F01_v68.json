@@ -1,0 +1,181 @@
+{
+  "apartamento": "F 01", 
+  "version": "68.0", 
+  "timestamp": "2026-11-14 21:26:50", 
+  "stats": {
+    "error": 1, 
+    "ok": 34
+  }, 
+  "results": [
+    {
+      "status": "OK", 
+      "handle": "6D", 
+      "revit_id": 5535263
+    }, 
+    {
+      "status": "OK", 
+      "handle": "8D", 
+      "revit_id": 5535264
+    }, 
+    {
+      "status": "OK", 
+      "handle": "96", 
+      "revit_id": 5535265
+    }, 
+    {
+      "status": "OK", 
+      "handle": "97", 
+      "revit_id": 5535266
+    }, 
+    {
+      "status": "OK", 
+      "handle": "98", 
+      "revit_id": 5535267
+    }, 
+    {
+      "status": "OK", 
+      "handle": "99", 
+      "revit_id": 5535268
+    }, 
+    {
+      "status": "OK", 
+      "handle": "9A", 
+      "revit_id": 5535269
+    }, 
+    {
+      "status": "OK", 
+      "handle": "9B", 
+      "revit_id": 5535270
+    }, 
+    {
+      "status": "OK", 
+      "handle": "9C", 
+      "revit_id": 5535271
+    }, 
+    {
+      "status": "OK", 
+      "handle": "A4", 
+      "revit_id": 5535272
+    }, 
+    {
+      "status": "OK", 
+      "handle": "B9", 
+      "revit_id": 5535273
+    }, 
+    {
+      "status": "OK", 
+      "handle": "C1", 
+      "revit_id": 5535275
+    }, 
+    {
+      "status": "OK", 
+      "handle": "C9", 
+      "revit_id": 5535277
+    }, 
+    {
+      "status": "OK", 
+      "handle": "CB", 
+      "revit_id": 5535279
+    }, 
+    {
+      "status": "OK", 
+      "handle": "D4", 
+      "revit_id": 5535281
+    }, 
+    {
+      "status": "OK", 
+      "handle": "DF", 
+      "revit_id": 5535282
+    }, 
+    {
+      "status": "OK", 
+      "handle": "FD", 
+      "revit_id": 5535283
+    }, 
+    {
+      "status": "OK", 
+      "handle": "12F", 
+      "revit_id": 5535285
+    }, 
+    {
+      "status": "OK", 
+      "handle": "13B", 
+      "revit_id": 5535287
+    }, 
+    {
+      "status": "OK", 
+      "handle": "13C", 
+      "revit_id": 5535289
+    }, 
+    {
+      "status": "OK", 
+      "handle": "145", 
+      "revit_id": 5535291
+    }, 
+    {
+      "status": "OK", 
+      "handle": "146", 
+      "revit_id": 5535293
+    }, 
+    {
+      "status": "OK", 
+      "handle": "147", 
+      "revit_id": 5535295
+    }, 
+    {
+      "status": "OK", 
+      "handle": "148", 
+      "revit_id": 5535297
+    }, 
+    {
+      "status": "OK", 
+      "handle": "156", 
+      "revit_id": 5535299
+    }, 
+    {
+      "status": "OK", 
+      "handle": "1E8", 
+      "revit_id": 5535300
+    }, 
+    {
+      "status": "OK", 
+      "handle": "1F1", 
+      "revit_id": 5535301
+    }, 
+    {
+      "status": "OK", 
+      "handle": "1F2", 
+      "revit_id": 5535302
+    }, 
+    {
+      "status": "OK", 
+      "handle": "203", 
+      "revit_id": 5535303
+    }, 
+    {
+      "status": "OK", 
+      "handle": "204", 
+      "revit_id": 5535304
+    }, 
+    {
+      "status": "OK", 
+      "handle": "205", 
+      "revit_id": 5535305
+    }, 
+    {
+      "status": "OK", 
+      "handle": "206", 
+      "revit_id": 5535306
+    }, 
+    {
+      "status": "OK", 
+      "handle": "210", 
+      "revit_id": 5535307
+    }, 
+    {
+      "status": "OK", 
+      "handle": "216", 
+      "revit_id": 5535308
+    }
+  ]
+}

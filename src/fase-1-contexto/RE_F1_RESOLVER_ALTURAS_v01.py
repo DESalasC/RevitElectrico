@@ -4,7 +4,8 @@
 Orden de precedencia:
 
 1. Excepcion por handle (config/alturas_tomas_v01.json).
-2. Anotacion de altura del DXF, asignada por vecindad y consumida una sola vez.
+2. Anotacion de altura del DXF, asignada por vecindad y consumida una sola vez,
+   salvo para los codigos listados en `anotaciones_ignoradas_por_codigo`.
 3. Regla base por tipo de dispositivo.
 
 Produce un inventario nuevo (v02) sin tocar el v01, con `altura_local_m`, `origen_altura`
@@ -123,17 +124,78 @@ def asignar_anotaciones(
     return asignadas, conflictos
 
 
+def anclar_excepciones_por_posicion(
+    dispositivos: list[dict[str, Any]],
+    entradas: list[dict[str, Any]],
+    tolerancia_m: float = 0.02,
+) -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]]]:
+    """Ancla cada excepcion a un aparato por codigo + coordenada DXF.
+
+    Los handles se regeneran cuando alguien reexporta el DXF, pero las coordenadas no cambian:
+    por eso el anclaje estable es (codigo, x, y), no el handle. Devuelve ``{handle: regla}`` y
+    la lista de excepciones que no encontraron aparato (para no fallar en silencio).
+    """
+    ancladas: dict[str, dict[str, Any]] = {}
+    sin_anclar: list[dict[str, Any]] = []
+
+    for entrada in entradas:
+        codigo = entrada.get("codigo")
+        candidatos = [d for d in dispositivos if d.get("nombre") == codigo]
+        mejor: dict[str, Any] | None = None
+        mejor_d: float | None = None
+        for dispositivo in candidatos:
+            distancia = (
+                (dispositivo["x"] - float(entrada["x"])) ** 2
+                + (dispositivo["y"] - float(entrada["y"])) ** 2
+            ) ** 0.5
+            if mejor_d is None or distancia < mejor_d:
+                mejor, mejor_d = dispositivo, distancia
+
+        if mejor is None or mejor_d is None or mejor_d > tolerancia_m:
+            sin_anclar.append(
+                {
+                    "codigo": codigo,
+                    "altura_m": entrada.get("altura_m"),
+                    "dist_m": round(mejor_d, 4) if mejor_d is not None else None,
+                    "motivo": "sin aparato a menos de {t} m".format(t=tolerancia_m),
+                }
+            )
+            continue
+
+        ancladas[mejor["handle"]] = {
+            "altura_m": entrada["altura_m"],
+            "nota": entrada.get("nota", ""),
+            "element_id_revit": entrada.get("element_id_revit"),
+            "origen": "posicion",
+            "dist_m": round(mejor_d, 6),
+        }
+
+    return ancladas, sin_anclar
+
+
 def resolver(
     inventario: dict[str, Any],
     config: dict[str, Any],
     anotaciones: list[dict[str, Any]],
+    apartamento: str | None = None,
 ) -> dict[str, Any]:
     dispositivos = inventario["dispositivos"]
     radio = float(config["anotaciones_dxf"]["radio_asignacion_m"])
     asignadas, conflictos = asignar_anotaciones(dispositivos, anotaciones, radio)
 
     reglas = config["regla_base_altura_m"]
-    excepciones = config["excepciones_por_handle"]
+    excepciones = dict(config["excepciones_por_handle"])
+    ignoradas = config.get("anotaciones_ignoradas_por_codigo", {})
+    anotaciones_ignoradas: list[dict[str, Any]] = []
+
+    ancladas: dict[str, dict[str, Any]] = {}
+    sin_anclar: list[dict[str, Any]] = []
+    if apartamento:
+        entradas = config.get("excepciones_por_apartamento", {}).get(apartamento, [])
+        if entradas:
+            ancladas, sin_anclar = anclar_excepciones_por_posicion(dispositivos, entradas)
+            # La posicion gana sobre el handle: es la unica que sobrevive a una reexportacion.
+            excepciones.update(ancladas)
 
     resueltos: list[dict[str, Any]] = []
     for dispositivo in dispositivos:
@@ -144,7 +206,7 @@ def resolver(
 
         if handle in excepciones:
             altura = float(excepciones[handle]["altura_m"])
-            origen = "excepcion"
+            origen = "excepcion_posicion" if handle in ancladas else "excepcion"
             anotacion = asignadas.get(handle)
             if anotacion and abs(anotacion["altura_m"] - altura) > 0.02:
                 conflictos.append(
@@ -152,6 +214,20 @@ def resolver(
                         "handle": handle,
                         "motivo": "anotacion contradice excepcion",
                         "detalle": {"excepcion_m": altura, "anotacion_m": anotacion["altura_m"], "texto": anotacion["texto"]},
+                    }
+                )
+        elif nombre in ignoradas:
+            # Estandarizacion explicita: el codigo manda sobre lo que anote el plano.
+            altura = float(reglas[nombre]) if nombre in reglas else None
+            origen = "regla_base_estandarizada"
+            if handle in asignadas:
+                anotaciones_ignoradas.append(
+                    {
+                        "handle": handle,
+                        "codigo": nombre,
+                        "anotacion_m": asignadas[handle]["altura_m"],
+                        "texto": asignadas[handle]["texto"],
+                        "motivo": "codigo estandarizado a {v} m".format(v=altura),
                     }
                 )
         elif handle in asignadas:
@@ -196,10 +272,17 @@ def resolver(
         "apartamento": "Apartamento Tipo E 06",
         "nivel_elevacion_m": NIVEL_PISO5_M,
         "fuente": "inventario v01 + anotaciones de altura del DXF + reglas de config/alturas_tomas_v01.json",
-        "regla": "excepcion > anotacion DXF > regla base",
+        "regla": "excepcion > anotacion DXF > regla base (los codigos de anotaciones_ignoradas_por_codigo saltan la anotacion)",
         "total": len(resueltos),
         "por_origen": por_origen,
         "anotaciones_dxf_detectadas": len(anotaciones),
+        "anotaciones_ignoradas": anotaciones_ignoradas,
+        "excepciones_ancladas": {
+            "apartamento": apartamento,
+            "aplicadas_por_handle": por_origen.get("excepcion", 0),
+            "aplicadas_por_posicion": por_origen.get("excepcion_posicion", 0),
+            "sin_anclar": sin_anclar,
+        },
         "conflictos": conflictos,
         "dispositivos": resueltos,
     }
@@ -211,6 +294,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--inventario", required=True)
     parser.add_argument("--config", required=True)
     parser.add_argument("--salida", required=True)
+    parser.add_argument("--apartamento", default=None, help="Clave de apartamento para anclar excepciones por posicion (p.ej. 'E 06')")
     args = parser.parse_args(argv)
 
     ruta_dxf = Path(args.dxf)
@@ -224,7 +308,7 @@ def main(argv: list[str] | None = None) -> int:
         config = json.load(fh)
 
     anotaciones = extraer_anotaciones(ruta_dxf, config["anotaciones_dxf"]["patrones"])
-    resultado = resolver(inventario, config, anotaciones)
+    resultado = resolver(inventario, config, anotaciones, apartamento=args.apartamento)
 
     salida = Path(args.salida)
     salida.parent.mkdir(parents=True, exist_ok=True)
@@ -235,6 +319,13 @@ def main(argv: list[str] | None = None) -> int:
     print("Dispositivos: {n}".format(n=resultado["total"]))
     print("Anotaciones de altura en el DXF: {n}".format(n=resultado["anotaciones_dxf_detectadas"]))
     print("Por origen: {o}".format(o=resultado["por_origen"]))
+    anclaje = resultado.get("excepciones_ancladas") or {}
+    if anclaje.get("apartamento"):
+        print("Excepciones ancladas en {a}: por posicion {p}, por handle {h}".format(
+            a=anclaje["apartamento"], p=anclaje["aplicadas_por_posicion"], h=anclaje["aplicadas_por_handle"]))
+        for pendiente in anclaje.get("sin_anclar", []):
+            print("   SIN ANCLAR: {c} (altura {h}, dist {d})".format(
+                c=pendiente.get("codigo"), h=pendiente.get("altura_m"), d=pendiente.get("dist_m")))
     if resultado["conflictos"]:
         print("Conflictos: {n}".format(n=len(resultado["conflictos"])))
         for conflicto in resultado["conflictos"][:8]:

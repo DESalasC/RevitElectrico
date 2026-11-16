@@ -1,0 +1,354 @@
+{
+  "84": {
+    "nombre_bloque": "ELEC-T-D-t-15A",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "85": {
+    "nombre_bloque": "ELEC-T-D-t-15A",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "96": {
+    "nombre_bloque": "ELEC-TIMBRE",
+    "circuito": "TE-03",
+    "altura_dxf": 0.7,
+    "textos_cercanos": [
+      "0.7m",
+      "TE-03"
+    ]
+  },
+  "9E": {
+    "nombre_bloque": "ELEC-T-GFCI-t-15A",
+    "circuito": "TE-03",
+    "altura_dxf": 1.65,
+    "textos_cercanos": [
+      "1.65m",
+      "1.05m",
+      "TE-03"
+    ]
+  },
+  "BA": {
+    "nombre_bloque": "ELEC-T-D-t-15A",
+    "circuito": "TE-03",
+    "altura_dxf": 1.65,
+    "textos_cercanos": [
+      "1.65m",
+      "0.7m",
+      "TE-03",
+      "TE-03"
+    ]
+  },
+  "BB": {
+    "nombre_bloque": "ELEC-T-D-t-15A",
+    "circuito": "TE-03",
+    "altura_dxf": 1.65,
+    "textos_cercanos": [
+      "1.65m",
+      "0.7m",
+      "TE-03",
+      "TE-03"
+    ]
+  },
+  "BD": {
+    "nombre_bloque": "ELEC-T-D-t-15A",
+    "circuito": "TE-03",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-03"
+    ]
+  },
+  "D7": {
+    "nombre_bloque": "ELEC-T-D-t-15A",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01",
+      "TE-01"
+    ]
+  },
+  "D8": {
+    "nombre_bloque": "ELEC-TEL",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01",
+      "TE-01"
+    ]
+  },
+  "D9": {
+    "nombre_bloque": "ELEC-TEL",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01",
+      "TE-01"
+    ]
+  },
+  "DA": {
+    "nombre_bloque": "ELEC-T-D-t-15A",
+    "circuito": "TE-03",
+    "altura_dxf": 1.05,
+    "textos_cercanos": [
+      "1.05m",
+      "TE-03",
+      "TE-03"
+    ]
+  },
+  "DB": {
+    "nombre_bloque": "ELEC-T-GFCI-t-15A",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "h-0.3",
+      "TE-01"
+    ]
+  },
+  "EE": {
+    "nombre_bloque": "ELEC-T-D-t-15A",
+    "circuito": "TE-03",
+    "altura_dxf": 1.05,
+    "textos_cercanos": [
+      "1.05m",
+      "TE-03",
+      "TE-03",
+      "2Ø3/4\""
+    ]
+  },
+  "EF": {
+    "nombre_bloque": "ELEC-CAMPANA",
+    "circuito": "TE-03",
+    "altura_dxf": 0.7,
+    "textos_cercanos": [
+      "0.7m",
+      "TE-03",
+      "TE-01"
+    ]
+  },
+  "103": {
+    "nombre_bloque": "ELEC-T-GFCI-t-15A",
+    "circuito": "TE-09",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-09"
+    ]
+  },
+  "107": {
+    "nombre_bloque": "ELEC-F-VENT",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "110": {
+    "nombre_bloque": "ELEC-F-VENT",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "111": {
+    "nombre_bloque": "ELEC-T-GFCI-t-15A",
+    "circuito": "TE-07",
+    "altura_dxf": 1.05,
+    "textos_cercanos": [
+      "1.05m",
+      "TE-07"
+    ]
+  },
+  "112": {
+    "nombre_bloque": "Bala Stil Led 22W",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "11E": {
+    "nombre_bloque": "Bala Stil Led 22W",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "11F": {
+    "nombre_bloque": "Bala Stil Led 10W",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "128": {
+    "nombre_bloque": "Bala Stil Led 10W",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "129": {
+    "nombre_bloque": "Bala Stil Led 10W",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "12A": {
+    "nombre_bloque": "Bala Stil Led 13W",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "138": {
+    "nombre_bloque": "Bala Stil Led 13W",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "139": {
+    "nombre_bloque": "Bala Stil Led 13W",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "13A": {
+    "nombre_bloque": "Bala Stil Led 13W",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "189": {
+    "nombre_bloque": "1FTN2R",
+    "circuito": "TE-09",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-09"
+    ]
+  },
+  "198": {
+    "nombre_bloque": "1FTN",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "1A8": {
+    "nombre_bloque": "1FTN",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01",
+      "TE-01"
+    ]
+  },
+  "1B6": {
+    "nombre_bloque": "1FTN",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "1C1": {
+    "nombre_bloque": "1FTN",
+    "circuito": "TE-03",
+    "altura_dxf": 1.65,
+    "textos_cercanos": [
+      "1.65m",
+      "0.7m",
+      "TE-03",
+      "TE-03"
+    ]
+  },
+  "1C3": {
+    "nombre_bloque": "2FT2N",
+    "circuito": "TE-03",
+    "altura_dxf": 1.05,
+    "textos_cercanos": [
+      "1.05m",
+      "TE-03"
+    ]
+  },
+  "1D3": {
+    "nombre_bloque": "1FTN",
+    "circuito": "TE-03",
+    "altura_dxf": 1.05,
+    "textos_cercanos": [
+      "1.05m",
+      "TE-03",
+      "TE-03"
+    ]
+  },
+  "1F6": {
+    "nombre_bloque": "ELEC-TEL",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01",
+      "TE-01"
+    ]
+  },
+  "207": {
+    "nombre_bloque": "2FT2N",
+    "circuito": "TE-03",
+    "altura_dxf": 1.65,
+    "textos_cercanos": [
+      "1.65m",
+      "TE-03",
+      "TE-03",
+      "TE-03"
+    ]
+  },
+  "20C": {
+    "nombre_bloque": "1FTN",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "21C": {
+    "nombre_bloque": "2FT2N",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "21E": {
+    "nombre_bloque": "2F2N1T1R",
+    "circuito": "TE-01",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-01"
+    ]
+  },
+  "224": {
+    "nombre_bloque": "ELEC-T-D-t-15A",
+    "circuito": "TE-03",
+    "altura_dxf": null,
+    "textos_cercanos": [
+      "TE-03"
+    ]
+  }
+}

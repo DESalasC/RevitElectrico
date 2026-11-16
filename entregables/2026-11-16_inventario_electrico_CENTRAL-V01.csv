@@ -1,0 +1,131 @@
+﻿id;uniqueId;familyName;typeName;categoryName;nivel_efectivo;nivel_propio;nivel_host;host_categoria;host_id;x_mm;y_mm;z_mm;rotation_deg
+5529858;08c9c46f-30b6-4948-a30c-70fbbfa0f770-00546102;M_Pulsador - Interruptor;Timbre;Communication Devices;Piso 5;;Piso 5;Walls;3902726;4461.4;9542.7;14070.9;180
+5529844;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460f4;M_Timbre;Campana;Communication Devices;Piso 5;;Piso 5;Walls;3902726;4318.8;9672.7;15620;90
+5529820;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460dc;Consolidation_Point;CPB6BL;Data Devices;Piso 5;;Piso 5;Walls;2765818;5080.3;11562.5;15904.8;120
+5481263;c17b5bfe-28b2-49e9-a7e2-d417a6928dc6-0053a32f;E_Panel Distribucion;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;11597.1;10160.3;14420;90
+5501141;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0d5;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;11591.4;7505.8;14420;270
+5501142;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0d6;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;8760.2;10122.7;14420;90
+5501143;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0d7;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;8760.2;7505.8;14420;270
+5501144;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0d8;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;6507.3;6799.9;14420;270
+5501145;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0d9;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;6507.3;10812.4;14420;270
+5501146;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0da;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-5669.9;10722.7;14420;90
+5501147;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0db;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-5669.9;6822.7;14420;90
+5501148;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0dc;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-22125.9;10104.4;14420;90
+5501149;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0dd;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-22121.9;7484.9;14420;90
+5501150;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0de;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-29395.1;6931.8;14420;90
+5501151;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0df;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-29374.6;10801.3;14420;90
+5501152;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0e0;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-14325.9;10104.4;14420;90
+5501153;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0e1;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-14321.9;7484.9;14420;90
+5501154;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0e2;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-17145.5;10132.5;14420;270
+5501155;c69221bd-85a9-4c1b-b276-7d6583412b65-0053f0e3;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-17149.5;7484.9;14420;270
+5506167;c69221bd-85a9-4c1b-b276-7d6583412b65-00540477;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-43071.9;6883.9;14420;90
+5506168;c69221bd-85a9-4c1b-b276-7d6583412b65-00540478;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-43079.3;10806.8;14420;90
+5506169;c69221bd-85a9-4c1b-b276-7d6583412b65-00540479;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-46294.6;8116.2;14420;360
+5506170;c69221bd-85a9-4c1b-b276-7d6583412b65-0054047a;E_Panel Distribucion1;EPB25-304C;Electrical Equipment;Piso 5;Piso 5;;;;-46343.6;9570;14420;180
+1839851;dd9e8dc6-8b27-44b7-adcb-5c54935ce74b-001c12eb;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;;;;-49967.1;8097.4;220;180
+1839852;dd9e8dc6-8b27-44b7-adcb-5c54935ce74b-001c12ec;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;;;;-48903.4;8097.4;220;180
+2278155;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022c30b;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;;;;-49967.1;8097.4;3470;180
+2278156;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022c30c;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;;;;-48903.4;8097.4;3470;180
+2279417;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022c7f9;Medidor HS;Medidor HS;Electrical Equipment;Piso 3;Piso 3;;;;-49967.1;8097.4;6720;180
+2279418;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022c7fa;Medidor HS;Medidor HS;Electrical Equipment;Piso 3;Piso 3;;;;-48903.4;8097.4;6720;180
+2280679;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022cce7;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 4-18;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 4-18;;;;-49967.1;8097.4;9970;180
+2280680;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022cce8;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 4-18;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 4-18;;;;-48903.4;8097.4;9970;180
+2281941;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022d1d5;Medidor HS;Medidor HS;Electrical Equipment;Piso 5;Piso 5;;;;-49967.1;8097.4;13220;180
+2281942;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022d1d6;Medidor HS;Medidor HS;Electrical Equipment;Piso 5;Piso 5;;;;-48903.4;8097.4;13220;180
+2283203;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022d6c3;Medidor HS;Medidor HS;Electrical Equipment;Piso 6;Piso 6;;;;-49967.1;8097.4;16470;180
+2283204;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022d6c4;Medidor HS;Medidor HS;Electrical Equipment;Piso 6;Piso 6;;;;-48903.4;8097.4;16470;180
+2284465;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022dbb1;Medidor HS;Medidor HS;Electrical Equipment;Piso 7;Piso 7;;;;-49967.1;8097.4;19720;180
+2284466;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022dbb2;Medidor HS;Medidor HS;Electrical Equipment;Piso 7;Piso 7;;;;-48903.4;8097.4;19720;180
+2285727;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022e09f;Medidor HS;Medidor HS;Electrical Equipment;Piso 8;Piso 8;;;;-49967.1;8097.4;22970;180
+2285728;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022e0a0;Medidor HS;Medidor HS;Electrical Equipment;Piso 8;Piso 8;;;;-48903.4;8097.4;22970;180
+2286989;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022e58d;Medidor HS;Medidor HS;Electrical Equipment;Piso 9;Piso 9;;;;-49967.1;8097.4;26220;180
+2286990;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022e58e;Medidor HS;Medidor HS;Electrical Equipment;Piso 9;Piso 9;;;;-48903.4;8097.4;26220;180
+2288251;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022ea7b;Medidor HS;Medidor HS;Electrical Equipment;Piso 10;Piso 10;;;;-49967.1;8097.4;29470;180
+2288252;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022ea7c;Medidor HS;Medidor HS;Electrical Equipment;Piso 10;Piso 10;;;;-48903.4;8097.4;29470;180
+2289513;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022ef69;Medidor HS;Medidor HS;Electrical Equipment;Piso 11;Piso 11;;;;-49967.1;8097.4;32720;180
+2289514;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022ef6a;Medidor HS;Medidor HS;Electrical Equipment;Piso 11;Piso 11;;;;-48903.4;8097.4;32720;180
+2290775;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022f457;Medidor HS;Medidor HS;Electrical Equipment;Piso 12;Piso 12;;;;-49967.1;8097.4;35970;180
+2290776;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022f458;Medidor HS;Medidor HS;Electrical Equipment;Piso 12;Piso 12;;;;-48903.4;8097.4;35970;180
+2292037;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022f945;Medidor HS;Medidor HS;Electrical Equipment;Piso 13;Piso 13;;;;-49967.1;8097.4;39220;180
+2292038;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022f946;Medidor HS;Medidor HS;Electrical Equipment;Piso 13;Piso 13;;;;-48903.4;8097.4;39220;180
+2293299;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022fe33;Medidor HS;Medidor HS;Electrical Equipment;Piso 14;Piso 14;;;;-49967.1;8097.4;42470;180
+2293300;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0022fe34;Medidor HS;Medidor HS;Electrical Equipment;Piso 14;Piso 14;;;;-48903.4;8097.4;42470;180
+2294561;fc8c83af-fc3e-45da-94ba-a6390082c0a0-00230321;Medidor HS;Medidor HS;Electrical Equipment;Piso 15;Piso 15;;;;-49967.1;8097.4;45720;180
+2294562;fc8c83af-fc3e-45da-94ba-a6390082c0a0-00230322;Medidor HS;Medidor HS;Electrical Equipment;Piso 15;Piso 15;;;;-48903.4;8097.4;45720;180
+2295823;fc8c83af-fc3e-45da-94ba-a6390082c0a0-0023080f;Medidor HS;Medidor HS;Electrical Equipment;Piso 16;Piso 16;;;;-49967.1;8097.4;48970;180
+2295824;fc8c83af-fc3e-45da-94ba-a6390082c0a0-00230810;Medidor HS;Medidor HS;Electrical Equipment;Piso 16;Piso 16;;;;-48903.4;8097.4;48970;180
+2297085;fc8c83af-fc3e-45da-94ba-a6390082c0a0-00230cfd;Medidor HS;Medidor HS;Electrical Equipment;Piso 17;Piso 17;;;;-49967.1;8097.4;52220;180
+2297086;fc8c83af-fc3e-45da-94ba-a6390082c0a0-00230cfe;Medidor HS;Medidor HS;Electrical Equipment;Piso 17;Piso 17;;;;-48903.4;8097.4;52220;180
+2298347;fc8c83af-fc3e-45da-94ba-a6390082c0a0-002311eb;Medidor HS;Medidor HS;Electrical Equipment;Piso 18;Piso 18;;;;-49967.1;8097.4;55470;180
+2298348;fc8c83af-fc3e-45da-94ba-a6390082c0a0-002311ec;Medidor HS;Medidor HS;Electrical Equipment;Piso 18;Piso 18;;;;-48903.4;8097.4;55470;180
+3259051;7c7f3b7c-4683-460c-8170-2a41ed719da2-0031baab;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;;;;-59103;5494.6;220;270
+3259052;7c7f3b7c-4683-460c-8170-2a41ed719da2-0031baac;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;;;;-59103;6447.9;220;270
+3298063;21a27f50-9207-442b-8ad4-d504c5bc268d-0032530f;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;;;;-37855.6;8097.4;3470;180
+3298363;21a27f50-9207-442b-8ad4-d504c5bc268d-0032543b;Medidor HS;Medidor HS;Electrical Equipment;Piso 3;Piso 3;;;;-37855.6;8097.4;6720;180
+3298366;21a27f50-9207-442b-8ad4-d504c5bc268d-0032543e;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 4-18;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 4-18;;;;-37855.6;8097.4;9970;180
+3298369;21a27f50-9207-442b-8ad4-d504c5bc268d-00325441;Medidor HS;Medidor HS;Electrical Equipment;Piso 5;Piso 5;;;;-37855.6;8097.4;13220;180
+3298372;21a27f50-9207-442b-8ad4-d504c5bc268d-00325444;Medidor HS;Medidor HS;Electrical Equipment;Piso 6;Piso 6;;;;-37855.6;8097.4;16470;180
+3298375;21a27f50-9207-442b-8ad4-d504c5bc268d-00325447;Medidor HS;Medidor HS;Electrical Equipment;Piso 7;Piso 7;;;;-37855.6;8097.4;19720;180
+3298378;21a27f50-9207-442b-8ad4-d504c5bc268d-0032544a;Medidor HS;Medidor HS;Electrical Equipment;Piso 8;Piso 8;;;;-37855.6;8097.4;22970;180
+3298381;21a27f50-9207-442b-8ad4-d504c5bc268d-0032544d;Medidor HS;Medidor HS;Electrical Equipment;Piso 9;Piso 9;;;;-37855.6;8097.4;26220;180
+3298384;21a27f50-9207-442b-8ad4-d504c5bc268d-00325450;Medidor HS;Medidor HS;Electrical Equipment;Piso 10;Piso 10;;;;-37855.6;8097.4;29470;180
+3298387;21a27f50-9207-442b-8ad4-d504c5bc268d-00325453;Medidor HS;Medidor HS;Electrical Equipment;Piso 11;Piso 11;;;;-37855.6;8097.4;32720;180
+3298390;21a27f50-9207-442b-8ad4-d504c5bc268d-00325456;Medidor HS;Medidor HS;Electrical Equipment;Piso 12;Piso 12;;;;-37855.6;8097.4;35970;180
+3298393;21a27f50-9207-442b-8ad4-d504c5bc268d-00325459;Medidor HS;Medidor HS;Electrical Equipment;Piso 13;Piso 13;;;;-37855.6;8097.4;39220;180
+3298396;21a27f50-9207-442b-8ad4-d504c5bc268d-0032545c;Medidor HS;Medidor HS;Electrical Equipment;Piso 14;Piso 14;;;;-37855.6;8097.4;42470;180
+3298399;21a27f50-9207-442b-8ad4-d504c5bc268d-0032545f;Medidor HS;Medidor HS;Electrical Equipment;Piso 15;Piso 15;;;;-37855.6;8097.4;45720;180
+3298402;21a27f50-9207-442b-8ad4-d504c5bc268d-00325462;Medidor HS;Medidor HS;Electrical Equipment;Piso 16;Piso 16;;;;-37855.6;8097.4;48970;180
+3298405;21a27f50-9207-442b-8ad4-d504c5bc268d-00325465;Medidor HS;Medidor HS;Electrical Equipment;Piso 17;Piso 17;;;;-37855.6;8097.4;52220;180
+3298408;21a27f50-9207-442b-8ad4-d504c5bc268d-00325468;Medidor HS;Medidor HS;Electrical Equipment;Piso 18;Piso 18;;;;-37855.6;8097.4;55470;180
+3298411;21a27f50-9207-442b-8ad4-d504c5bc268d-0032546b;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 19-21;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 19-21;;;;-37855.6;8097.4;58720;180
+3298414;21a27f50-9207-442b-8ad4-d504c5bc268d-0032546e;Medidor HS;Medidor HS;Electrical Equipment;Piso 20;Piso 20;;;;-37855.6;8097.4;61970;180
+3298417;21a27f50-9207-442b-8ad4-d504c5bc268d-00325471;Medidor HS;Medidor HS;Electrical Equipment;Piso 21;Piso 21;;;;-37855.6;8097.4;65220;180
+3298420;21a27f50-9207-442b-8ad4-d504c5bc268d-00325474;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1;;;;-37855.6;8097.4;220;180
+3681748;5572e4c3-143a-4854-b1b1-a3af11659941-00382dd4;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;;;;-59103;5494.6;3470;270
+3681749;5572e4c3-143a-4854-b1b1-a3af11659941-00382dd5;Medidor HS;Medidor HS;Electrical Equipment;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3;;;;-59103;6447.9;3470;270
+3689064;5572e4c3-143a-4854-b1b1-a3af11659941-00384a68;Medidor HS;Medidor HS;Electrical Equipment;Piso 3;Piso 3;;;;-59103;5494.6;6720;270
+3689065;5572e4c3-143a-4854-b1b1-a3af11659941-00384a69;Medidor HS;Medidor HS;Electrical Equipment;Piso 3;Piso 3;;;;-59103;6447.9;6720;270
+5529781;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460b5;M_Climatizacion;Interruptor Ventilador;Electrical Fixtures;Piso 5;;Piso 5;Walls;2766040;2255.9;13550.6;14420;240
+5529787;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460bb;M_Climatizacion;Interruptor Ventilador;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765803;3258;13391.6;14320;240
+5529739;08c9c46f-30b6-4948-a30c-70fbbfa0f770-0054608b;M_ClimatizacionV;Ventilador;Electrical Fixtures;Piso 5;;Piso 5;Ceilings;2766255;1816.5;15179.2;15820;180
+5529775;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460af;M_ClimatizacionV;Ventilador;Electrical Fixtures;Piso 5;;Piso 5;Ceilings;2766255;4733.2;13692.8;15820;180
+5529723;08c9c46f-30b6-4948-a30c-70fbbfa0f770-0054607b;M_Interruptores;Simple conmutable;Electrical Fixtures;Piso 5;Piso 5;Piso 5;Walls;2765812;3200.1;16520.6;14320;90
+5529732;08c9c46f-30b6-4948-a30c-70fbbfa0f770-00546084;M_Interruptores;Simple conmutable;Electrical Fixtures;Piso 5;Piso 5;Piso 5;Walls;4829374;3378;15274.1;14320;180
+5529783;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460b7;M_Interruptores;Simple;Electrical Fixtures;Piso 5;Piso 5;Piso 5;Walls;2766040;2198.2;13400.6;14320;270
+5529798;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460c6;M_Interruptores;Simple;Electrical Fixtures;Piso 5;Piso 5;Piso 5;Walls;2765793;2169.1;12090.1;14320;90
+5529807;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460cf;M_Interruptores;Triple;Electrical Fixtures;Piso 5;Piso 5;Piso 5;Walls;2765799;3253.7;11899.3;14320;270
+5529840;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460f0;M_Interruptores;Simple;Electrical Fixtures;Piso 5;Piso 5;Piso 5;Walls;2765798;3253.7;10087.7;14320;270
+5529727;08c9c46f-30b6-4948-a30c-70fbbfa0f770-0054607f;M_Toma doble;GFCI;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765813;3576.6;16351.8;13520;240
+5529730;08c9c46f-30b6-4948-a30c-70fbbfa0f770-00546082;M_Toma doble;Normal;Electrical Fixtures;Piso 5;;Piso 5;Walls;3869282;480.7;16258.6;13520;240
+5529736;08c9c46f-30b6-4948-a30c-70fbbfa0f770-00546088;M_Toma doble;Normal;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765803;3142.6;15224.1;13512.7;120
+5529757;08c9c46f-30b6-4948-a30c-70fbbfa0f770-0054609d;M_Toma doble;Normal;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765803;3258;14253.9;13520;240
+5529763;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460a3;M_Toma doble;Normal;Electrical Fixtures;Piso 5;;Piso 5;Walls;3869282;480.7;14079.1;13520;240
+5529778;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460b2;M_Toma doble;Normal;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765814;6405.8;13634.1;13520;120
+5529796;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460c4;M_Toma doble;Normal;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765817;5531.2;12075.1;14183.1;270
+5529802;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460ca;M_Toma doble;Normal;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765817;5080.3;11975.1;13520;120
+5529805;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460cd;M_Toma doble;Normal;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765817;5538;11959.7;14270;180
+5529811;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460d3;M_Toma doble;GFCI;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765799;3196;11917.4;14320;120
+5529814;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460d6;M_Toma doble;GFCI;Electrical Fixtures;Piso 5;;Piso 5;Walls;2765818;5080.3;11867.4;14070;120
+5529846;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460f6;M_Toma doble;Normal;Electrical Fixtures;;;;;;4704.3;9690.7;13920;90
+5529849;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460f9;M_Toma doble;Normal;Electrical Fixtures;;;;;;4962.9;9690.7;14870;90
+5529852;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460fc;M_Toma doble;GFCI;Electrical Fixtures;Piso 5;;Piso 5;Walls;2766520;2696.5;9680.7;14270;90
+5529855;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460ff;M_Toma doble;GFCI;Electrical Fixtures;;;;;;5515.7;9690.7;14270;90
+5529721;08c9c46f-30b6-4948-a30c-70fbbfa0f770-00546079;M_Iluminacion;SONO FLEX 13 trim;Lighting Fixtures;Piso 5;;Piso 5;Ceilings;2766255;4836.1;17193.1;15820;180
+5529751;08c9c46f-30b6-4948-a30c-70fbbfa0f770-00546097;M_Iluminacion;SONO FLEX 10 trim;Lighting Fixtures;Piso 5;;Piso 5;Ceilings;2766255;3639.4;14263;15820;180
+5529754;08c9c46f-30b6-4948-a30c-70fbbfa0f770-0054609a;M_Iluminacion;SONO FLEX 10 trim;Lighting Fixtures;Piso 5;;Piso 5;Ceilings;2766255;5740.9;14263;15820;180
+5529766;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460a6;M_Iluminacion;SONO FLEX 13 trim;Lighting Fixtures;Piso 5;;Piso 5;Ceilings;2766255;1809.6;14064.5;15820;180
+5529790;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460be;M_Iluminacion;SONO FLEX 10 trim;Lighting Fixtures;Piso 5;;Piso 5;Ceilings;2766255;2731.3;12596.8;15820;180
+5529793;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460c1;M_Iluminacion;SONO FLEX 13 trim;Lighting Fixtures;Piso 5;;Piso 5;Ceilings;2766255;1599.1;12158.6;15820;180
+5529832;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460e8;M_Iluminacion;SONO FLEX 22 trim;Lighting Fixtures;Piso 5;;Piso 5;Ceilings;2766255;5740.9;10821.3;15820;180
+5529835;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460eb;M_Iluminacion;SONO FLEX 22 trim;Lighting Fixtures;Piso 5;;Piso 5;Ceilings;2766255;3798.8;10816;15820;180
+5529838;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460ee;M_Iluminacion;SONO FLEX 13 trim;Lighting Fixtures;Piso 5;;Piso 5;Ceilings;2766255;2777.7;10432.1;15820;180
+5529742;08c9c46f-30b6-4948-a30c-70fbbfa0f770-0054608e;M_Comunicaciones;Datos;Telephone Devices;Piso 5;;Piso 5;Walls;2765803;3142.6;14774.1;13520;120
+5529745;08c9c46f-30b6-4948-a30c-70fbbfa0f770-00546091;M_Comunicaciones;Datos;Telephone Devices;Piso 5;;Piso 5;Walls;2765803;3142.6;14924.1;13520;120
+5529748;08c9c46f-30b6-4948-a30c-70fbbfa0f770-00546094;M_Comunicaciones;Datos;Telephone Devices;Piso 5;;Piso 5;Walls;2765803;3142.6;15074.1;13520;120
+5529760;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460a0;M_Comunicaciones;Datos;Telephone Devices;Piso 5;;Piso 5;Walls;2765803;3258;14161.5;13520;240
+5529769;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460a9;M_Comunicaciones;Datos;Telephone Devices;Piso 5;;Piso 5;Walls;2765803;3258;14021.5;13520;240
+5529772;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460ac;M_Comunicaciones;Datos;Telephone Devices;Piso 5;;Piso 5;Walls;2765803;3258;13881.9;13520;240
+5529817;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460d9;M_Comunicaciones;Datos;Telephone Devices;;;;;;5080.3;11397.4;13520;120
+5529823;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460df;M_Comunicaciones;Datos;Telephone Devices;;;;;;5080.3;11497.4;13520;120
+5529826;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460e2;M_Comunicaciones;Datos;Telephone Devices;Piso 5;;Piso 5;Walls;2765818;5080.3;11597.4;13520;120
+5529829;08c9c46f-30b6-4948-a30c-70fbbfa0f770-005460e5;M_Comunicaciones;Datos;Telephone Devices;Piso 5;;Piso 5;Walls;2765818;5080.3;11697.4;13520;120

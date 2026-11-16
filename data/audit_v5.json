@@ -1,0 +1,747 @@
+{
+  "levels": [
+    {
+      "name": "Sotano", 
+      "id": 208719, 
+      "elev_m": -1.0800000000000001
+    }, 
+    {
+      "name": "CLASIFICACIÓN ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "id": 933, 
+      "elev_m": 0.22
+    }, 
+    {
+      "name": "CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 2-3", 
+      "id": 1679, 
+      "elev_m": 3.4700000000000002
+    }, 
+    {
+      "name": "Piso 3", 
+      "id": 192424, 
+      "elev_m": 6.7199999999999998
+    }, 
+    {
+      "name": "CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 4-18", 
+      "id": 192468, 
+      "elev_m": 9.9700000000000006
+    }, 
+    {
+      "name": "Piso 5", 
+      "id": 192512, 
+      "elev_m": 13.220000000000001
+    }, 
+    {
+      "name": "Piso 6", 
+      "id": 192663, 
+      "elev_m": 16.469999999999999
+    }, 
+    {
+      "name": "Piso 7", 
+      "id": 192707, 
+      "elev_m": 19.719999999999999
+    }, 
+    {
+      "name": "Piso 8", 
+      "id": 192751, 
+      "elev_m": 22.969999999999999
+    }, 
+    {
+      "name": "Piso 9", 
+      "id": 192795, 
+      "elev_m": 26.219999999999999
+    }, 
+    {
+      "name": "Piso 10", 
+      "id": 192839, 
+      "elev_m": 29.469999999999999
+    }, 
+    {
+      "name": "Piso 11", 
+      "id": 192883, 
+      "elev_m": 32.719999999999999
+    }, 
+    {
+      "name": "Piso 12", 
+      "id": 192927, 
+      "elev_m": 35.969999999999999
+    }, 
+    {
+      "name": "Piso 13", 
+      "id": 192971, 
+      "elev_m": 39.219999999999999
+    }, 
+    {
+      "name": "Piso 14", 
+      "id": 193015, 
+      "elev_m": 42.469999999999999
+    }, 
+    {
+      "name": "Piso 15", 
+      "id": 193059, 
+      "elev_m": 45.719999999999999
+    }, 
+    {
+      "name": "Piso 16", 
+      "id": 193103, 
+      "elev_m": 48.969999999999999
+    }, 
+    {
+      "name": "Piso 17", 
+      "id": 193147, 
+      "elev_m": 52.219999999999999
+    }, 
+    {
+      "name": "Piso 18", 
+      "id": 193191, 
+      "elev_m": 55.469999999999999
+    }, 
+    {
+      "name": "CLASIFICACIÓN ACABADOS MAMPOSTERIA PISO 19-21", 
+      "id": 193235, 
+      "elev_m": 58.719999999999999
+    }, 
+    {
+      "name": "Piso 20", 
+      "id": 193279, 
+      "elev_m": 61.969999999999999
+    }, 
+    {
+      "name": "Piso 21", 
+      "id": 193323, 
+      "elev_m": 65.219999999999999
+    }, 
+    {
+      "name": "Cubierta", 
+      "id": 193367, 
+      "elev_m": 68.469999999999999
+    }, 
+    {
+      "name": "SobreCubierta", 
+      "id": 208852, 
+      "elev_m": 71.870000000000005
+    }
+  ], 
+  "hosts": [
+    {
+      "zmax_m": 72.540000000000006, 
+      "link_id": null, 
+      "src": "doc", 
+      "cat": "WALL", 
+      "count": 40114, 
+      "zmin_m": -1.0800000000000001
+    }, 
+    {
+      "zmax_m": 68.859999999999999, 
+      "link_id": null, 
+      "src": "doc", 
+      "cat": "CEILING", 
+      "count": 556, 
+      "zmin_m": 2.7200000000000002
+    }, 
+    {
+      "zmax_m": 71.920000000000002, 
+      "link_id": null, 
+      "src": "doc", 
+      "cat": "FLOOR", 
+      "count": 2549, 
+      "zmin_m": -1.4800000000000000
+    }
+  ], 
+  "doc": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02", 
+  "script_version": "5.0", 
+  "links": [], 
+  "family_types": [
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "120V", 
+      "type_id": 5419347, 
+      "connectors": 0, 
+      "family": "M_Caja de conexiones hexagonal", 
+      "placement": "OneLevelBased"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Estándar", 
+      "type_id": 5427098, 
+      "connectors": 0, 
+      "family": "M_Toma - 220V", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "GFCI", 
+      "type_id": 5428293, 
+      "connectors": 0, 
+      "family": "M_Toma doble", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Normal", 
+      "type_id": 5428295, 
+      "connectors": 0, 
+      "family": "M_Toma doble", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Intemperie", 
+      "type_id": 5429480, 
+      "connectors": 0, 
+      "family": "M_Toma resistente a la intemperie", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Telefono", 
+      "type_id": 5490385, 
+      "connectors": 0, 
+      "family": "M_Comunicaciones", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Datos", 
+      "type_id": 5490387, 
+      "connectors": 0, 
+      "family": "M_Comunicaciones", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "100 Cuadrada", 
+      "type_id": 5500142, 
+      "connectors": 0, 
+      "family": "M_Cajas de conexiones - Sin carga", 
+      "placement": "OneLevelBased"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Interruptor Ventilador", 
+      "type_id": 5676899, 
+      "connectors": 0, 
+      "family": "M_Climatizacion", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Ventilador", 
+      "type_id": 5678253, 
+      "connectors": 0, 
+      "family": "M_ClimatizacionV", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Conmutable", 
+      "type_id": 5681268, 
+      "connectors": 0, 
+      "family": "M_Interruptores", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Simple", 
+      "type_id": 5681270, 
+      "connectors": 0, 
+      "family": "M_Interruptores", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Doble", 
+      "type_id": 5681272, 
+      "connectors": 0, 
+      "family": "M_Interruptores", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Triple", 
+      "type_id": 5681274, 
+      "connectors": 0, 
+      "family": "M_Interruptores", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Doble conmutable", 
+      "type_id": 5681276, 
+      "connectors": 0, 
+      "family": "M_Interruptores", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Simple conmutable", 
+      "type_id": 5681278, 
+      "connectors": 0, 
+      "family": "M_Interruptores", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Electrical Fixtures", 
+      "type": "Triple conmutable", 
+      "type_id": 5681280, 
+      "connectors": 0, 
+      "family": "M_Interruptores", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Lighting Fixtures", 
+      "type": "SONO FLEX 10 trim", 
+      "type_id": 5683342, 
+      "connectors": 0, 
+      "family": "M_Iluminacion", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Lighting Fixtures", 
+      "type": "﻿SONO FLEX 13 trim", 
+      "type_id": 5683344, 
+      "connectors": 0, 
+      "family": "M_Iluminacion", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Lighting Fixtures", 
+      "type": "﻿SONO FLEX 22 trim", 
+      "type_id": 5683346, 
+      "connectors": 0, 
+      "family": "M_Iluminacion", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Lighting Devices", 
+      "type": "Piloto encendido", 
+      "type_id": 5487568, 
+      "connectors": 0, 
+      "family": "M_Interruptores de iluminación", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Communication Devices", 
+      "type": "Campana Timbre", 
+      "type_id": 5485014, 
+      "connectors": 0, 
+      "family": "M_Zumbador", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Communication Devices", 
+      "type": "Campana", 
+      "type_id": 5486276, 
+      "connectors": 0, 
+      "family": "M_Timbre", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Communication Devices", 
+      "type": "Timbre", 
+      "type_id": 5693351, 
+      "connectors": 0, 
+      "family": "M_Pulsador - Interruptor", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Data Devices", 
+      "type": "CPB24BL", 
+      "type_id": 5682198, 
+      "connectors": 0, 
+      "family": "Consolidation_Point", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Data Devices", 
+      "type": "CPB6BL", 
+      "type_id": 5682200, 
+      "connectors": 0, 
+      "family": "Consolidation_Point", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Data Devices", 
+      "type": "CPB12BL", 
+      "type_id": 5682202, 
+      "connectors": 0, 
+      "family": "Consolidation_Point", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Data Devices", 
+      "type": "CPB48BL", 
+      "type_id": 5682204, 
+      "connectors": 0, 
+      "family": "Consolidation_Point", 
+      "placement": "WorkPlaneBased"
+    }, 
+    {
+      "cat": "Mechanical Equipment", 
+      "type": "M_Extractor", 
+      "type_id": 5665347, 
+      "connectors": 0, 
+      "family": "EA", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Electrical Equipment", 
+      "type": "Medidor HS", 
+      "type_id": 706157, 
+      "connectors": 0, 
+      "family": "Medidor HS", 
+      "placement": "OneLevelBased"
+    }, 
+    {
+      "cat": "Electrical Equipment", 
+      "type": "EPB25-304C", 
+      "type_id": 5674080, 
+      "connectors": 0, 
+      "family": "E_Panel Distribucion", 
+      "placement": "OneLevelBased"
+    }, 
+    {
+      "cat": "Specialty Equipment", 
+      "type": "FJR_A_Puerta_Ascensor_0.80m", 
+      "type_id": 3184764, 
+      "connectors": 0, 
+      "family": "Puerta de ascensor residencial", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Specialty Equipment", 
+      "type": "Puerta de ascensor residencial", 
+      "type_id": 3200353, 
+      "connectors": 0, 
+      "family": "Puerta de ascensor residencial", 
+      "placement": "OneLevelBasedHosted"
+    }, 
+    {
+      "cat": "Specialty Equipment", 
+      "type": "FJR_A_Ascensor_1.82x1.80m", 
+      "type_id": 3200355, 
+      "connectors": 0, 
+      "family": "FJR_A_Ascensor", 
+      "placement": "OneLevelBasedHosted"
+    }
+  ], 
+  "executed": "2026-11-13 15:04:40", 
+  "panels": [
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 1839851
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 1839852
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2278155
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2278156
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2279417
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2279418
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2280679
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2280680
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2281941
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2281942
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2283203
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2283204
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2284465
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2284466
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2285727
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2285728
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2286989
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2286990
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2288251
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2288252
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2289513
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2289514
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2290775
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2290776
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2292037
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2292038
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2293299
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2293300
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2294561
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2294562
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2295823
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2295824
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2297085
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2297086
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2298347
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 2298348
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3259051
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3259052
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298063
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298363
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298366
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298369
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298372
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298375
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298378
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298381
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298384
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298387
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298390
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298393
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298396
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298399
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298402
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298405
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298408
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298411
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298414
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298417
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3298420
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3681748
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3681749
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3689064
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 3689065
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5577676
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5658610
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5665803
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5665804
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5665951
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5665959
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5666067
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5666077
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5666878
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5667141
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5675117
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5675158
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5675251
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5675252
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5675617
+    }, 
+    {
+      "error": "'type' object has no attribute 'FAMILY_OFFSET_PARAM'", 
+      "id": 5675658
+    }
+  ], 
+  "doc_path": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02.rvt"
+}

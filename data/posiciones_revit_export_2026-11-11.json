@@ -1,0 +1,20 @@
+{
+  "familia_tablero_revit": "E_Distribution Panel", 
+  "conduits": [], 
+  "nivel": "Piso 5", 
+  "fecha_export": "2026-10-28", 
+  "family_instances": [], 
+  "transformacion_referencia": {
+    "TY": 10.223400000000000, 
+    "TX": 6.4900000000000002, 
+    "tipo": "traslacion_pura_sin_espejo"
+  }, 
+  "ruta_documento": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt", 
+  "resumen": {
+    "total_conduits": 0, 
+    "paneles_unicos": 0, 
+    "total_family_instances": 0, 
+    "tableros_encontrados": 0
+  }, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03"
+}

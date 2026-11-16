@@ -1,0 +1,812 @@
+{
+  "familias": [
+    {
+      "familia": "Anno_View_Title", 
+      "id": 4354169, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Anno_View_Title_No_Detail_No", 
+      "id": 4354190, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Balustre 4", 
+      "id": 3387245, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Circular", 
+      "id": 183042, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "Consolidation_Point", 
+      "id": 5681300, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "COTTO Floor drain round body CT640Y1PW(HM)", 
+      "id": 5299927, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Cuerpo de marca de alzado_C?rculo-12mm", 
+      "id": 72810, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Desag?e", 
+      "id": 23716, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Dilataciones en goma baranda balcones", 
+      "id": 183073, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "E_Panel Distribucion", 
+      "id": 5670923, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "EA", 
+      "id": 5664292, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Etiqueta de llamada", 
+      "id": 14145, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Extremo de nivel", 
+      "id": 41224, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Extremo de rejilla", 
+      "id": 60900, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Extremo inicial de secci?n", 
+      "id": 41819, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_ JaboneraDucha_Corona_Palma", 
+      "id": 378877, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Angeo", 
+      "id": 3387208, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Ascensor", 
+      "id": 3200308, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Closet", 
+      "id": 477716, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Closet_L", 
+      "id": 1579275, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Ducha_Corona_Monocontrol_Palma_Pro", 
+      "id": 378802, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Espejo", 
+      "id": 379183, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Meson_Quarztone_GrisClasico", 
+      "id": 454516, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_MuebleBa?o__MarmolSinuDark_CinzaCobalto_0.70x0.56m", 
+      "id": 1194270, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_MuebleBa?o__MarmolSinuDark_CinzaCobalto_0.70x0.60m", 
+      "id": 444783, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_MuebleBa?o__MarmolSinuDark_CinzaCobalto_0.90x0.64m", 
+      "id": 415809, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_MuebleCocina_L_Quarztone_GrisClasico_1.80x0.60m", 
+      "id": 572708, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.65x0.60m", 
+      "id": 469022, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.82x0.60m", 
+      "id": 706392, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_MuebleCocina_Quarztone_GrisClasico_2.60x0.60m", 
+      "id": 1134263, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Percha_Corona_Palma", 
+      "id": 379201, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Perfil_Celosia", 
+      "id": 486805, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Portarrollos_Corona_Palma", 
+      "id": 379030, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Puerta_Antipanico_Aluminio", 
+      "id": 3184625, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Puerta_Batiente_Aluminio", 
+      "id": 483092, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Puerta_Batiente_Dobledilatacion_Marcosuperior_Madera", 
+      "id": 282729, 
+      "simbolos": [
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Puerta_Batiente_Persiana_Aluminio_1Fija", 
+      "id": 1454782, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Puerta_Deslizante_1hoja_Madera", 
+      "id": 309899, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Puerta_Plegable_2hojas_Madera", 
+      "id": 990289, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_PuertaVentana_2hojas", 
+      "id": 291928, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_PuertaVentana_4hojas", 
+      "id": 319084, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Sanitario_Corona_Aluvia", 
+      "id": 379505, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Shut_AceroInoxidable", 
+      "id": 3198436, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Toallero_Argolla_Corona_Palma", 
+      "id": 379352, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Ventana_Batiente_2hojas", 
+      "id": 297099, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Ventana_Corrediza_2hojas", 
+      "id": 305301, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas", 
+      "id": 616239, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Ventana_Rejilla", 
+      "id": 301762, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Ventana_Rejilla L-146", 
+      "id": 3387297, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_A_Ventana_Rejilla L-146_Sencilla", 
+      "id": 3387262, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "FJR_GuardaEscoba", 
+      "id": 378782, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Formato pliego 100x70 Nakua", 
+      "id": 4353533, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Hormig?n-Rectangular-Pilar", 
+      "id": 1734388, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Caja de conexiones de tubo - Cruz - PVC", 
+      "id": 5611966, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Caja de conexiones de tubo - Te - PVC", 
+      "id": 5612830, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Caja de conexiones hexagonal", 
+      "id": 5638494, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Cajas de conexiones - Sin carga", 
+      "id": 5499057, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Casquillo reductor de tubo - PVC", 
+      "id": 5614573, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Climatizacion", 
+      "id": 5675723, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_ClimatizacionV", 
+      "id": 5677113, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Codo de tubo - Extremo abocardado - PVC", 
+      "id": 5637065, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Codo de tubo - Sin uniones - RNC", 
+      "id": 5632414, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Comunicaciones", 
+      "id": 5489554, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Cota de elevaci?n - Destino rellenado", 
+      "id": 62534, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Extremo abocardado de tubo - PVC", 
+      "id": 5629514, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "id": 5682445, 
+      "simbolos": [
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "id": 5678683, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Interruptores de iluminaci?n", 
+      "id": 5486381, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Panel vac?o", 
+      "id": 183055, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Timbre", 
+      "id": 5485050, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Toma - 220V", 
+      "id": 5425931, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Toma de tel?fono - Datos", 
+      "id": 5475987, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "id": 5427135, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Toma resistente a la intemperie", 
+      "id": 5428322, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "M_Zumbador", 
+      "id": 5483874, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Medidor HS", 
+      "id": 705321, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Montante angular cuadril?tero", 
+      "id": 1009, 
+      "simbolos": []
+    }, 
+    {
+      "familia": "Montante angular en L", 
+      "id": 997, 
+      "simbolos": []
+    }, 
+    {
+      "familia": "Montante angular en V", 
+      "id": 1001, 
+      "simbolos": []
+    }, 
+    {
+      "familia": "Montante angular trapezoidal", 
+      "id": 1005, 
+      "simbolos": []
+    }, 
+    {
+      "familia": "Montante circular", 
+      "id": 993, 
+      "simbolos": []
+    }, 
+    {
+      "familia": "Montante rectangular", 
+      "id": 989, 
+      "simbolos": [
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "Panel de sistema", 
+      "id": 955, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "Perfil anclado a escalera", 
+      "id": 3184543, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Perfil anclado a pared", 
+      "id": 3184567, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Perfil circular de barandilla", 
+      "id": 16792, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "Perfil huella - exterior", 
+      "id": 22614, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Perfil intermedio baranda escalera", 
+      "id": 3184770, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Perfil montante de muro cortina", 
+      "id": 183345, 
+      "simbolos": [
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "Perfil muro baranda balcones", 
+      "id": 183088, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Perfil superior baranda balcones", 
+      "id": 183101, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Perfil vidrio baranda balcones", 
+      "id": 183180, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Puerta de ascensor residencial", 
+      "id": 3184601, 
+      "simbolos": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "Puntero de marca de alzado_C?rculo-12mm", 
+      "id": 73030, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "Rectangular", 
+      "id": 16291, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Referencia a vista", 
+      "id": 96516, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "S?mbolo de cota vertical", 
+      "id": 26397, 
+      "simbolos": [
+        ""
+      ]
+    }, 
+    {
+      "familia": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower", 
+      "id": 5044170, 
+      "simbolos": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia": "Titulo de vista", 
+      "id": 58507, 
+      "simbolos": [
+        ""
+      ]
+    }
+  ], 
+  "total_familias": 99, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03"
+}

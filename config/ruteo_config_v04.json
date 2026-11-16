@@ -13,7 +13,9 @@
     "banda": "Arranca en 2.65 m para librar la estructura del cielorraso, con ~10 cm de holgura segun cruces.",
     "extremos_sin_aparato": "Cajas de conexion hexagonales previas a luminaria o ventilador.",
     "herencia_cables": "Aprobada entre tramos vecinos.",
-    "ancla": "Las coordenadas del DXF no coinciden con el modelo Revit; el offset se calcula con el panel TB-Parcial como ancla (regla G7 del proyecto)."
+    "ancla": "Las coordenadas del DXF no coinciden con el modelo Revit; el offset se calcula con el panel TB-Parcial como ancla (regla G7 del proyecto).",
+    "material_conduit_interior": "PVC rigido dentro del apartamento (veredicto del operador, 2026-11-16).",
+    "material_conduit_exterior": "SCH40 fuera del apartamento (veredicto del operador, 2026-11-16)."
   },
   "zona": {
     "nombre": "apartamento",

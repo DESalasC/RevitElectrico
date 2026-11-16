@@ -1,11 +1,11 @@
 {
-  "fallos": [], 
-  "creados": 49, 
+  "modo": "aplicar", 
   "delta_panel_m": 0.038300000000000001, 
   "existentes": 220, 
   "omitidos": 0, 
-  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
-  "modo": "aplicar", 
   "panel_id": 5665951, 
-  "a_crear": 49
+  "creados": 49, 
+  "a_crear": 49, 
+  "fallos": [], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03"
 }

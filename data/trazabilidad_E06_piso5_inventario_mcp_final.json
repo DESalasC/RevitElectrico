@@ -1,0 +1,454 @@
+{
+  "sin_guid": 0, 
+  "fecha": "2026-11-12", 
+  "movidos": 44, 
+  "err_move": 0, 
+  "no_encontrados": 0, 
+  "con_guid": 44, 
+  "script_version": "mcp_e06_final_move_v1-2026-11-12", 
+  "lote_guid": "46c3f138-025d-47d4-b24a-41cd21181a58", 
+  "total_mapa": 44, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "elementos": [
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695985", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f1", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.420000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695967", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9df", 
+      "z_real_m": 14.420000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 13.520000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695963", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9db", 
+      "z_real_m": 13.520000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 13.520000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695957", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d5", 
+      "z_real_m": 13.520000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 13.520000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695981", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ed", 
+      "z_real_m": 13.520000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 13.520000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695956", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d4", 
+      "z_real_m": 13.520000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695951", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9cf", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695988", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f4", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695978", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ea", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695982", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ee", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695970", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e2", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695958", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d6", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695960", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d8", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695989", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f5", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695961", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d9", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695949", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9cd", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695968", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e0", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695962", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9da", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695959", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d7", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695984", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f0", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 13.520000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695964", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9dc", 
+      "z_real_m": 13.520000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.420000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695986", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f2", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695965", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9dd", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695974", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e6", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695975", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e7", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695948", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9cc", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695987", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f3", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695950", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ce", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 13.520000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695980", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ec", 
+      "z_real_m": 13.520000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695971", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e3", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695954", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d2", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695973", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e5", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695990", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f6", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695977", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e9", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.420000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695969", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e1", 
+      "z_real_m": 14.420000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695953", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d1", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695976", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e8", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695979", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9eb", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695966", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9de", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 15.820000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695983", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ef", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 13.520000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695955", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d3", 
+      "z_real_m": 13.520000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695952", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d0", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.320000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695972", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e4", 
+      "z_real_m": 14.320000000000000, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }, 
+    {
+      "accion": "ok_guid", 
+      "z_m": 14.420000000000000, 
+      "familia": "", 
+      "nombre": "", 
+      "element_id": "5695991", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f7", 
+      "z_real_m": -0.0, 
+      "guid_asignado": "46c3f138-025d-47d4-b24a-41cd21181a58"
+    }
+  ]
+}

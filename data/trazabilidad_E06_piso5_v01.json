@@ -1,0 +1,603 @@
+{
+  "abortado": false, 
+  "apartamento": "E06", 
+  "categorias_con_parametro": [], 
+  "categorias_faltantes": [
+    "Lighting Fixtures", 
+    "Electrical Fixtures", 
+    "Communication Devices", 
+    "Data Devices"
+  ], 
+  "con_guid": 0, 
+  "creados_con_correccion": 0, 
+  "creados_ok": 0, 
+  "dispositivos": [
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "Bala Stil Led 13W", 
+      "familia": "M_Iluminacion", 
+      "guid": null, 
+      "n": 1, 
+      "simbolo": "SONO FLEX 13 trim", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-I-S-C1-5A", 
+      "familia": "M_Interruptores", 
+      "guid": null, 
+      "n": 2, 
+      "simbolo": "Conmutable", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 3, 
+      "simbolo": "GFCI", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 4, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-I-S-C1-5A", 
+      "familia": "M_Interruptores", 
+      "guid": null, 
+      "n": 5, 
+      "simbolo": "Conmutable", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 6, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-F-VENT", 
+      "familia": "M_ClimatizacionV", 
+      "guid": null, 
+      "n": 7, 
+      "simbolo": "Ventilador", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-TEL", 
+      "familia": "M_Comunicaciones", 
+      "guid": null, 
+      "n": 8, 
+      "simbolo": "Telefono", 
+      "z_objetivo_m": 13.520000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-TEL", 
+      "familia": "M_Comunicaciones", 
+      "guid": null, 
+      "n": 9, 
+      "simbolo": "Telefono", 
+      "z_objetivo_m": 13.520000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-TEL", 
+      "familia": "M_Comunicaciones", 
+      "guid": null, 
+      "n": 10, 
+      "simbolo": "Telefono", 
+      "z_objetivo_m": 13.520000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "Bala Stil Led 10W", 
+      "familia": "M_Iluminacion", 
+      "guid": null, 
+      "n": 11, 
+      "simbolo": "SONO FLEX 10 trim", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "Bala Stil Led 10W", 
+      "familia": "M_Iluminacion", 
+      "guid": null, 
+      "n": 12, 
+      "simbolo": "SONO FLEX 10 trim", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 13, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 14, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "Bala Stil Led 13W", 
+      "familia": "M_Iluminacion", 
+      "guid": null, 
+      "n": 15, 
+      "simbolo": "SONO FLEX 13 trim", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-TEL", 
+      "familia": "M_Comunicaciones", 
+      "guid": null, 
+      "n": 16, 
+      "simbolo": "Telefono", 
+      "z_objetivo_m": 13.520000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-TEL", 
+      "familia": "M_Comunicaciones", 
+      "guid": null, 
+      "n": 17, 
+      "simbolo": "Telefono", 
+      "z_objetivo_m": 13.520000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-F-VENT", 
+      "familia": "M_ClimatizacionV", 
+      "guid": null, 
+      "n": 18, 
+      "simbolo": "Ventilador", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 19, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-F-CONTROL", 
+      "familia": "M_Climatizacion", 
+      "guid": null, 
+      "n": 20, 
+      "simbolo": "Interruptor Ventilador", 
+      "z_objetivo_m": 14.420000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-I-S-1-5A", 
+      "familia": "M_Interruptores", 
+      "guid": null, 
+      "n": 21, 
+      "simbolo": "Simple", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-F-CONTROL", 
+      "familia": "M_Climatizacion", 
+      "guid": null, 
+      "n": 22, 
+      "simbolo": "Interruptor Ventilador", 
+      "z_objetivo_m": 14.420000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "Bala Stil Led 10W", 
+      "familia": "M_Iluminacion", 
+      "guid": null, 
+      "n": 23, 
+      "simbolo": "SONO FLEX 10 trim", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "Bala Stil Led 13W", 
+      "familia": "M_Iluminacion", 
+      "guid": null, 
+      "n": 24, 
+      "simbolo": "SONO FLEX 13 trim", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 25, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-I-S-1-5A", 
+      "familia": "M_Interruptores", 
+      "guid": null, 
+      "n": 26, 
+      "simbolo": "Simple", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 27, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 28, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "S3", 
+      "familia": "M_Interruptores", 
+      "guid": null, 
+      "n": 29, 
+      "simbolo": "Triple", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 30, 
+      "simbolo": "GFCI", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 31, 
+      "simbolo": "GFCI", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-NET-PAU", 
+      "familia": "Consolidation_Point", 
+      "guid": null, 
+      "n": 32, 
+      "simbolo": "CPB24BL", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-TEL", 
+      "familia": "M_Comunicaciones", 
+      "guid": null, 
+      "n": 33, 
+      "simbolo": "Telefono", 
+      "z_objetivo_m": 13.520000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-TEL", 
+      "familia": "M_Comunicaciones", 
+      "guid": null, 
+      "n": 34, 
+      "simbolo": "Telefono", 
+      "z_objetivo_m": 13.520000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "Bala Stil Led 22W", 
+      "familia": "M_Iluminacion", 
+      "guid": null, 
+      "n": 35, 
+      "simbolo": "SONO FLEX 22 trim", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "Bala Stil Led 22W", 
+      "familia": "M_Iluminacion", 
+      "guid": null, 
+      "n": 36, 
+      "simbolo": "SONO FLEX 22 trim", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "Bala Stil Led 13W", 
+      "familia": "M_Iluminacion", 
+      "guid": null, 
+      "n": 37, 
+      "simbolo": "SONO FLEX 13 trim", 
+      "z_objetivo_m": 15.820000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-I-S-1-5A", 
+      "familia": "M_Interruptores", 
+      "guid": null, 
+      "n": 38, 
+      "simbolo": "Simple", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-CAMPANA", 
+      "familia": "M_Zumbador", 
+      "guid": null, 
+      "n": 39, 
+      "simbolo": "Campana Timbre", 
+      "z_objetivo_m": 14.420000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 40, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 41, 
+      "simbolo": "Normal", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 42, 
+      "simbolo": "GFCI", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "familia": "M_Toma doble", 
+      "guid": null, 
+      "n": 43, 
+      "simbolo": "GFCI", 
+      "z_objetivo_m": 14.320000000000000, 
+      "z_real_m": null
+    }, 
+    {
+      "accion": "simbolo_no_encontrado", 
+      "bloque": "ELEC-TIMBRE", 
+      "familia": "M_Pulsador - Interruptor", 
+      "guid": null, 
+      "n": 44, 
+      "simbolo": "Timbre", 
+      "z_objetivo_m": 14.420000000000000, 
+      "z_real_m": null
+    }
+  ], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "dry_run": false, 
+  "elementos_previos_del_lote": 0, 
+  "fallidos": 44, 
+  "lote_guid": "46c3f138-025d-47d4-b24a-41cd21181a58", 
+  "motivo_aborto": "Rollback por 44 fallidos", 
+  "nivel_esperado": "Piso 5", 
+  "parametro": "RevitElectrico_Lote", 
+  "por_estrategia": {}, 
+  "ruta_documento": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt", 
+  "script": "F6_CREAR_DISPOSITIVOS_E06_v01", 
+  "script_version": "v01-2026-11-12", 
+  "simbolos_no_encontrados": [
+    {
+      "familia_buscada": "M_Climatizacion", 
+      "simbolo_buscado": "Interruptor Ventilador", 
+      "tipos_disponibles_en_esa_familia": [
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_ClimatizacionV", 
+      "simbolo_buscado": "Ventilador", 
+      "tipos_disponibles_en_esa_familia": [
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Interruptores", 
+      "simbolo_buscado": "Triple", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Comunicaciones", 
+      "simbolo_buscado": "Telefono", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Pulsador - Interruptor", 
+      "simbolo_buscado": "Timbre", 
+      "tipos_disponibles_en_esa_familia": [
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Iluminacion", 
+      "simbolo_buscado": "SONO FLEX 10 trim", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Interruptores", 
+      "simbolo_buscado": "Conmutable", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Iluminacion", 
+      "simbolo_buscado": "SONO FLEX 22 trim", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Zumbador", 
+      "simbolo_buscado": "Campana Timbre", 
+      "tipos_disponibles_en_esa_familia": [
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Interruptores", 
+      "simbolo_buscado": "Simple", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Toma doble", 
+      "simbolo_buscado": "Normal", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Iluminacion", 
+      "simbolo_buscado": "SONO FLEX 13 trim", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "Consolidation_Point", 
+      "simbolo_buscado": "CPB24BL", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        "", 
+        "", 
+        ""
+      ]
+    }, 
+    {
+      "familia_buscada": "M_Toma doble", 
+      "simbolo_buscado": "GFCI", 
+      "tipos_disponibles_en_esa_familia": [
+        "", 
+        ""
+      ]
+    }
+  ], 
+  "sin_guid": 0, 
+  "status": "ROLLBACK", 
+  "timestamp": "2026-11-12 22:31:41", 
+  "tol_m": 0.01, 
+  "total_dataset": 44
+}

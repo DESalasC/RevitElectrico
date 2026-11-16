@@ -1,0 +1,549 @@
+{
+  "timestamp": "2026-11-14 17:28:20", 
+  "diffs": [
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-GFCI-t-15A", 
+      "handle": "103", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.038899999999999997, 
+          "dx_m": 0.0, 
+          "dy_m": 0.038899999999999997
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Interruptores", 
+      "tipo_dxf": "ELEC-I-S-1-5A", 
+      "handle": "104", 
+      "cambios": {
+        "host": {
+          "pre_id": 2766519, 
+          "post_id": 2765798
+        }, 
+        "posicion": {
+          "dz_m": 13.220000000000001, 
+          "distancia_m": 13.221100000000000, 
+          "dx_m": 0.061699999999999998, 
+          "dy_m": -0.16039999999999999
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Comunicaciones", 
+      "tipo_dxf": "ELEC-TEL", 
+      "handle": "106", 
+      "cambios": {
+        "host": {
+          "pre_id": 2765818, 
+          "post_id": -1
+        }, 
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.36780000000000002, 
+          "dx_m": 0.0, 
+          "dy_m": -0.36780000000000002
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Climatizacion", 
+      "tipo_dxf": "ELEC-F-CONTROL", 
+      "handle": "148", 
+      "cambios": {
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.041000000000000002, 
+          "dx_m": 0.0, 
+          "dy_m": -0.041000000000000002
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Climatizacion", 
+      "tipo_dxf": "ELEC-F-CONTROL", 
+      "handle": "164", 
+      "cambios": {
+        "posicion": {
+          "dz_m": -0.10000000000000001, 
+          "distancia_m": 0.10000000000000001, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0
+        }, 
+        "elevation": {
+          "delta_m": -0.10000000000000001
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Comunicaciones", 
+      "tipo_dxf": "ELEC-TEL", 
+      "handle": "1F2", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.30880000000000002, 
+          "dx_m": 0.0, 
+          "dy_m": -0.30880000000000002
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Comunicaciones", 
+      "tipo_dxf": "ELEC-TEL", 
+      "handle": "1F3", 
+      "cambios": {
+        "host": {
+          "pre_id": 2765818, 
+          "post_id": -1
+        }, 
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.1278, 
+          "dx_m": 0.0, 
+          "dy_m": -0.1278
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Comunicaciones", 
+      "tipo_dxf": "ELEC-TEL", 
+      "handle": "1F4", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.11940000000000001, 
+          "dx_m": 0.0, 
+          "dy_m": 0.11940000000000001
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Comunicaciones", 
+      "tipo_dxf": "ELEC-TEL", 
+      "handle": "1F5", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.36070000000000002, 
+          "dx_m": 0.0, 
+          "dy_m": 0.36070000000000002
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-D-t-15A", 
+      "handle": "224", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.15040000000000001
+        }, 
+        "posicion": {
+          "dz_m": -0.80000000000000004, 
+          "distancia_m": 0.80000000000000004, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0048999999999999998
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }, 
+        "elevation": {
+          "delta_m": -0.80000000000000004
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-D-t-15A", 
+      "handle": "6D", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": -0.80730000000000002, 
+          "distancia_m": 0.80779999999999996, 
+          "dx_m": 0.0, 
+          "dy_m": 0.027
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }, 
+        "elevation": {
+          "delta_m": -0.80730000000000002
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Comunicaciones", 
+      "tipo_dxf": "ELEC-TEL", 
+      "handle": "7A", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.26939999999999997, 
+          "dx_m": 0.0, 
+          "dy_m": 0.26939999999999997
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Comunicaciones", 
+      "tipo_dxf": "ELEC-TEL", 
+      "handle": "83", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.020199999999999999, 
+          "dx_m": 0.0, 
+          "dy_m": -0.020199999999999999
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-D-t-15A", 
+      "handle": "84", 
+      "cambios": {
+        "posicion": {
+          "dz_m": -0.80000000000000004, 
+          "distancia_m": 0.80000000000000004, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0
+        }, 
+        "elevation": {
+          "delta_m": -0.80000000000000004
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-D-t-15A", 
+      "handle": "85", 
+      "cambios": {
+        "posicion": {
+          "dz_m": -0.80000000000000004, 
+          "distancia_m": 0.80000000000000004, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0
+        }, 
+        "elevation": {
+          "delta_m": -0.80000000000000004
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Interruptores", 
+      "tipo_dxf": "ELEC-I-S-1-5A", 
+      "handle": "86", 
+      "cambios": {
+        "posicion": {
+          "dz_m": 13.220000000000001, 
+          "distancia_m": 13.220000000000001, 
+          "dx_m": 0.0, 
+          "dy_m": -0.024
+        }, 
+        "rotacion": {
+          "delta_deg": 180.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Interruptores", 
+      "tipo_dxf": "ELEC-I-S-1-5A", 
+      "handle": "92", 
+      "cambios": {
+        "posicion": {
+          "dz_m": 13.220000000000001, 
+          "distancia_m": 13.220000000000001, 
+          "dx_m": 0.0, 
+          "dy_m": 0.011900000000000001
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Pulsador - Interruptor", 
+      "tipo_dxf": "ELEC-TIMBRE", 
+      "handle": "96", 
+      "cambios": {
+        "posicion": {
+          "dz_m": 0.15090000000000001, 
+          "distancia_m": 0.19950000000000001, 
+          "dx_m": -0.010999999999999999, 
+          "dy_m": -0.13
+        }, 
+        "rotacion": {
+          "delta_deg": 90.0
+        }, 
+        "elevation": {
+          "delta_m": 0.15090000000000001
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-GFCI-t-15A", 
+      "handle": "9E", 
+      "cambios": {
+        "posicion": {
+          "dz_m": -0.59999999999999998, 
+          "distancia_m": 0.59999999999999998, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0
+        }, 
+        "elevation": {
+          "delta_m": -0.59999999999999998
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-D-t-15A", 
+      "handle": "BA", 
+      "cambios": {
+        "posicion": {
+          "dz_m": -0.94999999999999996, 
+          "distancia_m": 0.94999999999999996, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0
+        }, 
+        "elevation": {
+          "delta_m": -0.94999999999999996
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-GFCI-t-15A", 
+      "handle": "BC", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.0061000000000000004, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0061000000000000004
+        }, 
+        "rotacion": {
+          "delta_deg": -120.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-D-t-15A", 
+      "handle": "BD", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.028000000000000001
+        }, 
+        "posicion": {
+          "dz_m": -0.80000000000000004, 
+          "distancia_m": 0.80010000000000003, 
+          "dx_m": 0.0, 
+          "dy_m": -0.012699999999999999
+        }, 
+        "rotacion": {
+          "delta_deg": -60.0
+        }, 
+        "elevation": {
+          "delta_m": -0.80000000000000004
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Interruptores", 
+      "tipo_dxf": "ELEC-I-S-C1-5A", 
+      "handle": "CE", 
+      "cambios": {
+        "posicion": {
+          "dz_m": 13.220000000000001, 
+          "distancia_m": 13.220100000000000, 
+          "dx_m": 0.045199999999999997, 
+          "dy_m": 0.0
+        }, 
+        "rotacion": {
+          "delta_deg": 180.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-D-t-15A", 
+      "handle": "D7", 
+      "cambios": {
+        "posicion": {
+          "dz_m": -0.80000000000000004, 
+          "distancia_m": 0.80000000000000004, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0
+        }, 
+        "elevation": {
+          "delta_m": -0.80000000000000004
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-D-t-15A", 
+      "handle": "DA", 
+      "cambios": {
+        "offset_host": {
+          "delta_m": 0.1154
+        }, 
+        "posicion": {
+          "dz_m": -0.086900000000000005, 
+          "distancia_m": 0.090200000000000002, 
+          "dx_m": 0.024, 
+          "dy_m": 0.0
+        }, 
+        "rotacion": {
+          "delta_deg": 90.0
+        }, 
+        "elevation": {
+          "delta_m": -0.086900000000000005
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-GFCI-t-15A", 
+      "handle": "DB", 
+      "cambios": {
+        "posicion": {
+          "dz_m": -0.80000000000000004, 
+          "distancia_m": 0.80000000000000004, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0
+        }, 
+        "elevation": {
+          "delta_m": -0.80000000000000004
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Interruptores", 
+      "tipo_dxf": "ELEC-I-S-C1-5A", 
+      "handle": "DC", 
+      "cambios": {
+        "posicion": {
+          "dz_m": 13.220000000000001, 
+          "distancia_m": 13.220000000000001, 
+          "dx_m": 0.0, 
+          "dy_m": -0.0054999999999999997
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Interruptores", 
+      "tipo_dxf": "S3", 
+      "handle": "DF", 
+      "cambios": {
+        "posicion": {
+          "dz_m": 13.220000000000001, 
+          "distancia_m": 13.220000000000001, 
+          "dx_m": 0.0, 
+          "dy_m": 0.0086999999999999994
+        }, 
+        "rotacion": {
+          "delta_deg": 180.0
+        }
+      }
+    }, 
+    {
+      "tipo": "MODIFICADO", 
+      "familia": "M_Toma doble", 
+      "tipo_dxf": "ELEC-T-D-t-15A", 
+      "handle": "EE", 
+      "cambios": {
+        "posicion": {
+          "dz_m": 0.0, 
+          "distancia_m": 0.021100000000000001, 
+          "dx_m": 0.021100000000000001, 
+          "dy_m": 0.0
+        }
+      }
+    }
+  ]
+}

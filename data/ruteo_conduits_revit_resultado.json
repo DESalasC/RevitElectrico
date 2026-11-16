@@ -1,0 +1,1675 @@
+{
+  "json_entrada": "D:\\Work\\PROJECTS\\RevitElectrico\\data\\ruteo_apartamento_F02_v02.json", 
+  "familia_caja": "", 
+  "fecha": "2026-11-10 21:31:35", 
+  "dry_run": true, 
+  "cajas_pendientes_de_modelar": 2, 
+  "tramos_a_procesar": 83, 
+  "detalle": [
+    {
+      "accion": "simulado", 
+      "servicio": "COMUNICACIONES", 
+      "id": "RT-0001", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.3999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0002", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 3.0
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0003", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 3.0
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0004", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 3.0
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0005", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 3.0
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0006", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 3.0
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0007", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 3.0
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0008", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.9990000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0009", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.9900000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0010", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.9900000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0011", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.9800000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0012", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0012", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.8199999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0013", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.7999999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0014", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.7999999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0015", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.7999999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0016", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.7999999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0017", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0017", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.5979999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0018", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0018", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0019", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0019", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5660000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0019", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.80500000000000005
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0020", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0020", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3700000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0021", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3700000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0021", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0022", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0022", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.2000000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0023", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.1120000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0024", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.83999999999999997
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0024", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.1599999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0024", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.45000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0025", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.9990000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0025", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0026", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.9800000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0026", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0027", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.8999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0028", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0028", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.8999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0029", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0029", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.8600000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0030", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5400000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0030", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.23999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0031", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.45900000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0031", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.2600000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0031", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0032", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0032", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5990000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0033", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0033", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5800000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0034", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0034", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.4800000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0035", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.0369999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0035", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.40000000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0035", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0036", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.2800000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0036", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0037", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.2700000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0037", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0038", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0038", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.2190000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0039", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.95799999999999996
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0039", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.23999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0039", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0040", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0040", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.1570000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0041", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0041", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.0990000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0042", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.0800000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0042", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0043", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.0
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0043", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0044", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0044", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.97999999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0045", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0045", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.27500000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0045", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.63100000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0046", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0046", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.88
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0047", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.72999999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0048", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.71999999999999997
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0049", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.58599999999999997
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0049", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0050", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.20300000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0050", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.33900000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0050", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0051", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0051", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.5
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0052", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.5
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0052", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0053", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.5
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0053", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0054", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.45000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0054", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.063
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0054", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.34899999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0054", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.02
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0054", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.029999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0054", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.023
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0054", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.012
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0055", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.46999999999999997
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0055", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0056", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.43099999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0057", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0057", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.32400000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0057", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.02
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0057", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.029999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0057", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.023
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0057", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.012
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0057", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0058", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0058", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.32400000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0058", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.02
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0058", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.029999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0058", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.023
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0058", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.012
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0058", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0059", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.39400000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0059", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0060", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.39000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0060", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0061", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.45000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0061", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.11
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0061", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0062", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.104
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0063", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.45000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0063", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.10199999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0063", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0064", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.10000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0064", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0065", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.45000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0065", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.072999999999999995
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0065", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0066", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.45000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0066", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.072999999999999995
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0066", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0067", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.058999999999999997
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0067", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0072", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0072", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.14000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0072", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 10.335000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0072", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.14999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0072", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0073", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0073", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 8.0609999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0073", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.1600000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0073", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0074", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0074", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.8260000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0074", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 6.2050000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0074", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0075", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0075", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.14000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0075", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 8.3190000000000008
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0075", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.14000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0075", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0076", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0076", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.38600000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0076", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 4.6470000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0076", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 3.3399999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0076", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.082000000000000003
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0077", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0077", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 6.3099999999999996
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0077", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0078", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0078", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 3.3879999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0078", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.7700000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0078", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0079", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0079", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 6.0099999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0079", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0080", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0080", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.058999999999999997
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0080", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 5.8099999999999996
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0080", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.059999999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0080", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0081", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0081", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.41499999999999998
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0081", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.3080000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0081", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.057000000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0081", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.8930000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0082", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.029999999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0082", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.5540000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0082", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.2300000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0082", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0083", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.40300000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0083", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.057000000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0083", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.82799999999999996
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0083", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 1.4500000000000000
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0084", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0084", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.050999999999999997
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0084", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.10000000000000001
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0084", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0085", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0085", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.055
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0085", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.087999999999999995
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0085", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0086", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0086", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.073999999999999996
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "TOMAS", 
+      "id": "RT-0086", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 2.3799999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0088", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.18099999999999999
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0088", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.40300000000000002
+    }, 
+    {
+      "accion": "simulado", 
+      "servicio": "ILUMINACION", 
+      "id": "RT-0088", 
+      "diametro": "1/2\"", 
+      "circuito": null, 
+      "longitud_m": 0.77500000000000002
+    }
+  ], 
+  "resolucion_diametros": [
+    {
+      "token": "1/2", 
+      "diametro": "1/2\"", 
+      "ok": true, 
+      "tipo_encontrado": "Tubo Comunicaciones"
+    }
+  ], 
+  "segmentos_planificados": 204, 
+  "caja_symbol_encontrado": false, 
+  "nivel_solicitado": "Piso 5", 
+  "ancla_dxf": {}, 
+  "cajas_en_json": 2, 
+  "tipos_conduit_disponibles": [
+    "Tubo", 
+    "Tubo", 
+    "Tubo Comunicaciones"
+  ], 
+  "creados": 0, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "offset_xy_m": [
+    0.0, 
+    0.0
+  ], 
+  "errores": 0, 
+  "omitidos": 0, 
+  "ancla_encontrada": false, 
+  "circuito_pendiente": 0, 
+  "tramos_en_json": 83, 
+  "caja_symbol_error": "sin familia configurada", 
+  "ancla_en_revit": "", 
+  "ok": true, 
+  "nivel_encontrado": "Piso 5"
+}

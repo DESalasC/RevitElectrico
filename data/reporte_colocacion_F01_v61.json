@@ -1,0 +1,216 @@
+{
+  "apartamento": "F 01", 
+  "version": "61.0", 
+  "timestamp": "2026-11-14 21:06:23", 
+  "stats": {
+    "error": 1, 
+    "ok": 34, 
+    "skip": 0
+  }, 
+  "results": [
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054761f", 
+      "handle": "6D", 
+      "revit_id": 5535263
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547620", 
+      "handle": "8D", 
+      "revit_id": 5535264
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547621", 
+      "handle": "96", 
+      "revit_id": 5535265
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547622", 
+      "handle": "97", 
+      "revit_id": 5535266
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547623", 
+      "handle": "98", 
+      "revit_id": 5535267
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547624", 
+      "handle": "99", 
+      "revit_id": 5535268
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547625", 
+      "handle": "9A", 
+      "revit_id": 5535269
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547626", 
+      "handle": "9B", 
+      "revit_id": 5535270
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547627", 
+      "handle": "9C", 
+      "revit_id": 5535271
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547628", 
+      "handle": "A4", 
+      "revit_id": 5535272
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547629", 
+      "handle": "B9", 
+      "revit_id": 5535273
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054762b", 
+      "handle": "C1", 
+      "revit_id": 5535275
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054762d", 
+      "handle": "C9", 
+      "revit_id": 5535277
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054762f", 
+      "handle": "CB", 
+      "revit_id": 5535279
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547631", 
+      "handle": "D4", 
+      "revit_id": 5535281
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547632", 
+      "handle": "DF", 
+      "revit_id": 5535282
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547633", 
+      "handle": "FD", 
+      "revit_id": 5535283
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547635", 
+      "handle": "12F", 
+      "revit_id": 5535285
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547637", 
+      "handle": "13B", 
+      "revit_id": 5535287
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547639", 
+      "handle": "13C", 
+      "revit_id": 5535289
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054763b", 
+      "handle": "145", 
+      "revit_id": 5535291
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054763d", 
+      "handle": "146", 
+      "revit_id": 5535293
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054763f", 
+      "handle": "147", 
+      "revit_id": 5535295
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547641", 
+      "handle": "148", 
+      "revit_id": 5535297
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547643", 
+      "handle": "156", 
+      "revit_id": 5535299
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547644", 
+      "handle": "1E8", 
+      "revit_id": 5535300
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547645", 
+      "handle": "1F1", 
+      "revit_id": 5535301
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547646", 
+      "handle": "1F2", 
+      "revit_id": 5535302
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547647", 
+      "handle": "203", 
+      "revit_id": 5535303
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547648", 
+      "handle": "204", 
+      "revit_id": 5535304
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-00547649", 
+      "handle": "205", 
+      "revit_id": 5535305
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054764a", 
+      "handle": "206", 
+      "revit_id": 5535306
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054764b", 
+      "handle": "210", 
+      "revit_id": 5535307
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "f9015322-5b16-4e23-81f4-da8b17584328-0054764c", 
+      "handle": "216", 
+      "revit_id": 5535308
+    }
+  ]
+}

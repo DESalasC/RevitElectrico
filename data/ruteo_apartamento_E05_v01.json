@@ -1,0 +1,3518 @@
+{
+ "version": "v01",
+ "dxf": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\3.-Proceso\\ApaRtamento Tipo E 05.dxf",
+ "zona": "apartamento",
+ "material": "PVC",
+ "calibre": "12 AWG",
+ "nivel": "Piso 5",
+ "elevacion_nivel_m": 43.3727,
+ "resumen": {
+  "tramos": 49,
+  "tramos_con_marcador": 31,
+  "tramos_sin_marcador": 18,
+  "tramos_en_revision": 0,
+  "cajas_conexion": 2,
+  "cruces_planta": 4,
+  "cruces_a_la_misma_cota": 0,
+  "longitud_total_m": 226.04,
+  "por_servicio": {
+   "COMUNICACIONES": 11,
+   "ILUMINACION": 18,
+   "TOMAS": 20
+  },
+  "largo_por_servicio_m": {
+   "COMUNICACIONES": 62.64,
+   "ILUMINACION": 58.02,
+   "TOMAS": 105.38
+  },
+  "por_diametro": {
+   "3/4\"": 11,
+   "1/2\"": 38
+  },
+  "avisos": 47
+ },
+ "avisos_globales": [
+  "No se encontro el ancla 'TB-Parcial' (capa 'ELEC-POWER-PANEL') en el DXF",
+  "Tramo 1FE en 'ELEC-Data-Service' omitido: largo 0.003 m < minimo 0.050 m",
+  "Tramo 161 en 'ELEC-POWER- PIPE' omitido: largo 0.024 m < minimo 0.050 m"
+ ],
+ "estadisticas_extraccion": {
+  "dispositivos": 48,
+  "marcadores": 26,
+  "polilineas": 51,
+  "avisos_lectura": [
+   "Entidad ARC 184 en capa de tuberia 'ELEC-LIGHT-PIPE' no convertida a tramo (revisar si es un tramo curvo o un simbolo)",
+   "Entidad ARC 186 en capa de tuberia 'ELEC-LIGHT-PIPE' no convertida a tramo (revisar si es un tramo curvo o un simbolo)",
+   "Entidad ARC 188 en capa de tuberia 'ELEC-LIGHT-PIPE' no convertida a tramo (revisar si es un tramo curvo o un simbolo)"
+  ]
+ },
+ "ancla": {},
+ "revision": {
+  "total": 0,
+  "tramos": []
+ },
+ "cajas": [
+  {
+   "id": "CJ-0001",
+   "tramo_id": "RT-0028",
+   "x": 2.5496,
+   "y": -1.1466,
+   "z_absoluta_m": 46.0227,
+   "cota_m": 2.65,
+   "servicio": "ILUMINACION",
+   "aparato_handle": "112",
+   "aparato_nombre": "Bala Stil Led 22W",
+   "aparato_capa": "ELEC-APPL-ILUM",
+   "altura_aparato_m": 1.1,
+   "distancia_m": 0.945
+  },
+  {
+   "id": "CJ-0002",
+   "tramo_id": "RT-0029",
+   "x": 2.6438,
+   "y": -1.1466,
+   "z_absoluta_m": 46.0227,
+   "cota_m": 2.65,
+   "servicio": "ILUMINACION",
+   "aparato_handle": "112",
+   "aparato_nombre": "Bala Stil Led 22W",
+   "aparato_capa": "ELEC-APPL-ILUM",
+   "altura_aparato_m": 1.1,
+   "distancia_m": 0.851
+  }
+ ],
+ "cruces": [
+  {
+   "tramo_a": "RT-0001",
+   "tramo_b": "RT-0015",
+   "servicio_a": "COMUNICACIONES",
+   "servicio_b": "ILUMINACION",
+   "x": 2.874,
+   "y": -4.587,
+   "cota_a": 2.71,
+   "cota_b": 2.65,
+   "separacion_m": 0.06
+  },
+  {
+   "tramo_a": "RT-0001",
+   "tramo_b": "RT-0047",
+   "servicio_a": "COMUNICACIONES",
+   "servicio_b": "TOMAS",
+   "x": 2.874,
+   "y": -2.447,
+   "cota_a": 2.71,
+   "cota_b": 2.68,
+   "separacion_m": 0.03
+  },
+  {
+   "tramo_a": "RT-0002",
+   "tramo_b": "RT-0032",
+   "servicio_a": "COMUNICACIONES",
+   "servicio_b": "ILUMINACION",
+   "x": 1.379,
+   "y": -4.204,
+   "cota_a": 2.71,
+   "cota_b": 2.65,
+   "separacion_m": 0.06
+  },
+  {
+   "tramo_a": "RT-0002",
+   "tramo_b": "RT-0047",
+   "servicio_a": "COMUNICACIONES",
+   "servicio_b": "TOMAS",
+   "x": 2.843,
+   "y": -2.447,
+   "cota_a": 2.71,
+   "cota_b": 2.68,
+   "separacion_m": 0.03
+  }
+ ],
+ "tramos": [
+  {
+   "id": "RT-0001",
+   "handle_dxf": "1F4",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 9.659,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     2.8741,
+     -2.2659,
+     0.3
+    ],
+    [
+     2.8741,
+     -2.2659,
+     2.71
+    ],
+    [
+     2.8741,
+     -5.1354,
+     2.71
+    ],
+    [
+     0.9043,
+     -5.1354,
+     2.71
+    ],
+    [
+     0.9043,
+     -5.1354,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "BD",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.07,
+     "x": 2.874,
+     "y": -2.266
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "7A",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.007,
+     "x": 0.904,
+     "y": -5.135
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.118 m)"
+   ],
+   "avisos": [
+    "Servicio fijado por capa 'ELEC-Data-Service' -> COMUNICACIONES (extremos: ['TOMAS'])",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0002",
+   "handle_dxf": "1F1",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 8.457,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     2.8434,
+     -2.2666,
+     0.3
+    ],
+    [
+     2.8434,
+     -2.2666,
+     2.71
+    ],
+    [
+     2.8434,
+     -4.2039,
+     2.71
+    ],
+    [
+     1.1442,
+     -4.2039,
+     2.71
+    ],
+    [
+     1.1442,
+     -4.2039,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "BD",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.052,
+     "x": 2.843,
+     "y": -2.267
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "D8",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.102,
+     "x": 1.144,
+     "y": -4.204
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.148 m)"
+   ],
+   "avisos": [
+    "Servicio fijado por capa 'ELEC-Data-Service' -> COMUNICACIONES (extremos: ['TOMAS'])",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0003",
+   "handle_dxf": "223",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 5.27,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     2.95,
+     -1.72,
+     0.3
+    ],
+    [
+     2.95,
+     -1.72,
+     2.71
+    ],
+    [
+     3.1499,
+     -1.5871,
+     2.71
+    ],
+    [
+     3.2974,
+     -1.7366,
+     2.71
+    ],
+    [
+     3.2974,
+     -1.7366,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "1F8",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.136,
+     "x": 2.95,
+     "y": -1.72
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "1F7",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.476,
+     "x": 3.297,
+     "y": -1.737
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0004",
+   "handle_dxf": "1FA",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 4.963,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     2.8282,
+     -1.6639,
+     0.3
+    ],
+    [
+     2.8282,
+     -1.6639,
+     2.71
+    ],
+    [
+     2.8695,
+     -1.6639,
+     2.71
+    ],
+    [
+     2.8695,
+     -1.7659,
+     2.71
+    ],
+    [
+     2.8695,
+     -1.7659,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "1F8",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.002,
+     "x": 2.828,
+     "y": -1.664
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "1F7",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.059,
+     "x": 2.869,
+     "y": -1.766
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0005",
+   "handle_dxf": "1FF",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 4.902,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     1.0992,
+     -4.3783,
+     0.3
+    ],
+    [
+     1.0992,
+     -4.3783,
+     2.71
+    ],
+    [
+     1.0992,
+     -4.4608,
+     2.71
+    ],
+    [
+     1.0992,
+     -4.4608,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "D9",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.064,
+     "x": 1.099,
+     "y": -4.378
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "1F9",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.063,
+     "x": 1.099,
+     "y": -4.461
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0006",
+   "handle_dxf": "20C",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 4.902,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     0.8561,
+     -5.2988,
+     0.3
+    ],
+    [
+     0.8561,
+     -5.2988,
+     2.71
+    ],
+    [
+     0.8561,
+     -5.3812,
+     2.71
+    ],
+    [
+     0.8561,
+     -5.3812,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "83",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.061,
+     "x": 0.856,
+     "y": -5.299
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "1F5",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.062,
+     "x": 0.856,
+     "y": -5.381
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0007",
+   "handle_dxf": "20D",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 4.902,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     0.8561,
+     -5.1578,
+     0.3
+    ],
+    [
+     0.8561,
+     -5.1578,
+     2.71
+    ],
+    [
+     0.8561,
+     -5.2402,
+     2.71
+    ],
+    [
+     0.8561,
+     -5.2402,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "7A",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.061,
+     "x": 0.856,
+     "y": -5.158
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "83",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.063,
+     "x": 0.856,
+     "y": -5.24
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.219 m)"
+   ],
+   "avisos": [
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0008",
+   "handle_dxf": "200",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 4.902,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     1.0992,
+     -4.2387,
+     0.3
+    ],
+    [
+     1.0992,
+     -4.2387,
+     2.71
+    ],
+    [
+     1.0992,
+     -4.3208,
+     2.71
+    ],
+    [
+     1.0992,
+     -4.3208,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "D8",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.064,
+     "x": 1.099,
+     "y": -4.239
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "D9",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.063,
+     "x": 1.099,
+     "y": -4.321
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0009",
+   "handle_dxf": "1FC",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 4.899,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     2.7595,
+     -1.9178,
+     0.3
+    ],
+    [
+     2.7595,
+     -1.9178,
+     2.71
+    ],
+    [
+     2.7595,
+     -1.8383,
+     2.71
+    ],
+    [
+     2.7595,
+     -1.8383,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "1F6",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.075,
+     "x": 2.759,
+     "y": -1.918
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "1F7",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.074,
+     "x": 2.759,
+     "y": -1.838
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0010",
+   "handle_dxf": "1FD",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 4.894,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     2.7595,
+     -1.7706,
+     0.3
+    ],
+    [
+     2.7595,
+     -1.7706,
+     2.71
+    ],
+    [
+     2.7595,
+     -1.697,
+     2.71
+    ],
+    [
+     2.7595,
+     -1.697,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "1F7",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.075,
+     "x": 2.759,
+     "y": -1.771
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "1F8",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.074,
+     "x": 2.759,
+     "y": -1.697
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0011",
+   "handle_dxf": "1FB",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 19.05,
+   "diametro_origen": "fijo_servicio",
+   "largo_m": 4.892,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     2.7595,
+     -2.0578,
+     0.3
+    ],
+    [
+     2.7595,
+     -2.0578,
+     2.71
+    ],
+    [
+     2.7595,
+     -1.9855,
+     2.71
+    ],
+    [
+     2.7595,
+     -1.9855,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "106",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.075,
+     "x": 2.759,
+     "y": -2.058
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "1F6",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": "COMUNICACIONES",
+     "altura_m": 0.3,
+     "distancia_m": 0.074,
+     "x": 2.759,
+     "y": -1.986
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino",
+    "Diametro fijo por servicio: 3/4\" (Los cables de comunicaciones y redes no son 12 AWG y no estan marcados en el DXF; se fija 3/4\" por decision del operador.)"
+   ]
+  },
+  {
+   "id": "RT-0013",
+   "handle_dxf": "159",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 3.646,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     2.5142,
+     -7.3383,
+     2.65
+    ],
+    [
+     0.8544,
+     -7.3383,
+     2.65
+    ],
+    [
+     0.8544,
+     -6.9021,
+     2.65
+    ],
+    [
+     0.8544,
+     -6.9021,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "12A",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.076,
+     "x": 2.514,
+     "y": -7.338
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "DC",
+     "nombre": "ELEC-I-S-C1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.05,
+     "x": 0.854,
+     "y": -6.902
+    }
+   ],
+   "marcadores": [
+    "1TNR (3 cables, d=0.000 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0014",
+   "handle_dxf": "144",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "default",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 3.62,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     0.0742,
+     -3.9866,
+     1.1
+    ],
+    [
+     0.0742,
+     -3.9866,
+     2.65
+    ],
+    [
+     0.0742,
+     -5.5365,
+     2.65
+    ],
+    [
+     -0.4457,
+     -5.5365,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "148",
+     "nombre": "ELEC-F-CONTROL",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.068,
+     "x": 0.074,
+     "y": -3.987
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "107",
+     "nombre": "ELEC-F-VENT",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.034,
+     "x": -0.446,
+     "y": -5.537
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador ni vecino resoluble; se asume 3 cables (revisar)"
+   ]
+  },
+  {
+   "id": "RT-0015",
+   "handle_dxf": "166",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 5.089,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     1.4342,
+     -4.5866,
+     1.1
+    ],
+    [
+     1.4342,
+     -4.5866,
+     2.65
+    ],
+    [
+     3.4235,
+     -4.5866,
+     2.65
+    ],
+    [
+     3.4235,
+     -4.5866,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "11F",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.041,
+     "x": 1.434,
+     "y": -4.587
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "128",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.071,
+     "x": 3.424,
+     "y": -4.587
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0016",
+   "handle_dxf": "157",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.944,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     0.5342,
+     -2.9266,
+     1.1
+    ],
+    [
+     0.5342,
+     -2.9266,
+     2.65
+    ],
+    [
+     1.379,
+     -2.9266,
+     2.65
+    ],
+    [
+     1.379,
+     -3.9257,
+     2.65
+    ],
+    [
+     1.379,
+     -3.9257,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "129",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.049,
+     "x": 0.534,
+     "y": -2.927
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "165",
+     "nombre": "ELEC-F-CONTROL",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.284,
+     "x": 1.379,
+     "y": -3.926
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.002 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0017",
+   "handle_dxf": "143",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.832,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     0.4942,
+     -2.9866,
+     1.1
+    ],
+    [
+     0.4942,
+     -2.9866,
+     2.65
+    ],
+    [
+     0.4942,
+     -4.3664,
+     2.65
+    ],
+    [
+     0.1421,
+     -4.3664,
+     2.65
+    ],
+    [
+     0.1421,
+     -4.3664,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "129",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.063,
+     "x": 0.494,
+     "y": -2.987
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "148",
+     "nombre": "ELEC-F-CONTROL",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.452,
+     "x": 0.142,
+     "y": -4.366
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.011 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0018",
+   "handle_dxf": "15D",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 5.448,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     1.5342,
+     -1.0266,
+     1.1
+    ],
+    [
+     1.5342,
+     -1.0266,
+     2.68
+    ],
+    [
+     1.5342,
+     -0.0386,
+     2.68
+    ],
+    [
+     2.0341,
+     -0.0386,
+     2.68
+    ],
+    [
+     2.0341,
+     -0.0386,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "11E",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.118,
+     "x": 1.534,
+     "y": -1.027
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "EF",
+     "nombre": "ELEC-CAMPANA",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.051,
+     "x": 2.034,
+     "y": -0.039
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.000 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0019",
+   "handle_dxf": "141",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 2.994,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     0.4342,
+     -2.9266,
+     1.1
+    ],
+    [
+     0.4342,
+     -2.9266,
+     2.65
+    ],
+    [
+     -0.6501,
+     -2.9266,
+     2.65
+    ],
+    [
+     -0.6501,
+     -2.5666,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "129",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.051,
+     "x": 0.434,
+     "y": -2.927
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "139",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.081,
+     "x": -0.65,
+     "y": -2.567
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.010 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0020",
+   "handle_dxf": "158",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 2.985,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     1.1542,
+     -3.9666,
+     1.1
+    ],
+    [
+     1.1542,
+     -3.9666,
+     2.65
+    ],
+    [
+     2.5089,
+     -3.9666,
+     2.65
+    ],
+    [
+     2.5089,
+     -4.0473,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "165",
+     "nombre": "ELEC-F-CONTROL",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.058,
+     "x": 1.154,
+     "y": -3.967
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "110",
+     "nombre": "ELEC-F-VENT",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.035,
+     "x": 2.509,
+     "y": -4.047
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 4 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0021",
+   "handle_dxf": "140",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 6,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.462,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     1.5542,
+     -1.2666,
+     1.1
+    ],
+    [
+     1.5542,
+     -1.2666,
+     2.65
+    ],
+    [
+     1.5542,
+     -2.2266,
+     2.65
+    ],
+    [
+     1.1523,
+     -2.2266,
+     2.65
+    ],
+    [
+     1.1523,
+     -2.2266,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "11E",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.123,
+     "x": 1.554,
+     "y": -1.267
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "DF",
+     "nombre": "S3",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.052,
+     "x": 1.152,
+     "y": -2.227
+    }
+   ],
+   "marcadores": [
+    "2F2N1T1R (6 cables, d=0.009 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0022",
+   "handle_dxf": "226",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 5.22,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     3.5512,
+     -4.5826,
+     1.1
+    ],
+    [
+     3.5512,
+     -4.5826,
+     2.68
+    ],
+    [
+     4.1,
+     -4.5826,
+     2.68
+    ],
+    [
+     4.1,
+     -3.8717,
+     2.68
+    ],
+    [
+     4.1,
+     -3.8717,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "128",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.057,
+     "x": 3.551,
+     "y": -4.583
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "225",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.063,
+     "x": 4.1,
+     "y": -3.872
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0023",
+   "handle_dxf": "145",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 3.61,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -0.5058,
+     -4.3866,
+     2.65
+    ],
+    [
+     -0.5058,
+     -4.3866,
+     2.68
+    ],
+    [
+     -1.7058,
+     -4.3866,
+     2.68
+    ],
+    [
+     -1.7058,
+     -4.3866,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "138",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.069,
+     "x": -0.506,
+     "y": -4.387
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "84",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.086,
+     "x": -1.706,
+     "y": -4.387
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.020 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0024",
+   "handle_dxf": "13E",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 2.747,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     1.4342,
+     -1.1466,
+     1.1
+    ],
+    [
+     1.4342,
+     -1.1466,
+     2.65
+    ],
+    [
+     0.5373,
+     -1.1466,
+     2.65
+    ],
+    [
+     0.5373,
+     -0.847,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "11E",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.118,
+     "x": 1.434,
+     "y": -1.147
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "13A",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.088,
+     "x": 0.537,
+     "y": -0.847
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.008 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0025",
+   "handle_dxf": "13B",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.028,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     4.2142,
+     -1.3366,
+     1.2
+    ],
+    [
+     4.2142,
+     -1.3366,
+     2.65
+    ],
+    [
+     4.2142,
+     -1.4466,
+     2.65
+    ],
+    [
+     3.4763,
+     -1.4466,
+     2.65
+    ],
+    [
+     3.4763,
+     -1.2667,
+     2.65
+    ],
+    [
+     3.4763,
+     -1.2667,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "27A",
+     "nombre": "TB-Panel",
+     "capa": "ELEC-POWER-PANEL",
+     "servicio": "FUERZA",
+     "altura_m": 1.2,
+     "distancia_m": 0.201,
+     "x": 4.214,
+     "y": -1.337
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "112",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.12,
+     "x": 3.476,
+     "y": -1.267
+    }
+   ],
+   "marcadores": [
+    "2FT2N (5 cables, d=0.008 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['FUERZA', 'ILUMINACION']; se usa 'ILUMINACION' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0026",
+   "handle_dxf": "164",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 2.546,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -0.4367,
+     -4.3118,
+     2.65
+    ],
+    [
+     -0.4367,
+     -3.7618,
+     2.65
+    ],
+    [
+     0.0089,
+     -3.7618,
+     2.65
+    ],
+    [
+     0.0089,
+     -3.7618,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "138",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.08,
+     "x": -0.437,
+     "y": -4.312
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "86",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.057,
+     "x": 0.009,
+     "y": -3.762
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.001 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0027",
+   "handle_dxf": "220",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.947,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     0.8025,
+     -2.2066,
+     0.3
+    ],
+    [
+     0.8025,
+     -2.2066,
+     2.68
+    ],
+    [
+     0.4943,
+     -2.2066,
+     2.68
+    ],
+    [
+     0.4943,
+     -2.8858,
+     2.68
+    ],
+    [
+     0.4943,
+     -2.8858,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "103",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.103,
+     "x": 0.802,
+     "y": -2.207
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "129",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.039,
+     "x": 0.494,
+     "y": -2.886
+    }
+   ],
+   "marcadores": [
+    "1FTN2R (5 cables, d=0.001 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0028",
+   "handle_dxf": "185",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 6,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 2.425,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     2.5496,
+     -1.1466,
+     2.65
+    ],
+    [
+     1.6742,
+     -1.1466,
+     2.65
+    ],
+    [
+     1.6742,
+     -1.1466,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "caja",
+     "handle": "112",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": null,
+     "distancia_m": 0.945,
+     "x": 2.55,
+     "y": -1.147
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "11E",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.122,
+     "x": 1.674,
+     "y": -1.147
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 6 cables de tramo vecino",
+    "Extremo resuelto como caja de conexion (Bala Stil Led 22W a 0.94 m) -> CJ-0001"
+   ]
+  },
+  {
+   "id": "RT-0029",
+   "handle_dxf": "13D",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 6,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 2.28,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     3.3742,
+     -1.1466,
+     1.1
+    ],
+    [
+     3.3742,
+     -1.1466,
+     2.65
+    ],
+    [
+     2.6438,
+     -1.1466,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "112",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.12,
+     "x": 3.374,
+     "y": -1.147
+    },
+    {
+     "tipo": "caja",
+     "handle": "112",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": null,
+     "distancia_m": 0.851,
+     "x": 2.644,
+     "y": -1.147
+    }
+   ],
+   "marcadores": [
+    "2F2N1T1R (6 cables, d=0.003 m)"
+   ],
+   "avisos": [
+    "Extremo resuelto como caja de conexion (Bala Stil Led 22W a 0.85 m) -> CJ-0002"
+   ]
+  },
+  {
+   "id": "RT-0030",
+   "handle_dxf": "13F",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 2.235,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     0.6142,
+     -0.7466,
+     2.65
+    ],
+    [
+     1.0782,
+     -0.7466,
+     2.65
+    ],
+    [
+     1.0782,
+     -0.5254,
+     2.65
+    ],
+    [
+     1.0782,
+     -0.5254,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "13A",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.084,
+     "x": 0.614,
+     "y": -0.747
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "104",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.05,
+     "x": 1.078,
+     "y": -0.525
+    }
+   ],
+   "marcadores": [
+    "1FTR (3 cables, d=0.002 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0031",
+   "handle_dxf": "169",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.533,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     1.3611,
+     -6.7266,
+     0.3
+    ],
+    [
+     1.3611,
+     -6.7266,
+     2.68
+    ],
+    [
+     1.3611,
+     -6.8565,
+     2.68
+    ],
+    [
+     0.9182,
+     -6.8565,
+     2.68
+    ],
+    [
+     0.9182,
+     -6.8565,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "DB",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.068,
+     "x": 1.361,
+     "y": -6.727
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "DC",
+     "nombre": "ELEC-I-S-C1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.054,
+     "x": 0.918,
+     "y": -6.857
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.001 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0032",
+   "handle_dxf": "187",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 3.629,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     1.379,
+     -4.0176,
+     1.1
+    ],
+    [
+     1.379,
+     -4.0176,
+     2.65
+    ],
+    [
+     1.379,
+     -4.5464,
+     2.65
+    ],
+    [
+     1.379,
+     -4.5464,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "165",
+     "nombre": "ELEC-F-CONTROL",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.289,
+     "x": 1.379,
+     "y": -4.018
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "11F",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.046,
+     "x": 1.379,
+     "y": -4.546
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 4 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0033",
+   "handle_dxf": "142",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 1.998,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -0.5758,
+     -2.4866,
+     2.65
+    ],
+    [
+     -0.1558,
+     -2.4866,
+     2.65
+    ],
+    [
+     -0.1558,
+     -2.458,
+     2.65
+    ],
+    [
+     -0.1558,
+     -2.458,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "139",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.071,
+     "x": -0.576,
+     "y": -2.487
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "92",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.054,
+     "x": -0.156,
+     "y": -2.458
+    }
+   ],
+   "marcadores": [
+    "1FTR (3 cables, d=0.014 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0034",
+   "handle_dxf": "189",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 0.391,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     0.0057,
+     -4.3664,
+     2.65
+    ],
+    [
+     -0.3852,
+     -4.3664,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "138",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.443,
+     "x": 0.006,
+     "y": -4.366
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "138",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.057,
+     "x": -0.385,
+     "y": -4.366
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 4 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0035",
+   "handle_dxf": "203",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 5.03,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     2.2242,
+     0.1234,
+     0.3
+    ],
+    [
+     2.2242,
+     0.1234,
+     2.68
+    ],
+    [
+     2.2242,
+     -0.0367,
+     2.68
+    ],
+    [
+     2.1142,
+     -0.0367,
+     2.68
+    ],
+    [
+     2.1142,
+     -0.0367,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "96",
+     "nombre": "ELEC-TIMBRE",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.043,
+     "x": 2.224,
+     "y": 0.123
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "EF",
+     "nombre": "ELEC-CAMPANA",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.052,
+     "x": 2.114,
+     "y": -0.037
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.191 m)"
+   ],
+   "avisos": [
+    "Servicio de extremos 'TOMAS' difiere de la capa 'ELEC-LIGHT-PIPE' (ILUMINACION); se usa el de extremos"
+   ]
+  },
+  {
+   "id": "RT-0036",
+   "handle_dxf": "167",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "TOMAS",
+   "cables": 4,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.159,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     1.3442,
+     -4.5866,
+     1.1
+    ],
+    [
+     1.3442,
+     -4.5866,
+     2.68
+    ],
+    [
+     1.1453,
+     -4.5866,
+     2.68
+    ],
+    [
+     1.1453,
+     -4.5866,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "11F",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.049,
+     "x": 1.344,
+     "y": -4.587
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "D7",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.098,
+     "x": 1.145,
+     "y": -4.587
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad",
+    "Sin marcador propio; hereda 4 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0037",
+   "handle_dxf": "156",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.105,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     1.0492,
+     -2.2066,
+     1.1
+    ],
+    [
+     1.0492,
+     -2.2066,
+     2.68
+    ],
+    [
+     0.9046,
+     -2.2066,
+     2.68
+    ],
+    [
+     0.9046,
+     -2.2066,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "DF",
+     "nombre": "S3",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.053,
+     "x": 1.049,
+     "y": -2.207
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "103",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.007,
+     "x": 0.905,
+     "y": -2.207
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad",
+    "Sin marcador propio; hereda 5 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0038",
+   "handle_dxf": "16A",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.098,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     1.0342,
+     -5.5266,
+     1.1
+    ],
+    [
+     1.0342,
+     -5.5266,
+     2.68
+    ],
+    [
+     0.8962,
+     -5.5266,
+     2.68
+    ],
+    [
+     0.8962,
+     -5.5266,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "CE",
+     "nombre": "ELEC-I-S-C1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.053,
+     "x": 1.034,
+     "y": -5.527
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "6D",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.02,
+     "x": 0.896,
+     "y": -5.527
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad",
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0039",
+   "handle_dxf": "152",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 3.17,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     0.0742,
+     -3.8666,
+     1.1
+    ],
+    [
+     0.0742,
+     -3.8666,
+     2.65
+    ],
+    [
+     0.0742,
+     -3.7967,
+     2.65
+    ],
+    [
+     0.0742,
+     -3.7967,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "148",
+     "nombre": "ELEC-F-CONTROL",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.052,
+     "x": 0.074,
+     "y": -3.867
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "86",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.046,
+     "x": 0.074,
+     "y": -3.797
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 4 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0040",
+   "handle_dxf": "1BE",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 8.783,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     4.2342,
+     -0.9366,
+     1.2
+    ],
+    [
+     4.2342,
+     -0.9366,
+     2.68
+    ],
+    [
+     4.2342,
+     0.0867,
+     2.68
+    ],
+    [
+     0.4346,
+     0.0867,
+     2.68
+    ],
+    [
+     0.4346,
+     -0.0133,
+     2.68
+    ],
+    [
+     0.4346,
+     -0.0133,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "27A",
+     "nombre": "TB-Panel",
+     "capa": "ELEC-POWER-PANEL",
+     "servicio": "FUERZA",
+     "altura_m": 1.2,
+     "distancia_m": 0.208,
+     "x": 4.234,
+     "y": -0.937
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "111",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.02,
+     "x": 0.435,
+     "y": -0.013
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.006 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['FUERZA', 'TOMAS']; se usa 'TOMAS' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0041",
+   "handle_dxf": "160",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 7.046,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     2.5942,
+     -0.1206,
+     0.3
+    ],
+    [
+     2.5942,
+     -0.1206,
+     2.68
+    ],
+    [
+     2.5942,
+     -2.1863,
+     2.68
+    ],
+    [
+     2.8141,
+     -2.1863,
+     2.68
+    ],
+    [
+     2.8141,
+     -2.1863,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "BB",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.102,
+     "x": 2.594,
+     "y": -0.121
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "BC",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.014,
+     "x": 2.814,
+     "y": -2.186
+    }
+   ],
+   "marcadores": [
+    "2FT2N (5 cables, d=0.003 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0042",
+   "handle_dxf": "146",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 6.84,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -1.7358,
+     -4.4566,
+     0.3
+    ],
+    [
+     -1.7358,
+     -4.4566,
+     2.68
+    ],
+    [
+     -1.7358,
+     -6.5365,
+     2.68
+    ],
+    [
+     -1.7358,
+     -6.5365,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "84",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.073,
+     "x": -1.736,
+     "y": -4.457
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "85",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.073,
+     "x": -1.736,
+     "y": -6.537
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.017 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0043",
+   "handle_dxf": "15C",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 5.78,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     4.1742,
+     -0.9466,
+     1.2
+    ],
+    [
+     4.1742,
+     -0.9466,
+     2.68
+    ],
+    [
+     4.1742,
+     -0.0661,
+     2.68
+    ],
+    [
+     3.1342,
+     -0.0661,
+     2.68
+    ],
+    [
+     3.1342,
+     -0.0661,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "27A",
+     "nombre": "TB-Panel",
+     "capa": "ELEC-POWER-PANEL",
+     "servicio": "FUERZA",
+     "altura_m": 1.2,
+     "distancia_m": 0.216,
+     "x": 4.174,
+     "y": -0.947
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "9E",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.066,
+     "x": 3.134,
+     "y": -0.066
+    }
+   ],
+   "marcadores": [
+    "2FT2N (5 cables, d=0.002 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['FUERZA', 'TOMAS']; se usa 'TOMAS' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0044",
+   "handle_dxf": "168",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 5.227,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     0.8542,
+     -6.8166,
+     1.1
+    ],
+    [
+     0.8542,
+     -6.8166,
+     2.68
+    ],
+    [
+     0.8541,
+     -6.6766,
+     2.68
+    ],
+    [
+     0.8541,
+     -5.5499,
+     2.68
+    ],
+    [
+     0.8541,
+     -5.5499,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "DC",
+     "nombre": "ELEC-I-S-C1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.038,
+     "x": 0.854,
+     "y": -6.817
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "6D",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.067,
+     "x": 0.854,
+     "y": -5.55
+    }
+   ],
+   "marcadores": [
+    "1FTN2R (5 cables, d=0.010 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0045",
+   "handle_dxf": "15B",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 5.85,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     1.0542,
+     -4.5866,
+     0.3
+    ],
+    [
+     1.0542,
+     -4.5866,
+     2.68
+    ],
+    [
+     0.8642,
+     -4.5866,
+     2.68
+    ],
+    [
+     0.8642,
+     -5.4865,
+     2.68
+    ],
+    [
+     0.8642,
+     -5.4865,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "D7",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.009,
+     "x": 1.054,
+     "y": -4.587
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "6D",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.064,
+     "x": 0.864,
+     "y": -5.487
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.007 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0046",
+   "handle_dxf": "15A",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.48,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     1.0949,
+     -4.5449,
+     0.3
+    ],
+    [
+     1.0949,
+     -4.5449,
+     2.68
+    ],
+    [
+     1.0949,
+     -4.025,
+     2.68
+    ],
+    [
+     1.0949,
+     -4.025,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "D7",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.06,
+     "x": 1.095,
+     "y": -4.545
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "165",
+     "nombre": "ELEC-F-CONTROL",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.066,
+     "x": 1.095,
+     "y": -4.025
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad",
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0047",
+   "handle_dxf": "163",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 5.273,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     3.2042,
+     -2.4466,
+     0.3
+    ],
+    [
+     3.2042,
+     -2.4466,
+     2.68
+    ],
+    [
+     2.7728,
+     -2.4466,
+     2.68
+    ],
+    [
+     2.7728,
+     -2.3645,
+     2.68
+    ],
+    [
+     2.7728,
+     -2.3645,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "DA",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.083,
+     "x": 3.204,
+     "y": -2.447
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "BD",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.072,
+     "x": 2.773,
+     "y": -2.365
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.008 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0048",
+   "handle_dxf": "15E",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 5.17,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     3.0442,
+     -0.0672,
+     0.3
+    ],
+    [
+     3.0442,
+     -0.0672,
+     2.68
+    ],
+    [
+     2.6342,
+     -0.0672,
+     2.68
+    ],
+    [
+     2.6342,
+     -0.0672,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "9E",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.068,
+     "x": 3.044,
+     "y": -0.067
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "BB",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.065,
+     "x": 2.634,
+     "y": -0.067
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0049",
+   "handle_dxf": "15F",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.91,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     2.5442,
+     -0.066,
+     0.3
+    ],
+    [
+     2.5442,
+     -0.066,
+     2.68
+    ],
+    [
+     2.3942,
+     -0.066,
+     2.68
+    ],
+    [
+     2.3942,
+     -0.066,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "BB",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.066,
+     "x": 2.544,
+     "y": -0.066
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "BA",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.071,
+     "x": 2.394,
+     "y": -0.066
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.015 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0050",
+   "handle_dxf": "162",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "diametro_origen": "cables",
+   "largo_m": 4.87,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     3.2642,
+     -2.3866,
+     0.3
+    ],
+    [
+     3.2642,
+     -2.3866,
+     2.68
+    ],
+    [
+     3.2642,
+     -2.2767,
+     2.68
+    ],
+    [
+     3.2642,
+     -2.2767,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "DA",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.003,
+     "x": 3.264,
+     "y": -2.387
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "EE",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.012,
+     "x": 3.264,
+     "y": -2.277
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.281 m)"
+   ],
+   "avisos": []
+  }
+ ],
+ "generado": "2026-11-09T10:19:07",
+ "config": "ruteo_config_v04.json",
+ "extraccion": {
+  "polilineas": 51,
+  "polilineas_por_capa": {
+   "ELEC-LIGHT-PIPE": 27,
+   "ELEC-POWER- PIPE": 12,
+   "ELEC-Data-Service": 12
+  },
+  "largo_por_capa_m": {
+   "ELEC-LIGHT-PIPE": 27.2,
+   "ELEC-POWER- PIPE": 15.29,
+   "ELEC-Data-Service": 9.61
+  },
+  "dispositivos": 48,
+  "marcadores": 26,
+  "cables_distintos": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "avisos": 3
+ }
+}

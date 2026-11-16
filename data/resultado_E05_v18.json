@@ -1,0 +1,207 @@
+{
+  "schedule_vacio": 0, 
+  "metodo_geometria": "get_Geometry", 
+  "modo": "simulacion", 
+  "con_nivel_valido": 0, 
+  "metodo": "face", 
+  "fallos": [
+    {
+      "anfitrion": "techo", 
+      "cotas_techos_m": [
+        2.7400000000000002, 
+        2.8399999999999999, 
+        5.9900000000000002, 
+        6.0899999999999999, 
+        9.2400000000000002, 
+        9.3399999999999999
+      ], 
+      "motivo": "sin cara de anfitrion", 
+      "z_objetivo_m": 15.820000000000000, 
+      "techos_que_cubren": 43, 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "cotas_techos_m": [
+        2.7400000000000002, 
+        2.8399999999999999, 
+        5.9900000000000002, 
+        6.0899999999999999, 
+        9.2400000000000002, 
+        9.3399999999999999
+      ], 
+      "motivo": "sin cara de anfitrion", 
+      "z_objetivo_m": 15.820000000000000, 
+      "techos_que_cubren": 43, 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "cotas_techos_m": [
+        2.7400000000000002, 
+        2.8399999999999999, 
+        5.9900000000000002, 
+        6.0899999999999999, 
+        9.2400000000000002, 
+        9.3399999999999999
+      ], 
+      "motivo": "sin cara de anfitrion", 
+      "z_objetivo_m": 15.820000000000000, 
+      "techos_que_cubren": 43, 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "cotas_techos_m": [
+        2.7400000000000002, 
+        2.8399999999999999, 
+        5.9900000000000002, 
+        6.0899999999999999, 
+        9.2400000000000002, 
+        9.3399999999999999
+      ], 
+      "motivo": "sin cara de anfitrion", 
+      "z_objetivo_m": 15.820000000000000, 
+      "techos_que_cubren": 43, 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "cotas_techos_m": [
+        2.7400000000000002, 
+        2.8399999999999999, 
+        5.9900000000000002, 
+        6.0899999999999999, 
+        9.2400000000000002, 
+        9.3399999999999999
+      ], 
+      "motivo": "sin cara de anfitrion", 
+      "z_objetivo_m": 15.820000000000000, 
+      "techos_que_cubren": 43, 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "cotas_techos_m": [
+        2.7400000000000002, 
+        2.8399999999999999, 
+        6.0899999999999999, 
+        9.3399999999999999, 
+        12.590000000000000, 
+        15.840000000000000
+      ], 
+      "motivo": "sin cara de anfitrion", 
+      "z_objetivo_m": 15.820000000000000, 
+      "techos_que_cubren": 22, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "cotas_techos_m": [
+        2.7400000000000002, 
+        2.8399999999999999, 
+        5.9900000000000002, 
+        6.0899999999999999, 
+        9.2400000000000002, 
+        9.3399999999999999
+      ], 
+      "motivo": "sin cara de anfitrion", 
+      "z_objetivo_m": 15.820000000000000, 
+      "techos_que_cubren": 43, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "cotas_techos_m": [
+        2.7400000000000002, 
+        2.8399999999999999, 
+        5.9900000000000002, 
+        6.0899999999999999, 
+        9.2400000000000002, 
+        9.3399999999999999
+      ], 
+      "motivo": "sin cara de anfitrion", 
+      "z_objetivo_m": 15.820000000000000, 
+      "techos_que_cubren": 43, 
+      "bloque": "Bala Stil Led 13W"
+    }
+  ], 
+  "dispositivos": 46, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "nivel": "Piso 5", 
+  "ajustes_z": [
+    {
+      "z_json_m": 2.6000000000000001, 
+      "z_usada_m": 1.1000000000000001, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "z_json_m": 2.6000000000000001, 
+      "z_usada_m": 1.1000000000000001, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "z_json_m": 2.6000000000000001, 
+      "z_usada_m": 1.1000000000000001, 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "z_json_m": 2.6000000000000001, 
+      "z_usada_m": 1.1000000000000001, 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "z_json_m": 2.6000000000000001, 
+      "z_usada_m": 1.1000000000000001, 
+      "bloque": "S3"
+    }, 
+    {
+      "z_json_m": 2.6000000000000001, 
+      "z_usada_m": 1.1000000000000001, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 1.1000000000000001, 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 1.1000000000000001, 
+      "bloque": "ELEC-F-CONTROL"
+    }
+  ], 
+  "eliminados": 0, 
+  "desplazamiento": {
+    "grandes": [], 
+    "max_m": 0.0
+  }, 
+  "aviso_unidades": "", 
+  "detalle": [], 
+  "sin_host": 0, 
+  "por_metodo": {}, 
+  "excluidos": [
+    "2F2N1T1R", 
+    "Bala Stil Led 13W [ELEC-POWER- PIPE]"
+  ], 
+  "por_placement": {}, 
+  "con_host": 0, 
+  "schedule_con_valor": 0, 
+  "nivel_elev_m": 13.220000000000001, 
+  "creados": 0
+}

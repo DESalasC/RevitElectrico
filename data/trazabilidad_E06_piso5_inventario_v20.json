@@ -1,0 +1,278 @@
+{
+  "sin_guid": 0, 
+  "fecha": "2026-11-12", 
+  "movidos": 0, 
+  "err_move": 44, 
+  "no_encontrados": 0, 
+  "con_guid": 0, 
+  "script_version": "mcp_e06_minimal_v1-2026-11-12", 
+  "lote_guid": "46c3f138-025d-47d4-b24a-41cd21181a58", 
+  "total_mapa": 44, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "elementos": [
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f1", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9df", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.420000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9db", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 13.520000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d5", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 13.520000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ed", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 13.520000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d4", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 13.520000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9cf", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f4", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ea", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ee", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e2", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d6", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d8", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f5", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d9", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9cd", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e0", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9da", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d7", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f0", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9dc", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 13.520000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f2", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.420000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9dd", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e6", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e7", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9cc", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f3", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ce", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ec", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 13.520000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e3", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d2", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e5", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f6", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e9", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e1", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.420000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d1", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e8", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9eb", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9de", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9ef", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 15.820000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d3", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 13.520000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9d0", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9e4", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.320000000000000
+    }, 
+    {
+      "accion": "err_move", 
+      "uid": "bca656a8-64ce-4190-b1e5-2218da4ce791-0056e9f7", 
+      "motivo": "expected ElementId, got int", 
+      "z_m": 14.420000000000000
+    }
+  ]
+}

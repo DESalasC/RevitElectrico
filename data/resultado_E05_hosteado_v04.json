@@ -1,0 +1,210 @@
+{
+  "modo": "aplicar", 
+  "sin_host": 0, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "dispositivos": 49, 
+  "con_cara": 49, 
+  "sin_cara": 0, 
+  "eliminados": 49, 
+  "con_host": 0, 
+  "creados": 0, 
+  "con_nivel": 0, 
+  "fallos": [
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "S3"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "2F2N1T1R"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "2F2N1T1R"
+    }, 
+    {
+      "motivo": "expected Line, got Reference", 
+      "bloque": "ELEC-T-D-t-15A"
+    }
+  ]
+}

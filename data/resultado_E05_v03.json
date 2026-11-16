@@ -1,0 +1,203 @@
+{
+  "ok": false, 
+  "errores_mapeo": [
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Pulsador - Interruptor'. Disponibles: []", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Pulsador - Interruptor'. Disponibles: []", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Timbre'. Disponibles: []", 
+      "bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "motivo": "simbolo 'GFCI' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'GFCI' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'Teledatos' no existe en 'M_Toma-Comunicaciones'. Disponibles: []", 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Pulsador - Interruptor'. Disponibles: []", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'GFCI' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Pulsador - Interruptor'. Disponibles: []", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "simbolo 'Doble' no existe en 'M_Interruptor-Doble'. Disponibles: []", 
+      "bloque": "S3"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma - 220V'. Disponibles: []", 
+      "bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "motivo": "simbolo 'GFCI' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Pulsador - Interruptor'. Disponibles: []", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Ventilador'. Disponibles: []", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Ventilador'. Disponibles: []", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "motivo": "simbolo 'GFCI' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "simbolo 'SONO FLEX 200 trim' no existe en 'SONO FLEX trim'. Disponibles: []", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "motivo": "simbolo 'SONO FLEX 200 trim' no existe en 'SONO FLEX trim'. Disponibles: []", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "motivo": "simbolo 'SONO FLEX 100 trim' no existe en 'SONO FLEX trim'. Disponibles: []", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "simbolo 'SONO FLEX 100 trim' no existe en 'SONO FLEX trim'. Disponibles: []", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "simbolo 'SONO FLEX 100 trim' no existe en 'SONO FLEX trim'. Disponibles: []", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "simbolo 'SONO FLEX 150 trim' no existe en 'SONO FLEX trim'. Disponibles: []", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "simbolo 'SONO FLEX 150 trim' no existe en 'SONO FLEX trim'. Disponibles: []", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "simbolo 'SONO FLEX 150 trim' no existe en 'SONO FLEX trim'. Disponibles: []", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "simbolo 'SONO FLEX 150 trim' no existe en 'SONO FLEX trim'. Disponibles: []", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "simbolo 'Ventilador' no existe en 'M_Interruptor'. Disponibles: []", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "simbolo 'Ventilador' no existe en 'M_Interruptor'. Disponibles: []", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "familia no encontrada: M_Toma de tel\u00e9fono - Datos", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "sin regla en mapeo_E05_v01.json", 
+      "bloque": "2F2N1T1R"
+    }, 
+    {
+      "motivo": "sin regla en mapeo_E05_v01.json", 
+      "bloque": "2F2N1T1R"
+    }, 
+    {
+      "motivo": "simbolo 'Est\u00e1ndar' no existe en 'M_Toma doble'. Disponibles: []", 
+      "bloque": "ELEC-T-D-t-15A"
+    }
+  ], 
+  "fase": "validacion_mapeo", 
+  "excluidos": []
+}

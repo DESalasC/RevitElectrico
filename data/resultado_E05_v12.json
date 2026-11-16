@@ -1,0 +1,930 @@
+{
+  "schedule_con_valor": 2, 
+  "excluidos": [
+    "2F2N1T1R"
+  ], 
+  "creados": 47, 
+  "nivel": "Piso 5", 
+  "por_placement": {
+    "WorkPlaneBased": 45, 
+    "OneLevelBasedHosted": 2
+  }, 
+  "dispositivos": 47, 
+  "detalle": [
+    {
+      "host": "MUROS DRYWALL INTERNOS", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671954", 
+      "x_m": 3.1779999999999999, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 2.4460000000000002, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MUROS DRYWALL INTERNOS", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5671956", 
+      "x_m": 3.1739999999999999, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 2.8380000000000001, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MUROS DRYWALL INTERNOS", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5671958", 
+      "x_m": 3.1739999999999999, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 2.6989999999999998, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MUROS DRYWALL DIVISORIO APARTAMENTOS", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671960", 
+      "x_m": 0.47399999999999998, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 3.5640000000000001, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MUROS DRYWALL DIVISORIO APARTAMENTOS", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671962", 
+      "x_m": 0.47399999999999998, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 1.3850000000000000, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "M_Pulsador - Interruptor", 
+      "elemento_id": "5671964", 
+      "x_m": 2.0320000000000000, 
+      "z_m": 15.820000000000000, 
+      "bloque": "ELEC-I-S-1-5A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 3.9340000000000002, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "M_Pulsador - Interruptor", 
+      "elemento_id": "5671966", 
+      "x_m": 4.7069999999999999, 
+      "z_m": 15.820000000000000, 
+      "bloque": "ELEC-I-S-1-5A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 5.6299999999999999, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "familia": "M_Timbre", 
+      "elemento_id": "5671968", 
+      "x_m": 4.4889999999999999, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TIMBRE", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 8.1370000000000005, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671970", 
+      "x_m": 5.3520000000000003, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 7.9530000000000003, 
+      "simbolo": "GFCI", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671972", 
+      "x_m": 4.6040000000000001, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 7.9509999999999996, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671974", 
+      "x_m": 4.8529999999999998, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 7.9509999999999996, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671976", 
+      "x_m": 5.0910000000000002, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 5.7820000000000000, 
+      "simbolo": "GFCI", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671978", 
+      "x_m": 5.0880000000000001, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 5.6550000000000002, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma-Comunicaciones", 
+      "elemento_id": "5671979", 
+      "x_m": 5.0910000000000002, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-NET-PAU", 
+      "level_id": "192512", 
+      "placement_type": "OneLevelBasedHosted", 
+      "anfitrion": "muro", 
+      "y_m": 5.9550000000000001, 
+      "simbolo": "Teledatos", 
+      "schedule_level": "Piso 5", 
+      "metodo": "HostNivel"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "M_Pulsador - Interruptor", 
+      "elemento_id": "5671981", 
+      "x_m": 3.3490000000000002, 
+      "z_m": 15.820000000000000, 
+      "bloque": "ELEC-I-S-C1-5A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 2.4369999999999998, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671983", 
+      "x_m": 3.3100000000000001, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 3.3889999999999998, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5671985", 
+      "x_m": 3.3050000000000002, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 3.7610000000000001, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5671987", 
+      "x_m": 3.3050000000000002, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 3.6219999999999999, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671989", 
+      "x_m": 5.5240000000000000, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 5.5839999999999996, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MURO MAMPOSTERIA B12 + CARA PA_ETA", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671991", 
+      "x_m": 3.5750000000000002, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 1.2909999999999999, 
+      "simbolo": "GFCI", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "M_Pulsador - Interruptor", 
+      "elemento_id": "5671993", 
+      "x_m": 4.2199999999999998, 
+      "z_m": 15.820000000000000, 
+      "bloque": "ELEC-I-S-C1-5A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 1.752, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "M_Interruptor-Doble", 
+      "elemento_id": "5671994", 
+      "x_m": 4.6330000000000000, 
+      "z_m": 15.820000000000000, 
+      "bloque": "S3", 
+      "level_id": "192512", 
+      "placement_type": "OneLevelBasedHosted", 
+      "anfitrion": "techo", 
+      "y_m": 5.8280000000000003, 
+      "simbolo": "Doble", 
+      "schedule_level": "Piso 5", 
+      "metodo": "HostNivel"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5671996", 
+      "x_m": 5.5330000000000004, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 5.6840000000000002, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma - 220V", 
+      "elemento_id": "5671998", 
+      "x_m": 4.3350000000000000, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-CAMPANA", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 7.9649999999999999, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5672000", 
+      "x_m": 3.1680000000000001, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 5.7709999999999999, 
+      "simbolo": "GFCI", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "M_Pulsador - Interruptor", 
+      "elemento_id": "5672002", 
+      "x_m": 3.1330000000000000, 
+      "z_m": 15.820000000000000, 
+      "bloque": "ELEC-I-S-1-5A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 7.1929999999999996, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5672004", 
+      "x_m": 5.0890000000000004, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 5.8780000000000001, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "M_Ventilador", 
+      "elemento_id": "5672006", 
+      "x_m": 1.8330000000000000, 
+      "z_m": 15.820000000000000, 
+      "bloque": "ELEC-F-VENT", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 2.4640000000000000, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "M_Ventilador", 
+      "elemento_id": "5672008", 
+      "x_m": 4.75, 
+      "z_m": 15.820000000000000, 
+      "bloque": "ELEC-F-VENT", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 3.9500000000000002, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_EnchapeRopas", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5672010", 
+      "x_m": 2.7130000000000001, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 7.9699999999999998, 
+      "simbolo": "GFCI", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "SONO FLEX trim", 
+      "elemento_id": "5672012", 
+      "x_m": 5.7569999999999997, 
+      "z_m": 15.820000000000000, 
+      "bloque": "Bala Stil Led 22W", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 6.8220000000000001, 
+      "simbolo": "_SONO FLEX 200 trim", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "SONO FLEX trim", 
+      "elemento_id": "5672014", 
+      "x_m": 3.8149999999999999, 
+      "z_m": 15.820000000000000, 
+      "bloque": "Bala Stil Led 22W", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 6.8270000000000000, 
+      "simbolo": "_SONO FLEX 200 trim", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "SONO FLEX trim", 
+      "elemento_id": "5672016", 
+      "x_m": 3.6560000000000001, 
+      "z_m": 15.820000000000000, 
+      "bloque": "Bala Stil Led 10W", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 3.3799999999999999, 
+      "simbolo": "SONO FLEX 100 trim", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "SONO FLEX trim", 
+      "elemento_id": "5672018", 
+      "x_m": 5.7569999999999997, 
+      "z_m": 15.820000000000000, 
+      "bloque": "Bala Stil Led 10W", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 3.3799999999999999, 
+      "simbolo": "SONO FLEX 100 trim", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "SONO FLEX trim", 
+      "elemento_id": "5672020", 
+      "x_m": 2.7480000000000002, 
+      "z_m": 15.820000000000000, 
+      "bloque": "Bala Stil Led 10W", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 5.0460000000000003, 
+      "simbolo": "SONO FLEX 100 trim", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "SONO FLEX trim", 
+      "elemento_id": "5672022", 
+      "x_m": 4.8529999999999998, 
+      "z_m": 15.820000000000000, 
+      "bloque": "Bala Stil Led 13W", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 0.628, 
+      "simbolo": "_SONO FLEX 150 trim", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "SONO FLEX trim", 
+      "elemento_id": "5672024", 
+      "x_m": 1.8260000000000001, 
+      "z_m": 15.820000000000000, 
+      "bloque": "Bala Stil Led 13W", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 3.5790000000000002, 
+      "simbolo": "_SONO FLEX 150 trim", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "SONO FLEX trim", 
+      "elemento_id": "5672026", 
+      "x_m": 1.6160000000000001, 
+      "z_m": 15.820000000000000, 
+      "bloque": "Bala Stil Led 13W", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 5.4850000000000003, 
+      "simbolo": "_SONO FLEX 150 trim", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "familia": "SONO FLEX trim", 
+      "elemento_id": "5672028", 
+      "x_m": 0.52700000000000002, 
+      "z_m": 15.820000000000000, 
+      "bloque": "Bala Stil Led 13W", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "techo", 
+      "y_m": 1.4339999999999999, 
+      "simbolo": "_SONO FLEX 150 trim", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Interruptor", 
+      "elemento_id": "5672030", 
+      "x_m": 2.2719999999999998, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-F-CONTROL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 4.2089999999999996, 
+      "simbolo": "Ventilador", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MUROS DRYWALL INTERNOS", 
+      "familia": "M_Interruptor", 
+      "elemento_id": "5672032", 
+      "x_m": 3.1589999999999998, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-F-CONTROL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 2.4440000000000000, 
+      "simbolo": "Ventilador", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "MUROS DRYWALL INTERNOS", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5672034", 
+      "x_m": 3.1739999999999999, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 2.5600000000000001, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5672036", 
+      "x_m": 5.0890000000000004, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 6.0179999999999998, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5672038", 
+      "x_m": 5.0890000000000004, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 6.1650000000000000, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5672040", 
+      "x_m": 5.0890000000000004, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 6.3060000000000000, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "elemento_id": "5672042", 
+      "x_m": 3.9720000000000000, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-TEL", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 7.7690000000000001, 
+      "simbolo": "Simple", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }, 
+    {
+      "host": "FJR_Pintura_Blanco", 
+      "familia": "M_Toma doble", 
+      "elemento_id": "5672044", 
+      "x_m": 5.9189999999999996, 
+      "z_m": 13.520000000000000, 
+      "bloque": "ELEC-T-D-t-15A", 
+      "level_id": "-1", 
+      "placement_type": "WorkPlaneBased", 
+      "anfitrion": "muro", 
+      "y_m": 4.1779999999999999, 
+      "simbolo": "Est_ndar", 
+      "schedule_level": "", 
+      "metodo": "Face"
+    }
+  ], 
+  "con_host": 47, 
+  "schedule_vacio": 45, 
+  "metodo_geometria": "get_Geometry", 
+  "nivel_elev_m": 13.220000000000001, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "modo": "aplicar", 
+  "referencia_nivel": {
+    "M_Toma doble": {
+      "elemento_id": "5565812", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "", 
+          "escribible": false
+        }
+      ], 
+      "familia": "M_Toma doble", 
+      "host": "FJR_Pintura_Blanco"
+    }, 
+    "M_Pulsador - Interruptor": {
+      "elemento_id": "5564192", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "", 
+          "escribible": false
+        }
+      ], 
+      "familia": "M_Pulsador - Interruptor", 
+      "host": "FJR_Pintura_Blanco"
+    }, 
+    "M_Timbre": {
+      "elemento_id": "5532076", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "", 
+          "escribible": false
+        }
+      ], 
+      "familia": "M_Timbre", 
+      "host": ""
+    }, 
+    "M_Toma de tel_fono - Datos": {
+      "elemento_id": "5570447", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "", 
+          "escribible": false
+        }
+      ], 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "host": "REVOQUE EN SECO"
+    }, 
+    "M_Toma-Comunicaciones": {
+      "elemento_id": "5653092", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }
+      ], 
+      "familia": "M_Toma-Comunicaciones", 
+      "host": "FJR_Pintura_Blanco"
+    }, 
+    "M_Toma - 220V": {
+      "elemento_id": "5567459", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "", 
+          "escribible": false
+        }
+      ], 
+      "familia": "M_Toma - 220V", 
+      "host": "FJR_Pintura_Blanco"
+    }, 
+    "M_Ventilador": {
+      "elemento_id": "5532079", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "", 
+          "escribible": false
+        }
+      ], 
+      "familia": "M_Ventilador", 
+      "host": ""
+    }, 
+    "M_Interruptor": {
+      "elemento_id": "5569701", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "", 
+          "escribible": false
+        }
+      ], 
+      "familia": "M_Interruptor", 
+      "host": "FJR_Pintura_Blanco"
+    }, 
+    "M_Interruptor-Doble": {
+      "elemento_id": "5569268", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }
+      ], 
+      "familia": "M_Interruptor-Doble", 
+      "host": "FJR_Pintura_Blanco"
+    }, 
+    "SONO FLEX trim": {
+      "elemento_id": "5574864", 
+      "nivel": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "valor": "Piso 5", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "valor": "", 
+          "escribible": false
+        }
+      ], 
+      "familia": "SONO FLEX trim", 
+      "host": "Flanche"
+    }
+  }, 
+  "ajustes_z": [
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }
+  ], 
+  "eliminados": 0, 
+  "aviso_unidades": "", 
+  "con_nivel_valido": 2, 
+  "fallos": [], 
+  "por_metodo": {
+    "Face": 45, 
+    "HostNivel": 2
+  }, 
+  "metodo": "face", 
+  "sin_host": 0
+}

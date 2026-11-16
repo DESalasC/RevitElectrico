@@ -1,0 +1,590 @@
+{
+  "apartamento": "F 01",
+  "dxf_path": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\Apartamento Tipo F 01.dxf",
+  "origen_bloque": {
+    "handle": "18C",
+    "bloque": "1TNR",
+    "x": -3.112689775358831,
+    "y": -6.825103852188931
+  },
+  "total_dispositivos": 35,
+  "plan": [
+    {
+      "handle": "6D",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "GFCI",
+      "x_dxf": -3.503797201105951,
+      "y_dxf": -6.469451046050152,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 105.0,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-01",
+      "altura_dxf": 0.3,
+      "textos_cercanos": [
+        "0.3m",
+        "TF-01",
+        "0.3m"
+      ]
+    },
+    {
+      "handle": "8D",
+      "nombre": "ELEC-T-D-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "Normal",
+      "x_dxf": -3.525440381135468,
+      "y_dxf": -6.352839513556546,
+      "rotacion_dxf": 0,
+      "rotacion_final": -75.0,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-01",
+      "altura_dxf": 0.3,
+      "textos_cercanos": [
+        "0.3m",
+        "TF-01",
+        "0.3m",
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "96",
+      "nombre": "ELEC-T-D-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "Normal",
+      "x_dxf": -0.1888078427178684,
+      "y_dxf": -4.621700117402497,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": 14.999999999999943,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-01",
+      "altura_dxf": 1.0,
+      "textos_cercanos": [
+        "1m",
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "97",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "GFCI",
+      "x_dxf": -0.1784109766430282,
+      "y_dxf": -2.84885833276212,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": 14.999999999999943,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-05",
+      "altura_dxf": 0.85,
+      "textos_cercanos": [
+        "0.85m",
+        "TF-05"
+      ]
+    },
+    {
+      "handle": "98",
+      "nombre": "ELEC-T-D-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "Normal",
+      "x_dxf": -0.1840966065247085,
+      "y_dxf": -2.21537626402187,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": 14.999999999999943,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-03",
+      "altura_dxf": 0.7,
+      "textos_cercanos": [
+        "0.7m",
+        "TF-03"
+      ]
+    },
+    {
+      "handle": "99",
+      "nombre": "ELEC-T-D-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "Normal",
+      "x_dxf": -0.1840966065247085,
+      "y_dxf": -2.0855017167205,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": 14.999999999999943,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-03",
+      "altura_dxf": 0.7,
+      "textos_cercanos": [
+        "0.7m",
+        "TF-03"
+      ]
+    },
+    {
+      "handle": "9A",
+      "nombre": "ELEC-T-D-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "Normal",
+      "x_dxf": -0.0240966065245084,
+      "y_dxf": -0.428705860395894,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": 14.999999999999943,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-03",
+      "altura_dxf": 1.05,
+      "textos_cercanos": [
+        "1.05m",
+        "TF-03"
+      ]
+    },
+    {
+      "handle": "9B",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "GFCI",
+      "x_dxf": -3.673816860409261,
+      "y_dxf": -2.368181940760769,
+      "rotacion_dxf": 0,
+      "rotacion_final": -75.0,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-11",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-11"
+      ]
+    },
+    {
+      "handle": "9C",
+      "nombre": "ELEC-TIMBRE",
+      "familia_revit": "M_Pulsador - Interruptor",
+      "tipo_revit": "Timbre",
+      "x_dxf": -1.252978202000375,
+      "y_dxf": 0.1672414279175882,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 270.0,
+      "delta_rotacion": 90.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "A4",
+      "nombre": "ELEC-CAMPANA",
+      "familia_revit": "M_Timbre",
+      "tipo_revit": "Campana",
+      "x_dxf": -0.9882241641821563,
+      "y_dxf": -0.0002585720833395,
+      "rotacion_dxf": 0,
+      "rotacion_final": 0.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "B9",
+      "nombre": "ELEC-I-S-1-5A",
+      "familia_revit": "M_Interruptores",
+      "tipo_revit": "Simple",
+      "x_dxf": -1.248553477160185,
+      "y_dxf": -0.0517585713523658,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": 269.99999999999994,
+      "delta_rotacion": 180.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "C1",
+      "nombre": "ELEC-I-S-1-5A",
+      "familia_revit": "M_Interruptores",
+      "tipo_revit": "Simple",
+      "x_dxf": -3.313702915850171,
+      "y_dxf": -6.299834181454797,
+      "rotacion_dxf": 0,
+      "rotacion_final": 180.0,
+      "delta_rotacion": 180.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "C9",
+      "nombre": "ELEC-I-S-1-5A",
+      "familia_revit": "M_Interruptores",
+      "tipo_revit": "Simple",
+      "x_dxf": -2.526442720995921,
+      "y_dxf": -1.620146734531117,
+      "rotacion_dxf": 11.81427143305155,
+      "rotacion_final": 191.81427143305154,
+      "delta_rotacion": 180.0,
+      "circuito": null,
+      "altura_dxf": null,
+      "textos_cercanos": []
+    },
+    {
+      "handle": "CB",
+      "nombre": "ELEC-F-VENT",
+      "familia_revit": "M_ClimatizacionV",
+      "tipo_revit": "Ventilador",
+      "x_dxf": -1.974455818249225,
+      "y_dxf": -4.734186398689415,
+      "rotacion_dxf": 120.0,
+      "rotacion_final": 120.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "D4",
+      "nombre": "ELEC-F-CONTROL",
+      "familia_revit": "M_Climatizacion",
+      "tipo_revit": "Interruptor Ventilador",
+      "x_dxf": -2.285146045115653,
+      "y_dxf": -2.997918954616805,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 180.0,
+      "delta_rotacion": 0.0,
+      "circuito": null,
+      "altura_dxf": null,
+      "textos_cercanos": []
+    },
+    {
+      "handle": "DF",
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "GFCI",
+      "x_dxf": -0.1808912098322435,
+      "y_dxf": -1.679844693358518,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": 14.999999999999943,
+      "delta_rotacion": -75.0,
+      "circuito": null,
+      "altura_dxf": null,
+      "textos_cercanos": []
+    },
+    {
+      "handle": "FD",
+      "nombre": "ELEC-EXT",
+      "familia_revit": "EA",
+      "tipo_revit": "M_Extractor",
+      "x_dxf": -3.635044734436906,
+      "y_dxf": -0.8669556327411099,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 180.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "12F",
+      "nombre": "Bala Stil Led 22W",
+      "familia_revit": "M_Iluminacion",
+      "tipo_revit": "SONO FLEX 22 trim",
+      "x_dxf": -1.254865129033077,
+      "y_dxf": -2.120216921199014,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 180.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "13B",
+      "nombre": "Bala Stil Led 22W",
+      "familia_revit": "M_Iluminacion",
+      "tipo_revit": "SONO FLEX 22 trim",
+      "x_dxf": -1.246366515998488,
+      "y_dxf": -0.8190663677992231,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 180.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "13C",
+      "nombre": "Bala Stil Led 10W",
+      "familia_revit": "M_Iluminacion",
+      "tipo_revit": "SONO FLEX 10 trim",
+      "x_dxf": -1.259403150649176,
+      "y_dxf": -6.030216921198871,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 180.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "145",
+      "nombre": "Bala Stil Led 10W",
+      "familia_revit": "M_Iluminacion",
+      "tipo_revit": "SONO FLEX 10 trim",
+      "x_dxf": -3.117952954131396,
+      "y_dxf": -6.030216921198871,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 180.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "146",
+      "nombre": "Bala Stil Led 10W",
+      "familia_revit": "M_Iluminacion",
+      "tipo_revit": "SONO FLEX 10 trim",
+      "x_dxf": -1.254865129033077,
+      "y_dxf": -3.450216921198943,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 180.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "147",
+      "nombre": "Bala Stil Led 10W",
+      "familia_revit": "M_Iluminacion",
+      "tipo_revit": "SONO FLEX 10 trim",
+      "x_dxf": -3.113414932515297,
+      "y_dxf": -3.450216921198943,
+      "rotacion_dxf": 180.0,
+      "rotacion_final": 180.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "148",
+      "nombre": "Bala Stil Led 13W",
+      "familia_revit": "M_Iluminacion",
+      "tipo_revit": "SONO FLEX 13 trim",
+      "x_dxf": -3.119704513729629,
+      "y_dxf": -1.190552103374102,
+      "rotacion_dxf": 0,
+      "rotacion_final": 0.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "156",
+      "nombre": "Bala Stil Led 13W",
+      "familia_revit": "M_Iluminacion",
+      "tipo_revit": "SONO FLEX 13 trim",
+      "x_dxf": -1.954286833830793,
+      "y_dxf": -7.220672397104861,
+      "rotacion_dxf": 0,
+      "rotacion_final": 0.0,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "1E8",
+      "nombre": "ELEC-TEL",
+      "familia_revit": "M_Comunicaciones",
+      "tipo_revit": "Datos",
+      "x_dxf": -0.1839118799839525,
+      "y_dxf": -4.997829707660002,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": -30.000000000000057,
+      "delta_rotacion": -120.0,
+      "circuito": "TF-01",
+      "altura_dxf": 1.0,
+      "textos_cercanos": [
+        "1m",
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "1F1",
+      "nombre": "ELEC-TEL",
+      "familia_revit": "M_Comunicaciones",
+      "tipo_revit": "Datos",
+      "x_dxf": -0.1839118799839525,
+      "y_dxf": -4.847846097150523,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": -30.000000000000057,
+      "delta_rotacion": -120.0,
+      "circuito": "TF-01",
+      "altura_dxf": 1.0,
+      "textos_cercanos": [
+        "1m",
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "1F2",
+      "nombre": "ELEC-TEL",
+      "familia_revit": "M_Comunicaciones",
+      "tipo_revit": "Datos",
+      "x_dxf": -0.1839118799839525,
+      "y_dxf": -5.137238610104532,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": -30.000000000000057,
+      "delta_rotacion": -120.0,
+      "circuito": "TF-01",
+      "altura_dxf": 1.0,
+      "textos_cercanos": [
+        "1m",
+        "TF-01"
+      ]
+    },
+    {
+      "handle": "1F3",
+      "nombre": "ELEC-NET-PAU",
+      "familia_revit": "Consolidation_Point",
+      "tipo_revit": "CPB6BL",
+      "x_dxf": -2.364729650145819,
+      "y_dxf": -2.834184770888441,
+      "rotacion_dxf": 89.99999999999994,
+      "rotacion_final": 89.99999999999994,
+      "delta_rotacion": 0.0,
+      "circuito": "TF-03",
+      "altura_dxf": 0.3,
+      "textos_cercanos": [
+        "0.3m",
+        "TF-03",
+        "2Ø3/4\""
+      ]
+    },
+    {
+      "handle": "203",
+      "nombre": "ELEC-TEL",
+      "familia_revit": "M_Comunicaciones",
+      "tipo_revit": "Datos",
+      "x_dxf": -2.362262675450438,
+      "y_dxf": -2.868341463430169,
+      "rotacion_dxf": 270.0,
+      "rotacion_final": 150.0,
+      "delta_rotacion": -120.0,
+      "circuito": "TF-03",
+      "altura_dxf": 0.3,
+      "textos_cercanos": [
+        "0.3m",
+        "TF-03",
+        "2Ø3/4\""
+      ]
+    },
+    {
+      "handle": "204",
+      "nombre": "ELEC-TEL",
+      "familia_revit": "M_Comunicaciones",
+      "tipo_revit": "Datos",
+      "x_dxf": -2.362262675450438,
+      "y_dxf": -3.018325073939647,
+      "rotacion_dxf": 270.0,
+      "rotacion_final": 150.0,
+      "delta_rotacion": -120.0,
+      "circuito": null,
+      "altura_dxf": 0.3,
+      "textos_cercanos": [
+        "0.3m"
+      ]
+    },
+    {
+      "handle": "205",
+      "nombre": "ELEC-TEL",
+      "familia_revit": "M_Comunicaciones",
+      "tipo_revit": "Datos",
+      "x_dxf": -2.362262675450438,
+      "y_dxf": -2.72893256098564,
+      "rotacion_dxf": 270.0,
+      "rotacion_final": 150.0,
+      "delta_rotacion": -120.0,
+      "circuito": "TF-03",
+      "altura_dxf": 0.3,
+      "textos_cercanos": [
+        "0.3m",
+        "TF-03",
+        "2Ø3/4\""
+      ]
+    },
+    {
+      "handle": "206",
+      "nombre": "ELEC-TEL",
+      "familia_revit": "M_Comunicaciones",
+      "tipo_revit": "Datos",
+      "x_dxf": -2.362262675450438,
+      "y_dxf": -2.591313775968044,
+      "rotacion_dxf": 270.0,
+      "rotacion_final": 150.0,
+      "delta_rotacion": -120.0,
+      "circuito": "TF-03",
+      "altura_dxf": 0.3,
+      "textos_cercanos": [
+        "0.3m",
+        "TF-03",
+        "2Ø3/4\""
+      ]
+    },
+    {
+      "handle": "210",
+      "nombre": "ELEC-T-D-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "Normal",
+      "x_dxf": -2.346614776104428,
+      "y_dxf": -2.607045882389646,
+      "rotacion_dxf": 270.0,
+      "rotacion_final": 195.0,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-03",
+      "altura_dxf": 0.3,
+      "textos_cercanos": [
+        "0.3m",
+        "TF-03",
+        "2Ø3/4\""
+      ]
+    },
+    {
+      "handle": "216",
+      "nombre": "ELEC-T-D-t-15A",
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "Normal",
+      "x_dxf": -3.769008615202916,
+      "y_dxf": -3.444433896862931,
+      "rotacion_dxf": 270.0,
+      "rotacion_final": 195.0,
+      "delta_rotacion": -75.0,
+      "circuito": "TF-01",
+      "altura_dxf": null,
+      "textos_cercanos": [
+        "TF-01"
+      ]
+    }
+  ]
+}

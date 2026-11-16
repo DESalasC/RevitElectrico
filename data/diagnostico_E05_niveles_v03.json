@@ -1,0 +1,1212 @@
+{
+  "niveles": [
+    {
+      "nombre": "Sotano", 
+      "elevacion_m": -1.0800000000000001, 
+      "id": "208719"
+    }, 
+    {
+      "nombre": "CLASIFICACI_N ACABADOS MUROS MAMPOSTERIA PISO 1", 
+      "elevacion_m": 0.22, 
+      "id": "933"
+    }, 
+    {
+      "nombre": "CLASIFICACI_N ACABADOS MAMPOSTERIA PISO 2-3", 
+      "elevacion_m": 3.4700000000000002, 
+      "id": "1679"
+    }, 
+    {
+      "nombre": "Piso 3", 
+      "elevacion_m": 6.7199999999999998, 
+      "id": "192424"
+    }, 
+    {
+      "nombre": "CLASIFICACI_N ACABADOS MAMPOSTERIA PISO 4-18", 
+      "elevacion_m": 9.9700000000000006, 
+      "id": "192468"
+    }, 
+    {
+      "nombre": "Piso 5", 
+      "elevacion_m": 13.220000000000001, 
+      "id": "192512"
+    }, 
+    {
+      "nombre": "Piso 6", 
+      "elevacion_m": 16.469999999999999, 
+      "id": "192663"
+    }, 
+    {
+      "nombre": "Piso 7", 
+      "elevacion_m": 19.719999999999999, 
+      "id": "192707"
+    }, 
+    {
+      "nombre": "Piso 8", 
+      "elevacion_m": 22.969999999999999, 
+      "id": "192751"
+    }, 
+    {
+      "nombre": "Piso 9", 
+      "elevacion_m": 26.219999999999999, 
+      "id": "192795"
+    }, 
+    {
+      "nombre": "Piso 10", 
+      "elevacion_m": 29.469999999999999, 
+      "id": "192839"
+    }, 
+    {
+      "nombre": "Piso 11", 
+      "elevacion_m": 32.719999999999999, 
+      "id": "192883"
+    }, 
+    {
+      "nombre": "Piso 12", 
+      "elevacion_m": 35.969999999999999, 
+      "id": "192927"
+    }, 
+    {
+      "nombre": "Piso 13", 
+      "elevacion_m": 39.219999999999999, 
+      "id": "192971"
+    }, 
+    {
+      "nombre": "Piso 14", 
+      "elevacion_m": 42.469999999999999, 
+      "id": "193015"
+    }, 
+    {
+      "nombre": "Piso 15", 
+      "elevacion_m": 45.719999999999999, 
+      "id": "193059"
+    }, 
+    {
+      "nombre": "Piso 16", 
+      "elevacion_m": 48.969999999999999, 
+      "id": "193103"
+    }, 
+    {
+      "nombre": "Piso 17", 
+      "elevacion_m": 52.219999999999999, 
+      "id": "193147"
+    }, 
+    {
+      "nombre": "Piso 18", 
+      "elevacion_m": 55.469999999999999, 
+      "id": "193191"
+    }, 
+    {
+      "nombre": "CLASIFICACI_N ACABADOS MAMPOSTERIA PISO 19-21", 
+      "elevacion_m": 58.719999999999999, 
+      "id": "193235"
+    }, 
+    {
+      "nombre": "Piso 20", 
+      "elevacion_m": 61.969999999999999, 
+      "id": "193279"
+    }, 
+    {
+      "nombre": "Piso 21", 
+      "elevacion_m": 65.219999999999999, 
+      "id": "193323"
+    }, 
+    {
+      "nombre": "Cubierta", 
+      "elevacion_m": 68.469999999999999, 
+      "id": "193367"
+    }, 
+    {
+      "nombre": "SobreCubierta", 
+      "elevacion_m": 71.870000000000005, 
+      "id": "208852"
+    }
+  ], 
+  "instancias_E05": [
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.1429999999999998, 
+      "y_m": 2.4460000000000002, 
+      "z_m": 13.520000000000000, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671103", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 0.48099999999999998, 
+      "y_m": 3.5640000000000001, 
+      "z_m": 13.520000000000000, 
+      "host": "MUROS DRYWALL DIVISORIO APARTAMENTOS", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671110", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 0.48099999999999998, 
+      "y_m": 1.3850000000000000, 
+      "z_m": 13.520000000000000, 
+      "host": "MUROS DRYWALL DIVISORIO APARTAMENTOS", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671113", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 2.0320000000000000, 
+      "y_m": 3.9340000000000002, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "M_Interruptor", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671115", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 4.7069999999999999, 
+      "y_m": 5.6299999999999999, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "M_Interruptor", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671118", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.3520000000000003, 
+      "y_m": 8.0120000000000005, 
+      "z_m": 13.520000000000000, 
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671123", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 4.6040000000000001, 
+      "y_m": 8.0120000000000005, 
+      "z_m": 13.520000000000000, 
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671126", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 4.8529999999999998, 
+      "y_m": 8.0120000000000005, 
+      "z_m": 13.520000000000000, 
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671128", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.0800000000000001, 
+      "y_m": 5.7820000000000000, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671130", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.0800000000000001, 
+      "y_m": 5.6550000000000002, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671133", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.3490000000000002, 
+      "y_m": 2.4369999999999998, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "M_Interruptor", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671137", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.2589999999999999, 
+      "y_m": 3.3889999999999998, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671139", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.5240000000000000, 
+      "y_m": 5.5899999999999999, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671146", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.5770000000000000, 
+      "y_m": 1.2909999999999999, 
+      "z_m": 13.520000000000000, 
+      "host": "MURO MAMPOSTERIA B12 + CARA PA_ETA", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671149", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 4.2199999999999998, 
+      "y_m": 1.752, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "M_Interruptor", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671152", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 4.6330000000000000, 
+      "y_m": 5.8280000000000003, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "M_Interruptor", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671154", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.5330000000000004, 
+      "y_m": 5.7060000000000004, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671156", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 4.3350000000000000, 
+      "y_m": 8.0109999999999992, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Interruptor", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671159", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.1949999999999998, 
+      "y_m": 5.7709999999999999, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671162", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.1330000000000000, 
+      "y_m": 7.1929999999999996, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "M_Interruptor", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671165", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 1.8330000000000000, 
+      "y_m": 2.4640000000000000, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "M_Ventilador", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671169", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 4.75, 
+      "y_m": 3.9500000000000002, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "M_Ventilador", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671171", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 2.7130000000000001, 
+      "y_m": 8.0039999999999996, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_EnchapeRopas", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671173", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 2.2570000000000001, 
+      "y_m": 4.2089999999999996, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Interruptor", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671198", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.1429999999999998, 
+      "y_m": 2.4440000000000000, 
+      "z_m": 13.520000000000000, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "host_categoria": "Walls", 
+      "familia": "M_Interruptor", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671201", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.1429999999999998, 
+      "y_m": 6.3570000000000002, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671214", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 6.4050000000000002, 
+      "y_m": 4.1779999999999999, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma doble", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "ElectricalFixtures", 
+      "elemento_id": "5671220", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.7569999999999997, 
+      "y_m": 6.8220000000000001, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "SONO FLEX trim", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "LightingFixtures", 
+      "elemento_id": "5671176", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.8149999999999999, 
+      "y_m": 6.8270000000000000, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "SONO FLEX trim", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "LightingFixtures", 
+      "elemento_id": "5671178", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.6560000000000001, 
+      "y_m": 3.3799999999999999, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "SONO FLEX trim", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "LightingFixtures", 
+      "elemento_id": "5671180", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.7569999999999997, 
+      "y_m": 3.3799999999999999, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "SONO FLEX trim", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "LightingFixtures", 
+      "elemento_id": "5671182", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 2.7480000000000002, 
+      "y_m": 5.0460000000000003, 
+      "z_m": 15.820000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "host_categoria": "Ceilings", 
+      "familia": "SONO FLEX trim", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "LightingFixtures", 
+      "elemento_id": "5671184", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 4.8529999999999998, 
+      "y_m": 0.112, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "SONO FLEX trim", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "LightingFixtures", 
+      "elemento_id": "5671186", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 1.8260000000000001, 
+      "y_m": 4.5730000000000004, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "SONO FLEX trim", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "LightingFixtures", 
+      "elemento_id": "5671189", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 2.1099999999999999, 
+      "y_m": 5.4850000000000003, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "SONO FLEX trim", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "LightingFixtures", 
+      "elemento_id": "5671192", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 0.48199999999999998, 
+      "y_m": 1.4339999999999999, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "SONO FLEX trim", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "LightingFixtures", 
+      "elemento_id": "5671195", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 4.4889999999999999, 
+      "y_m": 8.1419999999999995, 
+      "z_m": 13.520000000000000, 
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "host_categoria": "Walls", 
+      "familia": "M_Timbre", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "CommunicationDevices", 
+      "elemento_id": "5671120", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.1429999999999998, 
+      "y_m": 2.8380000000000001, 
+      "z_m": 13.520000000000000, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671106", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.1429999999999998, 
+      "y_m": 2.6989999999999998, 
+      "z_m": 13.520000000000000, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671108", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.0800000000000001, 
+      "y_m": 5.9550000000000001, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671135", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.2589999999999999, 
+      "y_m": 3.7610000000000001, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671142", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.2589999999999999, 
+      "y_m": 3.6219999999999999, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671144", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.0800000000000001, 
+      "y_m": 5.8780000000000001, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671167", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.1429999999999998, 
+      "y_m": 2.5600000000000001, 
+      "z_m": 13.520000000000000, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671203", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.0800000000000001, 
+      "y_m": 6.0179999999999998, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671205", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.0800000000000001, 
+      "y_m": 6.1650000000000000, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671207", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.0800000000000001, 
+      "y_m": 6.3060000000000000, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671209", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 3.3119999999999998, 
+      "y_m": 7.7690000000000001, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671211", 
+      "tipo": ""
+    }, 
+    {
+      "comment": "APT-E-05-P5", 
+      "x_m": 5.1970000000000001, 
+      "y_m": 6.1180000000000003, 
+      "z_m": 13.520000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "host_categoria": "Walls", 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "nivel_parametros": {
+        "FAMILY_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }, 
+        "SCHEDULE_LEVEL_PARAM": {
+          "valor": "", 
+          "escribible": false
+        }
+      }, 
+      "categoria": "TelephoneDevices", 
+      "elemento_id": "5671217", 
+      "tipo": ""
+    }
+  ], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "candidatos_nivel_probados": [
+    "SCHEDULE_LEVEL_PARAM", 
+    "FAMILY_LEVEL_PARAM", 
+    "RBS_START_LEVEL_PARAM", 
+    "LEVEL_PARAM", 
+    "INSTANCE_REFERENCE_LEVEL_PARAM"
+  ]
+}

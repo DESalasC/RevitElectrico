@@ -1,0 +1,451 @@
+{
+  "fuente": "colocar_dispositivos_E06_v13_resultado.json",
+  "proyecto": "RevitElectrico",
+  "apartamento": "E06",
+  "nivel": "Piso 5",
+  "nivel_elev_m": 13.22,
+  "lote_guid": "46c3f138-025d-47d4-b24a-41cd21181a58",
+  "total": 44,
+  "dispositivos": [
+    {
+      "bloque": "Bala Stil Led 13W",
+      "x_m": 4.953,
+      "y_m": 17.2141,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_Iluminacion",
+      "simbolo": "SONO FLEX 13 trim",
+      "rotacion_grados": 180.0
+    },
+    {
+      "bloque": "ELEC-I-S-C1-5A",
+      "x_m": 3.2274,
+      "y_m": 16.5471,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Interruptores",
+      "simbolo": "Conmutable",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x_m": 3.6797,
+      "y_m": 16.3728,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "rotacion_grados": 270.0
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 0.574,
+      "y_m": 16.2796,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 270.0
+    },
+    {
+      "bloque": "ELEC-I-S-C1-5A",
+      "x_m": 3.4497,
+      "y_m": 15.2268,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Interruptores",
+      "simbolo": "Conmutable",
+      "rotacion_grados": 270.0
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 3.2789,
+      "y_m": 15.2181,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "ELEC-F-VENT",
+      "x_m": 1.9334,
+      "y_m": 15.2002,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_ClimatizacionV",
+      "simbolo": "Ventilador",
+      "rotacion_grados": 328.7
+    },
+    {
+      "bloque": "ELEC-TEL",
+      "x_m": 3.2741,
+      "y_m": 15.1039,
+      "z_abs_m": 13.52,
+      "z_offset_m": 0.3,
+      "familia": "M_Comunicaciones",
+      "simbolo": "Telefono",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "ELEC-TEL",
+      "x_m": 3.2741,
+      "y_m": 14.9653,
+      "z_abs_m": 13.52,
+      "z_offset_m": 0.3,
+      "familia": "M_Comunicaciones",
+      "simbolo": "Telefono",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "ELEC-TEL",
+      "x_m": 3.2741,
+      "y_m": 14.8257,
+      "z_abs_m": 13.52,
+      "z_offset_m": 0.3,
+      "familia": "M_Comunicaciones",
+      "simbolo": "Telefono",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "Bala Stil Led 10W",
+      "x_m": 3.7563,
+      "y_m": 14.284,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_Iluminacion",
+      "simbolo": "SONO FLEX 10 trim",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "Bala Stil Led 10W",
+      "x_m": 5.8578,
+      "y_m": 14.284,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_Iluminacion",
+      "simbolo": "SONO FLEX 10 trim",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 3.4107,
+      "y_m": 14.2749,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 270.0
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 0.574,
+      "y_m": 14.1001,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 270.0
+    },
+    {
+      "bloque": "Bala Stil Led 13W",
+      "x_m": 1.9265,
+      "y_m": 14.0855,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_Iluminacion",
+      "simbolo": "SONO FLEX 13 trim",
+      "rotacion_grados": 180.0
+    },
+    {
+      "bloque": "ELEC-TEL",
+      "x_m": 3.4059,
+      "y_m": 14.0425,
+      "z_abs_m": 13.52,
+      "z_offset_m": 0.3,
+      "familia": "M_Comunicaciones",
+      "simbolo": "Telefono",
+      "rotacion_grados": 270.0
+    },
+    {
+      "bloque": "ELEC-TEL",
+      "x_m": 3.4059,
+      "y_m": 13.9029,
+      "z_abs_m": 13.52,
+      "z_offset_m": 0.3,
+      "familia": "M_Comunicaciones",
+      "simbolo": "Telefono",
+      "rotacion_grados": 270.0
+    },
+    {
+      "bloque": "ELEC-F-VENT",
+      "x_m": 4.8501,
+      "y_m": 13.7138,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_ClimatizacionV",
+      "simbolo": "Ventilador",
+      "rotacion_grados": 328.7
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 6.5041,
+      "y_m": 13.6502,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "ELEC-F-CONTROL",
+      "x_m": 2.4397,
+      "y_m": 13.6126,
+      "z_abs_m": 14.42,
+      "z_offset_m": 1.2,
+      "familia": "M_Climatizacion",
+      "simbolo": "Interruptor Ventilador",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "ELEC-I-S-1-5A",
+      "x_m": 2.4287,
+      "y_m": 13.4456,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Interruptores",
+      "simbolo": "Simple",
+      "rotacion_grados": 180.0
+    },
+    {
+      "bloque": "ELEC-F-CONTROL",
+      "x_m": 3.4597,
+      "y_m": 13.4126,
+      "z_abs_m": 14.42,
+      "z_offset_m": 1.2,
+      "familia": "M_Climatizacion",
+      "simbolo": "Interruptor Ventilador",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "Bala Stil Led 10W",
+      "x_m": 2.8482,
+      "y_m": 12.6178,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_Iluminacion",
+      "simbolo": "SONO FLEX 10 trim",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "Bala Stil Led 13W",
+      "x_m": 1.716,
+      "y_m": 12.1796,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_Iluminacion",
+      "simbolo": "SONO FLEX 13 trim",
+      "rotacion_grados": 180.0
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 5.6241,
+      "y_m": 12.1202,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "ELEC-I-S-1-5A",
+      "x_m": 2.1935,
+      "y_m": 12.0992,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Interruptores",
+      "simbolo": "Simple",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 5.189,
+      "y_m": 12.0088,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 5.6338,
+      "y_m": 11.9802,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 180.0
+    },
+    {
+      "bloque": "S3",
+      "x_m": 3.4642,
+      "y_m": 11.9116,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Interruptores",
+      "simbolo": "Triple",
+      "rotacion_grados": 270.0
+    },
+    {
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x_m": 3.2652,
+      "y_m": 11.8995,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x_m": 5.192,
+      "y_m": 11.8823,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "ELEC-NET-PAU",
+      "x_m": 5.192,
+      "y_m": 11.7096,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "Consolidation_Point",
+      "simbolo": "CPB24BL",
+      "rotacion_grados": 270.0
+    },
+    {
+      "bloque": "ELEC-TEL",
+      "x_m": 5.1902,
+      "y_m": 11.499,
+      "z_abs_m": 13.52,
+      "z_offset_m": 0.3,
+      "familia": "M_Comunicaciones",
+      "simbolo": "Telefono",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "ELEC-TEL",
+      "x_m": 5.1902,
+      "y_m": 11.3577,
+      "z_abs_m": 13.52,
+      "z_offset_m": 0.3,
+      "familia": "M_Comunicaciones",
+      "simbolo": "Telefono",
+      "rotacion_grados": 90.0
+    },
+    {
+      "bloque": "Bala Stil Led 22W",
+      "x_m": 5.8578,
+      "y_m": 10.8423,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_Iluminacion",
+      "simbolo": "SONO FLEX 22 trim",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "Bala Stil Led 22W",
+      "x_m": 3.9157,
+      "y_m": 10.837,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_Iluminacion",
+      "simbolo": "SONO FLEX 22 trim",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "Bala Stil Led 13W",
+      "x_m": 2.8946,
+      "y_m": 10.4531,
+      "z_abs_m": 15.82,
+      "z_offset_m": 2.6,
+      "familia": "M_Iluminacion",
+      "simbolo": "SONO FLEX 13 trim",
+      "rotacion_grados": 180.0
+    },
+    {
+      "bloque": "ELEC-I-S-1-5A",
+      "x_m": 3.4423,
+      "y_m": 10.2691,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Interruptores",
+      "simbolo": "Simple",
+      "rotacion_grados": 180.0
+    },
+    {
+      "bloque": "ELEC-CAMPANA",
+      "x_m": 4.4357,
+      "y_m": 9.724,
+      "z_abs_m": 14.42,
+      "z_offset_m": 1.2,
+      "familia": "M_Zumbador",
+      "simbolo": "Campana Timbre",
+      "rotacion_grados": 180.0
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 4.8212,
+      "y_m": 9.7208,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "ELEC-T-D-t-15A",
+      "x_m": 5.0798,
+      "y_m": 9.7208,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "Normal",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x_m": 2.8134,
+      "y_m": 9.7188,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x_m": 5.6326,
+      "y_m": 9.7188,
+      "z_abs_m": 14.32,
+      "z_offset_m": 1.1,
+      "familia": "M_Toma doble",
+      "simbolo": "GFCI",
+      "rotacion_grados": 0
+    },
+    {
+      "bloque": "ELEC-TIMBRE",
+      "x_m": 4.5893,
+      "y_m": 9.5269,
+      "z_abs_m": 14.42,
+      "z_offset_m": 1.2,
+      "familia": "M_Pulsador - Interruptor",
+      "simbolo": "Timbre",
+      "rotacion_grados": 0
+    }
+  ]
+}

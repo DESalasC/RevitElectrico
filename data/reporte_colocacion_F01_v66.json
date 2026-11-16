@@ -1,0 +1,190 @@
+{
+  "apartamento": "F 01", 
+  "version": "66.0", 
+  "timestamp": "2026-11-14 21:19:38", 
+  "stats": {
+    "error": 26, 
+    "ok": 9
+  }, 
+  "results": [
+    {
+      "status": "ERROR", 
+      "handle": "6D", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "8D", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "96", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "97", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "98", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "99", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "9A", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "9B", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "9C", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "A4", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "B9", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "C1", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "C9", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "50ae544c-0690-4a60-a7cc-7326b31fca39-00547620", 
+      "handle": "CB", 
+      "revit_id": 5535264
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "D4", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "DF", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "FD", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "50ae544c-0690-4a60-a7cc-7326b31fca39-00547623", 
+      "handle": "12F", 
+      "revit_id": 5535267
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "50ae544c-0690-4a60-a7cc-7326b31fca39-00547625", 
+      "handle": "13B", 
+      "revit_id": 5535269
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "50ae544c-0690-4a60-a7cc-7326b31fca39-00547627", 
+      "handle": "13C", 
+      "revit_id": 5535271
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "50ae544c-0690-4a60-a7cc-7326b31fca39-00547629", 
+      "handle": "145", 
+      "revit_id": 5535273
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "50ae544c-0690-4a60-a7cc-7326b31fca39-0054762b", 
+      "handle": "146", 
+      "revit_id": 5535275
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "50ae544c-0690-4a60-a7cc-7326b31fca39-0054762d", 
+      "handle": "147", 
+      "revit_id": 5535277
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "50ae544c-0690-4a60-a7cc-7326b31fca39-0054762f", 
+      "handle": "148", 
+      "revit_id": 5535279
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "50ae544c-0690-4a60-a7cc-7326b31fca39-00547631", 
+      "handle": "156", 
+      "revit_id": 5535281
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "1E8", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "1F1", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "1F2", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "203", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "204", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "205", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "206", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "210", 
+      "error": "expected Curve, got IntersectionResult"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "216", 
+      "error": "expected Curve, got IntersectionResult"
+    }
+  ]
+}

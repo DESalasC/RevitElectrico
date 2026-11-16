@@ -1,0 +1,1061 @@
+{
+  "niveles": [
+    {
+      "id": 933, 
+      "elev_m": 0.22, 
+      "nombre": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1"
+    }, 
+    {
+      "id": 1679, 
+      "elev_m": 3.4700000000000002, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3"
+    }, 
+    {
+      "id": 192424, 
+      "elev_m": 6.7199999999999998, 
+      "nombre": "Piso 3"
+    }, 
+    {
+      "id": 192468, 
+      "elev_m": 9.9700000000000006, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18"
+    }, 
+    {
+      "id": 192512, 
+      "elev_m": 13.220000000000001, 
+      "nombre": "Piso 5"
+    }, 
+    {
+      "id": 192663, 
+      "elev_m": 16.469999999999999, 
+      "nombre": "Piso 6"
+    }, 
+    {
+      "id": 192707, 
+      "elev_m": 19.719999999999999, 
+      "nombre": "Piso 7"
+    }, 
+    {
+      "id": 192751, 
+      "elev_m": 22.969999999999999, 
+      "nombre": "Piso 8"
+    }, 
+    {
+      "id": 192795, 
+      "elev_m": 26.219999999999999, 
+      "nombre": "Piso 9"
+    }, 
+    {
+      "id": 192839, 
+      "elev_m": 29.469999999999999, 
+      "nombre": "Piso 10"
+    }, 
+    {
+      "id": 192883, 
+      "elev_m": 32.719999999999999, 
+      "nombre": "Piso 11"
+    }, 
+    {
+      "id": 192927, 
+      "elev_m": 35.969999999999999, 
+      "nombre": "Piso 12"
+    }, 
+    {
+      "id": 192971, 
+      "elev_m": 39.219999999999999, 
+      "nombre": "Piso 13"
+    }, 
+    {
+      "id": 193015, 
+      "elev_m": 42.469999999999999, 
+      "nombre": "Piso 14"
+    }, 
+    {
+      "id": 193059, 
+      "elev_m": 45.719999999999999, 
+      "nombre": "Piso 15"
+    }, 
+    {
+      "id": 193103, 
+      "elev_m": 48.969999999999999, 
+      "nombre": "Piso 16"
+    }, 
+    {
+      "id": 193147, 
+      "elev_m": 52.219999999999999, 
+      "nombre": "Piso 17"
+    }, 
+    {
+      "id": 193191, 
+      "elev_m": 55.469999999999999, 
+      "nombre": "Piso 18"
+    }, 
+    {
+      "id": 193235, 
+      "elev_m": 58.719999999999999, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 19-21"
+    }, 
+    {
+      "id": 193279, 
+      "elev_m": 61.969999999999999, 
+      "nombre": "Piso 20"
+    }, 
+    {
+      "id": 193323, 
+      "elev_m": 65.219999999999999, 
+      "nombre": "Piso 21"
+    }, 
+    {
+      "id": 193367, 
+      "elev_m": 68.469999999999999, 
+      "nombre": "Cubierta"
+    }, 
+    {
+      "id": 208719, 
+      "elev_m": -1.0800000000000001, 
+      "nombre": "Sotano"
+    }, 
+    {
+      "id": 208852, 
+      "elev_m": 71.870000000000005, 
+      "nombre": "SobreCubierta"
+    }
+  ], 
+  "detalle_nivel": [
+    {
+      "muros": {
+        "count": 2012, 
+        "muestra": [
+          {
+            "id": 1838590, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE"
+          }, 
+          {
+            "id": 1838618, 
+            "nombre": "MURO MAMPOSTERIA + CARA PA?ETA + CARA REBOQUE"
+          }, 
+          {
+            "id": 1838619, 
+            "nombre": "MUROS DRYWALL INTERNOS ZH"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 27, 
+        "muestra": [
+          {
+            "id": 1839096, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1839212, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2314760, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 933, 
+      "nivel": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1"
+    }, 
+    {
+      "muros": {
+        "count": 2038, 
+        "muestra": [
+          {
+            "id": 2276951, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE"
+          }, 
+          {
+            "id": 2276979, 
+            "nombre": "MURO MAMPOSTERIA + CARA PA?ETA + CARA REBOQUE"
+          }, 
+          {
+            "id": 2276980, 
+            "nombre": "MUROS DRYWALL INTERNOS ZH"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 28, 
+        "muestra": [
+          {
+            "id": 2277448, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2277517, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2330317, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 1679, 
+      "nivel": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3"
+    }, 
+    {
+      "muros": {
+        "count": 2017, 
+        "muestra": [
+          {
+            "id": 1821751, 
+            "nombre": "FJR_Muro_0.12m"
+          }, 
+          {
+            "id": 1821752, 
+            "nombre": "FJR_Muro_0.12m"
+          }, 
+          {
+            "id": 1821753, 
+            "nombre": "FJR_Muro_0.12m"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 28, 
+        "muestra": [
+          {
+            "id": 1822416, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1822463, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1822508, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192424, 
+      "nivel": "Piso 3"
+    }, 
+    {
+      "muros": {
+        "count": 1981, 
+        "muestra": [
+          {
+            "id": 1799155, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1799156, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1799157, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1799677, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1799766, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2279972, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192468, 
+      "nivel": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18"
+    }, 
+    {
+      "muros": {
+        "count": 1977, 
+        "muestra": [
+          {
+            "id": 1800517, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1800518, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1800519, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 58, 
+        "muestra": [
+          {
+            "id": 1801039, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1801128, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2281234, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192512, 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1801879, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1801880, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1801881, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1802401, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1802490, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2282496, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192663, 
+      "nivel": "Piso 6"
+    }, 
+    {
+      "muros": {
+        "count": 1980, 
+        "muestra": [
+          {
+            "id": 1803241, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1803242, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1803243, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1803763, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1803852, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2283758, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192707, 
+      "nivel": "Piso 7"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1804603, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1804604, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1804605, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1805125, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1805214, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2285020, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192751, 
+      "nivel": "Piso 8"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1805965, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1805966, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1805967, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1806487, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1806576, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2286282, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192795, 
+      "nivel": "Piso 9"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1807327, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1807328, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1807329, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1807849, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1807938, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2287544, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192839, 
+      "nivel": "Piso 10"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1808689, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1808690, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1808691, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1809211, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1809300, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2288806, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192883, 
+      "nivel": "Piso 11"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1810051, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1810052, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1810053, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1810573, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1810662, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2290068, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192927, 
+      "nivel": "Piso 12"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1811413, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1811414, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1811415, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1811935, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1812024, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2291330, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 192971, 
+      "nivel": "Piso 13"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1812775, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1812776, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1812777, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1813297, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1813386, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2292592, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 193015, 
+      "nivel": "Piso 14"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1814137, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1814138, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1814139, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1814659, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1814748, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2293854, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 193059, 
+      "nivel": "Piso 15"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1815499, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1815500, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1815501, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1816021, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1816110, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2295116, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 193103, 
+      "nivel": "Piso 16"
+    }, 
+    {
+      "muros": {
+        "count": 1978, 
+        "muestra": [
+          {
+            "id": 1816861, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1816862, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1816863, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1817383, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1817472, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2296378, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 193147, 
+      "nivel": "Piso 17"
+    }, 
+    {
+      "muros": {
+        "count": 1982, 
+        "muestra": [
+          {
+            "id": 1818225, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1818226, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }, 
+          {
+            "id": 1818227, 
+            "nombre": "MURO MAMPOSTERIA B12 + CARA PA?ETA + CARA REBOQUE 2"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 25, 
+        "muestra": [
+          {
+            "id": 1818745, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 1818834, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2297640, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 193191, 
+      "nivel": "Piso 18"
+    }, 
+    {
+      "muros": {
+        "count": 1432, 
+        "muestra": [
+          {
+            "id": 2316891, 
+            "nombre": "FJR_Pintura_Blanco"
+          }, 
+          {
+            "id": 2316892, 
+            "nombre": "FJR_Pintura_Blanco"
+          }, 
+          {
+            "id": 2316921, 
+            "nombre": "FJR_Pintura_Blanco"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 21, 
+        "muestra": [
+          {
+            "id": 2316944, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2316953, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2811982, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 193235, 
+      "nivel": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 19-21"
+    }, 
+    {
+      "muros": {
+        "count": 1352, 
+        "muestra": [
+          {
+            "id": 2316978, 
+            "nombre": "FJR_Pintura_Blanco"
+          }, 
+          {
+            "id": 2316979, 
+            "nombre": "FJR_Pintura_Blanco"
+          }, 
+          {
+            "id": 2317008, 
+            "nombre": "FJR_Pintura_Blanco"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 21, 
+        "muestra": [
+          {
+            "id": 2317031, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2317040, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2815342, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 193279, 
+      "nivel": "Piso 20"
+    }, 
+    {
+      "muros": {
+        "count": 1340, 
+        "muestra": [
+          {
+            "id": 2317065, 
+            "nombre": "FJR_Pintura_Blanco"
+          }, 
+          {
+            "id": 2317066, 
+            "nombre": "FJR_Pintura_Blanco"
+          }, 
+          {
+            "id": 2317095, 
+            "nombre": "FJR_Pintura_Blanco"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 21, 
+        "muestra": [
+          {
+            "id": 2317118, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2317127, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }, 
+          {
+            "id": 2818702, 
+            "nombre": "Falso techo continuo de placa de yeso laminado"
+          }
+        ]
+      }, 
+      "id": 193323, 
+      "nivel": "Piso 21"
+    }, 
+    {
+      "muros": {
+        "count": 227, 
+        "muestra": [
+          {
+            "id": 3413836, 
+            "nombre": "FJR_Muro_0.12m"
+          }, 
+          {
+            "id": 3413837, 
+            "nombre": "FJR_Muro_0.12m"
+          }, 
+          {
+            "id": 3413838, 
+            "nombre": "FJR_Muro_0.20m"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 2, 
+        "muestra": [
+          {
+            "id": 3453308, 
+            "nombre": "Flanche"
+          }, 
+          {
+            "id": 3453712, 
+            "nombre": "Flanche"
+          }
+        ]
+      }, 
+      "id": 193367, 
+      "nivel": "Cubierta"
+    }, 
+    {
+      "muros": {
+        "count": 6, 
+        "muestra": [
+          {
+            "id": 3454102, 
+            "nombre": "FJR_Muro_0.12m"
+          }, 
+          {
+            "id": 3454103, 
+            "nombre": "FJR_Muro_0.12m"
+          }, 
+          {
+            "id": 3454255, 
+            "nombre": "FJR_Muro_0.12m"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 0, 
+        "muestra": []
+      }, 
+      "id": 208719, 
+      "nivel": "Sotano"
+    }, 
+    {
+      "muros": {
+        "count": 12, 
+        "muestra": [
+          {
+            "id": 3431030, 
+            "nombre": "FJR_Muro_0.12m"
+          }, 
+          {
+            "id": 3431114, 
+            "nombre": "FJR_Muro_0.12m"
+          }, 
+          {
+            "id": 3431119, 
+            "nombre": "FJR_Muro_0.12m"
+          }
+        ]
+      }, 
+      "techos": {
+        "count": 0, 
+        "muestra": []
+      }, 
+      "id": 208852, 
+      "nivel": "SobreCubierta"
+    }
+  ], 
+  "familias_muestra": [
+    "Panel de sistema", 
+    "Montante rectangular", 
+    "Montante circular", 
+    "Montante angular en L", 
+    "Montante angular en V", 
+    "Montante angular trapezoidal", 
+    "Montante angular cuadril?tero", 
+    "Etiqueta de llamada", 
+    "Rectangular", 
+    "Perfil circular de barandilla", 
+    "Perfil huella - exterior", 
+    "Desag?e", 
+    "S?mbolo de cota vertical", 
+    "Extremo de nivel", 
+    "Extremo inicial de secci?n", 
+    "Titulo de vista", 
+    "Extremo de rejilla", 
+    "M_Cota de elevaci?n - Destino rellenado", 
+    "Cuerpo de marca de alzado_C?rculo-12mm", 
+    "Puntero de marca de alzado_C?rculo-12mm", 
+    "Referencia a vista", 
+    "Circular", 
+    "M_Panel vac?o", 
+    "Dilataciones en goma baranda balcones", 
+    "Perfil muro baranda balcones", 
+    "Perfil superior baranda balcones", 
+    "Perfil vidrio baranda balcones", 
+    "Perfil montante de muro cortina", 
+    "FJR_A_Puerta_Batiente_Dobledilatacion_Marcosuperior_Madera", 
+    "FJR_A_PuertaVentana_2hojas", 
+    "FJR_A_Ventana_Batiente_2hojas", 
+    "FJR_A_Ventana_Rejilla", 
+    "FJR_A_Ventana_Corrediza_2hojas", 
+    "FJR_A_Puerta_Deslizante_1hoja_Madera", 
+    "FJR_A_PuertaVentana_4hojas", 
+    "FJR_GuardaEscoba", 
+    "FJR_A_Ducha_Corona_Monocontrol_Palma_Pro", 
+    "FJR_A_ JaboneraDucha_Corona_Palma", 
+    "FJR_A_Portarrollos_Corona_Palma", 
+    "FJR_A_Espejo", 
+    "FJR_A_Percha_Corona_Palma", 
+    "FJR_A_Toallero_Argolla_Corona_Palma", 
+    "FJR_A_Sanitario_Corona_Aluvia", 
+    "FJR_A_MuebleBa?o__MarmolSinuDark_CinzaCobalto_0.90x0.64m", 
+    "FJR_A_MuebleBa?o__MarmolSinuDark_CinzaCobalto_0.70x0.60m", 
+    "FJR_A_Meson_Quarztone_GrisClasico", 
+    "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.65x0.60m", 
+    "FJR_A_Closet", 
+    "FJR_A_Puerta_Batiente_Aluminio", 
+    "FJR_A_Perfil_Celosia"
+  ], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03"
+}

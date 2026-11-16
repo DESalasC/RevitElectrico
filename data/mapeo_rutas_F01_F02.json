@@ -1,0 +1,1629 @@
+{
+  "mapeo": [
+    {
+      "dispositivo_id": 5574864, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20399999999999999, 
+      "conduit_id": 5635509, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.865790080500586, 
+        15.688946389753188, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.825300000000000, 
+        15.687200000000001, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5574907, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20499999999999999, 
+      "conduit_id": 5635525, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.007240277018452, 
+        15.688946389753150, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        11.025300000000000, 
+        15.648199999999999, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5574948, 
+      "diametro_pulg": 0.63, 
+      "distancia_m": 0.20000000000000001, 
+      "conduit_id": 5651105, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.011778298634470, 
+        13.108946389753262, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        11.011200000000001, 
+        13.101800000000001, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5575025, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20300000000000001, 
+      "conduit_id": 5635477, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.870328102116771, 
+        13.108946389753241, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.841100000000001, 
+        13.130699999999999, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5575265, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20300000000000001, 
+      "conduit_id": 5602081, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.883350549560980, 
+        10.465565862717652, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.861100000000000, 
+        10.439399999999999, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5575301, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20599999999999999, 
+      "conduit_id": 5635449, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.887325328185861, 
+        11.778946389753324, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.904000000000000, 
+        11.733900000000000, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5575557, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.082000000000000003, 
+      "conduit_id": 5646375, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.003350549560871, 
+        10.855703393404347, 
+        15.839999999999995
+      ], 
+      "coord_conduit": [
+        11.003399999999999, 
+        10.836600000000001, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5642716, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.20300000000000001, 
+      "conduit_id": 5642647, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.176580090795486, 
+        16.882693109006443, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.163399999999999, 
+        16.887400000000000, 
+        15.922100000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658602, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20399999999999999, 
+      "conduit_id": 5658630, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.865790080500542, 
+        1.9961363413171131, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.825300000000000, 
+        1.9979000000000000, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658603, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20499999999999999, 
+      "conduit_id": 5658631, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.007240277018406, 
+        1.9961363413171631, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        11.025300000000000, 
+        2.0367999999999999, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658604, 
+      "diametro_pulg": 0.63, 
+      "distancia_m": 0.20000000000000001, 
+      "conduit_id": 5658754, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.011778298634441, 
+        4.5761363413170510, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        11.011200000000001, 
+        4.5831999999999997, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658605, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20200000000000001, 
+      "conduit_id": 5658628, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.870328102116742, 
+        4.5761363413170599, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.841100000000001, 
+        4.5833000000000004, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658606, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20300000000000001, 
+      "conduit_id": 5658620, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.883350549560969, 
+        7.2195168683526498, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.861100000000000, 
+        7.2455999999999996, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658607, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.20599999999999999, 
+      "conduit_id": 5658626, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.887325328185842, 
+        5.9061363413169756, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.904000000000000, 
+        5.9512000000000000, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658663, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.20300000000000001, 
+      "conduit_id": 5658660, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.176580090795433, 
+        0.80238962206386089, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.163399999999999, 
+        0.79759999999999998, 
+        15.922100000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5688218, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.215, 
+      "conduit_id": 5658706, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.948074486899719, 
+        6.9065178886995966, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        10.930899999999999, 
+        6.8292000000000002, 
+        15.920000000000000
+      ], 
+      "categoria": "Lighting Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5565812, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.051999999999999998, 
+      "conduit_id": 5645496, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        14.045332566156773, 
+        10.109921825242598, 
+        14.269999999999998
+      ], 
+      "coord_conduit": [
+        14.079300000000000, 
+        10.148700000000000, 
+        14.266100000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5565967, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.057000000000000002, 
+      "conduit_id": 5645508, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.832622658871246, 
+        11.396990037480657, 
+        14.269999999999998
+      ], 
+      "coord_conduit": [
+        13.860700000000000, 
+        11.407400000000001, 
+        14.221700000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5566446, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.040000000000000001, 
+      "conduit_id": 5645218, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.836332566156720, 
+        11.727772854220696, 
+        13.919999999999998
+      ], 
+      "coord_conduit": [
+        13.860700000000000, 
+        11.759600000000001, 
+        13.916900000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5566510, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.039, 
+      "conduit_id": 5645264, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.836332566156724, 
+        11.857647401522065, 
+        14.869999999999997
+      ], 
+      "coord_conduit": [
+        13.860700000000000, 
+        11.827400000000001, 
+        14.876700000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5566744, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.044999999999999998, 
+      "conduit_id": 5645218, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.836332566156692, 
+        12.535844700974250, 
+        13.905857864376264
+      ], 
+      "coord_conduit": [
+        13.860700000000000, 
+        12.499599999999999, 
+        13.917899999999999
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5566841, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.075999999999999998, 
+      "conduit_id": 5640577, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.836332566156740, 
+        14.263971254902691, 
+        13.919999999999998
+      ], 
+      "coord_conduit": [
+        13.909100000000000, 
+        14.285500000000001, 
+        13.929100000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5567171, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.059999999999999998, 
+      "conduit_id": 5643895, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.706774486899752, 
+        12.376672772400740, 
+        13.519999999999998
+      ], 
+      "coord_conduit": [
+        11.664400000000001, 
+        12.370600000000000, 
+        13.562099999999999
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5567316, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.047, 
+      "conduit_id": 5646899, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.546374486899753, 
+        12.059772772400661, 
+        14.419999999999998
+      ], 
+      "coord_conduit": [
+        10.546400000000000, 
+        12.091100000000001, 
+        14.455600000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5567459, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.055, 
+      "conduit_id": 5651060, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.271974486899753, 
+        13.234394100056173, 
+        15.719999999999997
+      ], 
+      "coord_conduit": [
+        10.226200000000000, 
+        13.234400000000001, 
+        15.690000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5567641, 
+      "diametro_pulg": 0.63, 
+      "distancia_m": 0.058000000000000003, 
+      "conduit_id": 5651173, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.271974486899770, 
+        13.104632845403307, 
+        13.909582070186339
+      ], 
+      "coord_conduit": [
+        10.231800000000000, 
+        13.101800000000001, 
+        13.950900000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5568009, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.040000000000000001, 
+      "conduit_id": 5641490, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.471274486899773, 
+        16.024132845403319, 
+        13.519999999999998
+      ], 
+      "coord_conduit": [
+        10.471299999999999, 
+        16.064100000000000, 
+        13.523300000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5568207, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.029999999999999999, 
+      "conduit_id": 5641490, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.471274486899773, 
+        16.156132845403324, 
+        13.519999999999998
+      ], 
+      "coord_conduit": [
+        10.471299999999999, 
+        16.126100000000001, 
+        13.523300000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5571029, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.23699999999999999, 
+      "conduit_id": 5642890, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.151359702313915, 
+        14.333440273588574, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.103600000000000, 
+        14.390200000000000, 
+        15.945000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5581244, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.056000000000000001, 
+      "conduit_id": 5635449, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.892925615010418, 
+        11.782825477818117, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.904000000000000, 
+        11.733900000000000, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5581906, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.045999999999999999, 
+      "conduit_id": 5639980, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.892925615010418, 
+        10.465565862717622, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.883400000000000, 
+        10.427700000000000, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5582027, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.047, 
+      "conduit_id": 5635495, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.874851936526477, 
+        13.108946389753426, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.881300000000000, 
+        13.148199999999999, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5582102, 
+      "diametro_pulg": 0.63, 
+      "distancia_m": 0.025999999999999999, 
+      "conduit_id": 5651105, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.016302133044185, 
+        13.105565862717492, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        11.011200000000001, 
+        13.101800000000001, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5601518, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.049000000000000002, 
+      "conduit_id": 5635495, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.870313914910293, 
+        15.688946389753408, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.881300000000000, 
+        15.648199999999999, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5601519, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.047, 
+      "conduit_id": 5635525, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.011764111428000, 
+        15.685565862717477, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        11.025300000000000, 
+        15.648199999999999, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5601664, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.069000000000000006, 
+      "conduit_id": 5642890, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.151359702313920, 
+        14.390868967787219, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.103600000000000, 
+        14.390200000000000, 
+        15.945000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5601820, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.025999999999999999, 
+      "conduit_id": 5646375, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.007683955860266, 
+        10.843504338102923, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        11.003399999999999, 
+        10.836600000000001, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5642717, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.033000000000000002, 
+      "conduit_id": 5642647, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.181103925205193, 
+        16.882693109006667, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.163399999999999, 
+        16.887400000000000, 
+        15.922100000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5653542, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.070999999999999994, 
+      "conduit_id": 5655715, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.706274486899755, 
+        12.302272772400743, 
+        15.619999999999999
+      ], 
+      "coord_conduit": [
+        11.679399999999999, 
+        12.333399999999999, 
+        15.677400000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5653654, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.064000000000000001, 
+      "conduit_id": 5657203, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.848832566156741, 
+        14.554507845402489, 
+        14.160000000000000
+      ], 
+      "coord_conduit": [
+        13.863200000000001, 
+        14.570600000000001, 
+        14.220000000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658570, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.051999999999999998, 
+      "conduit_id": 5658694, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        14.045332566156766, 
+        7.5751609058276941, 
+        14.269999999999998
+      ], 
+      "coord_conduit": [
+        14.079300000000000, 
+        7.5364000000000004, 
+        14.266100000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658572, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.057000000000000002, 
+      "conduit_id": 5658695, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.832622658871230, 
+        6.2880926935896362, 
+        14.269999999999998
+      ], 
+      "coord_conduit": [
+        13.860700000000000, 
+        6.2777000000000003, 
+        14.221700000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658574, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.040000000000000001, 
+      "conduit_id": 5658686, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.836332566156704, 
+        5.9573098768495987, 
+        13.919999999999998
+      ], 
+      "coord_conduit": [
+        13.860700000000000, 
+        5.9255000000000004, 
+        13.916900000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658575, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.039, 
+      "conduit_id": 5658691, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.836332566156706, 
+        5.8274353295482282, 
+        14.869999999999997
+      ], 
+      "coord_conduit": [
+        13.860700000000000, 
+        5.8577000000000004, 
+        14.876700000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658576, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.044999999999999998, 
+      "conduit_id": 5658686, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.836332566156669, 
+        5.1492380300960434, 
+        13.905857864376264
+      ], 
+      "coord_conduit": [
+        13.860700000000000, 
+        5.1855000000000002, 
+        13.917899999999999
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658577, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.075999999999999998, 
+      "conduit_id": 5658640, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.836332566156708, 
+        3.4211114761676038, 
+        13.919999999999998
+      ], 
+      "coord_conduit": [
+        13.909100000000000, 
+        3.3995000000000002, 
+        13.929100000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658578, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.059999999999999998, 
+      "conduit_id": 5658673, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.706774486899725, 
+        5.3084099586695688, 
+        13.519999999999998
+      ], 
+      "coord_conduit": [
+        11.664400000000001, 
+        5.3144999999999998, 
+        13.562099999999999
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658580, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.047, 
+      "conduit_id": 5658715, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.546374486899731, 
+        5.6253099586696527, 
+        14.419999999999998
+      ], 
+      "coord_conduit": [
+        10.546400000000000, 
+        5.5940000000000003, 
+        14.455600000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658582, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.055, 
+      "conduit_id": 5658751, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.271974486899722, 
+        4.4506886310141445, 
+        15.719999999999997
+      ], 
+      "coord_conduit": [
+        10.226200000000000, 
+        4.4507000000000003, 
+        15.690000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658584, 
+      "diametro_pulg": 0.63, 
+      "distancia_m": 0.058000000000000003, 
+      "conduit_id": 5658755, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.271974486899740, 
+        4.5804498856670097, 
+        13.909582070186339
+      ], 
+      "coord_conduit": [
+        10.231800000000000, 
+        4.5831999999999997, 
+        13.950900000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658585, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.040000000000000001, 
+      "conduit_id": 5658655, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.471274486899725, 
+        1.6609498856669962, 
+        13.519999999999998
+      ], 
+      "coord_conduit": [
+        10.471299999999999, 
+        1.621, 
+        13.523300000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658587, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.029999999999999999, 
+      "conduit_id": 5658655, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        10.471274486899725, 
+        1.5289498856669954, 
+        13.519999999999998
+      ], 
+      "coord_conduit": [
+        10.471299999999999, 
+        1.5589999999999999, 
+        13.523300000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658592, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.050999999999999997, 
+      "conduit_id": 5658633, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.706774486899720, 
+        5.0584099586695128, 
+        14.119999999999997
+      ], 
+      "coord_conduit": [
+        11.667400000000001, 
+        5.0900999999999996, 
+        14.119999999999999
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658600, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.23699999999999999, 
+      "conduit_id": 5658666, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.151359702313879, 
+        3.3516424574817312, 
+        15.720000000000001
+      ], 
+      "coord_conduit": [
+        12.103600000000000, 
+        3.2949000000000002, 
+        15.945000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658612, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.056000000000000001, 
+      "conduit_id": 5658626, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.892925615010398, 
+        5.9022572532521842, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.904000000000000, 
+        5.9512000000000000, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658613, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.045999999999999999, 
+      "conduit_id": 5658637, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.892925615010407, 
+        7.2195168683526800, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.883400000000000, 
+        7.2573999999999996, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658614, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.042999999999999997, 
+      "conduit_id": 5658628, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.874851936526449, 
+        4.5761363413168752, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.841100000000001, 
+        4.5833000000000004, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658615, 
+      "diametro_pulg": 0.63, 
+      "distancia_m": 0.025999999999999999, 
+      "conduit_id": 5658754, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.016302133044157, 
+        4.5795168683528207, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        11.011200000000001, 
+        4.5831999999999997, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658616, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.049000000000000002, 
+      "conduit_id": 5658629, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.870313914910248, 
+        1.9961363413168924, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.881300000000000, 
+        2.0367999999999999, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658617, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.047, 
+      "conduit_id": 5658631, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.011764111427954, 
+        1.9995168683528377, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        11.025300000000000, 
+        2.0367999999999999, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658618, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.069000000000000006, 
+      "conduit_id": 5658666, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.151359702313885, 
+        3.2942137632830861, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.103600000000000, 
+        3.2949000000000002, 
+        15.945000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658619, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.025999999999999999, 
+      "conduit_id": 5658702, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.007683955860252, 
+        6.8415783929673903, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        11.003399999999999, 
+        6.8484999999999996, 
+        15.920000000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658664, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.033000000000000002, 
+      "conduit_id": 5658660, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        12.181103925205139, 
+        0.80238962206363995, 
+        15.894999999999998
+      ], 
+      "coord_conduit": [
+        12.163399999999999, 
+        0.79759999999999998, 
+        15.922100000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658759, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.071999999999999995, 
+      "conduit_id": 5658773, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.648074486899722, 
+        5.3828099586695668, 
+        15.619999999999999
+      ], 
+      "coord_conduit": [
+        11.679399999999999, 
+        5.3517000000000001, 
+        15.677400000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5658760, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.064000000000000001, 
+      "conduit_id": 5658775, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.848834059811466, 
+        3.1305748856678055, 
+        14.160000000000000
+      ], 
+      "coord_conduit": [
+        13.863200000000001, 
+        3.1145000000000000, 
+        14.220000000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5684967, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.096000000000000002, 
+      "conduit_id": 5657203, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.848832566156744, 
+        14.644632845403294, 
+        14.160000000000000
+      ], 
+      "coord_conduit": [
+        13.863200000000001, 
+        14.570600000000001, 
+        14.220000000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5685020, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.089999999999999997, 
+      "conduit_id": 5657203, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.848832566156744, 
+        14.744632845403295, 
+        14.160000000000000
+      ], 
+      "coord_conduit": [
+        13.863200000000001, 
+        14.810600000000001, 
+        14.220000000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5685051, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.070000000000000007, 
+      "conduit_id": 5657203, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.848832566156744, 
+        14.844632845403293, 
+        14.160000000000000
+      ], 
+      "coord_conduit": [
+        13.863200000000001, 
+        14.810600000000001, 
+        14.220000000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5685427, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.081000000000000003, 
+      "conduit_id": 5658775, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.848834059811466, 
+        3.0558602833109245, 
+        14.166536680706074
+      ], 
+      "coord_conduit": [
+        13.863200000000001, 
+        3.1145000000000000, 
+        14.220000000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5685533, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.081000000000000003, 
+      "conduit_id": 5658775, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.848834059811466, 
+        3.0558602833109245, 
+        14.166536680706074
+      ], 
+      "coord_conduit": [
+        13.863200000000001, 
+        3.1145000000000000, 
+        14.220000000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5685585, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.112, 
+      "conduit_id": 5658775, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.848834059811466, 
+        2.9762985316814627, 
+        14.174898957767484
+      ], 
+      "coord_conduit": [
+        13.863200000000001, 
+        2.8744999999999998, 
+        14.220000000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5685632, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.049000000000000002, 
+      "conduit_id": 5658775, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        13.848834059811466, 
+        2.9015839293245822, 
+        14.181435638473559
+      ], 
+      "coord_conduit": [
+        13.863200000000001, 
+        2.8744999999999998, 
+        14.220000000000001
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5686368, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.107, 
+      "conduit_id": 5658773, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.648074486899720, 
+        5.2730779131409857, 
+        15.612326787888145
+      ], 
+      "coord_conduit": [
+        11.679399999999999, 
+        5.3517000000000001, 
+        15.677400000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5686425, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.10199999999999999, 
+      "conduit_id": 5658773, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.648074486899720, 
+        5.1930779131409857, 
+        15.612326787888145
+      ], 
+      "coord_conduit": [
+        11.679399999999999, 
+        5.1216999999999997, 
+        15.677400000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5686453, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.072999999999999995, 
+      "conduit_id": 5658773, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.648074486899720, 
+        5.1130779131409856, 
+        15.612326787888145
+      ], 
+      "coord_conduit": [
+        11.679399999999999, 
+        5.1216999999999997, 
+        15.677400000000000
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5690146, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.042999999999999997, 
+      "conduit_id": 5635789, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "", 
+      "coord_dev": [
+        11.706774486899750, 
+        12.621325195721921, 
+        14.159389596751685
+      ], 
+      "coord_conduit": [
+        11.693099999999999, 
+        12.616700000000000, 
+        14.199999999999999
+      ], 
+      "categoria": "Electrical Fixtures", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5564955, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.082000000000000003, 
+      "conduit_id": 5639978, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "9", 
+      "coord_dev": [
+        12.876053526528253, 
+        9.6736566239696877, 
+        15.719999999999997
+      ], 
+      "coord_conduit": [
+        12.884000000000000, 
+        9.6077999999999992, 
+        15.767600000000000
+      ], 
+      "categoria": "Communication Devices", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5658567, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.073999999999999996, 
+      "conduit_id": 5663302, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "10", 
+      "coord_dev": [
+        12.926274486899736, 
+        8.0114261071006130, 
+        15.719999999999997
+      ], 
+      "coord_conduit": [
+        12.884200000000000, 
+        8.0503999999999998, 
+        15.767099999999999
+      ], 
+      "categoria": "Communication Devices", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5693592, 
+      "diametro_pulg": 0.82999999999999996, 
+      "distancia_m": 0.22900000000000001, 
+      "conduit_id": 5639978, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "43", 
+      "coord_dev": [
+        12.905774486899801, 
+        9.5416566239696810, 
+        14.357740261017312
+      ], 
+      "coord_conduit": [
+        12.884000000000000, 
+        9.6077999999999992, 
+        14.140000000000001
+      ], 
+      "categoria": "Communication Devices", 
+      "punto_conexion": "inicio"
+    }, 
+    {
+      "dispositivo_id": 5688502, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.070999999999999994, 
+      "conduit_id": 5658762, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "2", 
+      "coord_dev": [
+        11.705774486899719, 
+        5.4101178886995820, 
+        15.886090867791074
+      ], 
+      "coord_conduit": [
+        11.749900000000000, 
+        5.3677999999999999, 
+        15.850899999999999
+      ], 
+      "categoria": "Data Devices", 
+      "punto_conexion": "fin"
+    }, 
+    {
+      "dispositivo_id": 5688723, 
+      "diametro_pulg": 1.0600000000000001, 
+      "distancia_m": 0.068000000000000005, 
+      "conduit_id": 5654494, 
+      "conduit_tipo": "Tubo", 
+      "dispositivo_mark": "3", 
+      "coord_dev": [
+        11.705774486899754, 
+        12.496672772400885, 
+        15.899999999999835
+      ], 
+      "coord_conduit": [
+        11.748100000000001, 
+        12.476699999999999, 
+        15.850899999999999
+      ], 
+      "categoria": "Data Devices", 
+      "punto_conexion": "fin"
+    }
+  ], 
+  "version": "42.0", 
+  "conexiones_exitosas": 81, 
+  "timestamp": "2026-11-14 19:01:49", 
+  "total_dispositivos": 83, 
+  "total_conduits_filtrados": 143
+}

@@ -7,48 +7,624 @@
   "decision": "Gobierna el DXF: sus anotaciones de altura ('0.7m', '1.65m', '1.05m', 'h-0.3') coinciden con el modelo manual de CENTRAL-V01 una vez descontado el offset de 57 mm entre punto de insercion y minimo del bounding box.",
   "offset_bbox_insercion_m": 0.057,
   "evidencia_offset": [
-    { "element_id": 5529811, "nota": "GFCI bano", "z_bbox_m": 14.26285, "altura_insert_m": 1.10 },
-    { "element_id": 5529814, "nota": "GFCI junto a Consolidation_Point", "z_bbox_m": 14.01285, "altura_insert_m": 0.85 }
+    {
+      "element_id": 5529811,
+      "nota": "GFCI bano",
+      "z_bbox_m": 14.26285,
+      "altura_insert_m": 1.1
+    },
+    {
+      "element_id": 5529814,
+      "nota": "GFCI junto a Consolidation_Point",
+      "z_bbox_m": 14.01285,
+      "altura_insert_m": 0.85
+    }
   ],
   "regla_base_altura_m": {
-    "ELEC-T-D-t-15A": 0.30,
-    "ELEC-T-GFCI-t-15A": 0.30,
-    "ELEC-I-S-C1-5A": 1.10,
-    "ELEC-I-S-1-5A": 1.10,
-    "S3": 1.10,
-    "ELEC-F-CONTROL": 1.10,
-    "ELEC-TEL": 1.05,
-    "ELEC-NET-PAU": 1.05,
-    "Bala Stil Led 10W": 2.60,
-    "Bala Stil Led 13W": 2.60,
-    "Bala Stil Led 22W": 2.60,
-    "ELEC-F-VENT": 2.60,
-    "ELEC-CAMPANA": 1.10,
-    "ELEC-TIMBRE": 1.10,
-    "ELEC-PANEL": 1.20,
-    "ELEC-EXT": 1.90
+    "ELEC-T-D-t-15A": 0.3,
+    "ELEC-T-GFCI-t-15A": 0.3,
+    "ELEC-I-S-C1-5A": 1.1,
+    "ELEC-I-S-1-5A": 1.1,
+    "S3": 1.1,
+    "ELEC-F-CONTROL": 1.1,
+    "ELEC-TEL": 1.0,
+    "ELEC-NET-PAU": 2.7,
+    "Bala Stil Led 10W": 2.6,
+    "Bala Stil Led 13W": 2.6,
+    "Bala Stil Led 22W": 2.6,
+    "ELEC-F-VENT": 2.6,
+    "ELEC-CAMPANA": 2.4,
+    "ELEC-TIMBRE": 1.1,
+    "ELEC-PANEL": 1.2,
+    "ELEC-EXT": 1.9
   },
   "excepciones_por_handle": {
-    "BA": { "altura_m": 0.70, "nota": "toma estufa, muro de cocina", "element_id_revit": 5529846 },
-    "BB": { "altura_m": 1.65, "nota": "toma gabinete superior, muro de cocina", "element_id_revit": 5529849 },
-    "9E": { "altura_m": 1.05, "nota": "GFCI sobre el meson de cocina (corregido: el DXF anota 1.05)", "element_id_revit": 5529855 },
-    "EF": { "altura_m": 1.10, "nota": "extractor de gases (campana), sobre el meson", "element_id_revit": 5529844 },
-    "EE": { "altura_m": 1.05, "nota": "toma nevera, muro opuesto. Confirmado: ElementID 5529805. El 5529796 es otra toma normal a 0,30 en la cara opuesta del muro", "element_id_revit": 5529805 },
-    "103": { "altura_m": 1.05, "nota": "GFCI del bano, junto a la puerta (corregido: 1.05, no 1.10)", "element_id_revit": 5529811 },
-    "BC": { "altura_m": 0.85, "nota": "GFCI junto al Consolidation_Point. En CENTRAL-V01 quedo sobre la cara opuesta del muro: correccion manual pendiente (no afecta la altura)", "element_id_revit": 5529814 },
-    "111": { "altura_m": 1.05, "nota": "GFCI (x 0,45 y 0,03). Confirmado por el operador a 1,05", "element_id_revit": 5529852 },
-    "DB": { "altura_m": 0.30, "nota": "GFCI con anotacion h-0.3 en el DXF", "element_id_revit": 5529727 }
+    "BA": {
+      "altura_m": 0.7,
+      "nota": "toma estufa, muro de cocina",
+      "element_id_revit": 5529846
+    },
+    "BB": {
+      "altura_m": 1.65,
+      "nota": "toma gabinete superior, muro de cocina",
+      "element_id_revit": 5529849
+    },
+    "9E": {
+      "altura_m": 1.05,
+      "nota": "GFCI sobre el meson de cocina (corregido: el DXF anota 1.05)",
+      "element_id_revit": 5529855
+    },
+    "EF": {
+      "altura_m": 2.4,
+      "nota": "extractor de gases (campana), a 2,40 del nivel (veredicto del operador 2026-11-16; antes 1,10)",
+      "element_id_revit": 5529844
+    },
+    "EE": {
+      "altura_m": 1.05,
+      "nota": "toma nevera, muro opuesto. Confirmado: ElementID 5529805. El 5529796 es otra toma normal a 0,30 en la cara opuesta del muro",
+      "element_id_revit": 5529805
+    },
+    "103": {
+      "altura_m": 1.05,
+      "nota": "GFCI del bano, junto a la puerta (corregido: 1.05, no 1.10)",
+      "element_id_revit": 5529811
+    },
+    "BC": {
+      "altura_m": 0.85,
+      "nota": "GFCI junto al Consolidation_Point. En CENTRAL-V01 quedo sobre la cara opuesta del muro: correccion manual pendiente (no afecta la altura)",
+      "element_id_revit": 5529814
+    },
+    "111": {
+      "altura_m": 1.05,
+      "nota": "GFCI (x 0,45 y 0,03). Confirmado por el operador a 1,05",
+      "element_id_revit": 5529852
+    },
+    "DB": {
+      "altura_m": 0.3,
+      "nota": "GFCI con anotacion h-0.3 en el DXF",
+      "element_id_revit": 5529727
+    }
+  },
+  "anotaciones_ignoradas_por_codigo": {
+    "ELEC-TEL": "Estandarizado a 1,00 m por decision del operador (2026-11-16). Se ignora la anotacion de 1,05 del DXF para que las diez tomas de datos queden a la misma cota, aunque el plano anote 1,05 en una de ellas."
   },
   "anotaciones_dxf": {
     "descripcion": "Textos de altura que ya existen en el plano, usados como validacion cruzada.",
-    "patrones": ["(?P<v>\\d+(?:[.,]\\d+)?)\\s*m", "h-?0[.,]3"],
+    "patrones": [
+      "(?P<v>\\d+(?:[.,]\\d+)?)\\s*m",
+      "h-?0[.,]3"
+    ],
     "radio_asignacion_m": 0.45,
     "regla": "Un texto se consume una sola vez. Si la anotacion contradice una excepcion, gana la excepcion y se reporta el conflicto."
   },
+  "excepciones_por_apartamento": {
+    "E 05": [
+      {
+        "codigo": "ELEC-CAMPANA",
+        "x": 2.0725,
+        "y": -0.0053,
+        "altura_m": 2.4,
+        "element_id_revit": 5529844,
+        "nota": "extractor de gases (campana), a 2,40 del nivel (veredicto del operador"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": 3.2706,
+        "y": -2.2865,
+        "altura_m": 1.05,
+        "element_id_revit": 5529805,
+        "nota": "toma nevera, muro opuesto. Confirmado: ElementID 5529805. El 5529796 e"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": 2.3412,
+        "y": -0.0191,
+        "altura_m": 0.7,
+        "element_id_revit": 5529846,
+        "nota": "toma estufa, muro de cocina"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": 2.5901,
+        "y": -0.0191,
+        "altura_m": 1.65,
+        "element_id_revit": 5529849,
+        "nota": "toma gabinete superior, muro de cocina"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 1.3118,
+        "y": -6.6791,
+        "altura_m": 0.3,
+        "element_id_revit": 5529727,
+        "nota": "GFCI con anotacion h-0.3 en el DXF"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 0.905,
+        "y": -2.1998,
+        "altura_m": 1.05,
+        "element_id_revit": 5529811,
+        "nota": "GFCI del bano, junto a la puerta (corregido: 1.05, no 1.10)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 2.8278,
+        "y": -2.1886,
+        "altura_m": 0.85,
+        "element_id_revit": 5529814,
+        "nota": "GFCI junto al Consolidation_Point. En CENTRAL-V01 quedo sobre la cara "
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 3.0894,
+        "y": -0.0171,
+        "altura_m": 1.05,
+        "element_id_revit": 5529855,
+        "nota": "GFCI sobre el meson de cocina (corregido: el DXF anota 1.05)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 0.4502,
+        "y": -0.0001,
+        "altura_m": 1.05,
+        "element_id_revit": 5529852,
+        "nota": "GFCI (x 0,45 y 0,03). Confirmado por el operador a 1,05"
+      }
+    ],
+    "E 06": [
+      {
+        "codigo": "ELEC-CAMPANA",
+        "x": 2.0675,
+        "y": 0.0303,
+        "altura_m": 2.4,
+        "element_id_revit": 5529844,
+        "nota": "extractor de gases (campana), a 2,40 del nivel (veredicto del operador"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": 2.453,
+        "y": 0.0271,
+        "altura_m": 0.7,
+        "element_id_revit": 5529846,
+        "nota": "toma estufa, muro de cocina"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": 2.7116,
+        "y": 0.0271,
+        "altura_m": 1.65,
+        "element_id_revit": 5529849,
+        "nota": "toma gabinete superior, muro de cocina"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": 3.2656,
+        "y": 2.2865,
+        "altura_m": 1.05,
+        "element_id_revit": 5529805,
+        "nota": "toma nevera, muro opuesto. Confirmado: ElementID 5529805. El 5529796 e"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 0.4452,
+        "y": 0.0251,
+        "altura_m": 1.05,
+        "element_id_revit": 5529852,
+        "nota": "GFCI (x 0,45 y 0,03). Confirmado por el operador a 1,05"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 3.2644,
+        "y": 0.0251,
+        "altura_m": 1.05,
+        "element_id_revit": 5529855,
+        "nota": "GFCI sobre el meson de cocina (corregido: el DXF anota 1.05)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 2.8238,
+        "y": 2.1886,
+        "altura_m": 0.85,
+        "element_id_revit": 5529814,
+        "nota": "GFCI junto al Consolidation_Point. En CENTRAL-V01 quedo sobre la cara "
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 0.897,
+        "y": 2.2058,
+        "altura_m": 1.05,
+        "element_id_revit": 5529811,
+        "nota": "GFCI del bano, junto a la puerta (corregido: 1.05, no 1.10)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 1.3115,
+        "y": 6.6791,
+        "altura_m": 0.3,
+        "element_id_revit": 5529727,
+        "nota": "GFCI con anotacion h-0.3 en el DXF"
+      }
+    ],
+    "E 07": [
+      {
+        "codigo": "ELEC-CAMPANA",
+        "x": -1.1613,
+        "y": -0.0053,
+        "altura_m": 2.4,
+        "element_id_revit": 5529844,
+        "nota": "extractor de gases (campana), a 2,40 del nivel (veredicto del operador"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -2.3595,
+        "y": -2.2185,
+        "altura_m": 1.05,
+        "element_id_revit": 5529805,
+        "nota": "toma nevera, muro opuesto. Confirmado: ElementID 5529805. El 5529796 e"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -1.679,
+        "y": -0.0191,
+        "altura_m": 1.65,
+        "element_id_revit": 5529849,
+        "nota": "toma gabinete superior, muro de cocina"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -1.4301,
+        "y": -0.0191,
+        "altura_m": 0.7,
+        "element_id_revit": 5529846,
+        "nota": "toma estufa, muro de cocina"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -0.3984,
+        "y": -6.6791,
+        "altura_m": 0.3,
+        "element_id_revit": 5529727,
+        "nota": "GFCI con anotacion h-0.3 en el DXF"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 0.0091,
+        "y": -2.2058,
+        "altura_m": 1.05,
+        "element_id_revit": 5529811,
+        "nota": "GFCI del bano, junto a la puerta (corregido: 1.05, no 1.10)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -1.9692,
+        "y": -2.1687,
+        "altura_m": 0.85,
+        "element_id_revit": 5529814,
+        "nota": "GFCI junto al Consolidation_Point. En CENTRAL-V01 quedo sobre la cara "
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -2.3783,
+        "y": -0.0171,
+        "altura_m": 1.05,
+        "element_id_revit": 5529855,
+        "nota": "GFCI sobre el meson de cocina (corregido: el DXF anota 1.05)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 0.461,
+        "y": -0.0001,
+        "altura_m": 1.05,
+        "element_id_revit": 5529852,
+        "nota": "GFCI (x 0,45 y 0,03). Confirmado por el operador a 1,05"
+      }
+    ],
+    "E 07a": [
+      {
+        "codigo": "ELEC-CAMPANA",
+        "x": -1.2684,
+        "y": 0.0289,
+        "altura_m": 2.4,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '1.65m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -2.2131,
+        "y": 0.046,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '1.05m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 0.461,
+        "y": -0.0001,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '1.05m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -2.7873,
+        "y": -2.2402,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '1.05m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -1.6866,
+        "y": 0.029,
+        "altura_m": 0.7,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '0.7m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -1.9661,
+        "y": -2.2952,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '0.3m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -0.1364,
+        "y": -6.7093,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion 'h-0.3' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -1.438,
+        "y": 0.029,
+        "altura_m": 1.65,
+        "nota": "confirmado por el operador 2026-11-16: toma a 587 mm de la anotacion '1.65m'",
+        "element_id_revit": null
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -1.969,
+        "y": -2.169,
+        "altura_m": 0.85,
+        "nota": "confirmado por el operador 2026-11-16: GFCI a 121 mm de la anotacion '0.85m'",
+        "element_id_revit": null
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": 0.011,
+        "y": -2.208,
+        "altura_m": 1.05,
+        "nota": "confirmado por el operador 2026-11-16: unica GFCI sin confirmar que queda en el bano",
+        "element_id_revit": null
+      }
+    ],
+    "E 08": [
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -2.4413,
+        "y": 0.0021,
+        "altura_m": 1.65,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '1.65m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -3.0895,
+        "y": 0.0001,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '1.05m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -0.4503,
+        "y": 0.0001,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '1.05m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -3.2707,
+        "y": 2.2865,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '1.05m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -2.6902,
+        "y": 0.0021,
+        "altura_m": 0.7,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '0.7m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -2.8959,
+        "y": 2.2951,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '0.3m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -1.2897,
+        "y": 6.8577,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion 'h-0.3' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -3.261,
+        "y": 2.3865,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '0.3m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -4.141,
+        "y": 3.9065,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "confirmado por el operador 2026-11-16 (anotacion '0.3m' en el plano)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -2.899,
+        "y": 2.169,
+        "altura_m": 0.85,
+        "nota": "confirmado por el operador 2026-11-16: GFCI a 395 mm de la anotacion '0.85m'",
+        "element_id_revit": null
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -0.915,
+        "y": 2.205,
+        "altura_m": 1.05,
+        "nota": "confirmado por el operador 2026-11-16: GFCI restante del bano",
+        "element_id_revit": null
+      }
+    ],
+    "E 08a": [
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -2.4413,
+        "y": 0.0021,
+        "altura_m": 1.65,
+        "element_id_revit": null,
+        "nota": "heredada de E 08: mismo aparato a la misma posicion (0 mm)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -3.0895,
+        "y": 0.0001,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "heredada de E 08: mismo aparato a la misma posicion (0 mm)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -0.4503,
+        "y": 0.0001,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "heredada de E 08: mismo aparato a la misma posicion (0 mm)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -3.2707,
+        "y": 2.2865,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "heredada de E 08: mismo aparato a la misma posicion (0 mm)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -2.6902,
+        "y": 0.0021,
+        "altura_m": 0.7,
+        "element_id_revit": null,
+        "nota": "heredada de E 08: mismo aparato a la misma posicion (0 mm)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -2.8959,
+        "y": 2.2951,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "heredada de E 08: mismo aparato a la misma posicion (0 mm)"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -3.261,
+        "y": 2.3865,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "heredada de E 08: mismo aparato a la misma posicion (0 mm)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -2.899,
+        "y": 2.1686,
+        "altura_m": 0.85,
+        "element_id_revit": null,
+        "nota": "heredada de E 08: mismo aparato a la misma posicion (0 mm)"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -1.0514,
+        "y": 6.6942,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "heredada de E 08 por rol; el aparato esta a 289 mm de la posicion de E 08"
+      },
+      {
+        "codigo": "ELEC-T-D-t-15A",
+        "x": -3.8461,
+        "y": 3.9062,
+        "altura_m": 0.3,
+        "element_id_revit": null,
+        "nota": "heredada de E 08 por rol; el aparato esta a 295 mm de la posicion de E 08"
+      },
+      {
+        "codigo": "ELEC-T-GFCI-t-15A",
+        "x": -0.8884,
+        "y": 2.1748,
+        "altura_m": 1.05,
+        "element_id_revit": null,
+        "nota": "heredada de E 08 por rol; el aparato esta a 40 mm de la posicion de E 08"
+      }
+    ]
+  },
   "validacion_esperada": {
-    "cocina_tres_tomas": "BA 0.70, BB 1.65, 9E 1.10 sobre el mismo muro",
-    "bano": "103 a 1.10",
+    "cocina_tres_tomas": "BA 0.70, BB 1.65, 9E 1.05 sobre el mismo muro",
+    "bano": "103 a 1.05",
     "consolidation": "BC a 0.85",
+    "campana": "EF a 2.40",
+    "punto_de_consolidacion": "BE a 2.70",
+    "timbre": "1.10",
+    "datos": "1.00 en las diez (estandarizado, se ignora la anotacion 1.05 del DXF)",
     "resto_tomas": "0.30"
-  }
+  },
+  "validacion_esperada_altura_m": {
+    "5529846": 0.7,
+    "5529849": 1.65,
+    "5529855": 1.05,
+    "5529844": 2.4,
+    "5529805": 1.05,
+    "5529811": 1.05,
+    "5529814": 0.85,
+    "5529852": 1.05,
+    "5529727": 0.3,
+    "5529820": 2.7,
+    "5529858": 1.1
+  },
+  "correcciones": [
+    {
+      "fecha": "2026-11-16",
+      "fuente": "veredicto del operador en sesion",
+      "cambios": [
+        "ELEC-CAMPANA 1,10 -> 2,40 (EF, element 5529844)",
+        "ELEC-NET-PAU 1,05 -> 2,70 (BE, element 5529820)",
+        "validacion_esperada.cocina_tres_tomas: 9E 1,10 -> 1,05 (coherente con la excepcion)",
+        "validacion_esperada.bano: 103 1,10 -> 1,05 (coherente con la excepcion)",
+        "se agrega validacion_esperada_altura_m legible por test"
+      ]
+    },
+    {
+      "fecha": "2026-11-16",
+      "fuente": "decision del operador: estandarizar todas las tomas de datos",
+      "cambios": [
+        "ELEC-TEL 1,05 -> 1,00 (las diez tomas de datos a la misma cota)",
+        "se agrega anotaciones_ignoradas_por_codigo: ELEC-TEL ignora la anotacion de 1,05 del DXF"
+      ]
+    }
+  ]
 }

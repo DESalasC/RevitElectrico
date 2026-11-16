@@ -1,0 +1,229 @@
+{
+  "niveles": [
+    {
+      "elev_m": 0.22, 
+      "id": 933, 
+      "nombre": "CLASIFICACI?N ACABADOS MUROS MAMPOSTERIA PISO 1"
+    }, 
+    {
+      "elev_m": 3.4700000000000002, 
+      "id": 1679, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 2-3"
+    }, 
+    {
+      "elev_m": 6.7199999999999998, 
+      "id": 192424, 
+      "nombre": "Piso 3"
+    }, 
+    {
+      "elev_m": 9.9700000000000006, 
+      "id": 192468, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 4-18"
+    }, 
+    {
+      "elev_m": 13.220000000000001, 
+      "id": 192512, 
+      "nombre": "Piso 5"
+    }, 
+    {
+      "elev_m": 16.469999999999999, 
+      "id": 192663, 
+      "nombre": "Piso 6"
+    }, 
+    {
+      "elev_m": 19.719999999999999, 
+      "id": 192707, 
+      "nombre": "Piso 7"
+    }, 
+    {
+      "elev_m": 22.969999999999999, 
+      "id": 192751, 
+      "nombre": "Piso 8"
+    }, 
+    {
+      "elev_m": 26.219999999999999, 
+      "id": 192795, 
+      "nombre": "Piso 9"
+    }, 
+    {
+      "elev_m": 29.469999999999999, 
+      "id": 192839, 
+      "nombre": "Piso 10"
+    }, 
+    {
+      "elev_m": 32.719999999999999, 
+      "id": 192883, 
+      "nombre": "Piso 11"
+    }, 
+    {
+      "elev_m": 35.969999999999999, 
+      "id": 192927, 
+      "nombre": "Piso 12"
+    }, 
+    {
+      "elev_m": 39.219999999999999, 
+      "id": 192971, 
+      "nombre": "Piso 13"
+    }, 
+    {
+      "elev_m": 42.469999999999999, 
+      "id": 193015, 
+      "nombre": "Piso 14"
+    }, 
+    {
+      "elev_m": 45.719999999999999, 
+      "id": 193059, 
+      "nombre": "Piso 15"
+    }, 
+    {
+      "elev_m": 48.969999999999999, 
+      "id": 193103, 
+      "nombre": "Piso 16"
+    }, 
+    {
+      "elev_m": 52.219999999999999, 
+      "id": 193147, 
+      "nombre": "Piso 17"
+    }, 
+    {
+      "elev_m": 55.469999999999999, 
+      "id": 193191, 
+      "nombre": "Piso 18"
+    }, 
+    {
+      "elev_m": 58.719999999999999, 
+      "id": 193235, 
+      "nombre": "CLASIFICACI?N ACABADOS MAMPOSTERIA PISO 19-21"
+    }, 
+    {
+      "elev_m": 61.969999999999999, 
+      "id": 193279, 
+      "nombre": "Piso 20"
+    }, 
+    {
+      "elev_m": 65.219999999999999, 
+      "id": 193323, 
+      "nombre": "Piso 21"
+    }, 
+    {
+      "elev_m": 68.469999999999999, 
+      "id": 193367, 
+      "nombre": "Cubierta"
+    }, 
+    {
+      "elev_m": -1.0800000000000001, 
+      "id": 208719, 
+      "nombre": "Sotano"
+    }, 
+    {
+      "elev_m": 71.870000000000005, 
+      "id": 208852, 
+      "nombre": "SobreCubierta"
+    }
+  ], 
+  "ruta": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt", 
+  "conteos": {
+    "Conduits": {
+      "total_estimado": 148, 
+      "muestra": [
+        {
+          "id": 112216, 
+          "nombre": ""
+        }, 
+        {
+          "id": 112217, 
+          "nombre": ""
+        }, 
+        {
+          "id": 5602081, 
+          "nombre": "Tubo"
+        }, 
+        {
+          "id": 5631529, 
+          "nombre": "Tubo"
+        }, 
+        {
+          "id": 5635449, 
+          "nombre": "Tubo"
+        }
+      ]
+    }, 
+    "Techos": {
+      "total_estimado": 559, 
+      "muestra": [
+        {
+          "id": 16254, 
+          "nombre": ""
+        }, 
+        {
+          "id": 498506, 
+          "nombre": ""
+        }, 
+        {
+          "id": 1799677, 
+          "nombre": "Falso techo continuo de placa de yeso laminado"
+        }, 
+        {
+          "id": 1799766, 
+          "nombre": "Falso techo continuo de placa de yeso laminado"
+        }, 
+        {
+          "id": 1801039, 
+          "nombre": "Falso techo continuo de placa de yeso laminado"
+        }
+      ]
+    }, 
+    "Muros": {
+      "total_estimado": 40172, 
+      "muestra": [
+        {
+          "id": 182835, 
+          "nombre": ""
+        }, 
+        {
+          "id": 182908, 
+          "nombre": ""
+        }, 
+        {
+          "id": 182988, 
+          "nombre": ""
+        }, 
+        {
+          "id": 183009, 
+          "nombre": ""
+        }, 
+        {
+          "id": 183351, 
+          "nombre": ""
+        }
+      ]
+    }, 
+    "FamilyInstances": {
+      "total_estimado": 22, 
+      "muestra": [
+        {
+          "id": 987, 
+          "nombre": ""
+        }, 
+        {
+          "id": 3198428, 
+          "nombre": "FJR_0.45 x 0.75 m"
+        }, 
+        {
+          "id": 3198458, 
+          "nombre": ""
+        }, 
+        {
+          "id": 3205615, 
+          "nombre": "FJR_0.45 x 0.75 m"
+        }, 
+        {
+          "id": 3205903, 
+          "nombre": "FJR_0.45 x 0.75 m"
+        }
+      ]
+    }
+  }, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "nivel_piso5_id": 192512
+}

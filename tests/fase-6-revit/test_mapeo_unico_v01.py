@@ -43,9 +43,9 @@ def test_mapeo_unico_con_las_entradas_corregidas(comparador) -> None:
     assert len(mapeo) == 16
     assert mapeo["ELEC-CAMPANA"] == ("M_Timbre", "Campana")
     assert mapeo["ELEC-NET-PAU"] == ("Consolidation_Point", "CPB6BL")
-    assert mapeo["ELEC-TEL"] == ("M_Comunicaciones", "Telefono")
+    assert mapeo["ELEC-TEL"] == ("M_Comunicaciones", "Datos")
     assert mapeo["ELEC-EXT"] == ("EA", "EA 1010")
-    assert mapeo["ELEC-I-S-C1-5A"] == ("M_Interruptores", "Conmutable")
+    assert mapeo["ELEC-I-S-C1-5A"] == ("M_Interruptores", "Simple conmutable")
 
 
 def test_canonico_usa_altura_local_y_no_la_nominal(comparador) -> None:

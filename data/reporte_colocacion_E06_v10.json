@@ -1,0 +1,288 @@
+[
+  {
+    "status": "ERROR", 
+    "handle": "12A", 
+    "dxf_name": "Bala Stil Led 13W", 
+    "error": "The symbol is not active.\r\nParameter name: symbol"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "DC", 
+    "dxf_name": "ELEC-I-S-C1-5A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "DB", 
+    "dxf_name": "ELEC-T-GFCI-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "85", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "CE", 
+    "dxf_name": "ELEC-I-S-C1-5A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "6D", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "107", 
+    "dxf_name": "ELEC-F-VENT", 
+    "error": "Host no encontrado (CEILING)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "1F2", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "83", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "7A", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "OK", 
+    "handle": "11F", 
+    "dxf_name": "Bala Stil Led 10W", 
+    "unique_id": "6b3c265c-5d1e-4d4d-9575-3ee1d56ca35e-0054095d", 
+    "host_type": "CEILING", 
+    "revit_id": 5507421
+  }, 
+  {
+    "status": "OK", 
+    "handle": "128", 
+    "dxf_name": "Bala Stil Led 10W", 
+    "unique_id": "6b3c265c-5d1e-4d4d-9575-3ee1d56ca35e-00540961", 
+    "host_type": "CEILING", 
+    "revit_id": 5507425
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "D7", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "1F6", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "84", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "138", 
+    "dxf_name": "Bala Stil Led 13W", 
+    "error": "Host no encontrado (CEILING)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "D9", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "D8", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "110", 
+    "dxf_name": "ELEC-F-VENT", 
+    "error": "Host no encontrado (CEILING)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "224", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "148", 
+    "dxf_name": "ELEC-F-CONTROL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "86", 
+    "dxf_name": "ELEC-I-S-1-5A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "164", 
+    "dxf_name": "ELEC-F-CONTROL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "129", 
+    "dxf_name": "Bala Stil Led 10W", 
+    "error": "Host no encontrado (CEILING)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "139", 
+    "dxf_name": "Bala Stil Led 13W", 
+    "error": "Host no encontrado (CEILING)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "DA", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "92", 
+    "dxf_name": "ELEC-I-S-1-5A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "BD", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "EE", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "DF", 
+    "dxf_name": "S3", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "103", 
+    "dxf_name": "ELEC-T-GFCI-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "BC", 
+    "dxf_name": "ELEC-T-GFCI-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "106", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "BE", 
+    "dxf_name": "ELEC-NET-PAU", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "1F3", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "1F4", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "1F5", 
+    "dxf_name": "ELEC-TEL", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "112", 
+    "dxf_name": "Bala Stil Led 22W", 
+    "error": "Host no encontrado (CEILING)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "11E", 
+    "dxf_name": "Bala Stil Led 22W", 
+    "error": "Host no encontrado (CEILING)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "13A", 
+    "dxf_name": "Bala Stil Led 13W", 
+    "error": "Host no encontrado (CEILING)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "104", 
+    "dxf_name": "ELEC-I-S-1-5A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "EF", 
+    "dxf_name": "ELEC-CAMPANA", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "BA", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "BB", 
+    "dxf_name": "ELEC-T-D-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "111", 
+    "dxf_name": "ELEC-T-GFCI-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "9E", 
+    "dxf_name": "ELEC-T-GFCI-t-15A", 
+    "error": "Host no encontrado (WALL)"
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "96", 
+    "dxf_name": "ELEC-TIMBRE", 
+    "error": "Host no encontrado (WALL)"
+  }
+]

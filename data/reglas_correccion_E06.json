@@ -1,0 +1,90 @@
+{
+  "rotacion_promedio_por_familia": {
+    "M_Interruptores": 180.0, 
+    "M_Comunicaciones": -120.0, 
+    "M_Pulsador - Interruptor": 90.0, 
+    "M_Toma doble": -75.0
+  }, 
+  "cambios_elevacion": [
+    {
+      "delta_m": -0.10000000000000001, 
+      "familia": "M_Climatizacion", 
+      "handle": "164"
+    }, 
+    {
+      "delta_m": -0.80000000000000004, 
+      "familia": "M_Toma doble", 
+      "handle": "224"
+    }, 
+    {
+      "delta_m": -0.80730000000000002, 
+      "familia": "M_Toma doble", 
+      "handle": "6D"
+    }, 
+    {
+      "delta_m": -0.80000000000000004, 
+      "familia": "M_Toma doble", 
+      "handle": "84"
+    }, 
+    {
+      "delta_m": -0.80000000000000004, 
+      "familia": "M_Toma doble", 
+      "handle": "85"
+    }, 
+    {
+      "delta_m": 0.15090000000000001, 
+      "familia": "M_Pulsador - Interruptor", 
+      "handle": "96"
+    }, 
+    {
+      "delta_m": -0.59999999999999998, 
+      "familia": "M_Toma doble", 
+      "handle": "9E"
+    }, 
+    {
+      "delta_m": -0.94999999999999996, 
+      "familia": "M_Toma doble", 
+      "handle": "BA"
+    }, 
+    {
+      "delta_m": -0.80000000000000004, 
+      "familia": "M_Toma doble", 
+      "handle": "BD"
+    }, 
+    {
+      "delta_m": -0.80000000000000004, 
+      "familia": "M_Toma doble", 
+      "handle": "D7"
+    }, 
+    {
+      "delta_m": -0.086900000000000005, 
+      "familia": "M_Toma doble", 
+      "handle": "DA"
+    }, 
+    {
+      "delta_m": -0.80000000000000004, 
+      "familia": "M_Toma doble", 
+      "handle": "DB"
+    }
+  ], 
+  "cambios_host": [
+    {
+      "familia": "M_Interruptores", 
+      "pre": 2766519, 
+      "post": 2765798, 
+      "handle": "104"
+    }, 
+    {
+      "familia": "M_Comunicaciones", 
+      "pre": 2765818, 
+      "post": -1, 
+      "handle": "106"
+    }, 
+    {
+      "familia": "M_Comunicaciones", 
+      "pre": 2765818, 
+      "post": -1, 
+      "handle": "1F3"
+    }
+  ]
+}

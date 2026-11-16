@@ -30,6 +30,7 @@ SALIDA:
 
 HISTORIAL:
   v01.0 (2026-10-21) — versión inicial. Mapeo bloque → familia Revit.
+  v02.0 (2026-11-09) — Bala Stil Led 10W/13W/22W -> SONO FLEX trim (simbolos SONO FLEX 100/150/200 trim); EA -> M_Extractor para Tipo E 05.
 ================================================================================
 """
 
@@ -119,6 +120,38 @@ MAPEO_BLOQUES_REVIT: Dict[str, Dict[str, Any]] = {
         "modelar": True,
         "es_codigo_conductores": False,
         "nota": "Luminaria de emergencia con batería LED",
+    },
+    "Bala Stil Led 10W": {
+        "categoria": "Luminarias",
+        "familia_revit": "SONO FLEX trim",
+        "altura_default_m": 2.65,
+        "modelar": True,
+        "es_codigo_conductores": False,
+        "nota": "Luminaria tipo bala LED 10W de techo -> SONO FLEX 100 trim (host: cara inferior del cieloraso)",
+    },
+    "Bala Stil Led 13W": {
+        "categoria": "Luminarias",
+        "familia_revit": "SONO FLEX trim",
+        "altura_default_m": 2.65,
+        "modelar": True,
+        "es_codigo_conductores": False,
+        "nota": "Luminaria tipo bala LED 13W de techo -> SONO FLEX 150 trim (host: cara inferior del cieloraso)",
+    },
+    "Bala Stil Led 22W": {
+        "categoria": "Luminarias",
+        "familia_revit": "SONO FLEX trim",
+        "altura_default_m": 2.65,
+        "modelar": True,
+        "es_codigo_conductores": False,
+        "nota": "Luminaria tipo bala LED 22W de techo -> SONO FLEX 200 trim (host: cara inferior del cieloraso)",
+    },
+    "EA": {
+        "categoria": "Dispositivos eléctricos",
+        "familia_revit": "M_Extractor",
+        "altura_default_m": 2.65,
+        "modelar": True,
+        "es_codigo_conductores": False,
+        "nota": "Extractor de aire de techo (Tipo E 05) -> M_Extractor (host: cara inferior del cieloraso)",
     },
     "1FTN": {
         "categoria": "Marcador de conductores",

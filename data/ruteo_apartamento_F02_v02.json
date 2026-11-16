@@ -1,0 +1,5378 @@
+{
+ "version": "v01",
+ "dxf": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-T4-P4_todos_bloques_electricos.dxf",
+ "zona": "apartamento",
+ "material": "PVC",
+ "calibre": "12 AWG",
+ "nivel": "Piso 5",
+ "elevacion_nivel_m": 43.3727,
+ "resumen": {
+  "tramos": 83,
+  "tramos_con_marcador": 67,
+  "tramos_sin_marcador": 16,
+  "cajas_conexion": 2,
+  "cruces_planta": 8,
+  "cruces_a_la_misma_cota": 0,
+  "longitud_total_m": 317.02,
+  "por_servicio": {
+   "COMUNICACIONES": 1,
+   "ILUMINACION": 68,
+   "TOMAS": 14
+  },
+  "largo_por_servicio_m": {
+   "COMUNICACIONES": 1.4,
+   "ILUMINACION": 177.92,
+   "TOMAS": 137.69
+  },
+  "por_diametro": {
+   "1/2\"": 83
+  },
+  "avisos": 25
+ },
+ "avisos_globales": [
+  "Tramo A273 en 'ELEC-LIGHT-PIPE' omitido: largo 0.050 m < minimo 0.050 m",
+  "Tramo A2CB en 'ELEC-LIGHT-PIPE' omitido: largo 0.050 m < minimo 0.050 m",
+  "Tramo A25A en 'ELEC-LIGHT-PIPE' omitido: largo 0.022 m < minimo 0.050 m",
+  "Tramo A258 en 'ELEC-LIGHT-PIPE' omitido: largo 0.012 m < minimo 0.050 m",
+  "Tramo A261 en 'ELEC-POWER- PIPE' omitido: largo 0.039 m < minimo 0.050 m"
+ ],
+ "estadisticas_extraccion": {
+  "dispositivos": 139,
+  "marcadores": 64,
+  "polilineas": 88,
+  "avisos_lectura": []
+ },
+ "cajas": [
+  {
+   "id": "CJ-0001",
+   "tramo_id": "RT-0054",
+   "x": 8.3869,
+   "y": 7.2445,
+   "z_absoluta_m": 46.0227,
+   "cota_m": 2.65,
+   "servicio": "ILUMINACION",
+   "aparato_handle": "A27A",
+   "aparato_nombre": "HERMETICA 40W",
+   "aparato_capa": "ELEC-STA_ Hermetica 40W",
+   "altura_aparato_m": 2.2,
+   "distancia_m": 0.775
+  },
+  {
+   "id": "CJ-0002",
+   "tramo_id": "RT-0088",
+   "x": -15.0078,
+   "y": -6.0488,
+   "z_absoluta_m": 46.0227,
+   "cota_m": 2.65,
+   "servicio": "ILUMINACION",
+   "aparato_handle": "A296",
+   "aparato_nombre": "ELEC-LAF EMERG BAT LED",
+   "aparato_capa": "Elec-Lite-Lite-Emer",
+   "altura_aparato_m": 2.65,
+   "distancia_m": 0.676
+  }
+ ],
+ "cruces": [
+  {
+   "tramo_a": "RT-0001",
+   "tramo_b": "RT-0002",
+   "servicio_a": "COMUNICACIONES",
+   "servicio_b": "ILUMINACION",
+   "x": -20.113,
+   "y": 1.191,
+   "cota_a": 2.71,
+   "cota_b": 2.65,
+   "separacion_m": 0.06
+  },
+  {
+   "tramo_a": "RT-0001",
+   "tramo_b": "RT-0074",
+   "servicio_a": "COMUNICACIONES",
+   "servicio_b": "TOMAS",
+   "x": -20.113,
+   "y": 2.053,
+   "cota_a": 2.71,
+   "cota_b": 2.68,
+   "separacion_m": 0.03
+  },
+  {
+   "tramo_a": "RT-0007",
+   "tramo_b": "RT-0082",
+   "servicio_a": "ILUMINACION",
+   "servicio_b": "TOMAS",
+   "x": -13.801,
+   "y": 1.191,
+   "cota_a": 2.65,
+   "cota_b": 2.68,
+   "separacion_m": 0.03
+  },
+  {
+   "tramo_a": "RT-0025",
+   "tramo_b": "RT-0076",
+   "servicio_a": "ILUMINACION",
+   "servicio_b": "TOMAS",
+   "x": -16.71,
+   "y": -5.643,
+   "cota_a": 2.65,
+   "cota_b": 2.68,
+   "separacion_m": 0.03
+  },
+  {
+   "tramo_a": "RT-0030",
+   "tramo_b": "RT-0078",
+   "servicio_a": "ILUMINACION",
+   "servicio_b": "TOMAS",
+   "x": -15.19,
+   "y": 2.03,
+   "cota_a": 2.65,
+   "cota_b": 2.68,
+   "separacion_m": 0.03
+  },
+  {
+   "tramo_a": "RT-0031",
+   "tramo_b": "RT-0081",
+   "servicio_a": "ILUMINACION",
+   "servicio_b": "TOMAS",
+   "x": -17.25,
+   "y": 0.773,
+   "cota_a": 2.65,
+   "cota_b": 2.68,
+   "separacion_m": 0.03
+  },
+  {
+   "tramo_a": "RT-0037",
+   "tramo_b": "RT-0080",
+   "servicio_a": "ILUMINACION",
+   "servicio_b": "TOMAS",
+   "x": -51.178,
+   "y": 1.181,
+   "cota_a": 2.65,
+   "cota_b": 2.68,
+   "separacion_m": 0.03
+  },
+  {
+   "tramo_a": "RT-0044",
+   "tramo_b": "RT-0074",
+   "servicio_a": "ILUMINACION",
+   "servicio_b": "TOMAS",
+   "x": -18.044,
+   "y": 1.191,
+   "cota_a": 2.65,
+   "cota_b": 2.68,
+   "separacion_m": 0.03
+  }
+ ],
+ "tramos": [
+  {
+   "id": "RT-0001",
+   "handle_dxf": "1332",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 1.4,
+   "cota_m": 2.71,
+   "z_absoluta_m": 46.0827,
+   "puntos_3d": [
+    [
+     -20.1133,
+     2.0911,
+     2.71
+    ],
+    [
+     -20.1133,
+     0.6909,
+     2.71
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "libre",
+     "handle": "",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "",
+     "servicio": null,
+     "altura_m": null,
+     "distancia_m": 1.735,
+     "x": -20.113,
+     "y": 2.091
+    },
+    {
+     "tipo": "libre",
+     "handle": "",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "",
+     "servicio": null,
+     "altura_m": null,
+     "distancia_m": 1.553,
+     "x": -20.113,
+     "y": 0.691
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.163 m)"
+   ],
+   "avisos": [
+    "Extremo sin dispositivo ni caja a <= 0.50 m (el mas cercano esta a 1.73 m)",
+    "Extremo sin dispositivo ni caja a <= 0.50 m (el mas cercano esta a 1.55 m)"
+   ]
+  },
+  {
+   "id": "RT-0002",
+   "handle_dxf": "A145",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.0,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -18.4903,
+     1.1907,
+     2.65
+    ],
+    [
+     -21.4903,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EB",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -18.49,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0ED",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -21.49,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0003",
+   "handle_dxf": "A15B",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.0,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -47.2903,
+     1.1907,
+     2.65
+    ],
+    [
+     -50.2903,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F5",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -47.29,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F6",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -50.29,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0004",
+   "handle_dxf": "A158",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.0,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -40.8903,
+     1.1907,
+     2.65
+    ],
+    [
+     -43.8903,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F3",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -40.89,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F4",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -43.89,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0005",
+   "handle_dxf": "A19D",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.0,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -8.6903,
+     1.1907,
+     2.65
+    ],
+    [
+     -5.6903,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FE",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -8.69,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FF",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -5.69,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0006",
+   "handle_dxf": "A14B",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.0,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -24.8903,
+     1.1907,
+     2.65
+    ],
+    [
+     -27.8902,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EE",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -24.89,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EF",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -27.89,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0007",
+   "handle_dxf": "A19A",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.0,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -15.0903,
+     1.1907,
+     2.65
+    ],
+    [
+     -12.0905,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EC",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -15.09,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FD",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.104,
+     "x": -12.091,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0008",
+   "handle_dxf": "A151",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.999,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -31.2903,
+     1.2107,
+     2.65
+    ],
+    [
+     -34.2897,
+     1.2107,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F0",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.108,
+     "x": -31.29,
+     "y": 1.211
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F1",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.104,
+     "x": -34.29,
+     "y": 1.211
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.015 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0009",
+   "handle_dxf": "A1A0",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.99,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -2.2803,
+     1.1807,
+     2.65
+    ],
+    [
+     0.7097,
+     1.1807,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A100",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.107,
+     "x": -2.28,
+     "y": 1.181
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A101",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": 0.71,
+     "y": 1.181
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.012 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0010",
+   "handle_dxf": "A1A1",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.99,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     0.9197,
+     1.1807,
+     2.65
+    ],
+    [
+     3.9097,
+     1.1807,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A101",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.107,
+     "x": 0.92,
+     "y": 1.181
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A102",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": 3.91,
+     "y": 1.181
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.012 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0011",
+   "handle_dxf": "A157",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.98,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -37.6903,
+     1.1907,
+     2.65
+    ],
+    [
+     -40.6702,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F2",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -37.69,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F3",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.118,
+     "x": -40.67,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0012",
+   "handle_dxf": "A159",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 4.37,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -44.2803,
+     1.1907,
+     1.1
+    ],
+    [
+     -44.2803,
+     1.1907,
+     2.65
+    ],
+    [
+     -47.1003,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A114",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.072,
+     "x": -44.28,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F5",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.088,
+     "x": -47.1,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0013",
+   "handle_dxf": "A13F",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 6,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.8,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -16.6903,
+     -3.0693,
+     2.65
+    ],
+    [
+     -16.6903,
+     -0.2693,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EA",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.097,
+     "x": -16.69,
+     "y": -3.069
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A120",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -16.69,
+     "y": -0.269
+    }
+   ],
+   "marcadores": [
+    "2F2N1T1R (6 cables, d=0.017 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0014",
+   "handle_dxf": "A16A",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.8,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8403,
+     2.5807,
+     2.65
+    ],
+    [
+     -51.8403,
+     5.3807,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FA",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.105,
+     "x": -51.84,
+     "y": 2.581
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FB",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -51.84,
+     "y": 5.381
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.008 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0015",
+   "handle_dxf": "A164",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.8,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8303,
+     -0.2293,
+     2.65
+    ],
+    [
+     -51.8303,
+     -3.0293,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F7",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.107,
+     "x": -51.83,
+     "y": -0.229
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F8",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.094,
+     "x": -51.83,
+     "y": -3.029
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.018 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0016",
+   "handle_dxf": "A1DB",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.8,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -17.2403,
+     2.9307,
+     2.65
+    ],
+    [
+     -17.2403,
+     5.7306,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A1DA",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.097,
+     "x": -17.24,
+     "y": 2.931
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1CA",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -17.24,
+     "y": 5.731
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.006 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0017",
+   "handle_dxf": "A1CF",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 4.149,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -17.2503,
+     6.1507,
+     1.1
+    ],
+    [
+     -17.2503,
+     6.1507,
+     2.65
+    ],
+    [
+     -17.2503,
+     8.7492,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A1CC",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.054,
+     "x": -17.25,
+     "y": 6.151
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1CB",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.084,
+     "x": -17.25,
+     "y": 8.749
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.000 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0018",
+   "handle_dxf": "A148",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.93,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -22.3103,
+     1.1907,
+     1.1
+    ],
+    [
+     -22.3103,
+     1.1907,
+     2.65
+    ],
+    [
+     -24.6903,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A117",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.064,
+     "x": -22.31,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EE",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -24.69,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0019",
+   "handle_dxf": "A1B5",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.92,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     7.1827,
+     0.6869,
+     1.1
+    ],
+    [
+     7.1827,
+     0.6869,
+     2.65
+    ],
+    [
+     7.1827,
+     -0.8786,
+     2.65
+    ],
+    [
+     7.9874,
+     -0.8786,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A1B3",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.051,
+     "x": 7.183,
+     "y": 0.687
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1B1",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.099,
+     "x": 7.987,
+     "y": -0.879
+    }
+   ],
+   "marcadores": [
+    "1TNR (3 cables, d=0.006 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0020",
+   "handle_dxf": "A1A3",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.92,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     4.7397,
+     1.1807,
+     1.1
+    ],
+    [
+     4.7397,
+     1.1807,
+     2.65
+    ],
+    [
+     7.1097,
+     1.1807,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A119",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.067,
+     "x": 4.74,
+     "y": 1.181
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A103",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": 7.11,
+     "y": 1.181
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.012 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0021",
+   "handle_dxf": "A19E",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.92,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -5.4903,
+     1.1807,
+     2.65
+    ],
+    [
+     -3.1203,
+     1.1807,
+     2.65
+    ],
+    [
+     -3.1203,
+     1.1807,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FF",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.097,
+     "x": -5.49,
+     "y": 1.181
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A11A",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.063,
+     "x": -3.12,
+     "y": 1.181
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.012 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0022",
+   "handle_dxf": "A16C",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.75,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8203,
+     6.1907,
+     1.1
+    ],
+    [
+     -51.8203,
+     6.1907,
+     2.65
+    ],
+    [
+     -51.8203,
+     8.3907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A112",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.064,
+     "x": -51.82,
+     "y": 6.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FC",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.087,
+     "x": -51.82,
+     "y": 8.391
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.028 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0023",
+   "handle_dxf": "A13B",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.112,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -14.4703,
+     -6.7093,
+     2.65
+    ],
+    [
+     -16.582,
+     -6.7093,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A11F",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -14.47,
+     "y": -6.709
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0DF",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.106,
+     "x": -16.582,
+     "y": -6.709
+    }
+   ],
+   "marcadores": [
+    "2FT2N (5 cables, d=0.001 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0024",
+   "handle_dxf": "A1E6",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.45,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     7.3179,
+     1.1773,
+     2.65
+    ],
+    [
+     8.1582,
+     1.1773,
+     2.65
+    ],
+    [
+     8.1582,
+     2.3375,
+     2.65
+    ],
+    [
+     8.1582,
+     2.3375,
+     2.2
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A103",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.106,
+     "x": 7.318,
+     "y": 1.177
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1E7",
+     "nombre": "HERMETICA 40W",
+     "capa": "ELEC-STA_ Hermetica 40W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.2,
+     "distancia_m": 0.084,
+     "x": 8.158,
+     "y": 2.338
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.241 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0025",
+   "handle_dxf": "A13C",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 6,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.549,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -16.7103,
+     -6.6093,
+     2.65
+    ],
+    [
+     -16.7103,
+     -4.6099,
+     2.65
+    ],
+    [
+     -16.7103,
+     -4.6099,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0DF",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.1,
+     "x": -16.71,
+     "y": -6.609
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A118",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.078,
+     "x": -16.71,
+     "y": -4.61
+    }
+   ],
+   "marcadores": [
+    "2F2N1T1R (6 cables, d=0.040 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0026",
+   "handle_dxf": "A153",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.53,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -34.4903,
+     1.1907,
+     2.65
+    ],
+    [
+     -36.4702,
+     1.1907,
+     2.65
+    ],
+    [
+     -36.4702,
+     1.1907,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F1",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -34.49,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A115",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.077,
+     "x": -36.47,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0027",
+   "handle_dxf": "A1B6",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 1.9,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     8.0797,
+     -0.9893,
+     2.65
+    ],
+    [
+     8.0797,
+     -2.8893,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A1B1",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.104,
+     "x": 8.08,
+     "y": -0.989
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1B2",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.094,
+     "x": 8.08,
+     "y": -2.889
+    }
+   ],
+   "marcadores": [
+    "1TNR (3 cables, d=0.003 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0028",
+   "handle_dxf": "A141",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.45,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -17.1703,
+     1.1707,
+     1.1
+    ],
+    [
+     -17.1703,
+     1.1707,
+     2.65
+    ],
+    [
+     -15.2703,
+     1.1707,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A11C",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.082,
+     "x": -17.17,
+     "y": 1.171
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EC",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.083,
+     "x": -15.27,
+     "y": 1.171
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.002 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0029",
+   "handle_dxf": "A19C",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.41,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -10.7553,
+     1.1907,
+     1.1
+    ],
+    [
+     -10.7553,
+     1.1907,
+     2.65
+    ],
+    [
+     -8.8954,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A11B",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.068,
+     "x": -10.755,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FE",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.109,
+     "x": -8.895,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.022 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0030",
+   "handle_dxf": "A1BB",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 1.78,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -15.1903,
+     1.2524,
+     2.65
+    ],
+    [
+     -15.1903,
+     2.7923,
+     2.65
+    ],
+    [
+     -14.9504,
+     2.7921,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EC",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.075,
+     "x": -15.19,
+     "y": 1.252
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1C8",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -14.95,
+     "y": 2.792
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 4 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0031",
+   "handle_dxf": "A140",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 6,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.269,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -16.7903,
+     -0.1693,
+     2.65
+    ],
+    [
+     -17.2496,
+     -0.1693,
+     2.65
+    ],
+    [
+     -17.2496,
+     1.0907,
+     2.65
+    ],
+    [
+     -17.2496,
+     1.0907,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A120",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -16.79,
+     "y": -0.169
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A11C",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.086,
+     "x": -17.25,
+     "y": 1.091
+    }
+   ],
+   "marcadores": [
+    "2F2N1T1R (6 cables, d=0.014 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0032",
+   "handle_dxf": "A14E",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.149,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -29.4903,
+     1.1907,
+     1.1
+    ],
+    [
+     -29.4903,
+     1.1907,
+     2.65
+    ],
+    [
+     -31.0896,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A116",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.061,
+     "x": -29.49,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F0",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.099,
+     "x": -31.09,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0033",
+   "handle_dxf": "A166",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.13,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8403,
+     -4.4393,
+     1.1
+    ],
+    [
+     -51.8403,
+     -4.4393,
+     2.65
+    ],
+    [
+     -51.8403,
+     -6.0191,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A104",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.067,
+     "x": -51.84,
+     "y": -4.439
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F9",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.105,
+     "x": -51.84,
+     "y": -6.019
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.008 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0034",
+   "handle_dxf": "A142",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.03,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -17.2503,
+     1.2407,
+     1.1
+    ],
+    [
+     -17.2503,
+     1.2407,
+     2.65
+    ],
+    [
+     -17.2503,
+     2.7207,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A11C",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.064,
+     "x": -17.25,
+     "y": 1.241
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1DA",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.113,
+     "x": -17.25,
+     "y": 2.721
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 4 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0035",
+   "handle_dxf": "A1D4",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.987,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -15.9703,
+     10.3407,
+     2.65
+    ],
+    [
+     -17.0071,
+     10.3407,
+     2.65
+    ],
+    [
+     -17.0071,
+     9.9407,
+     2.65
+    ],
+    [
+     -17.0071,
+     9.9407,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A1CD",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.094,
+     "x": -15.97,
+     "y": 10.341
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1D3",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.047,
+     "x": -17.007,
+     "y": 9.941
+    }
+   ],
+   "marcadores": [
+    "1TNR (3 cables, d=0.002 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0036",
+   "handle_dxf": "A14D",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.83,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -28.0903,
+     1.1907,
+     2.65
+    ],
+    [
+     -29.3703,
+     1.1907,
+     2.65
+    ],
+    [
+     -29.3703,
+     1.1907,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EF",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -28.09,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A116",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.063,
+     "x": -29.37,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0037",
+   "handle_dxf": "A162",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.82,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -50.4903,
+     1.1807,
+     2.65
+    ],
+    [
+     -51.7603,
+     1.1807,
+     2.65
+    ],
+    [
+     -51.7603,
+     1.1807,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F6",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -50.49,
+     "y": 1.181
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A113",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.069,
+     "x": -51.76,
+     "y": 1.181
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.015 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0038",
+   "handle_dxf": "A13E",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 6,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.769,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -16.7103,
+     -4.4693,
+     1.1
+    ],
+    [
+     -16.7103,
+     -4.4693,
+     2.65
+    ],
+    [
+     -16.7103,
+     -3.2498,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A118",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.063,
+     "x": -16.71,
+     "y": -4.469
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EA",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.086,
+     "x": -16.71,
+     "y": -3.25
+    }
+   ],
+   "marcadores": [
+    "2F2N1T1R (6 cables, d=0.004 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0039",
+   "handle_dxf": "A1D8",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.748,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -17.2703,
+     8.9353,
+     2.65
+    ],
+    [
+     -17.2703,
+     9.8935,
+     2.65
+    ],
+    [
+     -17.0305,
+     9.8935,
+     2.65
+    ],
+    [
+     -17.0305,
+     9.8935,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A1CB",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.104,
+     "x": -17.27,
+     "y": 8.935
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1D3",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.027,
+     "x": -17.03,
+     "y": 9.894
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.007 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0040",
+   "handle_dxf": "A169",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.707,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8303,
+     1.2307,
+     1.1
+    ],
+    [
+     -51.8303,
+     1.2307,
+     2.65
+    ],
+    [
+     -51.8303,
+     2.388,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A113",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.055,
+     "x": -51.83,
+     "y": 1.231
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FA",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.09,
+     "x": -51.83,
+     "y": 2.388
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.018 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0041",
+   "handle_dxf": "A163",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.649,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8303,
+     1.0807,
+     1.1
+    ],
+    [
+     -51.8303,
+     1.0807,
+     2.65
+    ],
+    [
+     -51.8303,
+     -0.0184,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A113",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.095,
+     "x": -51.83,
+     "y": 1.081
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F7",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.105,
+     "x": -51.83,
+     "y": -0.018
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.018 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0042",
+   "handle_dxf": "A165",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.63,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8303,
+     -3.2293,
+     2.65
+    ],
+    [
+     -51.8303,
+     -4.309,
+     2.65
+    ],
+    [
+     -51.8303,
+     -4.309,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F8",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.107,
+     "x": -51.83,
+     "y": -3.229
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A104",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.064,
+     "x": -51.83,
+     "y": -4.309
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.018 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0043",
+   "handle_dxf": "A19B",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.55,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -11.8903,
+     1.1907,
+     2.65
+    ],
+    [
+     -10.8905,
+     1.1907,
+     2.65
+    ],
+    [
+     -10.8905,
+     1.1907,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FD",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -11.89,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A11B",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.07,
+     "x": -10.891,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.022 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0044",
+   "handle_dxf": "A144",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.53,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -17.3103,
+     1.1907,
+     1.1
+    ],
+    [
+     -17.3103,
+     1.1907,
+     2.65
+    ],
+    [
+     -18.2903,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A11C",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.06,
+     "x": -17.31,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EB",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -18.29,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0045",
+   "handle_dxf": "A17B",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.455,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.0903,
+     -6.7593,
+     1.1
+    ],
+    [
+     -51.0903,
+     -6.7593,
+     2.65
+    ],
+    [
+     -51.0903,
+     -7.0339,
+     2.65
+    ],
+    [
+     -51.7208,
+     -7.0339,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A17A",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.052,
+     "x": -51.09,
+     "y": -6.759
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A11D",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.102,
+     "x": -51.721,
+     "y": -7.034
+    }
+   ],
+   "marcadores": [
+    "1FTR (3 cables, d=0.011 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0046",
+   "handle_dxf": "A155",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.43,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -36.6103,
+     1.1907,
+     1.1
+    ],
+    [
+     -36.6103,
+     1.1907,
+     2.65
+    ],
+    [
+     -37.49,
+     1.1907,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A115",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.067,
+     "x": -36.61,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F2",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.099,
+     "x": -37.49,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0047",
+   "handle_dxf": "A16D",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 0.73,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8203,
+     8.5807,
+     2.65
+    ],
+    [
+     -51.8203,
+     9.3107,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FC",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -51.82,
+     "y": 8.581
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A11E",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.104,
+     "x": -51.82,
+     "y": 9.311
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0048",
+   "handle_dxf": "A167",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 0.72,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8303,
+     -6.2293,
+     2.65
+    ],
+    [
+     -51.8303,
+     -6.9489,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F9",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.107,
+     "x": -51.83,
+     "y": -6.229
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A11D",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.097,
+     "x": -51.83,
+     "y": -6.949
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0049",
+   "handle_dxf": "A174",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.136,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.7212,
+     9.4207,
+     2.65
+    ],
+    [
+     -51.1355,
+     9.4207,
+     2.65
+    ],
+    [
+     -51.1355,
+     9.4207,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A11E",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.101,
+     "x": -51.721,
+     "y": 9.421
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A173",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.051,
+     "x": -51.135,
+     "y": 9.421
+    }
+   ],
+   "marcadores": [
+    "1FTR (3 cables, d=0.006 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0050",
+   "handle_dxf": "A1A6",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.092,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -16.7903,
+     -6.7147,
+     2.65
+    ],
+    [
+     -16.9929,
+     -6.7147,
+     2.65
+    ],
+    [
+     -16.9929,
+     -6.3756,
+     2.65
+    ],
+    [
+     -16.9929,
+     -6.3756,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0DF",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -16.79,
+     "y": -6.715
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1A5",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.05,
+     "x": -16.993,
+     "y": -6.376
+    }
+   ],
+   "marcadores": [
+    "1FTR (3 cables, d=0.001 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0051",
+   "handle_dxf": "A19F",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.05,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -2.9903,
+     1.1807,
+     1.1
+    ],
+    [
+     -2.9903,
+     1.1807,
+     2.65
+    ],
+    [
+     -2.4904,
+     1.1807,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A11A",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.068,
+     "x": -2.99,
+     "y": 1.181
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A100",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -2.49,
+     "y": 1.181
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.012 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0052",
+   "handle_dxf": "A1A2",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.05,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     4.1097,
+     1.1807,
+     2.65
+    ],
+    [
+     4.6096,
+     1.1807,
+     2.65
+    ],
+    [
+     4.6096,
+     1.1807,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A102",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.097,
+     "x": 4.11,
+     "y": 1.181
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A119",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.063,
+     "x": 4.61,
+     "y": 1.181
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.012 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0053",
+   "handle_dxf": "A147",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.05,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -21.6903,
+     1.1707,
+     2.65
+    ],
+    [
+     -22.1898,
+     1.1707,
+     2.65
+    ],
+    [
+     -22.1898,
+     1.1707,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0ED",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -21.69,
+     "y": 1.171
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A117",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.058,
+     "x": -22.19,
+     "y": 1.171
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.025 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0054",
+   "handle_dxf": "A27F",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "default",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 0.947,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     8.0382,
+     7.1817,
+     2.2
+    ],
+    [
+     8.0382,
+     7.1817,
+     2.65
+    ],
+    [
+     8.0382,
+     7.2448,
+     2.65
+    ],
+    [
+     8.3871,
+     7.2448,
+     2.65
+    ],
+    [
+     8.3871,
+     7.2248,
+     2.65
+    ],
+    [
+     8.4076,
+     7.2467,
+     2.65
+    ],
+    [
+     8.3869,
+     7.2564,
+     2.65
+    ],
+    [
+     8.3869,
+     7.2445,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A27A",
+     "nombre": "HERMETICA 40W",
+     "capa": "ELEC-STA_ Hermetica 40W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.2,
+     "distancia_m": 0.422,
+     "x": 8.038,
+     "y": 7.182
+    },
+    {
+     "tipo": "caja",
+     "handle": "A27A",
+     "nombre": "HERMETICA 40W",
+     "capa": "ELEC-STA_ Hermetica 40W",
+     "servicio": "ILUMINACION",
+     "altura_m": null,
+     "distancia_m": 0.775,
+     "x": 8.387,
+     "y": 7.244
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador ni vecino resoluble; se asume 3 cables (revisar)",
+    "Extremo resuelto como caja de conexion (HERMETICA 40W a 0.77 m) -> CJ-0001"
+   ]
+  },
+  {
+   "id": "RT-0055",
+   "handle_dxf": "A16B",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.02,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -51.8303,
+     5.5707,
+     2.65
+    ],
+    [
+     -51.8303,
+     6.0406,
+     2.65
+    ],
+    [
+     -51.8303,
+     6.0406,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0FB",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.094,
+     "x": -51.83,
+     "y": 5.571
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A112",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.087,
+     "x": -51.83,
+     "y": 6.041
+    }
+   ],
+   "marcadores": [
+    "1FTNR (4 cables, d=0.018 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0056",
+   "handle_dxf": "A1DF",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 0.431,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -14.7462,
+     2.8024,
+     2.65
+    ],
+    [
+     -14.3156,
+     2.8024,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A1C8",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.102,
+     "x": -14.746,
+     "y": 2.802
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A299",
+     "nombre": "ELEC-LAF EMERG BAT LED",
+     "capa": "Elec-Lite-Lite-Emer",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.189,
+     "x": -14.316,
+     "y": 2.802
+    }
+   ],
+   "marcadores": [
+    "1FTR (3 cables, d=0.001 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0057",
+   "handle_dxf": "A25D",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "default",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.509,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -14.5332,
+     4.2263,
+     1.1
+    ],
+    [
+     -14.5332,
+     4.2263,
+     2.65
+    ],
+    [
+     -14.2094,
+     4.2263,
+     2.65
+    ],
+    [
+     -14.2094,
+     4.2063,
+     2.65
+    ],
+    [
+     -14.1889,
+     4.2282,
+     2.65
+    ],
+    [
+     -14.2097,
+     4.2379,
+     2.65
+    ],
+    [
+     -14.2097,
+     4.2259,
+     2.65
+    ],
+    [
+     -14.2097,
+     4.2259,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A253",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.252,
+     "x": -14.533,
+     "y": 4.226
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A253",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.344,
+     "x": -14.21,
+     "y": 4.226
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador ni vecino resoluble; se asume 3 cables (revisar)"
+   ]
+  },
+  {
+   "id": "RT-0058",
+   "handle_dxf": "A277",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 3.509,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -14.5332,
+     4.2263,
+     1.1
+    ],
+    [
+     -14.5332,
+     4.2263,
+     2.65
+    ],
+    [
+     -14.2094,
+     4.2263,
+     2.65
+    ],
+    [
+     -14.2094,
+     4.2063,
+     2.65
+    ],
+    [
+     -14.1889,
+     4.2282,
+     2.65
+    ],
+    [
+     -14.2097,
+     4.2379,
+     2.65
+    ],
+    [
+     -14.2097,
+     4.2259,
+     2.65
+    ],
+    [
+     -14.2097,
+     4.2259,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A253",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.252,
+     "x": -14.533,
+     "y": 4.226
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A253",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.344,
+     "x": -14.21,
+     "y": 4.226
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0059",
+   "handle_dxf": "A1B4",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 1.944,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     7.1991,
+     1.1707,
+     2.65
+    ],
+    [
+     7.1991,
+     0.7765,
+     2.65
+    ],
+    [
+     7.1991,
+     0.7765,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A103",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.015,
+     "x": 7.199,
+     "y": 1.171
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1B3",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.04,
+     "x": 7.199,
+     "y": 0.777
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.002 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0060",
+   "handle_dxf": "A2C3",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 1.94,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -14.1064,
+     2.7023,
+     2.65
+    ],
+    [
+     -14.1064,
+     2.3124,
+     2.65
+    ],
+    [
+     -14.1064,
+     2.3124,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A299",
+     "nombre": "ELEC-LAF EMERG BAT LED",
+     "capa": "Elec-Lite-Lite-Emer",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.099,
+     "x": -14.106,
+     "y": 2.702
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1DE",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.05,
+     "x": -14.106,
+     "y": 2.312
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0061",
+   "handle_dxf": "A254",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.11,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -14.9183,
+     4.4136,
+     2.2
+    ],
+    [
+     -14.9183,
+     4.4136,
+     2.65
+    ],
+    [
+     -14.9183,
+     4.5231,
+     2.65
+    ],
+    [
+     -14.9183,
+     4.5231,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A252",
+     "nombre": "HERMETICA 40W",
+     "capa": "ELEC-STA_ Hermetica 40W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.2,
+     "distancia_m": 0.081,
+     "x": -14.918,
+     "y": 4.414
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A25B",
+     "nombre": "ELEC-LAF EMERG BAT LED",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.1,
+     "x": -14.918,
+     "y": 4.523
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0062",
+   "handle_dxf": "A298",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 6,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 0.104,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -16.6903,
+     -0.3734,
+     2.65
+    ],
+    [
+     -16.6903,
+     -0.2693,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A120",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.207,
+     "x": -16.69,
+     "y": -0.373
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A120",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -16.69,
+     "y": -0.269
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 6 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0063",
+   "handle_dxf": "A222",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.102,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     8.1787,
+     2.4973,
+     2.2
+    ],
+    [
+     8.1787,
+     2.4973,
+     2.65
+    ],
+    [
+     8.1787,
+     2.5994,
+     2.65
+    ],
+    [
+     8.1787,
+     2.5994,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A1E7",
+     "nombre": "HERMETICA 40W",
+     "capa": "ELEC-STA_ Hermetica 40W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.2,
+     "distancia_m": 0.08,
+     "x": 8.179,
+     "y": 2.497
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A211",
+     "nombre": "ELEC-LAF EMERG BAT LED",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.102,
+     "x": 8.179,
+     "y": 2.599
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0064",
+   "handle_dxf": "A1D0",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 1.65,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -17.2403,
+     5.9407,
+     2.65
+    ],
+    [
+     -17.2403,
+     6.0406,
+     2.65
+    ],
+    [
+     -17.2403,
+     6.0406,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A1CA",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.107,
+     "x": -17.24,
+     "y": 5.941
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A1CC",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.057,
+     "x": -17.24,
+     "y": 6.041
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 4 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0065",
+   "handle_dxf": "A26F",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "default",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.073,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -14.9083,
+     8.9136,
+     2.2
+    ],
+    [
+     -14.9083,
+     8.9136,
+     2.65
+    ],
+    [
+     -14.9083,
+     8.8403,
+     2.65
+    ],
+    [
+     -14.9083,
+     8.8403,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A26D",
+     "nombre": "HERMETICA 40W",
+     "capa": "ELEC-STA_ Hermetica 40W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.2,
+     "distancia_m": 0.089,
+     "x": -14.908,
+     "y": 8.914
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A274",
+     "nombre": "ELEC-LAF EMERG BAT LED",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.076,
+     "x": -14.908,
+     "y": 8.84
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador ni vecino resoluble; se asume 3 cables (revisar)"
+   ]
+  },
+  {
+   "id": "RT-0066",
+   "handle_dxf": "A27C",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.073,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     7.6882,
+     6.986,
+     2.2
+    ],
+    [
+     7.6882,
+     6.986,
+     2.65
+    ],
+    [
+     7.6882,
+     6.9128,
+     2.65
+    ],
+    [
+     7.6882,
+     6.9128,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A27A",
+     "nombre": "HERMETICA 40W",
+     "capa": "ELEC-STA_ Hermetica 40W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.2,
+     "distancia_m": 0.089,
+     "x": 7.688,
+     "y": 6.986
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A281",
+     "nombre": "ELEC-LAF EMERG BAT LED",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.076,
+     "x": 7.688,
+     "y": 6.913
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0067",
+   "handle_dxf": "A15A",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 1.609,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -44.0903,
+     1.1907,
+     2.65
+    ],
+    [
+     -44.1496,
+     1.1907,
+     2.65
+    ],
+    [
+     -44.1496,
+     1.1907,
+     1.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0F4",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.103,
+     "x": -44.09,
+     "y": 1.191
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A114",
+     "nombre": "SS-Sensor Proximidad",
+     "capa": "E-Lite-Swch",
+     "servicio": "ILUMINACION",
+     "altura_m": 1.1,
+     "distancia_m": 0.063,
+     "x": -44.15,
+     "y": 1.191
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 4 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0072",
+   "handle_dxf": "A23A",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 15.385,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -32.6333,
+     1.9841,
+     0.3
+    ],
+    [
+     -32.6333,
+     1.9841,
+     2.68
+    ],
+    [
+     -32.6333,
+     1.8441,
+     2.68
+    ],
+    [
+     -42.9683,
+     1.8441,
+     2.68
+    ],
+    [
+     -42.9683,
+     1.994,
+     2.68
+    ],
+    [
+     -42.9683,
+     1.994,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A238",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.104,
+     "x": -32.633,
+     "y": 1.984
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A227",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.094,
+     "x": -42.968,
+     "y": 1.994
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.010 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0073",
+   "handle_dxf": "A22B",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 14.981,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -43.0083,
+     2.0441,
+     0.3
+    ],
+    [
+     -43.0083,
+     2.0441,
+     2.68
+    ],
+    [
+     -51.0693,
+     2.0441,
+     2.68
+    ],
+    [
+     -51.0693,
+     4.2041,
+     2.68
+    ],
+    [
+     -51.0693,
+     4.2041,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A227",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.064,
+     "x": -43.008,
+     "y": 2.044
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A226",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.064,
+     "x": -51.069,
+     "y": 4.204
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.005 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0074",
+   "handle_dxf": "A22A",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 13.791,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -18.0436,
+     -0.7732,
+     0.3
+    ],
+    [
+     -18.0436,
+     -0.7732,
+     2.68
+    ],
+    [
+     -18.0436,
+     2.053,
+     2.68
+    ],
+    [
+     -24.2483,
+     2.053,
+     2.68
+    ],
+    [
+     -24.2483,
+     2.053,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A229",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.067,
+     "x": -18.044,
+     "y": -0.773
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A228",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.053,
+     "x": -24.248,
+     "y": 2.053
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.004 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0075",
+   "handle_dxf": "A23B",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 13.359,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -32.6133,
+     1.9841,
+     0.3
+    ],
+    [
+     -32.6133,
+     1.9841,
+     2.68
+    ],
+    [
+     -32.6133,
+     1.8441,
+     2.68
+    ],
+    [
+     -24.2945,
+     1.8441,
+     2.68
+    ],
+    [
+     -24.2945,
+     1.9841,
+     2.68
+    ],
+    [
+     -24.2945,
+     1.9841,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A238",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.104,
+     "x": -32.613,
+     "y": 1.984
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A228",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.103,
+     "x": -24.295,
+     "y": 1.984
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.010 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0076",
+   "handle_dxf": "A23D",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 10.835,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -17.9983,
+     -0.8359,
+     0.3
+    ],
+    [
+     -17.9983,
+     -0.8359,
+     2.68
+    ],
+    [
+     -17.6473,
+     -0.9959,
+     2.68
+    ],
+    [
+     -17.6473,
+     -5.6429,
+     2.68
+    ],
+    [
+     -14.3073,
+     -5.6429,
+     2.68
+    ],
+    [
+     -14.3073,
+     -5.7254,
+     2.68
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A229",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.09,
+     "x": -17.998,
+     "y": -0.836
+    },
+    {
+     "tipo": "libre",
+     "handle": "",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "",
+     "servicio": null,
+     "altura_m": null,
+     "distancia_m": 0.992,
+     "x": -14.307,
+     "y": -5.725
+    }
+   ],
+   "marcadores": [
+    "2FT2N (5 cables, d=0.005 m)"
+   ],
+   "avisos": [
+    "Extremo sin dispositivo ni caja a <= 0.50 m (el mas cercano esta a 0.99 m)"
+   ]
+  },
+  {
+   "id": "RT-0077",
+   "handle_dxf": "A243",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 11.07,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -13.761,
+     2.0384,
+     0.3
+    ],
+    [
+     -13.761,
+     2.0384,
+     2.68
+    ],
+    [
+     -7.451,
+     2.0384,
+     2.68
+    ],
+    [
+     -7.451,
+     2.0384,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A247",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.074,
+     "x": -13.761,
+     "y": 2.038
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A23E",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.075,
+     "x": -7.451,
+     "y": 2.038
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.017 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0078",
+   "handle_dxf": "A23F",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 10.918,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -16.6183,
+     5.4184,
+     0.3
+    ],
+    [
+     -16.6183,
+     5.4184,
+     2.68
+    ],
+    [
+     -16.6183,
+     2.03,
+     2.68
+    ],
+    [
+     -13.8483,
+     2.03,
+     2.68
+    ],
+    [
+     -13.8483,
+     2.03,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A24A",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.078,
+     "x": -16.618,
+     "y": 5.418
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A247",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.073,
+     "x": -13.848,
+     "y": 2.03
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.010 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0079",
+   "handle_dxf": "A246",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 10.77,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -7.3645,
+     2.0384,
+     0.3
+    ],
+    [
+     -7.3645,
+     2.0384,
+     2.68
+    ],
+    [
+     -1.3545,
+     2.0384,
+     2.68
+    ],
+    [
+     -1.3545,
+     2.0384,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A23E",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.063,
+     "x": -7.365,
+     "y": 2.038
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A244",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.077,
+     "x": -1.355,
+     "y": 2.038
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.017 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0080",
+   "handle_dxf": "A22C",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 10.689,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -51.1183,
+     4.2441,
+     0.3
+    ],
+    [
+     -51.1183,
+     4.2441,
+     2.68
+    ],
+    [
+     -51.1777,
+     4.2441,
+     2.68
+    ],
+    [
+     -51.1777,
+     -1.5659,
+     2.68
+    ],
+    [
+     -51.1179,
+     -1.5659,
+     2.68
+    ],
+    [
+     -51.1179,
+     -1.5659,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A226",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.1,
+     "x": -51.118,
+     "y": 4.244
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A225",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.098,
+     "x": -51.118,
+     "y": -1.566
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.016 m)"
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0081",
+   "handle_dxf": "A24E",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 6,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 6.052,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -17.9876,
+     -0.8123,
+     0.3
+    ],
+    [
+     -17.9876,
+     -0.8123,
+     2.68
+    ],
+    [
+     -17.6474,
+     -0.5753,
+     2.68
+    ],
+    [
+     -17.6474,
+     0.7331,
+     2.68
+    ],
+    [
+     -17.6074,
+     0.7731,
+     2.68
+    ],
+    [
+     -15.7145,
+     0.7731,
+     2.68
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A229",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.1,
+     "x": -17.988,
+     "y": -0.812
+    },
+    {
+     "tipo": "libre",
+     "handle": "",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "",
+     "servicio": null,
+     "altura_m": null,
+     "distancia_m": 0.664,
+     "x": -15.715,
+     "y": 0.773
+    }
+   ],
+   "marcadores": [
+    "2F2N1T1R (6 cables, d=0.287 m)"
+   ],
+   "avisos": [
+    "Extremo sin dispositivo ni caja a <= 0.50 m (el mas cercano esta a 0.66 m)"
+   ]
+  },
+  {
+   "id": "RT-0082",
+   "handle_dxf": "A24F",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 5.194,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -15.3544,
+     0.7731,
+     2.65
+    ],
+    [
+     -15.3544,
+     0.7731,
+     2.68
+    ],
+    [
+     -13.8007,
+     0.7731,
+     2.68
+    ],
+    [
+     -13.8007,
+     2.0031,
+     2.68
+    ],
+    [
+     -13.8007,
+     2.0031,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A0EC",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.437,
+     "x": -15.354,
+     "y": 0.773
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A247",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.091,
+     "x": -13.801,
+     "y": 2.003
+    }
+   ],
+   "marcadores": [
+    "1FTN (3 cables, d=0.270 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['ILUMINACION', 'TOMAS']; se usa 'TOMAS' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0083",
+   "handle_dxf": "A1E2",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 2.737,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -14.3639,
+     -6.6173,
+     2.65
+    ],
+    [
+     -14.3639,
+     -6.2147,
+     2.65
+    ],
+    [
+     -14.3239,
+     -6.1747,
+     2.65
+    ],
+    [
+     -13.4959,
+     -6.1747,
+     2.65
+    ],
+    [
+     -13.4959,
+     -6.1747,
+     1.2
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A11F",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.098,
+     "x": -14.364,
+     "y": -6.617
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A29A",
+     "nombre": "ELEC-SUBEELEC",
+     "capa": "ELEC-Powr-service",
+     "servicio": "FUERZA",
+     "altura_m": 1.2,
+     "distancia_m": 0.072,
+     "x": -13.496,
+     "y": -6.175
+    }
+   ],
+   "marcadores": [
+    "2FT2N (5 cables, d=0.007 m)"
+   ],
+   "avisos": [
+    "Extremos con servicios distintos ['FUERZA', 'ILUMINACION']; se usa 'ILUMINACION' por prioridad"
+   ]
+  },
+  {
+   "id": "RT-0084",
+   "handle_dxf": "A265",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 4.911,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -14.8856,
+     4.0978,
+     0.3
+    ],
+    [
+     -14.8856,
+     4.0978,
+     2.68
+    ],
+    [
+     -14.937,
+     4.0978,
+     2.68
+    ],
+    [
+     -14.937,
+     4.1974,
+     2.68
+    ],
+    [
+     -14.937,
+     4.1974,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A251",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.064,
+     "x": -14.886,
+     "y": 4.098
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A251",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.114,
+     "x": -14.937,
+     "y": 4.197
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0085",
+   "handle_dxf": "A266",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 4.903,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -13.9616,
+     2.2639,
+     0.3
+    ],
+    [
+     -13.9616,
+     2.2639,
+     2.68
+    ],
+    [
+     -14.0162,
+     2.2639,
+     2.68
+    ],
+    [
+     -14.0162,
+     2.1758,
+     2.68
+    ],
+    [
+     -14.0162,
+     2.1758,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A250",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.073,
+     "x": -13.962,
+     "y": 2.264
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A250",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.114,
+     "x": -14.016,
+     "y": 2.176
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0086",
+   "handle_dxf": "A25F",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "heredado",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 4.834,
+   "cota_m": 2.68,
+   "z_absoluta_m": 46.0527,
+   "puntos_3d": [
+    [
+     -14.8406,
+     4.1396,
+     0.3
+    ],
+    [
+     -14.8406,
+     4.1396,
+     2.68
+    ],
+    [
+     -14.8406,
+     4.2134,
+     2.68
+    ],
+    [
+     -14.8406,
+     4.2134,
+     0.3
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A251",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.003,
+     "x": -14.841,
+     "y": 4.14
+    },
+    {
+     "tipo": "dispositivo",
+     "handle": "A251",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": "TOMAS",
+     "altura_m": 0.3,
+     "distancia_m": 0.073,
+     "x": -14.841,
+     "y": 4.213
+    }
+   ],
+   "marcadores": [],
+   "avisos": [
+    "Sin marcador propio; hereda 3 cables de tramo vecino"
+   ]
+  },
+  {
+   "id": "RT-0088",
+   "handle_dxf": "A2A6",
+   "capa": "ELEC-Powr-service",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 12.7,
+   "largo_m": 1.359,
+   "cota_m": 2.65,
+   "z_absoluta_m": 46.0227,
+   "puntos_3d": [
+    [
+     -14.0515,
+     -6.4514,
+     2.65
+    ],
+    [
+     -14.2323,
+     -6.4514,
+     2.65
+    ],
+    [
+     -14.2323,
+     -6.0488,
+     2.65
+    ],
+    [
+     -15.0078,
+     -6.0488,
+     2.65
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "handle": "A11F",
+     "nombre": "Bala Stil Led 12W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": "ILUMINACION",
+     "altura_m": 2.65,
+     "distancia_m": 0.412,
+     "x": -14.052,
+     "y": -6.451
+    },
+    {
+     "tipo": "caja",
+     "handle": "A296",
+     "nombre": "ELEC-LAF EMERG BAT LED",
+     "capa": "Elec-Lite-Lite-Emer",
+     "servicio": "ILUMINACION",
+     "altura_m": null,
+     "distancia_m": 0.676,
+     "x": -15.008,
+     "y": -6.049
+    }
+   ],
+   "marcadores": [
+    "2FT2N (5 cables, d=0.125 m)"
+   ],
+   "avisos": [
+    "Servicio de extremos 'ILUMINACION' difiere de la capa 'ELEC-Powr-service' (FUERZA); se usa el de extremos",
+    "Extremo resuelto como caja de conexion (ELEC-LAF EMERG BAT LED a 0.68 m) -> CJ-0002"
+   ]
+  }
+ ],
+ "generado": "2026-11-09T09:44:27",
+ "config": "ruteo_config_v02.json",
+ "extraccion": {
+  "polilineas": 88,
+  "polilineas_por_capa": {
+   "ELEC-Data-Service": 1,
+   "ELEC-LIGHT-PIPE": 70,
+   "ELEC-POWER- PIPE": 16,
+   "ELEC-Powr-service": 1
+  },
+  "largo_por_capa_m": {
+   "ELEC-Data-Service": 1.4,
+   "ELEC-LIGHT-PIPE": 101.52,
+   "ELEC-POWER- PIPE": 79.48,
+   "ELEC-Powr-service": 1.36
+  },
+  "dispositivos": 139,
+  "marcadores": 64,
+  "cables_distintos": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "avisos": 0
+ }
+}

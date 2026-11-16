@@ -1,0 +1,198 @@
+{
+  "ok": false, 
+  "errores_mapeo": [
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Pulsador - Interruptor' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "la familia 'M_Pulsador - Interruptor' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "la familia 'M_Timbre' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma-Comunicaciones' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "motivo": "la familia 'M_Pulsador - Interruptor' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Pulsador - Interruptor' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "la familia 'M_Interruptor-Doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "S3"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma - 220V' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Pulsador - Interruptor' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Ventilador' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "motivo": "la familia 'M_Ventilador' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "la familia 'M_Interruptor' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "la familia 'M_Interruptor' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma de tel_fono - Datos' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos (GetFamilySymbolIds vacio)", 
+      "bloque": "ELEC-T-D-t-15A"
+    }
+  ], 
+  "fase": "validacion_mapeo", 
+  "excluidos": [
+    "2F2N1T1R", 
+    "2F2N1T1R"
+  ]
+}

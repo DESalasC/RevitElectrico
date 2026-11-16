@@ -1,0 +1,114 @@
+{
+  "apartamento": "F 01", 
+  "version": "60.0", 
+  "timestamp": "2026-11-14 20:52:56", 
+  "stats": {
+    "error": 14, 
+    "ok": 17, 
+    "skip": 4
+  }, 
+  "results": [
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-0054757d", 
+      "handle": "8D", 
+      "revit_id": 5535101
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547580", 
+      "handle": "9A", 
+      "revit_id": 5535104
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547582", 
+      "handle": "9B", 
+      "revit_id": 5535106
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547584", 
+      "handle": "A4", 
+      "revit_id": 5535108
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547586", 
+      "handle": "CB", 
+      "revit_id": 5535110
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547588", 
+      "handle": "D4", 
+      "revit_id": 5535112
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547589", 
+      "handle": "FD", 
+      "revit_id": 5535113
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-0054758b", 
+      "handle": "12F", 
+      "revit_id": 5535115
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-0054758d", 
+      "handle": "13B", 
+      "revit_id": 5535117
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-0054758f", 
+      "handle": "13C", 
+      "revit_id": 5535119
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547591", 
+      "handle": "145", 
+      "revit_id": 5535121
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547593", 
+      "handle": "146", 
+      "revit_id": 5535123
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547595", 
+      "handle": "147", 
+      "revit_id": 5535125
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547597", 
+      "handle": "148", 
+      "revit_id": 5535127
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-00547599", 
+      "handle": "156", 
+      "revit_id": 5535129
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-0054759b", 
+      "handle": "210", 
+      "revit_id": 5535131
+    }, 
+    {
+      "status": "OK", 
+      "unique_id": "932855f0-a8d4-4b36-bbcc-2c2dd935613f-0054759d", 
+      "handle": "216", 
+      "revit_id": 5535133
+    }
+  ]
+}

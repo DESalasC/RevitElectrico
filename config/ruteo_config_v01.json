@@ -1,0 +1,112 @@
+{
+  "version": "v01",
+  "fecha": "2026-11-09",
+  "proyecto": "RevitElectrico - T5-SantaMarta",
+  "descripcion": "Configuracion semantica del ruteo de conduit. Todo valor es editable y auditable por el operador. Las capacidades de tuberia NO viven aqui: se leen de data\\Calibre-*.csv.",
+
+  "zona": {
+    "nombre": "apartamento",
+    "material": "PVC",
+    "calibre": "12 AWG",
+    "nota": "Apartamentos: PVC + 12 AWG. Corredores: EMT o PVC-SCH40, se define en su momento."
+  },
+
+  "zonas_alternativas": {
+    "apartamento": { "material": "PVC", "calibre": "12 AWG" },
+    "corredor_emt": { "material": "EMT", "calibre": "12 AWG" },
+    "corredor_pvc_sch40": { "material": "PVC-SCH40", "calibre": "12 AWG" }
+  },
+
+  "archivos_capacidad": {
+    "PVC": "data\\Calibre-12-34-1-1-14-1-12-2-PVC.csv",
+    "PVC-SCH40": "data\\Calibre-12-34-1-1-14-1-12-2-PVC-SCH40.csv",
+    "EMT": "data\\Calibre-12-34-1-1-14-1-12-2-EMT.csv"
+  },
+
+  "servicios_permitidos": ["TOMAS", "ILUMINACION", "COMUNICACIONES", "FUERZA"],
+
+  "mapeo_capa_tuberia_a_servicio": {
+    "ELEC-LIGHT-PIPE": "ILUMINACION",
+    "ELEC-POWER- PIPE": "FUERZA",
+    "ELEC-Powr-service": "FUERZA",
+    "ELEC-Data-Service": "COMUNICACIONES"
+  },
+
+  "mapeo_capa_dispositivo_a_servicio": {
+    "ELEC-APPL-TOMAS": "TOMAS",
+    "ELEC-APPL-ILUM": "ILUMINACION",
+    "ELEC-BALA LED 13 W": "ILUMINACION",
+    "Elec-Lite-Lite-Emer": "ILUMINACION",
+    "ELEC-STA_ Hermetica 40W": "ILUMINACION",
+    "E-Lite-Swch": "ILUMINACION",
+    "ELEC-APPL-NETWORD": "COMUNICACIONES",
+    "E-Comm-Appl-Netw": "COMUNICACIONES",
+    "ELEC-Powr-Appl": "FUERZA",
+    "ELEC-Powr-service": "FUERZA",
+    "ELEC-POWER-PANEL": "FUERZA",
+    "HVAC-Equipos": "FUERZA",
+    "CONDENSADORAS": "FUERZA"
+  },
+
+  "prioridad_servicio": ["COMUNICACIONES", "FUERZA", "TOMAS", "ILUMINACION"],
+
+  "altura_por_capa_dispositivo_m": {
+    "ELEC-BALA LED 13 W": 2.65,
+    "Elec-Lite-Lite-Emer": 2.65,
+    "ELEC-STA_ Hermetica 40W": 2.20,
+    "ELEC-APPL-TOMAS": 0.30,
+    "ELEC-APPL-ILUM": 1.10,
+    "E-Lite-Swch": 1.10,
+    "ELEC-APPL-NETWORD": 0.30,
+    "E-Comm-Appl-Netw": 0.30,
+    "ELEC-Powr-Appl": 1.20,
+    "ELEC-Powr-service": 1.20,
+    "ELEC-POWER-PANEL": 1.20
+  },
+
+  "altura_default_dispositivo_m": 1.20,
+
+  "cota_banda_tuberia_m": {
+    "ILUMINACION": 2.65,
+    "TOMAS": 2.65,
+    "FUERZA": 2.65,
+    "COMUNICACIONES": 2.65
+  },
+
+  "cota_banda_default_m": 2.65,
+
+  "tolerancias": {
+    "asociacion_marcador_polilinea_m": 0.30,
+    "asociacion_extremo_dispositivo_m": 0.50,
+    "union_extremos_m": 0.05,
+    "cruce_coordenadas_revit_m": 0.20
+  },
+
+  "reglas_cables": {
+    "cables_min": 1,
+    "cables_max_sin_revision": 11,
+    "cables_default_sin_marcador": 3,
+    "heredar_de_polilinea_vecina_m": 1.00
+  },
+
+  "reglas_geometria": {
+    "modo_altura": "horizontal_con_bajantes",
+    "separacion_minima_entre_tuberias_m": 0.05,
+    "radio_curvatura_m": 0.15,
+    "longitud_minima_tramo_m": 0.05,
+    "fusionar_colineales": true
+  },
+
+  "reglas_servicio": {
+    "si_extremos_coinciden_gana_extremos": true,
+    "si_extremos_difieren_gana_prioridad": true,
+    "avisar_si_capa_y_extremos_difieren": true
+  },
+
+  "notas_para_operador": [
+    "La etiqueta de servicio (TOMAS/ILUMINACION/COMUNICACIONES/FUERZA) solo controla color y filtro en la vista Discipline > Electrical; NO cambia el diametro.",
+    "El diametro depende exclusivamente de la cantidad de cables del marcador y del material/calibre de la zona.",
+    "La columna ALTURA_INST del DXF esta contaminada con identificadores de red (TTICS-01/TTICS-02); por eso las alturas se toman de altura_por_capa_dispositivo_m.",
+    "Cualquier valor marcado como pendiente debe ser aprobado por el operador antes de un ruteado productivo."
+  ]
+}

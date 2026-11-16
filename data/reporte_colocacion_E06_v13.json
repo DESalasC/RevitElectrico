@@ -1,0 +1,483 @@
+[
+  {
+    "handle": "12A", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a57", 
+    "host_id": 2766255, 
+    "x_m": 9.6721857946112113, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507671, 
+    "nombre": "Bala Stil Led 13W", 
+    "y_m": 34.386115448650749
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "DC", 
+    "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+  }, 
+  {
+    "handle": "DB", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a59", 
+    "host_id": 2765813, 
+    "x_m": 7.1532655638392342, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507673, 
+    "nombre": "ELEC-T-GFCI-t-15A", 
+    "y_m": 32.703515340964330
+  }, 
+  {
+    "handle": "85", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a5d", 
+    "host_id": 3869282, 
+    "x_m": 0.96138357723234558, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507677, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 32.517115329034738
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "CE", 
+    "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+  }, 
+  {
+    "handle": "6D", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a61", 
+    "host_id": 2765803, 
+    "x_m": 6.2852689662811603, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507681, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 30.394115193162737
+  }, 
+  {
+    "handle": "107", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a65", 
+    "host_id": 2766255, 
+    "x_m": 3.6329854081024062, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507685, 
+    "nombre": "ELEC-F-VENT", 
+    "y_m": 30.358315190871529
+  }, 
+  {
+    "handle": "1F2", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a67", 
+    "host_id": 2765803, 
+    "x_m": 7.1647439662803301, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507687, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 29.308465178545784
+  }, 
+  {
+    "handle": "83", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a69", 
+    "host_id": 2765803, 
+    "x_m": 7.1647439662803301, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507689, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 29.031265160804981
+  }, 
+  {
+    "handle": "7A", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a6b", 
+    "host_id": 2765803, 
+    "x_m": 7.1647439662803301, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507691, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 28.752065142936178
+  }, 
+  {
+    "handle": "11F", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a6d", 
+    "host_id": 2766255, 
+    "x_m": 7.2787856414336085, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507693, 
+    "nombre": "Bala Stil Led 10W", 
+    "y_m": 28.525915073597933
+  }, 
+  {
+    "handle": "128", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a70", 
+    "host_id": 2766255, 
+    "x_m": 11.481785910425614, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507696, 
+    "nombre": "Bala Stil Led 10W", 
+    "y_m": 28.525915073597933
+  }, 
+  {
+    "handle": "D7", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a73", 
+    "host_id": 2765803, 
+    "x_m": 6.5160689736667532, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507699, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 28.507715072433129
+  }, 
+  {
+    "handle": "1F6", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a75", 
+    "host_id": 2765803, 
+    "x_m": 7.3955439736659239, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507701, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 27.465665060606579
+  }, 
+  {
+    "handle": "84", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a77", 
+    "host_id": 3869282, 
+    "x_m": 0.96138357723232282, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507703, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 28.158115050058733
+  }, 
+  {
+    "handle": "138", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a79", 
+    "host_id": 2766255, 
+    "x_m": 3.6191854072192062, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507705, 
+    "nombre": "Bala Stil Led 13W", 
+    "y_m": 28.128915048189931
+  }, 
+  {
+    "handle": "D9", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a7b", 
+    "host_id": 2765803, 
+    "x_m": 7.3955439736659221, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507707, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 27.185665042686583
+  }, 
+  {
+    "handle": "D8", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a7d", 
+    "host_id": 2765803, 
+    "x_m": 7.3955439736659203, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507709, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 26.906465024817773
+  }, 
+  {
+    "handle": "110", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a7f", 
+    "host_id": 2766255, 
+    "x_m": 9.4663857814400121, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507711, 
+    "nombre": "ELEC-F-VENT", 
+    "y_m": 27.385515000612326
+  }, 
+  {
+    "handle": "224", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a81", 
+    "host_id": 2765814, 
+    "x_m": 12.811623806436041, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507713, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 27.258314992471533
+  }, 
+  {
+    "handle": "148", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a85", 
+    "host_id": 2766040, 
+    "x_m": 4.5117836908430862, 
+    "status": "OK", 
+    "z_m": 28.840001845760035, 
+    "revit_id": 5507717, 
+    "nombre": "ELEC-F-CONTROL", 
+    "y_m": 27.183114987658733
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "86", 
+    "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+  }, 
+  {
+    "handle": "164", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a89", 
+    "host_id": 2765803, 
+    "x_m": 6.5160689736667425, 
+    "status": "OK", 
+    "z_m": 28.840001845760035, 
+    "revit_id": 5507721, 
+    "nombre": "ELEC-F-CONTROL", 
+    "y_m": 26.783114962058725
+  }, 
+  {
+    "handle": "129", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a8b", 
+    "host_id": 2766255, 
+    "x_m": 5.4625855251968076, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507723, 
+    "nombre": "Bala Stil Led 10W", 
+    "y_m": 25.193514860324324
+  }, 
+  {
+    "handle": "139", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a8d", 
+    "host_id": 2766255, 
+    "x_m": 3.1981853802752043, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507725, 
+    "nombre": "Bala Stil Led 13W", 
+    "y_m": 24.317114804234727
+  }, 
+  {
+    "handle": "DA", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a8f", 
+    "host_id": 2765817, 
+    "x_m": 11.014385880512014, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507727, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 24.150217074332485
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "92", 
+    "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+  }, 
+  {
+    "handle": "BD", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a93", 
+    "host_id": 2765817, 
+    "x_m": 10.160615644040398, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507731, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 23.975514782372329
+  }, 
+  {
+    "handle": "EE", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a95", 
+    "host_id": 2765817, 
+    "x_m": 11.033785881753618, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507733, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 23.919417066946888
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "DF", 
+    "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+  }, 
+  {
+    "handle": "103", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a97", 
+    "host_id": 2765799, 
+    "x_m": 6.3919021210068481, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507735, 
+    "nombre": "ELEC-T-GFCI-t-15A", 
+    "y_m": 23.756914768381929
+  }, 
+  {
+    "handle": "BC", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a9b", 
+    "host_id": 2765818, 
+    "x_m": 10.160615644040398, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507739, 
+    "nombre": "ELEC-T-GFCI-t-15A", 
+    "y_m": 23.722514766180332
+  }, 
+  {
+    "handle": "106", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540a9f", 
+    "host_id": 2765818, 
+    "x_m": 11.040090644039568, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507743, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 22.673064753880173
+  }, 
+  {
+    "handle": "BE", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540aa1", 
+    "host_id": 2765818, 
+    "x_m": 5.0803076594504164, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507745, 
+    "nombre": "ELEC-NET-PAU", 
+    "y_m": 23.377114744074749
+  }, 
+  {
+    "handle": "1F3", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540aa3", 
+    "host_id": 2765818, 
+    "x_m": 11.040090644039568, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507747, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 22.39306473596017
+  }, 
+  {
+    "handle": "1F4", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540aa5", 
+    "host_id": 2765818, 
+    "x_m": 11.040090644039564, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507749, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 22.098664717118577
+  }, 
+  {
+    "handle": "1F5", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540aa7", 
+    "host_id": 2765818, 
+    "x_m": 11.040090644039564, 
+    "status": "OK", 
+    "z_m": 27.040001730560039, 
+    "revit_id": 5507751, 
+    "nombre": "ELEC-TEL", 
+    "y_m": 21.816064699032168
+  }, 
+  {
+    "handle": "112", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540aa9", 
+    "host_id": 2766255, 
+    "x_m": 11.481785910425613, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507753, 
+    "nombre": "Bala Stil Led 22W", 
+    "y_m": 21.642514633060326
+  }, 
+  {
+    "handle": "11E", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540aab", 
+    "host_id": 2766255, 
+    "x_m": 7.5975856618368107, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507755, 
+    "nombre": "Bala Stil Led 22W", 
+    "y_m": 21.631914632381925
+  }, 
+  {
+    "handle": "13A", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540aad", 
+    "host_id": 2766255, 
+    "x_m": 5.5553855311360065, 
+    "status": "OK", 
+    "z_m": 15.839999999999996, 
+    "revit_id": 5507757, 
+    "nombre": "Bala Stil Led 13W", 
+    "y_m": 20.864114583242724
+  }, 
+  {
+    "status": "ERROR", 
+    "handle": "104", 
+    "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+  }, 
+  {
+    "handle": "EF", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540aaf", 
+    "host_id": 3902726, 
+    "x_m": 8.6375857283967825, 
+    "status": "OK", 
+    "z_m": 28.840001845760035, 
+    "revit_id": 5507759, 
+    "nombre": "ELEC-CAMPANA", 
+    "y_m": 9.5426566239697070
+  }, 
+  {
+    "handle": "BA", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540ab3", 
+    "host_id": 2766013, 
+    "x_m": 9.4085857777408091, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507763, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 19.381313868141465
+  }, 
+  {
+    "handle": "BB", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540ab7", 
+    "host_id": 2766013, 
+    "x_m": 9.9257858108416102, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507767, 
+    "nombre": "ELEC-T-D-t-15A", 
+    "y_m": 19.381313868141461
+  }, 
+  {
+    "handle": "111", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540ab9", 
+    "host_id": 2766520, 
+    "x_m": 5.3929855207424078, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507769, 
+    "nombre": "ELEC-T-GFCI-t-15A", 
+    "y_m": 19.361313867501472
+  }, 
+  {
+    "handle": "9E", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540abd", 
+    "host_id": 2766013, 
+    "x_m": 11.031385881600013, 
+    "status": "OK", 
+    "z_m": 28.640001832960039, 
+    "revit_id": 5507773, 
+    "nombre": "ELEC-T-GFCI-t-15A", 
+    "y_m": 19.381313868141451
+  }, 
+  {
+    "handle": "96", 
+    "unique_id": "790de57b-9327-4e6e-a6fc-0ab71894f41b-00540abf", 
+    "host_id": 3902726, 
+    "x_m": 8.9447857480575799, 
+    "status": "OK", 
+    "z_m": 28.840001845760035, 
+    "revit_id": 5507775, 
+    "nombre": "ELEC-TIMBRE", 
+    "y_m": 9.5426566239697053
+  }
+]

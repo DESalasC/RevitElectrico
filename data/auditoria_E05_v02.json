@@ -1,0 +1,652 @@
+{
+  "encontrados": 70, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "duplicados": [
+    {
+      "elemento_id": "5670927", 
+      "otro": "5673789", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5670929", 
+      "otro": "5673791", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5670964", 
+      "otro": "5673816", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5670966", 
+      "otro": "5673818", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5670990", 
+      "otro": "5673834", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671021", 
+      "otro": "5673846", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671023", 
+      "otro": "5673848", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671025", 
+      "otro": "5673850", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671027", 
+      "otro": "5673852", 
+      "bloque": "ELEC-TEL"
+    }
+  ], 
+  "huerfanos": [
+    {
+      "elemento_id": "5665951", 
+      "comentario": "", 
+      "x": 6.5270000000000001, 
+      "z": 14.420000000000000, 
+      "familia": "E_Distribution Panel", 
+      "y": 6.8280000000000003, 
+      "categoria": "Electrical Equipment", 
+      "tipo": "EPB25-304C"
+    }
+  ], 
+  "detalle_ok": [
+    {
+      "elemento_id": "5673870", 
+      "z": 13.520000000000000, 
+      "dist": 0.035000000000000003, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5670927", 
+      "z": 13.520000000000000, 
+      "dist": 0.031, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5670929", 
+      "z": 13.520000000000000, 
+      "dist": 0.031, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5673876", 
+      "z": 13.520000000000000, 
+      "dist": 0.0080000000000000002, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673878", 
+      "z": 13.520000000000000, 
+      "dist": 0.0080000000000000002, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673882", 
+      "z": 13.520000000000000, 
+      "dist": 0.0050000000000000001, 
+      "bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "elemento_id": "5673884", 
+      "z": 13.520000000000000, 
+      "dist": 0.058999999999999997, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5673886", 
+      "z": 13.520000000000000, 
+      "dist": 0.060999999999999999, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673888", 
+      "z": 13.520000000000000, 
+      "dist": 0.060999999999999999, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673890", 
+      "z": 13.520000000000000, 
+      "dist": 0.010999999999999999, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5673892", 
+      "z": 13.520000000000000, 
+      "dist": 0.0080000000000000002, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673893", 
+      "z": 13.520000000000000, 
+      "dist": 0.010999999999999999, 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "elemento_id": "5673895", 
+      "z": 14.320000000000000, 
+      "dist": 0.048000000000000001, 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "elemento_id": "5673897", 
+      "z": 13.520000000000000, 
+      "dist": 0.050999999999999997, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5670964", 
+      "z": 13.520000000000000, 
+      "dist": 0.045999999999999999, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5670966", 
+      "z": 13.520000000000000, 
+      "dist": 0.045999999999999999, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5673903", 
+      "z": 13.520000000000000, 
+      "dist": 0.0060000000000000001, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673905", 
+      "z": 13.520000000000000, 
+      "dist": 0.0030000000000000001, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5673910", 
+      "z": 13.520000000000000, 
+      "dist": 0.021999999999999999, 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "elemento_id": "5673912", 
+      "z": 13.520000000000000, 
+      "dist": 0.045999999999999999, 
+      "bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "elemento_id": "5673914", 
+      "z": 13.520000000000000, 
+      "dist": 0.027, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5670990", 
+      "z": 13.520000000000000, 
+      "dist": 0.0089999999999999993, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5673919", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "elemento_id": "5673921", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "elemento_id": "5673923", 
+      "z": 13.520000000000000, 
+      "dist": 0.034000000000000002, 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "elemento_id": "5673925", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "elemento_id": "5673927", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "elemento_id": "5673929", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "elemento_id": "5673931", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "elemento_id": "5673933", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "elemento_id": "5673935", 
+      "z": 15.820000000000000, 
+      "dist": 0.001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "elemento_id": "5673937", 
+      "z": 15.820000000000000, 
+      "dist": 0.0, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "elemento_id": "5673939", 
+      "z": 15.820000000000000, 
+      "dist": 0.001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "elemento_id": "5673941", 
+      "z": 14.320000000000000, 
+      "dist": 0.014999999999999999, 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "elemento_id": "5673943", 
+      "z": 14.320000000000000, 
+      "dist": 0.016, 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "elemento_id": "5671021", 
+      "z": 13.520000000000000, 
+      "dist": 0.031, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671023", 
+      "z": 13.520000000000000, 
+      "dist": 0.0089999999999999993, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671025", 
+      "z": 13.520000000000000, 
+      "dist": 0.0089999999999999993, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "elemento_id": "5671027", 
+      "z": 13.520000000000000, 
+      "dist": 0.0089999999999999993, 
+      "bloque": "ELEC-TEL"
+    }
+  ], 
+  "sobrantes": [
+    {
+      "elemento_id": "5673879", 
+      "comentario": "APT-E-05-P5", 
+      "x": 2.0320000000000000, 
+      "z": 14.320000000000000, 
+      "familia": "M_Interruptor-Simple", 
+      "y": 4.5739999999999998, 
+      "tipo": "Sencillo"
+    }, 
+    {
+      "elemento_id": "5673880", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 14.320000000000000, 
+      "familia": "M_Interruptor-Simple", 
+      "y": 5.6299999999999999, 
+      "tipo": "Sencillo"
+    }, 
+    {
+      "elemento_id": "5673908", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 14.320000000000000, 
+      "familia": "M_Interruptor-Doble", 
+      "y": 5.8280000000000003, 
+      "tipo": "Doble"
+    }, 
+    {
+      "elemento_id": "5673915", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.1330000000000000, 
+      "z": 14.320000000000000, 
+      "familia": "M_Interruptor-Simple", 
+      "y": 6.5289999999999999, 
+      "tipo": "Sencillo"
+    }, 
+    {
+      "elemento_id": "5673955", 
+      "comentario": "APT-E-05-P5", 
+      "x": 6.4050000000000002, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma doble", 
+      "y": 4.1779999999999999, 
+      "tipo": "Est_ndar"
+    }, 
+    {
+      "elemento_id": "5670939", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0789999999999997, 
+      "z": 14.320000000000000, 
+      "familia": "M_Pulsador - Interruptor", 
+      "y": 5.6299999999999999, 
+      "tipo": "Est_ndar"
+    }, 
+    {
+      "elemento_id": "5670958", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.3490000000000002, 
+      "z": 14.320000000000000, 
+      "familia": "M_Pulsador - Interruptor", 
+      "y": 2.3889999999999998, 
+      "tipo": "Est_ndar"
+    }, 
+    {
+      "elemento_id": "5670974", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.5779999999999998, 
+      "z": 14.320000000000000, 
+      "familia": "M_Pulsador - Interruptor", 
+      "y": 1.752, 
+      "tipo": "Est_ndar"
+    }, 
+    {
+      "elemento_id": "5670987", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.1330000000000000, 
+      "z": 14.320000000000000, 
+      "familia": "M_Pulsador - Interruptor", 
+      "y": 6.5419999999999998, 
+      "tipo": "Est_ndar"
+    }, 
+    {
+      "elemento_id": "5673907", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.5779999999999998, 
+      "z": 14.320000000000000, 
+      "familia": "Keypad-Lutron-Homeworks_Sunnata", 
+      "y": 1.752, 
+      "tipo": "Conmutable"
+    }, 
+    {
+      "elemento_id": "5671029", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.3119999999999998, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 7.7690000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673789", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.1429999999999998, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 2.8380000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673791", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.1429999999999998, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 2.6989999999999998, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673816", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.2589999999999999, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 3.7610000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673818", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.2589999999999999, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 3.6219999999999999, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673834", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 5.8780000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673846", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.1429999999999998, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 2.5600000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673848", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 6.0179999999999998, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673850", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 6.1650000000000000, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673852", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 6.3060000000000000, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673854", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.3119999999999998, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 7.7690000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673872", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.1429999999999998, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 2.8380000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673874", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.1429999999999998, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 2.6989999999999998, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673899", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.2589999999999999, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 3.7610000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673901", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.2589999999999999, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 3.6219999999999999, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673917", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 5.8780000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673945", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.1429999999999998, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 2.5600000000000001, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673947", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 6.0179999999999998, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673949", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 6.1650000000000000, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673951", 
+      "comentario": "APT-E-05-P5", 
+      "x": 5.0800000000000001, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 6.3060000000000000, 
+      "tipo": "Simple"
+    }, 
+    {
+      "elemento_id": "5673953", 
+      "comentario": "APT-E-05-P5", 
+      "x": 3.3119999999999998, 
+      "z": 13.520000000000000, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 7.7690000000000001, 
+      "tipo": "Simple"
+    }
+  ], 
+  "esperados": 46, 
+  "familias_obsoletas": {
+    "M_Pulsador - Interruptor": 4, 
+    "E_Distribution Panel": 1
+  }, 
+  "faltantes": [
+    {
+      "simbolo": "Sencillo", 
+      "anfitrion": "muro", 
+      "x": 2.0325000000000002, 
+      "z_local": 1.1000000000000001, 
+      "familia": "M_Interruptor-simple", 
+      "y": 3.9336000000000002, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "simbolo": "Sencillo", 
+      "anfitrion": "muro", 
+      "x": 4.7065999999999999, 
+      "z_local": 1.1000000000000001, 
+      "familia": "M_Interruptor-simple", 
+      "y": 5.6296999999999997, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "simbolo": "Conmutable", 
+      "anfitrion": "muro", 
+      "x": 4.2202000000000002, 
+      "z_local": 1.1000000000000001, 
+      "familia": "Keypad-Lutron-Homeworks_Sunnata", 
+      "y": 1.7522000000000000, 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "simbolo": "Doble", 
+      "anfitrion": "muro", 
+      "x": 4.6325000000000003, 
+      "z_local": 1.1000000000000001, 
+      "familia": "M_Interruptor-Doble", 
+      "y": 5.8277999999999999, 
+      "bloque": "S3"
+    }, 
+    {
+      "simbolo": "Sencillo", 
+      "anfitrion": "muro", 
+      "x": 3.1332000000000000, 
+      "z_local": 1.1000000000000001, 
+      "familia": "M_Interruptor-simple", 
+      "y": 7.1931000000000003, 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "simbolo": "Simple", 
+      "anfitrion": "muro", 
+      "x": 3.9720000000000000, 
+      "z_local": 0.29999999999999999, 
+      "familia": "M_Toma de tel_fono - Datos", 
+      "y": 7.7691999999999997, 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "simbolo": "Est_ndar", 
+      "anfitrion": "muro", 
+      "x": 5.9191000000000003, 
+      "z_local": 0.29999999999999999, 
+      "familia": "M_Toma doble", 
+      "y": 4.1776999999999997, 
+      "bloque": "ELEC-T-D-t-15A"
+    }
+  ], 
+  "elev_m": 13.220000000000001, 
+  "ok": 39
+}

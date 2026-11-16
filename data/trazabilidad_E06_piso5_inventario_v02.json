@@ -1,0 +1,20 @@
+{
+  "timestamp_ejecucion": "2026-11-12 20:12:42", 
+  "nivel": "Piso 5", 
+  "total_en_rango_e06": 0, 
+  "filtro": "RevitElectrico_Lote (GUID lote v13)", 
+  "elementos": [], 
+  "total_revisados": 28644, 
+  "script_version": "exportar_trazabilidad_E06_v02-mcp-2026-11-12", 
+  "lote_guid": "46c3f138-025d-47d4-b24a-41cd21181a58", 
+  "rango_e06": {
+    "x_min": 0.0, 
+    "y_min": 12.0, 
+    "x_max": 6.0, 
+    "y_max": 20.0
+  }, 
+  "elementos_e06": [], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "total_piso_5": 0, 
+  "fecha": "2026-11-12"
+}

@@ -1,0 +1,18 @@
+{
+  "fallos": [], 
+  "sin_host": 0, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "nivel": "Piso 5", 
+  "nivel_elev_m": 13.220000000000001, 
+  "modo": "aplicar", 
+  "con_cara": 49, 
+  "sin_cara": 0, 
+  "creados": 49, 
+  "por_metodo": {
+    "Face": 49
+  }, 
+  "eliminados": 0, 
+  "con_host": 49, 
+  "con_schedule_level": 0, 
+  "dispositivos": 49
+}

@@ -1,0 +1,1023 @@
+{
+  "estadisticas": {
+    "longitud_promedio_m": 1.0747962264150943, 
+    "por_categoria": {
+      "Lighting Fixtures": 16, 
+      "Electrical Fixtures": 33, 
+      "Communication Devices": 2, 
+      "Data Devices": 2
+    }
+  }, 
+  "version": "43.0", 
+  "timestamp": "2026-11-14 19:05:41", 
+  "rutas": [
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.7439000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5635509
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 1.7439000000000000, 
+      "dispositivo_id": 5574864, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 2.5, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5635525
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 2.5, 
+      "dispositivo_id": 5574907, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.63959999999999995, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.63, 
+          "nombre_tipo": "Tubo", 
+          "id": 5651105
+        }
+      ], 
+      "diametros_involucrados": [
+        0.63
+      ], 
+      "longitud_total_m": 0.63959999999999995, 
+      "dispositivo_id": 5574948, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.7652000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5635477
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 1.7652000000000001, 
+      "dispositivo_id": 5575025, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.41320000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5602081
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 0.41320000000000001, 
+      "dispositivo_id": 5575265, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.2210000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5635449
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 1.2210000000000001, 
+      "dispositivo_id": 5575301, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.17169999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5646375
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.17169999999999999, 
+      "dispositivo_id": 5575557, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.0125999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5642647
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.0125999999999999, 
+      "dispositivo_id": 5642716, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.7439000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658630
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 1.7439000000000000, 
+      "dispositivo_id": 5658602, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 2.5, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658631
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 2.5, 
+      "dispositivo_id": 5658603, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.63959999999999995, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.63, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658754
+        }
+      ], 
+      "diametros_involucrados": [
+        0.63
+      ], 
+      "longitud_total_m": 0.63959999999999995, 
+      "dispositivo_id": 5658604, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.7652000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658628
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 1.7652000000000001, 
+      "dispositivo_id": 5658605, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.41320000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658620
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 0.41320000000000001, 
+      "dispositivo_id": 5658606, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.2200000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658626
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 1.2200000000000000, 
+      "dispositivo_id": 5658607, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.0125999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658660
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.0125999999999999, 
+      "dispositivo_id": 5658663, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.4471, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658706
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.4471, 
+      "dispositivo_id": 5688218, 
+      "dispositivo_mark": "", 
+      "categoria": "Lighting Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.0663000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5645496
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 1.0663000000000000, 
+      "dispositivo_id": 5565812, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 0.1113, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5645508
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 0.1113, 
+      "dispositivo_id": 5565967, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.73999999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5645218
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 0.73999999999999999, 
+      "dispositivo_id": 5566446, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.2676, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5645264
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.2676, 
+      "dispositivo_id": 5566510, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.8385000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5640577
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.8385000000000000, 
+      "dispositivo_id": 5566841, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 2.2694999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5643895
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 2.2694999999999999, 
+      "dispositivo_id": 5567171, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.3208000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5646899
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 1.3208000000000000, 
+      "dispositivo_id": 5567316, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 0.12759999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5651060
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.12759999999999999, 
+      "dispositivo_id": 5567459, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.8293999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.63, 
+          "nombre_tipo": "Tubo", 
+          "id": 5651173
+        }
+      ], 
+      "diametros_involucrados": [
+        0.63
+      ], 
+      "longitud_total_m": 1.8293999999999999, 
+      "dispositivo_id": 5567641, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.062, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5641490
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.062, 
+      "dispositivo_id": 5568009, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.2868, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5642890
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.2868, 
+      "dispositivo_id": 5571029, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.66749999999999998, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5639980
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.66749999999999998, 
+      "dispositivo_id": 5581906, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 2.5, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5635495
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 2.5, 
+      "dispositivo_id": 5582027, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.23000000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5655715
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.23000000000000001, 
+      "dispositivo_id": 5653542, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.23999999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5657203
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.23999999999999999, 
+      "dispositivo_id": 5653654, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.1075999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658694
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.1075999999999999, 
+      "dispositivo_id": 5658570, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 0.15260000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658695
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.15260000000000001, 
+      "dispositivo_id": 5658572, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.73999999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658686
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.73999999999999999, 
+      "dispositivo_id": 5658574, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.2676, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658691
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.2676, 
+      "dispositivo_id": 5658575, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.8385000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658640
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.8385000000000000, 
+      "dispositivo_id": 5658577, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 2.2694999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658673
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 2.2694999999999999, 
+      "dispositivo_id": 5658578, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.3620000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658715
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.3620000000000001, 
+      "dispositivo_id": 5658580, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 0.12759999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658751
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.12759999999999999, 
+      "dispositivo_id": 5658582, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.8293999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.63, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658755
+        }
+      ], 
+      "diametros_involucrados": [
+        0.63
+      ], 
+      "longitud_total_m": 1.8293999999999999, 
+      "dispositivo_id": 5658584, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.062, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658655
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.062, 
+      "dispositivo_id": 5658585, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.6476000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658633
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.6476000000000000, 
+      "dispositivo_id": 5658592, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.2732, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658666
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.2732, 
+      "dispositivo_id": 5658600, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.62280000000000002, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658637
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.62280000000000002, 
+      "dispositivo_id": 5658613, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 2.5, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658629
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 2.5, 
+      "dispositivo_id": 5658616, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.17169999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658702
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.17169999999999999, 
+      "dispositivo_id": 5658619, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.23000000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658773
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 0.23000000000000001, 
+      "dispositivo_id": 5658759, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 0.23999999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658775
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 0.23999999999999999, 
+      "dispositivo_id": 5658760, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.5676000000000001, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5635789
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.5676000000000001, 
+      "dispositivo_id": 5690146, 
+      "dispositivo_mark": "", 
+      "categoria": "Electrical Fixtures"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.6275999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5639978
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.6275999999999999, 
+      "dispositivo_id": 5564955, 
+      "dispositivo_mark": "9", 
+      "categoria": "Communication Devices"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "vertical", 
+          "longitud_m": 1.6275999999999999, 
+          "tipo": "conduit", 
+          "diametro_pulg": 0.82999999999999996, 
+          "nombre_tipo": "Tubo", 
+          "id": 5663302
+        }
+      ], 
+      "diametros_involucrados": [
+        0.82999999999999996
+      ], 
+      "longitud_total_m": 1.6275999999999999, 
+      "dispositivo_id": 5658567, 
+      "dispositivo_mark": "10", 
+      "categoria": "Communication Devices"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 2.0463000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5658762
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 2.0463000000000000, 
+      "dispositivo_id": 5688502, 
+      "dispositivo_mark": "2", 
+      "categoria": "Data Devices"
+    }, 
+    {
+      "cadena_elementos": [
+        {
+          "orientacion": "horizontal", 
+          "longitud_m": 1.8869000000000000, 
+          "tipo": "conduit", 
+          "diametro_pulg": 1.0600000000000001, 
+          "nombre_tipo": "Tubo", 
+          "id": 5654494
+        }
+      ], 
+      "diametros_involucrados": [
+        1.0600000000000001
+      ], 
+      "longitud_total_m": 1.8869000000000000, 
+      "dispositivo_id": 5688723, 
+      "dispositivo_mark": "3", 
+      "categoria": "Data Devices"
+    }
+  ], 
+  "total_rutas": 53
+}

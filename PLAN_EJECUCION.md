@@ -1,4 +1,4 @@
-# Plan de Ejecución — Proyecto RevitElectrico (T5-SantaMarta)
+# Plan de Ejecución — Proyecto RevitElectrico
 
 **Ubicación:** `D:\Work\PROJECTS\RevitElectrico\PLAN_EJECUCION.md`  
 **Fecha:** 2026-10-24  

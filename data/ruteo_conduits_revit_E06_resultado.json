@@ -1,0 +1,38 @@
+{
+  "tramos_en_json": 49, 
+  "ancla_en_revit": "", 
+  "dry_run": true, 
+  "errores": 0, 
+  "tipos_conduit_disponibles": [], 
+  "omitidos": 0, 
+  "error_fatal": "Faltan tipos de conduit para: 1/2\", 3/4\"", 
+  "resolucion_diametros": [
+    {
+      "token": "1/2", 
+      "diametro": "1/2\"", 
+      "ok": false, 
+      "tipo_encontrado": null
+    }, 
+    {
+      "token": "3/4", 
+      "diametro": "3/4\"", 
+      "ok": false, 
+      "tipo_encontrado": null
+    }
+  ], 
+  "fecha": "2026-11-10 21:00:35", 
+  "json_entrada": "D:\\Work\\PROJECTS\\RevitElectrico\\data\\ruteo_apartamento_E06_v01.json", 
+  "nivel_encontrado": "Piso 5", 
+  "offset_xy_m": [
+    0.0, 
+    0.0
+  ], 
+  "detalle": [], 
+  "tramos_a_procesar": 49, 
+  "creados": 0, 
+  "cajas_en_json": 0, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "nivel_solicitado": "Piso 5", 
+  "engine": "ironpython 2.7 via pyRevit MCP", 
+  "ancla_encontrada": false
+}

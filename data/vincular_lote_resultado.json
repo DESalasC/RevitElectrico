@@ -1,0 +1,11 @@
+{
+  "mensaje_bind": "Error creando parametro: 'InstanceBinding' object has no attribute 'Definition'", 
+  "param_vinculado": false, 
+  "status": "ok", 
+  "param_creado": false, 
+  "instancias": [], 
+  "instancias_asignadas": 0, 
+  "lote_guid": "46c3f138-025d-47d4-b24a-41cd21181a58", 
+  "errores": 0, 
+  "instancias_en_rango_e06_piso5": 0
+}

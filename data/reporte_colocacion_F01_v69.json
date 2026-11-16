@@ -1,0 +1,181 @@
+{
+  "apartamento": "F 01", 
+  "version": "69.0", 
+  "timestamp": "2026-11-14 21:33:44", 
+  "stats": {
+    "error": 26, 
+    "ok": 9
+  }, 
+  "results": [
+    {
+      "status": "ERROR", 
+      "handle": "6D", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "8D", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "96", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "97", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "98", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "99", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "9A", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "9B", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "9C", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "A4", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "B9", 
+      "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "C1", 
+      "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "C9", 
+      "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+    }, 
+    {
+      "status": "OK", 
+      "handle": "CB", 
+      "revit_id": 5535264
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "D4", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "DF", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "FD", 
+      "error": "Family cannot be placed as hosted on an input face reference, because its FamilyPlacementType is not WorkPlaneBased\r\nParameter name: symbol"
+    }, 
+    {
+      "status": "OK", 
+      "handle": "12F", 
+      "revit_id": 5535267
+    }, 
+    {
+      "status": "OK", 
+      "handle": "13B", 
+      "revit_id": 5535269
+    }, 
+    {
+      "status": "OK", 
+      "handle": "13C", 
+      "revit_id": 5535271
+    }, 
+    {
+      "status": "OK", 
+      "handle": "145", 
+      "revit_id": 5535273
+    }, 
+    {
+      "status": "OK", 
+      "handle": "146", 
+      "revit_id": 5535275
+    }, 
+    {
+      "status": "OK", 
+      "handle": "147", 
+      "revit_id": 5535277
+    }, 
+    {
+      "status": "OK", 
+      "handle": "148", 
+      "revit_id": 5535279
+    }, 
+    {
+      "status": "OK", 
+      "handle": "156", 
+      "revit_id": 5535281
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "1E8", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "1F1", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "1F2", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "203", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "204", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "205", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "206", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "210", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }, 
+    {
+      "status": "ERROR", 
+      "handle": "216", 
+      "error": "Reference direction is parallel to face normal at insertion point.\r\nParameter name: multiple"
+    }
+  ]
+}

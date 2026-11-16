@@ -1,0 +1,282 @@
+{
+  "schedule_con_valor": 0, 
+  "excluidos": [
+    "2F2N1T1R"
+  ], 
+  "creados": 0, 
+  "nivel": "Piso 5", 
+  "por_placement": {}, 
+  "dispositivos": 47, 
+  "detalle": [], 
+  "con_host": 0, 
+  "schedule_vacio": 0, 
+  "nivel_elev_m": 13.220000000000001, 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "modo": "aplicar", 
+  "referencia_nivel": {}, 
+  "ajustes_z": [
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "z_json_m": 0.29999999999999999, 
+      "z_usada_m": 2.6000000000000001, 
+      "bloque": "Bala Stil Led 13W"
+    }
+  ], 
+  "eliminados": 0, 
+  "aviso_unidades": "", 
+  "con_nivel_valido": 0, 
+  "fallos": [
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TIMBRE"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "S3"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-TEL"
+    }, 
+    {
+      "anfitrion": "muro", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "ELEC-T-D-t-15A"
+    }
+  ], 
+  "por_metodo": {}, 
+  "metodo": "face", 
+  "sin_host": 0
+}

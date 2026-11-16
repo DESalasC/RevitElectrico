@@ -1,0 +1,1213 @@
+{
+  "excluidos": [
+    "2F2N1T1R"
+  ], 
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "con_host": 43, 
+  "modo": "aplicar", 
+  "nivel_elev_ft": 43.372700000000002, 
+  "dispositivos": 47, 
+  "nivel": "Piso 5", 
+  "nivel_elev_m": 13.220000000000001, 
+  "eliminados": 49, 
+  "nivel_asignado_por": {}, 
+  "creados": 43, 
+  "aviso_unidades": "", 
+  "nivel_params": {
+    "FAMILY_LEVEL_PARAM (escribible=False)": 86, 
+    "SCHEDULE_LEVEL_PARAM (escribible=False)": 86
+  }, 
+  "por_metodo": {
+    "HostElem": 2, 
+    "Face": 41
+  }, 
+  "sin_nivel": [
+    {
+      "elemento_id": "5671708", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671710", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671712", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671714", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671716", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671718", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671720", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671722", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671724", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671726", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671728", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671730", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671732", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671733", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671735", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671737", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671739", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671741", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671743", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671745", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671747", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671748", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671751", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671753", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671755", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671757", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671759", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671761", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671763", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671765", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671767", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671769", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671771", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671773", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671775", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671777", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671779", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671781", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671783", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671785", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671787", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671789", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }, 
+    {
+      "elemento_id": "5671791", 
+      "params": [
+        {
+          "nombre": "SCHEDULE_LEVEL_PARAM", 
+          "escribible": false
+        }, 
+        {
+          "nombre": "FAMILY_LEVEL_PARAM", 
+          "escribible": false
+        }
+      ]
+    }
+  ], 
+  "fallos": [
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "anfitrion": "techo", 
+      "motivo": "sin cara de anfitrion", 
+      "bloque": "Bala Stil Led 13W"
+    }
+  ], 
+  "nivel_etapa": {}, 
+  "sin_host": 0, 
+  "detalle": [
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.1779999999999999, 
+      "simbolo": "Est_ndar", 
+      "y_m": 2.4460000000000002, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "elemento_id": "5671708", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.1739999999999999, 
+      "simbolo": "Simple", 
+      "y_m": 2.8380000000000001, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "elemento_id": "5671710", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.1739999999999999, 
+      "simbolo": "Simple", 
+      "y_m": 2.6989999999999998, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "elemento_id": "5671712", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 0.47399999999999998, 
+      "simbolo": "Est_ndar", 
+      "y_m": 3.5640000000000001, 
+      "host": "MUROS DRYWALL DIVISORIO APARTAMENTOS", 
+      "elemento_id": "5671714", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 0.47399999999999998, 
+      "simbolo": "Est_ndar", 
+      "y_m": 1.3850000000000000, 
+      "host": "MUROS DRYWALL DIVISORIO APARTAMENTOS", 
+      "elemento_id": "5671716", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 2.0320000000000000, 
+      "simbolo": "Est_ndar", 
+      "y_m": 3.9340000000000002, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671718", 
+      "bloque": "ELEC-I-S-1-5A", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Pulsador - Interruptor"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 4.7069999999999999, 
+      "simbolo": "Est_ndar", 
+      "y_m": 5.6299999999999999, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671720", 
+      "bloque": "ELEC-I-S-1-5A", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Pulsador - Interruptor"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 4.4889999999999999, 
+      "simbolo": "Est_ndar", 
+      "y_m": 8.1370000000000005, 
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "elemento_id": "5671722", 
+      "bloque": "ELEC-TIMBRE", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Timbre"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.3520000000000003, 
+      "simbolo": "GFCI", 
+      "y_m": 7.9530000000000003, 
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "elemento_id": "5671724", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 4.6040000000000001, 
+      "simbolo": "Est_ndar", 
+      "y_m": 7.9509999999999996, 
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "elemento_id": "5671726", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 4.8529999999999998, 
+      "simbolo": "Est_ndar", 
+      "y_m": 7.9509999999999996, 
+      "host": "MURO MAMPOSTERIA + CARA PA_ETA + CARA REBOQUE", 
+      "elemento_id": "5671728", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.0910000000000002, 
+      "simbolo": "GFCI", 
+      "y_m": 5.7820000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671730", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.0880000000000001, 
+      "simbolo": "Est_ndar", 
+      "y_m": 5.6550000000000002, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671732", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "HostElem", 
+      "anfitrion": "muro", 
+      "x_m": 5.0910000000000002, 
+      "simbolo": "Teledatos", 
+      "y_m": 5.9550000000000001, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671733", 
+      "bloque": "ELEC-NET-PAU", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma-Comunicaciones"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 3.3490000000000002, 
+      "simbolo": "Est_ndar", 
+      "y_m": 2.4369999999999998, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671735", 
+      "bloque": "ELEC-I-S-C1-5A", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Pulsador - Interruptor"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.3100000000000001, 
+      "simbolo": "Est_ndar", 
+      "y_m": 3.3889999999999998, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671737", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.3050000000000002, 
+      "simbolo": "Simple", 
+      "y_m": 3.7610000000000001, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671739", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.3050000000000002, 
+      "simbolo": "Simple", 
+      "y_m": 3.6219999999999999, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671741", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.5240000000000000, 
+      "simbolo": "Est_ndar", 
+      "y_m": 5.5839999999999996, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671743", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.5750000000000002, 
+      "simbolo": "GFCI", 
+      "y_m": 1.2909999999999999, 
+      "host": "MURO MAMPOSTERIA B12 + CARA PA_ETA", 
+      "elemento_id": "5671745", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 4.2199999999999998, 
+      "simbolo": "Est_ndar", 
+      "y_m": 1.752, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671747", 
+      "bloque": "ELEC-I-S-C1-5A", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Pulsador - Interruptor"
+    }, 
+    {
+      "metodo": "HostElem", 
+      "anfitrion": "techo", 
+      "x_m": 4.6330000000000000, 
+      "simbolo": "Doble", 
+      "y_m": 5.8280000000000003, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671748", 
+      "bloque": "S3", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Interruptor-Doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.5330000000000004, 
+      "simbolo": "Est_ndar", 
+      "y_m": 5.6840000000000002, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671751", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 4.3350000000000000, 
+      "simbolo": "Est_ndar", 
+      "y_m": 7.9649999999999999, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671753", 
+      "bloque": "ELEC-CAMPANA", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma - 220V"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.1680000000000001, 
+      "simbolo": "GFCI", 
+      "y_m": 5.7709999999999999, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671755", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 3.1330000000000000, 
+      "simbolo": "Est_ndar", 
+      "y_m": 7.1929999999999996, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671757", 
+      "bloque": "ELEC-I-S-1-5A", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Pulsador - Interruptor"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.0890000000000004, 
+      "simbolo": "Simple", 
+      "y_m": 5.8780000000000001, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671759", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 1.8330000000000000, 
+      "simbolo": "Est_ndar", 
+      "y_m": 2.4640000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671761", 
+      "bloque": "ELEC-F-VENT", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Ventilador"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 4.75, 
+      "simbolo": "Est_ndar", 
+      "y_m": 3.9500000000000002, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671763", 
+      "bloque": "ELEC-F-VENT", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Ventilador"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 2.7130000000000001, 
+      "simbolo": "GFCI", 
+      "y_m": 7.9699999999999998, 
+      "host": "FJR_EnchapeRopas", 
+      "elemento_id": "5671765", 
+      "bloque": "ELEC-T-GFCI-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 5.7569999999999997, 
+      "simbolo": "_SONO FLEX 200 trim", 
+      "y_m": 6.8220000000000001, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671767", 
+      "bloque": "Bala Stil Led 22W", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "SONO FLEX trim"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 3.8149999999999999, 
+      "simbolo": "_SONO FLEX 200 trim", 
+      "y_m": 6.8270000000000000, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671769", 
+      "bloque": "Bala Stil Led 22W", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "SONO FLEX trim"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 3.6560000000000001, 
+      "simbolo": "SONO FLEX 100 trim", 
+      "y_m": 3.3799999999999999, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671771", 
+      "bloque": "Bala Stil Led 10W", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "SONO FLEX trim"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 5.7569999999999997, 
+      "simbolo": "SONO FLEX 100 trim", 
+      "y_m": 3.3799999999999999, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671773", 
+      "bloque": "Bala Stil Led 10W", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "SONO FLEX trim"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "techo", 
+      "x_m": 2.7480000000000002, 
+      "simbolo": "SONO FLEX 100 trim", 
+      "y_m": 5.0460000000000003, 
+      "host": "Falso techo continuo de placa de yeso laminado", 
+      "elemento_id": "5671775", 
+      "bloque": "Bala Stil Led 10W", 
+      "nivel_etapa": "", 
+      "z_m": 15.820000000000000, 
+      "nivel_param": "", 
+      "familia": "SONO FLEX trim"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 2.2719999999999998, 
+      "simbolo": "Ventilador", 
+      "y_m": 4.2089999999999996, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671777", 
+      "bloque": "ELEC-F-CONTROL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Interruptor"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.1589999999999998, 
+      "simbolo": "Ventilador", 
+      "y_m": 2.4440000000000000, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "elemento_id": "5671779", 
+      "bloque": "ELEC-F-CONTROL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Interruptor"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.1739999999999999, 
+      "simbolo": "Simple", 
+      "y_m": 2.5600000000000001, 
+      "host": "MUROS DRYWALL INTERNOS", 
+      "elemento_id": "5671781", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.0890000000000004, 
+      "simbolo": "Simple", 
+      "y_m": 6.0179999999999998, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671783", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.0890000000000004, 
+      "simbolo": "Simple", 
+      "y_m": 6.1650000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671785", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.0890000000000004, 
+      "simbolo": "Simple", 
+      "y_m": 6.3060000000000000, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671787", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 3.9720000000000000, 
+      "simbolo": "Simple", 
+      "y_m": 7.7690000000000001, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671789", 
+      "bloque": "ELEC-TEL", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma de tel_fono - Datos"
+    }, 
+    {
+      "metodo": "Face", 
+      "anfitrion": "muro", 
+      "x_m": 5.9189999999999996, 
+      "simbolo": "Est_ndar", 
+      "y_m": 4.1779999999999999, 
+      "host": "FJR_Pintura_Blanco", 
+      "elemento_id": "5671791", 
+      "bloque": "ELEC-T-D-t-15A", 
+      "nivel_etapa": "", 
+      "z_m": 13.520000000000000, 
+      "nivel_param": "", 
+      "familia": "M_Toma doble"
+    }
+  ]
+}

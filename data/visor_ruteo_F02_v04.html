@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visor de ruteo — apartamento</title>
+<style>
+  :root { --bg:#0b1219; --panel:#121c26; --line:#233544; --txt:#e6edf3;
+           --muted:#8fa6bb; --rev:#ff2d95; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt);
+          font:14px/1.5 "Segoe UI",system-ui,sans-serif; }
+  header { padding:18px 22px 10px; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 2px; font-size:19px; }
+  .sub { color:var(--muted); font-size:12.5px; }
+  .kpis { display:flex; gap:10px; flex-wrap:wrap; margin:14px 0 4px; }
+  .kpi { background:var(--panel); border:1px solid var(--line); border-radius:9px;
+          padding:8px 14px; min-width:96px; }
+  .kpi b { display:block; font-size:19px; color:#7fd8cd; }
+  .kpi span { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  .kpi.alerta b { color:var(--rev); }
+  .chips { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-top:12px; }
+  .chip { display:inline-flex; align-items:center; gap:6px; font-size:12px;
+           background:var(--panel); border:1px solid var(--line); border-radius:999px;
+           padding:4px 11px 4px 8px; cursor:pointer; user-select:none; }
+  .chip input { display:none; }
+  .chip span { width:10px; height:10px; border-radius:3px; background:var(--c); opacity:.35; }
+  .chip input:checked + span { opacity:1; }
+  .chip input:checked ~ * { color:var(--txt); }
+  .toggle { display:inline-flex; align-items:center; gap:7px; font-size:12px; cursor:pointer;
+             background:var(--panel); border:1px solid var(--line); border-radius:999px;
+             padding:4px 12px; }
+  main { display:grid; grid-template-columns:1fr 340px; gap:14px; padding:14px 22px 26px; }
+  .plano { background:#0e1720; border:1px solid var(--line); border-radius:12px;
+            overflow:hidden; position:relative; }
+  svg { display:block; width:100%; height:min(72vh,760px); }
+  .tramo { fill:none; stroke-linecap:round; stroke-linejoin:round; transition:opacity .15s; }
+  .tramo.revision { stroke-dasharray:0.5 0.3; animation:pulso 1.6s linear infinite; }
+  @keyframes pulso { to { stroke-dashoffset:-1.6; } }
+  .tramo.apagado, .aparato.apagado, .marcador.apagado, .caja.apagado { opacity:.10; }
+  .resaltado { stroke-width:0.35 !important; filter:drop-shadow(0 0 4px var(--rev)); }
+  aside { background:var(--panel); border:1px solid var(--line); border-radius:12px;
+           padding:14px; overflow:auto; max-height:min(72vh,760px); }
+  aside h2 { font-size:12px; margin:0 0 10px; color:var(--muted); text-transform:uppercase;
+              letter-spacing:.05em; }
+  ul { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+  .rev-item { border:1px solid var(--line); border-left:3px solid var(--rev); border-radius:8px;
+               padding:9px 11px; cursor:pointer; transition:background .15s; }
+  .rev-item:hover { background:#1a2836; }
+  .rev-item.activo { background:#1f2f3f; box-shadow:0 0 0 1px var(--rev) inset; }
+  .rev-head { display:flex; align-items:center; gap:7px; flex-wrap:wrap; }
+  .pill { font-size:10.5px; text-transform:uppercase; letter-spacing:.04em;
+           background:#22323f; border-radius:5px; padding:1px 6px; color:#a8c0d4; }
+  .dim { font-size:11.5px; color:var(--muted); }
+  .rev-meta, .rev-ext { font-size:11.5px; color:var(--muted); margin-top:3px; word-break:break-word; }
+  .vacio { color:var(--muted); font-size:13px; }
+  @media (max-width:900px) {
+    main { grid-template-columns:1fr; padding:12px; }
+    aside { max-height:none; }
+    svg { height:56vh; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Visor de ruteo — apartamento</h1>
+  <div class="sub">Apartamento Tipo F 02.dxf · PVC / 12 AWG · Piso 5</div>
+  <div class="kpis">
+    <div class="kpi"><b>38</b><span>Tramos</span></div>
+    <div class="kpi"><b>179.0 m</b><span>Longitud</span></div>
+    <div class="kpi"><b>0</b><span>Cajas</span></div>
+    <div class="kpi"><b>2</b><span>Cruces</span></div>
+    <div class="kpi alerta"><b>0</b><span>En revision</span></div>
+  </div>
+  <div class="chips">
+    <label class="chip" style="--c:#6b8ff0"><input type="checkbox" checked data-filtro="COMUNICACIONES"><span></span>COMUNICACIONES</label><label class="chip" style="--c:#3fb6a8"><input type="checkbox" checked data-filtro="ILUMINACION"><span></span>ILUMINACION</label><label class="chip" style="--c:#f0a33c"><input type="checkbox" checked data-filtro="TOMAS"><span></span>TOMAS</label>
+    <label class="toggle"><input type="checkbox" id="solo-revision"> Solo revision</label>
+  </div>
+</header>
+<main>
+  <div class="plano">
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.745 9.388" preserveAspectRatio="xMidYMid meet">
+      <path class="tramo" d="M 2.362 5.142 L 2.362 3.370 L 4.502 3.370" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0001"><title>RT-0001 · COMUNICACIONES · 3/4&quot; · 5 cables · 8.73 m</title></path>
+<path class="tramo" d="M 2.477 5.717 L 2.667 5.949 L 2.826 5.782" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0002"><title>RT-0002 · COMUNICACIONES · 3/4&quot; · 5 cables · 5.35 m</title></path>
+<path class="tramo" d="M 2.392 5.637 L 2.392 5.757 L 2.477 5.757 L 2.477 5.662" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0003"><title>RT-0003 · COMUNICACIONES · 3/4&quot; · 5 cables · 5.12 m</title></path>
+<path class="tramo" d="M 4.514 3.259 L 4.514 3.335" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0004"><title>RT-0004 · COMUNICACIONES · 3/4&quot; · 5 cables · 4.90 m</title></path>
+<path class="tramo" d="M 4.514 3.119 L 4.514 3.185" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0005"><title>RT-0005 · COMUNICACIONES · 3/4&quot; · 5 cables · 4.89 m</title></path>
+<path class="tramo" d="M 2.494 5.247 L 2.494 5.310" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0006"><title>RT-0006 · COMUNICACIONES · 3/4&quot; · 4 cables · 3.28 m</title></path>
+<path class="tramo" d="M 2.494 5.397 L 2.494 5.449" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0007"><title>RT-0007 · COMUNICACIONES · 3/4&quot; · 4 cables · 3.27 m</title></path>
+<path class="tramo" d="M 2.494 5.536 L 2.494 5.587" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0008"><title>RT-0008 · COMUNICACIONES · 3/4&quot; · 5 cables · 4.87 m</title></path>
+<path class="tramo" d="M 2.290 7.885 L 1.099 7.885 L 1.099 5.954" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0010"><title>RT-0010 · TOMAS · 1/2&quot; · 3 cables · 6.98 m</title></path>
+<path class="tramo" d="M 1.665 4.724 L 1.665 2.234" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0011"><title>RT-0011 · ILUMINACION · 1/2&quot; · 5 cables · 5.59 m</title></path>
+<path class="tramo" d="M 1.655 2.154 L 1.655 1.004 L 2.780 1.004" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0012"><title>RT-0012 · ILUMINACION · 1/2&quot; · 3 cables · 3.82 m</title></path>
+<path class="tramo" d="M 1.705 7.034 L 2.874 7.034 L 2.874 7.426 L 3.491 7.426" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0013"><title>RT-0013 · ILUMINACION · 1/2&quot; · 3 cables · 3.73 m</title></path>
+<path class="tramo" d="M 3.525 4.734 L 3.525 3.594 L 4.501 3.594" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0014"><title>RT-0014 · TOMAS · 1/2&quot; · 3 cables · 6.08 m</title></path>
+<path class="tramo" d="M 1.705 2.184 L 3.493 2.184" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0015"><title>RT-0015 · ILUMINACION · 1/2&quot; · 3 cables · 4.89 m</title></path>
+<path class="tramo" d="M 1.705 4.774 L 3.485 4.774" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0016"><title>RT-0016 · ILUMINACION · 1/2&quot; · 5 cables · 4.88 m</title></path>
+<path class="tramo" d="M 2.485 4.722 L 2.485 3.489 L 2.783 3.489" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0017"><title>RT-0017 · COMUNICACIONES · 3/4&quot; · 5 cables · 4.00 m</title></path>
+<path class="tramo" d="M 3.485 4.794 L 3.094 5.166 L 3.094 5.396 L 2.525 5.396" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0018"><title>RT-0018 · ILUMINACION · 1/2&quot; · 4 cables · 4.44 m</title></path>
+<path class="tramo" d="M 3.525 6.154 L 3.525 7.402" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0019"><title>RT-0019 · ILUMINACION · 1/2&quot; · 4 cables · 4.35 m</title></path>
+<path class="tramo" d="M 2.300 7.714 L 1.666 7.714 L 1.666 7.109" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0020"><title>RT-0020 · ILUMINACION · 1/2&quot; · 5 cables · 2.69 m</title></path>
+<path class="tramo" d="M 3.525 5.994 L 3.525 4.853" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0021"><title>RT-0021 · ILUMINACION · 1/2&quot; · 3 cables · 4.24 m</title></path>
+<path class="tramo" d="M 1.645 6.994 L 1.645 6.649 L 2.287 6.649" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0022"><title>RT-0022 · ILUMINACION · 1/2&quot; · 3 cables · 2.54 m</title></path>
+<path class="tramo" d="M 1.569 7.019 L 1.262 7.019 L 1.262 7.289" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0023"><title>RT-0023 · TOMAS · 1/2&quot; · 3 cables · 2.99 m</title></path>
+<path class="tramo" d="M 3.625 7.414 L 3.783 7.414 L 3.783 7.761" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0024"><title>RT-0024 · TOMAS · 1/2&quot; · 4 cables · 4.47 m</title></path>
+<path class="tramo" d="M 1.599 4.773 L 1.098 4.773" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0025"><title>RT-0025 · TOMAS · 1/2&quot; · 3 cables · 4.46 m</title></path>
+<path class="tramo" d="M 1.615 2.194 L 1.467 2.194 L 1.467 1.971" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0026"><title>RT-0026 · ILUMINACION · 1/2&quot; · 4 cables · 3.47 m</title></path>
+<path class="tramo" d="M 2.485 5.154 L 2.485 4.811" stroke="#6b8ff0" stroke-width="0.0313" data-servicio="COMUNICACIONES" data-revision="0" data-id="RT-0027"><title>RT-0027 · COMUNICACIONES · 3/4&quot; · 5 cables · 4.36 m</title></path>
+<path class="tramo" d="M 4.540 6.184 L 4.540 6.494" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0028"><title>RT-0028 · TOMAS · 1/2&quot; · 3 cables · 5.07 m</title></path>
+<path class="tramo" d="M 3.783 7.839 L 3.783 8.136" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0029"><title>RT-0029 · TOMAS · 1/2&quot; · 4 cables · 5.06 m</title></path>
+<path class="tramo" d="M 3.553 8.195 L 3.553 8.341" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0030"><title>RT-0030 · TOMAS · 1/2&quot; · 3 cables · 4.11 m</title></path>
+<path class="tramo" d="M 1.265 1.874 L 1.265 1.739" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0031"><title>RT-0031 · TOMAS · 1/2&quot; · 4 cables · 4.89 m</title></path>
+<path class="tramo" d="M 3.733 8.168 L 3.599 8.168" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0032"><title>RT-0032 · TOMAS · 1/2&quot; · 3 cables · 4.09 m</title></path>
+<path class="tramo" d="M 1.415 1.914 L 1.290 1.914" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0033"><title>RT-0033 · TOMAS · 1/2&quot; · 4 cables · 4.08 m</title></path>
+<path class="tramo" d="M 2.475 5.354 L 2.475 5.276" stroke="#3fb6a8" stroke-width="0.0313" data-servicio="ILUMINACION" data-revision="0" data-id="RT-0034"><title>RT-0034 · ILUMINACION · 1/2&quot; · 4 cables · 3.18 m</title></path>
+<path class="tramo" d="M 4.639 7.792 L 2.408 7.792" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0035"><title>RT-0035 · TOMAS · 1/2&quot; · 5 cables · 6.09 m</title></path>
+<path class="tramo" d="M 4.500 5.370 L 3.172 5.370 L 3.172 5.519 L 2.525 5.519" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0036"><title>RT-0036 · TOMAS · 1/2&quot; · 3 cables · 6.88 m</title></path>
+<path class="tramo" d="M 4.684 7.742 L 4.684 6.564 L 4.580 6.564" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0037"><title>RT-0037 · TOMAS · 1/2&quot; · 5 cables · 6.04 m</title></path>
+<path class="tramo" d="M 4.590 6.124 L 4.683 6.124 L 4.683 5.364 L 4.588 5.364" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0038"><title>RT-0038 · TOMAS · 1/2&quot; · 5 cables · 5.71 m</title></path>
+<path class="tramo" d="M 4.497 6.537 L 4.430 6.537 L 4.430 5.997 L 4.484 5.997" stroke="#f0a33c" stroke-width="0.0313" data-servicio="TOMAS" data-revision="0" data-id="RT-0039"><title>RT-0039 · TOMAS · 1/2&quot; · 3 cables · 5.42 m</title></path>
+      <circle class="aparato" cx="1.267" cy="1.736" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-GFCI-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="1.246" cy="1.868" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="4.608" cy="3.599" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="4.595" cy="5.372" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-GFCI-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="4.592" cy="6.005" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="4.592" cy="6.135" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="4.745" cy="7.792" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="1.097" cy="5.852" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-GFCI-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="3.548" cy="8.388" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-TIMBRE · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="3.783" cy="8.195" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-CAMPANA · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="2.475" cy="5.405" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-I-S-2-5A · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="3.552" cy="8.144" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-I-S-1-5A · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="1.457" cy="1.921" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-I-S-1-5A · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="2.339" cy="6.637" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-I-S-1-5A · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="2.797" cy="3.486" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-F-VENT · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="2.486" cy="5.223" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>ELEC-F-CONTROL · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="4.595" cy="6.541" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-GFCI-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="1.259" cy="7.354" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-EXT · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="3.516" cy="6.100" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 22W · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="3.525" cy="7.402" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 22W · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="3.512" cy="2.190" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 10W · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="1.653" cy="2.190" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 10W · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="3.516" cy="4.770" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 10W · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="1.658" cy="4.770" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 10W · ELEC-APPL-ILUM</title></circle>
+<circle class="aparato" cx="1.651" cy="7.030" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 13W · ELEC-BALA LED 13 W</title></circle>
+<circle class="aparato" cx="2.817" cy="1.000" r="0.034" fill="#3fb6a8" data-servicio="ILUMINACION"><title>Bala Stil Led 13W · ELEC-BALA LED 13 W</title></circle>
+<circle class="aparato" cx="2.300" cy="7.720" r="0.034" fill="#d95f6a" data-servicio="FUERZA"><title>TB-Parcial · ELEC-POWER-PANEL</title></circle>
+<circle class="aparato" cx="4.587" cy="3.223" r="0.034" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD</title></circle>
+<circle class="aparato" cx="4.587" cy="3.373" r="0.034" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD</title></circle>
+<circle class="aparato" cx="4.587" cy="3.083" r="0.034" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD</title></circle>
+<circle class="aparato" cx="2.409" cy="5.202" r="0.034" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD</title></circle>
+<circle class="aparato" cx="2.409" cy="5.629" r="0.034" fill="#6b8ff0" data-servicio="COMUNICACIONES"><title>ELEC-TEL · ELEC-APPL-NETWORD</title></circle>
+<circle class="aparato" cx="2.423" cy="5.524" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS</title></circle>
+<circle class="aparato" cx="1.000" cy="4.764" r="0.034" fill="#f0a33c" data-servicio="TOMAS"><title>ELEC-T-D-t-15A · ELEC-APPL-TOMAS</title></circle>
+      <g class="marcador" data-servicio=""><title>1FTN · 3 cables</title><rect x="4.508" y="6.350" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="4.557" y="6.400" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>1TNR · 3 cables</title><rect x="1.609" y="1.469" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="1.658" y="1.519" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>1FTNR · 4 cables</title><rect x="1.416" y="2.110" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="1.466" y="2.159" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">4</text></g>
+<g class="marcador" data-servicio=""><title>1TNR · 3 cables</title><rect x="2.501" y="2.120" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="2.550" y="2.169" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>1FTN2R · 5 cables</title><rect x="1.612" y="3.501" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="1.662" y="3.550" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">5</text></g>
+<g class="marcador" data-servicio=""><title>1FTN2R · 5 cables</title><rect x="2.602" y="4.727" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="2.652" y="4.776" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">5</text></g>
+<g class="marcador" data-servicio=""><title>1FTN · 3 cables</title><rect x="3.502" y="4.060" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="3.551" y="4.109" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>1TN2R · 4 cables</title><rect x="2.734" y="5.334" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="2.783" y="5.383" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">4</text></g>
+<g class="marcador" data-servicio=""><title>1FTN · 3 cables</title><rect x="3.480" y="5.720" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="3.529" y="5.769" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>2FT2N · 5 cables</title><rect x="4.642" y="5.721" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="4.691" y="5.770" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">5</text></g>
+<g class="marcador" data-servicio=""><title>2FT2N · 5 cables</title><rect x="4.638" y="7.050" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="4.687" y="7.099" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">5</text></g>
+<g class="marcador" data-servicio=""><title>1FTNR · 4 cables</title><rect x="3.504" y="6.760" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="3.553" y="6.809" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">4</text></g>
+<g class="marcador" data-servicio=""><title>2FT2N · 5 cables</title><rect x="2.884" y="7.735" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="2.933" y="7.784" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">5</text></g>
+<g class="marcador" data-servicio=""><title>1FTNR · 4 cables</title><rect x="3.748" y="7.651" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="3.797" y="7.700" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">4</text></g>
+<g class="marcador" data-servicio=""><title>1FTR · 3 cables</title><rect x="3.511" y="8.286" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="3.561" y="8.335" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>1FTN · 3 cables</title><rect x="1.049" y="6.294" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="1.098" y="6.343" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>1FTN · 3 cables</title><rect x="2.376" y="6.993" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="2.425" y="7.042" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>2FT2N · 5 cables</title><rect x="1.616" y="7.411" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="1.666" y="7.460" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">5</text></g>
+<g class="marcador" data-servicio=""><title>1FTR · 3 cables</title><rect x="1.794" y="6.600" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="1.843" y="6.649" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>1FTN · 3 cables</title><rect x="3.660" y="5.324" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="3.710" y="5.374" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>1FTN · 3 cables</title><rect x="1.268" y="4.722" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="1.317" y="4.771" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+<g class="marcador" data-servicio=""><title>1TNR · 3 cables</title><rect x="1.339" y="6.972" width="0.098" height="0.098" fill="#0f1720" stroke="#8fa6bb" stroke-width="0.0112"/><text x="1.388" y="7.021" font-size="0.067" fill="#e6edf3" text-anchor="middle" dominant-baseline="central">3</text></g>
+      
+    </svg>
+  </div>
+  <aside>
+    <h2>Tramos en revision (0)</h2>
+    <p class="vacio">Sin tramos en revision.</p>
+  </aside>
+</main>
+<script>
+(function () {
+  var svg = document.getElementById("svg");
+  var items = Array.prototype.slice.call(document.querySelectorAll(".rev-item"));
+  var capas = Array.prototype.slice.call(document.querySelectorAll(".tramo, .aparato, .marcador, .caja"));
+  var checks = Array.prototype.slice.call(document.querySelectorAll("[data-filtro]"));
+  var soloRev = document.getElementById("solo-revision");
+
+  function aplicar() {
+    var activos = {};
+    checks.forEach(function (c) { activos[c.getAttribute("data-filtro")] = c.checked; });
+    var solo = soloRev.checked;
+    capas.forEach(function (el) {
+      var serv = el.getAttribute("data-servicio") || "";
+      var rev = el.getAttribute("data-revision") === "1";
+      var visible = solo ? rev : (serv === "" || activos[serv] !== false);
+      el.classList.toggle("apagado", !visible);
+    });
+  }
+  checks.forEach(function (c) { c.addEventListener("change", aplicar); });
+  soloRev.addEventListener("change", aplicar);
+
+  function enfocar(id) {
+    var path = svg.querySelector('[data-id="' + id + '"]');
+    items.forEach(function (i) { i.classList.toggle("activo", i.getAttribute("data-id") === id); });
+    if (!path) return;
+    var b = path.getBBox();
+    var pad = Math.max(b.width, b.height) * 0.6 + 1.2;
+    svg.setAttribute("viewBox", (b.x - pad) + " " + (b.y - pad) + " " +
+                                (b.width + 2 * pad) + " " + (b.height + 2 * pad));
+    path.classList.add("resaltado");
+    setTimeout(function () { path.classList.remove("resaltado"); }, 1600);
+  }
+  items.forEach(function (i) {
+    i.addEventListener("click", function () { enfocar(i.getAttribute("data-id")); });
+  });
+  svg.addEventListener("dblclick", function () {
+    svg.setAttribute("viewBox", "0 0 5.745 9.388");
+    items.forEach(function (i) { i.classList.remove("activo"); });
+  });
+  aplicar();
+})();
+</script>
+</body></html>

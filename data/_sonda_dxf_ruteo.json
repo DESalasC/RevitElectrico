@@ -1,0 +1,242 @@
+{
+ "dxf": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-T4-P4_todos_bloques_electricos.dxf",
+ "capas": {
+  "Apartamento Tipo E2 21": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo E 20": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo E2 19": {
+   "INSERT": 1
+  },
+  "ELEC-POWER-PANEL": {
+   "TEXT": 21
+  },
+  "ELEC-APPL-NETWORD": {
+   "TEXT": 21
+  },
+  "Apartamento Tipo B 16": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo F 14": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo B 15": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo D 12": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo C 11": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo E 10": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo E 09": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo E 08": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo E 07": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo E 06": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo E 05": {
+   "INSERT": 1
+  },
+  "Apartamento Tipo F 01": {
+   "INSERT": 1
+  },
+  "TDT Apto E2-21": {
+   "INSERT": 1
+  },
+  "TDT Apto E-20": {
+   "INSERT": 1
+  },
+  "TDT Apto E2-19": {
+   "INSERT": 1
+  },
+  "TDT Apto F-18": {
+   "INSERT": 1
+  },
+  "TDT Apto F-17": {
+   "INSERT": 1
+  },
+  "TDT Apto B-15": {
+   "INSERT": 1
+  },
+  "TDT Apto B-16": {
+   "INSERT": 1
+  },
+  "TDT Apto F-14": {
+   "INSERT": 1
+  },
+  "TDT Apto F-13": {
+   "INSERT": 1
+  },
+  "TDT Apto D-12": {
+   "INSERT": 1
+  },
+  "TDT Apto C-11": {
+   "INSERT": 1
+  },
+  "TDT Apto E-10": {
+   "INSERT": 1
+  },
+  "TDT Apto E-09": {
+   "INSERT": 1
+  },
+  "TDT Apto E-08": {
+   "INSERT": 1
+  },
+  "TDT Apto E-07": {
+   "INSERT": 2
+  },
+  "TDT Apto E-05": {
+   "INSERT": 1
+  },
+  "TDT Apto F-04": {
+   "INSERT": 1
+  },
+  "TDT Apto F-03": {
+   "INSERT": 1
+  },
+  "TDT Apto F-02": {
+   "INSERT": 1
+  },
+  "TDT Apto F-01": {
+   "INSERT": 1
+  },
+  "Deteccion de Incendio Piso 4": {
+   "INSERT": 1
+  },
+  "ELEC-Data-Service": {
+   "LWPOLYLINE": 1
+  },
+  "DIAGONAL": {
+   "LINE": 1,
+   "MTEXT": 1
+  },
+  "MUEBLEFIJO": {
+   "LINE": 224
+  },
+  "0": {
+   "LWPOLYLINE": 7,
+   "LINE": 8
+  },
+  "Hatch": {
+   "INSERT": 6,
+   "HATCH": 4,
+   "CIRCLE": 1,
+   "LINE": 4
+  },
+  "CONDENSADORAS": {
+   "LWPOLYLINE": 1
+  },
+  "MUEBLES": {
+   "LINE": 7,
+   "TEXT": 6
+  },
+  "OVES_01-GEO_COL_CONC": {
+   "POLYLINE": 4
+  },
+  "X-PISOS": {
+   "LINE": 3
+  },
+  "MUROS": {
+   "LINE": 7,
+   "LWPOLYLINE": 1
+  },
+  "HVAC-Equipos": {
+   "INSERT": 11
+  },
+  "AA-REJILLA VENTILACIÓN": {
+   "INSERT": 1
+  },
+  "AA-DUCTO SUMINISTRO": {
+   "LWPOLYLINE": 1
+  },
+  "Cotas": {
+   "INSERT": 3
+  },
+  "E-EJES": {
+   "INSERT": 1
+  },
+  "VACIOS": {
+   "INSERT": 1
+  },
+  "Proyecciones": {
+   "LWPOLYLINE": 2
+  },
+  "Crystal - Cotas": {
+   "DIMENSION": 1
+  },
+  "TEXTO1": {
+   "TEXT": 55,
+   "MTEXT": 49
+  },
+  "Comunicaciones ZC Pisos 2-5": {
+   "INSERT": 1
+  },
+  "Acometidas Electricas Piso 1": {
+   "INSERT": 1
+  },
+  "Acometidas Aire Piso 1": {
+   "INSERT": 1
+  },
+  "ELEC-BALA LED 13 W": {
+   "INSERT": 38
+  },
+  "E-Lite-Swch": {
+   "INSERT": 17
+  },
+  "ELEC-CONTROL ILUM": {
+   "ARC": 34
+  },
+  "ELEC-LIGHT-PIPE": {
+   "LWPOLYLINE": 70
+  },
+  "Elec-Lite-Wire": {
+   "INSERT": 53
+  },
+  "ELEC-APPL-ILUM": {
+   "INSERT": 10
+  },
+  "Elec-Power-Iden": {
+   "TEXT": 87
+  },
+  "ELEC-POWER- PIPE": {
+   "CIRCLE": 12,
+   "LWPOLYLINE": 16,
+   "ARC": 1
+  },
+  "ELEC-STA_ Hermetica 40W": {
+   "INSERT": 4
+  },
+  "ELEC-APPL-TOMAS": {
+   "INSERT": 12
+  },
+  "ELEC-Powr-Pipe-Idem Piso": {
+   "INSERT": 11
+  },
+  "Elec-Lite-Lite-Emer": {
+   "INSERT": 17
+  },
+  "ELEC-Powr-service": {
+   "INSERT": 1,
+   "LWPOLYLINE": 1,
+   "MTEXT": 1
+  },
+  "E-Comm-Appl-Netw": {
+   "INSERT": 1
+  },
+  "ELEC-Powr-Appl": {
+   "INSERT": 7
+  }
+ }
+}

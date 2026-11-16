@@ -1,0 +1,50 @@
+{
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03", 
+  "ok": [], 
+  "errores": [
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos", 
+      "bloque": "Bala Stil Led 10W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos", 
+      "bloque": "Bala Stil Led 13W"
+    }, 
+    {
+      "motivo": "la familia 'SONO FLEX trim' no expone simbolos", 
+      "bloque": "Bala Stil Led 22W"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma - 220V' no expone simbolos", 
+      "bloque": "ELEC-CAMPANA"
+    }, 
+    {
+      "motivo": "la familia 'M_Interruptor' no expone simbolos", 
+      "bloque": "ELEC-F-CONTROL"
+    }, 
+    {
+      "motivo": "la familia 'M_Ventilador' no expone simbolos", 
+      "bloque": "ELEC-F-VENT"
+    }, 
+    {
+      "motivo": "la familia 'M_Pulsador - Interruptor' no expone simbolos", 
+      "bloque": "ELEC-I-S-1-5A"
+    }, 
+    {
+      "motivo": "la familia 'M_Pulsador - Interruptor' no expone simbolos", 
+      "bloque": "ELEC-I-S-C1-5A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma-Comunicaciones' no expone simbolos", 
+      "bloque": "ELEC-NET-PAU"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos", 
+      "bloque": "ELEC-T-D-t-15A"
+    }, 
+    {
+      "motivo": "la familia 'M_Toma doble' no expone simbolos", 
+      "bloque": "ELEC-T-GFCI-t-15A"
+    }, 
+    {
+      "motivo": 

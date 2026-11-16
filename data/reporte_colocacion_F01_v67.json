@@ -1,0 +1,141 @@
+{
+  "apartamento": "F 01", 
+  "version": "67.0", 
+  "timestamp": "2026-11-14 21:22:28", 
+  "stats": {
+    "error": 9, 
+    "ok": 26
+  }, 
+  "results": [
+    {
+      "status": "OK", 
+      "handle": "6D", 
+      "revit_id": 5535311
+    }, 
+    {
+      "status": "OK", 
+      "handle": "8D", 
+      "revit_id": 5535312
+    }, 
+    {
+      "status": "OK", 
+      "handle": "96", 
+      "revit_id": 5535313
+    }, 
+    {
+      "status": "OK", 
+      "handle": "97", 
+      "revit_id": 5535314
+    }, 
+    {
+      "status": "OK", 
+      "handle": "98", 
+      "revit_id": 5535315
+    }, 
+    {
+      "status": "OK", 
+      "handle": "99", 
+      "revit_id": 5535316
+    }, 
+    {
+      "status": "OK", 
+      "handle": "9A", 
+      "revit_id": 5535317
+    }, 
+    {
+      "status": "OK", 
+      "handle": "9B", 
+      "revit_id": 5535318
+    }, 
+    {
+      "status": "OK", 
+      "handle": "9C", 
+      "revit_id": 5535319
+    }, 
+    {
+      "status": "OK", 
+      "handle": "A4", 
+      "revit_id": 5535320
+    }, 
+    {
+      "status": "OK", 
+      "handle": "B9", 
+      "revit_id": 5535321
+    }, 
+    {
+      "status": "OK", 
+      "handle": "C1", 
+      "revit_id": 5535323
+    }, 
+    {
+      "status": "OK", 
+      "handle": "C9", 
+      "revit_id": 5535325
+    }, 
+    {
+      "status": "OK", 
+      "handle": "CB", 
+      "revit_id": 5535327
+    }, 
+    {
+      "status": "OK", 
+      "handle": "D4", 
+      "revit_id": 5535330
+    }, 
+    {
+      "status": "OK", 
+      "handle": "DF", 
+      "revit_id": 5535331
+    }, 
+    {
+      "status": "OK", 
+      "handle": "FD", 
+      "revit_id": 5535332
+    }, 
+    {
+      "status": "OK", 
+      "handle": "1E8", 
+      "revit_id": 5535333
+    }, 
+    {
+      "status": "OK", 
+      "handle": "1F1", 
+      "revit_id": 5535334
+    }, 
+    {
+      "status": "OK", 
+      "handle": "1F2", 
+      "revit_id": 5535335
+    }, 
+    {
+      "status": "OK", 
+      "handle": "203", 
+      "revit_id": 5535336
+    }, 
+    {
+      "status": "OK", 
+      "handle": "204", 
+      "revit_id": 5535337
+    }, 
+    {
+      "status": "OK", 
+      "handle": "205", 
+      "revit_id": 5535338
+    }, 
+    {
+      "status": "OK", 
+      "handle": "206", 
+      "revit_id": 5535339
+    }, 
+    {
+      "status": "OK", 
+      "handle": "210", 
+      "revit_id": 5535340
+    }, 
+    {
+      "status": "OK", 
+      "handle": "216", 
+      "revit_id": 5535341
+    }
+  ]
+}
