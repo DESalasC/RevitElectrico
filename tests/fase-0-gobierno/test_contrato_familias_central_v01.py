@@ -90,6 +90,34 @@ def test_mapeo_resuelve_en_catalogo(codigo: str, mapeo: dict, catalogo: dict, re
         )
 
 
+def cargar_delta_rotacion() -> dict:
+    """Lee DELTA_ROT_POR_FAMILIA del fuente sin importar el modulo."""
+    arbol = ast.parse(SCRIPT.read_text(encoding="utf-8"))
+    for nodo in arbol.body:
+        if not isinstance(nodo, ast.Assign):
+            continue
+        for objetivo in nodo.targets:
+            if isinstance(objetivo, ast.Name) and objetivo.id == "DELTA_ROT_POR_FAMILIA":
+                return ast.literal_eval(nodo.value)
+    raise AssertionError("No se encontro DELTA_ROT_POR_FAMILIA")
+
+
+def test_delta_de_rotacion_para_tomas_horizontal(catalogo: dict) -> None:
+    """En Colombia las tomas van con la placa horizontal; la familia esta vertical."""
+    deltas = cargar_delta_rotacion()
+
+    assert deltas.get("M_Toma doble") == 90.0
+    for familia in deltas:
+        assert familia in catalogo["familias"], (
+            "delta definido para una familia inexistente: {f}".format(f=familia)
+        )
+
+
+def test_delta_solo_afecta_a_las_familias_declaradas(catalogo: dict) -> None:
+    deltas = cargar_delta_rotacion()
+    assert set(deltas) == {"M_Toma doble"}
+
+
 def test_todos_los_codigos_tienen_entrada(mapeo: dict) -> None:
     assert len(mapeo) == 16
     for codigo, entrada in mapeo.items():

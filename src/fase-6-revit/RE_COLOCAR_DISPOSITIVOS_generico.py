@@ -43,6 +43,15 @@ MAPEO_DEFAULT = {
     "ELEC-EXT": ("EA", "EA 1010"),
 }
 
+# Delta de rotacion por familia, en grados, sumado a la rotacion del bloque DXF.
+# Motivo (2026-11-15): en Colombia las tomas se montan con la placa horizontal. La familia
+# M_Toma doble esta modelada con la placa vertical (su eje largo en Z: 114 mm medidos en
+# CENTRAL-V01), asi que hay que girarla 90 grados para que quede horizontal.
+# El delta se aplica sobre la rotacion del DXF, no la sustituye.
+DELTA_ROT_POR_FAMILIA = {
+    "M_Toma doble": 90.0,
+}
+
 FEET_PER_METER = 3.280839895
 
 
@@ -433,7 +442,10 @@ def colocar_dispositivos(doc, inventario_path, salida_json, offset_xy, nivel_nom
                 continue
 
             punto_ft = XYZ(px_ft, py_ft, _m_a_ft(z_revit_m))
-            direccion = rotacion_a_vector(rot)
+            delta_rot = DELTA_ROT_POR_FAMILIA.get(nombre_familia, 0.0)
+            direccion = rotacion_a_vector(rot + delta_rot)
+            entry["delta_rot_grados"] = delta_rot
+            entry["rotacion_aplicada"] = rot + delta_rot
 
             t = Transaction(doc, "Colocar dispositivo {}".format(nombre))
             t.Start()

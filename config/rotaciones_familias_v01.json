@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "proyecto": "RE",
+  "fecha": "2026-11-15",
+  "proposito": "Delta de rotacion por familia aplicado sobre la rotacion del bloque DXF.",
+  "decision": "Las tomas se montan con la placa horizontal, que es la practica usual en Colombia. La familia M_Toma doble esta modelada con la placa vertical.",
+  "evidencia_medida": {
+    "elemento": 5529727,
+    "familia": "M_Toma doble",
+    "tipo": "GFCI",
+    "extensiones_mm": { "x": 58.7, "y": 69.8, "z": 114.3 },
+    "lectura": "El eje largo esta en Z (114,3 mm): la placa esta vertical. Una placa horizontal tendria el eje largo en el plano del muro."
+  },
+  "delta_rot_por_familia": {
+    "M_Toma doble": 90.0
+  },
+  "regla": "rotacion_final = rotacion_bloque_dxf + delta_familia",
+  "consecuencia_para_el_diff": "El modelo manual de E06 en CENTRAL-V01 tambien tiene las tomas verticales (misma familia, misma geometria). Al comparar F2/F3, las tomas apareceran con 90 grados de diferencia respecto al benchmark. Es una desviacion deliberada, no un error de colocacion: el diff debe tratar la rotacion de M_Toma doble con tolerancia de 90 grados, o excluirla del criterio y documentarlo.",
+  "familias_no_afectadas": {
+    "M_Interruptores": "Medido en 5529723 (Simple conmutable): 177,9 x 76,2 x 119,1 mm. El eje largo no esta en Z, asi que la placa no esta vertical como la toma. No requiere delta, pendiente de confirmacion visual del operador.",
+    "M_Comunicaciones": "Sin medicion de placa todavia; revisar en F1 si su orientacion debe tratarse igual."
+  },
+  "verificacion_pendiente": "Colocar una toma y comprobar en Revit que la placa queda horizontal y no invertida. Si quedara girada 180 grados respecto a lo esperado, el delta debe ser -90 en lugar de +90."
+}
