@@ -79,6 +79,11 @@ def test_asignacion_no_repite_anotacion(resolver: ModuleType, config: dict) -> N
 
 
 def test_precedencia_excepcion_sobre_anotacion(resolver: ModuleType, config: dict) -> None:
+    # Config sintetica: interesa la precedencia, no el valor real de 9E en el plano.
+    config_prueba = dict(config)
+    config_prueba["excepciones_por_handle"] = dict(config["excepciones_por_handle"])
+    config_prueba["excepciones_por_handle"]["9E"] = {"altura_m": 1.10, "nota": "prueba"}
+
     inventario = {
         "dispositivos": [
             {"handle": "9E", "nombre": "ELEC-T-GFCI-t-15A", "x": 0.0, "y": 0.0},
@@ -87,7 +92,7 @@ def test_precedencia_excepcion_sobre_anotacion(resolver: ModuleType, config: dic
     }
     anotaciones = [{"texto": "1.05m", "x": 0.05, "y": 0.0, "altura_m": 1.05}]
 
-    resultado = resolver.resolver(inventario, config, anotaciones)
+    resultado = resolver.resolver(inventario, config_prueba, anotaciones)
     por_handle = {d["handle"]: d for d in resultado["dispositivos"]}
 
     assert por_handle["9E"]["altura_local_m"] == 1.10
