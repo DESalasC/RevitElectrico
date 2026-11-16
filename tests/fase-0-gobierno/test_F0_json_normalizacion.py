@@ -133,4 +133,7 @@ def test_los_tres_escritores_normalizan_antes_de_serializar() -> None:
     for nombre, ruta in SCRIPTS.items():
         fuente = ruta.read_text(encoding="utf-8")
         assert "_normalizar(" in fuente, "{n} no normaliza".format(n=nombre)
-        assert "json.dump(_normalizar(" in fuente, "{n} no aplica la normalizacion al dump".format(n=nombre)
+        serializa_normalizado = (
+            "json.dump(_normalizar(" in fuente or "json.dumps(_normalizar(" in fuente
+        )
+        assert serializa_normalizado, "{n} no aplica la normalizacion al serializar".format(n=nombre)
