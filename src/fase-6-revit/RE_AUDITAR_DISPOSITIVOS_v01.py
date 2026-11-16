@@ -122,6 +122,32 @@ def info_host(fi, doc):
         return None, None, None
 
 
+def nivel_de(elemento, doc):
+    """Nombre del nivel del elemento.
+
+    FamilyInstance no expone ``.Level`` en IronPython (AttributeError), y como el bucle
+    principal descarta el elemento entero ante cualquier excepcion, eso hacia que el
+    export saliera con cero instancias en silencio. Se resuelve por LevelId.
+    """
+    try:
+        lid = elemento.LevelId
+        if lid is not None and lid != ElementId.InvalidElementId:
+            nivel = doc.GetElement(lid)
+            if nivel is not None:
+                return nivel.Name
+    except Exception:
+        pass
+    return ""
+
+
+def orientacion_segura(elemento):
+    """Angulo de FacingOrientation, o cadena vacia si no es accesible."""
+    try:
+        return angulo_orientacion(elemento.FacingOrientation)
+    except Exception:
+        return ""
+
+
 # ---------------------------------------------------------------------------
 # Listar FamilyInstances con datos para el diff
 # ---------------------------------------------------------------------------
@@ -157,12 +183,12 @@ def listar_family_instances(doc, poligono_pies=None):
                 "y": y,
                 "z": z,
                 "panel_name": panel_name if panel_name else "",
-                "nivel": fi.Level.Name if fi.Level else "",
+                "nivel": nivel_de(fi, doc),
                 "es_tablero": (fam_name == FAMILIA_TABLERO_REVIT),
                 "host_id": host_id,
                 "host_categoria": host_cat,
                 "host_nivel": host_nivel,
-                "orientacion_grados": angulo_orientacion(fi.FacingOrientation),
+                "orientacion_grados": orientacion_segura(fi),
                 "comentarios": obtener_parametro(fi, "Comments"),
                 "servicio_conduit": obtener_parametro(fi, "Servicio_Conduit"),
             })

@@ -33,6 +33,7 @@
 from __future__ import annotations
 
 import argparse
+import ast
 import html
 import json
 import math
@@ -47,22 +48,30 @@ PIE_A_METROS = 0.3048
 # Fuente: clasificacion DXF->Revit del acta 2026-11-11 (E06 piloto).
 # Extendible con --mapeo.
 # ---------------------------------------------------------------------------
-MAPA_DXF_REVIT_DEFECTO = {
-    "ELEC-I-S-1-5A": ("M_Interruptores", "Simple"),
-    "ELEC-I-S-C1-5A": ("M_Interruptores", "Simple conmutable"),
-    "S3": ("M_Interruptores", "Triple"),
-    "ELEC-F-CONTROL": ("M_Climatizacion", "Interruptor Ventilador"),
-    "ELEC-F-VENT": ("M_ClimatizacionV", "Ventilador"),
-    "ELEC-TIMBRE": ("M_Pulsador - Interruptor", "Timbre"),
-    "ELEC-T-GFCI-t-15A": ("M_Toma doble", "GFCI"),
-    "ELEC-T-D-t-15A": ("M_Toma doble", "Normal"),
-    "ELEC-CAMPANA": ("M_Zumbador", "Campana timbre"),
-    "ELEC-NET-PAU": ("Consolidation_Point", "CPB6L"),
-    "ELEC-TEL": ("M_Comunicaciones", "Datos"),
-    "Bala Stil Led 10W": ("M_Iluminacion", "SONO FLEX 10 trim"),
-    "Bala Stil Led 13W": ("M_Iluminacion", "SONO FLEX 13 trim"),
-    "Bala Stil Led 22W": ("M_Iluminacion", "SONO FLEX 22 trim"),
-}
+MAPA_DXF_REVIT_DEFECTO = {}
+
+
+def cargar_mapeo_colocador():
+    """Extrae MAPEO_DEFAULT del colocador para no mantener dos tablas.
+
+    La copia local se habia desincronizado en cuatro entradas (ELEC-CAMPANA apuntaba a
+    M_Zumbador, ELEC-NET-PAU a CPB6L, ELEC-TEL a Datos, ELEC-I-S-C1-5A a Simple
+    conmutable) y le faltaban cinco familias. Una sola fuente evita esa deriva.
+    """
+    ruta = Path(__file__).resolve().parent / "RE_COLOCAR_DISPOSITIVOS_generico.py"
+    with ruta.open(encoding="utf-8") as fh:
+        arbol = ast.parse(fh.read())
+    for nodo in arbol.body:
+        if not isinstance(nodo, ast.Assign):
+            continue
+        for objetivo in nodo.targets:
+            if isinstance(objetivo, ast.Name) and objetivo.id == "MAPEO_DEFAULT":
+                datos = ast.literal_eval(nodo.value)
+                return {clave: tuple(valor) for clave, valor in datos.items()}
+    raise RuntimeError("No se encontro MAPEO_DEFAULT en {r}".format(r=ruta))
+
+
+MAPA_DXF_REVIT_DEFECTO = cargar_mapeo_colocador()
 
 # Bloques que el inventario canonico ya descarta (no son dispositivos físicos)
 DESCARTADOS = ("TB-Panel",)
@@ -110,7 +119,10 @@ def construir_canonico(inventario, offset_x, offset_y, nivel_elevacion_m):
         familia, simbolo = mapeo
         x_revit = round(d["x"] + offset_x, 4)
         y_revit = round(d["y"] + offset_y, 4)
-        z_abs = round(nivel_elevacion_m + d.get("altura_nominal_m", 0.0), 4)
+        altura = d.get("altura_local_m")
+        if altura is None:
+            altura = d.get("altura_nominal_m", 0.0)
+        z_abs = round(nivel_elevacion_m + altura, 4)
         canonicos.append({
             "handle": d["handle"],
             "nombre": nombre,
@@ -122,6 +134,7 @@ def construir_canonico(inventario, offset_x, offset_y, nivel_elevacion_m):
             "z_dxf": d.get("z", 0.0),
             "rotacion_grados": d.get("rotacion_grados"),
             "altura_nominal_m": d.get("altura_nominal_m", 0.0),
+            "altura_local_m": d.get("altura_local_m"),
             "x_esperado_m": x_revit,
             "y_esperado_m": y_revit,
             "z_esperado_abs_m": z_abs,
