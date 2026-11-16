@@ -40,6 +40,19 @@ import os
 # ---------------------------------------------------------------------------
 FAMILIA_TABLERO_REVIT = "E_Distribution Panel"
 
+# Categorias que interesan al diff electrico. Sin este filtro el export arrastra miles de
+# FamilyInstances de arquitectura y el diff las reporta como sobrantes, que es ruido puro.
+CATEGORIAS_ELECTRICAS_DEFECTO = (
+    "Lighting Fixtures",
+    "Electrical Fixtures",
+    "Electrical Equipment",
+    "Lighting Devices",
+    "Communication Devices",
+    "Telephone Devices",
+    "Data Devices",
+    "Mechanical Equipment",
+)
+
 # ---------------------------------------------------------------------------
 # Carga y guardado de JSON (IronPython 2.7: sin parametro encoding)
 # ---------------------------------------------------------------------------
@@ -151,7 +164,7 @@ def orientacion_segura(elemento):
 # ---------------------------------------------------------------------------
 # Listar FamilyInstances con datos para el diff
 # ---------------------------------------------------------------------------
-def listar_family_instances(doc, poligono_pies=None):
+def listar_family_instances(doc, poligono_pies=None, categorias=None):
     instancias = []
     collector = FilteredElementCollector(doc).OfClass(FamilyInstance)
     for fi in collector:
@@ -159,6 +172,9 @@ def listar_family_instances(doc, poligono_pies=None):
             fam_name = fi.Symbol.Family.Name if fi.Symbol and fi.Symbol.Family else ""
             sym_name = fi.Symbol.Name if fi.Symbol else ""
             cat_name = fi.Category.Name if fi.Category else ""
+
+            if categorias and cat_name not in categorias:
+                continue
 
             loc = fi.Location
             x = y = z = None
@@ -238,7 +254,7 @@ def listar_conduits(doc, poligono_pies=None):
 # ---------------------------------------------------------------------------
 # Funcion principal
 # ---------------------------------------------------------------------------
-def auditar_dispositivos(doc, salida_json=None, poligono_json=None):
+def auditar_dispositivos(doc, salida_json=None, poligono_json=None, categorias=CATEGORIAS_ELECTRICAS_DEFECTO):
     print("=== RE_AUDITAR_DISPOSITIVOS_v01 ===")
     print("Documento: {}".format(doc.Title))
     print("Ruta: {}".format(doc.PathName))
@@ -252,7 +268,7 @@ def auditar_dispositivos(doc, salida_json=None, poligono_json=None):
         except Exception as exc:
             print("ADVERTENCIA: no se cargo poligono: {}".format(exc))
 
-    instancias = listar_family_instances(doc, poligono_pies)
+    instancias = listar_family_instances(doc, poligono_pies, categorias)
     conduits = listar_conduits(doc, poligono_pies)
 
     print("\nTotal FamilyInstances exportadas: {}".format(len(instancias)))

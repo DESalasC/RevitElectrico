@@ -91,3 +91,11 @@ def test_exportador_tiene_helper_de_nivel() -> None:
     fuente = EXPORTADOR.read_text(encoding="utf-8")
     assert "def nivel_de(elemento, doc)" in fuente
     assert "def orientacion_segura(elemento)" in fuente
+
+
+def test_exportador_filtra_categorias_electricas() -> None:
+    """Sin filtro, el export arrastra miles de instancias de arquitectura al diff."""
+    fuente = EXPORTADOR.read_text(encoding="utf-8")
+    assert "CATEGORIAS_ELECTRICAS_DEFECTO" in fuente
+    assert "categorias and cat_name not in categorias" in fuente
+    assert "Mechanical Equipment" in fuente, "EA vive en categoria mecanica"
