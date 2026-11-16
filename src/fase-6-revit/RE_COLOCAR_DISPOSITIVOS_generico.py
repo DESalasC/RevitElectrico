@@ -35,12 +35,12 @@ MAPEO_DEFAULT = {
     "ELEC-F-VENT": ("M_ClimatizacionV", "Ventilador"),
     "ELEC-F-CONTROL": ("M_Climatizacion", "Interruptor Ventilador"),
     "ELEC-TEL": ("M_Comunicaciones", "Telefono"),
-    "ELEC-NET-PAU": ("Consolidation_Point", "CPB24BL"),
+    "ELEC-NET-PAU": ("Consolidation_Point", "CPB6BL"),
     "S3": ("M_Interruptores", "Triple"),
     "ELEC-CAMPANA": ("M_Timbre", "Campana"),
     "ELEC-TIMBRE": ("M_Pulsador - Interruptor", "Timbre"),
     "ELEC-PANEL": ("E_Panel Distribucion", "EPB25-304C"),
-    "ELEC-EXT": ("EA", "M_Extractor"),
+    "ELEC-EXT": ("EA", "EA 1010"),
 }
 
 FEET_PER_METER = 3.280839895

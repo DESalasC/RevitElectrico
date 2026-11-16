@@ -41,10 +41,15 @@
     { "familia": "M_Caja de conexiones hexagonal", "tipo": "277V", "categoria": "Electrical Fixtures", "family_type_id": 5494257 },
     { "familia": "M_Caja de conexiones hexagonal", "tipo": "480V", "categoria": "Electrical Fixtures", "family_type_id": 5494259 }
   ],
+  "equivalencias_decididas": {
+    "ELEC-EXT": { "familia": "EA", "tipo": "EA 1010", "fecha": "2026-11-15", "nota": "Decision del operador. M_Extractor no existe en CENTRAL-V01." },
+    "ELEC-NET-PAU": { "familia": "Consolidation_Point", "tipo": "CPB6BL", "fecha": "2026-11-15", "nota": "Decision del operador. CPB24BL existe pero no es el que corresponde." },
+    "ELEC-F-VENT": { "familia": "M_ClimatizacionV", "tipo": "Ventilador", "fecha": "2026-11-15", "nota": "Decision del operador. M_Ventilador | Estandar NO se usa para este codigo." }
+  },
   "observaciones": [
     "E_Panel Distribucion y E_Panel Distribucion1 comparten el tipo EPB25-304C. La colocacion resuelve por nombre de familia, asi que el sufijo 1 queda fuera salvo que se pida explicitamente.",
-    "EA existe con tres tipos de tamano (1010, 1219, 1530). El mapeo actual usa 'M_Extractor', que NO existe en CENTRAL-V01.",
-    "M_Ventilador es una familia propia; M_ClimatizacionV | Ventilador tambien existe. Confirmar cual corresponde a ELEC-F-VENT.",
+    "EA existe con tres tipos de tamano (1010, 1219, 1530). Para ELEC-EXT se decidio EA 1010.",
+    "Existen M_ClimatizacionV | Ventilador y M_Ventilador | Estandar. Para ELEC-F-VENT se decidio M_ClimatizacionV | Ventilador; M_Ventilador queda sin uso.",
     "M_Comunicaciones esta en Telephone Devices (no en Electrical Fixtures)."
   ]
 }

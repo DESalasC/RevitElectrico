@@ -22,13 +22,10 @@ RAIZ = Path(__file__).resolve().parents[2]
 SCRIPT = RAIZ / "src" / "fase-6-revit" / "RE_COLOCAR_DISPOSITIVOS_generico.py"
 CATALOGO = RAIZ / "config" / "catalogo_familias_CENTRAL_V01_v01.json"
 
-# Entradas conocidas como no resolubles, con el motivo y la decision pendiente.
-PENDIENTES_CONOCIDOS = {
-    "ELEC-EXT": (
-        "El mapeo usa EA | M_Extractor, que no existe en CENTRAL-V01. "
-        "Los tipos reales son EA 1010, EA 1219 y EA 1530: falta decidir cual corresponde."
-    ),
-}
+# Entradas conocidas como no resolubles. Vacio: ELEC-EXT se resolvio el 2026-11-15
+# como EA | EA 1010 por decision del operador. El mecanismo se conserva para futuros
+# desajustes: una entrada aqui debe acompanarse de su motivo y de la decision pendiente.
+PENDIENTES_CONOCIDOS: dict[str, str] = {}
 
 
 def cargar_mapeo() -> dict:
