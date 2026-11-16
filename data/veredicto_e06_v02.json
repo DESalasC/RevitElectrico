@@ -1,0 +1,280 @@
+{
+  "declarados": 44, 
+  "detalle": [
+    {
+      "encontrado": false, 
+      "handle": "12A", 
+      "nombre": "Bala Stil Led 13W", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e728"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "DC", 
+      "nombre": "ELEC-I-S-C1-5A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e729"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "DB", 
+      "nombre": "ELEC-T-GFCI-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e72a"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "85", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e72b"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "CE", 
+      "nombre": "ELEC-I-S-C1-5A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e72c"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "6D", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e72d"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "107", 
+      "nombre": "ELEC-F-VENT", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e72e"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "1F2", 
+      "nombre": "ELEC-TEL", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e72f"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "83", 
+      "nombre": "ELEC-TEL", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e730"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "7A", 
+      "nombre": "ELEC-TEL", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e731"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "11F", 
+      "nombre": "Bala Stil Led 10W", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e732"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "128", 
+      "nombre": "Bala Stil Led 10W", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e733"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "D7", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e734"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "84", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e735"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "138", 
+      "nombre": "Bala Stil Led 13W", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e736"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "D9", 
+      "nombre": "ELEC-TEL", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e737"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "D8", 
+      "nombre": "ELEC-TEL", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e738"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "110", 
+      "nombre": "ELEC-F-VENT", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e739"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "224", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e73a"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "148", 
+      "nombre": "ELEC-F-CONTROL", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e73b"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "86", 
+      "nombre": "ELEC-I-S-1-5A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e73c"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "164", 
+      "nombre": "ELEC-F-CONTROL", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e73d"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "129", 
+      "nombre": "Bala Stil Led 10W", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e73e"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "139", 
+      "nombre": "Bala Stil Led 13W", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e73f"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "DA", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e740"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "92", 
+      "nombre": "ELEC-I-S-1-5A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e741"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "BD", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e742"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "EE", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e743"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "DF", 
+      "nombre": "S3", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e744"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "103", 
+      "nombre": "ELEC-T-GFCI-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e745"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "BC", 
+      "nombre": "ELEC-T-GFCI-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e746"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "BE", 
+      "nombre": "ELEC-NET-PAU", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e747"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "1F4", 
+      "nombre": "ELEC-TEL", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e748"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "1F5", 
+      "nombre": "ELEC-TEL", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e749"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "112", 
+      "nombre": "Bala Stil Led 22W", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e74a"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "11E", 
+      "nombre": "Bala Stil Led 22W", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e74b"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "13A", 
+      "nombre": "Bala Stil Led 13W", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e74c"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "104", 
+      "nombre": "ELEC-I-S-1-5A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e74d"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "EF", 
+      "nombre": "ELEC-CAMPANA", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e74e"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "BA", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e74f"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "BB", 
+      "nombre": "ELEC-T-D-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e750"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "111", 
+      "nombre": "ELEC-T-GFCI-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e751"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "9E", 
+      "nombre": "ELEC-T-GFCI-t-15A", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e752"
+    }, 
+    {
+      "encontrado": false, 
+      "handle": "96", 
+      "nombre": "ELEC-TIMBRE", 
+      "unique_id": "0ec8341a-723a-4d15-87ce-f70ddc1c902f-0056e753"
+    }
+  ], 
+  "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01", 
+  "encontrados": 0, 
+  "fase": "F0", 
+  "fecha": "2026-11-15 19:45:30", 
+  "lote_guid": "46c3f138-025d-47d4-b24a-41cd21181a58", 
+  "metodo": "UniqueId (independiente del parametro de lote)", 
+  "motivo": "Ninguno de los 44 UniqueId declarados existe en este documento: el lote nunca se guardo.", 
+  "pendiente": "RE-P-051", 
+  "proyecto": "RE", 
+  "veredicto": "no_persistido", 
+  "version": "2.0"
+}
