@@ -94,15 +94,31 @@ def _host_id(inst):
 
 
 def _a_texto(valor):
-    """Convierte bytes a unicode. En IronPython 2.7 los nombres de Revit son bytes (cp1252)."""
-    if not hasattr(valor, "decode"):
-        return valor
-    for codec in ("utf-8", "cp1252", "latin-1"):
-        try:
-            return valor.decode(codec)
-        except Exception:
-            continue
-    return valor.decode("latin-1", "replace")
+    """Garantiza texto unicode y limpia el BOM inicial.
+
+    En IronPython 2.7 los nombres de Revit llegan como ``str`` (bytes cp1252) o como
+    ``unicode``, y algunos con BOM U+FEFF. No sirve ``hasattr(valor, "decode")``:
+    ``unicode`` tambien expone ``decode`` y codifica primero en ASCII. La distincion
+    correcta es ``isinstance(valor, bytes)``.
+    """
+    if isinstance(valor, bytes):
+        texto = None
+        for codec in ("utf-8", "cp1252", "latin-1"):
+            try:
+                texto = valor.decode(codec)
+                break
+            except Exception:
+                continue
+        if texto is None:
+            texto = valor.decode("latin-1", "replace")
+        valor = texto
+
+    try:
+        if valor[:1] == u"\ufeff":
+            valor = valor[1:]
+    except Exception:
+        pass
+    return valor
 
 
 def _normalizar(objeto):

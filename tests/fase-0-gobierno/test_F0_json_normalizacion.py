@@ -64,6 +64,39 @@ def test_texto_ya_decodificado_pasa_intacto(funciones: dict) -> None:
     assert funciones["_a_texto"]("Baño") == "Baño"
 
 
+def test_unicode_con_bom_pierde_el_bom(funciones: dict) -> None:
+    """Fallo real en Revit: u'\ufeffSONO FLEX 13 trim' hacia UnicodeEncodeError."""
+    assert funciones["_a_texto"]("\ufeffSONO FLEX 13 trim") == "SONO FLEX 13 trim"
+
+
+def test_bytes_utf8_con_bom_pierde_el_bom(funciones: dict) -> None:
+    assert funciones["_a_texto"](b"\xef\xbb\xbfSONO FLEX 10 trim") == "SONO FLEX 10 trim"
+
+
+@pytest.fixture(params=sorted(SCRIPTS), ids=sorted(SCRIPTS))
+def ruta_actual(request: pytest.FixtureRequest) -> Path:
+    return SCRIPTS[request.param]
+
+
+def test_no_llama_hasattr_decode(ruta_actual: Path) -> None:
+    """Regresion: hasattr(valor, 'decode') tambien es True para unicode en Python 2.
+
+    Se inspecciona el AST y no el texto, porque el docstring menciona el patron para
+    explicar por que no se usa.
+    """
+    arbol = ast.parse(ruta_actual.read_text(encoding="utf-8"))
+    usos = []
+    for nodo in ast.walk(arbol):
+        if not isinstance(nodo, ast.Call):
+            continue
+        if not isinstance(nodo.func, ast.Name) or nodo.func.id != "hasattr":
+            continue
+        if len(nodo.args) >= 2 and isinstance(nodo.args[1], ast.Constant) and nodo.args[1].value == "decode":
+            usos.append(getattr(nodo, "lineno", "?"))
+    assert usos == [], "Llamada a hasattr(..., 'decode') en lineas {0}".format(usos)
+    assert "isinstance(valor, bytes)" in ruta_actual.read_text(encoding="utf-8")
+
+
 def test_normaliza_estructura_anidada(funciones: dict) -> None:
     entrada = {b"clave\xf1": [b"valor\xe1", {"hondo": b"Comunicaci\xf3n"}]}
     salida = funciones["_normalizar"](entrada)

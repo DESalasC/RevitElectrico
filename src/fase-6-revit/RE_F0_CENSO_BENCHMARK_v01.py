@@ -123,21 +123,39 @@ def _longitud_m(elemento):
 
 
 def _a_texto(valor):
-    """Convierte bytes a unicode probando codificaciones.
+    """Garantiza texto unicode y limpia el BOM inicial.
 
-    En IronPython 2.7 los nombres de familia y tipo que devuelve Revit llegan como
-    ``str``, que es una cadena de BYTES en la codificacion local (cp1252). JSON con
-    ``ensure_ascii=True`` necesita unicode y falla con ``UnicodeDecodeError`` si no se
-    normaliza antes. En CPython 3 el texto no tiene ``decode`` y se devuelve intacto.
+    En IronPython 2.7 conviven dos tipos de cadena: ``str`` (BYTES en la codificacion
+    local) y ``unicode``. Los nombres de Revit llegan de las dos formas, y algunos traen
+    un BOM (U+FEFF) al inicio. Detalles que costaron dos iteraciones:
+
+    * ``hasattr(valor, "decode")`` NO sirve para distinguirlos: en Python 2 ``unicode``
+      tambien expone ``decode`` y su implementacion codifica primero en ASCII, lo que
+      lanza ``UnicodeEncodeError`` con caracteres como U+FEFF.
+    * La distincion correcta es ``isinstance(valor, bytes)``: en Python 3 son los bytes,
+      en Python 2 es ``str``. ``unicode`` nunca entra por ahi y pasa intacto.
+
+    El BOM se elimina porque rompe la comparacion exacta de nombres de familia y tipo
+    (``"\\ufeffSONO FLEX 13 trim" != "SONO FLEX 13 trim"``), que es la base del mapeo.
     """
-    if not hasattr(valor, "decode"):
-        return valor
-    for codec in ("utf-8", "cp1252", "latin-1"):
-        try:
-            return valor.decode(codec)
-        except Exception:
-            continue
-    return valor.decode("latin-1", "replace")
+    if isinstance(valor, bytes):
+        texto = None
+        for codec in ("utf-8", "cp1252", "latin-1"):
+            try:
+                texto = valor.decode(codec)
+                break
+            except Exception:
+                continue
+        if texto is None:
+            texto = valor.decode("latin-1", "replace")
+        valor = texto
+
+    try:
+        if valor[:1] == u"\ufeff":
+            valor = valor[1:]
+    except Exception:
+        pass
+    return valor
 
 
 def _normalizar(objeto):
