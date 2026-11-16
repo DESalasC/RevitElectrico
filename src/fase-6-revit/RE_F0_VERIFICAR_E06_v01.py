@@ -196,34 +196,48 @@ def evaluar_veredicto(instancias):
         p=proporcion * 100.0)
 
 
-def _a_texto(valor):
-    """Deja el valor en una forma que JSON pueda serializar sin ambiguedad.
-
-    No clasifica tipos (en IronPython 2.7 ni ``hasattr(decode)`` ni ``isinstance(bytes)``
-    ni comparar contra ``unicode`` resultaron fiables): prueba el dato. Si se puede
-    codificar en ASCII ya es seguro; si no, se intenta decodificar como bytes con
-    utf-8, cp1252 y latin-1. Se elimina el BOM inicial (U+FEFF), que rompe la
-    comparacion exacta de nombres.
-    """
+def _json_seguro(texto):
+    """True si el valor se puede serializar con ensure_ascii=True (se valida, no se supone)."""
     try:
-        valor.encode("ascii")
-        return valor
+        json.dumps(texto, ensure_ascii=True)
+        return True
     except Exception:
-        pass
+        return False
 
+
+def _a_texto(valor):
+    """Deja el valor serializable: decodifica si se puede y verifica el resultado con json.
+
+    En IronPython 2.7 fallaron como discriminadores ``hasattr(decode)``,
+    ``isinstance(bytes)``, ``tipo_texto = unicode`` y la sonda ``encode('ascii')``.
+    Por eso ya no se clasifica el tipo: se decodifica y se comprueba con la propia
+    biblioteca json; si aun asi no pasa, se usa ``repr`` (siempre ASCII).
+    """
+    texto = valor
     for codec in ("utf-8", "cp1252", "latin-1"):
         try:
-            valor = valor.decode(codec)
+            texto = valor.decode(codec)
             break
         except Exception:
+            texto = valor
             continue
 
+    if not _json_seguro(texto):
+        try:
+            texto = repr(valor)
+            if texto[:2] in ("b'", 'b"'):
+                texto = texto[2:]
+            if texto.endswith(("'", '"')):
+                texto = texto[:-1]
+        except Exception:
+            texto = repr(Exception("valor_no_serializable"))
+
     try:
-        if valor[:1] == u"\ufeff":
-            valor = valor[1:]
+        if texto[:1] == u"\ufeff":
+            texto = texto[1:]
     except Exception:
         pass
-    return valor
+    return texto
 
 
 def _normalizar(objeto):

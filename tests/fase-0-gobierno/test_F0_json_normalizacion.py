@@ -30,7 +30,7 @@ SCRIPTS = {
     "verificador_uniqueid": RAIZ / "RE_F0_VERIFICAR_E06_v02.py",
 }
 
-FUNCIONES = ("_a_texto", "_normalizar")
+FUNCIONES = ("_json_seguro", "_a_texto", "_normalizar")
 
 
 def cargar_funciones(ruta: Path, nombres: tuple[str, ...] = FUNCIONES) -> dict:
@@ -41,7 +41,8 @@ def cargar_funciones(ruta: Path, nombres: tuple[str, ...] = FUNCIONES) -> dict:
     assert not faltantes, "Faltan funciones en {ruta}: {f}".format(ruta=ruta, f=sorted(faltantes))
 
     modulo = ast.Module(body=nodos, type_ignores=[])
-    espacio: dict = {}
+    # El espacio debe incluir json: _json_seguro lo usa para validar el resultado.
+    espacio: dict = {"json": json}
     exec(compile(modulo, str(ruta), "exec"), espacio)
     return espacio
 
@@ -90,11 +91,25 @@ def _usa_isinstance_bytes(fuente: str) -> bool:
     return False
 
 
-def test_usa_prueba_de_seguridad_ascii(ruta_actual: Path) -> None:
-    """Regresion triple: hasattr(decode), isinstance(bytes) y unicode fallaron en Revit."""
+def test_valida_con_json_antes_de_devolver(ruta_actual: Path) -> None:
+    """Los cuatro discriminadores de tipo fallaron en IronPython: se valida el resultado."""
     fuente = ruta_actual.read_text(encoding="utf-8")
-    assert 'valor.encode("ascii")' in fuente
+    assert "def _json_seguro(" in fuente
+    assert "_json_seguro(texto)" in fuente
     assert not _usa_isinstance_bytes(fuente)
+
+
+def test_valor_no_serializable_cae_a_repr(funciones: dict) -> None:
+    """Ultima red: si json no puede con el valor, se usa repr (siempre ASCII)."""
+
+    class NoSerializable(object):
+        def __repr__(self):
+            return "RARO<1>"
+
+    salida = funciones["_a_texto"](NoSerializable())
+
+    assert salida == "RARO<1>"
+    assert json.dumps(salida, ensure_ascii=True)
 
 
 def test_bytes_ascii_tambien_se_normalizan(funciones: dict) -> None:

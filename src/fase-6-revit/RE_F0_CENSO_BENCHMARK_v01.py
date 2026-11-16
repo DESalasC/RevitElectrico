@@ -30,7 +30,7 @@ import os
 import time
 
 FEET_PER_METER = 3.280839895
-VERSION_CENSO = "1.2"
+VERSION_CENSO = "1.3"
 
 REPORTE_V13_RELATIVO = os.path.join("data", "colocar_dispositivos_E06_v13_resultado.json")
 SALIDA_RELATIVA = os.path.join("data", "censo_benchmark_v01.json")
@@ -122,44 +122,64 @@ def _longitud_m(elemento):
     return None
 
 
-def _a_texto(valor):
-    """Deja el valor en una forma que JSON pueda serializar sin ambiguedad.
+def _json_seguro(texto):
+    """Devuelve True si ese valor se puede serializar con ensure_ascii=True.
 
-    Historia de este helper (cada intento fallo en Revit por un motivo distinto):
+    Se valida con la misma biblioteca que luego falla, en lugar de suponer que el valor
+    ya es correcto. Es la unica comprobacion que no depende del comportamiento de tipos
+    de IronPython.
+    """
+    try:
+        json.dumps(texto, ensure_ascii=True)
+        return True
+    except Exception:
+        return False
+
+
+def _a_texto(valor):
+    """Deja el valor en una forma que JSON pueda serializar, sin clasificar tipos.
+
+    Historia (cada intento fallo en Revit por un motivo distinto):
 
     1. ``ensure_ascii=False`` escribia en cp1252.
     2. ``hasattr(valor, "decode")`` no distingue: ``unicode`` tambien lo expone.
     3. ``isinstance(valor, bytes)`` devuelve **False** para ``str`` en IronPython 2.7.
-    4. ``tipo_texto = unicode`` tampoco basto: en IronPython hay cadenas que no se dejan
-       clasificar asi y seguian llegando como bytes a ``py_encode_basestring_ascii``.
+    4. ``tipo_texto = unicode`` no cubre todas las cadenas que llegan de Revit.
+    5. ``valor.encode("ascii")`` como sonda tampoco: IronPython no siempre valida.
 
-    Enfoque final, que no clasifica tipos sino que prueba el dato: si el valor se puede
-    codificar en ASCII, ya es seguro para JSON; si no, se intenta decodificar como bytes
-    con utf-8, cp1252 y latin-1 (el ultimo nunca falla). Si nada funciona, se devuelve el
-    original, que en ese punto solo puede ser texto unicode.
+    Enfoque final: decodificar si se puede, y **verificar el resultado con la propia
+    biblioteca json**. Si el valor sigue sin ser serializable, se sustituye por su
+    ``repr`` (siempre ASCII). Asi el resultado es correcto por construccion, no por
+    confianza en el intérprete.
 
     Se elimina ademas el BOM inicial (U+FEFF), que rompe la comparacion exacta de
     nombres de familia y tipo y por tanto el mapeo.
     """
-    try:
-        valor.encode("ascii")
-        return valor
-    except Exception:
-        pass
-
+    texto = valor
     for codec in ("utf-8", "cp1252", "latin-1"):
         try:
-            valor = valor.decode(codec)
+            texto = valor.decode(codec)
             break
         except Exception:
+            texto = valor
             continue
 
+    if not _json_seguro(texto):
+        try:
+            texto = repr(valor)
+            if texto[:2] in ("b'", 'b"'):
+                texto = texto[2:]
+            if texto.endswith(("'", '"')):
+                texto = texto[:-1]
+        except Exception:
+            texto = repr(Exception("valor_no_serializable"))
+
     try:
-        if valor[:1] == u"\ufeff":
-            valor = valor[1:]
+        if texto[:1] == u"\ufeff":
+            texto = texto[1:]
     except Exception:
         pass
-    return valor
+    return texto
 
 
 def _normalizar(objeto):
