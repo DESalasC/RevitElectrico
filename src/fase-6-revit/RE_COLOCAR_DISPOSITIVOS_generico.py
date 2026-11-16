@@ -37,7 +37,7 @@ MAPEO_DEFAULT = {
     "ELEC-TEL": ("M_Comunicaciones", "Telefono"),
     "ELEC-NET-PAU": ("Consolidation_Point", "CPB24BL"),
     "S3": ("M_Interruptores", "Triple"),
-    "ELEC-CAMPANA": ("M_Zumbador", "Campana Timbre"),
+    "ELEC-CAMPANA": ("M_Timbre", "Campana"),
     "ELEC-TIMBRE": ("M_Pulsador - Interruptor", "Timbre"),
     "ELEC-PANEL": ("E_Panel Distribucion", "EPB25-304C"),
     "ELEC-EXT": ("EA", "M_Extractor"),
