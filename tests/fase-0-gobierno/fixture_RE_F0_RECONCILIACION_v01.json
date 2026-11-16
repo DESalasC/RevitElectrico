@@ -1,0 +1,23 @@
+{
+  "descripcion": "Fixture de F0 - reconciliacion de base documental. Nombres logicos y roles; no contiene rutas de usuario.",
+  "version": "1.0",
+  "documentos": {
+    "vigente": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt",
+    "benchmark": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt",
+    "historicos": [
+      "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt",
+      "E06_BASE_LIMPIO_2026-11-12.rvt"
+    ]
+  },
+  "contenido_prueba": {
+    "vigente": "RVT-VIGENTE-CONTENIDO-DE-PRUEBA",
+    "benchmark": "RVT-BENCHMARK-CONTENIDO-DE-PRUEBA",
+    "historico": "RVT-HISTORICO-CONTENIDO-DE-PRUEBA"
+  },
+  "esperado": {
+    "roles": ["vigente", "benchmark", "historico", "historico"],
+    "documentos_declarados": 4,
+    "codigo_salida_ok": 0,
+    "codigo_salida_falta_vigente": 2
+  }
+}

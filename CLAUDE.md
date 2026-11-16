@@ -8,6 +8,8 @@ Directorio de trabajo: `D:\Work\PROJECTS\RevitElectrico\`.
 Objetivo: llevar la información eléctrica 2D (comunicaciones, circuitos, cableado, paneles, aparatos, acometidas) de los planos DWG/DXF a un modelo eléctrico 3D en Revit 2026, para validación de interferencias y coordinación interna.
 
 **Estado Fase 6 (2026-10-24 — desarrollo desde cero sobre V00):**
+
+> **Nota F0 (2026-11-15):** este bloque describe el arranque de Fase 6 y está **superado**. El estado vigente está en el panel del vault (`RE-00-panel`) y en el cierre más reciente. Se conserva como registro histórico.
 - Documento origen: `E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V00.rvt` (vacío, plantilla Electrical MEP métrica, niveles adecuados, referencia DXF en "Piso 5").
 - Nivel "Piso 5": elevación 43.3727 m (confirmado en V00).
 - 0 FamilyInstance modeladas (desde cero, sin arrastrar errores previos).
@@ -23,6 +25,7 @@ Objetivo: llevar la información eléctrica 2D (comunicaciones, circuitos, cable
 - **Insumo de dibujo:** `D:\Work\PROJECTS\Actuales\T5-SantaMarta` es un proyecto de dibujo que se usa como base. **Es de solo lectura: no se modifica nada allí.**
 - **Archivos de trabajo:** `D:\Work\PROJECTS\RevitElectrico\ArchivosBase`.
 - **V03 no es "documento canónico":** `E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt` es un **archivo de trabajo** y la base para trabajar proyectos distintos de T5-SantaMarta. Esa base puede cambiar de un proyecto a otro; no se declara inmutable ni se congela.
+- **Documento vigente (D7, F0 2026-11-15):** `STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt`. Benchmark de contraste: `E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt`. `V03` y `E06_BASE_LIMPIO_2026-11-12` quedan como histórico con hash registrado en `data/baseline_hashes.json`.
 - **Datum:** `Z_absoluta = nivel.Elevation + altura_local`. El nivel "Piso 5" tiene elevación 43.3727 m.
 
 
@@ -66,6 +69,36 @@ python -m venv .venv
 - **Apartamentos F 01 y F 02 son referencia intocable.** Están modelados directamente en Revit (incluida la tubería y sus componentes) para servir de referencia válida de localización. **No se modifican, mueven, recrean ni borran.** Todo el trabajo se hace sobre los demás apartamentos.
 - **Método de posicionamiento: tablero-anclaje.** El panel eléctrico ya bien ubicado de cada apartamento es el origen; los demás componentes se colocan relativos a él (ver `data/procedimiento_tablero_anclaje_apartamentos_v01.md`).
 - **No mover conduits existentes** al reposicionar dispositivos; los conduits se recrean después de validar posiciones.
+
+## Lecciones de API Revit (obligatorias desde F0 2026-11-15)
+
+Cada una viene de un fallo con evidencia registrada. No son recomendaciones de estilo.
+
+1. **La sobrecarga de inserción se elige por `Family.FamilyPlacementType`, no por conveniencia.**
+   `OneLevelBasedHosted` / `TwoLevelsBased` → `NewFamilyInstance(XYZ, sym, host, StructuralType)`.
+   `WorkPlaneBased` → `NewFamilyInstance(face_ref, XYZ, dir, sym)` con `dir` perpendicular a la normal.
+   `OneLevelBased` → `NewFamilyInstance(XYZ, sym, StructuralType)` **sin nivel** (Z absoluta).
+   Los valores del enum **no incluyen** `WallBased` ni `FaceBased`: no usarlos en JSON ni en código.
+2. **`LevelId` es read-only** en `FamilyInstance`. No se asigna después de crear. Para trazabilidad: `UniqueId` + parámetro de lote.
+3. **Crear con `Level` interpreta la Z como offset** del nivel. Para Z absoluta, crear sin nivel.
+4. **`INSTANCE_ELEVATION_PARAM` y `SCHEDULE_ONLY_LEVEL_PARAM` sí son escribibles**: con ellos se declara la altura y el nivel sin tocar geometría.
+5. **Rotación: si la familia es hosted, se hereda del host.** El delta por familia solo se aplica cuando no hay host; en familias hosted el delta esperado es 0 y sirve para verificar, no para corregir.
+6. **`Location` de cielorrasos puede no exponer `Point` ni `Curve`** en IronPython 2.7 (556 de 559 en el modelo). Usar `get_BoundingBox(None)` como respaldo.
+7. **`GetFamilySymbolIds()` devuelve `HashSet`**: no es indexable. Usar `next(iter(ids))`.
+8. **`FamilySymbol.Activate()`** es obligatorio antes de crear una instancia con un símbolo inactivo.
+9. **`OK` se emite midiendo** `Host.Id`, `loc.Z`, rotación y ΔXY. Ausencia de excepción no es calidad.
+10. **Tres umbrales distintos, nunca confundidos:** `0,10 m` dedup · `0,02 m` aceptación · `0,05 m` aviso.
+
+## Convención de directorios y datos (D15, F0 2026-11-15)
+
+| Carpeta | Contenido | Se regenera |
+|---|---|---|
+| `config/` | reglas y capacidades de familia (entradas del motor, revisables) | al cambiar una regla |
+| `data/referencia/` | ground truth minado del benchmark (`expected_*`, `capacidades_*`) | solo si cambia el benchmark |
+| `data/` | reportes, diffs, veredictos de cada corrida | en cada ejecución |
+| `_historico/` | scripts y documentos retirados, con motivo | nunca |
+
+Regla: **nunca se edita a mano** un archivo de `data/referencia/`; si un valor está mal, se vuelve a minar. Todo valor lleva su origen (`medido_benchmark`, `medido_modelo`, `pendiente_medicion`).
 
 ## Normativa
 
@@ -127,6 +160,10 @@ echo $env:REVITELECTRICO_ROOT
 # Tests (usar el venv dedicado de RevitElectrico)
 cd D:\Work\PROJECTS\RevitElectrico
 .venv\Scripts\python.exe -m pytest tests/
+
+# F0 - linea base (sin abrir Revit)
+.venv\Scripts\python.exe src\fase-0-gobierno\RE_F0_RECONCILIACION_v01.py
+.venv\Scripts\python.exe src\fase-0-gobierno\RE_F0_SONDA_CANAL_v01.py
 
 # Scripts externos (Python 3.12, venv propio de RevitElectrico)
 & "$env:REVITELECTRICO_ROOT\.venv\Scripts\python.exe" src\fase-1-contexto\RE1_NORMALIZA_DXF_v01.py ...

@@ -1,0 +1,51 @@
+{
+  "documentos": [
+    {
+      "archivo": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt",
+      "bytes": 391950336,
+      "encontrado": true,
+      "mtime_iso": "2026-11-14T19:26:56",
+      "rol": "vigente",
+      "ruta_relativa": "ArchivosBase\\STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt",
+      "sha256": "9f6d8b9b151705d00ad55492171181764065470c52a66bc3e3ac578f3d824f72"
+    },
+    {
+      "archivo": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt",
+      "bytes": 443838464,
+      "encontrado": true,
+      "mtime_iso": "2026-11-14T18:54:47",
+      "rol": "benchmark",
+      "ruta_relativa": "ArchivosBase\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt",
+      "sha256": "dde11619b129bf905b967632531fb24bf596d9746c859c438aedb4bd7019acf3"
+    },
+    {
+      "archivo": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt",
+      "bytes": 442318848,
+      "encontrado": true,
+      "mtime_iso": "2026-11-09T21:13:04",
+      "rol": "historico",
+      "ruta_relativa": "ArchivosBase\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt",
+      "sha256": "1e49362563b509f325efc51be3ddad61f1639eb110511e99fb01971c4fe6b395"
+    },
+    {
+      "archivo": "E06_BASE_LIMPIO_2026-11-12.rvt",
+      "bytes": 442408960,
+      "encontrado": true,
+      "mtime_iso": "2026-11-11T23:26:41",
+      "rol": "historico",
+      "ruta_relativa": "ArchivosBase\\E06_BASE_LIMPIO_2026-11-12.rvt",
+      "sha256": "0c13a20d3466e149472cf3975fd2d2592f97c95456ca5c9ffb1f10ff9bd87116"
+    }
+  ],
+  "generado": "2026-11-15T19:33:06",
+  "proyecto": "RE",
+  "verificaciones": {
+    "advertencias": [],
+    "benchmark_distinto_vigente": true,
+    "documentos_declarados": 4,
+    "documentos_encontrados": 4,
+    "sin_hashes_duplicados": true,
+    "todos_obligatorios_presentes": true
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,25 @@
+{
+  "evaluacion": {
+    "disponible": false,
+    "modo": "ninguno",
+    "recomendacion": "Continuar con runbook de consola (bloques numerados). No bloquea fases."
+  },
+  "fase": "F0 / Track T",
+  "generado": "2026-11-15T19:33:12",
+  "nota": "Sonda no bloqueante. Si no hay canal, el trabajo continua con el runbook de consola; Track T no condiciona ninguna fase.",
+  "pipes": {
+    "encontrados": [],
+    "filtro": "pyrevit",
+    "raiz": "\\\\.\\pipe\\",
+    "total": 0
+  },
+  "proyecto": "RE",
+  "tcp_mcp": {
+    "error": "ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it",
+    "host": "127.0.0.1",
+    "latencia_ms": 2028.8,
+    "puerto": 19682,
+    "responde": false
+  },
+  "version": "1.0"
+}

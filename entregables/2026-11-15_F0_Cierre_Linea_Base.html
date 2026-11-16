@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RevitElectrico — Cierre F0</title>
+<style>
+  :root{
+    --ink:#14181f;--ink-2:#3d4653;--ink-3:#68727f;
+    --line:#d9dee6;--line-2:#eef1f5;--paper:#fff;--paper-2:#f6f8fa;
+    --accent:#b45309;--accent-soft:#fdf4e7;--ok:#0f766e;--ok-soft:#e8f5f3;--warn:#a16207;--warn-soft:#fef8e7;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:0 24px 64px;background:var(--paper-2);color:var(--ink);
+    font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.6}
+  .wrap{max-width:1040px;margin:0 auto}
+  header{padding:40px 0 22px;border-bottom:2px solid var(--ink)}
+  .kicker{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:9px}
+  h1{margin:0 0 6px;font-size:29px;letter-spacing:-.015em}
+  .sub{color:var(--ink-2);margin:0;max-width:78ch}
+  .meta{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:14px;font-size:12.5px;color:var(--ink-3)}
+  .meta b{color:var(--ink-2);font-weight:600}
+  .pill{display:inline-block;padding:2px 9px;border-radius:99px;background:var(--ok-soft);color:var(--ok);font-size:11.5px;font-weight:700}
+  section{margin-top:34px}
+  h2{font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);font-weight:700;margin:0 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+  table{width:100%;border-collapse:collapse;background:var(--paper);font-size:13px}
+  th,td{text-align:left;padding:8px 11px;border-bottom:1px solid var(--line-2);vertical-align:top}
+  thead th{background:#f0f3f7;border-bottom:1px solid var(--line);font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);font-weight:700}
+  tbody tr:last-child td{border-bottom:none}
+  .mono{font-family:"Cascadia Code",Consolas,Menlo,monospace;font-size:11.5px;word-break:break-all}
+  .ok{color:var(--ok);font-weight:700}
+  .bad{color:#b42318;font-weight:700}
+  .role{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:1px 6px;border-radius:2px}
+  .r-vig{background:#e8f5f3;color:#0f766e}
+  .r-ben{background:#fdf4e7;color:#b45309}
+  .r-his{background:#eef1f5;color:#68727f}
+  .note{background:var(--warn-soft);border-left:3px solid var(--warn);padding:12px 16px;font-size:13.5px;color:#4a3a10;margin-top:12px}
+  .okbox{background:var(--ok-soft);border-left:3px solid var(--ok);padding:12px 16px;font-size:13.5px;color:#0d4a45}
+  ul.tight{margin:6px 0 0;padding-left:20px}
+  ul.tight li{margin-bottom:4px}
+  code{font-family:"Cascadia Code",Consolas,Menlo,monospace;font-size:.86em;background:#eef1f5;padding:1px 4px;border-radius:3px}
+  footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--line);font-size:12.5px;color:var(--ink-3)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">RevitElectrico · Fase 0 · Reconciliación de base</div>
+  <h1>Cierre F0 — línea base reproducible</h1>
+  <p class="sub">
+    Hashes de los cuatro documentos, verificación de integridad y sonda del canal de ejecución.
+    F0 deja el proyecto en un punto de partida demostrable: cualquier corrida posterior puede
+    probar contra qué archivo se hizo.
+  </p>
+  <div class="meta">
+    <span><b>Fecha</b> 2026-11-15</span>
+    <span><b>Decisiones</b> D7–D15 aprobadas</span>
+    <span><b>Tag</b> baseline-f0-2026-11-15</span>
+    <span class="pill">F0 ejecutada · 1 pendiente que requiere Revit</span>
+  </div>
+</header>
+
+<section>
+  <h2>Documentos y hashes</h2>
+  <table>
+    <thead><tr><th style="width:78px">Rol</th><th>Archivo</th><th style="width:80px">Tamaño</th><th>SHA256</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><span class="role r-vig">vigente</span></td>
+        <td>STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt</td>
+        <td>373,8 MB</td>
+        <td class="mono">9f6d8b9b151705d00ad55492171181764065470c52a66bc3e3ac578f3d824f72</td>
+      </tr>
+      <tr>
+        <td><span class="role r-ben">benchmark</span></td>
+        <td>E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt</td>
+        <td>423,3 MB</td>
+        <td class="mono">dde11619b129bf905b967632531fb24bf596d9746c859c438aedb4bd7019acf3</td>
+      </tr>
+      <tr>
+        <td><span class="role r-his">histórico</span></td>
+        <td>E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt</td>
+        <td>421,8 MB</td>
+        <td class="mono">1e49362563b509f325efc51be3ddad61f1639eb110511e99fb01971c4fe6b395</td>
+      </tr>
+      <tr>
+        <td><span class="role r-his">histórico</span></td>
+        <td>E06_BASE_LIMPIO_2026-11-12.rvt</td>
+        <td>421,9 MB</td>
+        <td class="mono">0c13a20d3466e149472cf3975fd2d2592f97c95456ca5c9ffb1f10ff9bd87116</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Verificaciones</h2>
+  <table>
+    <thead><tr><th>Condición</th><th style="width:110px">Resultado</th><th>Lectura</th></tr></thead>
+    <tbody>
+      <tr><td>Los cuatro documentos declarados existen</td><td class="ok">CUMPLE</td><td>4 de 4 encontrados y legibles</td></tr>
+      <tr><td>Ninguno está vacío</td><td class="ok">CUMPLE</td><td>tamaños entre 373,8 y 423,3 MB</td></tr>
+      <tr><td>Benchmark distinto del vigente</td><td class="ok">CUMPLE</td><td>hashes distintos: son comparables</td></tr>
+      <tr><td>Sin hashes duplicados</td><td class="ok">CUMPLE</td><td>cuatro identidades distintas; no hay copias encubiertas</td></tr>
+    </tbody>
+  </table>
+  <div class="okbox" style="margin-top:12px">
+    <b>Línea base fijada.</b> El vigente y el benchmark tienen identidad propia y verificable,
+    que es la condición para que el minado de F1 y el diff de F2 signifiquen algo.
+  </div>
+</section>
+
+<section>
+  <h2>Sonda del canal de ejecución (Track T)</h2>
+  <table>
+    <thead><tr><th>Canal</th><th style="width:130px">Estado</th><th>Detalle</th></tr></thead>
+    <tbody>
+      <tr><td>Named pipes <code>*pyrevit*</code></td><td class="bad">0 encontrados</td><td>Se enumeraron 263 pipes del sistema; ninguno corresponde a un agent host de pyRevit</td></tr>
+      <tr><td>TCP <code>127.0.0.1:19682</code></td><td class="bad">no responde</td><td>Puente MCP histórico inactivo</td></tr>
+      <tr><td>Modo resultante</td><td>ninguno</td><td>Se continúa con runbook de consola (bloques numerados)</td></tr>
+    </tbody>
+  </table>
+  <div class="note">
+    <b>No es un bloqueo.</b> Track T estaba definido como no bloqueante: si no hay canal, se usa el
+    runbook. Lo que se gana es el dato —sin Revit abierto no hay pipe, y eso evita perseguir un canal
+    inexistente en la próxima sesión.
+  </div>
+</section>
+
+<section>
+  <h2>Lo que se corrigió de paso (y no estaba en el plan)</h2>
+  <ul class="tight">
+    <li><b>`basetemp` no es una clave válida de `pytest.ini`</b> en pytest 9: emite warning y se ignora.
+        La nota del vault afirmaba lo contrario. Corregido con evidencia.</li>
+    <li>La carpeta <code>.pytest_temps</code> quedó con una <b>ACL rota</b> (no se puede ni leer con
+        <code>Get-Acl</code>; su borrado falla sin procesos abiertos). No se puede reparar sin
+        administrador. <code>conftest.py</code> ahora usa <code>.pytest_tmp/run-&lt;pid&gt;</code>,
+        con limpieza best-effort a 24 h.</li>
+    <li>Se añadieron <code>.pytest_temps/</code> y <code>.pytest_tmp/</code> a <code>.gitignore</code>.</li>
+    <li>Resultado: <b>23/23 tests</b> en <code>tests/fase-0-gobierno/</code>.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Pendiente de F0 (requiere Revit abierto)</h2>
+  <p style="margin:0 0 8px">
+    El veredicto del lote E06 (RE-P-051) no se puede emitir sin Revit: el script
+    <code>RE_F0_VERIFICAR_E06_v01.py</code> es de solo lectura y decide entre
+    <code>conservar</code> / <code>descartar</code> / <code>revisar</code> / <code>no_encontrado</code>
+    midiendo host, nivel y Z. <b>No se inventa un veredicto.</b>
+  </p>
+  <table>
+    <thead><tr><th style="width:190px">Requisito</th><th>Valor</th></tr></thead>
+    <tbody>
+      <tr><td>Documento</td><td>CENTRAL-V01 (<span class="mono">9f6d8b9b…</span>)</td></tr>
+      <tr><td>Lote</td><td class="mono">46c3f138-025d-47d4-b24a-41cd21181a58</td></tr>
+      <tr><td>Salida</td><td><code>data/veredicto_e06_v01.json</code></td></tr>
+      <tr><td>Modo</td><td>solo lectura, sin transacciones</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Artefactos</h2>
+  <table>
+    <thead><tr><th>Archivo</th><th>Contenido</th></tr></thead>
+    <tbody>
+      <tr><td><code>data/baseline_hashes.json</code></td><td>hash, bytes y fecha de los cuatro documentos</td></tr>
+      <tr><td><code>data/baseline_manifest.json</code></td><td>manifiesto con la decisión D7 y los roles</td></tr>
+      <tr><td><code>data/sonda_canal_v01.json</code></td><td>resultado de Track T</td></tr>
+      <tr><td><code>src/fase-0-gobierno/RE_F0_RECONCILIACION_v01.py</code></td><td>CPython 3.12 · hashes y manifiesto</td></tr>
+      <tr><td><code>src/fase-0-gobierno/RE_F0_SONDA_CANAL_v01.py</code></td><td>CPython 3.12 · Track T</td></tr>
+      <tr><td><code>src/fase-6-revit/RE_F0_VERIFICAR_E06_v01.py</code></td><td>IronPython 2.7 · solo lectura</td></tr>
+      <tr><td><code>tests/fase-0-gobierno/</code></td><td>23 tests + 2 fixtures JSON</td></tr>
+      <tr><td><code>_historico/README.md</code></td><td>regla de retiro (D14/D15)</td></tr>
+      <tr><td><code>data/referencia/README.md</code></td><td>convención ground truth (D15)</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Siguiente: F1</h2>
+  <ul class="tight">
+    <li>Abrir <code>CENTRA_V02-f.rvt</code> <b>en lectura</b> y exportar <code>benchmark_raw.json</code>.</li>
+    <li>Cerrar sin guardar y verificar que su hash sigue siendo <span class="mono">dde11619…</span>.</li>
+    <li>Sonda de <code>FamilyPlacementType</code> por familia (16 del mapeo).</li>
+    <li>Minar <code>delta_rot_deg</code> y <code>offset_local_m</code>; marcar las ausentes como
+        <code>pendiente_medicion</code>.</li>
+    <li>Producir <code>expected_F01/F02/E06.json</code> en <code>data/referencia/</code>.</li>
+  </ul>
+</section>
+
+<footer>
+  Proyecto RevitElectrico · F0 · 2026-11-15 · Los hashes provienen de ejecución real de
+  <code>RE_F0_RECONCILIACION_v01.py</code>; la sonda, de <code>RE_F0_SONDA_CANAL_v01.py</code>.
+</footer>
+
+</div>
+</body>
+</html>

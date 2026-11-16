@@ -1,0 +1,26 @@
+{
+  "descripcion": "Fixture de F0 - sonda del canal de ejecucion. Nombres de pipe y puertos, sin rutas de usuario.",
+  "version": "1.0",
+  "pipes": {
+    "filtro": "pyrevit",
+    "muestra": [
+      "pyrevit-agent-5064",
+      "pyrevit-agent-7788",
+      "otro-canal-ajeno"
+    ],
+    "esperados": [
+      "pyrevit-agent-5064",
+      "pyrevit-agent-7788"
+    ]
+  },
+  "tcp": {
+    "host": "127.0.0.1",
+    "puerto_cerrado": 1,
+    "timeout_s": 1.0
+  },
+  "esperado": {
+    "modo_sin_canal": "ninguno",
+    "modo_solo_pipe": "pipe",
+    "disponible_sin_canal": false
+  }
+}

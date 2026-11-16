@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RevitElectrico — Revisión v2.1</title>
+<style>
+  :root{
+    --ink:#14181f; --ink-2:#3d4653; --ink-3:#68727f;
+    --line:#d9dee6; --line-2:#eef1f5;
+    --paper:#fff; --paper-2:#f6f8fa;
+    --accent:#b45309; --accent-soft:#fdf4e7;
+    --ok:#0f766e; --ok-soft:#e8f5f3;
+    --warn:#a16207; --warn-soft:#fef8e7;
+    --bad:#b42318; --bad-soft:#fdf0ee;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:0 24px 72px;background:var(--paper-2);color:var(--ink);
+    font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-size:15px;line-height:1.62;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1060px;margin:0 auto}
+  header{padding:42px 0 24px;border-bottom:2px solid var(--ink)}
+  .kicker{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px}
+  h1{margin:0 0 8px;font-size:30px;line-height:1.2;letter-spacing:-.015em}
+  .sub{color:var(--ink-2);font-size:16px;max-width:80ch;margin:0}
+  .meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:16px;font-size:12.5px;color:var(--ink-3)}
+  .meta b{color:var(--ink-2);font-weight:600}
+  .pill{display:inline-block;padding:2px 9px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-size:11.5px;font-weight:700}
+  section{margin-top:40px}
+  h2{font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);font-weight:700;margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  h3{font-size:16.5px;margin:24px 0 6px;letter-spacing:-.01em}
+  .lead{font-size:15.5px;color:var(--ink-2);max-width:90ch;margin:0 0 10px}
+  .lead strong{color:var(--ink)}
+  code{font-family:"Cascadia Code",Consolas,Menlo,monospace;font-size:.86em;background:#eef1f5;padding:1.5px 5px;border-radius:3px;color:#1f2937}
+  pre{background:#1b2129;color:#e6eaef;padding:14px 16px;border-radius:4px;overflow-x:auto;font-size:12.5px;line-height:1.55;margin:10px 0}
+  pre code{background:none;color:inherit;padding:0;font-size:1em}
+  table{width:100%;border-collapse:collapse;background:var(--paper);font-size:13.5px;margin:0 0 4px}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line-2);vertical-align:top}
+  thead th{background:#f0f3f7;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);font-weight:700}
+  tbody tr:last-child td{border-bottom:none}
+  .corr{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:2px;padding:16px 20px;margin-bottom:12px}
+  .corr .tag{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:5px}
+  .corr p{margin:0 0 8px}
+  .corr p:last-child{margin-bottom:0}
+  .evid{background:#eef1f5;border-radius:3px;padding:9px 12px;font-size:12.5px;color:var(--ink-2);margin:8px 0}
+  .evid b{color:var(--ink)}
+  .note{background:var(--warn-soft);border-left:3px solid var(--warn);padding:12px 16px;font-size:13.5px;color:#4a3a10;margin:12px 0}
+  .okbox{background:var(--ok-soft);border-left:3px solid var(--ok);padding:12px 16px;font-size:13.5px;color:#0d4a45}
+  .badbox{background:var(--bad-soft);border-left:3px solid var(--bad);padding:12px 16px;font-size:13.5px;color:#5c1710}
+  ul.tight{margin:6px 0 0;padding-left:20px}
+  ul.tight li{margin-bottom:4px}
+  .dec{background:var(--paper);border:1px solid var(--line);border-radius:2px;margin-bottom:10px}
+  .drow{display:grid;grid-template-columns:54px 1fr 1.25fr 96px;gap:10px;padding:9px 16px;border-bottom:1px solid var(--line-2);font-size:13.5px}
+  .drow:last-child{border-bottom:none}
+  .drow .id{font-weight:700;color:var(--ink-3);font-variant-numeric:tabular-nums}
+  .drow .rec{color:var(--ok);font-weight:600}
+  .drow .st{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+  .drow .st.crit{color:var(--bad)}
+  footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--ink-3)}
+  footer a{color:var(--accent);text-decoration:none}
+  @media(max-width:780px){.drow{grid-template-columns:1fr}}
+  @media print{body{background:#fff;padding:0;font-size:10.8pt}section{margin-top:24px;break-inside:avoid}.corr,.dec{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">RevitElectrico · Revisión de la propuesta v2</div>
+  <h1>Plan de desarrollo v2.1</h1>
+  <p class="sub">
+    Se acepta el fondo del análisis: la v2 es correcta y debe aprobarse. Esta revisión corrige
+    <b>seis puntos</b> verificados contra el disco y contra la documentación de la API, antes de que
+    se conviertan en código.
+  </p>
+  <div class="meta">
+    <span><b>Fecha</b> 2026-11-15</span>
+    <span><b>Revisa</b> Analisis_Propuesta_v2_Recomendacion.pdf</span>
+    <span><b>Enmienda</b> Propuesta v2</span>
+    <span class="pill">Sustituye a la v2 · D7–D15</span>
+  </div>
+</header>
+
+<section>
+  <h2>1 · Veredicto</h2>
+  <p class="lead">
+    El análisis acierta en lo importante: <strong>H1, H2 y H3 son errores reales</strong> del plan v1 y del
+    script v70, y las decisiones D9, D10 y D11 son condiciones de arranque, no mejoras.
+    El contrato de cinco etapas y las tolerancias jerarquizadas también se aceptan sin cambios.
+  </p>
+  <div class="okbox">
+    <b>Se aprueba:</b> el diagnóstico, el contrato de colocación, las tolerancias 0,02 / 0,05 / 0,10,
+    el sprint F0+F1 → F2 y la renumeración de las siete fases del PDF como F2–F8.
+  </div>
+</section>
+
+<section>
+  <h2>2 · Seis correcciones</h2>
+
+  <div class="corr">
+    <div class="tag">C1 · El enum no tiene esos valores</div>
+    <p>
+      El Anexo B del análisis propone guardar <code>"family_placement_type": "WallBased"</code>.
+      Ese valor <b>no existe</b>. Los miembros reales son diez, y dos de ellos son los que importan:
+      <code>OneLevelBasedHosted</code> (el caso de las familias de muro) y
+      <code>WorkPlaneBased</code> («sobre plano de trabajo <i>o cara</i>», el caso face-based).
+      Además es <code>TwoLevelsBased</code>, con «s».
+    </p>
+    <div class="evid">
+      <b>Fuente:</b> FamilyPlacementType Enumeration — OneLevelBased · OneLevelBasedHosted · TwoLevelsBased ·
+      ViewBased · WorkPlaneBased · CurveBased · CurveBasedDetail · CurveDrivenStructural · Adaptive · Invalid.
+    </div>
+    <p>
+      Si el JSON guarda un alias, el código no puede compararlo contra el enum sin una tabla de traducción
+      que nadie mantiene. Se guarda el nombre real más un campo derivado:
+    </p>
+    <pre><code>{
+  "familia": "M_Toma doble",
+  "family_placement_type": "OneLevelBasedHosted",
+  "sobrecarga": "host_element",
+  "verificado_en_api": true
+}</code></pre>
+    <p class="lead" style="font-size:14px;margin-bottom:0">
+      <code>sobrecarga ∈ {host_element, face_ref, sin_host}</code>. Un valor raro
+      (<code>Adaptive</code>, <code>CurveBased</code>) salta a la vista en lugar de pasar desapercibido.
+    </p>
+  </div>
+
+  <div class="corr">
+    <div class="tag">C2 · H1 incompleto: el tipo decide la sobrecarga <i>y</i> la Z</div>
+    <p>
+      «El problema es de tipo de familia» es cierto pero incompleto. El tipo determina qué sobrecarga es
+      legal; la sobrecarga determina cómo se interpreta la Z. Van juntas:
+    </p>
+    <table>
+      <thead><tr><th>PlacementType</th><th>Sobrecarga legal</th><th>Z</th></tr></thead>
+      <tbody>
+        <tr><td><code>OneLevelBasedHosted</code> / <code>TwoLevelsBased</code></td><td><code>NewFamilyInstance(pt, sym, host, StructuralType)</code></td><td>relativa al nivel del host → <code>INSTANCE_ELEVATION_PARAM</code></td></tr>
+        <tr><td><code>WorkPlaneBased</code></td><td><code>NewFamilyInstance(face_ref, pt, dir, sym)</code></td><td>del plano de la cara</td></tr>
+        <tr><td><code>OneLevelBased</code></td><td><code>NewFamilyInstance(pt, sym, StructuralType)</code> sin nivel</td><td><b>absoluta mundial</b> (modo E06/v13)</td></tr>
+      </tbody>
+    </table>
+    <p class="lead" style="font-size:14px;margin:8px 0 0">
+      Regla: <b>la sobrecarga se elige por tipo; la Z se corrige por parámetro, no por geometría.</b>
+      Mezclar ambas decisiones en un solo <code>if</code> fue el origen de v11, v12 y v69.
+    </p>
+  </div>
+
+  <div class="corr">
+    <div class="tag">C3 · H2 aplicado tal cual introduce un error nuevo</div>
+    <p>
+      En familias <b>hosted</b>, Revit <b>hereda la orientación del host</b> al crear la instancia, y el
+      parámetro de rotación es relativo al muro. Si además se suma un delta calculado desde la normal,
+      el giro se aplica <b>dos veces</b>. El delta solo hace falta cuando no hay host:
+    </p>
+    <pre><code>si placement_type es hosted:
+    rot = heredada del host            # no se toca
+    validar: delta_esperado == 0
+
+si placement_type es no-hosted:
+    rot = round90(normal_muro) + delta_familia
+    delta_familia = mediana(benchmark_rot - round90(normal_muro)) mod 360</code></pre>
+    <p class="lead" style="font-size:14px;margin-bottom:0">
+      El minado sirve para dos cosas distintas: fijar el delta cuando no hay host, y
+      <b>verificar que es cero</b> cuando sí lo hay. Si en una familia hosted el delta medido no es 0,
+      el problema está en la familia, no en el script.
+    </p>
+  </div>
+
+  <div class="corr">
+    <div class="tag">C4 · Sin D12 no hay idempotencia, y sin idempotencia no hay F2</div>
+    <p>
+      El análisis deja D12 (trazabilidad por <code>UniqueId</code> + GUID de lote) como mejora operativa.
+      Pero el gate de F2 exige «segunda corrida: 0 creados, 35 saltados», y esa prueba
+      <b>no es implementable sin registro</b>.
+    </p>
+    <p>
+      El <code>ExistenciaCache</code> que ya existe en v08 hace dedup <b>posicional</b> a 0,10 m en XY:
+      si un dispositivo se movió 0,15 m o cambió de nivel, la segunda corrida crea un duplicado y el gate
+      falla sin que el script tenga un bug.
+    </p>
+    <div class="badbox">
+      <b>Mandato corregido:</b> D9 + D10 + D11 + <b>D12</b>. La trazabilidad es condición de cierre de F2,
+      no una comodidad.
+    </div>
+  </div>
+
+  <div class="corr">
+    <div class="tag">C5 · Falta el paso operativo: hay que abrir el benchmark</div>
+    <p>
+      Ni el plan v1, ni la v2, ni el análisis dicen qué documento debe estar abierto durante F1.
+      <code>V02-f.rvt</code> pesa 443 MB: para minar hay que abrirlo. Secuencia obligatoria:
+    </p>
+    <ul class="tight">
+      <li>Abrir <code>CENTRA_V02-f.rvt</code> <b>en lectura</b>, sin guardar ni sincronizar.</li>
+      <li>Exportar <code>benchmark_raw.json</code>: <code>UniqueId</code>, familia, símbolo, <code>Host.Id</code> y categoría, <code>HostFace</code>, <code>Level.Name</code> y elevación, <code>loc.Z</code>, rotación y parámetros de elevación.</li>
+      <li><b>Cerrar sin guardar</b> y verificar que el hash del benchmark no cambió.</li>
+      <li>Procesar en CPython (sin Revit) → <code>expected_F01/F02/E06.json</code>.</li>
+      <li>Emparejar niveles <b>por nombre + elevación</b>, nunca por <code>ElementId</code>: los ids no cruzan documentos.</li>
+    </ul>
+  </div>
+
+  <div class="corr">
+    <div class="tag">C6 · El gate de F1 no puede exigir 16 familias</div>
+    <p>
+      <code>V02-f.rvt</code> es el modelo manual de F01/F02; puede no contener las 16 familias del mapeo
+      (<code>EA / M_Extractor</code>, <code>Consolidation_Point</code>, <code>E_Panel Distribucion</code>).
+      Gate corregido:
+    </p>
+    <table>
+      <thead><tr><th>Situación</th><th>Regla</th></tr></thead>
+      <tbody>
+        <tr><td>Familia presente en el benchmark</td><td>≥ 3 muestras · dispersión &lt; 5 mm y &lt; 1°</td></tr>
+        <tr><td>Familia ausente o con &lt; 3 muestras</td><td><code>pendiente_medicion</code> + fuente secundaria declarada (E05/E06) + impacto estimado</td></tr>
+        <tr><td>Rellenar con un valor supuesto</td><td><b>Prohibido.</b> Un <code>delta = 0</code> inventado pasa los tests y falla en el modelo</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>3 · Evidencia recogida antes de revisar</h2>
+  <table>
+    <thead><tr><th>Verificación</th><th>Resultado</th></tr></thead>
+    <tbody>
+      <tr><td><code>colocacion_masiva_F01_v70.py</code></td><td><b>No existe</b> en <code>D:\Work</code> ni en el workspace de AutoClaw; <code>git log --all</code> no lo registra</td></tr>
+      <tr><td><code>config_F01.json</code> · <code>test_..._v70.py</code></td><td><b>No existen</b></td></tr>
+      <tr><td><code>_historico/</code></td><td><b>No existe</b> el directorio</td></tr>
+      <tr><td>Scripts F01 en <code>scripts/</code></td><td>v61 · v66 · <b>v68</b> (no hay v69 ni v70)</td></tr>
+      <tr><td>Documentos base</td><td><code>CENTRAL-V01.rvt</code> 14/11 19:26 · <code>CENTRA_V02-f.rvt</code> 14/11 18:54</td></tr>
+      <tr><td>Enum <code>FamilyPlacementType</code></td><td>10 miembros reales; no existen <code>WallBased</code> ni <code>FaceBased</code></td></tr>
+    </tbody>
+  </table>
+  <div class="note">
+    <b>Consecuencia:</b> la acción «archivar v70 en <code>_historico/</code>» no se puede ejecutar porque el
+    archivo no está aquí. Lo valioso no es mover un archivo: es <b>registrar H1 como regla preventiva</b>
+    antes de que alguien la reintroduzca. Si el v70 existe en otra máquina, la instrucción del análisis
+    sigue vigente: <b>no ejecutarlo</b>.
+  </div>
+</section>
+
+<section>
+  <h2>4 · Delta v2 → v2.1</h2>
+  <table>
+    <thead><tr><th>Elemento</th><th>v2</th><th>v2.1</th></tr></thead>
+    <tbody>
+      <tr><td>Valores de <code>FamilyPlacementType</code></td><td>alias inventados</td><td>nombres reales + <code>sobrecarga</code> derivada</td></tr>
+      <tr><td>H2 rotación</td><td>delta aplicado siempre</td><td>heredada si hosted · minada si no hosted</td></tr>
+      <tr><td>D12</td><td>mejora operativa</td><td><b>condición del gate F2</b></td></tr>
+      <tr><td>Mandato</td><td>D9 · D10 · D11</td><td><b>D9 · D10 · D11 · D12</b></td></tr>
+      <tr><td>F1 minado</td><td>implícito</td><td>secuencia operativa explícita</td></tr>
+      <tr><td>Gate F1</td><td>16 familias</td><td>las presentes + <code>pendiente_medicion</code> declarado</td></tr>
+      <tr><td><code>v70</code></td><td>archivar</td><td>no existe → registrar lección (D14)</td></tr>
+      <tr><td>Directorios</td><td><code>config/</code> y <code>data/</code> mezclados</td><td><code>config</code> reglas · <code>data/referencia</code> ground truth · <code>data</code> corridas (D15)</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>5 · F0 especificado, listo para ejecutar</h2>
+  <table>
+    <thead><tr><th style="width:29%">Script</th><th>Contrato</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><code>RE_F0_RECONCILIACION.py</code><br><span style="color:var(--ink-3);font-size:12px">CPython 3.12 · sin Revit</span></td>
+        <td>SHA256 + bytes + mtime de vigente, benchmark e histórico → <code>baseline_hashes.json</code> y <code>baseline_manifest.json</code>. Verifica existencia, tamaño y que benchmark ≠ vigente. No abre Revit, no copia, no mueve, no borra.</td>
+      </tr>
+      <tr>
+        <td><code>RE_F0_VERIFICAR_E06.py</code><br><span style="color:var(--ink-3);font-size:12px">IronPython · dentro de Revit</span></td>
+        <td>Veredicto del lote <code>46c3f138-…</code> (RE-P-051). Busca el parámetro de lote; si no está vinculado, cae a lista de <code>UniqueId</code>. Salida: <code>conservar | descartar | no_encontrado</code> con conteo y Z medida. <b>Solo lectura, sin Transaction.</b></td>
+      </tr>
+      <tr>
+        <td><code>RE_F0_SONDA_CANAL.py</code><br><span style="color:var(--ink-3);font-size:12px">Track T</span></td>
+        <td>Conexión al pipe pyRevit / puente MCP con timeout 3 s. Escribe <code>disponible: true|false</code>. Si falla, se registra y se sigue con runbook de consola. <b>Ninguna fase se bloquea.</b></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="lead" style="margin-top:10px">
+    Cierre de F0: cuatro JSON en disco, tag <code>baseline-f0-2026-11-15</code> y <code>_historico/</code>
+    creado vacío con su <code>README.md</code>.
+  </p>
+</section>
+
+<section>
+  <h2>6 · Decisiones</h2>
+  <div class="dec">
+    <div class="drow"><div class="id">D7</div><div>Documento vigente</div><div class="rec">CENTRAL-V01; V03 y E06_BASE_LIMPIO a histórico con hash</div><div class="st">Aprobada</div></div>
+    <div class="drow"><div class="id">D8</div><div>Piloto primario</div><div class="rec">F01 (host en muro); E06 cierra en F0 como Z absoluta</div><div class="st">Aprobada</div></div>
+    <div class="drow"><div class="id">D9</div><div>Inserción</div><div class="rec">Tabla por <code>FamilyPlacementType</code> real</div><div class="st crit">Crítica</div></div>
+    <div class="drow"><div class="id">D10</div><div>Tolerancias</div><div class="rec">0,02 aceptación · 0,05 aviso · 0,10 dedup</div><div class="st crit">Crítica</div></div>
+    <div class="drow"><div class="id">D11</div><div>Rotación</div><div class="rec">Heredada si hosted · delta minado si no hosted</div><div class="st crit">Crítica</div></div>
+    <div class="drow"><div class="id">D12</div><div>Trazabilidad</div><div class="rec"><code>UniqueId</code> + GUID de lote; nunca <code>LevelId</code></div><div class="st crit">Crítica (v2.1)</div></div>
+    <div class="drow"><div class="id">D13</div><div>Canal</div><div class="rec">Sondear en F0; adoptar solo si responde</div><div class="st">No bloqueante</div></div>
+    <div class="drow"><div class="id">D14</div><div>Lección H1</div><div class="rec">Registrar H1/H2/H3 como reglas en <code>CLAUDE.md</code> + lección en vault; no archivar v70 (no existe)</div><div class="st crit">Nueva</div></div>
+    <div class="drow"><div class="id">D15</div><div>Directorios</div><div class="rec"><code>config</code> reglas · <code>data/referencia</code> ground truth · <code>data</code> corridas · <code>_historico</code> retirados</div><div class="st crit">Nueva</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>7 · Riesgos nuevos que introduce esta revisión</h2>
+  <table>
+    <thead><tr><th>Riesgo</th><th>Prob.</th><th>Impacto</th><th>Mitigación</th></tr></thead>
+    <tbody>
+      <tr><td>Copiar el alias <code>WallBased</code>/<code>FaceBased</code> al JSON</td><td>Media</td><td>Medio</td><td>Enum real + validación en la sonda</td></tr>
+      <tr><td>Aplicar delta de rotación a familias hosteadas (doble giro)</td><td>Media</td><td><b>Alto</b></td><td>Regla C3: hosted hereda, delta esperado 0</td></tr>
+      <tr><td>Minar el benchmark sin abrirlo</td><td>Media</td><td>Alto</td><td>Secuencia C5 + hash antes/después</td></tr>
+      <tr><td>Creer que el dedup de v08 ya da idempotencia</td><td><b>Alta</b></td><td>Alto</td><td>Registro por <code>UniqueId</code> antes de crear</td></tr>
+      <tr><td>Rellenar familias ausentes con delta 0</td><td>Media</td><td>Alto</td><td><code>pendiente_medicion</code> explícito</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer>
+  Fuente única: <code>D:\Work\NOTES\obsidian-vault\10-arquitectura\RE-2026-11-15-plan-desarrollo-v2-1-revision.md</code><br>
+  Revisa: <em>Analisis_Propuesta_v2_Recomendacion.pdf</em> · Enmienda: <em>Propuesta v2</em> (marcada como reemplazada).<br>
+  API: FamilyPlacementType Enumeration — Revit API Docs. Estado: propuesta v2.1, no modifica reglas ni panel hasta resolver D7–D15.
+</footer>
+
+</div>
+</body>
+</html>

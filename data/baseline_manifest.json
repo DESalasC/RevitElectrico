@@ -1,0 +1,43 @@
+{
+  "carpeta_documentos": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase",
+  "decision": "D7 (aprobada 2026-11-15)",
+  "documentos": [
+    {
+      "archivo": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt",
+      "bytes": 391950336,
+      "rol": "vigente",
+      "sha256": "9f6d8b9b151705d00ad55492171181764065470c52a66bc3e3ac578f3d824f72"
+    },
+    {
+      "archivo": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt",
+      "bytes": 443838464,
+      "rol": "benchmark",
+      "sha256": "dde11619b129bf905b967632531fb24bf596d9746c859c438aedb4bd7019acf3"
+    },
+    {
+      "archivo": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V03.rvt",
+      "bytes": 442318848,
+      "rol": "historico",
+      "sha256": "1e49362563b509f325efc51be3ddad61f1639eb110511e99fb01971c4fe6b395"
+    },
+    {
+      "archivo": "E06_BASE_LIMPIO_2026-11-12.rvt",
+      "bytes": 442408960,
+      "rol": "historico",
+      "sha256": "0c13a20d3466e149472cf3975fd2d2592f97c95456ca5c9ffb1f10ff9bd87116"
+    }
+  ],
+  "generado": "2026-11-15T19:33:06",
+  "proyecto": "RE",
+  "raiz_proyecto": "D:\\Work\\PROJECTS\\RevitElectrico",
+  "regla": "CENTRAL-V01 es el documento vigente; V03 y E06_BASE_LIMPIO pasan a historico con hash registrado. El benchmark manual V02-f es la referencia de contraste.",
+  "verificaciones": {
+    "advertencias": [],
+    "benchmark_distinto_vigente": true,
+    "documentos_declarados": 4,
+    "documentos_encontrados": 4,
+    "sin_hashes_duplicados": true,
+    "todos_obligatorios_presentes": true
+  },
+  "version": "1.0"
+}

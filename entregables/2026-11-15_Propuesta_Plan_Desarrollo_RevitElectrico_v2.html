@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RevitElectrico — Propuesta Plan de Desarrollo v2</title>
+<style>
+  :root{
+    --ink:#14181f; --ink-2:#3d4653; --ink-3:#68727f;
+    --line:#d9dee6; --line-2:#eef1f5;
+    --paper:#ffffff; --paper-2:#f6f8fa;
+    --accent:#b45309; --accent-soft:#fdf4e7;
+    --ok:#0f766e; --ok-soft:#e8f5f3;
+    --warn:#a16207; --warn-soft:#fef8e7;
+    --bad:#b42318; --bad-soft:#fdf0ee;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:0 24px 72px;
+    background:var(--paper-2); color:var(--ink);
+    font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-size:15px; line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto}
+
+  header{padding:44px 0 26px;border-bottom:2px solid var(--ink)}
+  .kicker{
+    font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px
+  }
+  h1{margin:0 0 8px;font-size:31px;line-height:1.2;letter-spacing:-.015em;font-weight:700}
+  .sub{color:var(--ink-2);font-size:16px;max-width:78ch;margin:0}
+  .meta{
+    display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:18px;
+    font-size:12.5px;color:var(--ink-3)
+  }
+  .meta b{color:var(--ink-2);font-weight:600}
+  .pill{
+    display:inline-block;padding:2px 9px;border-radius:99px;
+    background:var(--accent-soft);color:var(--accent);
+    font-size:11.5px;font-weight:700;letter-spacing:.03em
+  }
+
+  section{margin-top:44px}
+  h2{
+    font-size:12px;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--ink-3);font-weight:700;
+    margin:0 0 16px;padding-bottom:8px;border-bottom:1px solid var(--line)
+  }
+  h3{font-size:17px;margin:26px 0 8px;letter-spacing:-.01em}
+
+  .lead{font-size:15.5px;color:var(--ink-2);max-width:88ch;margin:0 0 8px}
+  .lead strong{color:var(--ink)}
+
+  /* Hallazgos */
+  .find{
+    background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);
+    border-radius:2px;padding:18px 20px;margin-bottom:12px
+  }
+  .find .tag{
+    font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:6px
+  }
+  .find p{margin:0 0 8px}
+  .find p:last-child{margin-bottom:0}
+  code{
+    font-family:"Cascadia Code",Consolas,Menlo,monospace;font-size:.87em;
+    background:#eef1f5;padding:1.5px 5px;border-radius:3px;color:#1f2937
+  }
+
+  /* Tablas */
+  table{width:100%;border-collapse:collapse;background:var(--paper);font-size:13.5px;margin:0 0 6px}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line-2);vertical-align:top}
+  thead th{
+    background:#f0f3f7;border-bottom:1px solid var(--line);
+    font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);font-weight:700
+  }
+  tbody tr:last-child td{border-bottom:none}
+  td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
+
+  /* Roadmap */
+  .phase{
+    display:grid;grid-template-columns:64px 1fr;gap:0;
+    border-bottom:1px solid var(--line-2);background:var(--paper)
+  }
+  .phase:first-of-type{border-top:1px solid var(--line)}
+  .phase .id{
+    padding:14px 10px;border-right:1px solid var(--line-2);
+    font-weight:700;font-size:15px;color:var(--accent);
+    font-variant-numeric:tabular-nums;text-align:center
+  }
+  .phase .body{padding:13px 16px}
+  .phase .t{font-weight:700;font-size:14.5px;margin-bottom:2px}
+  .phase .d{color:var(--ink-2);font-size:13.5px}
+  .phase .gate{
+    margin-top:6px;font-size:12.5px;color:var(--ok);
+    display:flex;gap:6px;align-items:flex-start
+  }
+  .phase .gate span:first-child{font-weight:700;flex:none}
+  .phase.new{background:var(--accent-soft)}
+  .phase.new .id{color:var(--accent)}
+  .badge{
+    font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    background:var(--accent);color:#fff;padding:1px 6px;border-radius:2px;
+    vertical-align:2px;margin-left:6px
+  }
+
+  /* Decisiones */
+  .dec{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:4px 0;margin-bottom:10px}
+  .drow{
+    display:grid;grid-template-columns:56px 1fr 1.15fr;gap:12px;
+    padding:9px 16px;border-bottom:1px solid var(--line-2);font-size:13.5px
+  }
+  .drow:last-child{border-bottom:none}
+  .drow .id{font-weight:700;color:var(--ink-3);font-variant-numeric:tabular-nums}
+  .drow .rec{color:var(--ok);font-weight:600}
+
+  /* Tolerancias */
+  .tol{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:10px}
+  .tol div{background:var(--paper);border:1px solid var(--line);padding:12px 14px;border-radius:2px}
+  .tol .v{font-size:20px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .tol .l{font-size:11.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+  .tol .u{font-size:12px;color:var(--ink-2);margin-top:4px}
+
+  .note{
+    background:var(--warn-soft);border-left:3px solid var(--warn);
+    padding:13px 16px;font-size:13.5px;color:#4a3a10;margin:14px 0
+  }
+  .note b{color:#3f2f08}
+  .okbox{
+    background:var(--ok-soft);border-left:3px solid var(--ok);
+    padding:13px 16px;font-size:13.5px;color:#0d4a45
+  }
+
+  ul.tight{margin:6px 0 0;padding-left:20px}
+  ul.tight li{margin-bottom:5px}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:760px){
+    .grid2{grid-template-columns:1fr}
+    .tol{grid-template-columns:1fr 1fr}
+    .drow{grid-template-columns:1fr}
+  }
+
+  footer{
+    margin-top:52px;padding-top:18px;border-top:1px solid var(--line);
+    font-size:12.5px;color:var(--ink-3)
+  }
+  footer a{color:var(--accent);text-decoration:none}
+  @media print{
+    body{background:#fff;padding:0;font-size:11pt}
+    section{margin-top:26px;break-inside:avoid}
+    .phase,.find,.dec{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">RevitElectrico · Propuesta para aprobación</div>
+  <h1>Plan de desarrollo v2</h1>
+  <p class="sub">
+    Integración del <em>Plan_Desarrollo_RevitElectrico_v1</em> con el conocimiento acumulado en el vault.
+    Se conservan las siete etapas y el criterio de validez contra el modelo manual; se anteponen dos
+    fases que explican —y evitan— los bloqueos de las últimas cinco sesiones.
+  </p>
+  <div class="meta">
+    <span><b>Fecha</b> 2026-11-15</span>
+    <span><b>Alcance</b> F01 · F02 · E06 → piso 5 → 19 pisos</span>
+    <span><b>Benchmark</b> CENTRA_V02-f.rvt</span>
+    <span><b>Vigente</b> CENTRAL-V01.rvt</span>
+    <span class="pill">Borrador v2 · decisiones D7–D13 pendientes</span>
+  </div>
+</header>
+
+<section>
+  <h2>Diagnóstico de la integración</h2>
+  <p class="lead">
+    El PDF acierta en el método (comparar contra el benchmark, tolerancia 0,02 m, rotación a ángulos rectos,
+    no parchear v69) y en el análisis de v68: su lógica de transformación, cielorraso, nivel de muro y rotación
+    es sólida; el punto débil es la inserción en muro.
+    <strong>Pero el PDF interpreta el error de v69 como un problema de vector de dirección, y es un problema de
+    tipo de familia.</strong> Aplicar su receta tal cual repetiría el fallo en 26 de 35 casos.
+  </p>
+</section>
+
+<section>
+  <h2>Tres hallazgos que cambian el plan</h2>
+
+  <div class="find">
+    <div class="tag">H1 · Tipo de familia, no vector</div>
+    <p>
+      <code>Reference direction is parallel to face normal</code> aparece porque
+      <code>M_Toma doble</code>, <code>M_Interruptores</code>, <code>M_Comunicaciones</code>,
+      <code>M_Timbre</code> y <code>M_Pulsador</code> son familias <b>hosted a muro</b>, no <i>face-based</i>.
+      Para ellas la sobrecarga de cara no aplica: Revit exige el host de tipo <code>Wall</code> (la que usa v68
+      y que el PDF propone sustituir).
+    </p>
+    <p>
+      La decisión de sobrecarga debe salir de <code>Family.FamilyPlacementType</code>, medida una vez por familia,
+      no de una regla fija en el script. Es el mismo error de fondo que las rotaciones fijas: una regla global
+      aplicada a objetos heterogéneos.
+    </p>
+  </div>
+
+  <div class="find">
+    <div class="tag">H2 · La rotación es un delta por familia</div>
+    <p>
+      La normal del muro da la orientación de la cara, pero cada familia tiene su propio eje de referencia.
+      Por eso <code>M_Interruptores +180</code> funciona en E06 y falla en F01. El valor correcto no se deduce:
+      se <b>mina del benchmark</b> (3–5 instancias manuales por familia) y se guarda como
+      <code>delta_rot_deg</code>. Es un dato de una sola vez, reutilizable en los 19 pisos.
+    </p>
+  </div>
+
+  <div class="find">
+    <div class="tag">H3 · Sesgo de XY por origen de familia</div>
+    <p>
+      E05 dio ΔXY = 0,000 m porque el punto se calculó contra la cara del muro. Las desviaciones de F01 no son
+      ruido: son el <b>offset interno de la familia</b> (cara posterior, eje del muro o caja de mecanismo).
+      Sin un <code>offset_local_m</code> por familia, la tolerancia de 0,02 m es inalcanzable <i>por diseño</i>.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Arquitectura: contrato de colocación</h2>
+  <p class="lead">
+    El script no puede declarar <code>OK</code> por no haber lanzado excepción. Ese es exactamente el agujero
+    que produjo la contradicción entre v68 («34/35 OK») y el diagnóstico v64 («todas las tomas sin host»).
+    Cada dispositivo pasa por cinco etapas; el estado <code>OK</code> solo se emite si la cuarta pasa.
+  </p>
+  <table>
+    <thead><tr><th style="width:120px">Etapa</th><th>Qué hace</th><th style="width:34%">Evidencia que deja</th></tr></thead>
+    <tbody>
+      <tr><td><b>① Resolver</b></td><td>Host candidato, cara, nivel, rotación esperada, offset local</td><td>registro de resolución</td></tr>
+      <tr><td><b>② Crear</b></td><td>Sobrecarga elegida según <code>FamilyPlacementType</code></td><td><code>ElementId</code> + <code>UniqueId</code></td></tr>
+      <tr><td><b>③ Ajustar</b></td><td><code>INSTANCE_ELEVATION_PARAM</code>, <code>SCHEDULE_ONLY_LEVEL_PARAM</code>, rotación</td><td>valores escritos</td></tr>
+      <tr><td><b>④ Verificar</b></td><td><code>Host.Id</code>, <code>HostFace</code>, <code>loc.Z</code>, rotación y ΔXY <b>medidos</b></td><td>ΔXY, ΔZ, Δrot</td></tr>
+      <tr><td><b>⑤ Corregir</b></td><td>Mover / reasignar host / recrear — idempotente</td><td>campo <code>remedy</code></td></tr>
+    </tbody>
+  </table>
+  <div class="okbox">
+    <b>Métrica nueva:</b> <code>remedies == 0</code>. Si hay que corregir algo, la colocación no está resuelta
+    aunque el elemento exista. Y la prueba de fuego: <b>segunda corrida → 0 creados, 35 saltados</b>.
+  </div>
+</section>
+
+<section>
+  <h2>Las nueve etapas</h2>
+  <p class="lead" style="margin-bottom:14px">
+    F0 y F1 son nuevas. Las siete restantes son las del PDF, con los gates ampliados.
+  </p>
+
+  <div class="phase new">
+    <div class="id">F0</div>
+    <div class="body">
+      <div class="t">Reconciliación y base reproducible <span class="badge">nueva</span></div>
+      <div class="d">Hashes de vigente / benchmark / histórico · tag <code>baseline-f0</code> · veredicto de E06 por <code>UniqueId</code> · guardia de lote.</div>
+      <div class="gate"><span>Gate</span><span>Tres hashes registrados · E06 con veredicto · árbol git limpio</span></div>
+    </div>
+  </div>
+
+  <div class="phase new">
+    <div class="id">F1</div>
+    <div class="body">
+      <div class="t">Sonda de capacidades y minado del benchmark <span class="badge">nueva</span></div>
+      <div class="d">Tabla <code>FamilyPlacementType</code> por familia · <code>delta_rot_deg</code> y <code>offset_local_m</code> minados de V02-f · <code>expected_F01/F02/E06.json</code>.</div>
+      <div class="gate"><span>Gate</span><span>16 familias con capacidad, delta y offset · dispersión &lt; 5 mm y &lt; 1°</span></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="id">F2</div>
+    <div class="body">
+      <div class="t">Estabilizar F01</div>
+      <div class="d">v70 = bifurcación de v68; <b>único cambio</b>: bloque de inserción por tabla de capacidad + etapa ④. Reporte extendido y comparativa contra el benchmark.</div>
+      <div class="gate"><span>Gate</span><span>35/35 con host · Δ ≤ 0,02 m · rot ±1° · <code>remedies = 0</code> · idempotente</span></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="id">F3</div>
+    <div class="body">
+      <div class="t">Replicar F02 y cerrar E06</div>
+      <div class="d">Los tres modos conviven: muro (F01), techo, y Z absoluta sin nivel (E06). Prueba cruzada entre apartamentos.</div>
+      <div class="gate"><span>Gate</span><span>F02 con los mismos seis criterios · E06 44/44 por <code>UniqueId</code> · cero reglas por apartamento en el código</span></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="id">F4</div>
+    <div class="body">
+      <div class="t">Generalizar</div>
+      <div class="d">Un script estable sin <code>_vNN</code> (<code>RE_F6_COLOCAR_DISPOSITIVOS.py</code>), versión en <code>__version__</code> y tag · reglas en JSON · ≥ 20 tests con fixtures F01/F02/E06.</div>
+      <div class="gate"><span>Gate</span><span>El mismo binario procesa los tres apartamentos solo con <code>--apartamento</code></span></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="id">F5</div>
+    <div class="body">
+      <div class="t">Ruteo de conduits F01</div>
+      <div class="d">Reglas extraídas del benchmark · diámetros 3/4"–3" · cajas de paso · visor 3D · <code>CLASH_DETECTION</code>.</div>
+      <div class="gate"><span>Gate</span><span>100% conectados al panel · clash &lt; 5%</span></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="id">F6</div>
+    <div class="body">
+      <div class="t">Ruteo F02 y E06</div>
+      <div class="d">Aplicación de las reglas generalizadas; si E06 no tiene conduits manuales, se modela una referencia mínima (un circuito) para contrastar.</div>
+      <div class="gate"><span>Gate</span><span>Conduits completos · clash &lt; 5% en ambos</span></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="id">F7</div>
+    <div class="body">
+      <div class="t">Escalado</div>
+      <div class="d">Piso 5 completo, luego 19 pisos · <code>config_apartamentos.json</code> · Excel consolidado · reporte por piso · <b>tiempo por apartamento registrado</b>.</div>
+      <div class="gate"><span>Gate</span><span>100% del piso 5 sin intervención manual · colocación ≥ 95%</span></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="id">F8</div>
+    <div class="body">
+      <div class="t">Cierre y documentación</div>
+      <div class="d">Plan v2 · lecciones de API en <code>CLAUDE.md</code> · retiro de v55–v69 a <code>_historico/</code> · runbook único · pipeline de un comando.</div>
+      <div class="gate"><span>Gate</span><span>≥ 50 tests · cobertura ≥ 80% · documentación sin placeholders</span></div>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>Track T — canal de ejecución (opcional, condicionado).</b>
+    El cuello de botella real de las últimas sesiones no fue la geometría: fue copiar y pegar bloques en la consola
+    de pyRevit. Existe un <i>agent host</i> escuchando en pipe y hubo un puente MCP en <code>:19682</code>.
+    Propuesta: <b>sondearlo en F0</b> y adoptarlo solo si responde. Ninguna fase depende de esto.
+  </div>
+</section>
+
+<section>
+  <h2>Tolerancias: dejar de mezclar umbrales</h2>
+  <div class="tol">
+    <div>
+      <div class="v">0,10 m</div>
+      <div class="l">Dedup</div>
+      <div class="u">No crear sobre una instancia existente</div>
+    </div>
+    <div>
+      <div class="v">0,02 m</div>
+      <div class="l">Aceptación</div>
+      <div class="u">Declarar colocación correcta</div>
+    </div>
+    <div>
+      <div class="v">0,05 m</div>
+      <div class="l">Aviso</div>
+      <div class="u">Aceptar con warning documentado</div>
+    </div>
+    <div>
+      <div class="v">&gt; 0,05 m</div>
+      <div class="l">Rechazo</div>
+      <div class="u">DESPLAZADO → etapa ⑤</div>
+    </div>
+  </div>
+  <p class="lead" style="margin-top:10px">
+    El <code>0,10</code> de los scripts actuales es <i>dedup</i>, no calidad. Confundirlos es la razón por la que
+    «no hay duplicados» convivió con «todas las tomas sin host».
+  </p>
+</section>
+
+<section>
+  <h2>Decisiones que se solicitan</h2>
+  <div class="dec">
+    <div class="drow"><div class="id">D7</div><div>Documento vigente</div><div class="rec">CENTRAL-V01 · V03 y E06_BASE_LIMPIO a histórico con hash</div></div>
+    <div class="drow"><div class="id">D8</div><div>Piloto primario</div><div class="rec">F01 (host en muro, el caso difícil) · E06 cierra en F0 como modo Z absoluta</div></div>
+    <div class="drow"><div class="id">D9</div><div>Método de inserción</div><div class="rec">Tabla por <code>FamilyPlacementType</code>, no face-ref universal</div></div>
+    <div class="drow"><div class="id">D10</div><div>Tolerancia de aceptación</div><div class="rec">0,02 m objetivo · 0,05 m con aviso · 0,10 m solo dedup</div></div>
+    <div class="drow"><div class="id">D11</div><div>Rotación</div><div class="rec">Delta por familia minado del benchmark</div></div>
+    <div class="drow"><div class="id">D12</div><div>Trazabilidad</div><div class="rec"><code>UniqueId</code> + GUID de lote (nunca <code>LevelId</code>)</div></div>
+    <div class="drow"><div class="id">D13</div><div>Canal de ejecución</div><div class="rec">Sondear pipe pyRevit/MCP en F0 · adoptar solo si responde</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Primer sprint</h2>
+  <div class="grid2">
+    <div>
+      <h3 style="margin-top:0">Sesión A — F0 + F1 <span style="font-weight:400;color:var(--ink-3);font-size:13px">(sin tocar el modelo)</span></h3>
+      <ul class="tight">
+        <li>Hashes de los tres documentos y tag <code>baseline-f0-2026-11-15</code></li>
+        <li>Veredicto de E06 por <code>UniqueId</code> (lazo abierto de 30 min)</li>
+        <li>Sonda de familias → tabla de capacidad de 16 familias</li>
+        <li>Minado de V02-f → reglas + <code>expected_*.json</code></li>
+        <li>Sonda del canal pyRevit (Track T)</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="margin-top:0">Sesión B — F2 <span style="font-weight:400;color:var(--ink-3);font-size:13px">(F01 con contrato)</span></h3>
+      <ul class="tight">
+        <li>Bifurcar v68 → v70: solo bloque de inserción + verificación</li>
+        <li>Probar <b>1 de muro y 1 de techo</b> antes de masificar</li>
+        <li>Luego los 35, con reporte extendido</li>
+        <li>Diff contra <code>expected_F01.json</code></li>
+        <li>Si <code>remedies = 0</code> y Δ ≤ 0,02 m → F2 cerrada</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Qué se conserva</h2>
+  <table>
+    <thead><tr><th>Activo</th><th>Estado</th><th style="width:38%">Rol en v2</th></tr></thead>
+    <tbody>
+      <tr><td><code>colocacion_masiva_F01_v68.py</code></td><td>Lógica de transformación, cielorraso, nivel de muro y rotación correcta</td><td>Base de v70; solo cambia el bloque de inserción</td></tr>
+      <tr><td><code>RE_COLOCAR_DISPOSITIVOS_generico.py</code> v08</td><td>MAPEO de 16 familias con símbolo verificado, caches, transacciones</td><td>Semilla del script único de F4</td></tr>
+      <tr><td>v13 / E06</td><td>44 creados, 3 saltados, 0 errores</td><td>Modo «Z absoluta» de la tabla de capacidad</td></tr>
+      <tr><td>E05</td><td>49/49 con host real, modelo limpio</td><td>La regresión más fuerte que existe</td></tr>
+      <tr><td>8 scripts <code>RE_DIAG_*</code></td><td>Solo lectura, ya probados</td><td>Herramientas permanentes de F1 y auditoría</td></tr>
+      <tr><td>Auditor + comparador + tests</td><td>Implementados, 8 tests en verde</td><td>Motor del diff clasificado (RE-P-044)</td></tr>
+      <tr><td>Ruteo, visor 3D, clash, tipos de conduit</td><td>Existentes</td><td>F5–F7 sin desarrollo nuevo de base</td></tr>
+      <tr><td>Suite 248/248</td><td>Verde</td><td>Base de regresión de F4</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer>
+  Fuente única de esta propuesta:
+  <code>D:\Work\NOTES\obsidian-vault\10-arquitectura\RE-2026-11-15-plan-desarrollo-v2-propuesta.md</code><br>
+  Documento origen: <em>Plan_Desarrollo_RevitElectrico_v1.pdf</em> · 2026-11-15 · 13 páginas.
+  Estado: borrador para aprobación — no modifica reglas ni panel hasta resolver D7–D13.
+</footer>
+
+</div>
+</body>
+</html>

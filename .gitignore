@@ -22,3 +22,7 @@ familias
 _archivo/
 *.tmp
 *.log
+
+# Carpetas temporales de pytest
+.pytest_temps/
+.pytest_tmp/
