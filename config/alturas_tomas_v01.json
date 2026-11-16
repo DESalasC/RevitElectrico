@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "proyecto": "RE",
+  "fecha": "2026-11-15",
+  "apartamento": "Apartamento Tipo E 06",
+  "proposito": "Reglas de altura local de montaje por dispositivo. Sustituye la altura unica de 1.10 m que se habia generalizado por error en el inventario v01.",
+  "decision": "Gobierna el DXF: sus anotaciones de altura ('0.7m', '1.65m', '1.05m', 'h-0.3') coinciden con el modelo manual de CENTRAL-V01 una vez descontado el offset de 57 mm entre punto de insercion y minimo del bounding box.",
+  "offset_bbox_insercion_m": 0.057,
+  "evidencia_offset": [
+    { "element_id": 5529811, "nota": "GFCI bano", "z_bbox_m": 14.26285, "altura_insert_m": 1.10 },
+    { "element_id": 5529814, "nota": "GFCI junto a Consolidation_Point", "z_bbox_m": 14.01285, "altura_insert_m": 0.85 }
+  ],
+  "regla_base_altura_m": {
+    "ELEC-T-D-t-15A": 0.30,
+    "ELEC-T-GFCI-t-15A": 0.30,
+    "ELEC-I-S-C1-5A": 1.10,
+    "ELEC-I-S-1-5A": 1.10,
+    "S3": 1.10,
+    "ELEC-F-CONTROL": 1.10,
+    "ELEC-TEL": 1.05,
+    "ELEC-NET-PAU": 1.05,
+    "Bala Stil Led 10W": 2.60,
+    "Bala Stil Led 13W": 2.60,
+    "Bala Stil Led 22W": 2.60,
+    "ELEC-F-VENT": 2.60,
+    "ELEC-CAMPANA": 1.10,
+    "ELEC-TIMBRE": 1.10,
+    "ELEC-PANEL": 1.20,
+    "ELEC-EXT": 1.90
+  },
+  "excepciones_por_handle": {
+    "BA": { "altura_m": 0.70, "nota": "toma estufa, muro de cocina" },
+    "BB": { "altura_m": 1.65, "nota": "toma gabinete superior, muro de cocina" },
+    "9E": { "altura_m": 1.10, "nota": "GFCI sobre el meson de cocina" },
+    "EF": { "altura_m": 1.10, "nota": "extractor de gases (campana), sobre el meson" },
+    "EE": { "altura_m": 1.05, "nota": "toma nevera, muro opuesto (por confirmar)" },
+    "103": { "altura_m": 1.10, "nota": "GFCI del bano, junto a la puerta", "element_id_revit": 5529811 },
+    "BC": { "altura_m": 0.85, "nota": "GFCI junto al Consolidation_Point", "element_id_revit": 5529814 }
+  },
+  "anotaciones_dxf": {
+    "descripcion": "Textos de altura que ya existen en el plano, usados como validacion cruzada.",
+    "patrones": ["(?P<v>\\d+(?:[.,]\\d+)?)\\s*m", "h-?0[.,]3"],
+    "radio_asignacion_m": 0.45,
+    "regla": "Un texto se consume una sola vez. Si la anotacion contradice una excepcion, gana la excepcion y se reporta el conflicto."
+  },
+  "validacion_esperada": {
+    "cocina_tres_tomas": "BA 0.70, BB 1.65, 9E 1.10 sobre el mismo muro",
+    "bano": "103 a 1.10",
+    "consolidation": "BC a 0.85",
+    "resto_tomas": "0.30"
+  }
+}

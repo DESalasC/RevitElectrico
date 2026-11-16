@@ -1,0 +1,923 @@
+{
+  "dxf": "D:\\Work\\PROJECTS\\Actuales\\T5-SantaMarta\\3.-Proceso\\Apartamento Tipo E 06.dxf",
+  "fase": "F1",
+  "proyecto": "RE",
+  "radio_texto_m": 2.5,
+  "resumen": {
+    "bloques_de_toma": {
+      "ELEC-CAMPANA": 1,
+      "ELEC-NET-PAU": 1,
+      "ELEC-T-D-t-15A": 10,
+      "ELEC-T-GFCI-t-15A": 5,
+      "ELEC-TEL": 10,
+      "ELEC-TIMBRE": 1
+    },
+    "capas_de_toma": {
+      "ELEC-APPL-NETWORD": 11,
+      "ELEC-APPL-TOMAS": 17
+    },
+    "con_atributos": 0,
+    "con_mobiliario_cercano": 0,
+    "con_texto_cercano": 28,
+    "tomas": 28
+  },
+  "tomas": [
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "106",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.346,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.507,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.534,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.562,
+          "texto": "TE-05"
+        }
+      ],
+      "x": 2.822,
+      "y": 2.0925
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "1F2",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.52,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.78,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.012,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.241,
+          "texto": "h-0.3"
+        }
+      ],
+      "x": 0.9059,
+      "y": 5.4102
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "1F3",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.282,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.534,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.587,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.59,
+          "texto": "0.85m"
+        }
+      ],
+      "x": 2.822,
+      "y": 1.9525
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "1F4",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.283,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.598,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.628,
+          "texto": "0.85m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.659,
+          "texto": "TE-05"
+        }
+      ],
+      "x": 2.822,
+      "y": 1.8053
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "1F5",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.349,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.624,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.684,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.692,
+          "texto": "0.85m"
+        }
+      ],
+      "x": 2.822,
+      "y": 1.664
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "1F6",
+      "mobiliario_cercano": [],
+      "rotacion": 270.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.226,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.407,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.823,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.826,
+          "texto": "VACIO"
+        }
+      ],
+      "x": 1.0377,
+      "y": 4.4888
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "7A",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.526,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.622,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.748,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.237,
+          "texto": "Vacio"
+        }
+      ],
+      "x": 0.9059,
+      "y": 5.132
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "83",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.556,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.651,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.879,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.259,
+          "texto": "Vacio"
+        }
+      ],
+      "x": 0.9059,
+      "y": 5.2716
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-NET-PAU",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "BE",
+      "mobiliario_cercano": [],
+      "rotacion": 270.0,
+      "textos_cercanos": [
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.303,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.516,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.557,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.578,
+          "texto": "TE-05"
+        }
+      ],
+      "x": 2.8238,
+      "y": 2.0159
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "D8",
+      "mobiliario_cercano": [],
+      "rotacion": 270.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.462,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.483,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.629,
+          "texto": "VACIO"
+        },
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.785,
+          "texto": "2Ø3/4\""
+        }
+      ],
+      "x": 1.0377,
+      "y": 4.2092
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TEL",
+      "capa": "ELEC-APPL-NETWORD",
+      "handle": "D9",
+      "mobiliario_cercano": [],
+      "rotacion": 270.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.35,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.413,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.721,
+          "texto": "VACIO"
+        },
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.792,
+          "texto": "2Ø3/4\""
+        }
+      ],
+      "x": 1.0377,
+      "y": 4.3488
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "103",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.487,
+          "texto": "TE-09"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.123,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.158,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.352,
+          "texto": "0.85m"
+        }
+      ],
+      "x": 0.897,
+      "y": 2.2058
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "111",
+      "mobiliario_cercano": [],
+      "rotacion": 0.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.417,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.427,
+          "texto": "TE-07"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.878,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.202,
+          "texto": "TE-01"
+        }
+      ],
+      "x": 0.4452,
+      "y": 0.0251
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "224",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.49,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.004,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 1.159,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.671,
+          "texto": "TE-01"
+        }
+      ],
+      "x": 4.1359,
+      "y": 3.9565
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "6D",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.522,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.887,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.124,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.138,
+          "texto": "h-0.3"
+        }
+      ],
+      "x": 0.9107,
+      "y": 5.5244
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "84",
+      "mobiliario_cercano": [],
+      "rotacion": 270.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.126,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.223,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.586,
+          "texto": "Vacio"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.804,
+          "texto": "TE-01"
+        }
+      ],
+      "x": -1.7942,
+      "y": 4.4064
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "85",
+      "mobiliario_cercano": [],
+      "rotacion": 270.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.145,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.693,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 2.155,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 2.161,
+          "texto": "Vacio"
+        }
+      ],
+      "x": -1.7942,
+      "y": 6.5859
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-TIMBRE",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "96",
+      "mobiliario_cercano": [],
+      "rotacion": 0.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.337,
+          "texto": "0.7m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.383,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.589,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.639,
+          "texto": "TE-01"
+        }
+      ],
+      "x": 2.2211,
+      "y": -0.1668
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "9E",
+      "mobiliario_cercano": [],
+      "rotacion": 0.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.131,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.217,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.447,
+          "texto": "1.65m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.566,
+          "texto": "TE-03"
+        }
+      ],
+      "x": 3.2644,
+      "y": 0.0251
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "BA",
+      "mobiliario_cercano": [],
+      "rotacion": 0.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.131,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.197,
+          "texto": "0.7m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.291,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.41,
+          "texto": "1.65m"
+        }
+      ],
+      "x": 2.453,
+      "y": 0.0271
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "BB",
+      "mobiliario_cercano": [],
+      "rotacion": 0.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.129,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.188,
+          "texto": "1.65m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.312,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.426,
+          "texto": "0.7m"
+        }
+      ],
+      "x": 2.7116,
+      "y": 0.0271
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "BC",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.41,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.501,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.509,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.514,
+          "texto": "TE-03"
+        }
+      ],
+      "x": 2.8238,
+      "y": 2.1886
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "BD",
+      "mobiliario_cercano": [],
+      "rotacion": 90.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.407,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.514,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.521,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.537,
+          "texto": "0.3m"
+        }
+      ],
+      "x": 2.8208,
+      "y": 2.3151
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "D7",
+      "mobiliario_cercano": [],
+      "rotacion": 270.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.155,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.433,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.852,
+          "texto": "2Ø3/4\""
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.898,
+          "texto": "VACIO"
+        }
+      ],
+      "x": 1.0425,
+      "y": 4.5812
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "DA",
+      "mobiliario_cercano": [],
+      "rotacion": 0.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.206,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.223,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.311,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.569,
+          "texto": "2Ø3/4\""
+        }
+      ],
+      "x": 3.2559,
+      "y": 2.4265
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "DB",
+      "mobiliario_cercano": [],
+      "rotacion": 270.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.12,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.211,
+          "texto": "h-0.3"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.512,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 1.556,
+          "texto": "TE-01"
+        }
+      ],
+      "x": 1.3115,
+      "y": 6.6791
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-T-D-t-15A",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "EE",
+      "mobiliario_cercano": [],
+      "rotacion": 180.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.086,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.175,
+          "texto": "1.05m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.347,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "ELEC-Data-Service",
+          "dist_m": 0.44,
+          "texto": "2Ø3/4\""
+        }
+      ],
+      "x": 3.2656,
+      "y": 2.2865
+    },
+    {
+      "atributos": {},
+      "bloque": "ELEC-CAMPANA",
+      "capa": "ELEC-APPL-TOMAS",
+      "handle": "EF",
+      "mobiliario_cercano": [],
+      "rotacion": 180.0,
+      "textos_cercanos": [
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.272,
+          "texto": "0.7m"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.381,
+          "texto": "TE-03"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.43,
+          "texto": "TE-01"
+        },
+        {
+          "capa": "Elec-Power-Iden",
+          "dist_m": 0.658,
+          "texto": "TE-03"
+        }
+      ],
+      "x": 2.0675,
+      "y": 0.0303
+    }
+  ],
+  "version": "1.0"
+}
