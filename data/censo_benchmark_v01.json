@@ -165,7 +165,7 @@
           "categoria": "Electrical Fixtures", 
           "familia": "M_Toma - 220V", 
           "n": 2, 
-          "tipo": "u'Est\\xe1ndar"
+          "tipo": "Estandar"
         }, 
         {
           "categoria": "Electrical Fixtures", 
@@ -187,7 +187,7 @@
         }, 
         {
           "categoria": "Lighting Devices", 
-          "familia": "u'M_Interruptores de iluminaci\\xf3n", 
+          "familia": "M_Interruptores de iluminacion", 
           "n": 5, 
           "tipo": "Piloto encendido"
         }, 
@@ -211,7 +211,7 @@
         }, 
         {
           "categoria": "Telephone Devices", 
-          "familia": "u'M_Toma de tel\\xe9fono - Datos", 
+          "familia": "M_Toma de telefono - Datos", 
           "n": 3, 
           "tipo": "Simple"
         }
@@ -1023,9 +1023,9 @@
           "tipo": "FJR_1.00 x 2.40m"
         }, 
         {
-          "familia": "u'FJR_A_MuebleBa\\xf1o__MarmolSinuDark_CinzaCobalto_0.70x0.56m", 
+          "familia": "FJR_A_MuebleBano__MarmolSinuDark_CinzaCobalto_0.70x0.56m", 
           "n": 414, 
-          "tipo": "u'FJR_A_MuebleBa\\xf1o__MarmolSinuDark_CinzaCobalto_0.70x0.56m"
+          "tipo": "FJR_A_MuebleBano__MarmolSinuDark_CinzaCobalto_0.70x0.56m"
         }, 
         {
           "familia": "Perfil anclado a pared", 
@@ -1098,9 +1098,9 @@
           "tipo": "1.13*2.10"
         }, 
         {
-          "familia": "u'FJR_A_MuebleBa\\xf1o__MarmolSinuDark_CinzaCobalto_0.90x0.64m", 
+          "familia": "FJR_A_MuebleBano__MarmolSinuDark_CinzaCobalto_0.90x0.64m", 
           "n": 177, 
-          "tipo": "u'FJR_A_MuebleBa\\xf1o__MarmolSinuDark_CinzaCobalto_0.90x0.64m"
+          "tipo": "FJR_A_MuebleBano__MarmolSinuDark_CinzaCobalto_0.90x0.64m"
         }, 
         {
           "familia": "FJR_A_Puerta_Plegable_2hojas_Madera", 
@@ -1113,7 +1113,7 @@
           "tipo": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.82x0.60m"
         }, 
         {
-          "familia": "u'Hormig\\xf3n-Rectangular-Pilar", 
+          "familia": "Hormigon-Rectangular-Pilar", 
           "n": 156, 
           "tipo": "0.40 x 1.45"
         }, 
@@ -1173,7 +1173,7 @@
           "tipo": "FJR_ 1.65 x 2.60 m"
         }, 
         {
-          "familia": "u'Hormig\\xf3n-Rectangular-Pilar", 
+          "familia": "Hormigon-Rectangular-Pilar", 
           "n": 84, 
           "tipo": "0.35 x 1.15"
         }, 
@@ -1203,11 +1203,11 @@
       }, 
       {
         "elevacion_m": 0.22, 
-        "nombre": "u'CLASIFICACI\\xd3N ACABADOS MUROS MAMPOSTERIA PISO 1"
+        "nombre": "CLASIFICACION ACABADOS MUROS MAMPOSTERIA PISO 1"
       }, 
       {
         "elevacion_m": 3.4700000000000002, 
-        "nombre": "u'CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 2-3"
+        "nombre": "CLASIFICACION ACABADOS MAMPOSTERIA PISO 2-3"
       }, 
       {
         "elevacion_m": 6.7199999999999998, 
@@ -1215,7 +1215,7 @@
       }, 
       {
         "elevacion_m": 9.9700000000000006, 
-        "nombre": "u'CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 4-18"
+        "nombre": "CLASIFICACION ACABADOS MAMPOSTERIA PISO 4-18"
       }, 
       {
         "elevacion_m": 13.220000000000001, 
@@ -1275,7 +1275,7 @@
       }, 
       {
         "elevacion_m": 58.719999999999999, 
-        "nombre": "u'CLASIFICACI\\xd3N ACABADOS MAMPOSTERIA PISO 19-21"
+        "nombre": "CLASIFICACION ACABADOS MAMPOSTERIA PISO 19-21"
       }, 
       {
         "elevacion_m": 61.969999999999999, 
@@ -1297,7 +1297,7 @@
   }, 
   "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f", 
   "fase": "F0", 
-  "fecha": "2026-11-15 20:12:50", 
+  "fecha": "2026-11-15 20:17:20", 
   "lote_v13": {
     "declarados": 44, 
     "encontrados": 0, 
@@ -1309,5 +1309,5 @@
   "proyecto": "RE", 
   "ruta": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt", 
   "veredicto_benchmark": "con_ruteo", 
-  "version": "1.3"
+  "version": "1.4"
 }

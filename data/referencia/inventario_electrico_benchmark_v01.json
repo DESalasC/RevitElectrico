@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "proyecto": "RE",
+  "fecha": "2026-11-15",
+  "fuentes": [
+    "MCP mcp-server-for-revit: analyze_model_statistics, get_available_family_types, ai_element_filter",
+    "censo IronPython v1.3: data/censo_benchmark_v01.json"
+  ],
+  "documento": "E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt",
+  "nota": "Inventario de referencia del benchmark. Las instancias se cuentan sobre el modelo manual. 'tipos_cargados' son los FamilySymbol disponibles en el documento, tengan o no instancias colocadas.",
+  "totales": {
+    "family_instances": 14331,
+    "conduits": 147,
+    "conduit_fittings": 88,
+    "longitud_conduit_m": 138.852,
+    "electricas_mas_extractores": 178,
+    "equipos_electricos": 83,
+    "tableros": 20,
+    "medidores": 63
+  },
+  "conduits_por_tipo": [
+    { "tipo": "Tubo", "n": 146 },
+    { "tipo": "Tubo Comunicaciones", "n": 1 }
+  ],
+  "familias": [
+    {
+      "familia": "M_Iluminacion",
+      "categoria": "Lighting Fixtures",
+      "instancias": 18,
+      "tipos_cargados": ["SONO FLEX 10 trim", "SONO FLEX 13 trim", "SONO FLEX 22 trim"],
+      "tipos_con_instancias": { "SONO FLEX 10 trim": 8, "SONO FLEX 13 trim": 6, "SONO FLEX 22 trim": 4 },
+      "minable_F1": true,
+      "observacion": "Los tipos 13 y 22 traen BOM (U+FEFF) en el nombre real del modelo."
+    },
+    {
+      "familia": "M_Toma doble",
+      "categoria": "Electrical Fixtures",
+      "instancias": 20,
+      "tipos_cargados": ["GFCI", "Normal"],
+      "tipos_con_instancias": { "Normal": 18, "GFCI": 2 },
+      "minable_F1": true
+    },
+    {
+      "familia": "M_Comunicaciones",
+      "categoria": "Electrical Fixtures",
+      "instancias": 14,
+      "tipos_cargados": ["Telefono", "Datos"],
+      "tipos_con_instancias": { "Telefono": 7, "Datos": 7 },
+      "minable_F1": true
+    },
+    {
+      "familia": "M_Climatizacion",
+      "categoria": "Electrical Fixtures",
+      "instancias": 2,
+      "tipos_cargados": ["Interruptor Ventilador"],
+      "tipos_con_instancias": { "Interruptor Ventilador": 2 },
+      "minable_F1": false,
+      "observacion": "Dos muestras: por debajo del minimo de 3."
+    },
+    {
+      "familia": "M_ClimatizacionV",
+      "categoria": "Electrical Fixtures",
+      "instancias": 2,
+      "tipos_cargados": ["Ventilador"],
+      "tipos_con_instancias": { "Ventilador": 2 },
+      "minable_F1": false,
+      "observacion": "Dos muestras: por debajo del minimo de 3."
+    },
+    {
+      "familia": "M_Toma - 220V",
+      "categoria": "Electrical Fixtures",
+      "instancias": 2,
+      "tipos_cargados": ["Estándar"],
+      "tipos_con_instancias": { "Estándar": 2 },
+      "minable_F1": false,
+      "observacion": "Dos muestras y no esta en el mapeo actual del proyecto."
+    },
+    {
+      "familia": "M_Toma resistente a la intemperie",
+      "categoria": "Electrical Fixtures",
+      "instancias": 2,
+      "tipos_cargados": ["Intemperie"],
+      "tipos_con_instancias": { "Intemperie": 2 },
+      "minable_F1": false,
+      "observacion": "Dos muestras y no esta en el mapeo actual del proyecto."
+    },
+    {
+      "familia": "M_Caja de conexiones hexagonal",
+      "categoria": "Electrical Fixtures",
+      "instancias": 18,
+      "tipos_cargados": ["120V"],
+      "tipos_con_instancias": { "120V": 18 },
+      "minable_F1": true,
+      "observacion": "No esta en el mapeo actual; 18 unidades es muestra suficiente."
+    },
+    {
+      "familia": "M_Cajas de conexiones - Sin carga",
+      "categoria": "Electrical Fixtures",
+      "instancias": 1,
+      "tipos_cargados": ["100 Cuadrada"],
+      "tipos_con_instancias": { "100 Cuadrada": 1 },
+      "minable_F1": false,
+      "observacion": "Una sola muestra: por debajo del minimo de 3."
+    },
+    {
+      "familia": "M_Interruptores",
+      "categoria": "Electrical Fixtures",
+      "instancias": 0,
+      "tipos_cargados": ["Conmutable", "Simple", "Doble", "Triple", "Doble conmutable", "Simple conmutable", "Triple conmutable"],
+      "tipos_con_instancias": {},
+      "minable_F1": false,
+      "observacion": "Familia cargada con 7 tipos pero SIN instancias en el benchmark. No se puede minar rotacion ni offset."
+    },
+    {
+      "familia": "M_Interruptores de iluminación",
+      "categoria": "Lighting Devices",
+      "instancias": 5,
+      "tipos_cargados": ["Piloto encendido"],
+      "tipos_con_instancias": { "Piloto encendido": 5 },
+      "minable_F1": true,
+      "observacion": "No esta en el mapeo actual. Ojo: no confundir con M_Interruptores."
+    },
+    {
+      "familia": "M_Zumbador",
+      "categoria": "Communication Devices",
+      "instancias": 2,
+      "tipos_cargados": ["Campana Timbre"],
+      "tipos_con_instancias": { "Campana Timbre": 2 },
+      "minable_F1": false,
+      "observacion": "Dos muestras: justo por debajo del minimo de 3."
+    },
+    {
+      "familia": "M_Pulsador - Interruptor",
+      "categoria": "Communication Devices",
+      "instancias": 1,
+      "tipos_cargados": ["Timbre"],
+      "tipos_con_instancias": { "Timbre": 1 },
+      "minable_F1": false,
+      "observacion": "Una muestra."
+    },
+    {
+      "familia": "M_Timbre",
+      "categoria": "Communication Devices",
+      "instancias": 0,
+      "tipos_cargados": ["Campana"],
+      "tipos_con_instancias": {},
+      "minable_F1": false,
+      "observacion": "Cargada sin instancias. El timbre del benchmark usa M_Pulsador - Interruptor | Timbre."
+    },
+    {
+      "familia": "M_Toma de teléfono - Datos",
+      "categoria": "Telephone Devices",
+      "instancias": 3,
+      "tipos_cargados": ["Simple"],
+      "tipos_con_instancias": { "Simple": 3 },
+      "minable_F1": true,
+      "observacion": "No esta en el mapeo actual: candidata a sustituir M_Comunicaciones | Telefono para ELEC-TEL."
+    },
+    {
+      "familia": "Consolidation_Point",
+      "categoria": "Data Devices",
+      "instancias": 2,
+      "tipos_cargados": ["CPB24BL", "CPB6BL", "CPB12BL", "CPB48BL"],
+      "tipos_con_instancias": { "CPB6BL": 2 },
+      "minable_F1": false,
+      "observacion": "Solo 2 instancias, y del tipo CPB6BL (el mapeo usa CPB24BL). Revisar la equivalencia."
+    },
+    {
+      "familia": "E_Panel Distribucion",
+      "categoria": "Electrical Equipment",
+      "instancias": 20,
+      "tipos_cargados": ["EPB25-304C"],
+      "tipos_con_instancias": { "EPB25-304C": 20 },
+      "minable_F1": true,
+      "observacion": "Los nombres de instancia son TF 01, TF 02, TF 17, TF 18, TD 02, TD 06, TD 07, TD 08, TD 13, TD 14, TD 16, TB 15, TE 05, TE 07."
+    },
+    {
+      "familia": "Medidor HS",
+      "categoria": "Electrical Equipment",
+      "instancias": 63,
+      "tipos_cargados": ["Medidor HS"],
+      "tipos_con_instancias": { "Medidor HS": 63 },
+      "minable_F1": false,
+      "observacion": "No es aparato de apartamento: es medicion. Zona x -59 a -50 m."
+    },
+    {
+      "familia": "EA",
+      "categoria": "Mechanical Equipment",
+      "instancias": 3,
+      "tipos_cargados": ["M_Extractor"],
+      "tipos_con_instancias": { "M_Extractor": 3 },
+      "minable_F1": true,
+      "observacion": "Categoria MECANICA, no electrica: el censo por nombre de categoria no la detecta. 3 instancias en Piso 5."
+    }
+  ],
+  "conclusiones": {
+    "minables_con_muestra_suficiente": ["M_Iluminacion", "M_Toma doble", "M_Comunicaciones", "M_Caja de conexiones hexagonal", "M_Interruptores de iluminación", "E_Panel Distribucion", "EA", "M_Toma de teléfono - Datos"],
+    "pendiente_medicion": ["M_Interruptores", "M_Timbre", "M_Climatizacion", "M_ClimatizacionV", "M_Toma - 220V", "M_Toma resistente a la intemperie", "M_Cajas de conexiones - Sin carga", "M_Zumbador", "M_Pulsador - Interruptor", "Consolidation_Point"],
+    "defecto_del_censo_corregido": "El censo filtraba categorias electricas por nombre; OST_MechanicalEquipment queda fuera. El alcance debe definirse por lista de categorias, no por coincidencia de texto.",
+    "hallazgo_bom": "Los nombres de tipo 'SONO FLEX 13 trim' y 'SONO FLEX 22 trim' traen U+FEFF (BOM) en el modelo. Confirmado por la API, no por el script. Cualquier comparacion exacta de nombres debe limpiarlo."
+  }
+}
