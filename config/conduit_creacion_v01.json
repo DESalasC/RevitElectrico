@@ -1,0 +1,66 @@
+{
+  "version": "v01",
+  "fecha": "2026-11-17",
+  "proyecto": "RevitElectrico - T5-SantaMarta",
+  "medido_en": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01.rvt (Revit 2026.4, canal MCP TCP 8080)",
+  "proposito": "Contrato de creacion de conduit. NO se crean tipos por diametro: el diametro y el servicio se fijan sobre la instancia al crear.",
+  "api_verificada": {
+    "crear": "Autodesk.Revit.DB.Electrical.Conduit.Create(Document, ElementId conduitType, XYZ startPoint, XYZ endPoint, ElementId levelId)",
+    "validar_tipo": "Conduit.IsValidConduitType(Document, ElementId)",
+    "diametro": "BuiltInParameter.RBS_CONDUIT_DIAMETER_PARAM (instancia)",
+    "servicio": "parametro de proyecto Servicio_Conduit, InstanceBinding",
+    "categorias_servicio": ["Conduits", "Conduit Runs", "Conduit Fittings"],
+    "nota": "La clase ConduitSizeSettings expone GetSizeCount/GetConduitSizeSettings(document); los tamanos se consultan por norma, no se inventan."
+  },
+  "tipos_existentes": [
+    {
+      "id": 112216,
+      "nombre": "Tubo",
+      "familia": "Conduit with Fittings",
+      "norma": "EMT",
+      "uso_recomendado": true
+    },
+    {
+      "id": 112217,
+      "nombre": "Tubo",
+      "familia": "Conduit without Fittings",
+      "norma": "EMT",
+      "uso_recomendado": false,
+      "nota": "Homologo del anterior pero sin accesorios. Comparte nombre: seleccionar por Id, nunca por nombre."
+    },
+    {
+      "id": 5508657,
+      "nombre": "Tubo Comunicaciones",
+      "familia": "Conduit with Fittings",
+      "norma": "EMT",
+      "uso_recomendado": true
+    }
+  ],
+  "diametros_emt": {
+    "unidad_api": "pies (unidad interna de Revit)",
+    "verificado": true,
+    "tabla": [
+      { "pulgadas": "1/2\"", "pies": 0.052, "mm": 15.85 },
+      { "pulgadas": "3/4\"", "pies": 0.069, "mm": 21.03 },
+      { "pulgadas": "1\"", "pies": 0.089, "mm": 27.13 },
+      { "pulgadas": "1-1/4\"", "pies": 0.115, "mm": 35.05 },
+      { "pulgadas": "1-1/2\"", "pies": 0.135, "mm": 41.15 },
+      { "pulgadas": "2\"", "pies": 0.174, "mm": 53.04 },
+      { "pulgadas": "2-1/2\"", "pies": 0.207, "mm": 63.09 },
+      { "pulgadas": "3\"", "pies": 0.256, "mm": 78.03 },
+      { "pulgadas": "3-1/2\"", "pies": 0.299, "mm": 91.14 },
+      { "pulgadas": "4\"", "pies": 0.338, "mm": 103.02 }
+    ]
+  },
+  "servicios": ["TOMAS", "ILUMINACION", "COMUNICACIONES", "FUERZA"],
+  "reglas": [
+    "El tipo se elige por Id (hay dos tipos llamados 'Tubo'); el diametro y Servicio_Conduit se asignan en la misma operacion de creacion.",
+    "El diametro debe pertenecer a diameters_emt; si no, se rechaza antes de crear (no se deja que Revit lo redondee en silencio).",
+    "COMUNICACIONES usa 3/4\" fijo por decision del operador (ver config/ruteo_config_v04.json).",
+    "El material es PVC rigido al interior y SCH40 al exterior; la norma EMT del tipo es la del modelo y no cambia el material fisico."
+  ],
+  "pendientes": [
+    "Renombrar uno de los dos tipos 'Tubo' para que el nombre sea unico en el modelo (requiere aprobacion del operador).",
+    "Verificar en el primer tramo real que Servicio_Conduit queda escrito y visible en la tabla de planificacion."
+  ]
+}

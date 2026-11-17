@@ -1,0 +1,368 @@
+{
+ "version": "v01",
+ "fecha": "2026-11-17",
+ "fuente": "CENTRAL-V01, apartamento E 06 medido por MCP",
+ "regla": "face-based: dot<0 = OK (normal del muro hacia adentro del muro); |dot|<0.30 = PARALELO (no face-based)",
+ "registros": [
+  {
+   "element_id": 5529723,
+   "familia": "M_Interruptores",
+   "tipo": "Simple conmutable",
+   "host_id": 2765812,
+   "facing_deg": 180.0,
+   "dist_mm": 1100.0,
+   "dot": 0.0,
+   "lado": "HACIA_EL_CUARTO"
+  },
+  {
+   "element_id": 5529727,
+   "familia": "M_Toma doble",
+   "tipo": "GFCI",
+   "host_id": 2765813,
+   "facing_deg": -0.0,
+   "dist_mm": 304.6,
+   "dot": -0.985,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529730,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 3869282,
+   "facing_deg": -0.0,
+   "dist_mm": 309.3,
+   "dot": -0.97,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529732,
+   "familia": "M_Interruptores",
+   "tipo": "Simple conmutable",
+   "host_id": 4829374,
+   "facing_deg": -90.0,
+   "dist_mm": 1100.0,
+   "dot": -0.0,
+   "lado": "HACIA_EL_CUARTO"
+  },
+  {
+   "element_id": 5529736,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 2765803,
+   "facing_deg": 0.0,
+   "dist_mm": 298.3,
+   "dot": -0.981,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529757,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 2765803,
+   "facing_deg": -0.0,
+   "dist_mm": 305.5,
+   "dot": -0.982,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529763,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 3869282,
+   "facing_deg": -0.0,
+   "dist_mm": 309.3,
+   "dot": -0.97,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529778,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 2765814,
+   "facing_deg": 0.0,
+   "dist_mm": 309.3,
+   "dot": -0.97,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529781,
+   "familia": "M_Climatizacion",
+   "tipo": "Interruptor Ventilador",
+   "host_id": 2766040,
+   "facing_deg": -0.0,
+   "dist_mm": 1201.4,
+   "dot": -0.999,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529783,
+   "familia": "M_Interruptores",
+   "tipo": "Simple",
+   "host_id": 2766040,
+   "facing_deg": -0.0,
+   "dist_mm": 1100.0,
+   "dot": 0.0,
+   "lado": "HACIA_EL_CUARTO"
+  },
+  {
+   "element_id": 5529787,
+   "familia": "M_Climatizacion",
+   "tipo": "Interruptor Ventilador",
+   "host_id": 2765803,
+   "facing_deg": -0.0,
+   "dist_mm": 1101.5,
+   "dot": -0.999,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529796,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 2765817,
+   "facing_deg": -0.0,
+   "dist_mm": 964.9,
+   "dot": -0.998,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529798,
+   "familia": "M_Interruptores",
+   "tipo": "Simple",
+   "host_id": 2765793,
+   "facing_deg": 180.0,
+   "dist_mm": 1100.0,
+   "dot": 0.0,
+   "lado": "HACIA_EL_CUARTO"
+  },
+  {
+   "element_id": 5529802,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 2765817,
+   "facing_deg": 0.0,
+   "dist_mm": 308.4,
+   "dot": -0.973,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529805,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 2765817,
+   "facing_deg": 180.0,
+   "dist_mm": 1051.6,
+   "dot": -0.998,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529807,
+   "familia": "M_Interruptores",
+   "tipo": "Triple",
+   "host_id": 2765799,
+   "facing_deg": -0.0,
+   "dist_mm": 1100.0,
+   "dot": 0.0,
+   "lado": "HACIA_EL_CUARTO"
+  },
+  {
+   "element_id": 5529811,
+   "familia": "M_Toma doble",
+   "tipo": "GFCI",
+   "host_id": 2765799,
+   "facing_deg": -90.0,
+   "dist_mm": 1101.5,
+   "dot": -0.999,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529814,
+   "familia": "M_Toma doble",
+   "tipo": "GFCI",
+   "host_id": 2765818,
+   "facing_deg": -90.0,
+   "dist_mm": 852.0,
+   "dot": -0.998,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529840,
+   "familia": "M_Interruptores",
+   "tipo": "Simple",
+   "host_id": 2765798,
+   "facing_deg": -0.0,
+   "dist_mm": 1100.0,
+   "dot": 0.0,
+   "lado": "HACIA_EL_CUARTO"
+  },
+  {
+   "element_id": 5529846,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 3902726,
+   "facing_deg": -0.0,
+   "dist_mm": 703.0,
+   "dot": -0.996,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529849,
+   "familia": "M_Toma doble",
+   "tipo": "Normal",
+   "host_id": 3902726,
+   "facing_deg": -0.0,
+   "dist_mm": 1651.3,
+   "dot": -0.999,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529852,
+   "familia": "M_Toma doble",
+   "tipo": "GFCI",
+   "host_id": 2766520,
+   "facing_deg": -0.0,
+   "dist_mm": 1050.0,
+   "dot": -1.0,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529855,
+   "familia": "M_Toma doble",
+   "tipo": "GFCI",
+   "host_id": 3902726,
+   "facing_deg": -0.0,
+   "dist_mm": 1052.0,
+   "dot": -0.998,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529742,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765803,
+   "facing_deg": 0.0,
+   "dist_mm": 305.5,
+   "dot": -0.982,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529745,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765803,
+   "facing_deg": 0.0,
+   "dist_mm": 305.5,
+   "dot": -0.982,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529748,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765803,
+   "facing_deg": 0.0,
+   "dist_mm": 305.5,
+   "dot": -0.982,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529760,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765803,
+   "facing_deg": -0.0,
+   "dist_mm": 305.5,
+   "dot": -0.982,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529769,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765803,
+   "facing_deg": -0.0,
+   "dist_mm": 305.5,
+   "dot": -0.982,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529772,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765803,
+   "facing_deg": -0.0,
+   "dist_mm": 305.5,
+   "dot": -0.982,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529817,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765818,
+   "facing_deg": 90.0,
+   "dist_mm": 1001.7,
+   "dot": -0.998,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529823,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765818,
+   "facing_deg": 90.0,
+   "dist_mm": 1001.7,
+   "dot": -0.998,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529826,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765818,
+   "facing_deg": -90.0,
+   "dist_mm": 1001.7,
+   "dot": -0.998,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529829,
+   "familia": "M_Comunicaciones",
+   "tipo": "Datos",
+   "host_id": 2765818,
+   "facing_deg": -90.0,
+   "dist_mm": 1001.7,
+   "dot": -0.998,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529844,
+   "familia": "M_Timbre",
+   "tipo": "Campana",
+   "host_id": 3902726,
+   "facing_deg": -0.0,
+   "dist_mm": 2400.9,
+   "dot": -1.0,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529858,
+   "familia": "M_Pulsador - Interruptor",
+   "tipo": "Timbre",
+   "host_id": 3902726,
+   "facing_deg": 180.0,
+   "dist_mm": 1101.9,
+   "dot": -0.998,
+   "lado": "HACIA_EL_MURO"
+  },
+  {
+   "element_id": 5529820,
+   "familia": "Consolidation_Point",
+   "tipo": "CPB6BL",
+   "host_id": 2765818,
+   "facing_deg": 90.0,
+   "dist_mm": 2700.6,
+   "dot": -1.0,
+   "lado": "HACIA_EL_MURO"
+  }
+ ]
+}

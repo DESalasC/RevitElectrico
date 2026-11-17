@@ -1,0 +1,431 @@
+{
+ "version": "v01",
+ "fecha": "2026-11-17T10:44:30",
+ "fuente": "ArchivosBase/*.dxf",
+ "criterio": "INSERT cuyo nombre empieza por ELEC-, 'Bala Stil Led' o 'S3', salvo ELEC-POWER-PANEL",
+ "total_unidades": 20,
+ "total_aparatos": 901,
+ "total_por_bloque": {
+  "Bala Stil Led 10W": 74,
+  "Bala Stil Led 13W": 73,
+  "Bala Stil Led 22W": 42,
+  "ELEC-CAMPANA": 20,
+  "ELEC-EXT": 10,
+  "ELEC-F-CONTROL": 34,
+  "ELEC-F-VENT": 34,
+  "ELEC-I-S-1-5A": 71,
+  "ELEC-I-S-2-5A": 12,
+  "ELEC-I-S-C1-5A": 18,
+  "ELEC-NET-PAU": 20,
+  "ELEC-T-D-t-15A": 175,
+  "ELEC-T-GFCI-t-15A": 98,
+  "ELEC-TEL": 190,
+  "ELEC-TIMBRE": 20,
+  "S3": 8,
+  "S3C": 2
+ },
+ "unidades": {
+  "ApaRtamento Tipo E 05.dxf": {
+   "unidad": "ApaRtamento Tipo E 05",
+   "total": 47,
+   "por_bloque": {
+    "Bala Stil Led 10W": 3,
+    "Bala Stil Led 13W": 4,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 2,
+    "ELEC-F-VENT": 2,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-C1-5A": 2,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 10,
+    "ELEC-T-GFCI-t-15A": 5,
+    "ELEC-TEL": 10,
+    "ELEC-TIMBRE": 1,
+    "S3": 1
+   }
+  },
+  "Apartamento Tipo B 15.dxf": {
+   "unidad": "B 15",
+   "total": 69,
+   "por_bloque": {
+    "Bala Stil Led 10W": 5,
+    "Bala Stil Led 13W": 7,
+    "Bala Stil Led 22W": 3,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 3,
+    "ELEC-F-VENT": 3,
+    "ELEC-I-S-1-5A": 7,
+    "ELEC-I-S-C1-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 11,
+    "ELEC-T-GFCI-t-15A": 8,
+    "ELEC-TEL": 17,
+    "ELEC-TIMBRE": 1,
+    "S3C": 1
+   }
+  },
+  "Apartamento Tipo B 16.dxf": {
+   "unidad": "B 16",
+   "total": 71,
+   "por_bloque": {
+    "Bala Stil Led 10W": 5,
+    "Bala Stil Led 13W": 7,
+    "Bala Stil Led 22W": 3,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 3,
+    "ELEC-F-VENT": 3,
+    "ELEC-I-S-1-5A": 8,
+    "ELEC-I-S-C1-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 12,
+    "ELEC-T-GFCI-t-15A": 8,
+    "ELEC-TEL": 17,
+    "ELEC-TIMBRE": 1,
+    "S3C": 1
+   }
+  },
+  "Apartamento Tipo E 06.dxf": {
+   "unidad": "E 06",
+   "total": 47,
+   "por_bloque": {
+    "Bala Stil Led 10W": 3,
+    "Bala Stil Led 13W": 4,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 2,
+    "ELEC-F-VENT": 2,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-C1-5A": 2,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 10,
+    "ELEC-T-GFCI-t-15A": 5,
+    "ELEC-TEL": 10,
+    "ELEC-TIMBRE": 1,
+    "S3": 1
+   }
+  },
+  "Apartamento Tipo E 07.dxf": {
+   "unidad": "E 07",
+   "total": 47,
+   "por_bloque": {
+    "Bala Stil Led 10W": 3,
+    "Bala Stil Led 13W": 4,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 2,
+    "ELEC-F-VENT": 2,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-C1-5A": 2,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 10,
+    "ELEC-T-GFCI-t-15A": 5,
+    "ELEC-TEL": 10,
+    "ELEC-TIMBRE": 1,
+    "S3": 1
+   }
+  },
+  "Apartamento Tipo E 07a.dxf": {
+   "unidad": "E 07a",
+   "total": 47,
+   "por_bloque": {
+    "Bala Stil Led 10W": 3,
+    "Bala Stil Led 13W": 4,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 2,
+    "ELEC-F-VENT": 2,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-C1-5A": 2,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 10,
+    "ELEC-T-GFCI-t-15A": 5,
+    "ELEC-TEL": 10,
+    "ELEC-TIMBRE": 1,
+    "S3": 1
+   }
+  },
+  "Apartamento Tipo E 08.dxf": {
+   "unidad": "E 08",
+   "total": 47,
+   "por_bloque": {
+    "Bala Stil Led 10W": 3,
+    "Bala Stil Led 13W": 4,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 2,
+    "ELEC-F-VENT": 2,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-C1-5A": 2,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 10,
+    "ELEC-T-GFCI-t-15A": 5,
+    "ELEC-TEL": 10,
+    "ELEC-TIMBRE": 1,
+    "S3": 1
+   }
+  },
+  "Apartamento Tipo E 08a.dxf": {
+   "unidad": "E 08a",
+   "total": 47,
+   "por_bloque": {
+    "Bala Stil Led 10W": 3,
+    "Bala Stil Led 13W": 4,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 2,
+    "ELEC-F-VENT": 2,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-C1-5A": 2,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 10,
+    "ELEC-T-GFCI-t-15A": 5,
+    "ELEC-TEL": 10,
+    "ELEC-TIMBRE": 1,
+    "S3": 1
+   }
+  },
+  "Apartamento Tipo F 01.dxf": {
+   "unidad": "F 01",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "Apartamento Tipo F 01a.dxf": {
+   "unidad": "F 01a",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "Apartamento Tipo F 01b.dxf": {
+   "unidad": "F 01b",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "Apartamento Tipo F 02.dxf": {
+   "unidad": "F 02",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "Apartamento Tipo F 02a.dxf": {
+   "unidad": "F 02a",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "Apartamento Tipo F 02b.dxf": {
+   "unidad": "F 02b",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "Apartamento Tipo F 17.dxf": {
+   "unidad": "F 17",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "Apartamento Tipo F 17a.dxf": {
+   "unidad": "F 17a",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "Apartamentos Tipo F 18.dxf": {
+   "unidad": "F 18",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "Apartamentos Tipo F 18a.dxf": {
+   "unidad": "F 18a",
+   "total": 36,
+   "por_bloque": {
+    "Bala Stil Led 10W": 4,
+    "Bala Stil Led 13W": 2,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-EXT": 1,
+    "ELEC-F-CONTROL": 1,
+    "ELEC-F-VENT": 1,
+    "ELEC-I-S-1-5A": 3,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 7,
+    "ELEC-T-GFCI-t-15A": 4,
+    "ELEC-TEL": 7,
+    "ELEC-TIMBRE": 1
+   }
+  },
+  "ELEC-Apartamento Tipo C 14.dxf": {
+   "unidad": "C 14",
+   "total": 60,
+   "por_bloque": {
+    "Bala Stil Led 10W": 3,
+    "Bala Stil Led 13W": 8,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 3,
+    "ELEC-F-VENT": 3,
+    "ELEC-I-S-1-5A": 4,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-I-S-C1-5A": 2,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 11,
+    "ELEC-T-GFCI-t-15A": 6,
+    "ELEC-TEL": 13,
+    "ELEC-TIMBRE": 1,
+    "S3": 1
+   }
+  },
+  "ELEC-Apartamento Tipo D 13.dxf": {
+   "unidad": "D 13",
+   "total": 59,
+   "por_bloque": {
+    "Bala Stil Led 10W": 3,
+    "Bala Stil Led 13W": 7,
+    "Bala Stil Led 22W": 2,
+    "ELEC-CAMPANA": 1,
+    "ELEC-F-CONTROL": 3,
+    "ELEC-F-VENT": 3,
+    "ELEC-I-S-1-5A": 4,
+    "ELEC-I-S-2-5A": 1,
+    "ELEC-I-S-C1-5A": 2,
+    "ELEC-NET-PAU": 1,
+    "ELEC-T-D-t-15A": 11,
+    "ELEC-T-GFCI-t-15A": 6,
+    "ELEC-TEL": 13,
+    "ELEC-TIMBRE": 1,
+    "S3": 1
+   }
+  }
+ }
+}
