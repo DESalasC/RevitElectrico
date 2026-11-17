@@ -1,0 +1,38 @@
+{
+ "tramos_total": 147,
+ "tramos_validos": 144,
+ "tramos_fuera_de_rango": [
+  5647591,
+  5647668,
+  5647896
+ ],
+ "longitud_valida_m": 133.306,
+ "longitud_total_m": 138.852,
+ "por_servicio": {
+  "(vacio)": 5,
+  "COMUNICACIONES": 17,
+  "FUERZA": 13,
+  "ILUMINACION": 46,
+  "TOMAS": 63
+ },
+ "por_diametro_mm": {
+  "16": 4,
+  "21": 93,
+  "27": 47
+ },
+ "tramos_sin_servicio": [
+  5641490,
+  5646375,
+  5658655,
+  5658705,
+  5659828
+ ],
+ "tramos_sin_servicio_n": 5,
+ "dispositivos_total": 87,
+ "dispositivos_con_conexion": 84,
+ "dispositivos_sin_conexion": [
+  5695404,
+  5695438
+ ],
+ "tolerancia_conexion_mm": 500.0
+}
