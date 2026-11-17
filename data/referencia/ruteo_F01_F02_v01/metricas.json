@@ -1,0 +1,83 @@
+{
+ "unidades": [
+  "F 01",
+  "F 02"
+ ],
+ "tramos": 139,
+ "longitud_m": 132.911,
+ "dispositivos": 84,
+ "aparatos": 66,
+ "cajas": 18,
+ "m_por_aparato": 2.014,
+ "tramos_por_aparato": 2.106,
+ "por_servicio": {
+  "COMUNICACIONES": 17,
+  "FUERZA": 13,
+  "ILUMINACION": 46,
+  "TOMAS": 63
+ },
+ "por_diametro_mm": {
+  "16": 4,
+  "21": 88,
+  "27": 47
+ },
+ "por_unidad": {
+  "F 01": 42,
+  "F 02": 42
+ },
+ "descartes_dispositivos": [
+  {
+   "id": 5655927,
+   "motivo": "fuera_de_rango",
+   "punto": [
+    11642.005,
+    12304.716,
+    28923.957
+   ]
+  },
+  {
+   "id": 5695404,
+   "motivo": "fuera_de_unidad",
+   "distancia_mm": Infinity
+  },
+  {
+   "id": 5695438,
+   "motivo": "fuera_de_unidad",
+   "distancia_mm": Infinity
+  }
+ ],
+ "descartes_conduits": [
+  {
+   "id": 5641490,
+   "motivo": "sin_servicio"
+  },
+  {
+   "id": 5646375,
+   "motivo": "sin_servicio"
+  },
+  {
+   "id": 5647591,
+   "motivo": "fuera_de_rango"
+  },
+  {
+   "id": 5647668,
+   "motivo": "fuera_de_rango"
+  },
+  {
+   "id": 5647896,
+   "motivo": "fuera_de_rango"
+  },
+  {
+   "id": 5658655,
+   "motivo": "sin_servicio"
+  },
+  {
+   "id": 5658705,
+   "motivo": "sin_servicio"
+  },
+  {
+   "id": 5659828,
+   "motivo": "sin_servicio"
+  }
+ ]
+}

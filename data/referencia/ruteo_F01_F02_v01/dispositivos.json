@@ -1,0 +1,2270 @@
+[
+ {
+  "id": 5565812,
+  "uid": "8456d024-0d08-4f65-8ade-ef323ff2ad23-0054ed74",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 14045.333,
+  "y": 10109.922,
+  "z": 14270,
+  "bbmin": [
+   14040.57,
+   10052.772,
+   14235.075
+  ],
+  "bbmax": [
+   14099.308,
+   10167.072,
+   14304.925
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766693|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2434.7
+ },
+ {
+  "id": 5565967,
+  "uid": "8456d024-0d08-4f65-8ade-ef323ff2ad23-0054ee0f",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13832.623,
+  "y": 11396.99,
+  "z": 14270,
+  "bbmin": [
+   13827.86,
+   11339.84,
+   14235.075
+  ],
+  "bbmax": [
+   13886.598,
+   11454.14,
+   14304.925
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2765780|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2547.2
+ },
+ {
+  "id": 5566446,
+  "uid": "8456d024-0d08-4f65-8ade-ef323ff2ad23-0054efee",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13836.333,
+  "y": 11727.773,
+  "z": 13920,
+  "bbmin": [
+   13831.57,
+   11670.623,
+   13885.075
+  ],
+  "bbmax": [
+   13890.308,
+   11784.923,
+   13954.925
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2765780|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2727.3
+ },
+ {
+  "id": 5566510,
+  "uid": "8456d024-0d08-4f65-8ade-ef323ff2ad23-0054f02e",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13836.333,
+  "y": 11857.647,
+  "z": 14870,
+  "bbmin": [
+   13831.57,
+   11800.497,
+   14835.075
+  ],
+  "bbmax": [
+   13890.308,
+   11914.797,
+   14904.925
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2765780|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2804.4
+ },
+ {
+  "id": 5566744,
+  "uid": "8456d024-0d08-4f65-8ade-ef323ff2ad23-0054f118",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13836.333,
+  "y": 12535.845,
+  "z": 13905.858,
+  "bbmin": [
+   13831.57,
+   12478.695,
+   13870.933
+  ],
+  "bbmax": [
+   13890.308,
+   12592.995,
+   13940.783
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2765780|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 3261.8
+ },
+ {
+  "id": 5566841,
+  "uid": "8456d024-0d08-4f65-8ade-ef323ff2ad23-0054f179",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13836.333,
+  "y": 14263.971,
+  "z": 13920,
+  "bbmin": [
+   13831.57,
+   14206.821,
+   13885.075
+  ],
+  "bbmax": [
+   13890.308,
+   14321.121,
+   13954.925
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2765780|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 4676.4
+ },
+ {
+  "id": 5567171,
+  "uid": "8456d024-0d08-4f65-8ade-ef323ff2ad23-0054f2c3",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 11706.774,
+  "y": 12376.673,
+  "z": 13520,
+  "bbmin": [
+   11652.799,
+   12341.748,
+   13462.85
+  ],
+  "bbmax": [
+   11711.537,
+   12411.598,
+   13577.15
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766695|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2227.7
+ },
+ {
+  "id": 5567316,
+  "uid": "8456d024-0d08-4f65-8ade-ef323ff2ad23-0054f354",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "GFCI",
+  "x": 10546.374,
+  "y": 12059.773,
+  "z": 14420,
+  "bbmin": [
+   10511.449,
+   12055.01,
+   14362.85
+  ],
+  "bbmax": [
+   10581.299,
+   12113.748,
+   14477.15
+  ],
+  "rot": 0,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2765979|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2185.6
+ },
+ {
+  "id": 5567459,
+  "uid": "329bff61-adcf-4a11-b142-b41214732e4f-0054f3e3",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma - 220V",
+  "tipo": "Estándar",
+  "x": 10271.974,
+  "y": 13234.394,
+  "z": 15720,
+  "bbmin": [
+   10217.999,
+   13199.469,
+   15662.85
+  ],
+  "bbmax": [
+   10276.737,
+   13269.319,
+   15777.15
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766689|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 3361.6
+ },
+ {
+  "id": 5567641,
+  "uid": "329bff61-adcf-4a11-b142-b41214732e4f-0054f499",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 10271.974,
+  "y": 13104.633,
+  "z": 13909.582,
+  "bbmin": [
+   10217.999,
+   13069.708,
+   13852.432
+  ],
+  "bbmax": [
+   10276.737,
+   13139.558,
+   13966.732
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766689|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 3243.0
+ },
+ {
+  "id": 5568009,
+  "uid": "329bff61-adcf-4a11-b142-b41214732e4f-0054f609",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 10471.274,
+  "y": 16024.133,
+  "z": 13520,
+  "bbmin": [
+   10436.349,
+   16019.37,
+   13462.85
+  ],
+  "bbmax": [
+   10506.199,
+   16078.108,
+   13577.15
+  ],
+  "rot": 0,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766690|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 5982.7
+ },
+ {
+  "id": 5568207,
+  "uid": "329bff61-adcf-4a11-b142-b41214732e4f-0054f6cf",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma resistente a la intemperie",
+  "tipo": "Intemperie",
+  "x": 10471.274,
+  "y": 16156.133,
+  "z": 13520,
+  "bbmin": [
+   10436.349,
+   16102.158,
+   13462.85
+  ],
+  "bbmax": [
+   10506.199,
+   16160.895,
+   13577.15
+  ],
+  "rot": 0,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766707|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 6112.3
+ },
+ {
+  "id": 5571029,
+  "uid": "bd3c457a-6eaf-42b9-8a89-c043a15214a0-005501d5",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_ClimatizacionV",
+  "tipo": "Ventilador",
+  "x": 12151.36,
+  "y": 14333.44,
+  "z": 15720,
+  "bbmin": [
+   12090.36,
+   14326.298,
+   15720
+  ],
+  "bbmax": [
+   12212.36,
+   14455.44,
+   15745
+  ],
+  "rot": -90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5487663|Ceiling",
+  "unidad": "F 02",
+  "dist_tablero_mm": 4217.2
+ },
+ {
+  "id": 5581244,
+  "uid": "0db6aba4-19df-4091-ab91-11c6ba1e823f-005529bc",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12892.926,
+  "y": 11782.825,
+  "z": 15895,
+  "bbmin": [
+   12834.036,
+   11731.825,
+   15895
+  ],
+  "bbmax": [
+   12951.815,
+   11833.825,
+   15933
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2075.1
+ },
+ {
+  "id": 5581906,
+  "uid": "0db6aba4-19df-4091-ab91-11c6ba1e823f-00552c52",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12892.926,
+  "y": 10465.566,
+  "z": 15895,
+  "bbmin": [
+   12834.036,
+   10414.566,
+   15895
+  ],
+  "bbmax": [
+   12951.815,
+   10516.566,
+   15933
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 1320.0
+ },
+ {
+  "id": 5582027,
+  "uid": "0db6aba4-19df-4091-ab91-11c6ba1e823f-00552ccb",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12874.852,
+  "y": 13108.946,
+  "z": 15895,
+  "bbmin": [
+   12815.962,
+   13057.946,
+   15895
+  ],
+  "bbmax": [
+   12933.742,
+   13159.946,
+   15933
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 3216.6
+ },
+ {
+  "id": 5582102,
+  "uid": "0db6aba4-19df-4091-ab91-11c6ba1e823f-00552d16",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 11016.302,
+  "y": 13105.566,
+  "z": 15895,
+  "bbmin": [
+   10957.412,
+   13054.566,
+   15895
+  ],
+  "bbmax": [
+   11075.192,
+   13156.566,
+   15933
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 3013.8
+ },
+ {
+  "id": 5601518,
+  "uid": "0db6aba4-19df-4091-ab91-11c6ba1e823f-005578ee",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12870.314,
+  "y": 15688.946,
+  "z": 15895,
+  "bbmin": [
+   12811.424,
+   15637.946,
+   15895
+  ],
+  "bbmax": [
+   12929.204,
+   15739.946,
+   15933
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 5679.3
+ },
+ {
+  "id": 5601519,
+  "uid": "0db6aba4-19df-4091-ab91-11c6ba1e823f-005578ef",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 11011.764,
+  "y": 15685.566,
+  "z": 15895,
+  "bbmin": [
+   10952.874,
+   15634.566,
+   15895
+  ],
+  "bbmax": [
+   11070.654,
+   15736.566,
+   15933
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 5566.9
+ },
+ {
+  "id": 5601664,
+  "uid": "2819e739-3225-4533-9302-61ac5edcc901-00557980",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12151.36,
+  "y": 14390.869,
+  "z": 15895,
+  "bbmin": [
+   12092.47,
+   14339.869,
+   15895
+  ],
+  "bbmax": [
+   12210.249,
+   14441.869,
+   15933
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 4274.2
+ },
+ {
+  "id": 5601820,
+  "uid": "2819e739-3225-4533-9302-61ac5edcc901-00557a1c",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 11007.684,
+  "y": 10843.504,
+  "z": 15895,
+  "bbmin": [
+   10948.794,
+   10792.504,
+   15895
+  ],
+  "bbmax": [
+   11066.574,
+   10894.504,
+   15933
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 918.5
+ },
+ {
+  "id": 5642717,
+  "uid": "7ffbc102-6311-4185-a91f-8dc581ce785c-005619dd",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12181.104,
+  "y": 16882.693,
+  "z": 15895,
+  "bbmin": [
+   12122.214,
+   16831.693,
+   15895
+  ],
+  "bbmax": [
+   12239.994,
+   16933.693,
+   15933
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 6755.8
+ },
+ {
+  "id": 5653542,
+  "uid": "e8569ecc-56f9-4284-949f-0fd12fbdebb5-00564426",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Telefono",
+  "x": 11706.274,
+  "y": 12302.273,
+  "z": 15620,
+  "bbmin": [
+   11706.274,
+   12237.484,
+   15620
+  ],
+  "bbmax": [
+   11920.73,
+   12428.86,
+   15735
+  ],
+  "rot": 0,
+  "fFlipped": true,
+  "hFlipped": true,
+  "nivel": "Piso 5",
+  "host": "2766695|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2153.4
+ },
+ {
+  "id": 5653654,
+  "uid": "e8569ecc-56f9-4284-949f-0fd12fbdebb5-00564496",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Telefono",
+  "x": 13848.833,
+  "y": 14554.508,
+  "z": 14160,
+  "bbmin": [
+   13634.377,
+   14427.92,
+   14160
+  ],
+  "bbmax": [
+   13848.833,
+   14619.297,
+   14275
+  ],
+  "rot": 180,
+  "fFlipped": true,
+  "hFlipped": true,
+  "nivel": "Piso 5",
+  "host": "2765780|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 4939.5
+ },
+ {
+  "id": 5658570,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657ca",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 14045.333,
+  "y": 7575.161,
+  "z": 14270,
+  "bbmin": [
+   14040.57,
+   7518.011,
+   14235.075
+  ],
+  "bbmax": [
+   14099.308,
+   7632.311,
+   14304.925
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "4830093|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2434.7
+ },
+ {
+  "id": 5658572,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657cc",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13832.623,
+  "y": 6288.093,
+  "z": 14270,
+  "bbmin": [
+   13827.86,
+   6230.943,
+   14235.075
+  ],
+  "bbmax": [
+   13886.598,
+   6345.243,
+   14304.925
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2547.1
+ },
+ {
+  "id": 5658574,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657ce",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13836.333,
+  "y": 5957.31,
+  "z": 13920,
+  "bbmin": [
+   13831.57,
+   5900.16,
+   13885.075
+  ],
+  "bbmax": [
+   13890.308,
+   6014.46,
+   13954.925
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2727.3
+ },
+ {
+  "id": 5658575,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657cf",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13836.333,
+  "y": 5827.435,
+  "z": 14870,
+  "bbmin": [
+   13831.57,
+   5770.285,
+   14835.075
+  ],
+  "bbmax": [
+   13890.308,
+   5884.585,
+   14904.925
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2804.4
+ },
+ {
+  "id": 5658576,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657d0",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13836.333,
+  "y": 5149.238,
+  "z": 13905.858,
+  "bbmin": [
+   13831.57,
+   5092.088,
+   13870.933
+  ],
+  "bbmax": [
+   13890.308,
+   5206.388,
+   13940.783
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 3261.8
+ },
+ {
+  "id": 5658577,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657d1",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 13836.333,
+  "y": 3421.111,
+  "z": 13920,
+  "bbmin": [
+   13831.57,
+   3363.961,
+   13885.075
+  ],
+  "bbmax": [
+   13890.308,
+   3478.261,
+   13954.925
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 4676.3
+ },
+ {
+  "id": 5658578,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657d2",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 11706.774,
+  "y": 5308.41,
+  "z": 13520,
+  "bbmin": [
+   11652.799,
+   5273.485,
+   13462.85
+  ],
+  "bbmax": [
+   11711.537,
+   5343.335,
+   13577.15
+  ],
+  "rot": -180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "4830095|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2227.6
+ },
+ {
+  "id": 5658580,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657d4",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "GFCI",
+  "x": 10546.374,
+  "y": 5625.31,
+  "z": 14420,
+  "bbmin": [
+   10511.449,
+   5571.335,
+   14362.85
+  ],
+  "bbmax": [
+   10581.299,
+   5630.072,
+   14477.15
+  ],
+  "rot": -180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2185.5
+ },
+ {
+  "id": 5658582,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657d6",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma - 220V",
+  "tipo": "Estándar",
+  "x": 10271.974,
+  "y": 4450.689,
+  "z": 15720,
+  "bbmin": [
+   10217.999,
+   4415.764,
+   15662.85
+  ],
+  "bbmax": [
+   10276.737,
+   4485.614,
+   15777.15
+  ],
+  "rot": -180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "4830089|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 3361.5
+ },
+ {
+  "id": 5658584,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657d8",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 10271.974,
+  "y": 4580.45,
+  "z": 13909.582,
+  "bbmin": [
+   10217.999,
+   4545.525,
+   13852.432
+  ],
+  "bbmax": [
+   10276.737,
+   4615.375,
+   13966.732
+  ],
+  "rot": -180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "4830089|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 3242.9
+ },
+ {
+  "id": 5658585,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657d9",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma doble",
+  "tipo": "Normal",
+  "x": 10471.274,
+  "y": 1660.95,
+  "z": 13520,
+  "bbmin": [
+   10436.349,
+   1606.975,
+   13462.85
+  ],
+  "bbmax": [
+   10506.199,
+   1665.712,
+   13577.15
+  ],
+  "rot": -180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 5982.6
+ },
+ {
+  "id": 5658587,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657db",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Toma resistente a la intemperie",
+  "tipo": "Intemperie",
+  "x": 10471.274,
+  "y": 1528.95,
+  "z": 13520,
+  "bbmin": [
+   10436.349,
+   1524.187,
+   13462.85
+  ],
+  "bbmax": [
+   10506.199,
+   1582.925,
+   13577.15
+  ],
+  "rot": -180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 6112.3
+ },
+ {
+  "id": 5658592,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657e0",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Climatizacion",
+  "tipo": "Interruptor Ventilador",
+  "x": 11706.774,
+  "y": 5058.41,
+  "z": 14120,
+  "bbmin": [
+   11652.799,
+   5023.485,
+   14062.85
+  ],
+  "bbmax": [
+   11711.537,
+   5093.335,
+   14177.15
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "4830095|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2477.4
+ },
+ {
+  "id": 5658600,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657e8",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_ClimatizacionV",
+  "tipo": "Ventilador",
+  "x": 12151.36,
+  "y": 3351.642,
+  "z": 15720,
+  "bbmin": [
+   12090.36,
+   3229.642,
+   15720
+  ],
+  "bbmax": [
+   12212.36,
+   3351.642,
+   15745
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 4217.1
+ },
+ {
+  "id": 5658612,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657f4",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12892.926,
+  "y": 5902.257,
+  "z": 15895,
+  "bbmin": [
+   12834.036,
+   5851.257,
+   15895
+  ],
+  "bbmax": [
+   12951.815,
+   5953.257,
+   15933
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2075.1
+ },
+ {
+  "id": 5658613,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657f5",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12892.926,
+  "y": 7219.517,
+  "z": 15895,
+  "bbmin": [
+   12834.036,
+   7168.517,
+   15895
+  ],
+  "bbmax": [
+   12951.815,
+   7270.517,
+   15933
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 1319.9
+ },
+ {
+  "id": 5658614,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657f6",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12874.852,
+  "y": 4576.136,
+  "z": 15895,
+  "bbmin": [
+   12815.962,
+   4525.136,
+   15895
+  ],
+  "bbmax": [
+   12933.742,
+   4627.136,
+   15933
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 3216.6
+ },
+ {
+  "id": 5658615,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657f7",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 11016.302,
+  "y": 4579.517,
+  "z": 15895,
+  "bbmin": [
+   10957.412,
+   4528.517,
+   15895
+  ],
+  "bbmax": [
+   11075.192,
+   4630.517,
+   15933
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 3013.7
+ },
+ {
+  "id": 5658616,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657f8",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12870.314,
+  "y": 1996.136,
+  "z": 15895,
+  "bbmin": [
+   12811.424,
+   1945.136,
+   15895
+  ],
+  "bbmax": [
+   12929.204,
+   2047.136,
+   15933
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 5679.2
+ },
+ {
+  "id": 5658617,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657f9",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 11011.764,
+  "y": 1999.517,
+  "z": 15895,
+  "bbmin": [
+   10952.874,
+   1948.517,
+   15895
+  ],
+  "bbmax": [
+   11070.654,
+   2050.517,
+   15933
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 5566.8
+ },
+ {
+  "id": 5658618,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657fa",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12151.36,
+  "y": 3294.214,
+  "z": 15895,
+  "bbmin": [
+   12092.47,
+   3243.214,
+   15895
+  ],
+  "bbmax": [
+   12210.249,
+   3345.214,
+   15933
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 4274.1
+ },
+ {
+  "id": 5658619,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657fb",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 11007.684,
+  "y": 6841.578,
+  "z": 15895,
+  "bbmin": [
+   10948.794,
+   6790.578,
+   15895
+  ],
+  "bbmax": [
+   11066.574,
+   6892.578,
+   15933
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 918.4
+ },
+ {
+  "id": 5658664,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-00565828",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Caja de conexiones hexagonal",
+  "tipo": "120V",
+  "x": 12181.104,
+  "y": 802.39,
+  "z": 15895,
+  "bbmin": [
+   12122.214,
+   751.39,
+   15895
+  ],
+  "bbmax": [
+   12239.994,
+   853.39,
+   15933
+  ],
+  "rot": -90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 6755.7
+ },
+ {
+  "id": 5658759,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-00565887",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Telefono",
+  "x": 11648.074,
+  "y": 5382.81,
+  "z": 15620,
+  "bbmin": [
+   11642.122,
+   5256.222,
+   15620
+  ],
+  "bbmax": [
+   11862.53,
+   5447.599,
+   15735
+  ],
+  "rot": 0,
+  "fFlipped": false,
+  "hFlipped": true,
+  "nivel": "Piso 5",
+  "host": "4829442|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2151.5
+ },
+ {
+  "id": 5658760,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-00565888",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Telefono",
+  "x": 13848.834,
+  "y": 3130.575,
+  "z": 14160,
+  "bbmin": [
+   13634.378,
+   3065.786,
+   14160
+  ],
+  "bbmax": [
+   13854.787,
+   3257.162,
+   14275
+  ],
+  "rot": 180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 4939.4
+ },
+ {
+  "id": 5684967,
+  "uid": "3de956e7-c90b-4873-a848-d3de7da5561e-0056bee7",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Datos",
+  "x": 13848.833,
+  "y": 14644.633,
+  "z": 14160,
+  "bbmin": [
+   13634.377,
+   14518.045,
+   14160
+  ],
+  "bbmax": [
+   13848.833,
+   14709.422,
+   14275
+  ],
+  "rot": 180,
+  "fFlipped": true,
+  "hFlipped": true,
+  "nivel": "Piso 5",
+  "host": "2765780|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 5020.0
+ },
+ {
+  "id": 5685020,
+  "uid": "3de956e7-c90b-4873-a848-d3de7da5561e-0056bf1c",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Datos",
+  "x": 13848.833,
+  "y": 14744.633,
+  "z": 14160,
+  "bbmin": [
+   13634.377,
+   14618.045,
+   14160
+  ],
+  "bbmax": [
+   13848.833,
+   14809.422,
+   14275
+  ],
+  "rot": 180,
+  "fFlipped": true,
+  "hFlipped": true,
+  "nivel": "Piso 5",
+  "host": "2765780|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 5109.7
+ },
+ {
+  "id": 5685051,
+  "uid": "3de956e7-c90b-4873-a848-d3de7da5561e-0056bf3b",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Datos",
+  "x": 13848.833,
+  "y": 14844.633,
+  "z": 14160,
+  "bbmin": [
+   13634.377,
+   14718.045,
+   14160
+  ],
+  "bbmax": [
+   13848.833,
+   14909.422,
+   14275
+  ],
+  "rot": 180,
+  "fFlipped": true,
+  "hFlipped": true,
+  "nivel": "Piso 5",
+  "host": "2765780|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 5199.8
+ },
+ {
+  "id": 5685427,
+  "uid": "3de956e7-c90b-4873-a848-d3de7da5561e-0056c0b3",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Datos",
+  "x": 13848.834,
+  "y": 3055.86,
+  "z": 14166.537,
+  "bbmin": [
+   13634.378,
+   2991.071,
+   14166.537
+  ],
+  "bbmax": [
+   13854.787,
+   3182.448,
+   14281.537
+  ],
+  "rot": 180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 5006.2
+ },
+ {
+  "id": 5685533,
+  "uid": "3de956e7-c90b-4873-a848-d3de7da5561e-0056c11d",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Datos",
+  "x": 13848.834,
+  "y": 3055.86,
+  "z": 14166.537,
+  "bbmin": [
+   13634.378,
+   2991.071,
+   14166.537
+  ],
+  "bbmax": [
+   13854.787,
+   3182.448,
+   14281.537
+  ],
+  "rot": 180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 5006.2
+ },
+ {
+  "id": 5685585,
+  "uid": "3de956e7-c90b-4873-a848-d3de7da5561e-0056c151",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Datos",
+  "x": 13848.834,
+  "y": 2976.299,
+  "z": 14174.899,
+  "bbmin": [
+   13634.378,
+   2911.509,
+   14174.899
+  ],
+  "bbmax": [
+   13854.787,
+   3102.886,
+   14289.899
+  ],
+  "rot": 180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 5077.5
+ },
+ {
+  "id": 5685632,
+  "uid": "3de956e7-c90b-4873-a848-d3de7da5561e-0056c180",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Datos",
+  "x": 13848.834,
+  "y": 2901.584,
+  "z": 14181.436,
+  "bbmin": [
+   13634.378,
+   2836.795,
+   14181.436
+  ],
+  "bbmax": [
+   13854.787,
+   3028.171,
+   14296.436
+  ],
+  "rot": 180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "Piso 5",
+  "host": "5349586|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 5144.6
+ },
+ {
+  "id": 5686368,
+  "uid": "d92f1b10-c4c0-4528-9b21-a187e7616755-0056c460",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Telefono",
+  "x": 11648.074,
+  "y": 5273.078,
+  "z": 15612.327,
+  "bbmin": [
+   11642.122,
+   5146.49,
+   15612.327
+  ],
+  "bbmax": [
+   11862.53,
+   5337.867,
+   15727.327
+  ],
+  "rot": 0,
+  "fFlipped": false,
+  "hFlipped": true,
+  "nivel": "Piso 5",
+  "host": "4829442|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2261.2
+ },
+ {
+  "id": 5686425,
+  "uid": "d92f1b10-c4c0-4528-9b21-a187e7616755-0056c499",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Telefono",
+  "x": 11648.074,
+  "y": 5193.078,
+  "z": 15612.327,
+  "bbmin": [
+   11642.122,
+   5066.49,
+   15612.327
+  ],
+  "bbmax": [
+   11862.53,
+   5257.867,
+   15727.327
+  ],
+  "rot": 0,
+  "fFlipped": false,
+  "hFlipped": true,
+  "nivel": "Piso 5",
+  "host": "4829442|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2341.2
+ },
+ {
+  "id": 5686453,
+  "uid": "d92f1b10-c4c0-4528-9b21-a187e7616755-0056c4b5",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Comunicaciones",
+  "tipo": "Telefono",
+  "x": 11648.074,
+  "y": 5113.078,
+  "z": 15612.327,
+  "bbmin": [
+   11642.122,
+   4986.49,
+   15612.327
+  ],
+  "bbmax": [
+   11862.53,
+   5177.867,
+   15727.327
+  ],
+  "rot": 0,
+  "fFlipped": false,
+  "hFlipped": true,
+  "nivel": "Piso 5",
+  "host": "4829442|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2421.2
+ },
+ {
+  "id": 5690146,
+  "uid": "05e349fb-1a3e-4b59-a937-16ed680f5f54-0056d322",
+  "cat": "OST_ElectricalFixtures",
+  "fam": "M_Climatizacion",
+  "tipo": "Interruptor Ventilador",
+  "x": 11706.774,
+  "y": 12621.325,
+  "z": 14159.39,
+  "bbmin": [
+   11652.799,
+   12586.4,
+   14102.24
+  ],
+  "bbmax": [
+   11711.537,
+   12656.25,
+   14216.54
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766695|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2472.2
+ },
+ {
+  "id": 5574864,
+  "uid": "751a6c00-bc36-4447-b38f-e073c0487491-005510d0",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 10 trim",
+  "x": 12865.79,
+  "y": 15688.946,
+  "z": 15720,
+  "bbmin": [
+   12256.19,
+   15079.346,
+   14720
+  ],
+  "bbmax": [
+   13475.39,
+   16298.546,
+   16327.6
+  ],
+  "rot": -90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5487663|Ceiling",
+  "unidad": "F 02",
+  "dist_tablero_mm": 5678.3
+ },
+ {
+  "id": 5574907,
+  "uid": "751a6c00-bc36-4447-b38f-e073c0487491-005510fb",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 10 trim",
+  "x": 11007.24,
+  "y": 15688.946,
+  "z": 15720,
+  "bbmin": [
+   10397.64,
+   15079.346,
+   14720
+  ],
+  "bbmax": [
+   11616.84,
+   16298.546,
+   16327.6
+  ],
+  "rot": -90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5487663|Ceiling",
+  "unidad": "F 02",
+  "dist_tablero_mm": 5570.8
+ },
+ {
+  "id": 5574948,
+  "uid": "751a6c00-bc36-4447-b38f-e073c0487491-00551124",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 10 trim",
+  "x": 11011.778,
+  "y": 13108.946,
+  "z": 15720,
+  "bbmin": [
+   10402.178,
+   12499.346,
+   14720
+  ],
+  "bbmax": [
+   11621.378,
+   13718.546,
+   16327.6
+  ],
+  "rot": -90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5487663|Ceiling",
+  "unidad": "F 02",
+  "dist_tablero_mm": 3018.0
+ },
+ {
+  "id": 5575025,
+  "uid": "751a6c00-bc36-4447-b38f-e073c0487491-00551171",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 10 trim",
+  "x": 12870.328,
+  "y": 13108.946,
+  "z": 15720,
+  "bbmin": [
+   12260.728,
+   12499.346,
+   14720
+  ],
+  "bbmax": [
+   13479.928,
+   13718.546,
+   16327.6
+  ],
+  "rot": -90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5487663|Ceiling",
+  "unidad": "F 02",
+  "dist_tablero_mm": 3214.9
+ },
+ {
+  "id": 5575265,
+  "uid": "751a6c00-bc36-4447-b38f-e073c0487491-00551261",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 22 trim",
+  "x": 12883.351,
+  "y": 10465.566,
+  "z": 15720,
+  "bbmin": [
+   12273.751,
+   9855.966,
+   14720
+  ],
+  "bbmax": [
+   13492.951,
+   11075.166,
+   16327.6
+  ],
+  "rot": -90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5487663|Ceiling",
+  "unidad": "F 02",
+  "dist_tablero_mm": 1310.7
+ },
+ {
+  "id": 5575301,
+  "uid": "751a6c00-bc36-4447-b38f-e073c0487491-00551285",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 22 trim",
+  "x": 12887.325,
+  "y": 11778.946,
+  "z": 15720,
+  "bbmin": [
+   12277.725,
+   11169.346,
+   14720
+  ],
+  "bbmax": [
+   13496.925,
+   12388.546,
+   16327.6
+  ],
+  "rot": -90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "5487663|Ceiling",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2068.6
+ },
+ {
+  "id": 5575557,
+  "uid": "751a6c00-bc36-4447-b38f-e073c0487491-00551385",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 13 trim",
+  "x": 11003.351,
+  "y": 10855.703,
+  "z": 15840,
+  "bbmin": [
+   10393.751,
+   10246.103,
+   15232.4
+  ],
+  "bbmax": [
+   11612.951,
+   11465.303,
+   16840
+  ],
+  "rot": 90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766313|Ceiling",
+  "unidad": "F 02",
+  "dist_tablero_mm": 930.5
+ },
+ {
+  "id": 5642716,
+  "uid": "7ffbc102-6311-4185-a91f-8dc581ce785c-005619dc",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 13 trim",
+  "x": 12176.58,
+  "y": 16882.693,
+  "z": 15720,
+  "bbmin": [
+   11566.98,
+   16273.093,
+   14720
+  ],
+  "bbmax": [
+   12786.18,
+   17492.293,
+   16327.6
+  ],
+  "rot": -90,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 02",
+  "dist_tablero_mm": 6755.4
+ },
+ {
+  "id": 5658602,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657ea",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 10 trim",
+  "x": 12865.79,
+  "y": 1996.136,
+  "z": 15720,
+  "bbmin": [
+   12256.19,
+   1386.536,
+   14720
+  ],
+  "bbmax": [
+   13475.39,
+   2605.736,
+   16327.6
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 5678.2
+ },
+ {
+  "id": 5658603,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657eb",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 10 trim",
+  "x": 11007.24,
+  "y": 1996.136,
+  "z": 15720,
+  "bbmin": [
+   10397.64,
+   1386.536,
+   14720
+  ],
+  "bbmax": [
+   11616.84,
+   2605.736,
+   16327.6
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 5570.7
+ },
+ {
+  "id": 5658604,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657ec",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 10 trim",
+  "x": 11011.778,
+  "y": 4576.136,
+  "z": 15720,
+  "bbmin": [
+   10402.178,
+   3966.536,
+   14720
+  ],
+  "bbmax": [
+   11621.378,
+   5185.736,
+   16327.6
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 3018.0
+ },
+ {
+  "id": 5658605,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657ed",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 10 trim",
+  "x": 12870.328,
+  "y": 4576.136,
+  "z": 15720,
+  "bbmin": [
+   12260.728,
+   3966.536,
+   14720
+  ],
+  "bbmax": [
+   13479.928,
+   5185.736,
+   16327.6
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 3214.8
+ },
+ {
+  "id": 5658606,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657ee",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 22 trim",
+  "x": 12883.351,
+  "y": 7219.517,
+  "z": 15720,
+  "bbmin": [
+   12273.751,
+   6609.917,
+   14720
+  ],
+  "bbmax": [
+   13492.951,
+   7829.117,
+   16327.6
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 1310.6
+ },
+ {
+  "id": 5658607,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657ef",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 22 trim",
+  "x": 12887.325,
+  "y": 5906.136,
+  "z": 15720,
+  "bbmin": [
+   12277.725,
+   5296.536,
+   14720
+  ],
+  "bbmax": [
+   13496.925,
+   6515.736,
+   16327.6
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2068.6
+ },
+ {
+  "id": 5658663,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-00565827",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 13 trim",
+  "x": 12176.58,
+  "y": 802.39,
+  "z": 15720,
+  "bbmin": [
+   11566.98,
+   192.79,
+   14720
+  ],
+  "bbmax": [
+   12786.18,
+   1411.99,
+   16327.6
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 6755.3
+ },
+ {
+  "id": 5688218,
+  "uid": "8b846764-a10c-4d54-acbc-69afb90789eb-0056cb9a",
+  "cat": "OST_LightingFixtures",
+  "fam": "M_Iluminacion",
+  "tipo": "SONO FLEX 13 trim",
+  "x": 10948.074,
+  "y": 6906.518,
+  "z": 15720,
+  "bbmin": [
+   10338.474,
+   6296.918,
+   14720
+  ],
+  "bbmax": [
+   11557.674,
+   7516.118,
+   16327.6
+  ],
+  "rot": 90,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "",
+  "unidad": "F 01",
+  "dist_tablero_mm": 912.8
+ },
+ {
+  "id": 5654976,
+  "uid": "e8569ecc-56f9-4284-949f-0fd12fbdebb5-005649c0",
+  "cat": "OST_TelephoneDevices",
+  "fam": "M_Toma de teléfono - Datos",
+  "tipo": "Simple",
+  "x": 11706.774,
+  "y": 12417.173,
+  "z": 15677.5,
+  "bbmin": [
+   11652.799,
+   12382.248,
+   14818.214
+  ],
+  "bbmax": [
+   11711.537,
+   13300.504,
+   15734.65
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766695|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2268.2
+ },
+ {
+  "id": 5655240,
+  "uid": "e8569ecc-56f9-4284-949f-0fd12fbdebb5-00564ac8",
+  "cat": "OST_TelephoneDevices",
+  "fam": "M_Toma de teléfono - Datos",
+  "tipo": "Simple",
+  "x": 11706.774,
+  "y": 12497.373,
+  "z": 15677.5,
+  "bbmin": [
+   11652.799,
+   12462.448,
+   14818.214
+  ],
+  "bbmax": [
+   11711.537,
+   13380.704,
+   15734.65
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766695|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2348.3
+ },
+ {
+  "id": 5655308,
+  "uid": "e8569ecc-56f9-4284-949f-0fd12fbdebb5-00564b0c",
+  "cat": "OST_TelephoneDevices",
+  "fam": "M_Toma de teléfono - Datos",
+  "tipo": "Simple",
+  "x": 11706.774,
+  "y": 12577.573,
+  "z": 15677.5,
+  "bbmin": [
+   11652.799,
+   12542.648,
+   14818.214
+  ],
+  "bbmax": [
+   11711.537,
+   13460.904,
+   15734.65
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766695|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2428.5
+ },
+ {
+  "id": 5564955,
+  "uid": "8456d024-0d08-4f65-8ade-ef323ff2ad23-0054ea1b",
+  "cat": "OST_CommunicationDevices",
+  "fam": "M_Zumbador",
+  "tipo": "Campana Timbre",
+  "x": 12876.054,
+  "y": 9673.657,
+  "z": 15720,
+  "bbmin": [
+   12825.054,
+   9673.657,
+   15644
+  ],
+  "bbmax": [
+   12927.054,
+   9711.657,
+   15724.739
+  ],
+  "rot": 0,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2766694|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 1352.1
+ },
+ {
+  "id": 5658567,
+  "uid": "a58f556e-8468-439e-a0d5-29a66d4ebfe8-005657c7",
+  "cat": "OST_CommunicationDevices",
+  "fam": "M_Zumbador",
+  "tipo": "Campana Timbre",
+  "x": 12926.274,
+  "y": 8011.426,
+  "z": 15720,
+  "bbmin": [
+   12875.274,
+   7973.426,
+   15644
+  ],
+  "bbmax": [
+   12977.274,
+   8011.426,
+   15720
+  ],
+  "rot": -180,
+  "fFlipped": true,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "4830094|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 1399.2
+ },
+ {
+  "id": 5693592,
+  "uid": "3ecfcc48-2913-4415-a919-45418aa8297c-0056e098",
+  "cat": "OST_CommunicationDevices",
+  "fam": "M_Pulsador - Interruptor",
+  "tipo": "Timbre",
+  "x": 12905.774,
+  "y": 9541.657,
+  "z": 14357.74,
+  "bbmin": [
+   12875.802,
+   9510.669,
+   14329.235
+  ],
+  "bbmax": [
+   12935.746,
+   9587.123,
+   14386.245
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "3309488|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 1431.0
+ },
+ {
+  "id": 5688502,
+  "uid": "8b846764-a10c-4d54-acbc-69afb90789eb-0056ccb6",
+  "cat": "OST_DataDevices",
+  "fam": "Consolidation_Point",
+  "tipo": "CPB6BL",
+  "x": 11705.774,
+  "y": 5410.118,
+  "z": 15886.091,
+  "bbmin": [
+   11705.774,
+   5319.621,
+   15784.323
+  ],
+  "bbmax": [
+   11768.792,
+   5501.231,
+   15987.523
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "4829442|Wall",
+  "unidad": "F 01",
+  "dist_tablero_mm": 2126.0
+ },
+ {
+  "id": 5688723,
+  "uid": "8b846764-a10c-4d54-acbc-69afb90789eb-0056cd93",
+  "cat": "OST_DataDevices",
+  "fam": "Consolidation_Point",
+  "tipo": "CPB6BL",
+  "x": 11705.774,
+  "y": 12496.673,
+  "z": 15900,
+  "bbmin": [
+   11705.774,
+   12406.176,
+   15798.232
+  ],
+  "bbmax": [
+   11768.792,
+   12587.786,
+   16001.432
+  ],
+  "rot": 180,
+  "fFlipped": false,
+  "hFlipped": false,
+  "nivel": "",
+  "host": "2765829|Wall",
+  "unidad": "F 02",
+  "dist_tablero_mm": 2347.6
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "version": "v01",
+ "fecha": "2026-11-17T11:21:34",
+ "origen": "data/v02f (export MCP de E-STM-FJR-TORRE5-A-M3-R23-P01-CENTRA_V02-f.rvt)",
+ "reglas": {
+  "fuera_de_rango": "|z| > 20000 mm o |x|,|y| > 50000 mm",
+  "sin_servicio": "excluidos por decision del operador 2026-11-17",
+  "unidad": "region x 9000-16000, y -2000-18000; tablero mas cercano (F 01 / F 02)"
+ },
+ "hashes": {
+  "dispositivos.json": "16c62c64f7de1dee866276169d7a173b15e081ce1d44429ef9967baa244bfa25",
+  "conduits.json": "1c3fe4d3c20c5b597af6a1140f5128bab4cb0a7ee5bd65a5b2c6972b017fbde0",
+  "metricas.json": "cbb0208411c6a863253b069fdbb7ba99384b24e5898a157f833d9c378a24ea40"
+ }
+}
