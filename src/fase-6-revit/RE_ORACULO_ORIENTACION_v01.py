@@ -1,17 +1,23 @@
 # -*- coding: utf-8 -*-
-"""Oraculo de orientacion de aparatos face-based (RE-P-060).
+"""Comprobacion del lado de un aparato respecto a su muro anfitrion (RE-P-060).
 
-Regla derivada de E 06, que es la referencia validada por el operador:
+ALCANCE REAL (corregido 2026-11-17): este modulo mide si la normal del muro
+anfitrion apunta hacia el muro o hacia el cuarto. **No determina el frente del
+simbolo.** Para las 10 tomas de datos de E 06, ``FacingOrientation`` y
+``rotationDeg`` valen 120/240 grados mientras el eje real del simbolo es 90/270
+(el que trae el DXF). Verificar orientacion con estos atributos da falsos
+positivos; la verificacion correcta es el **eje del bounding box** contra la
+rotacion del bloque DXF, con tolerancia de ~5 grados.
 
-* En E 06 **todos** los aparatos face-based (tomas, datos, timbre, campana,
-  punto de consolidacion, ventiladores) tienen la normal del muro apuntando
+Regla derivada de E 06 (sigue siendo valida como comprobacion de lado):
+
+* En E 06 **todos** los aparatos face-based tienen la normal del muro apuntando
   hacia adentro del muro: ``dot(FacingOrientation, punto - punto_muro) < 0``.
 * Los interruptores NO son face-based: su ``dot`` es 0 porque su eje no es
   perpendicular al muro. Se clasifican aparte y no se corrigen con esta regla.
 
-Por tanto, un aparato face-based esta volteado cuando su normal apunta hacia
-el cuarto (``dot > 0``). La correccion es cambiar de cara del muro (o voltear
-la instancia), NO sumar grados a la rotacion: la orientacion se hereda del host.
+La correccion de un aparato volteado es cambiar de cara del muro (o voltear la
+instancia), NO sumar grados a la rotacion.
 
 Uso desde el colocador:
 
