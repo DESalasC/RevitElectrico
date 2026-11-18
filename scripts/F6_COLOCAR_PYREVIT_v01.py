@@ -299,29 +299,141 @@ def _find_ceiling_at(ceilings, x, y):
 
 # ─── Placement ────────────────────────────────────────────────────────────────
 
+_LOG_PATH = os.path.join(DATA_DIR, "pyrevit_face_placement.log")
+
+
+def _log(msg):
+    """Añade una línea al log de colocación face-based."""
+    try:
+        with open(_LOG_PATH, "a") as f:
+            f.write("{}\n".format(msg))
+    except Exception:
+        pass
+
+
 def _place_on_wall_face(doc, dev, sym, x, y, z, walls):
-    """Face-based placement en muro usando XYZ.BasisZ direction (fix P6)."""
+    """Face-based placement en muro con defensa extrema (try/catch por cara)."""
     if not sym.IsActive:
         sym.Activate()
 
     wall = _find_wall_at(walls, x, y)
     if wall is None:
+        _log("[WALL] handle={} No hay muro a <={}m de ({:.3f},{:.3f})".format(
+            dev.get("handle"), TOL_MURO, x/304.8, y/304.8))
         return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
                 "error": "No wall within {:.2f}m of ({:.3f}, {:.3f})".format(TOL_MURO, x/304.8, y/304.8)}
 
-    face_ref, face, normal = _get_wall_face_facing_point(wall, x/304.8, y/304.8, z/304.8)
+    # Geometria del muro: envuelta en try/catch porque get_Geometry puede crashear Revit
+    try:
+        options = Options()
+        options.ComputeReferences = True
+        options.IncludeNonVisibleObjects = True
+        geom = wall.get_Geometry(options)
+        if geom is None:
+            _log("[WALL] handle={} wall={} geometria None".format(
+                dev.get("handle"), _safe_int(wall.Id)))
+            return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
+                    "error": "Wall geometry None", "wall_id": _safe_int(wall.Id)}
+    except Exception as e:
+        _log("[WALL] handle={} wall={} get_Geometry crasheo: {}".format(
+            dev.get("handle"), _safe_int(wall.Id), e))
+        return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
+                "error": "Wall get_Geometry failed: {}".format(e),
+                "wall_id": _safe_int(wall.Id)}
+
+    loc = wall.Location
+    if not isinstance(loc, LocationCurve):
+        _log("[WALL] handle={} wall={} Location no es LocationCurve".format(
+            dev.get("handle"), _safe_int(wall.Id)))
+        return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
+                "error": "Wall location not LocationCurve", "wall_id": _safe_int(wall.Id)}
+
+    curve = loc.Curve
+    try:
+        proj_result = curve.Project(XYZ(x, y, 0))
+        if proj_result is None:
+            _log("[WALL] handle={} wall={} curve.Project None".format(
+                dev.get("handle"), _safe_int(wall.Id)))
+            return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
+                    "error": "Wall curve.Project None", "wall_id": _safe_int(wall.Id)}
+        nearest = proj_result.XYZPoint
+    except Exception as e:
+        _log("[WALL] handle={} wall={} curve.Project crasheo: {}".format(
+            dev.get("handle"), _safe_int(wall.Id), e))
+        return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
+                "error": "Wall curve.Project failed: {}".format(e),
+                "wall_id": _safe_int(wall.Id)}
+
+    perp = XYZ(x - nearest.X, y - nearest.Y, 0)
+    perp_len = perp.GetLength()
+    if perp_len < 0.001:
+        try:
+            direction = curve.Direction
+            perp = XYZ(direction.Y, -direction.X, 0)
+            perp_len = perp.GetLength()
+        except Exception as e:
+            _log("[WALL] handle={} wall={} normal fallback crasheo: {}".format(
+                dev.get("handle"), _safe_int(wall.Id), e))
+            return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
+                    "error": "Wall normal fallback failed: {}".format(e),
+                    "wall_id": _safe_int(wall.Id)}
+    perp_norm = XYZ(perp.X / perp_len, perp.Y / perp_len, 0)
+
+    face_ref = None
+    face_obj = None
+    normal = None
+
+    # Iterar caras con try/catch individual: una cara mala no debe matar todo el proceso
+    for obj in geom:
+        if not isinstance(obj, Solid):
+            continue
+        if obj.Faces.Size == 0:
+            continue
+        for face in obj.Faces:
+            try:
+                if abs(face.ComputeNormal(UV(0.5, 0.5)).Z) > 0.1:
+                    continue
+                bbox = face.GetBoundingBox()
+                u_c = (bbox.Min.U + bbox.Max.U) / 2.0
+                v_c = (bbox.Min.V + bbox.Max.V) / 2.0
+                face_normal = face.ComputeNormal(UV(u_c, v_c))
+                if face_normal.X * perp_norm.X + face_normal.Y * perp_norm.Y > 0.5:
+                    face_ref = face.Reference
+                    face_obj = face
+                    normal = face_normal
+                    break
+            except Exception as e:
+                _log("[WALL] handle={} wall={} cara fallida: {}".format(
+                    dev.get("handle"), _safe_int(wall.Id), e))
+                continue
+        if face_ref is not None:
+            break
+
     if face_ref is None:
+        _log("[WALL] handle={} wall={} ninguna cara valida encontrada".format(
+            dev.get("handle"), _safe_int(wall.Id)))
         return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
                 "error": "No face on wall {} facing point".format(_safe_int(wall.Id)),
                 "wall_id": _safe_int(wall.Id)}
 
+    # Validar Reference antes de usarla en NewFamilyInstance
+    if face_ref is None:
+        _log("[WALL] handle={} wall={} face.Reference es None".format(
+            dev.get("handle"), _safe_int(wall.Id)))
+        return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
+                "error": "Face Reference is None", "wall_id": _safe_int(wall.Id)}
+
     try:
-        proj = face.Project(XYZ(x/304.8, y/304.8, z/304.8))
+        proj = face_obj.Project(XYZ(x/304.8, y/304.8, z/304.8))
         if proj is None or proj.XYZPoint is None:
+            _log("[WALL] handle={} wall={} Face.Project retorno None".format(
+                dev.get("handle"), _safe_int(wall.Id)))
             return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
                     "error": "Face.Project returned None", "wall_id": _safe_int(wall.Id)}
         projected_pt = proj.XYZPoint
     except Exception as e:
+        _log("[WALL] handle={} wall={} Face.Project crasheo: {}".format(
+            dev.get("handle"), _safe_int(wall.Id), e))
         return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
                 "error": "Face.Project failed: {}".format(e), "wall_id": _safe_int(wall.Id)}
 
@@ -335,6 +447,8 @@ def _place_on_wall_face(doc, dev, sym, x, y, z, walls):
     try:
         new_inst = doc.Create.NewFamilyInstance(face_ref, placement_pt, direction, sym)
     except Exception as e:
+        _log("[WALL] handle={} wall={} NewFamilyInstance face crasheo: {}".format(
+            dev.get("handle"), _safe_int(wall.Id), e))
         return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
                 "error": "NewFamilyInstance face failed: {}".format(e),
                 "wall_id": _safe_int(wall.Id)}
@@ -344,15 +458,17 @@ def _place_on_wall_face(doc, dev, sym, x, y, z, walls):
     rot_deg = (rot_deg + 90) % 360
     if abs(rot_deg) > 0.1:
         try:
-            loc = new_inst.Location
-            if isinstance(loc, LocationPoint):
+            loc_inst = new_inst.Location
+            if isinstance(loc_inst, LocationPoint):
                 axis = Line.CreateBound(placement_pt, XYZ(placement_pt.X, placement_pt.Y, placement_pt.Z + 1.0))
-                loc.Rotate(axis, math.radians(rot_deg))
+                loc_inst.Rotate(axis, math.radians(rot_deg))
         except Exception as e:
             return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "ok_with_warning",
                     "element_id": _safe_int(new_inst.Id), "wall_id": _safe_int(wall.Id),
                     "warning": "Rotate failed: {}".format(e)}
 
+    _log("[WALL] handle={} wall={} OK elemento={} rot={}deg".format(
+        dev.get("handle"), _safe_int(wall.Id), _safe_int(new_inst.Id), rot_deg))
     return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "ok",
             "element_id": _safe_int(new_inst.Id), "wall_id": _safe_int(wall.Id),
             "placement_pt": [placement_pt.X * 304.8, placement_pt.Y * 304.8, placement_pt.Z * 304.8],
@@ -360,12 +476,21 @@ def _place_on_wall_face(doc, dev, sym, x, y, z, walls):
 
 
 def _place_on_ceiling_face(doc, dev, sym, x, y, z, ceilings):
-    """Face-based placement en techo."""
+    """Face-based placement en techo con defensa extrema (try/catch)."""
     if not sym.IsActive:
         sym.Activate()
 
-    ceiling = _find_ceiling_at(ceilings, x/304.8, y/304.8)
+    try:
+        ceiling = _find_ceiling_at(ceilings, x/304.8, y/304.8)
+    except Exception as e:
+        _log("[CEILING] handle={} _find_ceiling_at crasheo: {}".format(
+            dev.get("handle"), e))
+        return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
+                "error": "Ceiling search failed: {}".format(e)}
+
     if ceiling is None:
+        _log("[CEILING] handle={} No hay cielorraso en ({:.3f},{:.3f})".format(
+            dev.get("handle"), x/304.8, y/304.8))
         return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
                 "error": "No ceiling found at ({:.3f}, {:.3f})".format(x/304.8, y/304.8)}
 
@@ -374,13 +499,19 @@ def _place_on_ceiling_face(doc, dev, sym, x, y, z, ceilings):
     try:
         new_inst = doc.Create.NewFamilyInstance(placement_pt, sym, ceiling, StructuralType.NonStructural)
     except Exception as e_hosted:
+        _log("[CEILING] handle={} ceiling={} hosted falló: {}".format(
+            dev.get("handle"), _safe_int(ceiling.Id), e_hosted))
         try:
             new_inst = doc.Create.NewFamilyInstance(placement_pt, sym, StructuralType.NonStructural)
         except Exception as e_free:
+            _log("[CEILING] handle={} nivel libre también falló: {}".format(
+                dev.get("handle"), e_free))
             return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "error",
                     "error": "Ceiling place failed: {} | fallback: {}".format(e_hosted, e_free),
                     "ceiling_id": _safe_int(ceiling.Id)}
 
+    _log("[CEILING] handle={} ceiling={} OK elemento={}".format(
+        dev.get("handle"), _safe_int(ceiling.Id), _safe_int(new_inst.Id)))
     return {"device_id": dev.get("handle"), "family": dev.get("familia_revit"), "status": "ok",
             "element_id": _safe_int(new_inst.Id), "ceiling_id": _safe_int(ceiling.Id),
             "placement_pt": [x, y, z], "rotation_deg": 0}
@@ -453,6 +584,13 @@ def colocar_f01_f02(doc, apartamento, single_handle=None, report_path=None):
     print("  COLOCACIÓN {} EN CENTRAL-V01 (pyRevit v01)".format(apartamento))
     print("=" * 60)
     print("[INFO] Documento: {}".format(doc.Title))
+
+    # Inicializar log de colocación face-based
+    try:
+        with open(_LOG_PATH, "w") as f:
+            f.write("=== Inicio colocacion {} en {} ===\n".format(apartamento, doc.Title))
+    except Exception:
+        pass
 
     # 1. Cargar inventario
     try:
@@ -543,9 +681,27 @@ def colocar_f01_f02(doc, apartamento, single_handle=None, report_path=None):
             if fam in FAMILIAS_MURO_FACE:
                 # Face-based en muro: Z absoluto
                 result = _place_on_wall_face(doc, d, sym, x_mm, y_mm, z_abs_mm, walls)
+                if result.get("status") == "error":
+                    # Fallback a level-based si face-based crashea o falla
+                    result = _place_level_based(doc, d, sym, x_mm, y_mm, alt_mm, level_id, alt_mm, rot)
+                    result["fallback"] = True
+                    result["original_error"] = result.get("error")
+                    result["error"] = None
+                    result["status"] = "ok_with_warning"
+                    result["warning"] = "Face-based falló; se usó level-based fallback. Error original: {}".format(
+                        result.get("original_error", "?"))
             elif fam in FAMILIAS_TECHO_FACE:
                 # Face-based en techo: Z absoluto
                 result = _place_on_ceiling_face(doc, d, sym, x_mm, y_mm, z_abs_mm, ceilings)
+                if result.get("status") == "error":
+                    # Fallback a level-based si face-based crashea o falla
+                    result = _place_level_based(doc, d, sym, x_mm, y_mm, alt_mm, level_id, alt_mm, rot)
+                    result["fallback"] = True
+                    result["original_error"] = result.get("error")
+                    result["error"] = None
+                    result["status"] = "ok_with_warning"
+                    result["warning"] = "Face-based falló; se usó level-based fallback. Error original: {}".format(
+                        result.get("original_error", "?"))
             else:
                 # Level-based: Z RELATIVO al nivel (altura_local_mm)
                 result = _place_level_based(doc, d, sym, x_mm, y_mm, alt_mm, level_id, alt_mm, rot)
