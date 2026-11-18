@@ -345,8 +345,8 @@
       "altura_nominal_m": 1.1,
       "origen_altura": "regla_base",
       "excepcion_aplicada": null,
-      "familia_revit": "M_Interruptores",
-      "tipo_revit": "Simple conmutable",
+      "familia_revit": "M_Climatizacion",
+      "tipo_revit": "Interruptor Ventilador",
       "mapeo_fuente": "bloque",
       "atributos_dxf": {}
     },

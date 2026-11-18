@@ -1,0 +1,1712 @@
+[
+  {
+    "id": 957,
+    "family": "Panel de sistema",
+    "type": "Muro",
+    "category": "Curtain Panels"
+  },
+  {
+    "id": 1605,
+    "family": "Extremo de nivel",
+    "type": "Extremo de nivel",
+    "category": "Level Heads"
+  },
+  {
+    "id": 2000,
+    "family": "Titulo de vista",
+    "type": "Titulo de vista",
+    "category": "View Titles"
+  },
+  {
+    "id": 3554,
+    "family": "Extremo de rejilla",
+    "type": "Extremo de rejilla",
+    "category": "Grid Heads"
+  },
+  {
+    "id": 3896,
+    "family": "Extremo inicial de sección",
+    "type": "Extremo inicial de sección",
+    "category": "Section Marks"
+  },
+  {
+    "id": 14119,
+    "family": "Etiqueta de llamada",
+    "type": "Etiqueta de llamada",
+    "category": "Callout Heads"
+  },
+  {
+    "id": 16527,
+    "family": "Rectangular",
+    "type": "90 x 40 cm",
+    "category": "Profiles"
+  },
+  {
+    "id": 21595,
+    "family": "Perfil circular de barandilla",
+    "type": "40 mm",
+    "category": "Profiles"
+  },
+  {
+    "id": 22087,
+    "family": "Perfil huella - exterior",
+    "type": "Perfil huella - exterior",
+    "category": "Profiles"
+  },
+  {
+    "id": 23657,
+    "family": "Desagüe",
+    "type": "Desagüe",
+    "category": "Profiles"
+  },
+  {
+    "id": 26384,
+    "family": "Símbolo de cota vertical",
+    "type": "Cota vertical",
+    "category": "Spot Elevation Symbols"
+  },
+  {
+    "id": 27914,
+    "family": "Referencia a vista",
+    "type": "Referencia a vista",
+    "category": "View Reference"
+  },
+  {
+    "id": 62739,
+    "family": "M_Cota de elevación - Destino rellenado",
+    "type": "M_Cota de elevación - Destino rellenado",
+    "category": "Spot Elevation Symbols"
+  },
+  {
+    "id": 73019,
+    "family": "Puntero de marca de alzado_Círculo-12mm",
+    "type": "Número de detalle",
+    "category": "Elevation Marks"
+  },
+  {
+    "id": 73020,
+    "family": "Puntero de marca de alzado_Círculo-12mm",
+    "type": "Flecha rellenada",
+    "category": "Elevation Marks"
+  },
+  {
+    "id": 73021,
+    "family": "Puntero de marca de alzado_Círculo-12mm",
+    "type": "Número de detalle y nombre de vista",
+    "category": "Elevation Marks"
+  },
+  {
+    "id": 73029,
+    "family": "Puntero de marca de alzado_Círculo-12mm",
+    "type": "Flecha rellenada y nombre de vista",
+    "category": "Elevation Marks"
+  },
+  {
+    "id": 73291,
+    "family": "Cuerpo de marca de alzado_Círculo-12mm",
+    "type": "Flecha rellenada",
+    "category": "Elevation Marks"
+  },
+  {
+    "id": 183003,
+    "family": "Perfil montante de muro cortina",
+    "type": "FJR_ 0.02x0.02m",
+    "category": "Profiles"
+  },
+  {
+    "id": 183287,
+    "family": "Circular",
+    "type": "30 mm",
+    "category": "Balusters"
+  },
+  {
+    "id": 183292,
+    "family": "M_Panel vacío",
+    "type": "M_Panel vacío",
+    "category": "Curtain Panels"
+  },
+  {
+    "id": 183294,
+    "family": "Dilataciones en goma baranda balcones",
+    "type": "25mm",
+    "category": "Balusters"
+  },
+  {
+    "id": 183296,
+    "family": "Perfil muro baranda balcones",
+    "type": "Perfil muro baranda balcones",
+    "category": "Profiles"
+  },
+  {
+    "id": 183298,
+    "family": "Perfil superior baranda balcones",
+    "type": "30mm",
+    "category": "Profiles"
+  },
+  {
+    "id": 183300,
+    "family": "Perfil vidrio baranda balcones",
+    "type": "21.52 x 1100 mm",
+    "category": "Profiles"
+  },
+  {
+    "id": 183311,
+    "family": "Montante rectangular",
+    "type": "Montante rectangular - FJR_ 0.02x0.02m",
+    "category": "Curtain Wall Mullions"
+  },
+  {
+    "id": 288478,
+    "family": "FJR_A_Puerta_Batiente_Dobledilatacion_Marcosuperior_Madera",
+    "type": "FJR_1.00 x 2.40m",
+    "category": "Doors"
+  },
+  {
+    "id": 288480,
+    "family": "FJR_A_Puerta_Batiente_Dobledilatacion_Marcosuperior_Madera",
+    "type": "FJR_0.80 x 2.40m",
+    "category": "Doors"
+  },
+  {
+    "id": 288482,
+    "family": "FJR_A_Puerta_Batiente_Dobledilatacion_Marcosuperior_Madera",
+    "type": "FJR_0.70 x 2.40m",
+    "category": "Doors"
+  },
+  {
+    "id": 291504,
+    "family": "FJR_A_Puerta_Plegable_2hojas_Madera",
+    "type": "FJR_ 0.90 x 2.40m",
+    "category": "Doors"
+  },
+  {
+    "id": 291799,
+    "family": "FJR_A_Puerta_Plegable_2hojas_Madera",
+    "type": "FJR_ 0.88 x 2.40m",
+    "category": "Doors"
+  },
+  {
+    "id": 293040,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.47 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 293328,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_1.37 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 295617,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.80 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 299084,
+    "family": "FJR_A_Ventana_Batiente_2hojas",
+    "type": "FJR_0.60x1.30 m",
+    "category": "Windows"
+  },
+  {
+    "id": 303637,
+    "family": "FJR_A_Ventana_Rejilla",
+    "type": "FJR_0.60x0.80 m",
+    "category": "Windows"
+  },
+  {
+    "id": 303766,
+    "family": "FJR_A_Ventana_Rejilla",
+    "type": "FJR_0.45x0.80 m",
+    "category": "Windows"
+  },
+  {
+    "id": 304671,
+    "family": "FJR_A_Ventana_Rejilla",
+    "type": "FJR_0.43x0.80 m",
+    "category": "Windows"
+  },
+  {
+    "id": 306516,
+    "family": "FJR_A_Ventana_Corrediza_2hojas",
+    "type": "FJR_ 1.06 x 1.40m",
+    "category": "Windows"
+  },
+  {
+    "id": 308084,
+    "family": "FJR_A_Ventana_Corrediza_2hojas",
+    "type": "FJR_ 1.50 x 1.25m",
+    "category": "Windows"
+  },
+  {
+    "id": 310962,
+    "family": "FJR_A_Puerta_Deslizante_1hoja_Madera",
+    "type": "FJR_A_Puerta_Deslizante_1hoja_Madera",
+    "category": "Doors"
+  },
+  {
+    "id": 314001,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.60 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 314382,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.69 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 317458,
+    "family": "FJR_A_PuertaVentana_4hojas",
+    "type": "FJR_4.13 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 323266,
+    "family": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas",
+    "type": "FJR_0.90x1.30 m",
+    "category": "Windows"
+  },
+  {
+    "id": 323847,
+    "family": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas",
+    "type": "FJR_0.70x1.30 m",
+    "category": "Windows"
+  },
+  {
+    "id": 325665,
+    "family": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas",
+    "type": "FJR_1.00x1.30 m",
+    "category": "Windows"
+  },
+  {
+    "id": 340806,
+    "family": "FJR_A_PuertaVentana_4hojas",
+    "type": "FJR_4.30 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 379694,
+    "family": "FJR_GuardaEscoba",
+    "type": "FJR_GuardaEscoba",
+    "category": "Profiles"
+  },
+  {
+    "id": 379696,
+    "family": "FJR_A_Ducha_Corona_Monocontrol_Palma_Pro",
+    "type": "Ducha monocontrol Palma Pro",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 379699,
+    "family": "FJR_A_Espejo",
+    "type": "FJR_0.85 x 1.00m",
+    "category": "Furniture"
+  },
+  {
+    "id": 379701,
+    "family": "FJR_A_ JaboneraDucha_Corona_Palma",
+    "type": "Jabonera Palma",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 379703,
+    "family": "FJR_A_Portarrollos_Corona_Palma",
+    "type": "Portarrollo Palma",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 379708,
+    "family": "FJR_A_Toallero_Argolla_Corona_Palma",
+    "type": "Toallero argolla Palma",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 379710,
+    "family": "FJR_A_Percha_Corona_Palma",
+    "type": "Percha Palma",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 379711,
+    "family": "FJR_A_Sanitario_Corona_Aluvia",
+    "type": "FJR_A_Sanitario_Corona_Aluvia",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 379715,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.33 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 420230,
+    "family": "FJR_A_MuebleBaño__MarmolSinuDark_CinzaCobalto_0.90x0.64m",
+    "type": "FJR_A_MuebleBaño__MarmolSinuDark_CinzaCobalto_0.90x0.64m",
+    "category": "Furniture"
+  },
+  {
+    "id": 422140,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.37 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 429022,
+    "family": "FJR_A_Espejo",
+    "type": "FJR_ 0.60 x 1.00 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 429382,
+    "family": "FJR_A_MuebleBaño__MarmolSinuDark_CinzaCobalto_0.70x0.56m",
+    "type": "FJR_A_MuebleBaño__MarmolSinuDark_CinzaCobalto_0.70x0.56m",
+    "category": "Furniture"
+  },
+  {
+    "id": 451704,
+    "family": "FJR_A_MuebleBaño__MarmolSinuDark_CinzaCobalto_0.70x0.60m",
+    "type": "FJR_A_MuebleBaño__MarmolSinuDark_CinzaCobalto_0.70x0.60m",
+    "category": "Furniture"
+  },
+  {
+    "id": 452232,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.03 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 454555,
+    "family": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.65x0.60m",
+    "type": "FJR_2_Puestos",
+    "category": "Furniture"
+  },
+  {
+    "id": 454557,
+    "family": "FJR_A_Meson_Quarztone_GrisClasico",
+    "type": "FJR_1.19x0.56m",
+    "category": "Furniture"
+  },
+  {
+    "id": 468586,
+    "family": "FJR_A_Meson_Quarztone_GrisClasico",
+    "type": "FJR_0.80x0.76m",
+    "category": "Furniture"
+  },
+  {
+    "id": 476628,
+    "family": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.65x0.60m",
+    "type": "FJR_4_Puestos",
+    "category": "Furniture"
+  },
+  {
+    "id": 480621,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.51 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 480623,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.75 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 480627,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.68 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 480629,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.30 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 489698,
+    "family": "FJR_A_Perfil_Celosia",
+    "type": "FJR_0.08x0.12x2.55m",
+    "category": "Furniture"
+  },
+  {
+    "id": 556457,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.51 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 557504,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.36 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 557744,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.38 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 572707,
+    "family": "FJR_A_MuebleCocina_L_Quarztone_GrisClasico_1.80x0.60m",
+    "type": "FJR_A_MuebleCocina_L_Quarztone_GrisClasico_1.80x0.60m",
+    "category": "Furniture"
+  },
+  {
+    "id": 572855,
+    "family": "FJR_A_Meson_Quarztone_GrisClasico",
+    "type": "FJR_1.64x0.40m",
+    "category": "Furniture"
+  },
+  {
+    "id": 581293,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.51A x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 661286,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.18 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 662179,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.47x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 663789,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.65 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 706157,
+    "family": "Medidor HS",
+    "type": "Medidor HS",
+    "category": "Electrical Equipment"
+  },
+  {
+    "id": 706537,
+    "family": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.82x0.60m",
+    "type": "FJR_A_MuebleCocina_Quarztone_GrisClasico_1.82x0.60m",
+    "category": "Furniture"
+  },
+  {
+    "id": 713939,
+    "family": "FJR_A_Meson_Quarztone_GrisClasico",
+    "type": "FJR_0.85x0.76m",
+    "category": "Furniture"
+  },
+  {
+    "id": 722414,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.49 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 723723,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.20 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 729461,
+    "family": "FJR_A_Closet_L",
+    "type": "FJR_ 1.66/0.79x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 892885,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.67 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 906486,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.13 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 1126652,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.28 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 1128348,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.26 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 1142504,
+    "family": "FJR_A_MuebleCocina_Quarztone_GrisClasico_2.60x0.60m",
+    "type": "FJR_A_MuebleCocina_Quarztone_GrisClasico_2.60x0.60m",
+    "category": "Furniture"
+  },
+  {
+    "id": 1143282,
+    "family": "FJR_A_Meson_Quarztone_GrisClasico",
+    "type": "FJR_1.64x0.60m",
+    "category": "Furniture"
+  },
+  {
+    "id": 1190369,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.03 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 1190464,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.25 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 1191203,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 2.00 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 1191320,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 2.67 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 1285831,
+    "family": "Perfil circular de barandilla",
+    "type": "50 mm",
+    "category": "Profiles"
+  },
+  {
+    "id": 1298932,
+    "family": "FJR_A_Puerta_Batiente_Aluminio",
+    "type": "FJR_0.80 x 2.50m",
+    "category": "Doors"
+  },
+  {
+    "id": 1321048,
+    "family": "Circular",
+    "type": "20 mm",
+    "category": "Balusters"
+  },
+  {
+    "id": 1345622,
+    "family": "Montante rectangular",
+    "type": "Montante rectangular - FJR_ 0.12x0.12m",
+    "category": "Curtain Wall Mullions"
+  },
+  {
+    "id": 1345624,
+    "family": "Perfil montante de muro cortina",
+    "type": "FJR_ 0.10x0.12m",
+    "category": "Profiles"
+  },
+  {
+    "id": 1345869,
+    "family": "Perfil montante de muro cortina",
+    "type": "FJR_ 0.05x0.12m",
+    "category": "Profiles"
+  },
+  {
+    "id": 1345963,
+    "family": "Montante rectangular",
+    "type": "Montante rectangular - FJR_ 0.05x0.12m",
+    "category": "Curtain Wall Mullions"
+  },
+  {
+    "id": 1443363,
+    "family": "FJR_A_Puerta_Batiente_Persiana_Aluminio_1Fija",
+    "type": "FJR_0.80 x 2.50 - 0.78 m",
+    "category": "Doors"
+  },
+  {
+    "id": 1469518,
+    "family": "FJR_A_Perfil_Celosia",
+    "type": "FJR_0.0978x0.12x2.55m",
+    "category": "Furniture"
+  },
+  {
+    "id": 1469648,
+    "family": "FJR_A_Perfil_Celosia",
+    "type": "FJR_0.1003x0.12x2.55m",
+    "category": "Furniture"
+  },
+  {
+    "id": 1657049,
+    "family": "FJR_A_Perfil_Celosia",
+    "type": "FJR_0.10x0.12x2.55m",
+    "category": "Furniture"
+  },
+  {
+    "id": 1734825,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.35 x 0.80",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1734929,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 1.75",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1734978,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.40 x 1.45",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735099,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.35 x 1.35",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735129,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 2.75",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735181,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 6.63",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735243,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 6.60",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735256,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.35 x 0.85",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735343,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.35 x 1.05",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735409,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 6.64",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735438,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.40 x 0.90",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735626,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.40 x 1.46",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735647,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.40 x 1.43",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735699,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.45 x 0.90",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735794,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.40 x 1.15",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735850,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 6.55",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735875,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 6.78",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1735981,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.35 x 1.15",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1736049,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.50 x 1.15",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 1956988,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.83 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 1965115,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.66 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 2013991,
+    "family": "FJR_A_Meson_Quarztone_GrisClasico",
+    "type": "FJR_0.90x0.76m",
+    "category": "Furniture"
+  },
+  {
+    "id": 2068616,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_0.96 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 2333539,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 6.10",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 3184741,
+    "family": "Perfil intermedio baranda escalera",
+    "type": "30mm",
+    "category": "Profiles"
+  },
+  {
+    "id": 3184751,
+    "family": "Perfil anclado a escalera",
+    "type": "Perfil anclado a escalera",
+    "category": "Balusters"
+  },
+  {
+    "id": 3184754,
+    "family": "Perfil anclado a pared",
+    "type": "Perfil anclado a pared",
+    "category": "Balusters"
+  },
+  {
+    "id": 3184759,
+    "family": "FJR_A_Puerta_Batiente_Aluminio",
+    "type": "FJR_1.00 x 2.50m",
+    "category": "Doors"
+  },
+  {
+    "id": 3184761,
+    "family": "FJR_A_Puerta_Antipanico_Aluminio",
+    "type": "FJR_1.00 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 3184764,
+    "family": "Puerta de ascensor residencial",
+    "type": "FJR_A_Puerta_Ascensor_0.80m",
+    "category": "Specialty Equipment"
+  },
+  {
+    "id": 3198458,
+    "family": "FJR_A_Shut_AceroInoxidable",
+    "type": "FJR_0.45 x 0.75 m",
+    "category": "Generic Models"
+  },
+  {
+    "id": 3200353,
+    "family": "Puerta de ascensor residencial",
+    "type": "Puerta de ascensor residencial",
+    "category": "Specialty Equipment"
+  },
+  {
+    "id": 3200355,
+    "family": "FJR_A_Ascensor",
+    "type": "FJR_A_Ascensor_1.82x1.80m",
+    "category": "Specialty Equipment"
+  },
+  {
+    "id": 3215236,
+    "family": "Circular",
+    "type": "FJR_0.03",
+    "category": "Balusters"
+  },
+  {
+    "id": 3215238,
+    "family": "Circular",
+    "type": "FJR_0.05",
+    "category": "Balusters"
+  },
+  {
+    "id": 3215246,
+    "family": "Perfil circular de barandilla",
+    "type": "FJR_0.05m",
+    "category": "Profiles"
+  },
+  {
+    "id": 3215248,
+    "family": "Perfil circular de barandilla",
+    "type": "FJR_0.03m",
+    "category": "Profiles"
+  },
+  {
+    "id": 3387335,
+    "family": "FJR_A_Ventana_Rejilla L-146",
+    "type": "FJR_3.50x0.97m",
+    "category": "Windows"
+  },
+  {
+    "id": 3387336,
+    "family": "FJR_A_Ventana_Rejilla L-146",
+    "type": "FJR_3.50x0.50 m",
+    "category": "Windows"
+  },
+  {
+    "id": 3387339,
+    "family": "FJR_A_Angeo",
+    "type": "FJR_3.50x0.97m",
+    "category": "Windows"
+  },
+  {
+    "id": 3387341,
+    "family": "FJR_A_Angeo",
+    "type": "FJR_3.50x0.50 m",
+    "category": "Windows"
+  },
+  {
+    "id": 3387343,
+    "family": "Panel de sistema",
+    "type": "Acristalado",
+    "category": "Curtain Panels"
+  },
+  {
+    "id": 3387353,
+    "family": "Balustre 4",
+    "type": "Balustre 4",
+    "category": "Balusters"
+  },
+  {
+    "id": 3387357,
+    "family": "FJR_A_Ventana_Rejilla L-146_Sencilla",
+    "type": "FJR_2.00x0.50 m",
+    "category": "Windows"
+  },
+  {
+    "id": 3387361,
+    "family": "FJR_A_Angeo",
+    "type": "FJR_2.00x0.50 m",
+    "category": "Windows"
+  },
+  {
+    "id": 3387363,
+    "family": "FJR_A_Ventana_Rejilla L-146_Sencilla",
+    "type": "FJR_2.00x0.97m",
+    "category": "Windows"
+  },
+  {
+    "id": 3387365,
+    "family": "FJR_A_Angeo",
+    "type": "FJR_2.00x0.97m",
+    "category": "Windows"
+  },
+  {
+    "id": 3416612,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 0.50",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 3425519,
+    "family": "FJR_A_Ventana_Rejilla L-146_Sencilla",
+    "type": "FJR_1.66x0.97m",
+    "category": "Windows"
+  },
+  {
+    "id": 3425802,
+    "family": "FJR_A_Angeo",
+    "type": "FJR_1.66x0.97m",
+    "category": "Windows"
+  },
+  {
+    "id": 3425819,
+    "family": "FJR_A_Angeo",
+    "type": "FJR_1.66x0.50 m",
+    "category": "Windows"
+  },
+  {
+    "id": 3425842,
+    "family": "FJR_A_Ventana_Rejilla L-146_Sencilla",
+    "type": "FJR_1.66x0.50 m",
+    "category": "Windows"
+  },
+  {
+    "id": 3429291,
+    "family": "FJR_A_Ventana_Rejilla L-146_Sencilla",
+    "type": "FJR_1.81x0.50 m",
+    "category": "Windows"
+  },
+  {
+    "id": 3429497,
+    "family": "FJR_A_Angeo",
+    "type": "FJR_1.81x0.50 m",
+    "category": "Windows"
+  },
+  {
+    "id": 3429667,
+    "family": "FJR_A_Angeo",
+    "type": "FJR_1.81x0.97m",
+    "category": "Windows"
+  },
+  {
+    "id": 3429888,
+    "family": "FJR_A_Ventana_Rejilla L-146_Sencilla",
+    "type": "FJR_1.81x0.97m",
+    "category": "Windows"
+  },
+  {
+    "id": 3611665,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 3.26",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 3650340,
+    "family": "FJR_A_Perfil_Celosia",
+    "type": "FJR_0.20x0.10x2.55m",
+    "category": "Furniture"
+  },
+  {
+    "id": 3655722,
+    "family": "Profiles_Foundation_Strip_Footings",
+    "type": "150x450mm_Strip",
+    "category": "Profiles"
+  },
+  {
+    "id": 3655723,
+    "family": "Profiles_Cant_Brick_Soldier_1_Course",
+    "type": "Brick_Soldier-1_Course",
+    "category": "Profiles"
+  },
+  {
+    "id": 3655744,
+    "family": "Profiles_Brick_Soldier",
+    "type": "Brick_Soldier-3_Courses",
+    "category": "Profiles"
+  },
+  {
+    "id": 3655745,
+    "family": "Profiles_Cant_Brick_Soldier_3_Courses",
+    "type": "Brick_Soldier-3_Courses",
+    "category": "Profiles"
+  },
+  {
+    "id": 3662208,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.65 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 3691663,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.54 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 3691905,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.55 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 3842744,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.68 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 3843171,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.67 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 3908088,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.15 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 3908684,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.31 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4139053,
+    "family": "FJR_A_Divisiondebaño_Corrediza_2hojas",
+    "type": "FJR_1.30 x 2.00m",
+    "category": "Doors"
+  },
+  {
+    "id": 4140906,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 2.02 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4141296,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.05 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4141391,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.27 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4141496,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 2.69 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4183825,
+    "family": "FJR_A_MuebleBaño__MarmolSinuDark_CinzaCobalto_0.90x0.64m",
+    "type": "FJR_A_MuebleBaño__MarmolSinuDark_CinzaCobalto_0.92x0.64m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4354104,
+    "family": "Formato pliego 100x70 Nakua",
+    "type": "Standard",
+    "category": "Title Blocks"
+  },
+  {
+    "id": 4354166,
+    "family": "Anno_View_Title",
+    "type": "Standard",
+    "category": "View Titles"
+  },
+  {
+    "id": 4354167,
+    "family": "Anno_View_Title_No_Detail_No",
+    "type": "Standard",
+    "category": "View Titles"
+  },
+  {
+    "id": 4611217,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.35 x 1.10",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4611966,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.40 x 1.00",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4612136,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.40 x 1.20",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4612290,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.45 x 1.40",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4612473,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 5.63",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4612692,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 2.49",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4612811,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 3.46",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4696118,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.76 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4698509,
+    "family": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas",
+    "type": "FJR_0.87x1.30 m",
+    "category": "Windows"
+  },
+  {
+    "id": 4699423,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.66 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 4713728,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.46 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4734679,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 3.19",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4734928,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 6.19",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4736750,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 4.80",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4736803,
+    "family": "Hormigón-Rectangular-Pilar",
+    "type": "0.30 x 4.78",
+    "category": "Structural Columns"
+  },
+  {
+    "id": 4749045,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.78 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 4759342,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.49 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 4865205,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 2.65 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4865508,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.99 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4866328,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 2.66 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4906147,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.63 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4919458,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_1.33 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 4920305,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_1.34 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 4921679,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.28 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 4924109,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.32*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4928067,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.03*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4928235,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.31*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4928949,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.3619*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4929111,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.54*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4933537,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.65*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4934148,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.45*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4934357,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.66*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4934804,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "0.96*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4934925,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.13*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4935342,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.68*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 4940197,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.35*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5041929,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.37*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5048265,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.50*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5050537,
+    "family": "FJR_A_Ventana_Rejilla",
+    "type": "FJR_0.21x0.80 m",
+    "category": "Windows"
+  },
+  {
+    "id": 5055139,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.28*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5055296,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.26*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5174863,
+    "family": "FJR_A_PuertaVentana_2hojas",
+    "type": "FJR_2.76 x 2.20m",
+    "category": "Doors"
+  },
+  {
+    "id": 5282052,
+    "family": "Anno_Level_Head_Circle",
+    "type": "Standard",
+    "category": "Level Heads"
+  },
+  {
+    "id": 5299948,
+    "family": "COTTO Floor drain round body CT640Y1PW(HM)",
+    "type": "COTTO Floor drain round body CT640Y1PW(HM)",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5314849,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.33*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5317795,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.39*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5321929,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.42*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5322245,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.41*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5333229,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.30*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5338852,
+    "family": "Sanitary_Shower-screens_Duscholux_D2Swing_Pivot-twin-doors-shower",
+    "type": "1.38*2.10",
+    "category": "Plumbing Fixtures"
+  },
+  {
+    "id": 5339511,
+    "family": "FJR_A_Closet",
+    "type": "FJR_ 1.13 x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 5339513,
+    "family": "FJR_A_Closet_L",
+    "type": "FJR_ 1.38/0.79x 2.60 m",
+    "category": "Furniture"
+  },
+  {
+    "id": 5475319,
+    "family": "M_Timbre",
+    "type": "Campana",
+    "category": "Communication Devices"
+  },
+  {
+    "id": 5476604,
+    "family": "M_Pulsador - Interruptor",
+    "type": "Timbre",
+    "category": "Communication Devices"
+  },
+  {
+    "id": 5477549,
+    "family": "Consolidation_Point",
+    "type": "CPB24BL",
+    "category": "Data Devices"
+  },
+  {
+    "id": 5477551,
+    "family": "Consolidation_Point",
+    "type": "CPB6BL",
+    "category": "Data Devices"
+  },
+  {
+    "id": 5477553,
+    "family": "Consolidation_Point",
+    "type": "CPB12BL",
+    "category": "Data Devices"
+  },
+  {
+    "id": 5477555,
+    "family": "Consolidation_Point",
+    "type": "CPB48BL",
+    "category": "Data Devices"
+  },
+  {
+    "id": 5480745,
+    "family": "E_Panel Distribucion",
+    "type": "EPB25-304C",
+    "category": "Electrical Equipment"
+  },
+  {
+    "id": 5482481,
+    "family": "M_Ventilador",
+    "type": "Estándar",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5483751,
+    "family": "M_Comunicaciones",
+    "type": "Datos",
+    "category": "Telephone Devices"
+  },
+  {
+    "id": 5483753,
+    "family": "M_Comunicaciones",
+    "type": "Telefono",
+    "category": "Telephone Devices"
+  },
+  {
+    "id": 5486732,
+    "family": "M_Interruptores",
+    "type": "Conmutable",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5486734,
+    "family": "M_Interruptores",
+    "type": "Simple",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5486736,
+    "family": "M_Interruptores",
+    "type": "Doble",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5486738,
+    "family": "M_Interruptores",
+    "type": "Triple",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5486740,
+    "family": "M_Interruptores",
+    "type": "Doble conmutable",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5486742,
+    "family": "M_Interruptores",
+    "type": "Simple conmutable",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5486744,
+    "family": "M_Interruptores",
+    "type": "Triple conmutable",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5487991,
+    "family": "M_Toma doble",
+    "type": "GFCI",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5487993,
+    "family": "M_Toma doble",
+    "type": "Normal",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5489354,
+    "family": "M_Climatizacion",
+    "type": "Interruptor Ventilador",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5490716,
+    "family": "M_ClimatizacionV",
+    "type": "Ventilador",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5491807,
+    "family": "M_Iluminacion",
+    "type": "SONO FLEX 10 trim",
+    "category": "Lighting Fixtures"
+  },
+  {
+    "id": 5491809,
+    "family": "M_Iluminacion",
+    "type": "﻿SONO FLEX 13 trim",
+    "category": "Lighting Fixtures"
+  },
+  {
+    "id": 5491811,
+    "family": "M_Iluminacion",
+    "type": "﻿SONO FLEX 22 trim",
+    "category": "Lighting Fixtures"
+  },
+  {
+    "id": 5493030,
+    "family": "EA",
+    "type": "EA 1010",
+    "category": "Mechanical Equipment"
+  },
+  {
+    "id": 5493032,
+    "family": "EA",
+    "type": "EA 1219",
+    "category": "Mechanical Equipment"
+  },
+  {
+    "id": 5493034,
+    "family": "EA",
+    "type": "EA 1530",
+    "category": "Mechanical Equipment"
+  },
+  {
+    "id": 5494253,
+    "family": "M_Caja de conexiones hexagonal",
+    "type": "120V",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5494255,
+    "family": "M_Caja de conexiones hexagonal",
+    "type": "208V",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5494257,
+    "family": "M_Caja de conexiones hexagonal",
+    "type": "277V",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5494259,
+    "family": "M_Caja de conexiones hexagonal",
+    "type": "480V",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5495275,
+    "family": "M_Codo - Genérico",
+    "type": "Estándar",
+    "category": "Pipe Fittings"
+  },
+  {
+    "id": 5496496,
+    "family": "M_Timbre - Campanilla",
+    "type": "Estándar",
+    "category": "Fire Alarm Devices"
+  },
+  {
+    "id": 5501216,
+    "family": "E_Panel Distribucion1",
+    "type": "EPB25-304C",
+    "category": "Electrical Equipment"
+  },
+  {
+    "id": 5508804,
+    "family": "M_Codo de tubo - Extremo abocardado - PVC",
+    "type": "Estándar",
+    "category": "Conduit Fittings"
+  },
+  {
+    "id": 5508805,
+    "family": "M_Extremo abocardado de tubo - PVC",
+    "type": "Estándar",
+    "category": "Conduit Fittings"
+  },
+  {
+    "id": 5508808,
+    "family": "M_Caja de conexiones de tubo - Cruz - PVC",
+    "type": "Estándar",
+    "category": "Conduit Fittings"
+  },
+  {
+    "id": 5508810,
+    "family": "M_Caja de conexiones de tubo - Te - PVC",
+    "type": "Estándar",
+    "category": "Conduit Fittings"
+  },
+  {
+    "id": 5508812,
+    "family": "M_Casquillo reductor de tubo - PVC",
+    "type": "Estándar",
+    "category": "Conduit Fittings"
+  },
+  {
+    "id": 5513864,
+    "family": "M_Codo de tubo - Sin uniones - RNC",
+    "type": "Estándar",
+    "category": "Conduit Fittings"
+  },
+  {
+    "id": 5519251,
+    "family": "E_Cable Tray Support_F_MEPcontent_Legrand_Hanging Rail",
+    "type": "E_Cable Tray Support_F_MEPcontent_Legrand_Hanging Rail",
+    "category": "Generic Models"
+  },
+  {
+    "id": 5520232,
+    "family": "E_Cable Tray Support_MEPcontent_OBO Bettermann_Bracket",
+    "type": "AHB 100 FT",
+    "category": "Cable Tray Fittings"
+  },
+  {
+    "id": 5520234,
+    "family": "E_Cable Tray Support_MEPcontent_OBO Bettermann_Bracket",
+    "type": "AHB 200 FT",
+    "category": "Cable Tray Fittings"
+  },
+  {
+    "id": 5520236,
+    "family": "E_Cable Tray Support_MEPcontent_OBO Bettermann_Bracket",
+    "type": "AHB 300 FT",
+    "category": "Cable Tray Fittings"
+  },
+  {
+    "id": 5546302,
+    "family": "M_Toma doble",
+    "type": "Intemperie",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5547406,
+    "family": "M_Toma-Rango",
+    "type": "Única",
+    "category": "Electrical Fixtures"
+  },
+  {
+    "id": 5548770,
+    "family": "M_Toma - 220V",
+    "type": "220V",
+    "category": "Electrical Fixtures"
+  }
+]

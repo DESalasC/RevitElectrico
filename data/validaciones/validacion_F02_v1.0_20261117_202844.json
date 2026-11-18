@@ -1,0 +1,147 @@
+{
+  "total_colocados": 34,
+  "total_referencia": 86,
+  "coinciden": 0,
+  "diferencias_posicion": [],
+  "diferencias_altura": [],
+  "diferencias_rotacion": [],
+  "no_encontrados_ref": [],
+  "extras_colocados": [
+    {
+      "handle": "63",
+      "familia": null
+    },
+    {
+      "handle": "83",
+      "familia": null
+    },
+    {
+      "handle": "8C",
+      "familia": null
+    },
+    {
+      "handle": "8D",
+      "familia": null
+    },
+    {
+      "handle": "8E",
+      "familia": null
+    },
+    {
+      "handle": "8F",
+      "familia": null
+    },
+    {
+      "handle": "90",
+      "familia": null
+    },
+    {
+      "handle": "91",
+      "familia": null
+    },
+    {
+      "handle": "92",
+      "familia": null
+    },
+    {
+      "handle": "9A",
+      "familia": null
+    },
+    {
+      "handle": "A4",
+      "familia": null
+    },
+    {
+      "handle": "AF",
+      "familia": null
+    },
+    {
+      "handle": "B7",
+      "familia": null
+    },
+    {
+      "handle": "BF",
+      "familia": null
+    },
+    {
+      "handle": "C1",
+      "familia": null
+    },
+    {
+      "handle": "CA",
+      "familia": null
+    },
+    {
+      "handle": "D5",
+      "familia": null
+    },
+    {
+      "handle": "F3",
+      "familia": null
+    },
+    {
+      "handle": "125",
+      "familia": null
+    },
+    {
+      "handle": "131",
+      "familia": null
+    },
+    {
+      "handle": "132",
+      "familia": null
+    },
+    {
+      "handle": "13B",
+      "familia": null
+    },
+    {
+      "handle": "13C",
+      "familia": null
+    },
+    {
+      "handle": "13D",
+      "familia": null
+    },
+    {
+      "handle": "1D3",
+      "familia": null
+    },
+    {
+      "handle": "1DC",
+      "familia": null
+    },
+    {
+      "handle": "1DD",
+      "familia": null
+    },
+    {
+      "handle": "1DE",
+      "familia": null
+    },
+    {
+      "handle": "1EE",
+      "familia": null
+    },
+    {
+      "handle": "1EF",
+      "familia": null
+    },
+    {
+      "handle": "1F0",
+      "familia": null
+    },
+    {
+      "handle": "1F1",
+      "familia": null
+    },
+    {
+      "handle": "1FA",
+      "familia": null
+    },
+    {
+      "handle": "208",
+      "familia": null
+    }
+  ]
+}

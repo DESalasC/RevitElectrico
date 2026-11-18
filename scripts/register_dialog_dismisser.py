@@ -76,6 +76,7 @@ DESTRUCTIVE_KEYWORDS = [
 
 # Globals: mantener referencias vivas para evitar GC del delegate.
 _dialog_handler_ref = None  # delegate EventHandler[DialogBoxShowingEventArgs]
+_taskdialog_handler_ref = None  # delegate EventHandler[TaskDialogShowingEventArgs]
 
 
 def _safe_log(entry):
@@ -172,25 +173,30 @@ def _on_dialog_showing(sender, args):
 
 def register():
     """Registra el handler en la aplicacion Revit activa. Idempotente."""
-    global _dialog_handler_ref
+    global _dialog_handler_ref, _taskdialog_handler_ref
 
     if revit is None:
         print("[ERROR] Sin acceso a Revit. Usa pyRevit Python Shell dentro de Revit 2026.")
         return False
 
-    if _dialog_handler_ref is not None:
-        print("[INFO] Handler ya estaba activo. No se hace nada.")
+    if _dialog_handler_ref is not None and _taskdialog_handler_ref is not None:
+        print("[INFO] Handlers ya estaban activos. No se hace nada.")
         return True
 
     try:
         from System import EventHandler
+        # Application.DialogBoxShowing (regular dialogs)
         app = revit.doc.Application
-
-        # Crear el delegate explicitamente y guardarlo para evitar GC
         _dialog_handler_ref = EventHandler[DialogBoxShowingEventArgs](_on_dialog_showing)
         app.DialogBoxShowing += _dialog_handler_ref
 
+        # UIApplication.TaskDialogShowing (TaskDialogs like "Delete duplicate instances")
+        uiapp = revit.app  # pyRevit provides revit.app = UIApplication
+        _taskdialog_handler_ref = EventHandler[TaskDialogShowingEventArgs](_on_dialog_showing)
+        uiapp.TaskDialogShowing += _taskdialog_handler_ref
+
         print("[OK] Handler registrado: app.DialogBoxShowing")
+        print("[OK] Handler registrado: uiapp.TaskDialogShowing")
         print("[OK] Auto-dismisser activo hasta que cierres Revit.")
         print("[OK] Log de dialogos: {}".format(LOG_PATH))
         print("")
@@ -207,16 +213,27 @@ def register():
 
 def unregister():
     """Desactiva el handler. Opcional - normalmente basta con cerrar Revit."""
-    global _dialog_handler_ref
-    if revit is None or _dialog_handler_ref is None:
-        print("[INFO] No hay handler activo.")
+    global _dialog_handler_ref, _taskdialog_handler_ref
+    if revit is None:
+        print("[INFO] No hay acceso a Revit.")
         return False
     try:
-        app = revit.doc.Application
-        app.DialogBoxShowing -= _dialog_handler_ref
-        _dialog_handler_ref = None
-        print("[OK] Handler removido.")
-        return True
+        removed = False
+        if _dialog_handler_ref is not None:
+            app = revit.doc.Application
+            app.DialogBoxShowing -= _dialog_handler_ref
+            _dialog_handler_ref = None
+            removed = True
+        if _taskdialog_handler_ref is not None:
+            uiapp = revit.app
+            uiapp.TaskDialogShowing -= _taskdialog_handler_ref
+            _taskdialog_handler_ref = None
+            removed = True
+        if removed:
+            print("[OK] Handlers removidos.")
+        else:
+            print("[INFO] No habia handlers activos.")
+        return removed
     except Exception as e:
         print("[ERROR] No pude remover: {}".format(e))
         return False
@@ -224,7 +241,7 @@ def unregister():
 
 def status():
     """Reporta si el handler esta activo."""
-    if _dialog_handler_ref is None:
+    if _dialog_handler_ref is None and _taskdialog_handler_ref is None:
         print("[STATUS] Inactivo. Ejecuta register() para activarlo.")
     else:
         print("[STATUS] Activo. Log: {}".format(LOG_PATH))

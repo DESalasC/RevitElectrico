@@ -1,0 +1,61 @@
+{
+  "metadatos": {
+    "proyecto": "RE",
+    "fase": "F6",
+    "tipo_documento": "inventario_dispositivos_test",
+    "version_esquema": "1.0",
+    "apartamento_tipo": "F 01",
+    "tablero": "T01",
+    "nivel_elevacion_m": 13.22,
+    "origen_dxf": {
+      "archivo": "Apartamento Tipo F 01.dxf",
+      "ruta_completa": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\Apartamento Tipo F 01.dxf",
+      "hash_sha256": "TEST_HASH_FIXTURE",
+      "fecha_modificacion_dxf": "2026-11-17T19:09:29.000000"
+    }
+  },
+  "dispositivos": [
+    {
+      "handle": "TEST_WALL_01",
+      "nombre_dxf": "ELEC-T-D-t-15A",
+      "x": 1.0487,
+      "y": 1.541,
+      "z": 0.3,
+      "altura_local_m": 0.3,
+      "rotacion_dxf_grados": 0,
+      "rotacion_final_grados": 90,
+      "familia_revit": "M_Toma doble",
+      "tipo_revit": "Normal",
+      "familia_dxf": "ELEC-T-D-t-15A",
+      "tipo_dxf": "Normal"
+    },
+    {
+      "handle": "TEST_CEILING_01",
+      "nombre_dxf": "Bala Stil Led 22W",
+      "x": 2.5,
+      "y": 3.0,
+      "z": 2.7,
+      "altura_local_m": 2.7,
+      "rotacion_dxf_grados": 0,
+      "rotacion_final_grados": 0,
+      "familia_revit": "M_Iluminacion",
+      "tipo_revit": "22W",
+      "familia_dxf": "Bala Stil Led 22W",
+      "tipo_dxf": "22W"
+    },
+    {
+      "handle": "TEST_LEVEL_01",
+      "nombre_dxf": "ELEC-TEL",
+      "x": 4.0,
+      "y": 5.0,
+      "z": 1.0,
+      "altura_local_m": 1.0,
+      "rotacion_dxf_grados": 0,
+      "rotacion_final_grados": 0,
+      "familia_revit": "M_Comunicaciones",
+      "tipo_revit": "Normal",
+      "familia_dxf": "ELEC-TEL",
+      "tipo_dxf": "Normal"
+    }
+  ]
+}
