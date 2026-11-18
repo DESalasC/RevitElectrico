@@ -44,7 +44,9 @@
   "equivalencias_decididas": {
     "ELEC-EXT": { "familia": "EA", "tipo": "EA 1010", "fecha": "2026-11-15", "nota": "Decision del operador. M_Extractor no existe en CENTRAL-V01." },
     "ELEC-NET-PAU": { "familia": "Consolidation_Point", "tipo": "CPB6BL", "fecha": "2026-11-15", "nota": "Decision del operador. CPB24BL existe pero no es el que corresponde." },
-    "ELEC-F-VENT": { "familia": "M_ClimatizacionV", "tipo": "Ventilador", "fecha": "2026-11-15", "nota": "Decision del operador. M_Ventilador | Estandar NO se usa para este codigo." }
+    "ELEC-F-VENT": { "familia": "M_ClimatizacionV", "tipo": "Ventilador", "fecha": "2026-11-15", "nota": "Decision del operador. M_Ventilador | Estandar NO se usa para este codigo." },
+    "S3C": { "familia": "M_Interruptores", "tipo": "Triple Conmutable", "fecha": "2026-11-18", "nota": "Validado por operador. Solo en B15/B16." },
+    "ELEC-I-S-2-5A": { "familia": "M_Interruptores", "tipo": "Doble", "fecha": "2026-11-18", "nota": "Validado por operador. En apartamentos F, C, D." }
   },
   "observaciones": [
     "E_Panel Distribucion y E_Panel Distribucion1 comparten el tipo EPB25-304C. La colocacion resuelve por nombre de familia, asi que el sufijo 1 queda fuera salvo que se pida explicitamente.",
