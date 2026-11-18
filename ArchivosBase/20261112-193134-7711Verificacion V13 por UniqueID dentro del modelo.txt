@@ -1,0 +1,292 @@
+
+================================================================================
+VERIFICACIÃN v13 POR UNIQUEID â POSICIÃN REAL EN EL MODELO
+================================================================================
+Total reportados como creados por v13: 44
+Lote GUID: 46c3f138-025d-47d4-b24a-41cd21181a58
+Nivel esperado: Piso 5 (id=192512, elev_m=13.22)
+Z esperado lÃ¡mparas: 15.82 m | Z esperado tomas/interruptores: 14.32 m
+================================================================================
+Indexando FamilyInstance del modelo por UniqueId...
+Total FamilyInstance en modelo: 14366
+================================================================================
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=Bala Stil Led 13W | ElementID=5695272 | Cat=Lighting Fixtures
+  XYZ real (m): (4.953, 17.214, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-I-S-C1-5A | ElementID=5695273 | Cat=Electrical Fixtures
+  XYZ real (m): (0.000, 0.000, 1.100) | Z esperado: 14.320 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2765812 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-GFCI-t-15A | ElementID=5695274 | Cat=Electrical Fixtures
+  XYZ real (m): (3.680, 16.373, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766543 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695275 | Cat=Electrical Fixtures
+  XYZ real (m): (0.574, 16.280, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766531 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-I-S-C1-5A | ElementID=5695276 | Cat=Electrical Fixtures
+  XYZ real (m): (0.000, 0.000, 1.100) | Z esperado: 14.320 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766506 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695277 | Cat=Electrical Fixtures
+  XYZ real (m): (3.279, 15.218, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766505 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-F-VENT | ElementID=5695278 | Cat=Electrical Fixtures
+  XYZ real (m): (1.933, 15.200, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-TEL | ElementID=5695279 | Cat=Electrical Fixtures
+  XYZ real (m): (0.125, 0.000, 0.248) | Z esperado: 13.520 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766505 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-TEL | ElementID=5695280 | Cat=Electrical Fixtures
+  XYZ real (m): (0.125, 0.000, 0.248) | Z esperado: 13.520 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766505 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-TEL | ElementID=5695281 | Cat=Electrical Fixtures
+  XYZ real (m): (0.125, 0.000, 0.248) | Z esperado: 13.520 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766505 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=Bala Stil Led 10W | ElementID=5695282 | Cat=Lighting Fixtures
+  XYZ real (m): (3.756, 14.284, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=Bala Stil Led 10W | ElementID=5695283 | Cat=Lighting Fixtures
+  XYZ real (m): (5.858, 14.284, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695284 | Cat=Electrical Fixtures
+  XYZ real (m): (3.411, 14.275, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766505 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695285 | Cat=Electrical Fixtures
+  XYZ real (m): (0.574, 14.100, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766531 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=Bala Stil Led 13W | ElementID=5695286 | Cat=Lighting Fixtures
+  XYZ real (m): (1.927, 14.086, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-TEL | ElementID=5695287 | Cat=Electrical Fixtures
+  XYZ real (m): (0.125, 0.000, 0.248) | Z esperado: 13.520 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766505 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-TEL | ElementID=5695288 | Cat=Electrical Fixtures
+  XYZ real (m): (0.125, 0.000, 0.248) | Z esperado: 13.520 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766505 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-F-VENT | ElementID=5695289 | Cat=Electrical Fixtures
+  XYZ real (m): (4.850, 13.714, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695290 | Cat=Electrical Fixtures
+  XYZ real (m): (6.504, 13.650, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2765814 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-F-CONTROL | ElementID=5695291 | Cat=Electrical Fixtures
+  XYZ real (m): (2.440, 13.613, 14.420) | Z esperado: 14.420 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766526 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-I-S-1-5A | ElementID=5695292 | Cat=Electrical Fixtures
+  XYZ real (m): (0.000, 0.000, 1.100) | Z esperado: 14.320 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766526 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-F-CONTROL | ElementID=5695293 | Cat=Electrical Fixtures
+  XYZ real (m): (3.460, 13.413, 14.420) | Z esperado: 14.420 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766505 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=Bala Stil Led 10W | ElementID=5695294 | Cat=Lighting Fixtures
+  XYZ real (m): (2.848, 12.618, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=Bala Stil Led 13W | ElementID=5695295 | Cat=Lighting Fixtures
+  XYZ real (m): (1.716, 12.180, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695296 | Cat=Electrical Fixtures
+  XYZ real (m): (5.624, 12.120, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766508 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-I-S-1-5A | ElementID=5695297 | Cat=Electrical Fixtures
+  XYZ real (m): (0.000, 0.000, 1.100) | Z esperado: 14.320 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2765793 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695298 | Cat=Electrical Fixtures
+  XYZ real (m): (5.189, 12.009, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2765817 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695299 | Cat=Electrical Fixtures
+  XYZ real (m): (5.634, 11.980, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766512 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=S3 | ElementID=5695300 | Cat=Electrical Fixtures
+  XYZ real (m): (0.000, 0.000, 1.100) | Z esperado: 14.320 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766517 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-GFCI-t-15A | ElementID=5695301 | Cat=Electrical Fixtures
+  XYZ real (m): (3.265, 11.900, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2765799 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-GFCI-t-15A | ElementID=5695302 | Cat=Electrical Fixtures
+  XYZ real (m): (5.192, 11.882, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766511 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-NET-PAU | ElementID=5695303 | Cat=Data Devices
+  XYZ real (m): (5.192, 11.710, -0.000) | Z esperado: 14.320 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766511 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-TEL | ElementID=5695304 | Cat=Electrical Fixtures
+  XYZ real (m): (0.125, 0.000, 0.248) | Z esperado: 13.520 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766511 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-TEL | ElementID=5695305 | Cat=Electrical Fixtures
+  XYZ real (m): (0.125, 0.000, 0.248) | Z esperado: 13.520 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766511 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=Bala Stil Led 22W | ElementID=5695306 | Cat=Lighting Fixtures
+  XYZ real (m): (5.858, 10.842, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=Bala Stil Led 22W | ElementID=5695307 | Cat=Lighting Fixtures
+  XYZ real (m): (3.916, 10.837, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=Bala Stil Led 13W | ElementID=5695308 | Cat=Lighting Fixtures
+  XYZ real (m): (2.895, 10.453, -0.000) | Z esperado: 15.820 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766255 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-I-S-1-5A | ElementID=5695309 | Cat=Electrical Fixtures
+  XYZ real (m): (0.000, 0.000, 1.100) | Z esperado: 14.320 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766517 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-CAMPANA | ElementID=5695310 | Cat=Communication Devices
+  XYZ real (m): (4.436, 9.724, -0.000) | Z esperado: 14.420 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766516 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695311 | Cat=Electrical Fixtures
+  XYZ real (m): (4.821, 9.721, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766013 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-D-t-15A | ElementID=5695312 | Cat=Electrical Fixtures
+  XYZ real (m): (5.080, 9.721, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766013 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-GFCI-t-15A | ElementID=5695313 | Cat=Electrical Fixtures
+  XYZ real (m): (2.813, 9.719, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766520 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-T-GFCI-t-15A | ElementID=5695314 | Cat=Electrical Fixtures
+  XYZ real (m): (5.633, 9.719, 14.320) | Z esperado: 14.320 | Z correcto: SÃ
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 2766013 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+ENCONTRADO | UniqueId=0ec8341a-723a-4d15-8... | Nombre=ELEC-TIMBRE | ElementID=5695315 | Cat=Communication Devices
+  XYZ real (m): (4.589, 9.527, -0.000) | Z esperado: 14.420 | Z correcto: NO
+  Nivel ID: -1 (?) | Esperado: 192512 (Piso 5) | Nivel correcto: NO
+  Host ID: None | Reportado: 3309488 | Coincide host: NO
+  Parametro Lote: (no asignado) | Lote v13: 46c3f138...
+--------------------------------------------------------------------------------
+================================================================================
+RESUMEN FINAL
+================================================================================
+Creados por v13:          44
+Encontrados en modelo:    44
+No encontrados:           0
+Z correcto (Â±0.05 m):     17
+Z incorrecto:             27
+Nivel correcto (192512):  0
+Nivel diferente:          44
+================================================================================
+CONCLUSIÃN: Las instancias de v13 existen con Z absoluta correcta.
+El trazador v02 no las muestra porque filtra por LevelId=192512
+y v13 no asigna LevelId explÃ­citamente (read-only).
+================================================================================
+>>> 

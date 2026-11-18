@@ -1,0 +1,71 @@
+unidad;bloque;familia;tipo;id;estado
+F 01;ELEC-T-GFCI-t-15A;M_Toma doble;GFCI;5546237;creado
+F 01;ELEC-T-D-t-15A;M_Toma doble;Normal;5546238;creado
+F 01;ELEC-T-D-t-15A;M_Toma doble;Normal;5546239;creado
+F 01;ELEC-T-GFCI-t-15A;M_Toma doble;GFCI;5546240;creado
+F 01;ELEC-T-D-t-15A;M_Toma doble;Normal;5546241;creado
+F 01;ELEC-T-D-t-15A;M_Toma doble;Normal;5546242;creado
+F 01;ELEC-T-D-t-15A;M_Toma doble;Normal;5546243;creado
+F 01;ELEC-T-GFCI-t-15A;M_Toma doble;GFCI;5546244;creado
+F 01;ELEC-TIMBRE;M_Pulsador - Interruptor;Timbre;5546245;creado
+F 01;ELEC-CAMPANA;M_Timbre;Campana;5546246;creado
+F 01;ELEC-I-S-1-5A;M_Interruptores;Simple;5546247;creado
+F 01;ELEC-I-S-1-5A;M_Interruptores;Simple;5546248;creado
+F 01;ELEC-I-S-1-5A;M_Interruptores;Simple;5546249;creado
+F 01;ELEC-F-VENT;M_ClimatizacionV;Ventilador;5546250;creado
+F 01;ELEC-F-CONTROL;M_Climatizacion;Interruptor Ventilador;5546251;creado
+F 01;ELEC-T-GFCI-t-15A;M_Toma doble;GFCI;5546252;creado
+F 01;ELEC-EXT;EA;EA 1010;5546253;creado
+F 01;Bala Stil Led 22W;M_Iluminacion;SONO FLEX 22 trim;5546254;creado
+F 01;Bala Stil Led 22W;M_Iluminacion;SONO FLEX 22 trim;5546255;creado
+F 01;Bala Stil Led 10W;M_Iluminacion;SONO FLEX 10 trim;5546256;creado
+F 01;Bala Stil Led 10W;M_Iluminacion;SONO FLEX 10 trim;5546257;creado
+F 01;Bala Stil Led 10W;M_Iluminacion;SONO FLEX 10 trim;5546258;creado
+F 01;Bala Stil Led 10W;M_Iluminacion;SONO FLEX 10 trim;5546259;creado
+F 01;Bala Stil Led 13W;M_Iluminacion;SONO FLEX 13 trim;5546260;creado
+F 01;Bala Stil Led 13W;M_Iluminacion;SONO FLEX 13 trim;5546261;creado
+F 01;ELEC-TEL;M_Comunicaciones;Datos;5546262;creado
+F 01;ELEC-TEL;M_Comunicaciones;Datos;5546263;creado
+F 01;ELEC-TEL;M_Comunicaciones;Datos;5546264;creado
+F 01;ELEC-NET-PAU;Consolidation_Point;CPB6BL;5546265;creado
+F 01;ELEC-TEL;M_Comunicaciones;Datos;5546266;creado
+F 01;ELEC-TEL;M_Comunicaciones;Datos;5546267;creado
+F 01;ELEC-TEL;M_Comunicaciones;Datos;5546268;creado
+F 01;ELEC-TEL;M_Comunicaciones;Datos;5546269;creado
+F 01;ELEC-T-D-t-15A;M_Toma doble;Normal;5546270;creado
+F 01;ELEC-T-D-t-15A;M_Toma doble;Normal;5546271;creado
+F 02;ELEC-T-GFCI-t-15A;M_Toma doble;GFCI;5546272;creado
+F 02;ELEC-T-D-t-15A;M_Toma doble;Normal;5546273;creado
+F 02;ELEC-T-D-t-15A;M_Toma doble;Normal;5546274;creado
+F 02;ELEC-T-GFCI-t-15A;M_Toma doble;GFCI;5546275;creado
+F 02;ELEC-T-D-t-15A;M_Toma doble;Normal;5546276;creado
+F 02;ELEC-T-D-t-15A;M_Toma doble;Normal;5546277;creado
+F 02;ELEC-T-D-t-15A;M_Toma doble;Normal;5546278;creado
+F 02;ELEC-T-GFCI-t-15A;M_Toma doble;GFCI;5546279;creado
+F 02;ELEC-TIMBRE;M_Pulsador - Interruptor;Timbre;5546280;creado
+F 02;ELEC-CAMPANA;M_Timbre;Campana;5546281;creado
+F 02;ELEC-I-S-1-5A;M_Interruptores;Simple;5546282;creado
+F 02;ELEC-I-S-1-5A;M_Interruptores;Simple;5546283;creado
+F 02;ELEC-I-S-1-5A;M_Interruptores;Simple;5546284;creado
+F 02;ELEC-F-VENT;M_ClimatizacionV;Ventilador;5546285;creado
+F 02;ELEC-F-CONTROL;M_Climatizacion;Interruptor Ventilador;5546286;creado
+F 02;ELEC-T-GFCI-t-15A;M_Toma doble;GFCI;5546287;creado
+F 02;ELEC-EXT;EA;EA 1010;5546288;creado
+F 02;Bala Stil Led 22W;M_Iluminacion;SONO FLEX 22 trim;5546289;creado
+F 02;Bala Stil Led 22W;M_Iluminacion;SONO FLEX 22 trim;5546290;creado
+F 02;Bala Stil Led 10W;M_Iluminacion;SONO FLEX 10 trim;5546291;creado
+F 02;Bala Stil Led 10W;M_Iluminacion;SONO FLEX 10 trim;5546292;creado
+F 02;Bala Stil Led 10W;M_Iluminacion;SONO FLEX 10 trim;5546293;creado
+F 02;Bala Stil Led 10W;M_Iluminacion;SONO FLEX 10 trim;5546294;creado
+F 02;Bala Stil Led 13W;M_Iluminacion;SONO FLEX 13 trim;5546295;creado
+F 02;Bala Stil Led 13W;M_Iluminacion;SONO FLEX 13 trim;5546296;creado
+F 02;ELEC-TEL;M_Comunicaciones;Datos;5546297;creado
+F 02;ELEC-TEL;M_Comunicaciones;Datos;5546298;creado
+F 02;ELEC-TEL;M_Comunicaciones;Datos;5546299;creado
+F 02;ELEC-NET-PAU;Consolidation_Point;CPB6BL;5546300;creado
+F 02;ELEC-TEL;M_Comunicaciones;Datos;5546301;creado
+F 02;ELEC-TEL;M_Comunicaciones;Datos;5546302;creado
+F 02;ELEC-TEL;M_Comunicaciones;Datos;5546303;creado
+F 02;ELEC-TEL;M_Comunicaciones;Datos;5546304;creado
+F 02;ELEC-T-D-t-15A;M_Toma doble;Normal;5546305;creado
+F 02;ELEC-T-D-t-15A;M_Toma doble;Normal;5546306;creado

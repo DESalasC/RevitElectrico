@@ -1,7 +1,7 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "proyecto": "RE",
-  "fecha": "2026-11-15",
+  "fecha": "2026-11-17",
   "apartamento": "Apartamento Tipo E 06",
   "proposito": "Reglas de altura local de montaje por dispositivo. Sustituye la altura unica de 1.10 m que se habia generalizado por error en el inventario v01.",
   "decision": "Gobierna el DXF: sus anotaciones de altura ('0.7m', '1.65m', '1.05m', 'h-0.3') coinciden con el modelo manual de CENTRAL-V01 una vez descontado el offset de 57 mm entre punto de insercion y minimo del bounding box.",
@@ -36,7 +36,8 @@
     "ELEC-CAMPANA": 2.4,
     "ELEC-TIMBRE": 1.1,
     "ELEC-PANEL": 1.2,
-    "ELEC-EXT": 1.9
+    "ELEC-EXT": 1.9,
+    "ELEC-I-S-2-5A": 1.1
   },
   "excepciones_por_handle": {
     "BA": {
@@ -624,6 +625,14 @@
       "cambios": [
         "ELEC-TEL 1,05 -> 1,00 (las diez tomas de datos a la misma cota)",
         "se agrega anotaciones_ignoradas_por_codigo: ELEC-TEL ignora la anotacion de 1,05 del DXF"
+      ]
+    },
+    {
+      "fecha": "2026-11-17",
+      "fuente": "inventario F01/F02: ELEC-I-S-2-5A (Interruptor Doble) faltaba en regla_base",
+      "cambios": [
+        "Agregado ELEC-I-S-2-5A a regla_base_altura_m con 1.1 m (igual que otros interruptores)",
+        "Actualizada version a 1.1"
       ]
     }
   ]

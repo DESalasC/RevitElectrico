@@ -1,0 +1,53 @@
+{
+  "version": "v06",
+  "fecha": "2026-11-17",
+  "nota": "v06: ELEC-TIMBRE=M_Pulsador - Interruptor/Timbre (según V02-f), ELEC-EXT=EA, ELEC-T-220=M_Toma - 220V",
+  "por_bloque": {
+    "ELEC-T-D-t-15A": "M_Toma doble",
+    "ELEC-T-GFCI-t-15A": "M_Toma doble",
+    "ELEC-T-220": "M_Toma - 220V",
+    "ELEC-EXT": "EA",
+    "ELEC-TEL": "M_Comunicaciones",
+    "ELEC-NET-PAU": "M_Comunicaciones",
+    "ELEC-TIMBRE": "M_Pulsador - Interruptor",
+    "ELEC-ZUMBADOR": "M_Pulsador - Interruptor",
+    "ELEC-I-S-1-5A": "M_Interruptores",
+    "ELEC-I-S-2-5A": "M_Interruptores",
+    "ELEC-I-S-C1-5A": "M_Interruptores",
+    "ELEC-F-CONTROL": "M_Interruptores",
+    "ELEC-CAMPANA": "M_Interruptores",
+    "ELEC-F-VENT": "M_ClimatizacionV",
+    "Bala Stil Led 22W": "M_Iluminacion",
+    "Bala Stil Led 10W": "M_Iluminacion",
+    "Bala Stil Led 13W": "M_Iluminacion",
+    "EA": "EA",
+    "S3": "M_Interruptores"
+  },
+  "por_capa": {
+    "ELEC-APPL-NETWORD": "M_Comunicaciones",
+    "ELEC-Data-Service": "M_Comunicaciones",
+    "ELEC-CONTROL ILUM": "M_Interruptores"
+  },
+  "excluidos": [
+    "M_Interruptor bipolar",
+    "M_Toma simple"
+  ],
+  "simbolo_por_bloque": {
+    "ELEC-T-D-t-15A": "Normal",
+    "ELEC-T-GFCI-t-15A": "GFCI",
+    "ELEC-T-220": "220V",
+    "ELEC-EXT": "EA 1010",
+    "ELEC-TEL": "Datos",
+    "ELEC-NET-PAU": "Datos",
+    "ELEC-TIMBRE": "Timbre",
+    "ELEC-I-S-1-5A": "Simple",
+    "ELEC-I-S-2-5A": "Doble",
+    "ELEC-I-S-C1-5A": "Triple conmutable",
+    "ELEC-F-CONTROL": "Simple conmutable",
+    "ELEC-CAMPANA": "Simple",
+    "ELEC-F-VENT": "Ventilador",
+    "Bala Stil Led 10W": "SONO FLEX 10 trim",
+    "Bala Stil Led 13W": "SONO FLEX 13 trim",
+    "Bala Stil Led 22W": "\ufeffSONO FLEX 22 trim"
+  }
+}

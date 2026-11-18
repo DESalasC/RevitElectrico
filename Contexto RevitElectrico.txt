@@ -1,0 +1,52 @@
+1.- Tenemos PyRevit con CPython3 (Tenemos tambien ezdxf) e IronPython 2.7, pero nos hemos enfocado en IronPython solamente.
+2.- Son INSERT de bloques sin atributos los valores delos atributos estan uestos en forma de texto muy cercanos a cada simbolo, solamente los paneles tiene definido el atributo del nombre del panel, pero algunas estan en capas específicas. 
+    Layer name        State          Color                Linetype       Lineweight
+------------------    ----------- ------------------    ------------    ------------
+"ELEC-APPL-ILUM"           on       -P 212                "Continuous"  0.300 mm. elementos de iluminacion
+"ELEC-APPL-NETWORD"        on       -P   3 (green)        "Continuous"  0.300 mm. elementos de red conectividad/telefono
+"ELEC-APPL-TOMAS"          on       -P   1 (red)          "Continuous"  0.300 mm. elementos de tomas
+"ELEC-BALA LED 13 W"       on       -P  20                "Continuous"  0.300 mm. elementos de iluminacion
+"ELEC-CONTROL ILUM"        on       -P 104,192,91         "HIDDEN"      0.300 mm. elementos de iluminacion/interruptores
+"ELEC-Data-Service"        on       -P  34                "Continuous"  0.300 mm. elementos de red conectividad/telefono
+"ELEC-LIGHT-PIPE"          on       -P 46,166,237         "Continuous"  0.300 mm. elementos de iluminacion
+"Elec-Lite-Wire"           on       -P 254,80,0           "Continuous"  0.300 mm. elementos de cableado.
+"ELEC-POWER- PIPE"         on       -P 68,152,215         "HIDDEN"      0.300 mm. elementos de tuberia
+"Elec-Power-Iden"          on       -P   7 (white)        "DASHED"      0.300 mm. elementos de identificacion de circuitos
+"ELEC-POWER-PANEL"         on       -P   4 (cyan)         "Continuous"  0.300 mm. nomneclatura de paneles
+"ELEC-Powr-Appl"           on       -P 68,136,62          "Continuous"  0.300 mm. otros elementos electricos
+"ELEC-Powr-Pipe-Idem Piso" on       -P 220                "DASHED"      0.300 mm. nomenclatura penesles por piso
+
+3.- Las Alturas en el DXF se codifican pr textos anexos a los elementos que se capturan actualmente dentro de un .json
+4.- Los Conectores/cableado: LINE no tienen atributos de circuito, pero tiene  unos bloques que identifican las fases, la tierra, los neutros y los devueltos para cada linea. Los calculos de todo el sistema son externos y ya estan ejecutados.
+5.- DXF está en coordenadas absolutas del proyecto, pero al ser el DXF un diagrama se estaba utilizando el Panel de cada apartamento comp base para la distribucion del resto de los elementos, con una tolerancia porque al ser un diagrama no es precisa la localizacion de ada bloque eal transladarlo al  .rvt
+6.- ## Tablas por familia Revit
+
+| # | Familia Revit | Clasificación | Nombre DXF | Símbolo Revit | Notas |
+|---|---------------|---------------|------------|---------------|-------|
+| 1 | M_Interruptores | Electrical Fixtures | ELEC-I-S-C1-5A | Simple conmutable | Wall host - Face based |
+| 2 | M_Interruptores | Electrical Fixtures | ELEC-I-S-1-5A | Simple |  Wall host - Face based |
+| 3 | M_Interruptores | Electrical Fixtures | S3 | Triple |  Wall host - Face based |
+| 4 | M_Climatizacion | Electrical Fixtures | ELEC-F-CONTROL | Interruptor Ventilador |  Wall host - Face based |
+| 5 | M_ClimatizacionV | Electrical Fixtures | ELEC-F-VENT | Ventilador | Ceiling host - Face based |
+| 6 | M_Pulsador - Interruptor | Communication Devices | ELEC-TIMBRE | Timbre |  Wall host - Face based |
+| 7 | M_Toma doble | Electrical Fixtures | ELEC-T-GFCI-t-15A | GFCI |  Wall host - Face based |
+| 8 | M_Toma doble | Electrical Fixtures | ELEC-T-D-t-15A | Normal |  Wall host - Face based  |
+| 9 | M_Zumbador | Communication Devices | ELEC-CAMPANA | Campana timbre |  Wall host - Face based |
+| 10 | Consolidation_Point | Data Devices | ELEC-NET-PAU | CPB6L |  Wall host - Face based |
+| 11 | M_Comunicaciones | Communication Devices | ELEC-TEL | Datos |  Wall host - Face based |
+| 12 | M_Iluminacion | Electrical Fixtures | Bala Stil Led 10W | SONO FLEX 10 trim | Ceiling host - Face based |
+| 13 | M_Iluminacion | Electrical Fixtures | Bala Stil Led 13W | SONO FLEX 13 trim | Ceiling host - Face based |
+| 14 | M_Iluminacion | Electrical Fixtures | Bala Stil Led 22W | SONO FLEX 22 trim | Ceiling host - Face based |
+| 16 | EA | Mechanical equipment | ELEC-EXT | M_Extractor |  Wall host - Face based |
+| 15 | E_Panel Distribucion | Electrical Fixtures | TB-Panel | EPB25-304C |  Wall host - Face based |
+
+7.- Connectors eléctricos: No se si las familias tienen MEPConnectorInfo configurado con el ConnectorType correcto ni se si tienen  ConnectorDomain definido.
+8.- de los apartamentos en DXF solo posiciones relativas y conexiones de cableado como plantilla para la tuberia.
+9.- En este momento los apartamentos modelo están vinculados por medio de un link dentro de Revit, pero cada apartamento tiene por separado su propio DXF identificado por el nombre del bloque en el archivo vinculado.
+10.- El sistema de ruteo dentro del apartamentos en conduit rigido con codos, terminales y uniones soldadas
+11.- No hay distancias mínimas a otros sistemas. Los diametros de tuberia se definen por el numero de conductores de los simbolos sobre as lineas, excepto las tuberias de comunicaicones que son dentro de los apartamentos de 3/4" y son son accesos por cada apartamento.
+12.- Si, los accesorios, Codos, cajas de paso, conectores deben insertarse automáticamente.
+13.- Error específico: al procesar de manera automatica los objetos de las familias, las lamparas quedan en el nivel 0.00 cuando deberian estar en {z=13.22+2.60} (Es decir el nivel de 'Piso 5' es en este caso 13.22 y el cielorraso esta a 2.60 mts de altura sobre ese nivel. Los otros elementosquedan con LevelID='Piso 5' pero con alturas negativas de {z=-13.22+z de atura sobre el nivel real de cada objeto} Otro punto es que las medidas dentro de Revit parecen ser en pies y aunque muestra en metros, muchos calculos fallan por esa discrepancia. Las tomas quedan sin host alguno, solo a la altura de 'Piso 5' popero con la altura tomada desde el nivel 0.00
+14.- Cada DXF tiene un solo nivel. Los apartamentos modelo de prueba están en 'Piso 5', pero son en realidad 19 pisos en total
+
+{X = 6.516,Y = 10.804}

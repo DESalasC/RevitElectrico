@@ -14,7 +14,7 @@ REM ============================================================================
 
 setlocal
 
-set "PYREVIT_EXE=%APPDATA%\pyRevit-Master\bin\pyrevit.exe"
+set "PYREVIT_EXE=C:\Users\Dario Salas\AppData\Roaming\pyRevit-Master\bin\pyrevit.exe"
 
 REM Preferir el runtime de escritorio instalado a nivel de sistema
 if exist "%ProgramFiles%\dotnet\shared\Microsoft.WindowsDesktop.App" (
