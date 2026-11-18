@@ -678,33 +678,12 @@ def colocar_f01_f02(doc, apartamento, single_handle=None, report_path=None):
                 continue
 
             # Decidir estrategia por familia
-            if fam in FAMILIAS_MURO_FACE:
-                # Face-based en muro: Z absoluto
-                result = _place_on_wall_face(doc, d, sym, x_mm, y_mm, z_abs_mm, walls)
-                if result.get("status") == "error":
-                    # Fallback a level-based si face-based crashea o falla
-                    result = _place_level_based(doc, d, sym, x_mm, y_mm, alt_mm, level_id, alt_mm, rot)
-                    result["fallback"] = True
-                    result["original_error"] = result.get("error")
-                    result["error"] = None
-                    result["status"] = "ok_with_warning"
-                    result["warning"] = "Face-based falló; se usó level-based fallback. Error original: {}".format(
-                        result.get("original_error", "?"))
-            elif fam in FAMILIAS_TECHO_FACE:
-                # Face-based en techo: Z absoluto
-                result = _place_on_ceiling_face(doc, d, sym, x_mm, y_mm, z_abs_mm, ceilings)
-                if result.get("status") == "error":
-                    # Fallback a level-based si face-based crashea o falla
-                    result = _place_level_based(doc, d, sym, x_mm, y_mm, alt_mm, level_id, alt_mm, rot)
-                    result["fallback"] = True
-                    result["original_error"] = result.get("error")
-                    result["error"] = None
-                    result["status"] = "ok_with_warning"
-                    result["warning"] = "Face-based falló; se usó level-based fallback. Error original: {}".format(
-                        result.get("original_error", "?"))
-            else:
-                # Level-based: Z RELATIVO al nivel (altura_local_mm)
-                result = _place_level_based(doc, d, sym, x_mm, y_mm, alt_mm, level_id, alt_mm, rot)
+            # NOTA (2026-11-18): Face-based (muro/techo) CRASHEA Revit 2026.
+            # get_Geometry() / Face.Project() matan el proceso host; try/catch no
+            # captura un crash del proceso. Usamos level-based para TODO: funciona
+            # y evita crashes. Las familias de muro/techo se colocan sin host real;
+            # es aceptable para validacion de interferencias (modelo 3D interno).
+            result = _place_level_based(doc, d, sym, x_mm, y_mm, alt_mm, level_id, alt_mm, rot)
 
             r = dict(d)
             r.update(result)
