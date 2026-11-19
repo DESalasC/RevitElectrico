@@ -1,0 +1,883 @@
+{
+  "version": "1.0",
+  "dxf_file": "STM-T5-P5_bloques_electricos.dxf",
+  "panels": {},
+  "walls": [],
+  "wall_layers": [
+    "L-SITE-WALL",
+    "A-WALL",
+    "A-WALL-PATT",
+    "ELEC-POWER-PANEL",
+    "ELEC-BALA LED 13 W",
+    "ELEC-APPL-TOMAS",
+    "ELEC-APPL-ILUM",
+    "ELEC-CONTROL ILUM",
+    "ELEC-APPL-NETWORD",
+    "ELEC-Data-Service",
+    "ELEC-POWER- PIPE",
+    "ELEC-LIGHT-PIPE",
+    "Elec-Lite-Wire",
+    "ELEC-Powr-Pipe-Idem Piso",
+    "Elec-Power-Iden",
+    "ELEC-Powr-Appl",
+    "Elec-Power-Iden Aire",
+    "Elec-Powr-Pnls"
+  ],
+  "devices_all": [
+    {
+      "handle": "3911",
+      "name": "FJR_A_PuertaVentana_4hojas - FJR_4_30 x 2_20m-4139151-Piso 5",
+      "layer": "A-DOOR",
+      "x": -64874.01574554938,
+      "y": 11098.35554760869,
+      "rotation": 269.9999999999984
+    },
+    {
+      "handle": "3962",
+      "name": "FJR_A_PuertaVentana_4hojas - FJR_4_30 x 2_20m-V8-Piso 5",
+      "layer": "A-DOOR",
+      "x": -64874.01574554952,
+      "y": 6498.355547608681,
+      "rotation": 269.9999999999984
+    },
+    {
+      "handle": "3995",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-3658646-Piso 5",
+      "layer": "A-DOOR",
+      "x": -66141.44285598538,
+      "y": 1752.241218740832,
+      "rotation": 269.9999999999983
+    },
+    {
+      "handle": "3A9B",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_1_00x1_30 m-4142880-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -55833.1641555288,
+      "y": 11202.78380506822,
+      "rotation": 269.9999999999984
+    },
+    {
+      "handle": "3A9C",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_1_00x1_30 m-4142880-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -55833.12315000218,
+      "y": 6483.468043972767,
+      "rotation": 269.9999999999984
+    },
+    {
+      "handle": "3AB4",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3679029-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -55833.12315000221,
+      "y": 5021.410984608402,
+      "rotation": 89.9999999999984
+    },
+    {
+      "handle": "3AB5",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3679029-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -55833.16415552875,
+      "y": 12664.7786742147,
+      "rotation": 89.9999999999984
+    },
+    {
+      "handle": "3AD9",
+      "name": "FJR_A_Ventana_Batiente_2hojas - FJR_0_60x1_30 m-4136361-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -61843.25830861967,
+      "y": 70.83538482080601,
+      "rotation": 0
+    },
+    {
+      "handle": "3B1C",
+      "name": "FJR_A_Ventana_Corrediza_2hojas - FJR_ 1_50 x 1_25m-3716608-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -58674.56115744906,
+      "y": 70.68625060519844,
+      "rotation": 0
+    },
+    {
+      "handle": "3B1D",
+      "name": "FJR_A_Ventana_Corrediza_2hojas - FJR_ 1_50 x 1_25m-3716608-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -55788.02389004912,
+      "y": 70.68625060512025,
+      "rotation": 0
+    },
+    {
+      "handle": "3B1E",
+      "name": "FJR_A_Ventana_Corrediza_2hojas - FJR_ 1_50 x 1_25m-3716608-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -58649.56115744852,
+      "y": 17614.89746860824,
+      "rotation": 180.0
+    },
+    {
+      "handle": "3B1F",
+      "name": "FJR_A_Ventana_Corrediza_2hojas - FJR_ 1_50 x 1_25m-3716608-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -55788.14524620177,
+      "y": 17614.89746860817,
+      "rotation": 180.0
+    },
+    {
+      "handle": "4716",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_76 x 2_20m-5174870-Piso 5",
+      "layer": "A-DOOR",
+      "x": -52067.78387430825,
+      "y": 16085.14154352725,
+      "rotation": 0
+    },
+    {
+      "handle": "4749",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_76 x 2_20m-5174983-Piso 5",
+      "layer": "A-DOOR",
+      "x": -52072.84543075958,
+      "y": 1604.845165728001,
+      "rotation": 0
+    },
+    {
+      "handle": "479B",
+      "name": "FJR_A_PuertaVentana_4hojas - FJR_4_13 x 2_20m-320264-Piso 5",
+      "layer": "A-DOOR",
+      "x": -45422.86701248927,
+      "y": 16087.50906161235,
+      "rotation": 0
+    },
+    {
+      "handle": "47B3",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3669043-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -51262.07194852804,
+      "y": 10750.88674361234,
+      "rotation": 269.9999999999998
+    },
+    {
+      "handle": "47CB",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-5314045-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -50074.11721603658,
+      "y": 11100.88674361235,
+      "rotation": 180.0
+    },
+    {
+      "handle": "4806",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_70x1_30 m-5352586-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -47607.83245316106,
+      "y": 10675.93373011167,
+      "rotation": 270.0
+    },
+    {
+      "handle": "4849",
+      "name": "FJR_A_Ventana_Corrediza_2hojas - FJR_ 1_06 x 1_40m-307457-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -48404.69194419982,
+      "y": 11250.93373011166,
+      "rotation": 180.0
+    },
+    {
+      "handle": "488C",
+      "name": "FJR_A_Ventana_Corrediza_2hojas - FJR_ 1_50 x 1_25m-3694193-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -49185.14336506189,
+      "y": 17614.73723279953,
+      "rotation": 0
+    },
+    {
+      "handle": "557A",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_66 x 2_20m-4699430-Piso 5",
+      "layer": "A-DOOR",
+      "x": -1002.608226765964,
+      "y": 16680.56336125281,
+      "rotation": 180.0
+    },
+    {
+      "handle": "55AD",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_66 x 2_20m-4758055-Piso 5",
+      "layer": "A-DOOR",
+      "x": 1809.532667467388,
+      "y": 16680.5633612528,
+      "rotation": 0
+    },
+    {
+      "handle": "55E0",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_78 x 2_20m-4749052-Piso 5",
+      "layer": "A-DOOR",
+      "x": -4150.153755225802,
+      "y": 15326.57234046629,
+      "rotation": 0
+    },
+    {
+      "handle": "5613",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_49 x 2_20m-4759349-Piso 5",
+      "layer": "A-DOOR",
+      "x": 4824.382667467347,
+      "y": 15326.57234046625,
+      "rotation": 180.0
+    },
+    {
+      "handle": "5646",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-V24-Piso 5",
+      "layer": "A-DOOR",
+      "x": 8328.484296232718,
+      "y": 16090.13284540331,
+      "rotation": 180.0
+    },
+    {
+      "handle": "5679",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-3662878-Piso 5",
+      "layer": "A-DOOR",
+      "x": 12063.06467756687,
+      "y": 16090.1328454033,
+      "rotation": 0
+    },
+    {
+      "handle": "56CB",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3761352-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -887.6805574306883,
+      "y": 11200.1154944182,
+      "rotation": 180.0
+    },
+    {
+      "handle": "56CC",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3761352-Piso 5",
+      "layer": "A-GLAZ",
+      "x": 1697.772638896636,
+      "y": 11200.1154944182,
+      "rotation": 180.0
+    },
+    {
+      "handle": "5707",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_87x1_30 m-4698566-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -1377.208710331393,
+      "y": 10679.60815076276,
+      "rotation": 89.99999999999969
+    },
+    {
+      "handle": "5708",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_87x1_30 m-4698566-Piso 5",
+      "layer": "A-GLAZ",
+      "x": 2186.292587795684,
+      "y": 10679.60815076274,
+      "rotation": 269.9999999999997
+    },
+    {
+      "handle": "6134",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_66 x 2_20m-4699430-Piso 5",
+      "layer": "A-DOOR",
+      "x": -24900.63123070326,
+      "y": 16694.11707075019,
+      "rotation": 180.0
+    },
+    {
+      "handle": "6135",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_87x1_30 m-4698566-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -25272.58791338349,
+      "y": 10712.80894102726,
+      "rotation": 89.99999999999984
+    },
+    {
+      "handle": "6136",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3761352-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -24784.38079386652,
+      "y": 11231.11711361339,
+      "rotation": 180.0
+    },
+    {
+      "handle": "6599",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_60 x 2_20m-3759807-Piso 5",
+      "layer": "A-DOOR",
+      "x": -30733.31828070235,
+      "y": 15349.61978283448,
+      "rotation": 0
+    },
+    {
+      "handle": "65CC",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_60 x 2_20m-V35-Piso 5",
+      "layer": "A-DOOR",
+      "x": -27958.70573030299,
+      "y": 15349.61978283447,
+      "rotation": 0
+    },
+    {
+      "handle": "6686",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-3662878-Piso 5",
+      "layer": "A-DOOR",
+      "x": -13846.13102276507,
+      "y": 16090.11168290194,
+      "rotation": 0
+    },
+    {
+      "handle": "68E2",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-V24-Piso 5",
+      "layer": "A-DOOR",
+      "x": -17580.71140409938,
+      "y": 16090.11168290195,
+      "rotation": 180.0
+    },
+    {
+      "handle": "6D30",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-3662878-Piso 5",
+      "layer": "A-DOOR",
+      "x": -21625.24104003611,
+      "y": 16090.11168290193,
+      "rotation": 0
+    },
+    {
+      "handle": "7083",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_69 x 2_20m-3740748-Piso 5",
+      "layer": "A-DOOR",
+      "x": -38680.02777564834,
+      "y": 16584.58523537041,
+      "rotation": 180.0
+    },
+    {
+      "handle": "70B6",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_83 x 2_20m-3741032-Piso 5",
+      "layer": "A-DOOR",
+      "x": -41561.33498740643,
+      "y": 15381.77092342158,
+      "rotation": 0
+    },
+    {
+      "handle": "70F1",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_90x1_30 m-3742299-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -39055.82717264532,
+      "y": 10713.03686126474,
+      "rotation": 89.99999999999935
+    },
+    {
+      "handle": "7109",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3965622-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -38552.63017381185,
+      "y": 11238.03686126473,
+      "rotation": 0
+    },
+    {
+      "handle": "79F3",
+      "name": "FJR_A_Ventana_Batiente_2hojas - FJR_0_60x1_30 m-4136361-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -61843.25830861967,
+      "y": 17614.89746860843,
+      "rotation": 180.0
+    },
+    {
+      "handle": "7F53",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3679029-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -51262.07194852806,
+      "y": 6968.686250608307,
+      "rotation": 89.99999999999982
+    },
+    {
+      "handle": "7F6B",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-5173812-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -50074.1172160366,
+      "y": 6576.176073905876,
+      "rotation": 180.0
+    },
+    {
+      "handle": "7FA6",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_70x1_30 m-5352804-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -47607.83245316106,
+      "y": 7001.176073905877,
+      "rotation": 89.99999999999945
+    },
+    {
+      "handle": "7FE9",
+      "name": "FJR_A_Ventana_Corrediza_2hojas - FJR_ 1_06 x 1_40m-5173975-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -48404.69194419983,
+      "y": 6561.176073905873,
+      "rotation": 180.0
+    },
+    {
+      "handle": "7FEA",
+      "name": "FJR_A_Ventana_Corrediza_2hojas - FJR_ 1_50 x 1_25m-3716608-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -49185.14336506191,
+      "y": 70.80792659776306,
+      "rotation": 0
+    },
+    {
+      "handle": "8249",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_69 x 2_20m-3748421-Piso 5",
+      "layer": "A-DOOR",
+      "x": -38680.02777564838,
+      "y": 1100.497495700103,
+      "rotation": 180.0
+    },
+    {
+      "handle": "827C",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_83 x 2_20m-3748422-Piso 5",
+      "layer": "A-DOOR",
+      "x": -41586.11129018263,
+      "y": 2312.523042372932,
+      "rotation": 0
+    },
+    {
+      "handle": "82B7",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_90x1_30 m-3748424-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -39055.82717264532,
+      "y": 6972.04586980598,
+      "rotation": 270.0000000000003
+    },
+    {
+      "handle": "82B8",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3761352-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -38552.63017381187,
+      "y": 6447.045869805991,
+      "rotation": 0
+    },
+    {
+      "handle": "8775",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_69 x 2_20m-3748421-Piso 5",
+      "layer": "A-DOOR",
+      "x": -24913.70573030433,
+      "y": 990.965660322605,
+      "rotation": 180.0
+    },
+    {
+      "handle": "87B0",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_90x1_30 m-3965659-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -25287.5879133835,
+      "y": 6953.965619391077,
+      "rotation": 269.9999999999998
+    },
+    {
+      "handle": "87B1",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3965622-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -24784.38079386654,
+      "y": 6447.792867189011,
+      "rotation": 180.0
+    },
+    {
+      "handle": "8A83",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_60 x 2_20m-3965684-Piso 5",
+      "layer": "A-DOOR",
+      "x": -30733.31686344596,
+      "y": 2297.808337400018,
+      "rotation": 0
+    },
+    {
+      "handle": "8AB6",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_60 x 2_20m-V103-Piso 5",
+      "layer": "A-DOOR",
+      "x": -27958.76724559069,
+      "y": 2297.80833740001,
+      "rotation": 0
+    },
+    {
+      "handle": "8B82",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-V24-Piso 5",
+      "layer": "A-DOOR",
+      "x": -13846.13102276512,
+      "y": 1594.971048170783,
+      "rotation": 0
+    },
+    {
+      "handle": "8D29",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-3662878-Piso 5",
+      "layer": "A-DOOR",
+      "x": -17580.71140409943,
+      "y": 1594.971048170794,
+      "rotation": 180.0
+    },
+    {
+      "handle": "900F",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-V24-Piso 5",
+      "layer": "A-DOOR",
+      "x": -21625.24104003615,
+      "y": 1594.971048170816,
+      "rotation": 0
+    },
+    {
+      "handle": "94B0",
+      "name": "FJR_A_PuertaVentana_4hojas - FJR_4_13 x 2_20m-4594745-Piso 5",
+      "layer": "A-DOOR",
+      "x": -45422.90858018998,
+      "y": 1575.499007033664,
+      "rotation": 0
+    },
+    {
+      "handle": "9531",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_83 x 2_20m-V112-Piso 5",
+      "layer": "A-DOOR",
+      "x": -41571.72777564857,
+      "y": 2312.523042372932,
+      "rotation": 0
+    },
+    {
+      "handle": "9ACF",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_66 x 2_20m-4758055-Piso 5",
+      "layer": "A-DOOR",
+      "x": -1002.608226766041,
+      "y": 969.2972428232652,
+      "rotation": 180.0
+    },
+    {
+      "handle": "9AD0",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_66 x 2_20m-4699430-Piso 5",
+      "layer": "A-DOOR",
+      "x": 1809.532667467311,
+      "y": 969.2972428232474,
+      "rotation": 0
+    },
+    {
+      "handle": "9B03",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_78 x 2_20m-4765503-Piso 5",
+      "layer": "A-DOOR",
+      "x": -4150.153755225866,
+      "y": 2323.289248541393,
+      "rotation": 0
+    },
+    {
+      "handle": "9B36",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_49 x 2_20m-4765504-Piso 5",
+      "layer": "A-DOOR",
+      "x": 4824.382667467281,
+      "y": 2323.289248541339,
+      "rotation": 180.0
+    },
+    {
+      "handle": "9B37",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-3662878-Piso 5",
+      "layer": "A-DOOR",
+      "x": 8328.484296232647,
+      "y": 1576.657815697044,
+      "rotation": 180.0
+    },
+    {
+      "handle": "9B38",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-V24-Piso 5",
+      "layer": "A-DOOR",
+      "x": 12063.0646775668,
+      "y": 1576.65781569702,
+      "rotation": 0
+    },
+    {
+      "handle": "9B45",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3965622-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -887.6805574307112,
+      "y": 6466.682510337652,
+      "rotation": 180.0
+    },
+    {
+      "handle": "9B46",
+      "name": "FJR_A_Ventana_Rejilla - FJR_0_60x0_80 m-3965622-Piso 5",
+      "layer": "A-GLAZ",
+      "x": 1697.772638896614,
+      "y": 6466.682510337635,
+      "rotation": 180.0
+    },
+    {
+      "handle": "9B81",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_87x1_30 m-4765505-Piso 5",
+      "layer": "A-GLAZ",
+      "x": -1377.208710331411,
+      "y": 7005.47458030769,
+      "rotation": 269.9999999999998
+    },
+    {
+      "handle": "9B82",
+      "name": "FJR_A_Ventana_Corrediza_2hojas_Rejilla_2hojas - FJR_0_87x1_30 m-4765505-Piso 5",
+      "layer": "A-GLAZ",
+      "x": 2186.292587795666,
+      "y": 7005.474580307669,
+      "rotation": 89.99999999999976
+    },
+    {
+      "handle": "A2F8",
+      "name": "FJR_A_PuertaVentana_2hojas - FJR_2_47 x 2_20m-V124-Piso 5",
+      "layer": "A-DOOR",
+      "x": -66141.41983499954,
+      "y": 15929.64049005159,
+      "rotation": 269.999999999998
+    },
+    {
+      "handle": "B84E",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 14009.93245279869,
+      "y": 21180.79369065145,
+      "rotation": 0
+    },
+    {
+      "handle": "B852",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 6285.08887971158,
+      "y": 21180.79369065145,
+      "rotation": 0
+    },
+    {
+      "handle": "B855",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 3367.763965688498,
+      "y": 21180.79369065145,
+      "rotation": 0
+    },
+    {
+      "handle": "B858",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -2556.735751235907,
+      "y": 21180.79369065145,
+      "rotation": 0
+    },
+    {
+      "handle": "B85B",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -5529.719558457591,
+      "y": 21180.79369065145,
+      "rotation": 0
+    },
+    {
+      "handle": "B85E",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -11898.32098306443,
+      "y": 20564.62001770831,
+      "rotation": 0
+    },
+    {
+      "handle": "B861",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -19601.97281380579,
+      "y": 20564.62001770831,
+      "rotation": 0
+    },
+    {
+      "handle": "B864",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -26457.67532039327,
+      "y": 20564.62001770831,
+      "rotation": 0
+    },
+    {
+      "handle": "B867",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -32232.28645354128,
+      "y": 20564.62001770831,
+      "rotation": 0
+    },
+    {
+      "handle": "B86A",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -37180.17053179709,
+      "y": 20564.62001770832,
+      "rotation": 0
+    },
+    {
+      "handle": "B86D",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -43177.15985359017,
+      "y": 20564.62001770831,
+      "rotation": 0
+    },
+    {
+      "handle": "B870",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -47656.31961114512,
+      "y": 20564.62001770831,
+      "rotation": 0
+    },
+    {
+      "handle": "B873",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -53603.401576433,
+      "y": 20564.62001770831,
+      "rotation": 0
+    },
+    {
+      "handle": "B876",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -60683.96170157254,
+      "y": 20564.62001770831,
+      "rotation": 0
+    },
+    {
+      "handle": "B879",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": -65978.90571816285,
+      "y": 20564.62001770831,
+      "rotation": 0
+    },
+    {
+      "handle": "B87C",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 15539.53541810767,
+      "y": 15841.62526109338,
+      "rotation": 269.9999999999997
+    },
+    {
+      "handle": "B87F",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 15539.53541810767,
+      "y": 13535.94119446729,
+      "rotation": 269.9999999999997
+    },
+    {
+      "handle": "B882",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 15539.53541810768,
+      "y": 11381.51285789843,
+      "rotation": 269.9999999999997
+    },
+    {
+      "handle": "B885",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 15539.53541810768,
+      "y": 8812.551267494147,
+      "rotation": 269.9999999999997
+    },
+    {
+      "handle": "B888",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 15539.53541810766,
+      "y": 6304.478258226831,
+      "rotation": 269.9999999999997
+    },
+    {
+      "handle": "B88B",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 15539.53541810768,
+      "y": 4150.552101180106,
+      "rotation": 269.9999999999997
+    },
+    {
+      "handle": "B88E",
+      "name": "Grid - Extremo de rejilla-3554-Piso 5",
+      "layer": "S-GRID-IDEN",
+      "x": 15539.53541810768,
+      "y": 1844.868034553782,
+      "rotation": 269.9999999999997
+    },
+    {
+      "handle": "F9A0",
+      "name": "ELEC-Apartamento Tipo D 13",
+      "layer": "0",
+      "x": -32163.56804484737,
+      "y": 9673.656623970943,
+      "rotation": 0
+    },
+    {
+      "handle": "F9A1",
+      "name": "ELEC-Apartamento Tipo C 14",
+      "layer": "0",
+      "x": -29296.10134927294,
+      "y": 5706.801968789147,
+      "rotation": 0
+    }
+  ],
+  "devices_mapped": [],
+  "mapping": {
+    "ELEC-T-GFCI-t-15A": [
+      "M_Toma doble",
+      "GFCI"
+    ],
+    "ELEC-T-D-t-15A": [
+      "M_Toma doble",
+      "Normal"
+    ],
+    "ELEC-T-220": [
+      "M_Toma - 220V",
+      "220V"
+    ],
+    "ELEC-EXT": [
+      "EA",
+      "EA 1010"
+    ],
+    "ELEC-TEL": [
+      "M_Comunicaciones",
+      "Datos"
+    ],
+    "ELEC-NET-PAU": [
+      "M_Comunicaciones",
+      "Datos"
+    ],
+    "ELEC-TIMBRE": [
+      "M_Pulsador - Interruptor",
+      "Timbre"
+    ],
+    "ELEC-ZUMBADOR": [
+      "M_Timbre",
+      "Campana"
+    ],
+    "ELEC-CAMPANA": [
+      "M_Timbre",
+      "Campana"
+    ],
+    "ELEC-I-S-1-5A": [
+      "M_Interruptores",
+      "Simple"
+    ],
+    "ELEC-I-S-2-5A": [
+      "M_Interruptores",
+      "Doble"
+    ],
+    "ELEC-I-S-C1-5A": [
+      "M_Interruptores",
+      "Triple conmutable"
+    ],
+    "ELEC-F-CONTROL": [
+      "M_Interruptores",
+      "Simple conmutable"
+    ],
+    "ELEC-F-VENT": [
+      "M_ClimatizacionV",
+      "Ventilador"
+    ],
+    "Bala Stil Led 22W": [
+      "M_Iluminacion",
+      "SONO FLEX 22 trim"
+    ],
+    "Bala Stil Led 10W": [
+      "M_Iluminacion",
+      "SONO FLEX 10 trim"
+    ],
+    "Bala Stil Led 13W": [
+      "M_Iluminacion",
+      "SONO FLEX 13 trim"
+    ],
+    "EA": [
+      "EA",
+      "EA 1010"
+    ],
+    "S3": [
+      "M_Interruptores",
+      "Simple"
+    ]
+  }
+}

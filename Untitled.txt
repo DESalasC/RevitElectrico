@@ -1,0 +1,87 @@
+
+=== v15.7: Techo desde JSON (ID=2764963, Z=51.90ft) - SIN ROT +90° ===
+Offset apartamento F01: X=0.00ft, Y=11.95ft
+=== LIMPIANDO F01 EXISTENTE (solo eléctricos) ===
+Eliminados (solo eléctricos F01): 16
+Muros con Reference interior: 1073
+=== OBTENIENDO TECHO F01 DESDE JSON ===
+Techo F01: Falso techo continuo de placa de yeso laminado | ID=2764963 | Z esperado=51.90ft
+Techo F01: cara encontrada=True, Z JSON=51.90ft
+Simbolos totales: 34
+FamilyPlacementType detectados:
+  M_Interruptores: OneLevelBasedHosted
+  Consolidation_Point: WorkPlaneBased
+  M_ClimatizacionV: WorkPlaneBased
+  EA: OneLevelBasedHosted
+  M_Iluminacion: WorkPlaneBased
+  M_Toma-Rango: OneLevelBasedHosted
+  M_Toma - 220V: WorkPlaneBased
+  M_Pulsador - Interruptor: WorkPlaneBased
+  M_Ventilador: WorkPlaneBased
+  M_Timbre: WorkPlaneBased
+  M_Comunicaciones: WorkPlaneBased
+  M_Caja de conexiones hexagonal: OneLevelBased
+  M_Climatizacion: WorkPlaneBased
+  M_Toma doble: WorkPlaneBased
+  M_Timbre - Campanilla: WorkPlaneBased
+    FB-MURO: M_Toma doble @ (34.44,5.03,44.35) muro_dist=0.15ft
+    FB-MURO: M_Toma doble @ (34.37,5.41,44.35) muro_dist=0.24ft
+    FB-MURO: M_Toma doble @ (45.40,11.08,44.35) muro_dist=0.04ft
+    FB-MURO: M_Toma doble @ (45.40,16.91,44.35) muro_dist=0.04ft
+    FB-MURO: M_Toma doble @ (45.56,18.96,44.35) muro_dist=0.12ft
+    FB-MURO: M_Toma doble @ (45.56,19.39,44.35) muro_dist=0.12ft
+    FB-MURO: M_Toma doble @ (46.08,24.83,44.35) muro_dist=0.21ft
+    FB-MURO: M_Toma doble @ (33.89,18.48,44.35) muro_dist=0.28ft
+    FB-MURO: M_Pulsador - Interruptor @ (42.10,26.92,46.98) muro_dist=0.42ft
+      SPIN Z: M_Pulsador - Interruptor rot=1.571rad
+    LEVEL: M_Timbre @ (42.70,26.25,51.24)
+      SPIN Z: M_Timbre rot=1.571rad
+      HOST PARAM not writable
+    LEVEL: M_Interruptores @ (38.62,17.01,46.98)
+      SPIN Z: M_Interruptores rot=3.142rad
+      HOST PARAM not writable
+    LEVEL: M_Interruptores @ (42.13,26.05,46.98)
+      SPIN Z: M_Interruptores rot=1.571rad
+      HOST PARAM not writable
+    LEVEL: M_Interruptores @ (35.07,5.58,46.98)
+      SPIN Z: M_Interruptores rot=-1.571rad
+      HOST PARAM not writable
+    LEVEL: M_Interruptores @ (37.88,20.91,46.98)
+      SPIN Z: M_Interruptores rot=3.142rad
+      HOST PARAM not writable
+    FB-TECHO: M_ClimatizacionV @ (39.46,10.72,51.25) offset=-0.65ft
+    LEVEL: M_Interruptores @ (38.66,16.41,46.98)
+      SPIN Z: M_Interruptores rot=3.142rad
+      HOST PARAM not writable
+    FB-MURO: M_Toma doble @ (45.57,20.72,44.35) muro_dist=0.13ft
+    LEVEL: EA @ (34.01,23.41,51.24)
+      SPIN Z: EA rot=1.571rad
+      HOST PARAM not writable
+    FB-TECHO: M_Iluminacion @ (41.82,19.30,51.90) offset=0.00ft
+    FB-TECHO: M_Iluminacion @ (41.85,23.57,51.90) offset=0.00ft
+    FB-TECHO: M_Iluminacion @ (41.81,6.47,51.90) offset=0.00ft
+    FB-TECHO: M_Iluminacion @ (35.71,6.47,51.90) offset=0.00ft
+    FB-TECHO: M_Iluminacion @ (41.82,14.93,51.90) offset=0.00ft
+    FB-TECHO: M_Iluminacion @ (35.72,14.93,51.90) offset=0.00ft
+    FB-TECHO: M_Iluminacion @ (35.70,22.35,51.90) offset=0.00ft
+    FB-TECHO: M_Iluminacion @ (39.53,2.56,51.90) offset=0.00ft
+    FB-MURO: M_Comunicaciones @ (45.41,9.84,44.35) muro_dist=0.02ft
+    FB-MURO: M_Comunicaciones @ (45.41,10.33,44.35) muro_dist=0.02ft
+    FB-MURO: M_Comunicaciones @ (45.41,9.38,44.35) muro_dist=0.02ft
+    FB-MURO: M_Comunicaciones @ (38.40,16.95,44.35) muro_dist=0.18ft
+    FB-MURO: M_Comunicaciones @ (38.40,16.84,44.35) muro_dist=0.19ft
+    FB-MURO: M_Comunicaciones @ (38.40,16.34,44.35) muro_dist=0.19ft
+    FB-MURO: M_Comunicaciones @ (38.40,17.29,44.35) muro_dist=0.19ft
+    FB-MURO: M_Comunicaciones @ (38.40,17.75,44.35) muro_dist=0.19ft
+    FB-MURO: M_Toma doble @ (38.46,17.69,44.35) muro_dist=0.24ft
+    FB-MURO: M_Toma doble @ (33.70,14.95,44.35) muro_dist=0.25ft
+  CP CORREGIDO: (38.00, 16.95)
+    FB-MURO: Consolidation_Point @ (38.00,16.95,52.23) muro_dist=0.22ft
+      SPIN Z: Consolidation_Point rot=3.142rad
+=== RESUMEN v15.7 ===
+FB-Muro: 21
+FB-Techo: 9
+Level+Host: 7
+Total: 37
+Skipped: 0
+>>> 

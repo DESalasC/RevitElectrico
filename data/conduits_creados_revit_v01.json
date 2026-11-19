@@ -1,0 +1,247 @@
+{
+  "errores": 40, 
+  "total": 40, 
+  "detalle": [
+    {
+      "servicio": "COMUNICACIONES", 
+      "estado": "error", 
+      "id": "RT-0001", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "COMUNICACIONES", 
+      "estado": "error", 
+      "id": "RT-0002", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "COMUNICACIONES", 
+      "estado": "error", 
+      "id": "RT-0003", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "COMUNICACIONES", 
+      "estado": "error", 
+      "id": "RT-0004", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0005", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0006", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0007", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0008", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0009", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0010", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0011", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0012", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0013", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0014", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0015", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0016", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0017", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0018", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0019", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0020", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0021", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0022", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0023", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0024", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0025", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0026", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0027", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "ILUMINACION", 
+      "estado": "error", 
+      "id": "RT-0028", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0029", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0030", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0031", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0032", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0033", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0034", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0035", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0036", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0037", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0038", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0039", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }, 
+    {
+      "servicio": "TOMAS", 
+      "estado": "error", 
+      "id": "RT-0040", 
+      "motivo": "Modifying  is forbidden because the document has no open transaction."
+    }
+  ], 
+  "creados": 0
+}

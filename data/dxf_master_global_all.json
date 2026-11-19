@@ -507,12 +507,18 @@
           "mark": "F18|TF 18"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": -56.49383272053134,
+          "y": 41.04830176107579,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": 6491.43,
-          "y": 9675.49,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "F18",
+          "apto_type": "F",
+          "apto_num": "18",
+          "panel_name": "TF 18",
+          "mark": "F18|TF 18|CP_01"
         }
       ],
       "walls": [],
@@ -1030,12 +1036,18 @@
           "mark": "F17|TF 17"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": -56.507287445672716,
+          "y": 17.296149474028482,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": 6521.781670260362,
-          "y": 8007.533488492753,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "F17",
+          "apto_type": "F",
+          "apto_num": "17",
+          "panel_name": "TF 17",
+          "mark": "F17|TF 17|CP_01"
         }
       ],
       "walls": [],
@@ -1665,12 +1677,18 @@
           "mark": "E06|TE 06"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": 16.65054323933622,
+          "y": 38.34834760313935,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": 2254.1125877956783,
-          "y": 9674.676623969726,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "E06",
+          "apto_type": "E",
+          "apto_num": "06",
+          "panel_name": "TE 06",
+          "mark": "E06|TE 06|CP_01"
         }
       ],
       "walls": [],
@@ -2300,12 +2318,18 @@
           "mark": "E07|TE 07"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": -137.80783099618372,
+          "y": 19.578666899269074,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": -2318.8542639672078,
-          "y": 7999.235949880571,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "E07",
+          "apto_type": "E",
+          "apto_num": "07",
+          "panel_name": "TE 07",
+          "mark": "E07|TE 07|CP_01"
         }
       ],
       "walls": [],
@@ -2935,12 +2959,18 @@
           "mark": "E08|TE 08"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": -137.76134813951467,
+          "y": 38.00153991393574,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": -1479.224230533393,
-          "y": 9669.818350801623,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "E08",
+          "apto_type": "E",
+          "apto_num": "08",
+          "panel_name": "TE 08",
+          "mark": "E08|TE 08|CP_01"
         }
       ],
       "walls": [],
@@ -3458,12 +3488,18 @@
           "mark": "F01|TF 01"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": 38.39667818967695,
+          "y": 16.948454908028133,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": 38.0,
-          "y": 5.0,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "F01",
+          "apto_type": "F",
+          "apto_num": "01",
+          "panel_name": "TF 01",
+          "mark": "F01|TF 01|CP_01"
         }
       ],
       "walls": [],
@@ -3981,12 +4017,18 @@
           "mark": "F02|TF 02"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": 38.39542645457177,
+          "y": 40.97405080689354,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": -19648.57389807407,
-          "y": 9676.780443803545,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "F02",
+          "apto_type": "F",
+          "apto_num": "02",
+          "panel_name": "TF 02",
+          "mark": "F02|TF 02|CP_01"
         }
       ],
       "walls": [],
@@ -4784,12 +4826,18 @@
           "mark": "D13|TD 13"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": -92.92705816651936,
+          "y": 38.35282891355937,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": -32159.72804484737,
-          "y": 9675.676623970943,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "D13",
+          "apto_type": "D",
+          "apto_num": "13",
+          "panel_name": "TD 13",
+          "mark": "D13|TD 13|CP_01"
         }
       ],
       "walls": [],
@@ -5601,12 +5649,18 @@
           "mark": "C14|TC 14"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": -93.36789238830956,
+          "y": 19.566881889288233,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": -29295.26134927294,
-          "y": 5707.061968789148,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "C14",
+          "apto_type": "C",
+          "apto_num": "14",
+          "panel_name": "TC 14",
+          "mark": "C14|TC 14|CP_01"
         }
       ],
       "walls": [],
@@ -6586,12 +6640,18 @@
           "mark": "B16|TB 16"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": -153.93739663615585,
+          "y": 38.28621951096011,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": -44868.8380112699,
-          "y": 9676.035936119508,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "B16",
+          "apto_type": "B",
+          "apto_num": "16",
+          "panel_name": "TB 16",
+          "mark": "B16|TB 16|CP_01"
         }
       ],
       "walls": [],
@@ -7543,12 +7603,18 @@
           "mark": "B15|TB 15"
         },
         {
+          "handle": "",
+          "name": "ELEC-CONSOLIDATION",
+          "x": -153.97405654956552,
+          "y": 19.779302971422567,
+          "rotation": 0,
           "familia_revit": "Consolidation_Point",
           "tipo_revit": "CPB12BL",
-          "x": -44808.216850904995,
-          "y": 8022.33531665671,
-          "rotation": 0,
-          "id_bloque": "CP_01"
+          "apto_key": "B15",
+          "apto_type": "B",
+          "apto_num": "15",
+          "panel_name": "TB 15",
+          "mark": "B15|TB 15|CP_01"
         }
       ],
       "walls": [],

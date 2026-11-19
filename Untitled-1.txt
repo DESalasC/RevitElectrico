@@ -1,0 +1,111 @@
+
+[OK] STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01
+======================================================================
+VALIDACIÓN CONTRA JSON MAESTRO GLOBAL + V02-f
+Ejecutado: 2026-11-19 12:11:31
+======================================================================
+
+[JSON MAESTRO] F01: 37 dispositivos, F02: 37 dispositivos
+Total esperados (con familia): 74
+[V02-f] 84 dispositivos de referencia
+  F01: 42 | F02: 42
+
+Dispositivos totales en modelo: 247
+Dispositivos F01 en área (X[25,55] Y[-5,40]): 29
+Dispositivos F02 en área (X[25,55] Y[25,65]): 1
+Total dispositivos de esta sesión: 30
+
+=== MATCHING ESPERADO vs COLOCADO ===
+F01 emparejados: 29/37
+F02 emparejados: 1/37
+
+=== VALIDACIÓN POR INSTANCIA ===
+  [F01 ELEC-T-GFCI-t-15A] M_Toma doble | dXY=0.000m OK | dZ=0.000m OK | rot:exp=180.0° pl=0° FAIL
+  [F01 ELEC-T-D-t-15A] M_Toma doble | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 ELEC-T-GFCI-t-15A] M_Toma doble | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 ELEC-T-D-t-15A] M_Toma doble | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 ELEC-T-D-t-15A] M_Toma doble | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 ELEC-T-D-t-15A] M_Toma doble | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 ELEC-CAMPANA] M_Timbre | dXY=0.000m OK | dZ=15.587m FAIL | rot:exp=0° pl=0° OK
+  [F01 ELEC-F-VENT] M_ClimatizacionV | dXY=0.000m OK | dZ=0.201m FAIL | rot:exp=120.0° pl=0° FAIL
+  [F01 ELEC-T-GFCI-t-15A] M_Toma doble | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 Bala Stil Led 22W] M_Iluminacion | dXY=0.000m OK | dZ=0.001m OK | rot:exp=180.0° pl=0° FAIL
+  [F01 Bala Stil Led 22W] M_Iluminacion | dXY=0.000m OK | dZ=0.001m OK | rot:exp=180.0° pl=0° FAIL
+  [F01 Bala Stil Led 10W] M_Iluminacion | dXY=0.000m OK | dZ=0.001m OK | rot:exp=180.0° pl=0° FAIL
+  [F01 Bala Stil Led 10W] M_Iluminacion | dXY=0.000m OK | dZ=0.001m OK | rot:exp=180.0° pl=0° FAIL
+  [F01 Bala Stil Led 10W] M_Iluminacion | dXY=0.000m OK | dZ=0.001m OK | rot:exp=180.0° pl=0° FAIL
+  [F01 Bala Stil Led 10W] M_Iluminacion | dXY=0.000m OK | dZ=0.001m OK | rot:exp=180.0° pl=0° FAIL
+  [F01 ELEC-TEL] M_Comunicaciones | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 ELEC-TEL] M_Comunicaciones | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 ELEC-TEL] M_Comunicaciones | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 ELEC-NET-PAU] M_Comunicaciones | dXY=0.000m OK | dZ=0.000m OK | rot:exp=90.0° pl=0° FAIL
+  [F01 ELEC-TEL] M_Comunicaciones | dXY=0.000m OK | dZ=0.000m OK | rot:exp=270.0° pl=0° FAIL
+  [F01 ELEC-TEL] M_Comunicaciones | dXY=0.000m OK | dZ=0.000m OK | rot:exp=270.0° pl=0° FAIL
+  [F01 ELEC-TEL] M_Comunicaciones | dXY=0.000m OK | dZ=0.000m OK | rot:exp=270.0° pl=0° FAIL
+  [F01 ELEC-TEL] M_Comunicaciones | dXY=0.000m OK | dZ=0.000m OK | rot:exp=270.0° pl=0° FAIL
+  [F01 ELEC-T-D-t-15A] M_Toma doble | dXY=0.000m OK | dZ=0.000m OK | rot:exp=270.0° pl=0° FAIL
+  [F01 ELEC-T-D-t-15A] M_Toma doble | dXY=0.000m OK | dZ=0.000m OK | rot:exp=270.0° pl=0° FAIL
+  [F02 ELEC-CAMPANA] M_Timbre | dXY=1.679m FAIL | dZ=15.587m FAIL | rot:exp=180.0° pl=0° FAIL
+
+Resumen dXY: OK=29 WARN=0 FAIL=1
+Resumen dZ:  OK=27 WARN=0 FAIL=3
+Resumen rot: OK=5 FAIL=25
+
+=== VALIDACIÓN CONTRA V02-f (REFERENCIA) ===
+Emparejados con V02-f: F01=17 F02=0 Total=17
+dXY vs V02-f: OK=2 WARN=4 FAIL=11
+  [DXY>0.05m] M_Toma doble GFCI @ (34.4,5.0) vs V02-f (34.6,18.5) d=4.093m
+  [DXY>0.05m] M_Toma doble Normal @ (45.6,19.0) vs V02-f (45.4,19.1) d=0.069m
+  [DXY>0.05m] M_Toma doble Normal @ (45.6,19.4) vs V02-f (45.4,19.5) d=0.069m
+  [DXY>0.05m] M_ClimatizacionV Ventilador @ (39.5,10.7) vs V02-f (39.9,11.0) d=0.149m
+  [DXY>0.05m] M_Toma doble Normal @ (38.5,17.7) vs V02-f (38.4,17.4) d=0.086m
+  [DXY>0.05m] M_Iluminacion SONO FLEX 10 trim @ (41.8,6.5) vs V02-f (42.2,6.5) d=0.125m
+  [DXY>0.05m] M_Iluminacion SONO FLEX 10 trim @ (35.7,6.5) vs V02-f (36.1,6.5) d=0.125m
+  [DXY>0.05m] M_Iluminacion SONO FLEX 10 trim @ (41.8,14.9) vs V02-f (42.2,15.0) d=0.125m
+  [DXY>0.05m] M_Iluminacion SONO FLEX 10 trim @ (35.7,14.9) vs V02-f (36.1,15.0) d=0.125m
+  [DXY>0.05m] M_Comunicaciones Datos @ (45.4,10.3) vs V02-f (45.4,10.0) d=0.094m
+  [DXY>0.05m] M_Comunicaciones Datos @ (38.4,16.9) vs V02-f (45.4,10.0) d=3.009m
+
+=== CONTEOS POR FAMILIA/TIPO ===
+                                 |                      | Exp=0 Pl=0 V02f=84 [OK]
+  Consolidation_Point            | CPB12BL              | Exp=2 Pl=0 V02f=0 [DISCREPANCIA]
+  EA                             | Extintor             | Exp=2 Pl=0 V02f=0 [DISCREPANCIA]
+  M_ClimatizacionV               | Ventilador           | Exp=2 Pl=1 V02f=0 [DISCREPANCIA]
+  M_Comunicaciones               | Datos                | Exp=16 Pl=8 V02f=0 [DISCREPANCIA]
+  M_Iluminacion                  | SONO FLEX 10 trim    | Exp=8 Pl=4 V02f=0 [DISCREPANCIA]
+  M_Iluminacion                  | SONO FLEX 13 trim    | Exp=4 Pl=0 V02f=0 [DISCREPANCIA]
+  M_Iluminacion                  | SONO FLEX 22 trim    | Exp=4 Pl=0 V02f=0 [DISCREPANCIA]
+  M_Iluminacion                  | ﻿SONO FLEX 13 trim   | Exp=0 Pl=2 V02f=0 [DISCREPANCIA]
+  M_Iluminacion                  | ﻿SONO FLEX 22 trim   | Exp=0 Pl=2 V02f=0 [DISCREPANCIA]
+  M_Interruptores                | Control              | Exp=2 Pl=0 V02f=0 [DISCREPANCIA]
+  M_Interruptores                | Doble                | Exp=2 Pl=0 V02f=0 [DISCREPANCIA]
+  M_Interruptores                | Simple               | Exp=6 Pl=0 V02f=0 [DISCREPANCIA]
+  M_Pulsador - Interruptor       | Timbre               | Exp=2 Pl=0 V02f=0 [DISCREPANCIA]
+  M_Timbre                       | Campana              | Exp=2 Pl=2 V02f=0 [OK]
+  M_Toma doble                   | GFCI                 | Exp=8 Pl=4 V02f=0 [DISCREPANCIA]
+  M_Toma doble                   | Normal               | Exp=14 Pl=7 V02f=0 [DISCREPANCIA]
+
+======================================================================
+RESUMEN DE VALIDACIÓN
+======================================================================
+Dispositivos en JSON maestro: 74
+Dispositivos en V02-f:        84
+Dispositivos en Revit (F01+F02): 30
+
+vs JSON maestro:
+  dXY OK (<=0.02m):     29
+  dXY WARN (0.02-0.05m): 0
+  dXY FAIL (>0.05m):     1
+  dZ OK (<=0.02m):       27
+  dZ WARN:               0
+  dZ FAIL:               3
+  Rotación OK:           5
+
+vs V02-f:
+  dXY OK:     2
+  dXY WARN:   4
+  dXY FAIL:   11
+
+>>> VALIDACIÓN CON DISCREPANCIAS - REVISAR <<<
+======================================================================
+>>> 

@@ -1,0 +1,2160 @@
+{
+  "version": "1.0",
+  "F01": {
+    "apto": "F01",
+    "panels": {
+      "TB-Panel": {
+        "x": -2.399541353110928,
+        "y": -0.5047891634665627,
+        "layer": "ELEC-POWER-PANEL"
+      }
+    },
+    "devices": [
+      {
+        "apto": "F01",
+        "handle": "63",
+        "name": "ELEC-T-GFCI-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.50379720110595,
+        "y": -6.469451046050152,
+        "rotation": 180.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "GFCI"
+      },
+      {
+        "apto": "F01",
+        "handle": "83",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.525440381135466,
+        "y": -6.352839513556546,
+        "rotation": 0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F01",
+        "handle": "8C",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.1657774643245737,
+        "y": -4.626056926067779,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F01",
+        "handle": "8D",
+        "name": "ELEC-T-GFCI-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.1641852911741122,
+        "y": -2.849016567908321,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "GFCI"
+      },
+      {
+        "apto": "F01",
+        "handle": "8E",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.115845003689488,
+        "y": -2.221458039754934,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F01",
+        "handle": "8F",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.115845003689488,
+        "y": -2.091583492453565,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F01",
+        "handle": "90",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": 0.0441549963107111,
+        "y": -0.4347876361289586,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F01",
+        "handle": "91",
+        "name": "ELEC-T-GFCI-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.673816860409259,
+        "y": -2.368181940760768,
+        "rotation": 0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "GFCI"
+      },
+      {
+        "apto": "F01",
+        "handle": "92",
+        "name": "ELEC-TIMBRE",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -1.169337252249954,
+        "y": 0.2032985910755034,
+        "rotation": 180.0,
+        "familia_revit": "M_Pulsador - Interruptor",
+        "tipo_revit": "Timbre"
+      },
+      {
+        "apto": "F01",
+        "handle": "9A",
+        "name": "ELEC-CAMPANA",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.9882241641821563,
+        "y": -0.0002585720833395,
+        "rotation": 0,
+        "familia_revit": "M_Timbre",
+        "tipo_revit": "Campana"
+      },
+      {
+        "apto": "F01",
+        "handle": "A4",
+        "name": "ELEC-I-S-2-5A",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -2.230256596197063,
+        "y": -2.817113278338123,
+        "rotation": 240.0,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Doble"
+      },
+      {
+        "apto": "F01",
+        "handle": "AF",
+        "name": "ELEC-I-S-1-5A",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.16030084140763,
+        "y": -0.0624118668108675,
+        "rotation": 90.0,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Simple"
+      },
+      {
+        "apto": "F01",
+        "handle": "B7",
+        "name": "ELEC-I-S-1-5A",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -3.313702915850171,
+        "y": -6.299834181454797,
+        "rotation": 0,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Simple"
+      },
+      {
+        "apto": "F01",
+        "handle": "BF",
+        "name": "ELEC-I-S-1-5A",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -2.454944172139556,
+        "y": -1.627326232802699,
+        "rotation": 11.81427143305155,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Simple"
+      },
+      {
+        "apto": "F01",
+        "handle": "C1",
+        "name": "ELEC-F-VENT",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.974455818249225,
+        "y": -4.734186398689415,
+        "rotation": 119.9999999999999,
+        "familia_revit": "M_ClimatizacionV",
+        "tipo_revit": "Ventilador"
+      },
+      {
+        "apto": "F01",
+        "handle": "CA",
+        "name": "ELEC-F-CONTROL",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -2.219317339574715,
+        "y": -2.999683102414276,
+        "rotation": 180.0,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Simple conmutable"
+      },
+      {
+        "apto": "F01",
+        "handle": "D5",
+        "name": "ELEC-T-GFCI-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.112639606997023,
+        "y": -1.685926469091581,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "GFCI"
+      },
+      {
+        "apto": "F01",
+        "handle": "F3",
+        "name": "ELEC-EXT",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.635044734436906,
+        "y": -0.8669556327411099,
+        "rotation": 180.0,
+        "familia_revit": "EA",
+        "tipo_revit": "EA 1010"
+      },
+      {
+        "apto": "F01",
+        "handle": "125",
+        "name": "Bala Stil Led 22W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.254865129033077,
+        "y": -2.120216921199014,
+        "rotation": 180.0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 22 trim"
+      },
+      {
+        "apto": "F01",
+        "handle": "131",
+        "name": "Bala Stil Led 22W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.246366515998488,
+        "y": -0.8190663677992231,
+        "rotation": 180.0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 22 trim"
+      },
+      {
+        "apto": "F01",
+        "handle": "132",
+        "name": "Bala Stil Led 10W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.259403150649174,
+        "y": -6.030216921198871,
+        "rotation": 180.0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 10 trim"
+      },
+      {
+        "apto": "F01",
+        "handle": "13B",
+        "name": "Bala Stil Led 10W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -3.117952954131396,
+        "y": -6.030216921198871,
+        "rotation": 180.0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 10 trim"
+      },
+      {
+        "apto": "F01",
+        "handle": "13C",
+        "name": "Bala Stil Led 10W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.254865129033077,
+        "y": -3.450216921198943,
+        "rotation": 180.0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 10 trim"
+      },
+      {
+        "apto": "F01",
+        "handle": "13D",
+        "name": "Bala Stil Led 10W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -3.113414932515297,
+        "y": -3.450216921198943,
+        "rotation": 180.0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 10 trim"
+      },
+      {
+        "apto": "F01",
+        "handle": "13E",
+        "name": "Bala Stil Led 13W",
+        "layer": "ELEC-BALA LED 13 W",
+        "x": -3.119704513729629,
+        "y": -1.190552103374102,
+        "rotation": 0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 13 trim"
+      },
+      {
+        "apto": "F01",
+        "handle": "14C",
+        "name": "Bala Stil Led 13W",
+        "layer": "ELEC-BALA LED 13 W",
+        "x": -1.954286833830791,
+        "y": -7.220672397104861,
+        "rotation": 0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 13 trim"
+      },
+      {
+        "apto": "F01",
+        "handle": "1D4",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -0.1608815015906586,
+        "y": -5.002186516325283,
+        "rotation": 90.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F01",
+        "handle": "1DD",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -0.1608815015906586,
+        "y": -4.852202905815806,
+        "rotation": 90.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F01",
+        "handle": "1DE",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -0.1608815015906586,
+        "y": -5.141595418769815,
+        "rotation": 90.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F01",
+        "handle": "1DF",
+        "name": "ELEC-NET-PAU",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.298900944604881,
+        "y": -2.835948918685913,
+        "rotation": 90.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F01",
+        "handle": "1EF",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.296433969909501,
+        "y": -2.870105611227641,
+        "rotation": 270.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F01",
+        "handle": "1F0",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.296433969909501,
+        "y": -3.020089221737118,
+        "rotation": 270.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F01",
+        "handle": "1F1",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.296433969909501,
+        "y": -2.730696708783111,
+        "rotation": 270.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F01",
+        "handle": "1F2",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.296433969909501,
+        "y": -2.593077923765515,
+        "rotation": 270.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F01",
+        "handle": "1FC",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -2.28078607056349,
+        "y": -2.608810030187116,
+        "rotation": 270.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F01",
+        "handle": "202",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.730233969909504,
+        "y": -3.443712307724531,
+        "rotation": 270.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      }
+    ],
+    "walls": [
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.0622568598137967,
+            -0.4347876361289586
+          ],
+          [
+            -2.291830985268751,
+            -0.4358853586674778
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.1661149131631152,
+            -2.142918169896146
+          ],
+          [
+            -0.1661149131631152,
+            -2.170858643624824
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.146366515998579,
+            -0.8068363941631558
+          ],
+          [
+            -0.9878624133270932,
+            -0.8068363941633832
+          ],
+          [
+            -0.9878624133270932,
+            -0.4599199179695006
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.038367260429819,
+            -0.0278363941631597
+          ],
+          [
+            -1.113815042066987,
+            -0.0384896896216613
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.160113880245686,
+            -0.0114896896216177
+          ],
+          [
+            -1.16472556624782,
+            0.1565881324590865
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.230537810457274,
+            -2.868600541960573
+          ],
+          [
+            -2.230537810457274,
+            -2.946640323621463
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.220537810457515,
+            -3.068600541960617
+          ],
+          [
+            -2.220537810457515,
+            -3.41134801005927
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.066366515998194,
+            -3.446836394163028
+          ],
+          [
+            -1.286451754854168,
+            -3.446836394163028
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.106366515998614,
+            -3.496836394163211
+          ],
+          [
+            -3.106366515998614,
+            -5.986546667255652
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.066366515998652,
+            -6.036836394163173
+          ],
+          [
+            -1.278144367704499,
+            -6.036836394163173
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.156366515998342,
+            -6.026836394163183
+          ],
+          [
+            -3.304475874342641,
+            -6.026836394163183
+          ],
+          [
+            -3.304475874342641,
+            -6.249907265112142
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.116366515998833,
+            -6.066836394163146
+          ],
+          [
+            -3.116366515998833,
+            -7.216510669902846
+          ],
+          [
+            -1.991488407349605,
+            -7.216510669902846
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.356366515998614,
+            -6.306836394163156
+          ],
+          [
+            -3.480561864196714,
+            -6.306836394163156
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.246366515998488,
+            -3.486836394163218
+          ],
+          [
+            -1.246366515998488,
+            -4.626820506482318
+          ],
+          [
+            -0.2697825195288974,
+            -4.631177315147601
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.402661516503845,
+            -0.4988958128301128
+          ],
+          [
+            -3.132456246474701,
+            -0.4917163145585289
+          ],
+          [
+            -3.132456246474701,
+            -1.115628498029307
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.066366515998194,
+            -1.186836394163037
+          ],
+          [
+            -1.897122025916814,
+            -1.186836394163037
+          ],
+          [
+            -1.897122025916814,
+            -0.7943980787235887
+          ],
+          [
+            -1.279697663920615,
+            -0.7943980787235887
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.246366515998488,
+            -2.066836394163146
+          ],
+          [
+            -1.246366515998488,
+            -0.8190663677992231
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.220537810457515,
+            -3.500894826300903
+          ],
+          [
+            -2.220537810457515,
+            -4.733196909644615
+          ],
+          [
+            -1.988001539867579,
+            -4.731432761847143
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.246366515998488,
+            -2.226836394162999
+          ],
+          [
+            -1.246366515998488,
+            -3.367350891897558
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.286366515998452,
+            -3.426836394163046
+          ],
+          [
+            -1.677290699118657,
+            -3.054306820770761
+          ],
+          [
+            -1.677290699118657,
+            -2.825112577292884
+          ],
+          [
+            -2.180359597938875,
+            -2.826876725090356
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.506366515998251,
+            -6.346836394163117
+          ],
+          [
+            -3.506366515998251,
+            -6.466403376848802
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.0191886002069861,
+            -0.4821675876012633
+          ],
+          [
+            -0.0191886002069861,
+            -2.082579249295831
+          ],
+          [
+            -0.1280441724623831,
+            -2.082579249295831
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -0.1681149131635227,
+            -2.042918169896238
+          ],
+          [
+            -0.1681149131635227,
+            -1.732952401841683
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.1181149131633408,
+            -2.102918169896184
+          ],
+          [
+            -0.0197025380587785,
+            -2.102918169896184
+          ],
+          [
+            -0.0361387622733354,
+            -2.848098494486048
+          ],
+          [
+            -0.1658743969977543,
+            -2.846655419059334
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -0.9878624133270932,
+            -0.381555794858059
+          ],
+          [
+            -0.9878624133270932,
+            -0.0596335720833849
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -0.1102959031844204,
+            -1.475130194442527
+          ],
+          [
+            -0.1116882991316981,
+            -1.469641802520327
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.224111196426106,
+            -2.628958933006229
+          ],
+          [
+            -2.224111196426106,
+            -2.692906132198625
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.224111196426106,
+            -2.766577718023823
+          ],
+          [
+            -2.224111196426106,
+            -2.832315034643156
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.224111196426106,
+            -2.905986620468351
+          ],
+          [
+            -2.224111196426106,
+            -2.982298645152636
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.310111196425876,
+            -2.585324174584624
+          ],
+          [
+            -2.310111196425876,
+            -2.517340673036355
+          ],
+          [
+            -2.212121215483238,
+            -2.517340673036355
+          ],
+          [
+            -2.212121215483238,
+            -2.549236926479065
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -0.2446724017622657,
+            -4.896027918141473
+          ],
+          [
+            -0.2446724017622657,
+            -4.959975117334101
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -0.2446724017622657,
+            -5.045842224363669
+          ],
+          [
+            -0.2446724017622657,
+            -5.099789423556305
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.344111196426018,
+            -3.085324174584624
+          ],
+          [
+            -2.344111196426018,
+            -4.853047883401409
+          ],
+          [
+            -0.2469210470894652,
+            -4.85564054426922
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.2655316405927053,
+            -2.852773082097095
+          ],
+          [
+            -1.602261914023151,
+            -2.852614846950892
+          ],
+          [
+            -1.602261914023151,
+            -2.602183485603024
+          ],
+          [
+            -2.179439721144898,
+            -2.603947633400495
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.274171294459061,
+            -2.52176414779747
+          ],
+          [
+            -2.162033828021539,
+            -2.059136075898472
+          ],
+          [
+            -1.938706727783273,
+            -2.378572310003528
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.669630366349464,
+            -3.449406091151585
+          ],
+          [
+            -3.169655042551066,
+            -3.449406091151585
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.637521566759545,
+            -0.9273975142857696
+          ],
+          [
+            -3.637521566759545,
+            -1.186952271570083
+          ],
+          [
+            -3.192570554272151,
+            -1.186952271570083
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.506345714470034,
+            -1.624281711085035
+          ],
+          [
+            -3.086366515998598,
+            -1.618265115468251
+          ],
+          [
+            -3.126366515998596,
+            -1.578265115468249
+          ],
+          [
+            -3.126366515998596,
+            -1.226836394163225
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.625937581279313,
+            -2.323035737033104
+          ],
+          [
+            -2.328042804254568,
+            -2.330215235304688
+          ],
+          [
+            -2.328042804254568,
+            -1.364500815363238
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.328042804254568,
+            -1.117144436997017
+          ],
+          [
+            -2.328042804254568,
+            -0.7144868712098376
+          ]
+        ],
+        "closed": false
+      }
+    ],
+    "wall_layers": [
+      "ELEC-POWER-PANEL",
+      "ELEC-BALA LED 13 W",
+      "ELEC-APPL-TOMAS",
+      "ELEC-APPL-ILUM",
+      "ELEC-CONTROL ILUM",
+      "ELEC-APPL-NETWORD",
+      "ELEC-Data-Service",
+      "ELEC-POWER- PIPE",
+      "ELEC-LIGHT-PIPE",
+      "ELEC-Powr-Pipe-Idem Piso",
+      "ELEC-Powr-Appl"
+    ]
+  },
+  "F02": {
+    "apto": "F02",
+    "panels": {},
+    "devices": [
+      {
+        "apto": "F02",
+        "handle": "63",
+        "name": "ELEC-T-GFCI-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.525017409412852,
+        "y": 6.511163138068839,
+        "rotation": 0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "GFCI"
+      },
+      {
+        "apto": "F02",
+        "handle": "83",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.526547264222278,
+        "y": 6.378046272742563,
+        "rotation": 180.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F02",
+        "handle": "8C",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.2073823200017788,
+        "y": 4.628117159229336,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F02",
+        "handle": "8D",
+        "name": "ELEC-T-GFCI-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.177285631495252,
+        "y": 2.854972342332754,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "GFCI"
+      },
+      {
+        "apto": "F02",
+        "handle": "8E",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.1852547721940709,
+        "y": 2.225205007234448,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F02",
+        "handle": "8F",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.1852547721940709,
+        "y": 2.095330459933078,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F02",
+        "handle": "90",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": 0.0029506244984443,
+        "y": 0.4353899296070392,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F02",
+        "handle": "91",
+        "name": "ELEC-T-GFCI-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.539843661450783,
+        "y": 2.412180866907307,
+        "rotation": 180.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "GFCI"
+      },
+      {
+        "apto": "F02",
+        "handle": "92",
+        "name": "ELEC-TIMBRE",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -1.224372623663384,
+        "y": -0.161127418346954,
+        "rotation": 0,
+        "familia_revit": "M_Pulsador - Interruptor",
+        "tipo_revit": "Timbre"
+      },
+      {
+        "apto": "F02",
+        "handle": "9A",
+        "name": "ELEC-CAMPANA",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.9896185858451644,
+        "y": 0.0313725816539741,
+        "rotation": 180.0,
+        "familia_revit": "M_Timbre",
+        "tipo_revit": "Campana"
+      },
+      {
+        "apto": "F02",
+        "handle": "A4",
+        "name": "ELEC-I-S-2-5A",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -2.271811609906421,
+        "y": 2.821463140111287,
+        "rotation": 0,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Doble"
+      },
+      {
+        "apto": "F02",
+        "handle": "AF",
+        "name": "ELEC-I-S-1-5A",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.219947898823193,
+        "y": 0.0828725809230004,
+        "rotation": 90.0,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Simple"
+      },
+      {
+        "apto": "F02",
+        "handle": "B7",
+        "name": "ELEC-I-S-1-5A",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -3.314809798936982,
+        "y": 6.325040940640818,
+        "rotation": 180.0,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Simple"
+      },
+      {
+        "apto": "F02",
+        "handle": "BF",
+        "name": "ELEC-I-S-1-5A",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -2.504516131448989,
+        "y": 1.588352980571908,
+        "rotation": 180.0,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Simple"
+      },
+      {
+        "apto": "F02",
+        "handle": "C1",
+        "name": "ELEC-F-VENT",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.975850239912233,
+        "y": 4.740300408260047,
+        "rotation": 60.0,
+        "familia_revit": "M_ClimatizacionV",
+        "tipo_revit": "Ventilador"
+      },
+      {
+        "apto": "F02",
+        "handle": "CA",
+        "name": "ELEC-F-CONTROL",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -2.260872353284071,
+        "y": 3.004032964187441,
+        "rotation": 0,
+        "familia_revit": "M_Interruptores",
+        "tipo_revit": "Simple conmutable"
+      },
+      {
+        "apto": "F02",
+        "handle": "D5",
+        "name": "ELEC-T-GFCI-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -0.1820493755016059,
+        "y": 1.689673436571096,
+        "rotation": 90.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "GFCI"
+      },
+      {
+        "apto": "F02",
+        "handle": "F3",
+        "name": "ELEC-EXT",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.683118673688673,
+        "y": 0.8767766436823514,
+        "rotation": 0,
+        "familia_revit": "EA",
+        "tipo_revit": "EA 1010"
+      },
+      {
+        "apto": "F02",
+        "handle": "125",
+        "name": "Bala Stil Led 22W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.256259550696086,
+        "y": 2.12633093076965,
+        "rotation": 0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 22 trim"
+      },
+      {
+        "apto": "F02",
+        "handle": "131",
+        "name": "Bala Stil Led 22W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.247760937661494,
+        "y": 0.8251803773698576,
+        "rotation": 0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 22 trim"
+      },
+      {
+        "apto": "F02",
+        "handle": "132",
+        "name": "Bala Stil Led 10W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.260797572312183,
+        "y": 6.036330930769503,
+        "rotation": 0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 10 trim"
+      },
+      {
+        "apto": "F02",
+        "handle": "13B",
+        "name": "Bala Stil Led 10W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -3.119347375794403,
+        "y": 6.036330930769503,
+        "rotation": 0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 10 trim"
+      },
+      {
+        "apto": "F02",
+        "handle": "13C",
+        "name": "Bala Stil Led 10W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -1.256259550696086,
+        "y": 3.456330930769578,
+        "rotation": 0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 10 trim"
+      },
+      {
+        "apto": "F02",
+        "handle": "13D",
+        "name": "Bala Stil Led 10W",
+        "layer": "ELEC-APPL-ILUM",
+        "x": -3.114809354178309,
+        "y": 3.456330930769578,
+        "rotation": 0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 10 trim"
+      },
+      {
+        "apto": "F02",
+        "handle": "13E",
+        "name": "Bala Stil Led 13W",
+        "layer": "ELEC-BALA LED 13 W",
+        "x": -3.121098935392636,
+        "y": 1.196666112944736,
+        "rotation": 180.0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 13 trim"
+      },
+      {
+        "apto": "F02",
+        "handle": "14C",
+        "name": "Bala Stil Led 13W",
+        "layer": "ELEC-BALA LED 13 W",
+        "x": -1.9556812554938,
+        "y": 7.226786406675495,
+        "rotation": 180.0,
+        "familia_revit": "M_Iluminacion",
+        "tipo_revit": "SONO FLEX 13 trim"
+      },
+      {
+        "apto": "F02",
+        "handle": "1D3",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -0.1853063016469605,
+        "y": 5.003943717230633,
+        "rotation": 90.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F02",
+        "handle": "1DC",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -0.1853063016469605,
+        "y": 4.853960106721157,
+        "rotation": 90.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F02",
+        "handle": "1DD",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -0.1853063016469605,
+        "y": 5.143352619675164,
+        "rotation": 90.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F02",
+        "handle": "1DE",
+        "name": "ELEC-NET-PAU",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.340455958314237,
+        "y": 2.840298780459072,
+        "rotation": 90.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F02",
+        "handle": "1EE",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.337988983618856,
+        "y": 2.874455473000802,
+        "rotation": 270.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F02",
+        "handle": "1EF",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.337988983618856,
+        "y": 3.024439083510284,
+        "rotation": 270.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F02",
+        "handle": "1F0",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.337988983618856,
+        "y": 2.735046570556274,
+        "rotation": 270.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F02",
+        "handle": "1F1",
+        "name": "ELEC-TEL",
+        "layer": "ELEC-APPL-NETWORD",
+        "x": -2.337988983618856,
+        "y": 2.59742778553868,
+        "rotation": 270.0,
+        "familia_revit": "M_Comunicaciones",
+        "tipo_revit": "Datos"
+      },
+      {
+        "apto": "F02",
+        "handle": "1FA",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -2.323487260344892,
+        "y": 2.702631559223993,
+        "rotation": 270.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      },
+      {
+        "apto": "F02",
+        "handle": "208",
+        "name": "ELEC-T-D-t-15A",
+        "layer": "ELEC-APPL-TOMAS",
+        "x": -3.772407454758639,
+        "y": 3.46274338175155,
+        "rotation": 270.0,
+        "familia_revit": "M_Toma doble",
+        "tipo_revit": "Normal"
+      }
+    ],
+    "walls": [
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.103178230612226,
+            0.4353899296070392
+          ],
+          [
+            -2.332597086916438,
+            0.4340998337569833
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.147760937661585,
+            0.8129504037337902
+          ],
+          [
+            -0.9892568349901011,
+            0.8129504037340176
+          ],
+          [
+            -0.9892568349901011,
+            0.4660339275401349
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.039761682092827,
+            0.0589504037337942
+          ],
+          [
+            -1.173462099482549,
+            0.0589504037337942
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.219760937661249,
+            0.0319504037337506
+          ],
+          [
+            -1.219760937661249,
+            -0.1144169597305371
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.440072086916684,
+            0.5123043873384036
+          ],
+          [
+            -3.106820548286895,
+            0.5130244235479485
+          ],
+          [
+            -3.106820548286895,
+            1.117558068899274
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.127760937661602,
+            1.232950403733857
+          ],
+          [
+            -3.127760937661602,
+            1.577749473407962
+          ],
+          [
+            -2.556526189053206,
+            1.576128229143945
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.272092824166634,
+            2.872950403733733
+          ],
+          [
+            -2.272092824166634,
+            2.950990185394624
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.26209282416687,
+            3.072950403733777
+          ],
+          [
+            -2.26209282416687,
+            3.415697871832431
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.067760937661203,
+            3.452950403733662
+          ],
+          [
+            -1.287846176517177,
+            3.452950403733662
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.10776093766162,
+            3.502950403733844
+          ],
+          [
+            -3.10776093766162,
+            5.992660676826286
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.067760937661663,
+            6.042950403733806
+          ],
+          [
+            -1.279538789367503,
+            6.042950403733806
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.157760937661354,
+            6.032950403733817
+          ],
+          [
+            -3.305870296005654,
+            6.032950403733817
+          ],
+          [
+            -3.305582757429457,
+            6.27511402429816
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.117760937661845,
+            6.072950403733779
+          ],
+          [
+            -3.117760937661845,
+            7.222624679473481
+          ],
+          [
+            -1.992882829012613,
+            7.222624679473481
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.357473399085426,
+            6.332043153349173
+          ],
+          [
+            -3.48166874728353,
+            6.332043153349173
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.247760937661494,
+            3.492950403733853
+          ],
+          [
+            -1.247760937661494,
+            4.632934516052948
+          ],
+          [
+            -0.3136151250274626,
+            4.633237548309153
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.067760937661203,
+            1.192950403733672
+          ],
+          [
+            -1.898516447579821,
+            1.192950403733672
+          ],
+          [
+            -1.898516447579821,
+            0.8005120882942229
+          ],
+          [
+            -1.281092085583622,
+            0.8005120882942229
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.247760937661494,
+            2.072950403733781
+          ],
+          [
+            -1.247760937661494,
+            0.8251803773698576
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.26209282416687,
+            3.505244688074068
+          ],
+          [
+            -2.26209282416687,
+            4.737546771417781
+          ],
+          [
+            -1.98939596153059,
+            4.737546771417781
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.247760937661494,
+            2.232950403733635
+          ],
+          [
+            -1.247760937661494,
+            2.817768596540123
+          ],
+          [
+            -1.247760937661494,
+            2.896356592785561
+          ],
+          [
+            -1.247760937661494,
+            3.373464901468192
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -1.287760937661458,
+            3.432950403733677
+          ],
+          [
+            -1.678685120781665,
+            3.060420830341394
+          ],
+          [
+            -1.678685120781665,
+            2.831226586863518
+          ],
+          [
+            -2.22191461164823,
+            2.831226586863518
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.527586724305148,
+            6.373548486181809
+          ],
+          [
+            -3.527586724305148,
+            6.508115468867492
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.0586217531180857,
+            0.4851566616549779
+          ],
+          [
+            -0.0586217531180857,
+            1.663181542773912
+          ],
+          [
+            -0.197453940966966,
+            1.666326216775345
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -0.2375246816681056,
+            2.04666513737575
+          ],
+          [
+            -0.2375246816681056,
+            1.736699369321199
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.1875246816679237,
+            2.106665137375696
+          ],
+          [
+            -0.0893485625570065,
+            2.102950403733752
+          ],
+          [
+            -0.0893485625570065,
+            2.862611193483768
+          ],
+          [
+            -0.1840844150662093,
+            2.862611193483768
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -0.9892568349901011,
+            0.3876698044286932
+          ],
+          [
+            -0.9892568349901011,
+            0.0907475816540195
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -0.1799419276826484,
+            1.475162428280096
+          ],
+          [
+            -0.1813343236299261,
+            1.469674036357895
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.384273814188091,
+            3.085162428279994
+          ],
+          [
+            -2.384273814188091,
+            4.857052247927084
+          ],
+          [
+            -0.2699626280123084,
+            4.857052247927084
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -0.2580000000000009,
+            5.107999999999993
+          ],
+          [
+            -0.2580000000000009,
+            5.041928111944756
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -0.2580000000000009,
+            4.967878683539213
+          ],
+          [
+            -0.2580000000000009,
+            4.891944501435276
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.252331886505412,
+            2.979680967462574
+          ],
+          [
+            -2.252331886505412,
+            2.916951950182401
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.252331886505412,
+            2.829697356953094
+          ],
+          [
+            -2.252331886505412,
+            2.77754304773787
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.252331886505412,
+            2.690288454508564
+          ],
+          [
+            -2.252331886505412,
+            2.639924262720279
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.2719223314011376,
+            2.857062594662842
+          ],
+          [
+            -1.600624787233632,
+            2.857062594662842
+          ],
+          [
+            -1.600624787233632,
+            2.707493956010615
+          ],
+          [
+            -2.221305653880442,
+            2.707493956010615
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-POWER- PIPE",
+        "points": [
+          [
+            -0.2797637440063525,
+            1.693714733641938
+          ],
+          [
+            -0.3469422080980173,
+            1.693714733641938
+          ],
+          [
+            -0.3469422080980173,
+            2.233678896443683
+          ],
+          [
+            -0.2928437750652843,
+            2.233678896443683
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.354331886505413,
+            2.589999999999994
+          ],
+          [
+            -2.354331886505413,
+            2.47001466398699
+          ],
+          [
+            -2.269828054956375,
+            2.47001466398699
+          ],
+          [
+            -2.269828054956375,
+            2.564485654550709
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-Data-Service",
+        "points": [
+          [
+            -2.26933188650541,
+            2.509999999999994
+          ],
+          [
+            -2.104920891870682,
+            2.277901028324631
+          ],
+          [
+            -1.946264012310308,
+            2.444418278386496
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.203620590144216,
+            1.207682245800921
+          ],
+          [
+            -3.680611896857401,
+            1.211389247171528
+          ],
+          [
+            -3.680611896857401,
+            0.9410167164665973
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -3.17353770844647,
+            3.453350521073975
+          ],
+          [
+            -3.674227580122279,
+            3.453350521073975
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "layer": "ELEC-LIGHT-PIPE",
+        "points": [
+          [
+            -2.450629495682834,
+            0.3408461716257136
+          ],
+          [
+            -3.539790992432687,
+            0.3486590042105373
+          ],
+          [
+            -3.538347269955004,
+            0.4177378227731943
+          ],
+          [
+            -3.536147159008617,
+            0.5724958192149057
+          ],
+          [
+            -3.537421028397943,
+            1.170983161173303
+          ],
+          [
+            -3.537588301135384,
+            1.249570979400457
+          ],
+          [
+            -3.539843661450783,
+            2.309180866907274
+          ]
+        ],
+        "closed": false
+      }
+    ],
+    "wall_layers": [
+      "ELEC-BALA LED 13 W",
+      "ELEC-APPL-TOMAS",
+      "ELEC-APPL-ILUM",
+      "ELEC-CONTROL ILUM",
+      "ELEC-APPL-NETWORD",
+      "ELEC-Data-Service",
+      "ELEC-POWER- PIPE",
+      "ELEC-LIGHT-PIPE",
+      "ELEC-Powr-Pipe-Idem Piso",
+      "ELEC-Powr-Appl"
+    ]
+  }
+}
