@@ -1,0 +1,4036 @@
+{
+ "version": "v01",
+ "dxf": "STM-T5-P5_bloques_electricos.dxf",
+ "nivel": "Piso 5",
+ "elevacion_nivel_m": 13.22,
+ "apartamentos": {
+  "Apartamento Tipo F 01": {
+   "insert_x": 14002.208,
+   "insert_y": 8001.838,
+   "dispositivos": 37,
+   "marcadores": 22,
+   "polilineas": 40,
+   "conduits": 31
+  },
+  "Apartamento Tipo F 02": {
+   "insert_x": 14043.382,
+   "insert_y": 9648.592,
+   "dispositivos": 37,
+   "marcadores": 22,
+   "polilineas": 39,
+   "conduits": 32
+  }
+ },
+ "resumen": {
+  "total_conduits": 63,
+  "por_servicio": {
+   "COMUNICACIONES": 6,
+   "ILUMINACION": 48,
+   "TOMAS": 9
+  },
+  "largo_por_servicio_mm": {
+   "COMUNICACIONES": 9.63,
+   "ILUMINACION": 52.89,
+   "TOMAS": 14.34
+  },
+  "por_diametro": {
+   "3/4\"": 6,
+   "1/2\"": 57
+  },
+  "longitud_total_mm": 76.86
+ },
+ "conduits": [
+  {
+   "id": "RT-0001",
+   "handle_dxf": "F3B7",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 21.03,
+   "diametro_origen": "fijo_servicio",
+   "largo_mm": 3.865,
+   "cota_m": 2.71,
+   "z_absoluta_m": 15.93,
+   "a": [
+    13999.864,
+    7998.753,
+    15930
+   ],
+   "b": [
+    14001.962,
+    7996.982,
+    15930
+   ],
+   "puntos_2d": [
+    [
+     13999.864,
+     7998.753
+    ],
+    [
+     13999.864,
+     7996.985
+    ],
+    [
+     14001.962,
+     7996.982
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.864,
+     "y": 7998.753,
+     "distancia_m": 0.0,
+     "handle": "F3AD",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14001.962,
+     "y": 7996.982,
+     "distancia_m": 0.0,
+     "handle": "F3A9",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0002",
+   "handle_dxf": "F3BC",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 21.03,
+   "diametro_origen": "fijo_servicio",
+   "largo_mm": 0.866,
+   "cota_m": 2.71,
+   "z_absoluta_m": 15.93,
+   "a": [
+    13999.934,
+    7999.316,
+    15930
+   ],
+   "b": [
+    14000.27,
+    7999.459,
+    15930
+   ],
+   "puntos_2d": [
+    [
+     13999.934,
+     7999.316
+    ],
+    [
+     14000.046,
+     7999.779
+    ],
+    [
+     14000.27,
+     7999.459
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.934,
+     "y": 7999.316,
+     "distancia_m": 0.0,
+     "handle": "F3AF",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.27,
+     "y": 7999.459,
+     "distancia_m": 0.0,
+     "handle": "F3B8",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0003",
+   "handle_dxf": "F3B4",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 21.03,
+   "diametro_origen": "fijo_servicio",
+   "largo_mm": 0.198,
+   "cota_m": 2.71,
+   "z_absoluta_m": 15.93,
+   "a": [
+    13999.898,
+    7999.253,
+    15930
+   ],
+   "b": [
+    13999.996,
+    7999.289,
+    15930
+   ],
+   "puntos_2d": [
+    [
+     13999.898,
+     7999.253
+    ],
+    [
+     13999.898,
+     7999.321
+    ],
+    [
+     13999.996,
+     7999.321
+    ],
+    [
+     13999.996,
+     7999.289
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.898,
+     "y": 7999.253,
+     "distancia_m": 0.0,
+     "handle": "F3AF",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.996,
+     "y": 7999.289,
+     "distancia_m": 0.0,
+     "handle": "F3B8",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0004",
+   "handle_dxf": "F35F",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.49,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.102,
+    7998.341,
+    15870
+   ],
+   "b": [
+    13999.102,
+    7995.851,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.102,
+     7998.341
+    ],
+    [
+     13999.102,
+     7995.851
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.102,
+     "y": 7998.341,
+     "distancia_m": 0.0,
+     "handle": "F379",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.102,
+     "y": 7995.851,
+     "distancia_m": 0.0,
+     "handle": "F377",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0005",
+   "handle_dxf": "F362",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.275,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.092,
+    7995.771,
+    15870
+   ],
+   "b": [
+    14000.217,
+    7994.621,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.092,
+     7995.771
+    ],
+    [
+     13999.092,
+     7994.621
+    ],
+    [
+     14000.217,
+     7994.621
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.092,
+     "y": 7995.771,
+     "distancia_m": 0.0,
+     "handle": "F377",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.217,
+     "y": 7994.621,
+     "distancia_m": 0.0,
+     "handle": "F37B",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0006",
+   "handle_dxf": "F3CA",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.264,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13998.583,
+    7999.515,
+    15870
+   ],
+   "b": [
+    13999.88,
+    8000.473,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13998.583,
+     7999.515
+    ],
+    [
+     13999.88,
+     7999.508
+    ],
+    [
+     13999.88,
+     8000.473
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13998.583,
+     "y": 7999.515,
+     "distancia_m": 0.0,
+     "handle": "F344",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.88,
+     "y": 8000.473,
+     "distancia_m": 0.0,
+     "handle": "F34F",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0007",
+   "handle_dxf": "F36F",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.179,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.142,
+    8000.651,
+    15870
+   ],
+   "b": [
+    14000.929,
+    8001.044,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.142,
+     8000.651
+    ],
+    [
+     14000.311,
+     8000.651
+    ],
+    [
+     14000.311,
+     8001.044
+    ],
+    [
+     14000.929,
+     8001.044
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.142,
+     "y": 8000.651,
+     "distancia_m": 0.0,
+     "handle": "F37A",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.929,
+     "y": 8001.044,
+     "distancia_m": 0.0,
+     "handle": "F375",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0008",
+   "handle_dxf": "F36C",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.117,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14000.962,
+    7998.351,
+    15870
+   ],
+   "b": [
+    14001.939,
+    7997.207,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14000.962,
+     7998.351
+    ],
+    [
+     14000.962,
+     7997.211
+    ],
+    [
+     14001.939,
+     7997.207
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14000.962,
+     "y": 7998.351,
+     "distancia_m": 0.0,
+     "handle": "F378",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14001.939,
+     "y": 7997.207,
+     "distancia_m": 0.0,
+     "handle": "F33F",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0009",
+   "handle_dxf": "F360",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.788,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.142,
+    7995.801,
+    15870
+   ],
+   "b": [
+    14000.93,
+    7995.801,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.142,
+     7995.801
+    ],
+    [
+     14000.93,
+     7995.801
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.142,
+     "y": 7995.801,
+     "distancia_m": 0.0,
+     "handle": "F377",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.93,
+     "y": 7995.801,
+     "distancia_m": 0.0,
+     "handle": "F376",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0010",
+   "handle_dxf": "F35E",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.78,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.142,
+    7998.391,
+    15870
+   ],
+   "b": [
+    14000.922,
+    7998.391,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.142,
+     7998.391
+    ],
+    [
+     14000.922,
+     7998.391
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.142,
+     "y": 7998.391,
+     "distancia_m": 0.0,
+     "handle": "F379",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.922,
+     "y": 7998.391,
+     "distancia_m": 0.0,
+     "handle": "F378",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0011",
+   "handle_dxf": "F372",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.465,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.988,
+    7998.337,
+    15870
+   ],
+   "b": [
+    14000.22,
+    7997.107,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.988,
+     7998.337
+    ],
+    [
+     13999.988,
+     7997.105
+    ],
+    [
+     14000.22,
+     7997.107
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.988,
+     "y": 7998.337,
+     "distancia_m": 0.0,
+     "handle": "F3AD",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.22,
+     "y": 7997.107,
+     "distancia_m": 0.0,
+     "handle": "F351",
+     "nombre": "ELEC-F-VENT",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0012",
+   "handle_dxf": "F36D",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.354,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.806,
+    8001.339,
+    15870
+   ],
+   "b": [
+    13999.076,
+    8000.722,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.806,
+     8001.339
+    ],
+    [
+     13999.076,
+     8001.346
+    ],
+    [
+     13999.076,
+     8000.722
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.806,
+     "y": 8001.339,
+     "distancia_m": 0.0,
+     "handle": "F3CE",
+     "nombre": "TB-Panel",
+     "capa": "ELEC-POWER-PANEL",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.076,
+     "y": 8000.722,
+     "distancia_m": 0.0,
+     "handle": "F37A",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0013",
+   "handle_dxf": "F37E",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.272,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14000.922,
+    7998.411,
+    15870
+   ],
+   "b": [
+    14000.028,
+    7999.011,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14000.922,
+     7998.411
+    ],
+    [
+     14000.531,
+     7998.784
+    ],
+    [
+     14000.531,
+     7999.013
+    ],
+    [
+     14000.028,
+     7999.011
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14000.922,
+     "y": 7998.411,
+     "distancia_m": 0.0,
+     "handle": "F378",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.028,
+     "y": 7999.011,
+     "distancia_m": 0.0,
+     "handle": "F347",
+     "nombre": "ELEC-I-S-2-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0014",
+   "handle_dxf": "F370",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.248,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14000.962,
+    7999.771,
+    15870
+   ],
+   "b": [
+    14000.962,
+    8001.019,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14000.962,
+     7999.771
+    ],
+    [
+     14000.962,
+     8001.019
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14000.962,
+     "y": 7999.771,
+     "distancia_m": 0.0,
+     "handle": "F374",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.962,
+     "y": 8001.019,
+     "distancia_m": 0.0,
+     "handle": "F375",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0015",
+   "handle_dxf": "F37D",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.141,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14000.962,
+    7999.611,
+    15870
+   ],
+   "b": [
+    14000.962,
+    7998.471,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14000.962,
+     7999.611
+    ],
+    [
+     14000.962,
+     7998.471
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14000.962,
+     "y": 7999.611,
+     "distancia_m": 0.0,
+     "handle": "F374",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.962,
+     "y": 7998.471,
+     "distancia_m": 0.0,
+     "handle": "F378",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0016",
+   "handle_dxf": "F3C8",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.988,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.702,
+    8000.214,
+    15870
+   ],
+   "b": [
+    13999.082,
+    8000.611,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.702,
+     8000.214
+    ],
+    [
+     13999.122,
+     8000.22
+    ],
+    [
+     13999.082,
+     8000.26
+    ],
+    [
+     13999.082,
+     8000.611
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.702,
+     "y": 8000.214,
+     "distancia_m": 0.0,
+     "handle": "F34F",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.082,
+     "y": 8000.611,
+     "distancia_m": 0.0,
+     "handle": "F37A",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0017",
+   "handle_dxf": "F3C2",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.705,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13998.571,
+    8000.911,
+    15870
+   ],
+   "b": [
+    13999.016,
+    8000.651,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13998.571,
+     8000.911
+    ],
+    [
+     13998.571,
+     8000.651
+    ],
+    [
+     13999.016,
+     8000.651
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13998.571,
+     "y": 8000.911,
+     "distancia_m": 0.0,
+     "handle": "F36E",
+     "nombre": "ELEC-EXT",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.016,
+     "y": 8000.651,
+     "distancia_m": 0.0,
+     "handle": "F37A",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0018",
+   "handle_dxf": "F359",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.505,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14001.062,
+    8001.031,
+    15870
+   ],
+   "b": [
+    14001.221,
+    8001.378,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14001.062,
+     8001.031
+    ],
+    [
+     14001.221,
+     8001.031
+    ],
+    [
+     14001.221,
+     8001.378
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14001.062,
+     "y": 8001.031,
+     "distancia_m": 0.0,
+     "handle": "F375",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14001.221,
+     "y": 8001.378,
+     "distancia_m": 0.0,
+     "handle": "F348",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0019",
+   "handle_dxf": "F3BF",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.5,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13998.539,
+    7998.389,
+    15870
+   ],
+   "b": [
+    13999.039,
+    7998.389,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13998.539,
+     7998.389
+    ],
+    [
+     13999.039,
+     7998.389
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13998.539,
+     "y": 7998.389,
+     "distancia_m": 0.0,
+     "handle": "F3BE",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.039,
+     "y": 7998.389,
+     "distancia_m": 0.0,
+     "handle": "F379",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0020",
+   "handle_dxf": "F3CC",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.403,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.88,
+    8000.721,
+    15870
+   ],
+   "b": [
+    13999.88,
+    8001.123,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.88,
+     8000.721
+    ],
+    [
+     13999.88,
+     8001.123
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.88,
+     "y": 8000.721,
+     "distancia_m": 0.001,
+     "handle": "F34F",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.88,
+     "y": 8001.123,
+     "distancia_m": 0.0,
+     "handle": "F3CE",
+     "nombre": "TB-Panel",
+     "capa": "ELEC-POWER-PANEL",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0021",
+   "handle_dxf": "F361",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.371,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.052,
+    7995.811,
+    15870
+   ],
+   "b": [
+    13998.904,
+    7995.588,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.052,
+     7995.811
+    ],
+    [
+     13998.904,
+     7995.811
+    ],
+    [
+     13998.904,
+     7995.588
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.052,
+     "y": 7995.811,
+     "distancia_m": 0.0,
+     "handle": "F377",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13998.904,
+     "y": 7995.588,
+     "distancia_m": 0.0,
+     "handle": "F349",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0022",
+   "handle_dxf": "F35D",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.343,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13999.988,
+    7998.769,
+    15870
+   ],
+   "b": [
+    13999.988,
+    7998.427,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13999.988,
+     7998.769
+    ],
+    [
+     13999.988,
+     7998.427
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13999.988,
+     "y": 7998.769,
+     "distancia_m": 0.0,
+     "handle": "F352",
+     "nombre": "ELEC-F-CONTROL",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.988,
+     "y": 7998.427,
+     "distancia_m": 0.0,
+     "handle": "F3AD",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0023",
+   "handle_dxf": "F395",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.322,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14001.221,
+    8001.456,
+    15870
+   ],
+   "b": [
+    14001.221,
+    8001.778,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14001.221,
+     8001.456
+    ],
+    [
+     14001.221,
+     8001.778
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14001.221,
+     "y": 8001.456,
+     "distancia_m": 0.0,
+     "handle": "F348",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14001.221,
+     "y": 8001.778,
+     "distancia_m": 0.0,
+     "handle": "F346",
+     "nombre": "ELEC-CAMPANA",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0024",
+   "handle_dxf": "F382",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.31,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14002.04,
+    7999.795,
+    15870
+   ],
+   "b": [
+    14002.04,
+    8000.105,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14002.04,
+     7999.795
+    ],
+    [
+     14002.04,
+     8000.105
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14002.04,
+     "y": 7999.795,
+     "distancia_m": 0.0,
+     "handle": "F342",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14002.04,
+     "y": 8000.105,
+     "distancia_m": 0.0,
+     "handle": "F354",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0025",
+   "handle_dxf": "F35B",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.168,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14001.048,
+    8001.826,
+    15870
+   ],
+   "b": [
+    14001.044,
+    8001.995,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14001.048,
+     8001.826
+    ],
+    [
+     14001.044,
+     8001.995
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14001.048,
+     "y": 8001.826,
+     "distancia_m": 0.0,
+     "handle": "F348",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14001.044,
+     "y": 8001.995,
+     "distancia_m": 0.0,
+     "handle": "F345",
+     "nombre": "ELEC-TIMBRE",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0026",
+   "handle_dxf": "F363",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.124,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13998.852,
+    7995.531,
+    15870
+   ],
+   "b": [
+    13998.728,
+    7995.531,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13998.852,
+     7995.531
+    ],
+    [
+     13998.728,
+     7995.531
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13998.852,
+     "y": 7995.531,
+     "distancia_m": 0.0,
+     "handle": "F349",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13998.728,
+     "y": 7995.531,
+     "distancia_m": 0.0,
+     "handle": "F33E",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0027",
+   "handle_dxf": "F37F",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.12,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    13998.702,
+    7995.491,
+    15870
+   ],
+   "b": [
+    13998.702,
+    7995.372,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     13998.702,
+     7995.491
+    ],
+    [
+     13998.702,
+     7995.372
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 13998.702,
+     "y": 7995.491,
+     "distancia_m": 0.0,
+     "handle": "F33E",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13998.702,
+     "y": 7995.372,
+     "distancia_m": 0.0,
+     "handle": "F33D",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0028",
+   "handle_dxf": "F357",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.23,
+   "cota_m": 2.68,
+   "z_absoluta_m": 15.9,
+   "a": [
+    14002.146,
+    8001.403,
+    15900
+   ],
+   "b": [
+    13999.917,
+    8001.402,
+    15900
+   ],
+   "puntos_2d": [
+    [
+     14002.146,
+     8001.403
+    ],
+    [
+     13999.917,
+     8001.402
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14002.146,
+     "y": 8001.403,
+     "distancia_m": 0.0,
+     "handle": "F343",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 13999.917,
+     "y": 8001.402,
+     "distancia_m": 0.0,
+     "handle": "F3CE",
+     "nombre": "TB-Panel",
+     "capa": "ELEC-POWER-PANEL",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0029",
+   "handle_dxf": "F3B9",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.164,
+   "cota_m": 2.68,
+   "z_absoluta_m": 15.9,
+   "a": [
+    14001.943,
+    7998.985,
+    15900
+   ],
+   "b": [
+    14000.029,
+    7999.234,
+    15900
+   ],
+   "puntos_2d": [
+    [
+     14001.943,
+     7998.985
+    ],
+    [
+     14000.606,
+     7998.985
+    ],
+    [
+     14000.606,
+     7999.236
+    ],
+    [
+     14000.029,
+     7999.234
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14001.943,
+     "y": 7998.985,
+     "distancia_m": 0.0,
+     "handle": "F340",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14000.029,
+     "y": 7999.234,
+     "distancia_m": 0.0,
+     "handle": "F3B8",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0030",
+   "handle_dxf": "F381",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.709,
+   "cota_m": 2.68,
+   "z_absoluta_m": 15.9,
+   "a": [
+    14002.189,
+    8001.356,
+    15900
+   ],
+   "b": [
+    14002.08,
+    7999.755,
+    15900
+   ],
+   "puntos_2d": [
+    [
+     14002.189,
+     8001.356
+    ],
+    [
+     14002.189,
+     7999.755
+    ],
+    [
+     14002.08,
+     7999.755
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14002.189,
+     "y": 8001.356,
+     "distancia_m": 0.0,
+     "handle": "F343",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14002.08,
+     "y": 7999.755,
+     "distancia_m": 0.0,
+     "handle": "F342",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0031",
+   "handle_dxf": "F383",
+   "apartamento": "Apartamento Tipo F 01",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.974,
+   "cota_m": 2.68,
+   "z_absoluta_m": 15.9,
+   "a": [
+    14002.09,
+    7999.735,
+    15900
+   ],
+   "b": [
+    14002.043,
+    7998.991,
+    15900
+   ],
+   "puntos_2d": [
+    [
+     14002.09,
+     7999.735
+    ],
+    [
+     14002.189,
+     7999.735
+    ],
+    [
+     14002.172,
+     7998.99
+    ],
+    [
+     14002.043,
+     7998.991
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14002.09,
+     "y": 7999.735,
+     "distancia_m": 0.0,
+     "handle": "F342",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14002.043,
+     "y": 7998.991,
+     "distancia_m": 0.0,
+     "handle": "F340",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0032",
+   "handle_dxf": "F4DD",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 21.03,
+   "diametro_origen": "fijo_servicio",
+   "largo_mm": 3.886,
+   "cota_m": 2.71,
+   "z_absoluta_m": 15.93,
+   "a": [
+    14040.998,
+    9651.677,
+    15930
+   ],
+   "b": [
+    14043.112,
+    9653.449,
+    15930
+   ],
+   "puntos_2d": [
+    [
+     14040.998,
+     9651.677
+    ],
+    [
+     14040.998,
+     9653.449
+    ],
+    [
+     14043.112,
+     9653.449
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.998,
+     "y": 9651.677,
+     "distancia_m": 0.0,
+     "handle": "F4D9",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14043.112,
+     "y": 9653.449,
+     "distancia_m": 0.0,
+     "handle": "F4D5",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0033",
+   "handle_dxf": "F4EB",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 21.03,
+   "diametro_origen": "fijo_servicio",
+   "largo_mm": 0.514,
+   "cota_m": 2.71,
+   "z_absoluta_m": 15.93,
+   "a": [
+    14041.113,
+    9651.102,
+    15930
+   ],
+   "b": [
+    14041.436,
+    9651.036,
+    15930
+   ],
+   "puntos_2d": [
+    [
+     14041.113,
+     9651.102
+    ],
+    [
+     14041.277,
+     9650.87
+    ],
+    [
+     14041.436,
+     9651.036
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14041.113,
+     "y": 9651.102,
+     "distancia_m": 0.0,
+     "handle": "F4DB",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14041.436,
+     "y": 9651.036,
+     "distancia_m": 0.0,
+     "handle": "F4DB",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0034",
+   "handle_dxf": "F4EA",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-Data-Service",
+   "servicio": "COMUNICACIONES",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "3/4\"",
+   "diametro_mm": 21.03,
+   "diametro_origen": "fijo_servicio",
+   "largo_mm": 0.299,
+   "cota_m": 2.71,
+   "z_absoluta_m": 15.93,
+   "a": [
+    14041.028,
+    9651.182,
+    15930
+   ],
+   "b": [
+    14041.112,
+    9651.156,
+    15930
+   ],
+   "puntos_2d": [
+    [
+     14041.028,
+     9651.182
+    ],
+    [
+     14041.028,
+     9651.062
+    ],
+    [
+     14041.112,
+     9651.062
+    ],
+    [
+     14041.112,
+     9651.156
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14041.028,
+     "y": 9651.182,
+     "distancia_m": 0.0,
+     "handle": "F4DB",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14041.112,
+     "y": 9651.156,
+     "distancia_m": 0.0,
+     "handle": "F4DB",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0035",
+   "handle_dxf": "FE46",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 3.05,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.931,
+    9648.933,
+    15870
+   ],
+   "b": [
+    14039.842,
+    9650.901,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.931,
+     9648.933
+    ],
+    [
+     14039.842,
+     9648.941
+    ],
+    [
+     14039.844,
+     9649.01
+    ],
+    [
+     14039.846,
+     9649.164
+    ],
+    [
+     14039.845,
+     9649.763
+    ],
+    [
+     14039.844,
+     9649.841
+    ],
+    [
+     14039.842,
+     9650.901
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.931,
+     "y": 9648.933,
+     "distancia_m": 0.0,
+     "handle": "F4F6",
+     "nombre": "TB-Parcial",
+     "capa": "ELEC-Powr-Appl",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14039.842,
+     "y": 9650.901,
+     "distancia_m": 0.0,
+     "handle": "F470",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0036",
+   "handle_dxf": "F48C",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.49,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.274,
+    9652.095,
+    15870
+   ],
+   "b": [
+    14040.274,
+    9654.585,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.274,
+     9652.095
+    ],
+    [
+     14040.274,
+     9654.585
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.274,
+     "y": 9652.095,
+     "distancia_m": 0.0,
+     "handle": "F4A6",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14040.274,
+     "y": 9654.585,
+     "distancia_m": 0.0,
+     "handle": "F4A4",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0037",
+   "handle_dxf": "F48F",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.275,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.264,
+    9654.665,
+    15870
+   ],
+   "b": [
+    14041.389,
+    9655.815,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.264,
+     9654.665
+    ],
+    [
+     14040.264,
+     9655.815
+    ],
+    [
+     14041.389,
+     9655.815
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.264,
+     "y": 9654.665,
+     "distancia_m": 0.0,
+     "handle": "F4A4",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14041.389,
+     "y": 9655.815,
+     "distancia_m": 0.0,
+     "handle": "F4A8",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0038",
+   "handle_dxf": "F49C",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.179,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.314,
+    9649.785,
+    15870
+   ],
+   "b": [
+    14042.101,
+    9649.392,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.314,
+     9649.785
+    ],
+    [
+     14041.483,
+     9649.785
+    ],
+    [
+     14041.483,
+     9649.392
+    ],
+    [
+     14042.101,
+     9649.392
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.314,
+     "y": 9649.785,
+     "distancia_m": 0.0,
+     "handle": "F4A7",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14042.101,
+     "y": 9649.392,
+     "distancia_m": 0.0,
+     "handle": "F4A2",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0039",
+   "handle_dxf": "F499",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.074,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14042.134,
+    9652.085,
+    15870
+   ],
+   "b": [
+    14043.068,
+    9653.225,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14042.134,
+     9652.085
+    ],
+    [
+     14042.134,
+     9653.225
+    ],
+    [
+     14043.068,
+     9653.225
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14042.134,
+     "y": 9652.085,
+     "distancia_m": 0.0,
+     "handle": "F4A5",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14043.068,
+     "y": 9653.225,
+     "distancia_m": 0.0,
+     "handle": "F46B",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0040",
+   "handle_dxf": "F48D",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.788,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.314,
+    9654.635,
+    15870
+   ],
+   "b": [
+    14042.102,
+    9654.635,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.314,
+     9654.635
+    ],
+    [
+     14042.102,
+     9654.635
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.314,
+     "y": 9654.635,
+     "distancia_m": 0.0,
+     "handle": "F4A4",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14042.102,
+     "y": 9654.635,
+     "distancia_m": 0.0,
+     "handle": "F4A3",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0041",
+   "handle_dxf": "F48B",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.78,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.314,
+    9652.045,
+    15870
+   ],
+   "b": [
+    14042.094,
+    9652.045,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.314,
+     9652.045
+    ],
+    [
+     14042.094,
+     9652.045
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.314,
+     "y": 9652.045,
+     "distancia_m": 0.0,
+     "handle": "F4A6",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14042.094,
+     "y": 9652.045,
+     "distancia_m": 0.0,
+     "handle": "F4A5",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0042",
+   "handle_dxf": "F49F",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.505,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14041.12,
+    9652.097,
+    15870
+   ],
+   "b": [
+    14041.393,
+    9653.329,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14041.12,
+     9652.097
+    ],
+    [
+     14041.12,
+     9653.329
+    ],
+    [
+     14041.393,
+     9653.329
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14041.12,
+     "y": 9652.097,
+     "distancia_m": 0.0,
+     "handle": "F4D9",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14041.393,
+     "y": 9653.329,
+     "distancia_m": 0.0,
+     "handle": "F47D",
+     "nombre": "ELEC-F-VENT",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0043",
+   "handle_dxf": "F4AB",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.312,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14042.094,
+    9652.025,
+    15870
+   ],
+   "b": [
+    14041.16,
+    9651.423,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14042.094,
+     9652.025
+    ],
+    [
+     14041.703,
+     9651.652
+    ],
+    [
+     14041.703,
+     9651.423
+    ],
+    [
+     14041.16,
+     9651.423
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14042.094,
+     "y": 9652.025,
+     "distancia_m": 0.0,
+     "handle": "F4A5",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14041.16,
+     "y": 9651.423,
+     "distancia_m": 0.0,
+     "handle": "F473",
+     "nombre": "ELEC-I-S-2-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0044",
+   "handle_dxf": "F487",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.271,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.942,
+    9649.104,
+    15870
+   ],
+   "b": [
+    14040.275,
+    9649.709,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.942,
+     9649.104
+    ],
+    [
+     14040.275,
+     9649.105
+    ],
+    [
+     14040.275,
+     9649.709
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.942,
+     "y": 9649.104,
+     "distancia_m": 0.0,
+     "handle": "F4F6",
+     "nombre": "TB-Parcial",
+     "capa": "ELEC-Powr-Appl",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14040.275,
+     "y": 9649.709,
+     "distancia_m": 0.0,
+     "handle": "F4A7",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0045",
+   "handle_dxf": "F49D",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.248,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14042.134,
+    9650.665,
+    15870
+   ],
+   "b": [
+    14042.134,
+    9649.417,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14042.134,
+     9650.665
+    ],
+    [
+     14042.134,
+     9649.417
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14042.134,
+     "y": 9650.665,
+     "distancia_m": 0.0,
+     "handle": "F4A1",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14042.134,
+     "y": 9649.417,
+     "distancia_m": 0.0,
+     "handle": "F4A2",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0046",
+   "handle_dxf": "F4AA",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.141,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14042.134,
+    9650.825,
+    15870
+   ],
+   "b": [
+    14042.134,
+    9651.965,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14042.134,
+     9650.825
+    ],
+    [
+     14042.134,
+     9651.41
+    ],
+    [
+     14042.134,
+     9651.488
+    ],
+    [
+     14042.134,
+     9651.965
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14042.134,
+     "y": 9650.825,
+     "distancia_m": 0.0,
+     "handle": "F4A1",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14042.134,
+     "y": 9651.965,
+     "distancia_m": 0.0,
+     "handle": "F4A5",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0047",
+   "handle_dxf": "F488",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.916,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.254,
+    9649.825,
+    15870
+   ],
+   "b": [
+    14040.825,
+    9650.168,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.254,
+     9649.825
+    ],
+    [
+     14040.254,
+     9650.17
+    ],
+    [
+     14040.825,
+     9650.168
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.254,
+     "y": 9649.825,
+     "distancia_m": 0.0,
+     "handle": "F4A7",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14040.825,
+     "y": 9650.168,
+     "distancia_m": 0.0,
+     "handle": "F47B",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0048",
+   "handle_dxf": "F4EE",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.747,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.178,
+    9649.8,
+    15870
+   ],
+   "b": [
+    14039.701,
+    9649.533,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.178,
+     9649.8
+    ],
+    [
+     14039.701,
+     9649.803
+    ],
+    [
+     14039.701,
+     9649.533
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.178,
+     "y": 9649.8,
+     "distancia_m": 0.0,
+     "handle": "F4A7",
+     "nombre": "Bala Stil Led 13W",
+     "capa": "ELEC-BALA LED 13 W",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14039.701,
+     "y": 9649.533,
+     "distancia_m": 0.0,
+     "handle": "F49B",
+     "nombre": "ELEC-EXT",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0049",
+   "handle_dxf": "F484",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.505,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14042.234,
+    9649.405,
+    15870
+   ],
+   "b": [
+    14042.393,
+    9649.058,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14042.234,
+     9649.405
+    ],
+    [
+     14042.393,
+     9649.405
+    ],
+    [
+     14042.393,
+     9649.058
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14042.234,
+     "y": 9649.405,
+     "distancia_m": 0.0,
+     "handle": "F4A2",
+     "nombre": "Bala Stil Led 22W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14042.393,
+     "y": 9649.058,
+     "distancia_m": 0.0,
+     "handle": "F472",
+     "nombre": "ELEC-CAMPANA",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0050",
+   "handle_dxf": "F4F2",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.501,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.208,
+    9652.045,
+    15870
+   ],
+   "b": [
+    14039.708,
+    9652.045,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.208,
+     9652.045
+    ],
+    [
+     14039.708,
+     9652.045
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.208,
+     "y": 9652.045,
+     "distancia_m": 0.0,
+     "handle": "F4A6",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14039.708,
+     "y": 9652.045,
+     "distancia_m": 0.0,
+     "handle": "F4F1",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0051",
+   "handle_dxf": "F48E",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.39,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.224,
+    9654.625,
+    15870
+   ],
+   "b": [
+    14040.076,
+    9654.867,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.224,
+     9654.625
+    ],
+    [
+     14040.076,
+     9654.625
+    ],
+    [
+     14040.076,
+     9654.867
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.224,
+     "y": 9654.625,
+     "distancia_m": 0.0,
+     "handle": "F4A4",
+     "nombre": "Bala Stil Led 10W",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14040.076,
+     "y": 9654.867,
+     "distancia_m": 0.0,
+     "handle": "F475",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0052",
+   "handle_dxf": "F48A",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.343,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14041.12,
+    9651.665,
+    15870
+   ],
+   "b": [
+    14041.12,
+    9652.008,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14041.12,
+     9651.665
+    ],
+    [
+     14041.12,
+     9652.008
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14041.12,
+     "y": 9651.665,
+     "distancia_m": 0.0,
+     "handle": "F47E",
+     "nombre": "ELEC-F-CONTROL",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14041.12,
+     "y": 9652.008,
+     "distancia_m": 0.0,
+     "handle": "F4D9",
+     "nombre": "ELEC-TEL",
+     "capa": "ELEC-APPL-NETWORD",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0053",
+   "handle_dxf": "F4AF",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.31,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14043.144,
+    9650.639,
+    15870
+   ],
+   "b": [
+    14043.144,
+    9650.329,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14043.144,
+     9650.639
+    ],
+    [
+     14043.144,
+     9650.329
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14043.144,
+     "y": 9650.639,
+     "distancia_m": 0.0,
+     "handle": "F46E",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14043.144,
+     "y": 9650.329,
+     "distancia_m": 0.0,
+     "handle": "F480",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0054",
+   "handle_dxf": "F4C2",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.297,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14042.393,
+    9648.98,
+    15870
+   ],
+   "b": [
+    14042.393,
+    9648.683,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14042.393,
+     9648.98
+    ],
+    [
+     14042.393,
+     9648.683
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14042.393,
+     "y": 9648.98,
+     "distancia_m": 0.0,
+     "handle": "F472",
+     "nombre": "ELEC-CAMPANA",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14042.393,
+     "y": 9648.683,
+     "distancia_m": 0.0,
+     "handle": "F472",
+     "nombre": "ELEC-CAMPANA",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0055",
+   "handle_dxf": "F486",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.146,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14042.162,
+    9648.624,
+    15870
+   ],
+   "b": [
+    14042.162,
+    9648.477,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14042.162,
+     9648.624
+    ],
+    [
+     14042.162,
+     9648.477
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14042.162,
+     "y": 9648.624,
+     "distancia_m": 0.0,
+     "handle": "F474",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14042.162,
+     "y": 9648.477,
+     "distancia_m": 0.0,
+     "handle": "F471",
+     "nombre": "ELEC-TIMBRE",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0056",
+   "handle_dxf": "F4AC",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.135,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14039.854,
+    9654.965,
+    15870
+   ],
+   "b": [
+    14039.854,
+    9655.1,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14039.854,
+     9654.965
+    ],
+    [
+     14039.854,
+     9655.1
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14039.854,
+     "y": 9654.965,
+     "distancia_m": 0.0,
+     "handle": "F46A",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14039.854,
+     "y": 9655.1,
+     "distancia_m": 0.0,
+     "handle": "F469",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0057",
+   "handle_dxf": "F485",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.134,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14042.342,
+    9648.651,
+    15870
+   ],
+   "b": [
+    14042.208,
+    9648.651,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14042.342,
+     9648.651
+    ],
+    [
+     14042.208,
+     9648.651
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14042.342,
+     "y": 9648.651,
+     "distancia_m": 0.0,
+     "handle": "F472",
+     "nombre": "ELEC-CAMPANA",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14042.208,
+     "y": 9648.651,
+     "distancia_m": 0.0,
+     "handle": "F474",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0058",
+   "handle_dxf": "F490",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-LIGHT-PIPE",
+   "servicio": "ILUMINACION",
+   "cables": 4,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.124,
+   "cota_m": 2.65,
+   "z_absoluta_m": 15.87,
+   "a": [
+    14040.024,
+    9654.924,
+    15870
+   ],
+   "b": [
+    14039.9,
+    9654.924,
+    15870
+   ],
+   "puntos_2d": [
+    [
+     14040.024,
+     9654.924
+    ],
+    [
+     14039.9,
+     9654.924
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14040.024,
+     "y": 9654.924,
+     "distancia_m": 0.0,
+     "handle": "F475",
+     "nombre": "ELEC-I-S-1-5A",
+     "capa": "ELEC-APPL-ILUM",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14039.9,
+     "y": 9654.924,
+     "distancia_m": 0.0,
+     "handle": "F46A",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0059",
+   "handle_dxf": "F483",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.229,
+   "cota_m": 2.68,
+   "z_absoluta_m": 15.9,
+   "a": [
+    14043.279,
+    9649.027,
+    15900
+   ],
+   "b": [
+    14041.049,
+    9649.026,
+    15900
+   ],
+   "puntos_2d": [
+    [
+     14043.279,
+     9649.027
+    ],
+    [
+     14041.049,
+     9649.026
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14043.279,
+     "y": 9649.027,
+     "distancia_m": 0.0,
+     "handle": "F46F",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14041.049,
+     "y": 9649.026,
+     "distancia_m": 0.0,
+     "handle": "F4F6",
+     "nombre": "TB-Parcial",
+     "capa": "ELEC-Powr-Appl",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0060",
+   "handle_dxf": "F4E4",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 2.099,
+   "cota_m": 2.68,
+   "z_absoluta_m": 15.9,
+   "a": [
+    14043.11,
+    9651.449,
+    15900
+   ],
+   "b": [
+    14041.161,
+    9651.299,
+    15900
+   ],
+   "puntos_2d": [
+    [
+     14043.11,
+     9651.449
+    ],
+    [
+     14041.781,
+     9651.449
+    ],
+    [
+     14041.781,
+     9651.299
+    ],
+    [
+     14041.161,
+     9651.299
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14043.11,
+     "y": 9651.449,
+     "distancia_m": 0.0,
+     "handle": "F46C",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14041.161,
+     "y": 9651.299,
+     "distancia_m": 0.0,
+     "handle": "F4E3",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0061",
+   "handle_dxf": "F4AE",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 1.317,
+   "cota_m": 2.68,
+   "z_absoluta_m": 15.9,
+   "a": [
+    14043.323,
+    9649.077,
+    15900
+   ],
+   "b": [
+    14043.184,
+    9650.258,
+    15900
+   ],
+   "puntos_2d": [
+    [
+     14043.323,
+     9649.077
+    ],
+    [
+     14043.323,
+     9650.255
+    ],
+    [
+     14043.184,
+     9650.258
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14043.323,
+     "y": 9649.077,
+     "distancia_m": 0.0,
+     "handle": "F46F",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14043.184,
+     "y": 9650.258,
+     "distancia_m": 0.0,
+     "handle": "F480",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0062",
+   "handle_dxf": "F4B0",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 5,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.953,
+   "cota_m": 2.68,
+   "z_absoluta_m": 15.9,
+   "a": [
+    14043.194,
+    9650.699,
+    15900
+   ],
+   "b": [
+    14043.198,
+    9651.455,
+    15900
+   ],
+   "puntos_2d": [
+    [
+     14043.194,
+     9650.699
+    ],
+    [
+     14043.293,
+     9650.695
+    ],
+    [
+     14043.293,
+     9651.455
+    ],
+    [
+     14043.198,
+     9651.455
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14043.194,
+     "y": 9650.699,
+     "distancia_m": 0.0,
+     "handle": "F46E",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14043.198,
+     "y": 9651.455,
+     "distancia_m": 0.0,
+     "handle": "F46C",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  },
+  {
+   "id": "RT-0063",
+   "handle_dxf": "F4E9",
+   "apartamento": "Apartamento Tipo F 02",
+   "capa": "ELEC-POWER- PIPE",
+   "servicio": "TOMAS",
+   "cables": 3,
+   "cables_origen": "marcador",
+   "material": "PVC",
+   "calibre": "12 AWG",
+   "diametro_pulgadas": "1/2\"",
+   "diametro_mm": 15.85,
+   "diametro_origen": "default",
+   "largo_mm": 0.661,
+   "cota_m": 2.68,
+   "z_absoluta_m": 15.9,
+   "a": [
+    14043.102,
+    9650.286,
+    15900
+   ],
+   "b": [
+    14043.089,
+    9650.826,
+    15900
+   ],
+   "puntos_2d": [
+    [
+     14043.102,
+     9650.286
+    ],
+    [
+     14043.035,
+     9650.286
+    ],
+    [
+     14043.035,
+     9650.826
+    ],
+    [
+     14043.089,
+     9650.826
+    ]
+   ],
+   "extremos": [
+    {
+     "tipo": "dispositivo",
+     "x": 14043.102,
+     "y": 9650.286,
+     "distancia_m": 0.0,
+     "handle": "F480",
+     "nombre": "ELEC-T-GFCI-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    },
+    {
+     "tipo": "dispositivo",
+     "x": 14043.089,
+     "y": 9650.826,
+     "distancia_m": 0.0,
+     "handle": "F46D",
+     "nombre": "ELEC-T-D-t-15A",
+     "capa": "ELEC-APPL-TOMAS",
+     "servicio": null
+    }
+   ],
+   "avisos": []
+  }
+ ]
+}

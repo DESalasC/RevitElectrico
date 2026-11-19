@@ -1,0 +1,123 @@
+{
+  "version": "v01",
+  "dxf": "STM-T5-P5_bloques_electricos.dxf",
+  "nivel": "Piso 5",
+  "elevacion_nivel_m": 13.22,
+  "apartamentos": {
+    "Apartamento Tipo F 01": {
+      "insert_x": 14002.208,
+      "insert_y": 8001.838,
+      "dispositivos": 37,
+      "marcadores": 22,
+      "polilineas": 40,
+      "conduits": 31
+    },
+    "Apartamento Tipo F 02": {
+      "insert_x": 14043.382,
+      "insert_y": 9648.592,
+      "dispositivos": 37,
+      "marcadores": 22,
+      "polilineas": 39,
+      "conduits": 32
+    }
+  },
+  "resumen": {
+    "total_conduits": 63,
+    "por_servicio": {
+      "COMUNICACIONES": 6,
+      "ILUMINACION": 48,
+      "TOMAS": 9
+    },
+    "por_diametro": {
+      "3/4\"": 6,
+      "1/2\"": 57
+    },
+    "longitud_total_mm": 76.86
+  },
+  "conduits": [
+    {
+      "id": "RT-0001",
+      "handle_dxf": "F3B7",
+      "apartamento": "Apartamento Tipo F 01",
+      "capa": "ELEC-Data-Service",
+      "servicio": "COMUNICACIONES",
+      "cables": 5,
+      "cables_origen": "marcador",
+      "material": "PVC",
+      "calibre": "12 AWG",
+      "diametro_pulgadas": "3/4\"",
+      "diametro_mm": 21.03,
+      "diametro_origen": "fijo_servicio",
+      "largo_mm": 3.865,
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93,
+      "a": [13999.864, 7998.753, 15930],
+      "b": [14001.962, 7996.982, 15930],
+      "puntos_2d": [
+        [13999.864, 7998.753],
+        [13999.864, 7996.985],
+        [14001.962, 7996.982]
+      ]
+    },
+    {
+      "id": "RT-0002",
+      "handle_dxf": "F3B8",
+      "apartamento": "Apartamento Tipo F 01",
+      "capa": "ELEC-Data-Service",
+      "servicio": "COMUNICACIONES",
+      "cables": 3,
+      "cables_origen": "marcador",
+      "material": "PVC",
+      "calibre": "12 AWG",
+      "diametro_pulgadas": "3/4\"",
+      "diametro_mm": 21.03,
+      "diametro_origen": "fijo_servicio",
+      "largo_mm": 0.365,
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93,
+      "a": [45.932, 26.244, 52.264],
+      "b": [45.933, 26.245, 52.264],
+      "puntos_2d": [[45.932, 26.244], [45.933, 26.245]]
+    },
+    {
+      "id": "RT-0004",
+      "handle_dxf": "F3BA",
+      "apartamento": "Apartamento Tipo F 01",
+      "capa": "ELEC-Iluminacion",
+      "servicio": "ILUMINACION",
+      "cables": 3,
+      "cables_origen": "marcador",
+      "material": "PVC",
+      "calibre": "12 AWG",
+      "diametro_pulgadas": "1/2\"",
+      "diametro_mm": 15.85,
+      "diametro_origen": "fijo_servicio",
+      "largo_mm": 2.490,
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87,
+      "a": [13998.123, 7995.432, 15850],
+      "b": [13999.245, 7996.510, 15850],
+      "puntos_2d": [[13998.123, 7995.432], [13999.245, 7996.510]]
+    },
+    {
+      "id": "RT-0028",
+      "handle_dxf": "F3D2",
+      "apartamento": "Apartamento Tipo F 01",
+      "capa": "ELEC-Tomas",
+      "servicio": "TOMAS",
+      "cables": 3,
+      "cables_origen": "marcador",
+      "material": "PVC",
+      "calibre": "12 AWG",
+      "diametro_pulgadas": "1/2\"",
+      "diametro_mm": 15.85,
+      "diametro_origen": "fijo_servicio",
+      "largo_mm": 2.229,
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.90,
+      "a": [14000.510, 7999.123, 15880],
+      "b": [14001.342, 7999.876, 15880],
+      "puntos_2d": [[14000.510, 7999.123], [14001.342, 7999.876]]
+    }
+  ]
+}
