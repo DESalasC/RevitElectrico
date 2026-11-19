@@ -1,0 +1,664 @@
+{
+  "apartamentos": {
+    "F01": {
+      "devices": [
+        {
+          "handle": "",
+          "name": "ELEC-T-GFCI-t-15A",
+          "x": 34.443606482012086,
+          "y": 5.027516170004162,
+          "rotation": 180.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "GFCI"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 34.372598673516585,
+          "y": 5.410099938026274,
+          "rotation": 0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 45.39511480474183,
+          "y": 11.075397141050749,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-GFCI-t-15A",
+          "x": 45.40033846993361,
+          "y": 16.90558204312539,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "GFCI"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 45.55893521364894,
+          "y": 18.964501098738502,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 45.55893521364894,
+          "y": 19.390598694869897,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 46.08386959684959,
+          "y": 24.826280638170353,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-GFCI-t-15A",
+          "x": 33.885799200835486,
+          "y": 18.483123470768533,
+          "rotation": 0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "GFCI"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TIMBRE",
+          "x": 42.1025958154985,
+          "y": 26.919739388832788,
+          "rotation": 180.0,
+          "familia_revit": "M_Pulsador - Interruptor",
+          "tipo_revit": "Timbre"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-CAMPANA",
+          "x": 42.69679886033798,
+          "y": 26.25190092702823,
+          "rotation": 0,
+          "familia_revit": "M_Timbre",
+          "tipo_revit": "Campana"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-I-S-2-5A",
+          "x": 38.6218893064996,
+          "y": 17.01025162832903,
+          "rotation": 240.0,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Doble"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-I-S-1-5A",
+          "x": 42.13224283269761,
+          "y": 26.047985918080464,
+          "rotation": 90.0,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Simple"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-I-S-1-5A",
+          "x": 35.06727539689076,
+          "y": 5.584001946233418,
+          "rotation": 0,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Simple"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-I-S-1-5A",
+          "x": 37.88472534343663,
+          "y": 20.913752433875832,
+          "rotation": 11.81427143305155,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Simple"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-F-VENT",
+          "x": 39.4611307039629,
+          "y": 10.720641653448375,
+          "rotation": 119.9999999999999,
+          "familia_revit": "M_ClimatizacionV",
+          "tipo_revit": "Ventilador"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-F-CONTROL",
+          "x": 38.65777925604784,
+          "y": 16.411269265876857,
+          "rotation": 180.0,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Control"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-GFCI-t-15A",
+          "x": 45.56945160699687,
+          "y": 20.721494440802843,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "GFCI"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-EXT",
+          "x": 34.013004338539545,
+          "y": 23.408406633542985,
+          "rotation": 180.0,
+          "familia_revit": "EA",
+          "tipo_revit": "Extintor"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 22W",
+          "x": 41.82199254521379,
+          "y": 19.29665699951119,
+          "rotation": 180.0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 22 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 22W",
+          "x": 41.84987513390983,
+          "y": 23.565523644506552,
+          "rotation": 180.0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 22 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 10W",
+          "x": 41.80710402285132,
+          "y": 6.468573010061657,
+          "rotation": 180.0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 10 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 10W",
+          "x": 35.70949968074244,
+          "y": 6.468573010061657,
+          "rotation": 180.0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 10 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 10W",
+          "x": 41.82199254521379,
+          "y": 14.933139939161421,
+          "rotation": 180.0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 10 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 10W",
+          "x": 35.72438820310491,
+          "y": 14.933139939161421,
+          "rotation": 180.0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 10 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 13W",
+          "x": 35.703753094134086,
+          "y": 22.346738422809068,
+          "rotation": 0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 13 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 13W",
+          "x": 39.527301912684536,
+          "y": 2.562879191488072,
+          "rotation": 0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 13 trim"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 45.41117767460369,
+          "y": 9.841376175643926,
+          "rotation": 90.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 45.41117767460369,
+          "y": 10.333448388599562,
+          "rotation": 90.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 45.41117767460369,
+          "y": 9.383997886785743,
+          "rotation": 90.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-NET-PAU",
+          "x": 38.39667818967695,
+          "y": 16.948454908028133,
+          "rotation": 90.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 38.404771938677506,
+          "y": 16.83639226845598,
+          "rotation": 270.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 38.404771938677506,
+          "y": 16.344320055500347,
+          "rotation": 270.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 38.404771938677506,
+          "y": 17.293770557314158,
+          "rotation": 270.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 38.404771938677506,
+          "y": 17.745275757501314,
+          "rotation": 270.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 38.45611019112484,
+          "y": 17.693661235120942,
+          "rotation": 270.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 33.7007036972265,
+          "y": 14.954480534549827,
+          "rotation": 270.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        }
+      ],
+      "walls": [],
+      "panels": []
+    },
+    "F02": {
+      "devices": [
+        {
+          "handle": "",
+          "name": "ELEC-T-GFCI-t-15A",
+          "x": 34.50906998772834,
+          "y": 53.017569040473205,
+          "rotation": 0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "GFCI"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 34.50405077903602,
+          "y": 52.58083391801342,
+          "rotation": 180.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 45.39369954612008,
+          "y": 46.83959666897724,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-GFCI-t-15A",
+          "x": 45.49244196247968,
+          "y": 41.02219241409046,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "GFCI"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 45.46629648774613,
+          "y": 38.95602661653211,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 45.46629648774613,
+          "y": 38.52992902040071,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 46.083768261669235,
+          "y": 33.08392990517958,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-GFCI-t-15A",
+          "x": 34.46042742854897,
+          "y": 39.56946447634874,
+          "rotation": 180.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "GFCI"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TIMBRE",
+          "x": 42.05711718503892,
+          "y": 31.126851991952524,
+          "rotation": 0,
+          "familia_revit": "M_Pulsador - Interruptor",
+          "tipo_revit": "Timbre"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-CAMPANA",
+          "x": 42.827307597825275,
+          "y": 31.758413671743067,
+          "rotation": 180.0,
+          "familia_revit": "M_Timbre",
+          "tipo_revit": "Campana"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-I-S-2-5A",
+          "x": 38.62063757139441,
+          "y": 40.912254086592654,
+          "rotation": 0,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Doble"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-I-S-1-5A",
+          "x": 42.07163399881902,
+          "y": 31.92737692393736,
+          "rotation": 90.0,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Simple"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-I-S-1-5A",
+          "x": 35.19872750241019,
+          "y": 52.40693190980629,
+          "rotation": 180.0,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Simple"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-I-S-1-5A",
+          "x": 37.85717129337067,
+          "y": 36.866617080246044,
+          "rotation": 180.0,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Simple"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-F-VENT",
+          "x": 39.5916394414502,
+          "y": 47.207651947947916,
+          "rotation": 60.0,
+          "familia_revit": "M_ClimatizacionV",
+          "tipo_revit": "Ventilador"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-F-CONTROL",
+          "x": 38.65652752094266,
+          "y": 41.51123644904483,
+          "rotation": 0,
+          "familia_revit": "M_Interruptores",
+          "tipo_revit": "Control"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-GFCI-t-15A",
+          "x": 45.47681288109407,
+          "y": 37.199033274467766,
+          "rotation": 90.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "GFCI"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-EXT",
+          "x": 33.990365052442286,
+          "y": 34.53204904584082,
+          "rotation": 0,
+          "familia_revit": "EA",
+          "tipo_revit": "Extintor"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 22W",
+          "x": 41.95250128270108,
+          "y": 38.63163660188512,
+          "rotation": 0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 22 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 22W",
+          "x": 41.98038387139714,
+          "y": 34.36276995688975,
+          "rotation": 0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 22 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 10W",
+          "x": 41.93761276033862,
+          "y": 51.45972059133463,
+          "rotation": 0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 10 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 10W",
+          "x": 35.84000841822974,
+          "y": 51.45972059133463,
+          "rotation": 0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 10 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 10W",
+          "x": 41.95250128270108,
+          "y": 42.995153662234884,
+          "rotation": 0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 10 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 10W",
+          "x": 35.85489694059219,
+          "y": 42.995153662234884,
+          "rotation": 0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 10 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 13W",
+          "x": 35.83426183162139,
+          "y": 35.58155517858723,
+          "rotation": 180.0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 13 trim"
+        },
+        {
+          "handle": "",
+          "name": "Bala Stil Led 13W",
+          "x": 39.657810650171825,
+          "y": 55.365414409908226,
+          "rotation": 180.0,
+          "familia_revit": "M_Iluminacion",
+          "tipo_revit": "SONO FLEX 13 trim"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 45.46612742786132,
+          "y": 48.072623434068426,
+          "rotation": 90.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 45.46612742786132,
+          "y": 47.5805512211128,
+          "rotation": 90.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 45.46612742786132,
+          "y": 48.530001722926606,
+          "rotation": 90.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-NET-PAU",
+          "x": 38.39542645457177,
+          "y": 40.97405080689354,
+          "rotation": 90.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 38.40352020357233,
+          "y": 41.08611344646569,
+          "rotation": 270.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 38.40352020357233,
+          "y": 41.578185659421344,
+          "rotation": 270.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 38.40352020357233,
+          "y": 40.62873515760752,
+          "rotation": 270.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-TEL",
+          "x": 38.40352020357233,
+          "y": 40.17722995742037,
+          "rotation": 270.0,
+          "familia_revit": "M_Comunicaciones",
+          "tipo_revit": "Datos"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 38.4510980358358,
+          "y": 40.522386695231695,
+          "rotation": 270.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        },
+        {
+          "handle": "",
+          "name": "ELEC-T-D-t-15A",
+          "x": 33.69742285733202,
+          "y": 43.01619188724126,
+          "rotation": 270.0,
+          "familia_revit": "M_Toma doble",
+          "tipo_revit": "Normal"
+        }
+      ],
+      "walls": [],
+      "panels": []
+    }
+  }
+}
