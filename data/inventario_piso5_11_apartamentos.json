@@ -1,0 +1,202 @@
+{
+  "version": "v05_PANEL_NAMES_REALES_VERIFICADOS",
+  "fecha_generacion": "2026-11-19",
+  "proyecto": "RevitElectrico - T5-SantaMarta",
+  "nivel": "Piso 5",
+  "elevacion_nivel_m": 13.22,
+  "fuente_dxf": "STM-T5-P5_bloques_electricos.dxf (FUENTE DE VERDAD ABSOLUTA - regla fija)",
+  "total_apartamentos": 11,
+  "total_dispositivos": 555,
+  "apartamentos": {
+    "B15": {
+      "inventario_key": "APT-B-15-P5",
+      "panel_inventario": "TAB-B-15-P5",
+      "panel_real_revit": "TB 15",
+      "panel_pos_m": {"x": -38.340, "y": 0.567},
+      "offset_mm": {"x": 13619004, "y": -2445283},
+      "dispositivos": 69,
+      "desglose": {
+        "M_ClimatizacionV": 3,
+        "M_Comunicaciones": 18,
+        "M_Iluminacion": 15,
+        "M_Interruptores": 12,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 19
+      }
+    },
+    "B16": {
+      "inventario_key": "APT-B-16-P5",
+      "panel_inventario": "TAB-B-16-P5",
+      "panel_real_revit": "TB 16",
+      "panel_pos_m": {"x": -38.341, "y": 2.207},
+      "offset_mm": {"x": 13637506, "y": -2946407},
+      "dispositivos": 71,
+      "desglose": {
+        "M_ClimatizacionV": 3,
+        "M_Comunicaciones": 18,
+        "M_Iluminacion": 15,
+        "M_Interruptores": 13,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 20
+      }
+    },
+    "C14": {
+      "inventario_key": "APT-C-11-P5",
+      "panel_inventario": "TAB-C-11-P5",
+      "panel_real_revit": "TC 14",
+      "panel_pos_m": {"x": -29.736, "y": -1.741},
+      "offset_mm": {"x": 8899740, "y": -1741552},
+      "dispositivos": 60,
+      "desglose": {
+        "M_ClimatizacionV": 3,
+        "M_Comunicaciones": 14,
+        "M_Iluminacion": 13,
+        "M_Interruptores": 11,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 17
+      }
+    },
+    "D13": {
+      "inventario_key": "APT-D-12-P5",
+      "panel_inventario": "TAB-D-12-P5",
+      "panel_real_revit": "TD 13",
+      "panel_pos_m": {"x": -32.642, "y": 2.207},
+      "offset_mm": {"x": 9769958, "y": -2946669},
+      "dispositivos": 59,
+      "desglose": {
+        "M_ClimatizacionV": 3,
+        "M_Comunicaciones": 14,
+        "M_Iluminacion": 12,
+        "M_Interruptores": 11,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 17
+      }
+    },
+    "E05": {
+      "inventario_key": "APT-E-05-P5",
+      "panel_inventario": "TAB-E-05-P5",
+      "panel_real_revit": "TE 05",
+      "panel_pos_m": {"x": -5.424, "y": 0.567},
+      "offset_mm": {"x": -701765, "y": -2438835},
+      "dispositivos": 47,
+      "desglose": {
+        "M_ClimatizacionV": 2,
+        "M_Comunicaciones": 11,
+        "M_Iluminacion": 9,
+        "M_Interruptores": 8,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 15
+      }
+    },
+    "E06": {
+      "inventario_key": "APT-E-06-P5",
+      "panel_inventario": "TAB-E-06-P5",
+      "panel_real_revit": "TE 06",
+      "panel_pos_m": {"x": -5.424, "y": 2.207},
+      "offset_mm": {"x": -692918, "y": -2946364},
+      "dispositivos": 47,
+      "desglose": {
+        "M_ClimatizacionV": 2,
+        "M_Comunicaciones": 11,
+        "M_Iluminacion": 9,
+        "M_Interruptores": 8,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 15
+      }
+    },
+    "E07": {
+      "inventario_key": "APT-E-07-P5",
+      "panel_inventario": "TAB-E-07-P5",
+      "panel_real_revit": "TE 07",
+      "panel_pos_m": {"x": -10.039, "y": 0.567},
+      "offset_mm": {"x": 697072, "y": -2438004},
+      "dispositivos": 47,
+      "desglose": {
+        "M_ClimatizacionV": 2,
+        "M_Comunicaciones": 11,
+        "M_Iluminacion": 9,
+        "M_Interruptores": 8,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 15
+      }
+    },
+    "E08": {
+      "inventario_key": "APT-E-08-P5",
+      "panel_inventario": "TAB-E-08-P5",
+      "panel_real_revit": "TE 08",
+      "panel_pos_m": {"x": -9.127, "y": 2.207},
+      "offset_mm": {"x": 442065, "y": -2944781},
+      "dispositivos": 47,
+      "desglose": {
+        "M_ClimatizacionV": 2,
+        "M_Comunicaciones": 11,
+        "M_Iluminacion": 9,
+        "M_Interruptores": 8,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 15
+      }
+    },
+    "F01": {
+      "inventario_key": "APT-F-01-P5",
+      "panel_inventario": "TAB-F-01-P5",
+      "panel_real_revit": "TF 01",
+      "panel_pos_m": {"x": 6.360, "y": 0.567},
+      "offset_mm": {"x": -4260782, "y": -2438240},
+      "dispositivos": 36,
+      "desglose": {
+        "EA": 1,
+        "M_ClimatizacionV": 1,
+        "M_Comunicaciones": 8,
+        "M_Iluminacion": 8,
+        "M_Interruptores": 5,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 11
+      }
+    },
+    "F17": {
+      "inventario_key": "APT-F-17 y 03-P5",
+      "panel_inventario": "TAB-F-17 y 03-P5",
+      "panel_real_revit": "TF 17",
+      "panel_pos_m": {"x": -1.149, "y": 0.567},
+      "offset_mm": {"x": -1989029, "y": -2440816},
+      "dispositivos": 36,
+      "desglose": {
+        "EA": 1,
+        "M_ClimatizacionV": 1,
+        "M_Comunicaciones": 8,
+        "M_Iluminacion": 8,
+        "M_Interruptores": 5,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 11
+      }
+    },
+    "F18": {
+      "inventario_key": "APT-F-18 y 04-P5",
+      "panel_inventario": "TAB-F-18 y 04-P5",
+      "panel_real_revit": "TF 18",
+      "panel_pos_m": {"x": -1.149, "y": 2.207},
+      "offset_mm": {"x": -1979788, "y": -2946167},
+      "dispositivos": 36,
+      "desglose": {
+        "EA": 1,
+        "M_ClimatizacionV": 1,
+        "M_Comunicaciones": 8,
+        "M_Iluminacion": 8,
+        "M_Interruptores": 5,
+        "M_Pulsador - Interruptor": 1,
+        "M_Timbre": 1,
+        "M_Toma doble": 11
+      }
+    }
+  }
+}
