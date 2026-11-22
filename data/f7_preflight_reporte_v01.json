@@ -1,0 +1,54 @@
+{
+  "version": "v01",
+  "script": "RE7_ANALIZAR_PREFLIGHT_v01",
+  "veredicto": "NO_APTO",
+  "checks": {
+    "modelo_guardado": {
+      "estado": "OK",
+      "detalle": "Documento STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01b sin cambios sin guardar"
+    },
+    "nivel_piso5": {
+      "estado": "OK",
+      "encontrado": true,
+      "delta_mm": 0.0,
+      "detalle": "Piso 5 a 13220.0 mm (esperado 13220.0 +/- 1.0 mm)"
+    },
+    "tipos_conduit": {
+      "estado": "OK",
+      "configurados": [
+        5508657,
+        112216,
+        112216,
+        112216
+      ],
+      "validos_en_modelo": [
+        112216,
+        112217,
+        5508657
+      ],
+      "faltantes": [],
+      "detalle": "4 de 4 tipos configurados estan presentes y validos"
+    },
+    "cobertura_dispositivos": {
+      "estado": "FALLA",
+      "endpoints": 232,
+      "cubiertos": 0,
+      "cobertura": 0.0,
+      "p50_mm": 17016675.04,
+      "p95_mm": 17020417.02,
+      "max_mm": 17021550.87,
+      "detalle": "porcentaje de extremos de tramo a <= 300.0 mm XY de un dispositivo"
+    },
+    "offset_modelo": {
+      "estado": "INSUFICIENTE",
+      "n_match": 0,
+      "detalle": "pocas coincidencias (< 20) para estimar offset; revisar manualmente"
+    }
+  },
+  "resumen": {
+    "modelo_modificado": false,
+    "endpoints_planificados": 232,
+    "dispositivos_en_modelo": 709,
+    "conduits_en_modelo": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": "v01",
+  "script": "RE7_ALIGN_GLOBAL_v01",
+  "offset_global": {
+    "dx_mm": -14040050.0,
+    "dy_mm": -7991650.0
+  },
+  "verificacion_global": {
+    "endpoints": 232,
+    "cubiertos": 28,
+    "cobertura": 0.1207,
+    "p50_mm": 1640138.84,
+    "p95_mm": 1645787.3,
+    "max_mm": 1646977.4
+  },
+  "cobertura_por_apartamento": {
+    "Apartamento Tipo F 01": {
+      "endpoints": 108,
+      "cubiertos": 28,
+      "cobertura": 0.2593,
+      "p50_mm": 557.18,
+      "p95_mm": 955.33,
+      "max_mm": 1656.28
+    },
+    "Apartamento Tipo F 02": {
+      "endpoints": 124,
+      "cubiertos": 0,
+      "cobertura": 0.0,
+      "p50_mm": 1642196.57,
+      "p95_mm": 1646085.5,
+      "max_mm": 1646977.4
+    }
+  }
+}

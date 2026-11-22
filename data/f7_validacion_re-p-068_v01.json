@@ -1,0 +1,1201 @@
+{
+  "version": "v01",
+  "script": "RE7_VALIDAR_RUTEO_RE-P-068_simple",
+  "generado_utc": "2026-11-22 04:25:26",
+  "parametros": {
+    "tolerancia_coincidencia_mm": 200.0
+  },
+  "fuentes": {
+    "conduits_creados": "D:\\Work\\PROJECTS\\RevitElectrico\\data\\f7_conduits_desde_revit_v01.json",
+    "referencia_v02f": "D:\\Work\\PROJECTS\\RevitElectrico\\.claude\\worktrees\\conduit-parser\\data\\v02f\\conduits_v01.json"
+  },
+  "resumen": {
+    "conduits_creados_total": 147,
+    "tramos_referencia_total": 147,
+    "coincidencias_exactas": 147,
+    "coincidencias_proximas": 0,
+    "sin_coincidencia_creados": 0,
+    "tramos_ref_coincididos_total": 147,
+    "tramos_ref_sin_coincidir": 0,
+    "cobertura_ref_porcentaje": 100.0
+  },
+  "resultados": [
+    {
+      "conduit_id_creado": 5643464,
+      "ref_id": 5602081,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643466,
+      "ref_id": 5631529,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643468,
+      "ref_id": 5635449,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643470,
+      "ref_id": 5635463,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643472,
+      "ref_id": 5635477,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643474,
+      "ref_id": 5635495,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643476,
+      "ref_id": 5635509,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643478,
+      "ref_id": 5635525,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643480,
+      "ref_id": 5635751,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643482,
+      "ref_id": 5635789,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643484,
+      "ref_id": 5639978,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643486,
+      "ref_id": 5639980,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643488,
+      "ref_id": 5640577,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643490,
+      "ref_id": 5640913,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643492,
+      "ref_id": 5640920,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643494,
+      "ref_id": 5640928,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643496,
+      "ref_id": 5641080,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643498,
+      "ref_id": 5641127,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643500,
+      "ref_id": 5641477,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643502,
+      "ref_id": 5641490,
+      "ref_servicio": "",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643504,
+      "ref_id": 5642618,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643506,
+      "ref_id": 5642640,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643508,
+      "ref_id": 5642647,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643510,
+      "ref_id": 5642890,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643512,
+      "ref_id": 5642895,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643514,
+      "ref_id": 5643135,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643516,
+      "ref_id": 5643895,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643518,
+      "ref_id": 5644001,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643520,
+      "ref_id": 5644104,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643522,
+      "ref_id": 5645218,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643524,
+      "ref_id": 5645233,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643526,
+      "ref_id": 5645257,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643528,
+      "ref_id": 5645264,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643530,
+      "ref_id": 5645496,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643532,
+      "ref_id": 5645508,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643534,
+      "ref_id": 5646162,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643536,
+      "ref_id": 5646366,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643538,
+      "ref_id": 5646375,
+      "ref_servicio": "",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643540,
+      "ref_id": 5646415,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643542,
+      "ref_id": 5646422,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643544,
+      "ref_id": 5646473,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643546,
+      "ref_id": 5646766,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643548,
+      "ref_id": 5646775,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643550,
+      "ref_id": 5646886,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643552,
+      "ref_id": 5646899,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643554,
+      "ref_id": 5647591,
+      "ref_servicio": "",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643556,
+      "ref_id": 5647668,
+      "ref_servicio": "",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643558,
+      "ref_id": 5647896,
+      "ref_servicio": "",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643560,
+      "ref_id": 5647968,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643562,
+      "ref_id": 5648122,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643564,
+      "ref_id": 5648150,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643566,
+      "ref_id": 5648173,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643568,
+      "ref_id": 5648333,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643570,
+      "ref_id": 5648344,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643572,
+      "ref_id": 5648583,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643574,
+      "ref_id": 5648590,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643576,
+      "ref_id": 5649050,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643578,
+      "ref_id": 5649137,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643580,
+      "ref_id": 5649642,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643582,
+      "ref_id": 5651060,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643584,
+      "ref_id": 5651105,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 16.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643586,
+      "ref_id": 5651173,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 16.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643588,
+      "ref_id": 5654487,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643590,
+      "ref_id": 5654494,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643592,
+      "ref_id": 5654527,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643594,
+      "ref_id": 5655715,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643596,
+      "ref_id": 5657203,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643598,
+      "ref_id": 5658620,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643600,
+      "ref_id": 5658622,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643602,
+      "ref_id": 5658626,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643604,
+      "ref_id": 5658627,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643606,
+      "ref_id": 5658628,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643608,
+      "ref_id": 5658629,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643610,
+      "ref_id": 5658630,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643612,
+      "ref_id": 5658631,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643614,
+      "ref_id": 5658632,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643616,
+      "ref_id": 5658633,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643618,
+      "ref_id": 5658637,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643620,
+      "ref_id": 5658640,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643622,
+      "ref_id": 5658641,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643624,
+      "ref_id": 5658642,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643626,
+      "ref_id": 5658645,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643628,
+      "ref_id": 5658650,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643630,
+      "ref_id": 5658651,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643632,
+      "ref_id": 5658654,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643634,
+      "ref_id": 5658655,
+      "ref_servicio": "",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643636,
+      "ref_id": 5658656,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643638,
+      "ref_id": 5658659,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643640,
+      "ref_id": 5658660,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643642,
+      "ref_id": 5658666,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643644,
+      "ref_id": 5658667,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643646,
+      "ref_id": 5658668,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643648,
+      "ref_id": 5658673,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643650,
+      "ref_id": 5658674,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643652,
+      "ref_id": 5658680,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643654,
+      "ref_id": 5658686,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643656,
+      "ref_id": 5658687,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643658,
+      "ref_id": 5658690,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643660,
+      "ref_id": 5658691,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643662,
+      "ref_id": 5658694,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643664,
+      "ref_id": 5658695,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643666,
+      "ref_id": 5658698,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643668,
+      "ref_id": 5658699,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643670,
+      "ref_id": 5658702,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643672,
+      "ref_id": 5658705,
+      "ref_servicio": "",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643674,
+      "ref_id": 5658706,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643676,
+      "ref_id": 5658707,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643678,
+      "ref_id": 5658712,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643680,
+      "ref_id": 5658713,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643682,
+      "ref_id": 5658714,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643684,
+      "ref_id": 5658715,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643686,
+      "ref_id": 5658722,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643688,
+      "ref_id": 5658723,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643690,
+      "ref_id": 5658726,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643692,
+      "ref_id": 5658729,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643694,
+      "ref_id": 5658730,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643696,
+      "ref_id": 5658733,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643698,
+      "ref_id": 5658738,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643700,
+      "ref_id": 5658740,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643702,
+      "ref_id": 5658743,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643704,
+      "ref_id": 5658744,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643706,
+      "ref_id": 5658751,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643708,
+      "ref_id": 5658754,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 16.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643710,
+      "ref_id": 5658755,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 16.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643712,
+      "ref_id": 5658761,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643714,
+      "ref_id": 5658762,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643716,
+      "ref_id": 5658765,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643718,
+      "ref_id": 5658773,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643720,
+      "ref_id": 5658775,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643722,
+      "ref_id": 5659417,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643724,
+      "ref_id": 5659692,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643726,
+      "ref_id": 5659759,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643728,
+      "ref_id": 5659760,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643730,
+      "ref_id": 5659828,
+      "ref_servicio": "",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643732,
+      "ref_id": 5663302,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643734,
+      "ref_id": 5669090,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643736,
+      "ref_id": 5670067,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643738,
+      "ref_id": 5670072,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643740,
+      "ref_id": 5670210,
+      "ref_servicio": "FUERZA",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643742,
+      "ref_id": 5670403,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643744,
+      "ref_id": 5670539,
+      "ref_servicio": "ILUMINACION",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643746,
+      "ref_id": 5691406,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643748,
+      "ref_id": 5691502,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643750,
+      "ref_id": 5691694,
+      "ref_servicio": "TOMAS",
+      "ref_diam_mm": 21.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643752,
+      "ref_id": 5697955,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643754,
+      "ref_id": 5697958,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    },
+    {
+      "conduit_id_creado": 5643756,
+      "ref_id": 5697959,
+      "ref_servicio": "COMUNICACIONES",
+      "ref_diam_mm": 27.0,
+      "dist_endpoints_mm": 0.0,
+      "clave_match_exacto": true
+    }
+  ],
+  "tramos_ref_sin_coincidir": []
+}

@@ -1,0 +1,47 @@
+{
+  "version": "v01_TEST",
+  "script": "RE7_PREFLIGHT_PYREVIT_v01",
+  "documento": {
+    "titulo": "CENTRAL-V01_TEST",
+    "ruta": "D:/Work/PROJECTS/RevitElectrico/ArchivosBase/CENTRAL-V01_TEST.rvt",
+    "modificado": false,
+    "solo_lectura": false
+  },
+  "nivel_piso5": {
+    "encontrado": true,
+    "id": 101,
+    "nombre": "Piso 5",
+    "elevacion_mm": 13220.0,
+    "delta_mm": 0.0
+  },
+  "tipos_conduit": [
+    {"id": 112216, "nombre": "Tubo (with Fittings)", "valido": true},
+    {"id": 5508657, "nombre": "Tubo Comunicaciones", "valido": true}
+  ],
+  "conduits": [
+    {"id": 100, "tipo_id": 112216, "a_mm": [0.0, 0.0, 15930.0], "b_mm": [1000.0, 0.0, 15930.0]},
+    {"id": 101, "tipo_id": 112216, "a_mm": [1000.0, 0.0, 15930.0], "b_mm": [2000.0, 0.0, 15930.0]},
+    {"id": 102, "tipo_id": 112216, "a_mm": [2000.0, 0.0, 15930.0], "b_mm": [3000.0, 0.0, 15930.0]},
+    {"id": 103, "tipo_id": 112216, "a_mm": [3000.0, 0.0, 15930.0], "b_mm": [4000.0, 0.0, 15930.0]},
+    {"id": 104, "tipo_id": 112216, "a_mm": [4000.0, 0.0, 15930.0], "b_mm": [5000.0, 0.0, 15930.0]},
+    {"id": 105, "tipo_id": 112216, "a_mm": [5000.0, 0.0, 15930.0], "b_mm": [6000.0, 0.0, 15930.0]},
+    {"id": 106, "tipo_id": 112216, "a_mm": [6000.0, 0.0, 15930.0], "b_mm": [7000.0, 0.0, 15930.0]},
+    {"id": 107, "tipo_id": 112216, "a_mm": [7000.0, 0.0, 15930.0], "b_mm": [8000.0, 0.0, 15930.0]},
+    {"id": 108, "tipo_id": 112216, "a_mm": [8000.0, 0.0, 15930.0], "b_mm": [9000.0, 0.0, 15930.0]},
+    {"id": 109, "tipo_id": 112216, "a_mm": [9000.0, 0.0, 15930.0], "b_mm": [10000.0, 0.0, 15930.0]}
+  ],
+  "dispositivos": [
+    {"id": 10, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 0.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 11, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 1000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 12, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 2000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 13, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 3000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 14, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 4000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 15, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 5000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 16, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 6000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 17, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 7000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 18, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 8000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 19, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 9000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"},
+    {"id": 20, "categoria": "OST_ElectricalFixtures", "familia": "M_Toma doble", "tipo": "Normal", "x_mm": 10000.0, "y_mm": 0.0, "z_mm": 14220.0, "fuente_posicion": "LocationPoint"}
+  ],
+  "resumen": {"n_conduits": 10, "n_dispositivos": 11, "n_tipos_conduit": 2}
+}

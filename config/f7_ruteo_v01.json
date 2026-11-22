@@ -1,0 +1,35 @@
+{
+  "version": "v01",
+  "descripcion": "Configuracion Etapa 0 del ruteo F7 (segmentacion de polilineas + preflight de modelo)",
+  "rutas": {
+    "segmentos_f01_f02": "data/f7_segmentos_f01_f02_v01.json",
+    "segmentos_e06": "data/f7_segmentos_e06_v01.json",
+    "preflight_salida": "data/f7_preflight_v01.json",
+    "analisis_salida": "data/f7_preflight_analisis_v01.json"
+  },
+  "nivel": {
+    "nombre_esperado": "Piso 5",
+    "elevacion_m": 13.22,
+    "tolerancia_mm": 1.0
+  },
+  "tipos_conduit": {
+    "COMUNICACIONES": 5508657,
+    "TOMAS": 112216,
+    "ILUMINACION": 112216,
+    "FUERZA": 112216
+  },
+  "servicios_permitidos": ["TOMAS", "ILUMINACION", "COMUNICACIONES", "FUERZA"],
+  "tolerancias": {
+    "dedup_puntos_mm": 1.0,
+    "min_segmento_mm": 3.05,
+    "offset_mm": 50.0,
+    "dispositivo_xy_mm": 300.0,
+    "match_conduit_mm": 1000.0
+  },
+  "alturas_montaje_mm": {
+    "TOMAS": 1000,
+    "INTERRUPTORES": 1100,
+    "CAMPANA": 2400,
+    "CP": 2700
+  }
+}

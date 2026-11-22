@@ -1,0 +1,14 @@
+{
+  "conduits": [], 
+  "nivel_piso5": {
+    "elevacion_mm": 13220.0, 
+    "id": 192512, 
+    "nombre": "Piso 5", 
+    "delta_mm": 0.0, 
+    "encontrado": true
+  }, 
+  "niveles": [
+    {
+      "elevacion_mm": 220.0, 
+      "id": 933, 
+      "nombre": 

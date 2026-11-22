@@ -1,0 +1,1808 @@
+{
+  "version": "v01",
+  "script": "RE7_SEGMENTAR_CONDUITS_v01",
+  "resumen": {
+    "polilineas_entrada": 40,
+    "segmentos": 68,
+    "descartados": 0,
+    "avisos": 40,
+    "longitud_total_m": 53.373,
+    "largo_min_mm": 28.0,
+    "largo_max_mm": 3800.0,
+    "largo_medio_mm": 784.895,
+    "polilineas_con_quiebre": 26,
+    "segmentos_por_polilinea_max": 3,
+    "por_servicio": {
+      "COMUNICACIONES": 8,
+      "ILUMINACION": 39,
+      "TOMAS": 21
+    },
+    "por_apto": {
+      "Apartamento Tipo E 06": 68
+    },
+    "por_tamano": {
+      "1/2": 60,
+      "3/4": 8
+    }
+  },
+  "segmentos": [
+    {
+      "id": "RT-0001-S01",
+      "polilinea_id": "RT-0001",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "COMUNICACIONES",
+      "tamano": "3/4",
+      "diametro_mm": 21.03,
+      "handle_dxf": "EC93",
+      "a_mm": [
+        2254170.0,
+        9674923.0,
+        15930.0
+      ],
+      "b_mm": [
+        2254170.0,
+        9677792.0,
+        15930.0
+      ],
+      "largo_mm": 2869.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93
+    },
+    {
+      "id": "RT-0001-S02",
+      "polilinea_id": "RT-0001",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "COMUNICACIONES",
+      "tamano": "3/4",
+      "diametro_mm": 21.03,
+      "handle_dxf": "EC93",
+      "a_mm": [
+        2254170.0,
+        9677792.0,
+        15930.0
+      ],
+      "b_mm": [
+        2252191.0,
+        9677792.0,
+        15930.0
+      ],
+      "largo_mm": 1979.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93
+    },
+    {
+      "id": "RT-0002-S01",
+      "polilinea_id": "RT-0002",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "COMUNICACIONES",
+      "tamano": "3/4",
+      "diametro_mm": 21.03,
+      "handle_dxf": "EC92",
+      "a_mm": [
+        2254132.0,
+        9674923.0,
+        15930.0
+      ],
+      "b_mm": [
+        2254132.0,
+        9676861.0,
+        15930.0
+      ],
+      "largo_mm": 1938.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93
+    },
+    {
+      "id": "RT-0002-S02",
+      "polilinea_id": "RT-0002",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "COMUNICACIONES",
+      "tamano": "3/4",
+      "diametro_mm": 21.03,
+      "handle_dxf": "EC92",
+      "a_mm": [
+        2254132.0,
+        9676861.0,
+        15930.0
+      ],
+      "b_mm": [
+        2252432.0,
+        9676861.0,
+        15930.0
+      ],
+      "largo_mm": 1700.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93
+    },
+    {
+      "id": "RT-0003-S01",
+      "polilinea_id": "RT-0003",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "COMUNICACIONES",
+      "tamano": "3/4",
+      "diametro_mm": 21.03,
+      "handle_dxf": "ECB5",
+      "a_mm": [
+        2254223.0,
+        9674367.0,
+        15930.0
+      ],
+      "b_mm": [
+        2254371.0,
+        9674306.0,
+        15930.0
+      ],
+      "largo_mm": 160.078,
+      "origen": "puntos_2d",
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93
+    },
+    {
+      "id": "RT-0003-S02",
+      "polilinea_id": "RT-0003",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "COMUNICACIONES",
+      "tamano": "3/4",
+      "diametro_mm": 21.03,
+      "handle_dxf": "ECB5",
+      "a_mm": [
+        2254371.0,
+        9674306.0,
+        15930.0
+      ],
+      "b_mm": [
+        2254473.0,
+        9674523.0,
+        15930.0
+      ],
+      "largo_mm": 239.777,
+      "origen": "puntos_2d",
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93
+    },
+    {
+      "id": "RT-0004-S01",
+      "polilinea_id": "RT-0004",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "COMUNICACIONES",
+      "tamano": "3/4",
+      "diametro_mm": 21.03,
+      "handle_dxf": "EC99",
+      "a_mm": [
+        2254117.0,
+        9674320.0,
+        15930.0
+      ],
+      "b_mm": [
+        2254148.0,
+        9674320.0,
+        15930.0
+      ],
+      "largo_mm": 31.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93
+    },
+    {
+      "id": "RT-0004-S02",
+      "polilinea_id": "RT-0004",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "COMUNICACIONES",
+      "tamano": "3/4",
+      "diametro_mm": 21.03,
+      "handle_dxf": "EC99",
+      "a_mm": [
+        2254148.0,
+        9674320.0,
+        15930.0
+      ],
+      "b_mm": [
+        2254148.0,
+        9674423.0,
+        15930.0
+      ],
+      "largo_mm": 103.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.71,
+      "z_absoluta_m": 15.93
+    },
+    {
+      "id": "RT-0005-S01",
+      "polilinea_id": "RT-0005",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4B",
+      "a_mm": [
+        2253802.0,
+        9680173.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252142.0,
+        9680173.0,
+        15870.0
+      ],
+      "largo_mm": 1660.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0005-S02",
+      "polilinea_id": "RT-0005",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4B",
+      "a_mm": [
+        2252142.0,
+        9680173.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252142.0,
+        9679494.0,
+        15870.0
+      ],
+      "largo_mm": 679.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0006-S01",
+      "polilinea_id": "RT-0006",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC42",
+      "a_mm": [
+        2251362.0,
+        9676643.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251362.0,
+        9678193.0,
+        15870.0
+      ],
+      "largo_mm": 1550.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0006-S02",
+      "polilinea_id": "RT-0006",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC42",
+      "a_mm": [
+        2251362.0,
+        9678193.0,
+        15870.0
+      ],
+      "b_mm": [
+        2250842.0,
+        9678193.0,
+        15870.0
+      ],
+      "largo_mm": 520.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0007-S01",
+      "polilinea_id": "RT-0007",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC57",
+      "a_mm": [
+        2252722.0,
+        9677243.0,
+        15870.0
+      ],
+      "b_mm": [
+        2254711.0,
+        9677243.0,
+        15870.0
+      ],
+      "largo_mm": 1989.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0008-S01",
+      "polilinea_id": "RT-0008",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC49",
+      "a_mm": [
+        2251822.0,
+        9675583.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252667.0,
+        9675583.0,
+        15870.0
+      ],
+      "largo_mm": 845.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0008-S02",
+      "polilinea_id": "RT-0008",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC49",
+      "a_mm": [
+        2252667.0,
+        9675583.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252667.0,
+        9676582.0,
+        15870.0
+      ],
+      "largo_mm": 999.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0009-S01",
+      "polilinea_id": "RT-0009",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC41",
+      "a_mm": [
+        2251782.0,
+        9675643.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251782.0,
+        9677023.0,
+        15870.0
+      ],
+      "largo_mm": 1380.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0009-S02",
+      "polilinea_id": "RT-0009",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC41",
+      "a_mm": [
+        2251782.0,
+        9677023.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251430.0,
+        9677023.0,
+        15870.0
+      ],
+      "largo_mm": 352.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0010-S01",
+      "polilinea_id": "RT-0010",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4A",
+      "a_mm": [
+        2252442.0,
+        9676363.0,
+        15870.0
+      ],
+      "b_mm": [
+        2253796.0,
+        9676363.0,
+        15870.0
+      ],
+      "largo_mm": 1354.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0010-S02",
+      "polilinea_id": "RT-0010",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4A",
+      "a_mm": [
+        2253796.0,
+        9676363.0,
+        15870.0
+      ],
+      "b_mm": [
+        2253796.0,
+        9676704.0,
+        15870.0
+      ],
+      "largo_mm": 341.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0011-S01",
+      "polilinea_id": "RT-0011",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC5F",
+      "a_mm": [
+        2254499.0,
+        9673803.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252962.0,
+        9673803.0,
+        15870.0
+      ],
+      "largo_mm": 1537.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0012-S01",
+      "polilinea_id": "RT-0012",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4F",
+      "a_mm": [
+        2252822.0,
+        9673683.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252822.0,
+        9672710.0,
+        15870.0
+      ],
+      "largo_mm": 973.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0012-S02",
+      "polilinea_id": "RT-0012",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4F",
+      "a_mm": [
+        2252822.0,
+        9672710.0,
+        15870.0
+      ],
+      "b_mm": [
+        2253322.0,
+        9672710.0,
+        15870.0
+      ],
+      "largo_mm": 500.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0013-S01",
+      "polilinea_id": "RT-0013",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC3F",
+      "a_mm": [
+        2251722.0,
+        9675583.0,
+        15870.0
+      ],
+      "b_mm": [
+        2250638.0,
+        9675583.0,
+        15870.0
+      ],
+      "largo_mm": 1084.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0013-S02",
+      "polilinea_id": "RT-0013",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC3F",
+      "a_mm": [
+        2250638.0,
+        9675583.0,
+        15870.0
+      ],
+      "b_mm": [
+        2250638.0,
+        9675223.0,
+        15870.0
+      ],
+      "largo_mm": 360.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0014-S01",
+      "polilinea_id": "RT-0014",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC3E",
+      "a_mm": [
+        2252842.0,
+        9673923.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252842.0,
+        9674883.0,
+        15870.0
+      ],
+      "largo_mm": 960.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0014-S02",
+      "polilinea_id": "RT-0014",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC3E",
+      "a_mm": [
+        2252842.0,
+        9674883.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252440.0,
+        9674883.0,
+        15870.0
+      ],
+      "largo_mm": 402.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0015-S01",
+      "polilinea_id": "RT-0015",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC43",
+      "a_mm": [
+        2250782.0,
+        9677043.0,
+        15870.0
+      ],
+      "b_mm": [
+        2249582.0,
+        9677043.0,
+        15870.0
+      ],
+      "largo_mm": 1200.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0016-S01",
+      "polilinea_id": "RT-0016",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC3C",
+      "a_mm": [
+        2252722.0,
+        9673803.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251825.0,
+        9673803.0,
+        15870.0
+      ],
+      "largo_mm": 897.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0016-S02",
+      "polilinea_id": "RT-0016",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC3C",
+      "a_mm": [
+        2251825.0,
+        9673803.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251825.0,
+        9673504.0,
+        15870.0
+      ],
+      "largo_mm": 299.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0017-S01",
+      "polilinea_id": "RT-0017",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC55",
+      "a_mm": [
+        2250851.0,
+        9676968.0,
+        15870.0
+      ],
+      "b_mm": [
+        2250851.0,
+        9676418.0,
+        15870.0
+      ],
+      "largo_mm": 550.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0017-S02",
+      "polilinea_id": "RT-0017",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC55",
+      "a_mm": [
+        2250851.0,
+        9676418.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251296.0,
+        9676418.0,
+        15870.0
+      ],
+      "largo_mm": 445.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0018-S01",
+      "polilinea_id": "RT-0018",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "ECB1",
+      "a_mm": [
+        2252087.0,
+        9674863.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251782.0,
+        9674863.0,
+        15870.0
+      ],
+      "largo_mm": 305.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0018-S02",
+      "polilinea_id": "RT-0018",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "ECB1",
+      "a_mm": [
+        2251782.0,
+        9674863.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251782.0,
+        9675542.0,
+        15870.0
+      ],
+      "largo_mm": 679.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0019-S01",
+      "polilinea_id": "RT-0019",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC3D",
+      "a_mm": [
+        2251902.0,
+        9673403.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252382.0,
+        9673403.0,
+        15870.0
+      ],
+      "largo_mm": 480.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0019-S02",
+      "polilinea_id": "RT-0019",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC3D",
+      "a_mm": [
+        2252382.0,
+        9673403.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252382.0,
+        9673283.0,
+        15870.0
+      ],
+      "largo_mm": 120.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0020-S01",
+      "polilinea_id": "RT-0020",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC5A",
+      "a_mm": [
+        2252652.0,
+        9679383.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252652.0,
+        9679513.0,
+        15870.0
+      ],
+      "largo_mm": 130.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0020-S02",
+      "polilinea_id": "RT-0020",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC5A",
+      "a_mm": [
+        2252652.0,
+        9679513.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252206.0,
+        9679513.0,
+        15870.0
+      ],
+      "largo_mm": 446.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0021-S01",
+      "polilinea_id": "RT-0021",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC3A",
+      "a_mm": [
+        2255452.0,
+        9673803.0,
+        15870.0
+      ],
+      "b_mm": [
+        2254894.0,
+        9673803.0,
+        15870.0
+      ],
+      "largo_mm": 558.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0022-S01",
+      "polilinea_id": "RT-0022",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC61",
+      "a_mm": [
+        2252667.0,
+        9676674.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252667.0,
+        9677203.0,
+        15870.0
+      ],
+      "largo_mm": 529.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0023-S01",
+      "polilinea_id": "RT-0023",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC40",
+      "a_mm": [
+        2250712.0,
+        9675143.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251132.0,
+        9675143.0,
+        15870.0
+      ],
+      "largo_mm": 420.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0023-S02",
+      "polilinea_id": "RT-0023",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC40",
+      "a_mm": [
+        2251132.0,
+        9675143.0,
+        15870.0
+      ],
+      "b_mm": [
+        2251132.0,
+        9675115.0,
+        15870.0
+      ],
+      "largo_mm": 28.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0024-S01",
+      "polilinea_id": "RT-0024",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC63",
+      "a_mm": [
+        2251293.0,
+        9677023.0,
+        15870.0
+      ],
+      "b_mm": [
+        2250902.0,
+        9677023.0,
+        15870.0
+      ],
+      "largo_mm": 391.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0025-S01",
+      "polilinea_id": "RT-0025",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "ECA0",
+      "a_mm": [
+        2253512.0,
+        9672533.0,
+        15870.0
+      ],
+      "b_mm": [
+        2253512.0,
+        9672718.0,
+        15870.0
+      ],
+      "largo_mm": 185.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0025-S02",
+      "polilinea_id": "RT-0025",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "ECA0",
+      "a_mm": [
+        2253512.0,
+        9672718.0,
+        15870.0
+      ],
+      "b_mm": [
+        2253402.0,
+        9672718.0,
+        15870.0
+      ],
+      "largo_mm": 110.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0026-S01",
+      "polilinea_id": "RT-0026",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC58",
+      "a_mm": [
+        2252632.0,
+        9677243.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252433.0,
+        9677243.0,
+        15870.0
+      ],
+      "largo_mm": 199.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0027-S01",
+      "polilinea_id": "RT-0027",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC48",
+      "a_mm": [
+        2252337.0,
+        9674863.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252190.0,
+        9674863.0,
+        15870.0
+      ],
+      "largo_mm": 147.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0028-S01",
+      "polilinea_id": "RT-0028",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "ILUMINACION",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC5B",
+      "a_mm": [
+        2252322.0,
+        9678183.0,
+        15870.0
+      ],
+      "b_mm": [
+        2252184.0,
+        9678183.0,
+        15870.0
+      ],
+      "largo_mm": 138.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.65,
+      "z_absoluta_m": 15.87
+    },
+    {
+      "id": "RT-0029-S01",
+      "polilinea_id": "RT-0029",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC70",
+      "a_mm": [
+        2255542.0,
+        9673583.0,
+        15900.0
+      ],
+      "b_mm": [
+        2255542.0,
+        9672400.0,
+        15900.0
+      ],
+      "largo_mm": 1183.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0029-S02",
+      "polilinea_id": "RT-0029",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC70",
+      "a_mm": [
+        2255542.0,
+        9672400.0,
+        15900.0
+      ],
+      "b_mm": [
+        2251742.0,
+        9672400.0,
+        15900.0
+      ],
+      "largo_mm": 3800.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0029-S03",
+      "polilinea_id": "RT-0029",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC70",
+      "a_mm": [
+        2251742.0,
+        9672400.0,
+        15900.0
+      ],
+      "b_mm": [
+        2251741.0,
+        9672682.0,
+        15900.0
+      ],
+      "largo_mm": 282.002,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0030-S01",
+      "polilinea_id": "RT-0030",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "ECB9",
+      "a_mm": [
+        2255379.0,
+        9676561.0,
+        15900.0
+      ],
+      "b_mm": [
+        2255379.0,
+        9675142.0,
+        15900.0
+      ],
+      "largo_mm": 1419.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0030-S02",
+      "polilinea_id": "RT-0030",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "ECB9",
+      "a_mm": [
+        2255379.0,
+        9675142.0,
+        15900.0
+      ],
+      "b_mm": [
+        2254602.0,
+        9675142.0,
+        15900.0
+      ],
+      "largo_mm": 777.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0031-S01",
+      "polilinea_id": "RT-0031",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC44",
+      "a_mm": [
+        2249552.0,
+        9677113.0,
+        15900.0
+      ],
+      "b_mm": [
+        2249552.0,
+        9679193.0,
+        15900.0
+      ],
+      "largo_mm": 2080.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0032-S01",
+      "polilinea_id": "RT-0032",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC51",
+      "a_mm": [
+        2254553.0,
+        9672768.0,
+        15900.0
+      ],
+      "b_mm": [
+        2254553.0,
+        9674843.0,
+        15900.0
+      ],
+      "largo_mm": 2075.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0033-S01",
+      "polilinea_id": "RT-0033",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4E",
+      "a_mm": [
+        2255462.0,
+        9673603.0,
+        15900.0
+      ],
+      "b_mm": [
+        2255462.0,
+        9672709.0,
+        15900.0
+      ],
+      "largo_mm": 894.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0033-S02",
+      "polilinea_id": "RT-0033",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4E",
+      "a_mm": [
+        2255462.0,
+        9672709.0,
+        15900.0
+      ],
+      "b_mm": [
+        2254602.0,
+        9672709.0,
+        15900.0
+      ],
+      "largo_mm": 860.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0034-S01",
+      "polilinea_id": "RT-0034",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC59",
+      "a_mm": [
+        2252142.0,
+        9679473.0,
+        15900.0
+      ],
+      "b_mm": [
+        2252142.0,
+        9679333.0,
+        15900.0
+      ],
+      "largo_mm": 140.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0034-S02",
+      "polilinea_id": "RT-0034",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC59",
+      "a_mm": [
+        2252142.0,
+        9679333.0,
+        15900.0
+      ],
+      "b_mm": [
+        2252142.0,
+        9678207.0,
+        15900.0
+      ],
+      "largo_mm": 1126.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0035-S01",
+      "polilinea_id": "RT-0035",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4D",
+      "a_mm": [
+        2252342.0,
+        9677243.0,
+        15900.0
+      ],
+      "b_mm": [
+        2252152.0,
+        9677243.0,
+        15900.0
+      ],
+      "largo_mm": 190.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0035-S02",
+      "polilinea_id": "RT-0035",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4D",
+      "a_mm": [
+        2252152.0,
+        9677243.0,
+        15900.0
+      ],
+      "b_mm": [
+        2252152.0,
+        9678143.0,
+        15900.0
+      ],
+      "largo_mm": 900.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0036-S01",
+      "polilinea_id": "RT-0036",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "ECAD",
+      "a_mm": [
+        2253742.0,
+        9672692.0,
+        15900.0
+      ],
+      "b_mm": [
+        2253742.0,
+        9672614.0,
+        15900.0
+      ],
+      "largo_mm": 78.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0036-S02",
+      "polilinea_id": "RT-0036",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "ECAD",
+      "a_mm": [
+        2253742.0,
+        9672614.0,
+        15900.0
+      ],
+      "b_mm": [
+        2254567.0,
+        9672614.0,
+        15900.0
+      ],
+      "largo_mm": 825.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0036-S03",
+      "polilinea_id": "RT-0036",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "ECAD",
+      "a_mm": [
+        2254567.0,
+        9672614.0,
+        15900.0
+      ],
+      "b_mm": [
+        2254567.0,
+        9672684.0,
+        15900.0
+      ],
+      "largo_mm": 70.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0037-S01",
+      "polilinea_id": "RT-0037",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC4C",
+      "a_mm": [
+        2252382.0,
+        9677202.0,
+        15900.0
+      ],
+      "b_mm": [
+        2252382.0,
+        9676442.0,
+        15900.0
+      ],
+      "largo_mm": 760.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0038-S01",
+      "polilinea_id": "RT-0038",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC54",
+      "a_mm": [
+        2254492.0,
+        9675143.0,
+        15900.0
+      ],
+      "b_mm": [
+        2254064.0,
+        9675143.0,
+        15900.0
+      ],
+      "largo_mm": 428.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0038-S02",
+      "polilinea_id": "RT-0038",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC54",
+      "a_mm": [
+        2254064.0,
+        9675143.0,
+        15900.0
+      ],
+      "b_mm": [
+        2254064.0,
+        9675027.0,
+        15900.0
+      ],
+      "largo_mm": 116.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0039-S01",
+      "polilinea_id": "RT-0039",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC50",
+      "a_mm": [
+        2254512.0,
+        9672728.0,
+        15900.0
+      ],
+      "b_mm": [
+        2254054.0,
+        9672728.0,
+        15900.0
+      ],
+      "largo_mm": 458.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    },
+    {
+      "id": "RT-0040-S01",
+      "polilinea_id": "RT-0040",
+      "apto": "Apartamento Tipo E 06",
+      "servicio": "TOMAS",
+      "tamano": "1/2",
+      "diametro_mm": 15.85,
+      "handle_dxf": "EC53",
+      "a_mm": [
+        2254552.0,
+        9675084.0,
+        15900.0
+      ],
+      "b_mm": [
+        2254552.0,
+        9674933.0,
+        15900.0
+      ],
+      "largo_mm": 151.0,
+      "origen": "puntos_2d",
+      "cota_m": 2.68,
+      "z_absoluta_m": 15.9
+    }
+  ],
+  "descartados": [],
+  "avisos": [
+    {
+      "polilinea_id": "RT-0001",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=4.849 vs computed=4.848m"
+    },
+    {
+      "polilinea_id": "RT-0002",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=3.637 vs computed=3.638m"
+    },
+    {
+      "polilinea_id": "RT-0003",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.4 vs computed=0.4m"
+    },
+    {
+      "polilinea_id": "RT-0004",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.134 vs computed=0.134m"
+    },
+    {
+      "polilinea_id": "RT-0005",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=2.339 vs computed=2.339m"
+    },
+    {
+      "polilinea_id": "RT-0006",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=2.07 vs computed=2.07m"
+    },
+    {
+      "polilinea_id": "RT-0007",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.989 vs computed=1.989m"
+    },
+    {
+      "polilinea_id": "RT-0008",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.844 vs computed=1.844m"
+    },
+    {
+      "polilinea_id": "RT-0009",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.732 vs computed=1.732m"
+    },
+    {
+      "polilinea_id": "RT-0010",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.695 vs computed=1.695m"
+    },
+    {
+      "polilinea_id": "RT-0011",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.537 vs computed=1.537m"
+    },
+    {
+      "polilinea_id": "RT-0012",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.473 vs computed=1.473m"
+    },
+    {
+      "polilinea_id": "RT-0013",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.444 vs computed=1.444m"
+    },
+    {
+      "polilinea_id": "RT-0014",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.362 vs computed=1.362m"
+    },
+    {
+      "polilinea_id": "RT-0015",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.2 vs computed=1.2m"
+    },
+    {
+      "polilinea_id": "RT-0016",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.197 vs computed=1.196m"
+    },
+    {
+      "polilinea_id": "RT-0017",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.996 vs computed=0.995m"
+    },
+    {
+      "polilinea_id": "RT-0018",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.984 vs computed=0.984m"
+    },
+    {
+      "polilinea_id": "RT-0019",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.6 vs computed=0.6m"
+    },
+    {
+      "polilinea_id": "RT-0020",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.576 vs computed=0.576m"
+    },
+    {
+      "polilinea_id": "RT-0021",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.558 vs computed=0.558m"
+    },
+    {
+      "polilinea_id": "RT-0022",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.529 vs computed=0.529m"
+    },
+    {
+      "polilinea_id": "RT-0023",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.448 vs computed=0.448m"
+    },
+    {
+      "polilinea_id": "RT-0024",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.391 vs computed=0.391m"
+    },
+    {
+      "polilinea_id": "RT-0025",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.295 vs computed=0.295m"
+    },
+    {
+      "polilinea_id": "RT-0026",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.199 vs computed=0.199m"
+    },
+    {
+      "polilinea_id": "RT-0027",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.147 vs computed=0.147m"
+    },
+    {
+      "polilinea_id": "RT-0028",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.138 vs computed=0.138m"
+    },
+    {
+      "polilinea_id": "RT-0029",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=5.265 vs computed=5.265m"
+    },
+    {
+      "polilinea_id": "RT-0030",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=2.196 vs computed=2.196m"
+    },
+    {
+      "polilinea_id": "RT-0031",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=2.08 vs computed=2.08m"
+    },
+    {
+      "polilinea_id": "RT-0032",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=2.075 vs computed=2.075m"
+    },
+    {
+      "polilinea_id": "RT-0033",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.754 vs computed=1.754m"
+    },
+    {
+      "polilinea_id": "RT-0034",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.267 vs computed=1.266m"
+    },
+    {
+      "polilinea_id": "RT-0035",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=1.09 vs computed=1.09m"
+    },
+    {
+      "polilinea_id": "RT-0036",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.972 vs computed=0.973m"
+    },
+    {
+      "polilinea_id": "RT-0037",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.76 vs computed=0.76m"
+    },
+    {
+      "polilinea_id": "RT-0038",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.543 vs computed=0.544m"
+    },
+    {
+      "polilinea_id": "RT-0039",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.458 vs computed=0.458m"
+    },
+    {
+      "polilinea_id": "RT-0040",
+      "tipo": "largo_mm_en_metros",
+      "detalle": "declarado=0.151 vs computed=0.151m"
+    }
+  ],
+  "ids_unicos": true,
+  "generado_utc": "2026-11-22 04:02:56",
+  "fuente": {
+    "archivo": "D:\\Work\\PROJECTS\\RevitElectrico\\data\\conduits_dxf_v01_E06.json",
+    "sha256": "37ff730e158e47b8f6f1d29887f6f9781fea67b97699a91499fa420a0808076f",
+    "bytes": 48064
+  },
+  "parametros": {
+    "dedup_mm": 1.0,
+    "min_segmento_mm": 3.05
+  }
+}
