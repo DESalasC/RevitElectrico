@@ -1,0 +1,1974 @@
+{
+  "version": "v02",
+  "script": "RE7_ANALIZAR_UNIONES_v02",
+  "generado_utc": "2026-11-22 06:14:28",
+  "parametros": {
+    "tolerancia_mm": 100.0,
+    "primeros_conduits": "todos",
+    "total_conduits_analizados": 147,
+    "celda_mm": 100.0
+  },
+  "resumen": {
+    "puntos_union_detectados": 42,
+    "conduits_con_union": 77,
+    "por_tipo_accesorio": {
+      "Conduit Coupling": 8,
+      "Conduit Elbow": 20,
+      "Conduit Junction Box - Tee": 5,
+      "M_Caja de conexiones hexagonal": 9
+    }
+  },
+  "puntos_union": [
+    {
+      "punto_mm": [
+        10471.27,
+        1600.33,
+        13523.33
+      ],
+      "conduit_ids": [
+        5643632,
+        5643634
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Coupling",
+      "cambio_direccion": false,
+      "angulos_grados": [],
+      "max_desv\u00edo_mm": 43.91,
+      "miembros": [
+        {
+          "conduit_id": 5643632,
+          "extremo": "B",
+          "punto_mm": [
+            10471.27,
+            1620.98,
+            13562.08
+          ]
+        },
+        {
+          "conduit_id": 5643634,
+          "extremo": "A",
+          "punto_mm": [
+            10471.27,
+            1559.02,
+            13523.33
+          ]
+        },
+        {
+          "conduit_id": 5643634,
+          "extremo": "B",
+          "punto_mm": [
+            10471.27,
+            1620.98,
+            13523.33
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        10471.27,
+        16084.75,
+        13523.33
+      ],
+      "conduit_ids": [
+        5643500,
+        5643502
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Coupling",
+      "cambio_direccion": false,
+      "angulos_grados": [],
+      "max_desv\u00edo_mm": 43.91,
+      "miembros": [
+        {
+          "conduit_id": 5643500,
+          "extremo": "B",
+          "punto_mm": [
+            10471.27,
+            16064.1,
+            13562.08
+          ]
+        },
+        {
+          "conduit_id": 5643502,
+          "extremo": "A",
+          "punto_mm": [
+            10471.27,
+            16126.06,
+            13523.33
+          ]
+        },
+        {
+          "conduit_id": 5643502,
+          "extremo": "B",
+          "punto_mm": [
+            10471.27,
+            16064.1,
+            13523.33
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        10662.1,
+        1620.98,
+        14082.08
+      ],
+      "conduit_ids": [
+        5643630,
+        5643636
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Coupling",
+      "cambio_direccion": false,
+      "angulos_grados": [],
+      "max_desv\u00edo_mm": 82.64,
+      "miembros": [
+        {
+          "conduit_id": 5643630,
+          "extremo": "A",
+          "punto_mm": [
+            10681.32,
+            1620.98,
+            14162.46
+          ]
+        },
+        {
+          "conduit_id": 5643636,
+          "extremo": "A",
+          "punto_mm": [
+            10623.67,
+            1620.98,
+            14082.08
+          ]
+        },
+        {
+          "conduit_id": 5643636,
+          "extremo": "B",
+          "punto_mm": [
+            10681.32,
+            1620.98,
+            14082.08
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        10662.1,
+        16064.1,
+        14082.08
+      ],
+      "conduit_ids": [
+        5643498,
+        5643504
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Coupling",
+      "cambio_direccion": false,
+      "angulos_grados": [],
+      "max_desv\u00edo_mm": 82.64,
+      "miembros": [
+        {
+          "conduit_id": 5643498,
+          "extremo": "A",
+          "punto_mm": [
+            10681.32,
+            16064.1,
+            14162.46
+          ]
+        },
+        {
+          "conduit_id": 5643504,
+          "extremo": "A",
+          "punto_mm": [
+            10623.67,
+            16064.1,
+            14082.08
+          ]
+        },
+        {
+          "conduit_id": 5643504,
+          "extremo": "B",
+          "punto_mm": [
+            10681.32,
+            16064.1,
+            14082.08
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        10995.24,
+        6841.87,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643600,
+        5643670,
+        5643674
+      ],
+      "num_conduits": 3,
+      "tipo_accesorio_recomendado": "Conduit Junction Box - Tee",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        89.4,
+        179.3,
+        89.9
+      ],
+      "max_desv\u00edo_mm": 65.55,
+      "miembros": [
+        {
+          "conduit_id": 5643600,
+          "extremo": "B",
+          "punto_mm": [
+            11051.45,
+            6847.93,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643670,
+          "extremo": "B",
+          "punto_mm": [
+            11003.35,
+            6848.45,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643674,
+          "extremo": "B",
+          "punto_mm": [
+            10930.92,
+            6829.23,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        10995.24,
+        10843.21,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643466,
+        5643538,
+        5643542
+      ],
+      "num_conduits": 3,
+      "tipo_accesorio_recomendado": "Conduit Junction Box - Tee",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        89.4,
+        179.3,
+        89.9
+      ],
+      "max_desv\u00edo_mm": 65.55,
+      "miembros": [
+        {
+          "conduit_id": 5643466,
+          "extremo": "B",
+          "punto_mm": [
+            11051.45,
+            10837.15,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643538,
+          "extremo": "B",
+          "punto_mm": [
+            11003.35,
+            10836.63,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643542,
+          "extremo": "B",
+          "punto_mm": [
+            10930.92,
+            10855.85,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11016.45,
+        1984.23,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643610,
+        5643612,
+        5643628,
+        5643638
+      ],
+      "num_conduits": 4,
+      "tipo_accesorio_recomendado": "M_Caja de conexiones hexagonal",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        90.0,
+        180.0,
+        90.0,
+        90.0,
+        180.0,
+        90.0
+      ],
+      "max_desv\u00edo_mm": 66.32,
+      "miembros": [
+        {
+          "conduit_id": 5643610,
+          "extremo": "B",
+          "punto_mm": [
+            11081.34,
+            1997.88,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643612,
+          "extremo": "A",
+          "punto_mm": [
+            11025.3,
+            2036.84,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643628,
+          "extremo": "B",
+          "punto_mm": [
+            10960.75,
+            1964.54,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643638,
+          "extremo": "A",
+          "punto_mm": [
+            10998.39,
+            1937.65,
+            15922.08
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11016.45,
+        15692.52,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643476,
+        5643478,
+        5643496,
+        5643506
+      ],
+      "num_conduits": 4,
+      "tipo_accesorio_recomendado": "M_Caja de conexiones hexagonal",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        90.0,
+        180.0,
+        90.0,
+        90.0,
+        180.0,
+        90.0
+      ],
+      "max_desv\u00edo_mm": 65.12,
+      "miembros": [
+        {
+          "conduit_id": 5643476,
+          "extremo": "B",
+          "punto_mm": [
+            11081.34,
+            15687.2,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643478,
+          "extremo": "A",
+          "punto_mm": [
+            11025.3,
+            15648.25,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643496,
+          "extremo": "B",
+          "punto_mm": [
+            10960.75,
+            15687.2,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643506,
+          "extremo": "A",
+          "punto_mm": [
+            10998.39,
+            15747.44,
+            15922.08
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11037.44,
+        4567.78,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643606,
+        5643612,
+        5643708
+      ],
+      "num_conduits": 3,
+      "tipo_accesorio_recomendado": "Conduit Junction Box - Tee",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        90.0,
+        180.0,
+        90.0
+      ],
+      "max_desv\u00edo_mm": 41.43,
+      "miembros": [
+        {
+          "conduit_id": 5643606,
+          "extremo": "A",
+          "punto_mm": [
+            11075.88,
+            4583.25,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643612,
+          "extremo": "B",
+          "punto_mm": [
+            11025.3,
+            4536.84,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643708,
+          "extremo": "B",
+          "punto_mm": [
+            11011.16,
+            4583.25,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11037.44,
+        13126.94,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643472,
+        5643478,
+        5643584
+      ],
+      "num_conduits": 3,
+      "tipo_accesorio_recomendado": "Conduit Junction Box - Tee",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        90.0,
+        180.0,
+        90.0
+      ],
+      "max_desv\u00edo_mm": 38.62,
+      "miembros": [
+        {
+          "conduit_id": 5643472,
+          "extremo": "A",
+          "punto_mm": [
+            11075.88,
+            13130.75,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643478,
+          "extremo": "B",
+          "punto_mm": [
+            11025.3,
+            13148.25,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643584,
+          "extremo": "B",
+          "punto_mm": [
+            11011.16,
+            13101.83,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11488.86,
+        10263.02,
+        15970.0
+      ],
+      "conduit_ids": [
+        5643546,
+        5643580
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 45.38,
+      "miembros": [
+        {
+          "conduit_id": 5643546,
+          "extremo": "B",
+          "punto_mm": [
+            11470.73,
+            10221.42,
+            15970.0
+          ]
+        },
+        {
+          "conduit_id": 5643580,
+          "extremo": "B",
+          "punto_mm": [
+            11507.0,
+            10304.62,
+            15970.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11509.5,
+        7422.06,
+        15970.0
+      ],
+      "conduit_ids": [
+        5643678,
+        5643704
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 41.67,
+      "miembros": [
+        {
+          "conduit_id": 5643678,
+          "extremo": "B",
+          "punto_mm": [
+            11512.0,
+            7463.66,
+            15970.0
+          ]
+        },
+        {
+          "conduit_id": 5643704,
+          "extremo": "B",
+          "punto_mm": [
+            11507.0,
+            7380.46,
+            15970.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11656.24,
+        10092.71,
+        288220.0
+      ],
+      "conduit_ids": [
+        5643554,
+        5643556
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 23.21,
+      "miembros": [
+        {
+          "conduit_id": 5643554,
+          "extremo": "B",
+          "punto_mm": [
+            11648.07,
+            10070.98,
+            288220.0
+          ]
+        },
+        {
+          "conduit_id": 5643556,
+          "extremo": "B",
+          "punto_mm": [
+            11664.4,
+            10114.44,
+            288220.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11661.9,
+        7422.06,
+        15817.6
+      ],
+      "conduit_ids": [
+        5643682,
+        5643702
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 41.67,
+      "miembros": [
+        {
+          "conduit_id": 5643682,
+          "extremo": "B",
+          "punto_mm": [
+            11664.4,
+            7463.66,
+            15817.6
+          ]
+        },
+        {
+          "conduit_id": 5643702,
+          "extremo": "A",
+          "punto_mm": [
+            11659.4,
+            7380.46,
+            15817.6
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11661.9,
+        7499.73,
+        14916.83
+      ],
+      "conduit_ids": [
+        5643682,
+        5643686,
+        5643692,
+        5643702
+      ],
+      "num_conduits": 4,
+      "tipo_accesorio_recomendado": "M_Caja de conexiones hexagonal",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_desv\u00edo_mm": 126.24,
+      "miembros": [
+        {
+          "conduit_id": 5643682,
+          "extremo": "A",
+          "punto_mm": [
+            11664.4,
+            7463.66,
+            14899.68
+          ]
+        },
+        {
+          "conduit_id": 5643686,
+          "extremo": "A",
+          "punto_mm": [
+            11664.4,
+            7614.07,
+            14929.18
+          ]
+        },
+        {
+          "conduit_id": 5643692,
+          "extremo": "A",
+          "punto_mm": [
+            11659.4,
+            7540.73,
+            14916.83
+          ]
+        },
+        {
+          "conduit_id": 5643702,
+          "extremo": "B",
+          "punto_mm": [
+            11659.4,
+            7380.46,
+            14875.53
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11661.9,
+        10185.35,
+        14916.83
+      ],
+      "conduit_ids": [
+        5643550,
+        5643560,
+        5643566,
+        5643578
+      ],
+      "num_conduits": 4,
+      "tipo_accesorio_recomendado": "M_Caja de conexiones hexagonal",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_desv\u00edo_mm": 126.24,
+      "miembros": [
+        {
+          "conduit_id": 5643550,
+          "extremo": "A",
+          "punto_mm": [
+            11664.4,
+            10221.42,
+            14899.68
+          ]
+        },
+        {
+          "conduit_id": 5643560,
+          "extremo": "A",
+          "punto_mm": [
+            11664.4,
+            10071.02,
+            14929.18
+          ]
+        },
+        {
+          "conduit_id": 5643566,
+          "extremo": "A",
+          "punto_mm": [
+            11659.4,
+            10144.35,
+            14916.83
+          ]
+        },
+        {
+          "conduit_id": 5643578,
+          "extremo": "B",
+          "punto_mm": [
+            11659.4,
+            10304.62,
+            14875.53
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11661.9,
+        10185.35,
+        15776.33
+      ],
+      "conduit_ids": [
+        5643550,
+        5643560,
+        5643566,
+        5643578
+      ],
+      "num_conduits": 4,
+      "tipo_accesorio_recomendado": "M_Caja de conexiones hexagonal",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_desv\u00edo_mm": 126.23,
+      "miembros": [
+        {
+          "conduit_id": 5643550,
+          "extremo": "B",
+          "punto_mm": [
+            11664.4,
+            10221.42,
+            15776.33
+          ]
+        },
+        {
+          "conduit_id": 5643560,
+          "extremo": "B",
+          "punto_mm": [
+            11664.4,
+            10071.02,
+            15775.51
+          ]
+        },
+        {
+          "conduit_id": 5643566,
+          "extremo": "B",
+          "punto_mm": [
+            11659.4,
+            10144.35,
+            15726.33
+          ]
+        },
+        {
+          "conduit_id": 5643578,
+          "extremo": "A",
+          "punto_mm": [
+            11659.4,
+            10304.62,
+            15817.6
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11672.67,
+        5067.05,
+        14159.39
+      ],
+      "conduit_ids": [
+        5643616,
+        5643646
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 45.95,
+      "miembros": [
+        {
+          "conduit_id": 5643616,
+          "extremo": "B",
+          "punto_mm": [
+            11667.42,
+            5090.12,
+            14120.0
+          ]
+        },
+        {
+          "conduit_id": 5643646,
+          "extremo": "B",
+          "punto_mm": [
+            11677.92,
+            5043.99,
+            14159.39
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11674.91,
+        5085.28,
+        15767.6
+      ],
+      "conduit_ids": [
+        5643616,
+        5643646,
+        5643718
+      ],
+      "num_conduits": 3,
+      "tipo_accesorio_recomendado": "Conduit Junction Box - Tee",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        0.0,
+        90.0,
+        90.0
+      ],
+      "max_desv\u00edo_mm": 97.38,
+      "miembros": [
+        {
+          "conduit_id": 5643616,
+          "extremo": "A",
+          "punto_mm": [
+            11667.42,
+            5090.12,
+            15767.6
+          ]
+        },
+        {
+          "conduit_id": 5643646,
+          "extremo": "A",
+          "punto_mm": [
+            11677.92,
+            5043.99,
+            15792.6
+          ]
+        },
+        {
+          "conduit_id": 5643718,
+          "extremo": "B",
+          "punto_mm": [
+            11679.4,
+            5121.73,
+            15677.41
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11678.74,
+        12619.0,
+        14205.0
+      ],
+      "conduit_ids": [
+        5643482,
+        5643514
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 15.36,
+      "miembros": [
+        {
+          "conduit_id": 5643482,
+          "extremo": "B",
+          "punto_mm": [
+            11693.07,
+            12616.67,
+            14200.0
+          ]
+        },
+        {
+          "conduit_id": 5643514,
+          "extremo": "B",
+          "punto_mm": [
+            11664.4,
+            12621.33,
+            14205.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11678.74,
+        12619.0,
+        15792.6
+      ],
+      "conduit_ids": [
+        5643482,
+        5643514
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 28.91,
+      "miembros": [
+        {
+          "conduit_id": 5643482,
+          "extremo": "A",
+          "punto_mm": [
+            11693.07,
+            12616.67,
+            15767.6
+          ]
+        },
+        {
+          "conduit_id": 5643514,
+          "extremo": "A",
+          "punto_mm": [
+            11664.4,
+            12621.33,
+            15792.6
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11757.45,
+        12504.17,
+        15953.3
+      ],
+      "conduit_ids": [
+        5643722,
+        5643752
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 30.15,
+      "miembros": [
+        {
+          "conduit_id": 5643722,
+          "extremo": "B",
+          "punto_mm": [
+            11767.45,
+            12476.67,
+            15953.3
+          ]
+        },
+        {
+          "conduit_id": 5643752,
+          "extremo": "B",
+          "punto_mm": [
+            11747.45,
+            12531.67,
+            15946.02
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        11913.78,
+        12504.17,
+        15953.3
+      ],
+      "conduit_ids": [
+        5643722,
+        5643752
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 34.77,
+      "miembros": [
+        {
+          "conduit_id": 5643722,
+          "extremo": "A",
+          "punto_mm": [
+            11893.78,
+            12476.67,
+            15953.3
+          ]
+        },
+        {
+          "conduit_id": 5643752,
+          "extremo": "A",
+          "punto_mm": [
+            11933.78,
+            12531.67,
+            15946.02
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12107.45,
+        9144.98,
+        15897.2
+      ],
+      "conduit_ids": [
+        5643724,
+        5643754
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 36.52,
+      "miembros": [
+        {
+          "conduit_id": 5643724,
+          "extremo": "B",
+          "punto_mm": [
+            12087.45,
+            9117.39,
+            15897.2
+          ]
+        },
+        {
+          "conduit_id": 5643754,
+          "extremo": "B",
+          "punto_mm": [
+            12127.45,
+            9172.57,
+            15884.05
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12107.45,
+        10017.69,
+        15897.2
+      ],
+      "conduit_ids": [
+        5643724,
+        5643754
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 36.52,
+      "miembros": [
+        {
+          "conduit_id": 5643724,
+          "extremo": "A",
+          "punto_mm": [
+            12087.45,
+            9990.11,
+            15897.2
+          ]
+        },
+        {
+          "conduit_id": 5643754,
+          "extremo": "A",
+          "punto_mm": [
+            12127.45,
+            10045.28,
+            15884.05
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12107.45,
+        10311.92,
+        15953.3
+      ],
+      "conduit_ids": [
+        5643726,
+        5643756
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 34.77,
+      "miembros": [
+        {
+          "conduit_id": 5643726,
+          "extremo": "B",
+          "punto_mm": [
+            12087.45,
+            10284.42,
+            15953.3
+          ]
+        },
+        {
+          "conduit_id": 5643756,
+          "extremo": "B",
+          "punto_mm": [
+            12127.45,
+            10339.42,
+            15946.02
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12107.45,
+        12310.5,
+        15953.3
+      ],
+      "conduit_ids": [
+        5643726,
+        5643756
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 34.77,
+      "miembros": [
+        {
+          "conduit_id": 5643726,
+          "extremo": "A",
+          "punto_mm": [
+            12087.45,
+            12283.0,
+            15953.3
+          ]
+        },
+        {
+          "conduit_id": 5643756,
+          "extremo": "A",
+          "punto_mm": [
+            12127.45,
+            12337.99,
+            15946.02
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12853.31,
+        2017.36,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643608,
+        5643610
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        90.0
+      ],
+      "max_desv\u00edo_mm": 34.13,
+      "miembros": [
+        {
+          "conduit_id": 5643608,
+          "extremo": "B",
+          "punto_mm": [
+            12881.34,
+            2036.84,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643610,
+          "extremo": "A",
+          "punto_mm": [
+            12825.28,
+            1997.88,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12853.31,
+        15667.72,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643474,
+        5643476
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        90.0
+      ],
+      "max_desv\u00edo_mm": 34.13,
+      "miembros": [
+        {
+          "conduit_id": 5643474,
+          "extremo": "B",
+          "punto_mm": [
+            12881.34,
+            15648.25,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643476,
+          "extremo": "A",
+          "punto_mm": [
+            12825.28,
+            15687.2,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12867.59,
+        7232.94,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643598,
+        5643602,
+        5643618,
+        5643696
+      ],
+      "num_conduits": 4,
+      "tipo_accesorio_recomendado": "M_Caja de conexiones hexagonal",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        42.0,
+        138.1,
+        48.0,
+        179.8,
+        90.0,
+        90.1
+      ],
+      "max_desv\u00edo_mm": 71.64,
+      "miembros": [
+        {
+          "conduit_id": 5643598,
+          "extremo": "B",
+          "punto_mm": [
+            12861.09,
+            7245.64,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643602,
+          "extremo": "A",
+          "punto_mm": [
+            12903.97,
+            7171.23,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643618,
+          "extremo": "B",
+          "punto_mm": [
+            12883.35,
+            7257.43,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643696,
+          "extremo": "B",
+          "punto_mm": [
+            12821.95,
+            7257.48,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12867.59,
+        10451.88,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643464,
+        5643468,
+        5643486,
+        5643570
+      ],
+      "num_conduits": 4,
+      "tipo_accesorio_recomendado": "M_Caja de conexiones hexagonal",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        42.0,
+        138.0,
+        48.0,
+        180.0,
+        90.0,
+        90.0
+      ],
+      "max_desv\u00edo_mm": 70.97,
+      "miembros": [
+        {
+          "conduit_id": 5643464,
+          "extremo": "B",
+          "punto_mm": [
+            12861.09,
+            10439.44,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643468,
+          "extremo": "A",
+          "punto_mm": [
+            12903.97,
+            10512.82,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643486,
+          "extremo": "B",
+          "punto_mm": [
+            12883.35,
+            10427.66,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643570,
+          "extremo": "B",
+          "punto_mm": [
+            12821.95,
+            10427.61,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12879.23,
+        13111.5,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643470,
+        5643472,
+        5643474,
+        5643490,
+        5643736
+      ],
+      "num_conduits": 5,
+      "tipo_accesorio_recomendado": "M_Caja de conexiones hexagonal",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        90.0,
+        180.0,
+        90.0,
+        90.0,
+        90.0,
+        180.0,
+        0.0,
+        90.0,
+        90.0,
+        180.0
+      ],
+      "max_desv\u00edo_mm": 51.66,
+      "miembros": [
+        {
+          "conduit_id": 5643470,
+          "extremo": "B",
+          "punto_mm": [
+            12907.51,
+            13071.12,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643472,
+          "extremo": "B",
+          "punto_mm": [
+            12841.08,
+            13130.75,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643474,
+          "extremo": "A",
+          "punto_mm": [
+            12881.34,
+            13148.25,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643490,
+          "extremo": "B",
+          "punto_mm": [
+            12925.15,
+            13130.75,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643736,
+          "extremo": "A",
+          "punto_mm": [
+            12841.08,
+            13076.67,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12890.43,
+        4580.05,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643604,
+        5643606,
+        5643608,
+        5643622,
+        5643740
+      ],
+      "num_conduits": 5,
+      "tipo_accesorio_recomendado": "M_Caja de conexiones hexagonal",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        90.0,
+        180.0,
+        60.0,
+        120.0,
+        0.0,
+        90.0,
+        30.0,
+        150.0,
+        90.0,
+        120.0,
+        60.0,
+        180.0,
+        180.0,
+        60.0,
+        120.0
+      ],
+      "max_desv\u00edo_mm": 77.47,
+      "miembros": [
+        {
+          "conduit_id": 5643604,
+          "extremo": "B",
+          "punto_mm": [
+            12907.51,
+            4613.97,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643606,
+          "extremo": "B",
+          "punto_mm": [
+            12841.08,
+            4583.25,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643608,
+          "extremo": "A",
+          "punto_mm": [
+            12881.34,
+            4536.84,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643622,
+          "extremo": "A",
+          "punto_mm": [
+            12938.69,
+            4546.52,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643622,
+          "extremo": "B",
+          "punto_mm": [
+            12925.15,
+            4554.34,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643740,
+          "extremo": "B",
+          "punto_mm": [
+            12848.83,
+            4645.4,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12905.74,
+        5902.6,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643602,
+        5643604
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Coupling",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        180.0
+      ],
+      "max_desv\u00edo_mm": 48.66,
+      "miembros": [
+        {
+          "conduit_id": 5643602,
+          "extremo": "B",
+          "punto_mm": [
+            12903.97,
+            5951.23,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643604,
+          "extremo": "A",
+          "punto_mm": [
+            12907.51,
+            5853.97,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        12905.74,
+        11782.49,
+        15920.0
+      ],
+      "conduit_ids": [
+        5643468,
+        5643470
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Coupling",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        180.0
+      ],
+      "max_desv\u00edo_mm": 48.66,
+      "miembros": [
+        {
+          "conduit_id": 5643468,
+          "extremo": "B",
+          "punto_mm": [
+            12903.97,
+            11733.85,
+            15920.0
+          ]
+        },
+        {
+          "conduit_id": 5643470,
+          "extremo": "A",
+          "punto_mm": [
+            12907.51,
+            11831.12,
+            15920.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        13856.03,
+        3121.18,
+        14266.14
+      ],
+      "conduit_ids": [
+        5643716,
+        5643720
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        90.0
+      ],
+      "max_desv\u00edo_mm": 47.16,
+      "miembros": [
+        {
+          "conduit_id": 5643716,
+          "extremo": "B",
+          "punto_mm": [
+            13848.83,
+            3127.84,
+            14266.14
+          ]
+        },
+        {
+          "conduit_id": 5643720,
+          "extremo": "B",
+          "punto_mm": [
+            13863.22,
+            3114.52,
+            14220.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        13856.03,
+        14563.9,
+        14266.14
+      ],
+      "conduit_ids": [
+        5643592,
+        5643596
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        90.0
+      ],
+      "max_desv\u00edo_mm": 47.16,
+      "miembros": [
+        {
+          "conduit_id": 5643592,
+          "extremo": "B",
+          "punto_mm": [
+            13848.83,
+            14557.25,
+            14266.14
+          ]
+        },
+        {
+          "conduit_id": 5643596,
+          "extremo": "B",
+          "punto_mm": [
+            13863.22,
+            14570.56,
+            14220.0
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        13860.7,
+        5156.57,
+        13963.98
+      ],
+      "conduit_ids": [
+        5643652,
+        5643654
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        90.1
+      ],
+      "max_desv\u00edo_mm": 54.42,
+      "miembros": [
+        {
+          "conduit_id": 5643652,
+          "extremo": "B",
+          "punto_mm": [
+            13860.7,
+            5127.65,
+            13963.98
+          ]
+        },
+        {
+          "conduit_id": 5643654,
+          "extremo": "A",
+          "punto_mm": [
+            13860.7,
+            5185.49,
+            13917.88
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        13860.7,
+        5967.53,
+        13916.85
+      ],
+      "conduit_ids": [
+        5643654,
+        5643656
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Coupling",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        179.9
+      ],
+      "max_desv\u00edo_mm": 42.04,
+      "miembros": [
+        {
+          "conduit_id": 5643654,
+          "extremo": "B",
+          "punto_mm": [
+            13860.7,
+            5925.49,
+            13916.85
+          ]
+        },
+        {
+          "conduit_id": 5643656,
+          "extremo": "A",
+          "punto_mm": [
+            13860.7,
+            6009.57,
+            13916.73
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        13860.7,
+        11717.55,
+        13916.85
+      ],
+      "conduit_ids": [
+        5643522,
+        5643524
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Coupling",
+      "cambio_direccion": false,
+      "angulos_grados": [
+        179.9
+      ],
+      "max_desv\u00edo_mm": 42.04,
+      "miembros": [
+        {
+          "conduit_id": 5643522,
+          "extremo": "B",
+          "punto_mm": [
+            13860.7,
+            11759.59,
+            13916.85
+          ]
+        },
+        {
+          "conduit_id": 5643524,
+          "extremo": "A",
+          "punto_mm": [
+            13860.7,
+            11675.52,
+            13916.73
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        13860.7,
+        12529.7,
+        13964.0
+      ],
+      "conduit_ids": [
+        5643520,
+        5643522
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        90.0
+      ],
+      "max_desv\u00edo_mm": 55.08,
+      "miembros": [
+        {
+          "conduit_id": 5643520,
+          "extremo": "B",
+          "punto_mm": [
+            13860.7,
+            12559.81,
+            13964.0
+          ]
+        },
+        {
+          "conduit_id": 5643522,
+          "extremo": "A",
+          "punto_mm": [
+            13860.7,
+            12499.59,
+            13917.88
+          ]
+        }
+      ]
+    },
+    {
+      "punto_mm": [
+        14079.31,
+        10092.71,
+        288220.0
+      ],
+      "conduit_ids": [
+        5643554,
+        5643556
+      ],
+      "num_conduits": 2,
+      "tipo_accesorio_recomendado": "Conduit Elbow",
+      "cambio_direccion": true,
+      "angulos_grados": [
+        0.0
+      ],
+      "max_desv\u00edo_mm": 21.73,
+      "miembros": [
+        {
+          "conduit_id": 5643554,
+          "extremo": "A",
+          "punto_mm": [
+            14079.31,
+            10070.98,
+            288220.0
+          ]
+        },
+        {
+          "conduit_id": 5643556,
+          "extremo": "A",
+          "punto_mm": [
+            14079.31,
+            10114.44,
+            288220.0
+          ]
+        }
+      ]
+    }
+  ]
+}
