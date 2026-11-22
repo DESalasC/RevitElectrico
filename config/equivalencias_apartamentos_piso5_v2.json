@@ -1,0 +1,35 @@
+{
+  "version": "2026-11-22",
+  "description": "Equivalencias completas Apartamento_JSON -> Panel_Revit. Base para todos los scripts de colocacion. NOMBRES IGUALES AL JSON XPL (con espacio).",
+  "apartamentos": {
+    "F01": {"panel_revit": "TF 01", "tipo": "F01/F02 (Piloto)", "techo_id": 2764963, "techo_z_ft": 51.9, "estado": "VALIDADO 37/37 v16.2"},
+    "F02": {"panel_revit": "TF 02", "tipo": "F01/F02 (Piloto)", "techo_id": 2766313, "techo_z_ft": 51.9, "estado": "VALIDADO 37/37 v16.2"},
+    "F17": {"panel_revit": "TF 17", "tipo": "Estándar", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente"},
+    "F18": {"panel_revit": "TF 18", "tipo": "Estándar", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente"},
+    "F17a": {"panel_revit": "F17a", "tipo": "Variante F17", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"},
+    "F18a": {"panel_revit": "F18a", "tipo": "Variante F18", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"},
+    "TF 01a": {"panel_revit": "TF 01a", "tipo": "Variante TF 01", "techo_id": null, "techo_z_ft": null, "estado": "TOMAS_OK 23/23"},
+    "TF 01b": {"panel_revit": "TF 01b", "tipo": "Variante TF 01", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"},
+    "TF 02": {"panel_revit": "TF 02", "tipo": "Estándar", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"},
+    "TF 02a": {"panel_revit": "TF 02a", "tipo": "Variante TF 02", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"},
+    "TF 02b": {"panel_revit": "TF 02b", "tipo": "Variante TF 02", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"},
+    "E05": {"panel_revit": "TE 05", "tipo": "Tipo E", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12 (RE-P-059)"},
+    "E06": {"panel_revit": "TE 06", "tipo": "Tipo E", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12 (RE-P-059)"},
+    "E07": {"panel_revit": "TE 07", "tipo": "Tipo E", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12 (bloqueado RE-P-059/060)"},
+    "E07a": {"panel_revit": "TE 07a", "tipo": "Variante E07", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12 (bloqueado RE-P-059)"},
+    "E08": {"panel_revit": "TE 08", "tipo": "Tipo E", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12 (bloqueado RE-P-059/060)"},
+    "E08a": {"panel_revit": "TE 08a", "tipo": "Variante E08", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12 (bloqueado RE-P-059)"},
+    "B15": {"panel_revit": "TB 15", "tipo": "Tipo B", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"},
+    "B16": {"panel_revit": "TB 16", "tipo": "Tipo B", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"},
+    "C14": {"panel_revit": "TC 14", "tipo": "Tipo C", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"},
+    "D13": {"panel_revit": "TD 13", "tipo": "Tipo D", "techo_id": null, "techo_z_ft": null, "estado": "Pendiente v12"}
+  },
+  "orden_ejecucion_sugerido": [
+    "TF 01a", "TF 01b", "TF 02", "TF 02a", "TF 02b",
+    "F17", "F18", "F17a", "F18a",
+    "B15", "B16", "C14", "D13",
+    "E05", "E06", "E07", "E07a", "E08", "E08a"
+  ],
+  "apartamentos_intocables": ["F01", "F02"],
+  "apartamentos_ya_procesados": []
+}

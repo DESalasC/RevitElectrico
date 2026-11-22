@@ -30,7 +30,7 @@ import json
 import math
 import traceback
 
-APTO_OBJETIVO = 'C14'
+APTO_OBJETIVO = 'B15'
 JSON_PATH = r"D:\Work\PROJECTS\RevitElectrico\data\dxf_electricos_xpl_absolutos.json"
 
 NIVEL_PISO5_ELEV_MM = 13219.0
