@@ -1,0 +1,33 @@
+{
+  "descripcion": "Fixture del router por servicios v01: clasificacion, MST Manhattan, cocina y datos.",
+  "dispositivos": [
+    {"id": 1, "x": 1000.0, "y": 1000.0, "z": 15720.0, "mark": "F01|TF 01|I1", "familia": "M_Iluminacion", "tipo": "Luminaria"},
+    {"id": 2, "x": 4000.0, "y": 1000.0, "z": 15720.0, "mark": "F01|TF 01|I1", "familia": "M_Iluminacion", "tipo": "Luminaria"},
+    {"id": 3, "x": 2500.0, "y": 3000.0, "z": 15720.0, "mark": "F01|TF 01|I1", "familia": "M_Iluminacion", "tipo": "Luminaria"},
+    {"id": 4, "x": 1200.0, "y": 800.0, "z": 14320.0, "mark": "F01|TF 01|I1", "familia": "M_Interruptores", "tipo": "Simple"},
+    {"id": 5, "x": 5000.0, "y": 3000.0, "z": 13920.0, "mark": "F01|TF 01|C1", "familia": "M_Toma doble", "tipo": "Toma GFCI"},
+    {"id": 6, "x": 5000.0, "y": 3000.0, "z": 14270.0, "mark": "F01|TF 01|C1", "familia": "M_Toma doble", "tipo": "Toma GFCI"},
+    {"id": 7, "x": 6000.0, "y": 6000.0, "z": 14220.0, "mark": "F01|TF 01|C2", "familia": "M_Toma doble", "tipo": "Toma doble"},
+    {"id": 8, "x": 7000.0, "y": 6000.0, "z": 14220.0, "mark": "F01|TF 01|D1", "familia": "M_Comunicaciones", "tipo": "Comunicaciones"},
+    {"id": 9, "x": 7100.0, "y": 6000.0, "z": 14220.0, "mark": "F01|TF 01|D1", "familia": "M_Comunicaciones", "tipo": "Comunicaciones"},
+    {"id": 10, "x": 6500.0, "y": 6500.0, "z": 15120.0, "mark": "F01|TF 01|V1", "familia": "EA", "tipo": "Extractor"}
+  ],
+  "ids_cocina": [5, 6],
+  "esperado": {
+    "mst_aristas_4_nodos": 3,
+    "segmentos_mst_min": 3,
+    "dedup_gfci": 1,
+    "alturas_cocina": [700.0, 1050.0],
+    "grupos_datos": 1,
+    "servicios": {
+      "M_Iluminacion": "ILUMINACION",
+      "M_Interruptores": "ILUMINACION",
+      "M_ClimatizacionV": "ILUMINACION",
+      "EA": "VENTILACION",
+      "M_Toma doble": "TOMAS",
+      "M_Comunicaciones": "COMUNICACIONES",
+      "M_Timbre": null,
+      "Consolidation_Point": null
+    }
+  }
+}
