@@ -1,0 +1,21 @@
+{
+  "descripcion": "Fixture del analisis del sello V02-f: red minima y puntos de control.",
+  "red_nuestra": [
+    {"a": [0.0, 0.0, 15930.0], "b": [3000.0, 0.0, 15930.0]},
+    {"a": [3000.0, 0.0, 15930.0], "b": [3000.0, 2000.0, 15930.0]}
+  ],
+  "red_v02f": [
+    {"a": [0.0, 0.0, 15930.0], "b": [3000.0, 0.0, 15930.0]},
+    {"a": [3000.0, 0.0, 15930.0], "b": [3000.0, 2000.0, 15930.0]},
+    {"a": [1000.0, 1000.0, 15930.0], "b": [2000.0, 1000.0, 15930.0]}
+  ],
+  "red_v02f_lejos": [
+    {"a": [0.0, 5000.0, 15930.0], "b": [3000.0, 5000.0, 15930.0]}
+  ],
+  "esperado": {
+    "cobertura_identica_pct_300": 100.0,
+    "cobertura_tramo_extra_pct_300": 0.0,
+    "emparejados_identicos": 2,
+    "emparejados_desplazados": 0
+  }
+}

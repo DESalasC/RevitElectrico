@@ -1,0 +1,60 @@
+{
+ "version": "v01",
+ "generado_utc": "2026-11-23 02:37:21",
+ "marco_aparatos": {
+  "puntos": 90,
+  "mediana_mm": 141.8,
+  "p90_mm": 390.2,
+  "max_mm": 13005.1,
+  "pct_dentro_150": 56.7
+ },
+ "red_real": {
+  "conduits_totales": 156,
+  "descartados_fuera": 4,
+  "tramos_en_area": 152,
+  "longitud_m": 141.74,
+  "verticales": 44,
+  "puntos_verticales": 42,
+  "horizontales": 105,
+  "z_horizontales": {
+   "15900": 67,
+   "13500": 2,
+   "14100": 2,
+   "16000": 22,
+   "13900": 4,
+   "14900": 2,
+   "14300": 2,
+   "14200": 4
+  },
+  "diametros": {
+   "27.0": 52,
+   "21.0": 96,
+   "16.0": 4
+  }
+ },
+ "cobertura_real_por_nuestra": {
+  "puntos": 1513,
+  "mediana_mm": 144.1,
+  "p90_mm": 459.1,
+  "max_mm": 1156.3,
+  "pct_dentro_300": 74.7,
+  "pct_dentro_150": 52.4
+ },
+ "nuestra_red": {
+  "tramos": 136,
+  "longitud_m": 183.27
+ },
+ "cobertura_real_por_derivado": {
+  "puntos": 1513,
+  "mediana_mm": 0.0,
+  "p90_mm": 0.0,
+  "max_mm": 733.4,
+  "pct_dentro_300": 97.8,
+  "pct_dentro_150": 97.2
+ },
+ "fidelidad_derivado": {
+  "tramos_derivado_en_area": 143,
+  "emparejados_50mm": 141,
+  "sin_par": 2
+ }
+}
