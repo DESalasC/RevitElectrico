@@ -145,6 +145,10 @@ def main():
         log("ERROR: no hay documento activo.")
         return 1
     log("documento=%r" % doc.Title)
+    if "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c" not in doc.Title:
+        log("ABORTADO: el documento activo no es el de trabajo "
+            "(CENTRAL-V01c). No se toca %r." % doc.Title)
+        return 1
 
     inp = leer_inputs()
     if not inp.get("confirmar"):

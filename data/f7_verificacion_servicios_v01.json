@@ -1,0 +1,22 @@
+{
+ "version": "v01_verificar_servicios", 
+ "plan": "D:\\Work\\PROJECTS\\RevitElectrico\\data\\f7_creado_servicios_F01_F02_v01.json", 
+ "por_servicio_modelo": [
+  "COMUNICACIONES", 
+  "ILUMINACION", 
+  "TOMAS", 
+  "VENTILACION"
+ ], 
+ "conduits_modelo": 84, 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "veredicto": "OK", 
+ "generado_utc": "2026-11-23 03:27:19", 
+ "resultado": {
+  "ok": 84, 
+  "mal_extremos": [], 
+  "mal_servicio": [], 
+  "sin_conduit": [], 
+  "mal_diam": [], 
+  "sobrantes": []
+ }
+}

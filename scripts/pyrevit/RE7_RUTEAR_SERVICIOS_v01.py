@@ -512,6 +512,10 @@ def main():
 
     trans = None
     if not dry_run:
+        if "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c" not in doc.Title:
+            log("ABORTADO: el documento activo no es el de trabajo "
+                "(CENTRAL-V01c). No se crea en %r." % doc.Title)
+            return 1
         trans = Transaction(doc, "RE7_RUTEAR_SERVICIOS_v01")
         trans.Start()
 
