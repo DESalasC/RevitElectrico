@@ -26,3 +26,7 @@ _archivo/
 # Carpetas temporales de pytest
 .pytest_temps/
 .pytest_tmp/
+# Temporales de trabajo (scratch de la sesion)
+.tmp_*.py
+# Clon de la herramienta rvt-mcp (se instala en %LOCALAPPDATA%)
+rvt-mcp/

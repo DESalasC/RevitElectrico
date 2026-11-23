@@ -8,29 +8,31 @@
   "longitud_m": 97.798
  },
  "programado": {
-  "archivo": "data\\f7_ruteo_creado_F01_F02_v03.json",
-  "tramos": 116,
-  "longitud_m": 183.3,
+  "archivo": "data\\f7_creado_ruteo_F01_F02_v09.json",
+  "tramos": 136,
+  "longitud_m": 183.265,
   "por_tipo": {
-   "riser_datos": 12,
-   "riser": 33,
-   "ramal": 6,
-   "cocina_riser": 12,
-   "cocina_ramal": 3,
-   "horizontal": 48,
+   "riser_datos": 10,
+   "ramal_datos": 3,
+   "riser": 27,
+   "ramal": 23,
+   "cocina_vertical": 8,
+   "cocina_riser": 2,
+   "cocina_ramal": 27,
+   "horizontal": 34,
    "bajada_pau": 2
   }
  },
  "distancia": {
   "puntos": 1042,
-  "mediana_m": 0.094,
-  "p90_m": 0.3683,
-  "p99_m": 0.7905,
-  "max_m": 1.031,
-  "pct_dentro_030": 85.22
+  "mediana_m": 0.1148,
+  "p90_m": 0.4564,
+  "p99_m": 0.9291,
+  "max_m": 1.1563,
+  "pct_dentro_030": 79.94
  },
  "verticales": {
   "referencia": 31,
-  "programado": 59
+  "programado": 49
  }
 }
