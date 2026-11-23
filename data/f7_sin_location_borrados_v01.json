@@ -1,0 +1,666 @@
+{
+ "por_categoria": {
+  "CommunicationDevices": 2, 
+  "MechanicalEquipment": 3, 
+  "TelephoneDevices": 2, 
+  "LightingFixtures": 3, 
+  "ElectricalFixtures": 19, 
+  "DataDevices": 4
+ }, 
+ "dispositivos": [
+  {
+   "familia": null, 
+   "id": 5482481, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -61.0, 
+     -122.0, 
+     -25.0
+    ], 
+    "max": [
+     61.0, 
+     7.0999999999999996, 
+     -0.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5486732, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -38.100000000000001, 
+     -0.10000000000000001, 
+     1100.0999999999999
+    ], 
+    "max": [
+     38.100000000000001, 
+     177.80000000000001, 
+     1219.2000000000000
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5486734, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -38.100000000000001, 
+     -0.10000000000000001, 
+     1100.0999999999999
+    ], 
+    "max": [
+     38.100000000000001, 
+     177.80000000000001, 
+     1219.2000000000000
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5486736, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -38.100000000000001, 
+     -0.10000000000000001, 
+     1100.0999999999999
+    ], 
+    "max": [
+     38.100000000000001, 
+     177.80000000000001, 
+     1219.2000000000000
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5486738, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -38.100000000000001, 
+     -0.10000000000000001, 
+     1100.0999999999999
+    ], 
+    "max": [
+     38.100000000000001, 
+     177.80000000000001, 
+     1219.2000000000000
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5486740, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -38.100000000000001, 
+     -0.10000000000000001, 
+     980.89999999999998
+    ], 
+    "max": [
+     38.100000000000001, 
+     177.80000000000001, 
+     1100.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5486742, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -38.100000000000001, 
+     -0.10000000000000001, 
+     1100.0999999999999
+    ], 
+    "max": [
+     38.100000000000001, 
+     177.80000000000001, 
+     1219.2000000000000
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5486744, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -38.100000000000001, 
+     -0.10000000000000001, 
+     1100.0999999999999
+    ], 
+    "max": [
+     38.100000000000001, 
+     177.80000000000001, 
+     1219.2000000000000
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5487991, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -107.5, 
+     -34.899999999999999, 
+     -54.0
+    ], 
+    "max": [
+     90.0, 
+     34.899999999999999, 
+     4.7999999999999998
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5487993, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -107.5, 
+     -34.899999999999999, 
+     -54.0
+    ], 
+    "max": [
+     90.0, 
+     34.899999999999999, 
+     4.7999999999999998
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5489354, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -34.899999999999999, 
+     -57.200000000000003, 
+     -54.0
+    ], 
+    "max": [
+     34.899999999999999, 
+     57.200000000000003, 
+     4.7999999999999998
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5490716, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -61.0, 
+     -122.0, 
+     -25.0
+    ], 
+    "max": [
+     61.0, 
+     7.0999999999999996, 
+     -0.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5494253, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -58.899999999999999, 
+     -51.0, 
+     -0.0
+    ], 
+    "max": [
+     58.899999999999999, 
+     51.0, 
+     38.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5494255, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": null, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5494257, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": null, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5494259, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": null, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5546302, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -75.0, 
+     -102.40000000000001, 
+     -54.0
+    ], 
+    "max": [
+     90.0, 
+     92.5, 
+     4.7999999999999998
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5547406, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -1.3999999999999999, 
+     0.0, 
+     247.5
+    ], 
+    "max": [
+     164.5, 
+     189.80000000000001, 
+     362.5
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5548770, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "ElectricalFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -34.899999999999999, 
+     -57.200000000000003, 
+     -54.0
+    ], 
+    "max": [
+     34.899999999999999, 
+     57.200000000000003, 
+     4.7999999999999998
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5491807, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "LightingFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -609.60000000000002, 
+     -609.60000000000002, 
+     -607.60000000000002
+    ], 
+    "max": [
+     609.60000000000002, 
+     609.60000000000002, 
+     1000.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5491809, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "LightingFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -609.60000000000002, 
+     -609.60000000000002, 
+     -607.60000000000002
+    ], 
+    "max": [
+     609.60000000000002, 
+     609.60000000000002, 
+     1000.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5491811, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "LightingFixtures", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -609.60000000000002, 
+     -609.60000000000002, 
+     -607.60000000000002
+    ], 
+    "max": [
+     609.60000000000002, 
+     609.60000000000002, 
+     1000.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5477549, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "DataDevices", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -153.90000000000001, 
+     -270.0, 
+     -0.0
+    ], 
+    "max": [
+     154.80000000000001, 
+     267.19999999999999, 
+     49.100000000000001
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5477551, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "DataDevices", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -90.5, 
+     -101.80000000000000, 
+     -0.0
+    ], 
+    "max": [
+     91.099999999999994, 
+     101.40000000000001, 
+     63.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5477553, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "DataDevices", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -90.700000000000003, 
+     -150.0, 
+     -0.0
+    ], 
+    "max": [
+     91.0, 
+     162.40000000000001, 
+     63.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5477555, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "DataDevices", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": null, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5483751, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "TelephoneDevices", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -914.39999999999998, 
+     -2.0, 
+     -54.0
+    ], 
+    "max": [
+     3.8999999999999999, 
+     939.70000000000005, 
+     4.7999999999999998
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5483753, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "TelephoneDevices", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": null, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5475319, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "CommunicationDevices", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -75.099999999999994, 
+     -75.099999999999994, 
+     -0.0
+    ], 
+    "max": [
+     75.099999999999994, 
+     75.099999999999994, 
+     64.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5476604, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "CommunicationDevices", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     -30.0, 
+     -28.5, 
+     -45.5
+    ], 
+    "max": [
+     30.0, 
+     28.5, 
+     31.0
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5493030, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "MechanicalEquipment", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": {
+    "min": [
+     50.5, 
+     -75.0, 
+     1747.5999999999999
+    ], 
+    "max": [
+     199.5, 
+     110.0, 
+     1896.5999999999999
+    ]
+   }, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5493032, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "MechanicalEquipment", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": null, 
+   "nivel": null
+  }, 
+  {
+   "familia": null, 
+   "id": 5493034, 
+   "tipo": null, 
+   "host_id": null, 
+   "categoria": "MechanicalEquipment", 
+   "comment": null, 
+   "mark": null, 
+   "bbox": null, 
+   "nivel": null
+  }
+ ], 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "generado_utc": "2026-11-22 23:48:43", 
+ "total": 33, 
+ "aviso": "Lista de dispositivos sin Location ANTES de borrar", 
+ "version": "v01_borrar_sin_location"
+}

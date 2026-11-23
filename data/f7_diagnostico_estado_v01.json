@@ -1,0 +1,49 @@
+{
+ "version": "v01_diagnostico", 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "total_dispositivos": 893, 
+ "conduits": 126, 
+ "conduit_fittings": 6, 
+ "ruta": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c.rvt", 
+ "is_modified": true, 
+ "por_categoria": {
+  "CommunicationDevices": 31, 
+  "TelephoneDevices": 189, 
+  "MechanicalEquipment": 13, 
+  "LightingFixtures": 193, 
+  "ElectricalFixtures": 455, 
+  "DataDevices": 12
+ }, 
+ "marks": {
+  "con_mark_apartamento": 838, 
+  "sin_location": 33, 
+  "por_apartamento": {
+   "F17": 42, 
+   "C14": 54, 
+   "E07": 48, 
+   "D13": 53, 
+   "F02A": 33, 
+   "E07A": 43, 
+   "F01": 39, 
+   "E05": 41, 
+   "F01B": 33, 
+   "F01A": 33, 
+   "F02B": 29, 
+   "E08": 49, 
+   "F02": 39, 
+   "F18A": 33, 
+   "E06": 49, 
+   "F18": 35, 
+   "B15": 49, 
+   "F17A": 30, 
+   "E08A": 40, 
+   "B16": 66
+  }, 
+  "con_mark": 843
+ }, 
+ "z_rango": [
+  -0.0, 
+  15920.0
+ ], 
+ "generado_utc": "2026-11-22 23:54:14"
+}

@@ -1,0 +1,78 @@
+{
+ "errores": [
+  {
+   "id": 5669414, 
+   "fase": "datos", 
+   "err": "The referenced object is not valid, possibly because it has been deleted from the database, or its c"
+  }, 
+  {
+   "id": 5669520, 
+   "fase": "datos", 
+   "err": "The referenced object is not valid, possibly because it has been deleted from the database, or its c"
+  }, 
+  {
+   "id": 5669724, 
+   "fase": "datos", 
+   "err": "The referenced object is not valid, possibly because it has been deleted from the database, or its c"
+  }, 
+  {
+   "id": 5669942, 
+   "fase": "datos", 
+   "err": "The referenced object is not valid, possibly because it has been deleted from the database, or its c"
+  }, 
+  {
+   "id": 5670300, 
+   "fase": "datos", 
+   "err": "The referenced object is not valid, possibly because it has been deleted from the database, or its c"
+  }, 
+  {
+   "id": 5659061, 
+   "fase": "datos", 
+   "err": "The referenced object is not valid, possibly because it has been deleted from the database, or its c"
+  }, 
+  {
+   "id": 5659075, 
+   "fase": "datos", 
+   "err": "The referenced object is not valid, possibly because it has been deleted from the database, or its c"
+  }, 
+  {
+   "id": 5669320, 
+   "fase": "cocina", 
+   "err": "The referenced object is not valid, possibly because it has been deleted from the database, or its c"
+  }
+ ], 
+ "tipos_conduit": [
+  {
+   "id": 112216, 
+   "nombre": "TuboE", 
+   "size_readonly": null, 
+   "size": null
+  }, 
+  {
+   "id": 112217, 
+   "nombre": "Tuberia", 
+   "size_readonly": null, 
+   "size": null
+  }, 
+  {
+   "id": 5508657, 
+   "nombre": "TuboC", 
+   "size_readonly": null, 
+   "size": null
+  }
+ ], 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "resumen": {
+  "datos_pares": 84, 
+  "cocinas_reconstruidas": 106, 
+  "cocina_segmentos": 217, 
+  "cocina_borrados": 164, 
+  "diam_ok": 979, 
+  "datos_borrados": 145, 
+  "diam_fail": 0, 
+  "conduits_totales": 890
+ }, 
+ "generado_utc": "2026-11-23 00:19:23", 
+ "version": "v01_corregir_red", 
+ "diametro_readonly": false
+}

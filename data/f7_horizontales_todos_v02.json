@@ -1,0 +1,257 @@
+{
+ "fallos": [], 
+ "por_apartamento": {
+  "C14": {
+   "grupos": 41, 
+   "cp": [
+    -28270.599999999999, 
+    4487.3999999999996
+   ], 
+   "diametros_ok": 38, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 54, 
+   "risers": 45, 
+   "tramos_ok": 38
+  }, 
+  "D13": {
+   "grupos": 39, 
+   "cp": [
+    -28270.599999999999, 
+    12826.900000000000
+   ], 
+   "diametros_ok": 38, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 53, 
+   "risers": 45, 
+   "tramos_ok": 38
+  }, 
+  "E07": {
+   "grupos": 32, 
+   "cp": [
+    -4585.8999999999996, 
+    6064.3999999999996
+   ], 
+   "diametros_ok": 30, 
+   "tramos_fallo": 0, 
+   "cp_origen": "CPB", 
+   "huerfanos": 0, 
+   "dispositivos": 48, 
+   "risers": 39, 
+   "tramos_ok": 30
+  }, 
+  "E07A": {
+   "grupos": 37, 
+   "cp": [
+    -40140.400000000001, 
+    5059.3999999999996
+   ], 
+   "diametros_ok": 34, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 43, 
+   "risers": 41, 
+   "tramos_ok": 34
+  }, 
+  "F02A": {
+   "grupos": 26, 
+   "cp": [
+    -14203.400000000000, 
+    12476.700000000001
+   ], 
+   "diametros_ok": 23, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 33, 
+   "risers": 29, 
+   "tramos_ok": 23
+  }, 
+  "E05": {
+   "grupos": 31, 
+   "cp": [
+    3253.6999999999998, 
+    4108.1000000000004
+   ], 
+   "diametros_ok": 27, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 41, 
+   "risers": 39, 
+   "tramos_ok": 27
+  }, 
+  "F01B": {
+   "grupos": 29, 
+   "cp": [
+    -21982.5, 
+    5172.3999999999996
+   ], 
+   "diametros_ok": 26, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 33, 
+   "risers": 32, 
+   "tramos_ok": 26
+  }, 
+  "F01A": {
+   "grupos": 27, 
+   "cp": [
+    -14203.400000000000, 
+    5168.3999999999996
+   ], 
+   "diametros_ok": 24, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 33, 
+   "risers": 30, 
+   "tramos_ok": 24
+  }, 
+  "F02B": {
+   "grupos": 22, 
+   "cp": [
+    -20907.0, 
+    12486.700000000001
+   ], 
+   "diametros_ok": 22, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 29, 
+   "risers": 25, 
+   "tramos_ok": 22
+  }, 
+  "E08": {
+   "grupos": 32, 
+   "cp": [
+    -4585.8999999999996, 
+    11560.700000000001
+   ], 
+   "diametros_ok": 30, 
+   "tramos_fallo": 0, 
+   "cp_origen": "CPB", 
+   "huerfanos": 0, 
+   "dispositivos": 49, 
+   "risers": 39, 
+   "tramos_ok": 30
+  }, 
+  "F17A": {
+   "grupos": 28, 
+   "cp": [
+    -17990.099999999999, 
+    5251.5
+   ], 
+   "diametros_ok": 29, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 30, 
+   "risers": 30, 
+   "tramos_ok": 29
+  }, 
+  "E08A": {
+   "grupos": 35, 
+   "cp": [
+    -40140.400000000001, 
+    12985.5
+   ], 
+   "diametros_ok": 31, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 40, 
+   "risers": 39, 
+   "tramos_ok": 31
+  }, 
+  "B16": {
+   "grupos": 51, 
+   "cp": [
+    -47790.5, 
+    12783.100000000000
+   ], 
+   "diametros_ok": 52, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 66, 
+   "risers": 59, 
+   "tramos_ok": 52
+  }, 
+  "E06": {
+   "grupos": 34, 
+   "cp": [
+    5396.8999999999996, 
+    11560.700000000001
+   ], 
+   "diametros_ok": 32, 
+   "tramos_fallo": 0, 
+   "cp_origen": "CPB", 
+   "huerfanos": 0, 
+   "dispositivos": 49, 
+   "risers": 40, 
+   "tramos_ok": 32
+  }, 
+  "B15": {
+   "grupos": 44, 
+   "cp": [
+    -47717.099999999999, 
+    4936.8999999999996
+   ], 
+   "diametros_ok": 44, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 49, 
+   "risers": 49, 
+   "tramos_ok": 44
+  }, 
+  "F18A": {
+   "grupos": 26, 
+   "cp": [
+    -17223.400000000001, 
+    12526.700000000001
+   ], 
+   "diametros_ok": 23, 
+   "tramos_fallo": 0, 
+   "cp_origen": "mediana", 
+   "huerfanos": 0, 
+   "dispositivos": 33, 
+   "risers": 31, 
+   "tramos_ok": 23
+  }
+ }, 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "resumen": {
+  "conduits_totales": 1393, 
+  "omitidos": [
+   {
+    "horizontales_existentes": 25, 
+    "apto": "F01"
+   }, 
+   {
+    "horizontales_existentes": 35, 
+    "apto": "F02"
+   }, 
+   {
+    "horizontales_existentes": 25, 
+    "apto": "F17"
+   }, 
+   {
+    "horizontales_existentes": 36, 
+    "apto": "F18"
+   }
+  ], 
+  "tramos_fallo": 0, 
+  "huerfanos": 0, 
+  "tramos_ok": 503
+ }, 
+ "generado_utc": "2026-11-23 00:20:42", 
+ "huerfanos_detalle": [], 
+ "version": "v02_horiz_todos"
+}

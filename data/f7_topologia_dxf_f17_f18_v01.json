@@ -1,0 +1,3998 @@
+{
+  "fuente": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-T5-P5_bloques_electricos-XPL.dxf",
+  "tolerancias": {
+    "extremo_mm": 300.0,
+    "sobre_linea_mm": 200.0
+  },
+  "capas_conducto": [
+    "ELEC-POWER- PIPE",
+    "ELEC-LIGHT-PIPE",
+    "ELEC-Powr-Pipe-Idem Piso",
+    "ELEC-APPL-NETWORD"
+  ],
+  "aparatos": [
+    {
+      "idx": 0,
+      "bloque": "ELEC-EXT",
+      "x": 10360.263,
+      "y": 10525.369,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 1,
+      "bloque": "ELEC-T-D-t-15A",
+      "x": 10270.974,
+      "y": 13111.335,
+      "apto": "F18",
+      "rot": 270.0
+    },
+    {
+      "idx": 2,
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x": 9829.63,
+      "y": 16156.891,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 3,
+      "bloque": "ELEC-T-D-t-15A",
+      "x": 9834.815,
+      "y": 16022.579,
+      "apto": "F18",
+      "rot": 180.0
+    },
+    {
+      "idx": 4,
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x": 9881.614,
+      "y": 12060.773,
+      "apto": "F18",
+      "rot": 180.0
+    },
+    {
+      "idx": 5,
+      "bloque": "ELEC-NET-PAU",
+      "x": 8624.238,
+      "y": 12507.394,
+      "apto": "F18",
+      "rot": 270.0
+    },
+    {
+      "idx": 6,
+      "bloque": "ELEC-TIMBRE",
+      "x": 7548.811,
+      "y": 9505.198,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 7,
+      "bloque": "ELEC-CAMPANA",
+      "x": 7314.057,
+      "y": 9672.698,
+      "apto": "F18",
+      "rot": 180.0
+    },
+    {
+      "idx": 8,
+      "bloque": "ELEC-I-S-2-5A",
+      "x": 8634.22,
+      "y": 12488.947,
+      "apto": "F18",
+      "rot": 90.0
+    },
+    {
+      "idx": 9,
+      "bloque": "ELEC-I-S-1-5A",
+      "x": 7544.387,
+      "y": 9724.198,
+      "apto": "F18",
+      "rot": 270.0
+    },
+    {
+      "idx": 10,
+      "bloque": "ELEC-I-S-1-5A",
+      "x": 9639.536,
+      "y": 15972.274,
+      "apto": "F18",
+      "rot": 180.0
+    },
+    {
+      "idx": 11,
+      "bloque": "ELEC-I-S-1-5A",
+      "x": 8844.741,
+      "y": 11244.339,
+      "apto": "F18",
+      "rot": 270.0
+    },
+    {
+      "idx": 12,
+      "bloque": "ELEC-F-VENT",
+      "x": 8300.289,
+      "y": 14406.626,
+      "apto": "F18",
+      "rot": 300.0
+    },
+    {
+      "idx": 13,
+      "bloque": "ELEC-F-CONTROL",
+      "x": 8623.281,
+      "y": 12671.516,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 14,
+      "bloque": "ELEC-TEL",
+      "x": 8682.318,
+      "y": 12548.148,
+      "apto": "F18",
+      "rot": 90.0
+    },
+    {
+      "idx": 15,
+      "bloque": "ELEC-TEL",
+      "x": 8682.318,
+      "y": 12698.132,
+      "apto": "F18",
+      "rot": 90.0
+    },
+    {
+      "idx": 16,
+      "bloque": "ELEC-TEL",
+      "x": 8682.318,
+      "y": 12408.74,
+      "apto": "F18",
+      "rot": 90.0
+    },
+    {
+      "idx": 17,
+      "bloque": "ELEC-T-D-t-15A",
+      "x": 8685.774,
+      "y": 12308.867,
+      "apto": "F18",
+      "rot": 90.0
+    },
+    {
+      "idx": 18,
+      "bloque": "ELEC-EXT",
+      "x": 10038.096,
+      "y": 10549.2,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 19,
+      "bloque": "Bala Stil Led 22W",
+      "x": 7580.698,
+      "y": 11792.657,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 20,
+      "bloque": "Bala Stil Led 22W",
+      "x": 7572.2,
+      "y": 10491.506,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 21,
+      "bloque": "Bala Stil Led 10W",
+      "x": 7585.236,
+      "y": 15702.657,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 22,
+      "bloque": "Bala Stil Led 10W",
+      "x": 9443.786,
+      "y": 15702.657,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 23,
+      "bloque": "Bala Stil Led 10W",
+      "x": 7580.698,
+      "y": 13122.657,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 24,
+      "bloque": "Bala Stil Led 10W",
+      "x": 9439.248,
+      "y": 13122.657,
+      "apto": "F18",
+      "rot": 0
+    },
+    {
+      "idx": 25,
+      "bloque": "Bala Stil Led 13W",
+      "x": 9445.538,
+      "y": 10862.992,
+      "apto": "F18",
+      "rot": 180.0
+    },
+    {
+      "idx": 26,
+      "bloque": "ELEC-TEL",
+      "x": 8685.701,
+      "y": 12266.334,
+      "apto": "F18",
+      "rot": 90.0
+    },
+    {
+      "idx": 27,
+      "bloque": "ELEC-T-D-t-15A",
+      "x": 10098.887,
+      "y": 13122.885,
+      "apto": "F18",
+      "rot": 90.0
+    },
+    {
+      "idx": 28,
+      "bloque": "ELEC-NET-PAU",
+      "x": 8683.143,
+      "y": 5262.288,
+      "apto": "F17",
+      "rot": 270.0
+    },
+    {
+      "idx": 29,
+      "bloque": "ELEC-TEL",
+      "x": 8690.136,
+      "y": 5347.727,
+      "apto": "F17",
+      "rot": 90.0
+    },
+    {
+      "idx": 30,
+      "bloque": "ELEC-TEL",
+      "x": 8690.136,
+      "y": 5497.711,
+      "apto": "F17",
+      "rot": 90.0
+    },
+    {
+      "idx": 31,
+      "bloque": "ELEC-TEL",
+      "x": 8690.136,
+      "y": 5208.318,
+      "apto": "F17",
+      "rot": 90.0
+    },
+    {
+      "idx": 32,
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x": 9846.859,
+      "y": 1540.496,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 33,
+      "bloque": "ELEC-T-D-t-15A",
+      "x": 9850.016,
+      "y": 1657.107,
+      "apto": "F17",
+      "rot": 0
+    },
+    {
+      "idx": 34,
+      "bloque": "ELEC-TIMBRE",
+      "x": 7566.04,
+      "y": 8161.188,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 35,
+      "bloque": "ELEC-CAMPANA",
+      "x": 7331.286,
+      "y": 8009.688,
+      "apto": "F17",
+      "rot": 0
+    },
+    {
+      "idx": 36,
+      "bloque": "ELEC-I-S-2-5A",
+      "x": 8639.148,
+      "y": 5194.598,
+      "apto": "F17",
+      "rot": 90.0
+    },
+    {
+      "idx": 37,
+      "bloque": "ELEC-I-S-1-5A",
+      "x": 7561.616,
+      "y": 7958.188,
+      "apto": "F17",
+      "rot": 270.0
+    },
+    {
+      "idx": 38,
+      "bloque": "ELEC-I-S-1-5A",
+      "x": 9656.765,
+      "y": 1710.113,
+      "apto": "F17",
+      "rot": 0
+    },
+    {
+      "idx": 39,
+      "bloque": "ELEC-F-VENT",
+      "x": 8317.518,
+      "y": 3275.76,
+      "apto": "F17",
+      "rot": 240.0
+    },
+    {
+      "idx": 40,
+      "bloque": "ELEC-F-CONTROL",
+      "x": 8628.208,
+      "y": 5012.028,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 41,
+      "bloque": "ELEC-T-D-t-15A",
+      "x": 8684.807,
+      "y": 5542.516,
+      "apto": "F17",
+      "rot": 90.0
+    },
+    {
+      "idx": 42,
+      "bloque": "ELEC-EXT",
+      "x": 10008.107,
+      "y": 7142.991,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 43,
+      "bloque": "Bala Stil Led 22W",
+      "x": 7597.927,
+      "y": 5889.73,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 44,
+      "bloque": "Bala Stil Led 22W",
+      "x": 7589.429,
+      "y": 7190.88,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 45,
+      "bloque": "Bala Stil Led 10W",
+      "x": 7602.465,
+      "y": 1979.73,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 46,
+      "bloque": "Bala Stil Led 10W",
+      "x": 9461.015,
+      "y": 1979.73,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 47,
+      "bloque": "Bala Stil Led 10W",
+      "x": 7597.927,
+      "y": 4559.73,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 48,
+      "bloque": "Bala Stil Led 10W",
+      "x": 9456.477,
+      "y": 4559.73,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 49,
+      "bloque": "Bala Stil Led 13W",
+      "x": 9462.767,
+      "y": 6819.395,
+      "apto": "F17",
+      "rot": 0
+    },
+    {
+      "idx": 50,
+      "bloque": "ELEC-TEL",
+      "x": 8690.136,
+      "y": 5069.095,
+      "apto": "F17",
+      "rot": 90.0
+    },
+    {
+      "idx": 51,
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x": 10016.879,
+      "y": 5641.765,
+      "apto": "F17",
+      "rot": 0
+    },
+    {
+      "idx": 52,
+      "bloque": "ELEC-I-S-1-5A",
+      "x": 8879.422,
+      "y": 6401.086,
+      "apto": "F17",
+      "rot": 0
+    },
+    {
+      "idx": 53,
+      "bloque": "ELEC-T-D-t-15A",
+      "x": 10110.016,
+      "y": 4561.073,
+      "apto": "F17",
+      "rot": 90.0
+    },
+    {
+      "idx": 54,
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x": 10498.411,
+      "y": 1532.387,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 55,
+      "bloque": "ELEC-T-D-t-15A",
+      "x": 10476.768,
+      "y": 1648.998,
+      "apto": "F17",
+      "rot": 0
+    },
+    {
+      "idx": 56,
+      "bloque": "ELEC-T-GFCI-t-15A",
+      "x": 10328.392,
+      "y": 5633.656,
+      "apto": "F17",
+      "rot": 0
+    },
+    {
+      "idx": 57,
+      "bloque": "ELEC-EXT",
+      "x": 10367.164,
+      "y": 7134.882,
+      "apto": "F17",
+      "rot": 180.0
+    },
+    {
+      "idx": 58,
+      "bloque": "ELEC-T-D-t-15A",
+      "x": 10271.974,
+      "y": 4558.126,
+      "apto": "F17",
+      "rot": 270.0
+    }
+  ],
+  "polilineas": [
+    {
+      "idx": 0,
+      "apto": "F18",
+      "layer": "ELEC-POWER- PIPE",
+      "largo": 2014.75,
+      "n_hits": 0,
+      "vertices": [
+        [
+          6662.417,
+          10100.726
+        ],
+        [
+          8677.163,
+          10101.146
+        ]
+      ],
+      "hits": []
+    },
+    {
+      "idx": 1,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 505.42,
+      "n_hits": 1,
+      "vertices": [
+        [
+          7472.2,
+          10479.276
+        ],
+        [
+          7313.696,
+          10479.276
+        ],
+        [
+          7313.696,
+          10132.36
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 20,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 100.75,
+          "s": 0.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 133.7,
+      "n_hits": 3,
+      "vertices": [
+        [
+          7364.2,
+          9700.276
+        ],
+        [
+          7497.901,
+          9700.276
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 7,
+          "bloque": "ELEC-CAMPANA",
+          "dist": 57.23,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 6,
+          "bloque": "ELEC-TIMBRE",
+          "dist": 201.61,
+          "s": 133.7,
+          "extremo": true
+        },
+        {
+          "idx": 9,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 52.28,
+          "s": 133.7,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 121.37,
+      "n_hits": 3,
+      "vertices": [
+        [
+          7544.2,
+          9673.276
+        ],
+        [
+          7544.2,
+          9551.909
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 9,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 50.92,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 7,
+          "bloque": "ELEC-CAMPANA",
+          "dist": 230.14,
+          "s": 0.6,
+          "extremo": true
+        },
+        {
+          "idx": 6,
+          "bloque": "ELEC-TIMBRE",
+          "dist": 46.94,
+          "s": 121.4,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1201.77,
+      "n_hits": 1,
+      "vertices": [
+        [
+          8784.638,
+          10289.276
+        ],
+        [
+          9457.353,
+          10289.276
+        ],
+        [
+          9457.353,
+          10818.327
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 25,
+          "bloque": "Bala Stil Led 13W",
+          "dist": 46.2,
+          "s": 1201.8,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 917.44,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9452.2,
+          10899.276
+        ],
+        [
+          9452.2,
+          11257.597
+        ],
+        [
+          8893.085,
+          11257.597
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 25,
+          "bloque": "Bala Stil Led 13W",
+          "dist": 36.89,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 11,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 50.13,
+          "s": 917.4,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 78.04,
+      "n_hits": 8,
+      "vertices": [
+        [
+          8634.501,
+          12540.434
+        ],
+        [
+          8634.501,
+          12618.474
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 5,
+          "bloque": "ELEC-NET-PAU",
+          "dist": 34.6,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 8,
+          "bloque": "ELEC-I-S-2-5A",
+          "dist": 51.49,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 16,
+          "bloque": "ELEC-TEL",
+          "dist": 140.11,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 17,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 237.18,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 26,
+          "bloque": "ELEC-TEL",
+          "dist": 278.84,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 14,
+          "bloque": "ELEC-TEL",
+          "dist": 47.82,
+          "s": 7.7,
+          "extremo": true
+        },
+        {
+          "idx": 13,
+          "bloque": "ELEC-F-CONTROL",
+          "dist": 54.22,
+          "s": 78.0,
+          "extremo": true
+        },
+        {
+          "idx": 15,
+          "bloque": "ELEC-TEL",
+          "dist": 92.91,
+          "s": 78.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 342.75,
+      "n_hits": 5,
+      "vertices": [
+        [
+          8623.949,
+          12740.124
+        ],
+        [
+          8623.949,
+          13082.871
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 5,
+          "bloque": "ELEC-NET-PAU",
+          "dist": 232.73,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 8,
+          "bloque": "ELEC-I-S-2-5A",
+          "dist": 251.39,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 13,
+          "bloque": "ELEC-F-CONTROL",
+          "dist": 68.61,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 14,
+          "bloque": "ELEC-TEL",
+          "dist": 200.65,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 15,
+          "bloque": "ELEC-TEL",
+          "dist": 71.9,
+          "s": 0.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1779.91,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9392.2,
+          13119.276
+        ],
+        [
+          7612.285,
+          13119.276
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 24,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 47.17,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 23,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 31.77,
+          "s": 1779.9,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2489.71,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9432.2,
+          13169.276
+        ],
+        [
+          9432.2,
+          15658.986
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 24,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 47.15,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 22,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 45.18,
+          "s": 2489.7,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1788.22,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9392.2,
+          15709.276
+        ],
+        [
+          7603.978,
+          15709.276
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 22,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 52.01,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 21,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 19.88,
+          "s": 1788.2,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 371.18,
+      "n_hits": 3,
+      "vertices": [
+        [
+          9482.2,
+          15699.276
+        ],
+        [
+          9630.309,
+          15699.276
+        ],
+        [
+          9630.309,
+          15922.347
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 22,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 38.56,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 3,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 227.75,
+          "s": 371.2,
+          "extremo": true
+        },
+        {
+          "idx": 10,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 50.77,
+          "s": 371.2,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2274.55,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9442.2,
+          15739.276
+        ],
+        [
+          9442.2,
+          16888.95
+        ],
+        [
+          8317.322,
+          16888.95
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 22,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 36.65,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 10,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 197.34,
+          "s": 233.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 91.56,
+      "n_hits": 3,
+      "vertices": [
+        [
+          9691.027,
+          15972.274
+        ],
+        [
+          9782.571,
+          15970.807
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 10,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 51.49,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 2,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 191.94,
+          "s": 91.6,
+          "extremo": true
+        },
+        {
+          "idx": 3,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 73.55,
+          "s": 91.6,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2116.65,
+      "n_hits": 1,
+      "vertices": [
+        [
+          7615.793,
+          13159.276
+        ],
+        [
+          7615.793,
+          14299.26
+        ],
+        [
+          6639.13,
+          14299.26
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 23,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 50.72,
+          "s": 0.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 790.87,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9492.2,
+          10859.276
+        ],
+        [
+          10038.968,
+          10850.595
+        ],
+        [
+          10038.968,
+          10606.559
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 25,
+          "bloque": "Bala Stil Led 13W",
+          "dist": 46.81,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 18,
+          "bloque": "ELEC-EXT",
+          "dist": 57.37,
+          "s": 790.9,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2179.11,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9392.2,
+          10859.276
+        ],
+        [
+          8222.955,
+          10859.276
+        ],
+        [
+          8222.955,
+          10466.838
+        ],
+        [
+          7605.531,
+          10466.838
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 25,
+          "bloque": "Bala Stil Led 13W",
+          "dist": 53.47,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 20,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 41.47,
+          "s": 2179.1,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 17,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1247.77,
+      "n_hits": 2,
+      "vertices": [
+        [
+          7572.2,
+          11739.276
+        ],
+        [
+          7572.2,
+          10491.506
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 19,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 54.05,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 20,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 0.0,
+          "s": 1247.8,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 18,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1530.67,
+      "n_hits": 1,
+      "vertices": [
+        [
+          8623.949,
+          13172.418
+        ],
+        [
+          8623.949,
+          14404.72
+        ],
+        [
+          8325.584,
+          14404.72
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 12,
+          "bloque": "ELEC-F-VENT",
+          "dist": 25.37,
+          "s": 1530.7,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "apto": "F18",
+      "layer": "ELEC-POWER- PIPE",
+      "largo": 21.28,
+      "n_hits": 6,
+      "vertices": [
+        [
+          8578.786,
+          12307.134
+        ],
+        [
+          8578.786,
+          12328.41
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 26,
+          "bloque": "ELEC-TEL",
+          "dist": 114.44,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 17,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 106.99,
+          "s": 1.7,
+          "extremo": true
+        },
+        {
+          "idx": 5,
+          "bloque": "ELEC-NET-PAU",
+          "dist": 184.66,
+          "s": 21.3,
+          "extremo": true
+        },
+        {
+          "idx": 8,
+          "bloque": "ELEC-I-S-2-5A",
+          "dist": 169.84,
+          "s": 21.3,
+          "extremo": true
+        },
+        {
+          "idx": 14,
+          "bloque": "ELEC-TEL",
+          "dist": 242.91,
+          "s": 21.3,
+          "extremo": true
+        },
+        {
+          "idx": 16,
+          "bloque": "ELEC-TEL",
+          "dist": 131.04,
+          "s": 21.3,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1140.51,
+      "n_hits": 2,
+      "vertices": [
+        [
+          7572.2,
+          11899.276
+        ],
+        [
+          7572.2,
+          13039.791
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 19,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 106.96,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 23,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 83.3,
+          "s": 1140.5,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 21,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1338.09,
+      "n_hits": 9,
+      "vertices": [
+        [
+          7612.2,
+          13099.276
+        ],
+        [
+          8003.124,
+          12726.747
+        ],
+        [
+          8003.124,
+          12497.552
+        ],
+        [
+          8572.021,
+          12497.552
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 23,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 39.23,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 5,
+          "bloque": "ELEC-NET-PAU",
+          "dist": 53.14,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 8,
+          "bloque": "ELEC-I-S-2-5A",
+          "dist": 62.79,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 13,
+          "bloque": "ELEC-F-CONTROL",
+          "dist": 181.36,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 14,
+          "bloque": "ELEC-TEL",
+          "dist": 121.35,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 15,
+          "bloque": "ELEC-TEL",
+          "dist": 228.91,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 16,
+          "bloque": "ELEC-TEL",
+          "dist": 141.61,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 17,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 220.32,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 26,
+          "bloque": "ELEC-TEL",
+          "dist": 257.65,
+          "s": 1338.1,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 22,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 134.57,
+      "n_hits": 3,
+      "vertices": [
+        [
+          9832.2,
+          16019.276
+        ],
+        [
+          9832.2,
+          16153.843
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 10,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 198.31,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 3,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 2.61,
+          "s": 3.3,
+          "extremo": true
+        },
+        {
+          "idx": 2,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 3.99,
+          "s": 134.6,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 23,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 321.92,
+      "n_hits": 2,
+      "vertices": [
+        [
+          7313.696,
+          10053.996
+        ],
+        [
+          7313.696,
+          9732.073
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 7,
+          "bloque": "ELEC-CAMPANA",
+          "dist": 59.38,
+          "s": 321.9,
+          "extremo": true
+        },
+        {
+          "idx": 9,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 230.83,
+          "s": 321.9,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 24,
+      "apto": "F18",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 506.67,
+      "n_hits": 3,
+      "vertices": [
+        [
+          9489.072,
+          13119.756
+        ],
+        [
+          9995.741,
+          13119.756
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 24,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 49.91,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 1,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 275.36,
+          "s": 506.7,
+          "extremo": true
+        },
+        {
+          "idx": 27,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 103.19,
+          "s": 506.7,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 25,
+      "apto": "F18",
+      "layer": "ELEC-POWER- PIPE",
+      "largo": 2232.02,
+      "n_hits": 6,
+      "vertices": [
+        [
+          6596.457,
+          12543.508
+        ],
+        [
+          6594.59,
+          12295.294
+        ],
+        [
+          8578.382,
+          12301.844
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 5,
+          "bloque": "ELEC-NET-PAU",
+          "dist": 210.6,
+          "s": 2232.0,
+          "extremo": true
+        },
+        {
+          "idx": 8,
+          "bloque": "ELEC-I-S-2-5A",
+          "dist": 195.26,
+          "s": 2232.0,
+          "extremo": true
+        },
+        {
+          "idx": 14,
+          "bloque": "ELEC-TEL",
+          "dist": 267.34,
+          "s": 2232.0,
+          "extremo": true
+        },
+        {
+          "idx": 16,
+          "bloque": "ELEC-TEL",
+          "dist": 149.1,
+          "s": 2232.0,
+          "extremo": true
+        },
+        {
+          "idx": 17,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 107.62,
+          "s": 2232.0,
+          "extremo": true
+        },
+        {
+          "idx": 26,
+          "bloque": "ELEC-TEL",
+          "dist": 113.04,
+          "s": 2232.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 26,
+      "apto": "F18",
+      "layer": "ELEC-POWER- PIPE",
+      "largo": 2885.91,
+      "n_hits": 2,
+      "vertices": [
+        [
+          8786.171,
+          10123.247
+        ],
+        [
+          9147.577,
+          10122.769
+        ],
+        [
+          9419.059,
+          10119.934
+        ],
+        [
+          9613.481,
+          10118.429
+        ],
+        [
+          9743.705,
+          10121.947
+        ],
+        [
+          9822.596,
+          10134.175
+        ],
+        [
+          9863.017,
+          10158.806
+        ],
+        [
+          9877.831,
+          10199.528
+        ],
+        [
+          9879.902,
+          10260.032
+        ],
+        [
+          9879.945,
+          10344.122
+        ],
+        [
+          9880.076,
+          10456.056
+        ],
+        [
+          9880.263,
+          10600.208
+        ],
+        [
+          9880.475,
+          10780.952
+        ],
+        [
+          9880.506,
+          10813.817
+        ],
+        [
+          9880.578,
+          10892.405
+        ],
+        [
+          9880.68,
+          11002.659
+        ],
+        [
+          9880.846,
+          11269.704
+        ],
+        [
+          9880.942,
+          11586.46
+        ],
+        [
+          9880.934,
+          11957.3
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 18,
+          "bloque": "ELEC-EXT",
+          "dist": 157.9,
+          "s": 1478.0,
+          "extremo": false
+        },
+        {
+          "idx": 4,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 103.48,
+          "s": 2885.9,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 27,
+      "apto": "F17",
+      "layer": "ELEC-POWER- PIPE",
+      "largo": 2079.23,
+      "n_hits": 0,
+      "vertices": [
+        [
+          6627.159,
+          7581.241
+        ],
+        [
+          8706.392,
+          7581.241
+        ]
+      ],
+      "hits": []
+    },
+    {
+      "idx": 28,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 505.42,
+      "n_hits": 1,
+      "vertices": [
+        [
+          7489.429,
+          7203.11
+        ],
+        [
+          7330.925,
+          7203.11
+        ],
+        [
+          7330.925,
+          7550.027
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 44,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 100.75,
+          "s": 0.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 29,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 133.7,
+      "n_hits": 3,
+      "vertices": [
+        [
+          7381.43,
+          7982.11
+        ],
+        [
+          7515.13,
+          7982.11
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 35,
+          "bloque": "ELEC-CAMPANA",
+          "dist": 57.23,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 34,
+          "bloque": "ELEC-TIMBRE",
+          "dist": 186.17,
+          "s": 133.7,
+          "extremo": true
+        },
+        {
+          "idx": 37,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 52.28,
+          "s": 133.7,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 30,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 105.37,
+      "n_hits": 3,
+      "vertices": [
+        [
+          7561.429,
+          8009.11
+        ],
+        [
+          7561.429,
+          8114.478
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 37,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 50.92,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 35,
+          "bloque": "ELEC-CAMPANA",
+          "dist": 230.14,
+          "s": 0.6,
+          "extremo": true
+        },
+        {
+          "idx": 34,
+          "bloque": "ELEC-TIMBRE",
+          "dist": 46.94,
+          "s": 105.4,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 31,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 78.04,
+      "n_hits": 6,
+      "vertices": [
+        [
+          8639.429,
+          5143.11
+        ],
+        [
+          8639.429,
+          5065.071
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 28,
+          "bloque": "ELEC-NET-PAU",
+          "dist": 126.94,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 29,
+          "bloque": "ELEC-TEL",
+          "dist": 210.81,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 31,
+          "bloque": "ELEC-TEL",
+          "dist": 82.6,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 36,
+          "bloque": "ELEC-I-S-2-5A",
+          "dist": 51.49,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 50,
+          "bloque": "ELEC-TEL",
+          "dist": 50.71,
+          "s": 74.0,
+          "extremo": true
+        },
+        {
+          "idx": 40,
+          "bloque": "ELEC-F-CONTROL",
+          "dist": 54.22,
+          "s": 78.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 32,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 342.75,
+      "n_hits": 4,
+      "vertices": [
+        [
+          8629.429,
+          4943.11
+        ],
+        [
+          8629.429,
+          4600.363
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 31,
+          "bloque": "ELEC-TEL",
+          "dist": 272.07,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 36,
+          "bloque": "ELEC-I-S-2-5A",
+          "dist": 251.68,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 40,
+          "bloque": "ELEC-F-CONTROL",
+          "dist": 68.93,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 50,
+          "bloque": "ELEC-TEL",
+          "dist": 139.85,
+          "s": 0.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 33,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 505.8,
+      "n_hits": 3,
+      "vertices": [
+        [
+          10000.123,
+          4563.11
+        ],
+        [
+          9494.327,
+          4563.11
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 53,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 109.91,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 58,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 271.9,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 48,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 38.0,
+          "s": 505.8,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 34,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2489.71,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9449.429,
+          4513.11
+        ],
+        [
+          9449.429,
+          2023.4
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 48,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 47.15,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 46,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 45.18,
+          "s": 2489.7,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 35,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1788.22,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9409.429,
+          1973.11
+        ],
+        [
+          7621.207,
+          1973.11
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 46,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 52.01,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 45,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 19.88,
+          "s": 1788.2,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 36,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 371.18,
+      "n_hits": 4,
+      "vertices": [
+        [
+          9499.429,
+          1983.11
+        ],
+        [
+          9647.538,
+          1983.11
+        ],
+        [
+          9647.538,
+          1760.039
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 46,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 38.56,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 32,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 296.53,
+          "s": 371.2,
+          "extremo": true
+        },
+        {
+          "idx": 33,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 227.14,
+          "s": 371.2,
+          "extremo": true
+        },
+        {
+          "idx": 38,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 50.77,
+          "s": 371.2,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 37,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2274.55,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9459.429,
+          1943.11
+        ],
+        [
+          9459.429,
+          793.436
+        ],
+        [
+          8334.551,
+          793.436
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 46,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 36.65,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 38,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 197.34,
+          "s": 233.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 38,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 103.41,
+      "n_hits": 3,
+      "vertices": [
+        [
+          9699.429,
+          1703.11
+        ],
+        [
+          9802.839,
+          1703.11
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 38,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 43.23,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 32,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 168.47,
+          "s": 103.4,
+          "extremo": true
+        },
+        {
+          "idx": 33,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 65.89,
+          "s": 103.4,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 39,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2099.65,
+      "n_hits": 1,
+      "vertices": [
+        [
+          7589.429,
+          4523.11
+        ],
+        [
+          7589.429,
+          3383.126
+        ],
+        [
+          6629.766,
+          3383.126
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 47,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 37.59,
+          "s": 0.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 40,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1240.47,
+      "n_hits": 1,
+      "vertices": [
+        [
+          8820.575,
+          7479.849
+        ],
+        [
+          9475.518,
+          7479.849
+        ],
+        [
+          9475.518,
+          6894.318
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 49,
+          "bloque": "Bala Stil Led 13W",
+          "dist": 76.0,
+          "s": 1240.5,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 41,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2179.11,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9409.429,
+          6823.11
+        ],
+        [
+          8240.184,
+          6823.11
+        ],
+        [
+          8240.184,
+          7215.549
+        ],
+        [
+          7622.76,
+          7215.549
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 49,
+          "bloque": "Bala Stil Led 13W",
+          "dist": 53.47,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 44,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 41.47,
+          "s": 2179.1,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 42,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1247.77,
+      "n_hits": 2,
+      "vertices": [
+        [
+          7589.429,
+          5943.11
+        ],
+        [
+          7589.429,
+          7190.88
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 43,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 54.05,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 44,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 0.0,
+          "s": 1247.8,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 43,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1530.67,
+      "n_hits": 1,
+      "vertices": [
+        [
+          8629.429,
+          4510.816
+        ],
+        [
+          8629.429,
+          3278.514
+        ],
+        [
+          8331.064,
+          3278.514
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 39,
+          "bloque": "ELEC-F-VENT",
+          "dist": 13.82,
+          "s": 1530.7,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 44,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1140.51,
+      "n_hits": 2,
+      "vertices": [
+        [
+          7589.429,
+          5783.11
+        ],
+        [
+          7589.429,
+          4642.596
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 43,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 106.96,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 47,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 83.3,
+          "s": 1140.5,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 45,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1338.09,
+      "n_hits": 7,
+      "vertices": [
+        [
+          7629.429,
+          4583.11
+        ],
+        [
+          8020.353,
+          4955.64
+        ],
+        [
+          8020.353,
+          5184.834
+        ],
+        [
+          8589.251,
+          5184.834
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 47,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 39.23,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 28,
+          "bloque": "ELEC-NET-PAU",
+          "dist": 121.72,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 29,
+          "bloque": "ELEC-TEL",
+          "dist": 191.6,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 31,
+          "bloque": "ELEC-TEL",
+          "dist": 103.58,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 36,
+          "bloque": "ELEC-I-S-2-5A",
+          "dist": 50.84,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 40,
+          "bloque": "ELEC-F-CONTROL",
+          "dist": 177.14,
+          "s": 1338.1,
+          "extremo": true
+        },
+        {
+          "idx": 50,
+          "bloque": "ELEC-TEL",
+          "dist": 153.54,
+          "s": 1338.1,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 46,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 119.57,
+      "n_hits": 3,
+      "vertices": [
+        [
+          9849.429,
+          1663.11
+        ],
+        [
+          9849.429,
+          1543.543
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 38,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 198.31,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 33,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 0.59,
+          "s": 6.0,
+          "extremo": true
+        },
+        {
+          "idx": 32,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 3.99,
+          "s": 119.6,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 47,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 321.92,
+      "n_hits": 2,
+      "vertices": [
+        [
+          7330.925,
+          7628.391
+        ],
+        [
+          7330.925,
+          7950.313
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 35,
+          "bloque": "ELEC-CAMPANA",
+          "dist": 59.38,
+          "s": 321.9,
+          "extremo": true
+        },
+        {
+          "idx": 37,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 230.83,
+          "s": 321.9,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 48,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 772.41,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9520.302,
+          6817.124
+        ],
+        [
+          10019.824,
+          6817.124
+        ],
+        [
+          10019.824,
+          7090.011
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 49,
+          "bloque": "Bala Stil Led 13W",
+          "dist": 57.58,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 42,
+          "bloque": "ELEC-EXT",
+          "dist": 54.26,
+          "s": 772.4,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 49,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 1789.11,
+      "n_hits": 2,
+      "vertices": [
+        [
+          9418.628,
+          4563.11
+        ],
+        [
+          7629.514,
+          4563.11
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 48,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 38.0,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 47,
+          "bloque": "Bala Stil Led 10W",
+          "dist": 31.77,
+          "s": 1789.1,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 50,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 898.5,
+      "n_hits": 2,
+      "vertices": [
+        [
+          8934.38,
+          6396.223
+        ],
+        [
+          9429.429,
+          6396.223
+        ],
+        [
+          9469.429,
+          6436.223
+        ],
+        [
+          9469.429,
+          6783.11
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 52,
+          "bloque": "ELEC-I-S-1-5A",
+          "dist": 55.17,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 49,
+          "bloque": "Bala Stil Led 13W",
+          "dist": 36.89,
+          "s": 898.5,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 51,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 3302.39,
+      "n_hits": 4,
+      "vertices": [
+        [
+          8807.253,
+          7607.497
+        ],
+        [
+          10134.686,
+          7607.497
+        ],
+        [
+          10134.686,
+          5710.24
+        ],
+        [
+          10056.982,
+          5710.24
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 42,
+          "bloque": "ELEC-EXT",
+          "dist": 126.58,
+          "s": 1791.9,
+          "extremo": false
+        },
+        {
+          "idx": 57,
+          "bloque": "ELEC-EXT",
+          "dist": 232.48,
+          "s": 1800.0,
+          "extremo": false
+        },
+        {
+          "idx": 56,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 208.3,
+          "s": 3224.7,
+          "extremo": true
+        },
+        {
+          "idx": 51,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 79.35,
+          "s": 3302.4,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 52,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2189.59,
+      "n_hits": 4,
+      "vertices": [
+        [
+          6628.89,
+          5785.017
+        ],
+        [
+          8634.646,
+          5785.017
+        ],
+        [
+          8634.646,
+          5601.18
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 43,
+          "bloque": "Bala Stil Led 22W",
+          "dist": 104.71,
+          "s": 969.0,
+          "extremo": false
+        },
+        {
+          "idx": 29,
+          "bloque": "ELEC-TEL",
+          "dist": 259.46,
+          "s": 2189.6,
+          "extremo": true
+        },
+        {
+          "idx": 30,
+          "bloque": "ELEC-TEL",
+          "dist": 117.41,
+          "s": 2189.6,
+          "extremo": true
+        },
+        {
+          "idx": 41,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 77.19,
+          "s": 2189.6,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 53,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 119.57,
+      "n_hits": 2,
+      "vertices": [
+        [
+          10495.842,
+          1655.002
+        ],
+        [
+          10495.842,
+          1535.435
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 55,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 19.07,
+          "s": 6.0,
+          "extremo": true
+        },
+        {
+          "idx": 54,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 3.99,
+          "s": 119.6,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 54,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 499.98,
+      "n_hits": 2,
+      "vertices": [
+        [
+          10332.578,
+          4552.432
+        ],
+        [
+          10832.553,
+          4552.432
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 53,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 222.73,
+          "s": 0.0,
+          "extremo": true
+        },
+        {
+          "idx": 58,
+          "bloque": "ELEC-T-D-t-15A",
+          "dist": 60.87,
+          "s": 0.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 55,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 704.51,
+      "n_hits": 1,
+      "vertices": [
+        [
+          10364.687,
+          7074.44
+        ],
+        [
+          10364.687,
+          6814.886
+        ],
+        [
+          10809.638,
+          6814.886
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 57,
+          "bloque": "ELEC-EXT",
+          "dist": 60.49,
+          "s": 0.0,
+          "extremo": true
+        }
+      ]
+    },
+    {
+      "idx": 56,
+      "apto": "F17",
+      "layer": "ELEC-LIGHT-PIPE",
+      "largo": 2263.63,
+      "n_hits": 1,
+      "vertices": [
+        [
+          10376.271,
+          5678.802
+        ],
+        [
+          11674.166,
+          5671.623
+        ],
+        [
+          11674.166,
+          6637.337
+        ]
+      ],
+      "hits": [
+        {
+          "idx": 56,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dist": 65.81,
+          "s": 0.0,
+          "extremo": true
+        }
+      ]
+    }
+  ],
+  "aristas": [
+    {
+      "apto": "F18",
+      "a": 7,
+      "b": 6,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 2,
+      "s_a": 0.0,
+      "s_b": 133.7,
+      "largo_tramo": 133.7,
+      "dist_a": 57.23,
+      "dist_b": 201.61
+    },
+    {
+      "apto": "F18",
+      "a": 6,
+      "b": 9,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 2,
+      "s_a": 133.7,
+      "s_b": 133.7,
+      "largo_tramo": 0.0,
+      "dist_a": 201.61,
+      "dist_b": 52.28
+    },
+    {
+      "apto": "F18",
+      "a": 9,
+      "b": 7,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 3,
+      "s_a": 0.0,
+      "s_b": 0.6,
+      "largo_tramo": 0.6,
+      "dist_a": 50.92,
+      "dist_b": 230.14
+    },
+    {
+      "apto": "F18",
+      "a": 7,
+      "b": 6,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 3,
+      "s_a": 0.6,
+      "s_b": 121.4,
+      "largo_tramo": 120.8,
+      "dist_a": 230.14,
+      "dist_b": 46.94
+    },
+    {
+      "apto": "F18",
+      "a": 25,
+      "b": 11,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 5,
+      "s_a": 0.0,
+      "s_b": 917.4,
+      "largo_tramo": 917.4,
+      "dist_a": 36.89,
+      "dist_b": 50.13
+    },
+    {
+      "apto": "F18",
+      "a": 5,
+      "b": 8,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 6,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 34.6,
+      "dist_b": 51.49
+    },
+    {
+      "apto": "F18",
+      "a": 8,
+      "b": 16,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 6,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 51.49,
+      "dist_b": 140.11
+    },
+    {
+      "apto": "F18",
+      "a": 16,
+      "b": 17,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 6,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 140.11,
+      "dist_b": 237.18
+    },
+    {
+      "apto": "F18",
+      "a": 17,
+      "b": 26,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 6,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 237.18,
+      "dist_b": 278.84
+    },
+    {
+      "apto": "F18",
+      "a": 26,
+      "b": 14,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 6,
+      "s_a": 0.0,
+      "s_b": 7.7,
+      "largo_tramo": 7.7,
+      "dist_a": 278.84,
+      "dist_b": 47.82
+    },
+    {
+      "apto": "F18",
+      "a": 14,
+      "b": 13,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 6,
+      "s_a": 7.7,
+      "s_b": 78.0,
+      "largo_tramo": 70.3,
+      "dist_a": 47.82,
+      "dist_b": 54.22
+    },
+    {
+      "apto": "F18",
+      "a": 13,
+      "b": 15,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 6,
+      "s_a": 78.0,
+      "s_b": 78.0,
+      "largo_tramo": 0.0,
+      "dist_a": 54.22,
+      "dist_b": 92.91
+    },
+    {
+      "apto": "F18",
+      "a": 5,
+      "b": 8,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 7,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 232.73,
+      "dist_b": 251.39
+    },
+    {
+      "apto": "F18",
+      "a": 8,
+      "b": 13,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 7,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 251.39,
+      "dist_b": 68.61
+    },
+    {
+      "apto": "F18",
+      "a": 13,
+      "b": 14,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 7,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 68.61,
+      "dist_b": 200.65
+    },
+    {
+      "apto": "F18",
+      "a": 14,
+      "b": 15,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 7,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 200.65,
+      "dist_b": 71.9
+    },
+    {
+      "apto": "F18",
+      "a": 24,
+      "b": 23,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 8,
+      "s_a": 0.0,
+      "s_b": 1779.9,
+      "largo_tramo": 1779.9,
+      "dist_a": 47.17,
+      "dist_b": 31.77
+    },
+    {
+      "apto": "F18",
+      "a": 24,
+      "b": 22,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 9,
+      "s_a": 0.0,
+      "s_b": 2489.7,
+      "largo_tramo": 2489.7,
+      "dist_a": 47.15,
+      "dist_b": 45.18
+    },
+    {
+      "apto": "F18",
+      "a": 22,
+      "b": 21,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 10,
+      "s_a": 0.0,
+      "s_b": 1788.2,
+      "largo_tramo": 1788.2,
+      "dist_a": 52.01,
+      "dist_b": 19.88
+    },
+    {
+      "apto": "F18",
+      "a": 22,
+      "b": 3,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 11,
+      "s_a": 0.0,
+      "s_b": 371.2,
+      "largo_tramo": 371.2,
+      "dist_a": 38.56,
+      "dist_b": 227.75
+    },
+    {
+      "apto": "F18",
+      "a": 3,
+      "b": 10,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 11,
+      "s_a": 371.2,
+      "s_b": 371.2,
+      "largo_tramo": 0.0,
+      "dist_a": 227.75,
+      "dist_b": 50.77
+    },
+    {
+      "apto": "F18",
+      "a": 22,
+      "b": 10,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 12,
+      "s_a": 0.0,
+      "s_b": 233.0,
+      "largo_tramo": 233.0,
+      "dist_a": 36.65,
+      "dist_b": 197.34
+    },
+    {
+      "apto": "F18",
+      "a": 10,
+      "b": 2,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 13,
+      "s_a": 0.0,
+      "s_b": 91.6,
+      "largo_tramo": 91.6,
+      "dist_a": 51.49,
+      "dist_b": 191.94
+    },
+    {
+      "apto": "F18",
+      "a": 2,
+      "b": 3,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 13,
+      "s_a": 91.6,
+      "s_b": 91.6,
+      "largo_tramo": 0.0,
+      "dist_a": 191.94,
+      "dist_b": 73.55
+    },
+    {
+      "apto": "F18",
+      "a": 25,
+      "b": 18,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 15,
+      "s_a": 0.0,
+      "s_b": 790.9,
+      "largo_tramo": 790.9,
+      "dist_a": 46.81,
+      "dist_b": 57.37
+    },
+    {
+      "apto": "F18",
+      "a": 25,
+      "b": 20,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 16,
+      "s_a": 0.0,
+      "s_b": 2179.1,
+      "largo_tramo": 2179.1,
+      "dist_a": 53.47,
+      "dist_b": 41.47
+    },
+    {
+      "apto": "F18",
+      "a": 19,
+      "b": 20,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 17,
+      "s_a": 0.0,
+      "s_b": 1247.8,
+      "largo_tramo": 1247.8,
+      "dist_a": 54.05,
+      "dist_b": 0.0
+    },
+    {
+      "apto": "F18",
+      "a": 26,
+      "b": 17,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 19,
+      "s_a": 0.0,
+      "s_b": 1.7,
+      "largo_tramo": 1.7,
+      "dist_a": 114.44,
+      "dist_b": 106.99
+    },
+    {
+      "apto": "F18",
+      "a": 17,
+      "b": 5,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 19,
+      "s_a": 1.7,
+      "s_b": 21.3,
+      "largo_tramo": 19.5,
+      "dist_a": 106.99,
+      "dist_b": 184.66
+    },
+    {
+      "apto": "F18",
+      "a": 5,
+      "b": 8,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 19,
+      "s_a": 21.3,
+      "s_b": 21.3,
+      "largo_tramo": 0.0,
+      "dist_a": 184.66,
+      "dist_b": 169.84
+    },
+    {
+      "apto": "F18",
+      "a": 8,
+      "b": 14,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 19,
+      "s_a": 21.3,
+      "s_b": 21.3,
+      "largo_tramo": 0.0,
+      "dist_a": 169.84,
+      "dist_b": 242.91
+    },
+    {
+      "apto": "F18",
+      "a": 14,
+      "b": 16,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 19,
+      "s_a": 21.3,
+      "s_b": 21.3,
+      "largo_tramo": 0.0,
+      "dist_a": 242.91,
+      "dist_b": 131.04
+    },
+    {
+      "apto": "F18",
+      "a": 19,
+      "b": 23,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 20,
+      "s_a": 0.0,
+      "s_b": 1140.5,
+      "largo_tramo": 1140.5,
+      "dist_a": 106.96,
+      "dist_b": 83.3
+    },
+    {
+      "apto": "F18",
+      "a": 23,
+      "b": 5,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 21,
+      "s_a": 0.0,
+      "s_b": 1338.1,
+      "largo_tramo": 1338.1,
+      "dist_a": 39.23,
+      "dist_b": 53.14
+    },
+    {
+      "apto": "F18",
+      "a": 5,
+      "b": 8,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 21,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 53.14,
+      "dist_b": 62.79
+    },
+    {
+      "apto": "F18",
+      "a": 8,
+      "b": 13,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 21,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 62.79,
+      "dist_b": 181.36
+    },
+    {
+      "apto": "F18",
+      "a": 13,
+      "b": 14,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 21,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 181.36,
+      "dist_b": 121.35
+    },
+    {
+      "apto": "F18",
+      "a": 14,
+      "b": 15,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 21,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 121.35,
+      "dist_b": 228.91
+    },
+    {
+      "apto": "F18",
+      "a": 15,
+      "b": 16,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 21,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 228.91,
+      "dist_b": 141.61
+    },
+    {
+      "apto": "F18",
+      "a": 16,
+      "b": 17,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 21,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 141.61,
+      "dist_b": 220.32
+    },
+    {
+      "apto": "F18",
+      "a": 17,
+      "b": 26,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 21,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 220.32,
+      "dist_b": 257.65
+    },
+    {
+      "apto": "F18",
+      "a": 10,
+      "b": 3,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 22,
+      "s_a": 0.0,
+      "s_b": 3.3,
+      "largo_tramo": 3.3,
+      "dist_a": 198.31,
+      "dist_b": 2.61
+    },
+    {
+      "apto": "F18",
+      "a": 3,
+      "b": 2,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 22,
+      "s_a": 3.3,
+      "s_b": 134.6,
+      "largo_tramo": 131.3,
+      "dist_a": 2.61,
+      "dist_b": 3.99
+    },
+    {
+      "apto": "F18",
+      "a": 7,
+      "b": 9,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 23,
+      "s_a": 321.9,
+      "s_b": 321.9,
+      "largo_tramo": 0.0,
+      "dist_a": 59.38,
+      "dist_b": 230.83
+    },
+    {
+      "apto": "F18",
+      "a": 24,
+      "b": 1,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 24,
+      "s_a": 0.0,
+      "s_b": 506.7,
+      "largo_tramo": 506.7,
+      "dist_a": 49.91,
+      "dist_b": 275.36
+    },
+    {
+      "apto": "F18",
+      "a": 1,
+      "b": 27,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 24,
+      "s_a": 506.7,
+      "s_b": 506.7,
+      "largo_tramo": 0.0,
+      "dist_a": 275.36,
+      "dist_b": 103.19
+    },
+    {
+      "apto": "F18",
+      "a": 5,
+      "b": 8,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 25,
+      "s_a": 2232.0,
+      "s_b": 2232.0,
+      "largo_tramo": 0.0,
+      "dist_a": 210.6,
+      "dist_b": 195.26
+    },
+    {
+      "apto": "F18",
+      "a": 8,
+      "b": 14,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 25,
+      "s_a": 2232.0,
+      "s_b": 2232.0,
+      "largo_tramo": 0.0,
+      "dist_a": 195.26,
+      "dist_b": 267.34
+    },
+    {
+      "apto": "F18",
+      "a": 14,
+      "b": 16,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 25,
+      "s_a": 2232.0,
+      "s_b": 2232.0,
+      "largo_tramo": 0.0,
+      "dist_a": 267.34,
+      "dist_b": 149.1
+    },
+    {
+      "apto": "F18",
+      "a": 16,
+      "b": 17,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 25,
+      "s_a": 2232.0,
+      "s_b": 2232.0,
+      "largo_tramo": 0.0,
+      "dist_a": 149.1,
+      "dist_b": 107.62
+    },
+    {
+      "apto": "F18",
+      "a": 17,
+      "b": 26,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 25,
+      "s_a": 2232.0,
+      "s_b": 2232.0,
+      "largo_tramo": 0.0,
+      "dist_a": 107.62,
+      "dist_b": 113.04
+    },
+    {
+      "apto": "F18",
+      "a": 18,
+      "b": 4,
+      "layer": "ELEC-POWER- PIPE",
+      "poly": 26,
+      "s_a": 1478.0,
+      "s_b": 2885.9,
+      "largo_tramo": 1407.9,
+      "dist_a": 157.9,
+      "dist_b": 103.48
+    },
+    {
+      "apto": "F17",
+      "a": 35,
+      "b": 34,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 29,
+      "s_a": 0.0,
+      "s_b": 133.7,
+      "largo_tramo": 133.7,
+      "dist_a": 57.23,
+      "dist_b": 186.17
+    },
+    {
+      "apto": "F17",
+      "a": 34,
+      "b": 37,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 29,
+      "s_a": 133.7,
+      "s_b": 133.7,
+      "largo_tramo": 0.0,
+      "dist_a": 186.17,
+      "dist_b": 52.28
+    },
+    {
+      "apto": "F17",
+      "a": 37,
+      "b": 35,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 30,
+      "s_a": 0.0,
+      "s_b": 0.6,
+      "largo_tramo": 0.6,
+      "dist_a": 50.92,
+      "dist_b": 230.14
+    },
+    {
+      "apto": "F17",
+      "a": 35,
+      "b": 34,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 30,
+      "s_a": 0.6,
+      "s_b": 105.4,
+      "largo_tramo": 104.8,
+      "dist_a": 230.14,
+      "dist_b": 46.94
+    },
+    {
+      "apto": "F17",
+      "a": 28,
+      "b": 29,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 31,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 126.94,
+      "dist_b": 210.81
+    },
+    {
+      "apto": "F17",
+      "a": 29,
+      "b": 31,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 31,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 210.81,
+      "dist_b": 82.6
+    },
+    {
+      "apto": "F17",
+      "a": 31,
+      "b": 36,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 31,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 82.6,
+      "dist_b": 51.49
+    },
+    {
+      "apto": "F17",
+      "a": 36,
+      "b": 50,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 31,
+      "s_a": 0.0,
+      "s_b": 74.0,
+      "largo_tramo": 74.0,
+      "dist_a": 51.49,
+      "dist_b": 50.71
+    },
+    {
+      "apto": "F17",
+      "a": 50,
+      "b": 40,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 31,
+      "s_a": 74.0,
+      "s_b": 78.0,
+      "largo_tramo": 4.0,
+      "dist_a": 50.71,
+      "dist_b": 54.22
+    },
+    {
+      "apto": "F17",
+      "a": 31,
+      "b": 36,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 32,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 272.07,
+      "dist_b": 251.68
+    },
+    {
+      "apto": "F17",
+      "a": 36,
+      "b": 40,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 32,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 251.68,
+      "dist_b": 68.93
+    },
+    {
+      "apto": "F17",
+      "a": 40,
+      "b": 50,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 32,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 68.93,
+      "dist_b": 139.85
+    },
+    {
+      "apto": "F17",
+      "a": 53,
+      "b": 58,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 33,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 109.91,
+      "dist_b": 271.9
+    },
+    {
+      "apto": "F17",
+      "a": 58,
+      "b": 48,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 33,
+      "s_a": 0.0,
+      "s_b": 505.8,
+      "largo_tramo": 505.8,
+      "dist_a": 271.9,
+      "dist_b": 38.0
+    },
+    {
+      "apto": "F17",
+      "a": 48,
+      "b": 46,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 34,
+      "s_a": 0.0,
+      "s_b": 2489.7,
+      "largo_tramo": 2489.7,
+      "dist_a": 47.15,
+      "dist_b": 45.18
+    },
+    {
+      "apto": "F17",
+      "a": 46,
+      "b": 45,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 35,
+      "s_a": 0.0,
+      "s_b": 1788.2,
+      "largo_tramo": 1788.2,
+      "dist_a": 52.01,
+      "dist_b": 19.88
+    },
+    {
+      "apto": "F17",
+      "a": 46,
+      "b": 32,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 36,
+      "s_a": 0.0,
+      "s_b": 371.2,
+      "largo_tramo": 371.2,
+      "dist_a": 38.56,
+      "dist_b": 296.53
+    },
+    {
+      "apto": "F17",
+      "a": 32,
+      "b": 33,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 36,
+      "s_a": 371.2,
+      "s_b": 371.2,
+      "largo_tramo": 0.0,
+      "dist_a": 296.53,
+      "dist_b": 227.14
+    },
+    {
+      "apto": "F17",
+      "a": 33,
+      "b": 38,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 36,
+      "s_a": 371.2,
+      "s_b": 371.2,
+      "largo_tramo": 0.0,
+      "dist_a": 227.14,
+      "dist_b": 50.77
+    },
+    {
+      "apto": "F17",
+      "a": 46,
+      "b": 38,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 37,
+      "s_a": 0.0,
+      "s_b": 233.0,
+      "largo_tramo": 233.0,
+      "dist_a": 36.65,
+      "dist_b": 197.34
+    },
+    {
+      "apto": "F17",
+      "a": 38,
+      "b": 32,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 38,
+      "s_a": 0.0,
+      "s_b": 103.4,
+      "largo_tramo": 103.4,
+      "dist_a": 43.23,
+      "dist_b": 168.47
+    },
+    {
+      "apto": "F17",
+      "a": 32,
+      "b": 33,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 38,
+      "s_a": 103.4,
+      "s_b": 103.4,
+      "largo_tramo": 0.0,
+      "dist_a": 168.47,
+      "dist_b": 65.89
+    },
+    {
+      "apto": "F17",
+      "a": 49,
+      "b": 44,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 41,
+      "s_a": 0.0,
+      "s_b": 2179.1,
+      "largo_tramo": 2179.1,
+      "dist_a": 53.47,
+      "dist_b": 41.47
+    },
+    {
+      "apto": "F17",
+      "a": 43,
+      "b": 44,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 42,
+      "s_a": 0.0,
+      "s_b": 1247.8,
+      "largo_tramo": 1247.8,
+      "dist_a": 54.05,
+      "dist_b": 0.0
+    },
+    {
+      "apto": "F17",
+      "a": 43,
+      "b": 47,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 44,
+      "s_a": 0.0,
+      "s_b": 1140.5,
+      "largo_tramo": 1140.5,
+      "dist_a": 106.96,
+      "dist_b": 83.3
+    },
+    {
+      "apto": "F17",
+      "a": 47,
+      "b": 28,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 45,
+      "s_a": 0.0,
+      "s_b": 1338.1,
+      "largo_tramo": 1338.1,
+      "dist_a": 39.23,
+      "dist_b": 121.72
+    },
+    {
+      "apto": "F17",
+      "a": 28,
+      "b": 29,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 45,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 121.72,
+      "dist_b": 191.6
+    },
+    {
+      "apto": "F17",
+      "a": 29,
+      "b": 31,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 45,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 191.6,
+      "dist_b": 103.58
+    },
+    {
+      "apto": "F17",
+      "a": 31,
+      "b": 36,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 45,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 103.58,
+      "dist_b": 50.84
+    },
+    {
+      "apto": "F17",
+      "a": 36,
+      "b": 40,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 45,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 50.84,
+      "dist_b": 177.14
+    },
+    {
+      "apto": "F17",
+      "a": 40,
+      "b": 50,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 45,
+      "s_a": 1338.1,
+      "s_b": 1338.1,
+      "largo_tramo": 0.0,
+      "dist_a": 177.14,
+      "dist_b": 153.54
+    },
+    {
+      "apto": "F17",
+      "a": 38,
+      "b": 33,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 46,
+      "s_a": 0.0,
+      "s_b": 6.0,
+      "largo_tramo": 6.0,
+      "dist_a": 198.31,
+      "dist_b": 0.59
+    },
+    {
+      "apto": "F17",
+      "a": 33,
+      "b": 32,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 46,
+      "s_a": 6.0,
+      "s_b": 119.6,
+      "largo_tramo": 113.6,
+      "dist_a": 0.59,
+      "dist_b": 3.99
+    },
+    {
+      "apto": "F17",
+      "a": 35,
+      "b": 37,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 47,
+      "s_a": 321.9,
+      "s_b": 321.9,
+      "largo_tramo": 0.0,
+      "dist_a": 59.38,
+      "dist_b": 230.83
+    },
+    {
+      "apto": "F17",
+      "a": 49,
+      "b": 42,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 48,
+      "s_a": 0.0,
+      "s_b": 772.4,
+      "largo_tramo": 772.4,
+      "dist_a": 57.58,
+      "dist_b": 54.26
+    },
+    {
+      "apto": "F17",
+      "a": 48,
+      "b": 47,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 49,
+      "s_a": 0.0,
+      "s_b": 1789.1,
+      "largo_tramo": 1789.1,
+      "dist_a": 38.0,
+      "dist_b": 31.77
+    },
+    {
+      "apto": "F17",
+      "a": 52,
+      "b": 49,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 50,
+      "s_a": 0.0,
+      "s_b": 898.5,
+      "largo_tramo": 898.5,
+      "dist_a": 55.17,
+      "dist_b": 36.89
+    },
+    {
+      "apto": "F17",
+      "a": 42,
+      "b": 57,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 51,
+      "s_a": 1791.9,
+      "s_b": 1800.0,
+      "largo_tramo": 8.1,
+      "dist_a": 126.58,
+      "dist_b": 232.48
+    },
+    {
+      "apto": "F17",
+      "a": 57,
+      "b": 56,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 51,
+      "s_a": 1800.0,
+      "s_b": 3224.7,
+      "largo_tramo": 1424.6,
+      "dist_a": 232.48,
+      "dist_b": 208.3
+    },
+    {
+      "apto": "F17",
+      "a": 56,
+      "b": 51,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 51,
+      "s_a": 3224.7,
+      "s_b": 3302.4,
+      "largo_tramo": 77.7,
+      "dist_a": 208.3,
+      "dist_b": 79.35
+    },
+    {
+      "apto": "F17",
+      "a": 43,
+      "b": 29,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 52,
+      "s_a": 969.0,
+      "s_b": 2189.6,
+      "largo_tramo": 1220.6,
+      "dist_a": 104.71,
+      "dist_b": 259.46
+    },
+    {
+      "apto": "F17",
+      "a": 29,
+      "b": 30,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 52,
+      "s_a": 2189.6,
+      "s_b": 2189.6,
+      "largo_tramo": 0.0,
+      "dist_a": 259.46,
+      "dist_b": 117.41
+    },
+    {
+      "apto": "F17",
+      "a": 30,
+      "b": 41,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 52,
+      "s_a": 2189.6,
+      "s_b": 2189.6,
+      "largo_tramo": 0.0,
+      "dist_a": 117.41,
+      "dist_b": 77.19
+    },
+    {
+      "apto": "F17",
+      "a": 55,
+      "b": 54,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 53,
+      "s_a": 6.0,
+      "s_b": 119.6,
+      "largo_tramo": 113.6,
+      "dist_a": 19.07,
+      "dist_b": 3.99
+    },
+    {
+      "apto": "F17",
+      "a": 53,
+      "b": 58,
+      "layer": "ELEC-LIGHT-PIPE",
+      "poly": 54,
+      "s_a": 0.0,
+      "s_b": 0.0,
+      "largo_tramo": 0.0,
+      "dist_a": 222.73,
+      "dist_b": 60.87
+    }
+  ],
+  "stats": {
+    "n_aparatos": 59,
+    "n_polilineas": 57,
+    "n_aristas": 97,
+    "n_huerfanos": 1
+  }
+}

@@ -1,0 +1,1370 @@
+{
+ "version": "v01",
+ "fuente": "inventario_v03 + ELEC-CAMPANA del DXF",
+ "radio_mm": 1200,
+ "total": 136,
+ "ids": [
+  5529840,
+  5529846,
+  5529849,
+  5529855,
+  5557243,
+  5557245,
+  5557247,
+  5557262,
+  5557309,
+  5557311,
+  5557313,
+  5557315,
+  5557330,
+  5559033,
+  5565670,
+  5568810,
+  5568811,
+  5568812,
+  5568817,
+  5568838,
+  5568839,
+  5568840,
+  5568841,
+  5568867,
+  5568897,
+  5570622,
+  5570624,
+  5570625,
+  5570627,
+  5580898,
+  5580900,
+  5580901,
+  5580903,
+  5580973,
+  5580974,
+  5580976,
+  5605821,
+  5605823,
+  5605825,
+  5605829,
+  5606174,
+  5606180,
+  5608070,
+  5608677,
+  5610948,
+  5610953,
+  5610957,
+  5610976,
+  5610979,
+  5614097,
+  5614104,
+  5614554,
+  5614557,
+  5614559,
+  5614562,
+  5614570,
+  5614573,
+  5614575,
+  5614578,
+  5622244,
+  5622247,
+  5622287,
+  5622290,
+  5622292,
+  5623831,
+  5625900,
+  5625903,
+  5625930,
+  5625933,
+  5625935,
+  5638939,
+  5638942,
+  5638944,
+  5639169,
+  5639172,
+  5639174,
+  5639239,
+  5639242,
+  5639244,
+  5639247,
+  5639291,
+  5639308,
+  5639311,
+  5639317,
+  5639358,
+  5643360,
+  5643367,
+  5643371,
+  5643374,
+  5643377,
+  5643383,
+  5643386,
+  5643423,
+  5643436,
+  5651319,
+  5557267,
+  5557335,
+  5568819,
+  5568847,
+  5602061,
+  5602159,
+  5602247,
+  5602258,
+  5602345,
+  5602379,
+  5602861,
+  5602867,
+  5602888,
+  5602894,
+  5639120,
+  5639152,
+  5529844,
+  5529858,
+  5557251,
+  5557253,
+  5568128,
+  5568814,
+  5568815,
+  5568911,
+  5570623,
+  5570628,
+  5580899,
+  5580904,
+  5580972,
+  5580977,
+  5640122,
+  5640125,
+  5640128,
+  5640130,
+  5640133,
+  5640136,
+  5640263,
+  5640305,
+  5640312,
+  5640319,
+  5657458
+ ],
+ "detalle": [
+  {
+   "id": 5529840,
+   "apto": "E06",
+   "es_comment": false,
+   "dist_campana": 1139.4,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5529846,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 425.5,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5529849,
+   "apto": "E06",
+   "es_comment": true,
+   "dist_campana": 681.9,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5529855,
+   "apto": "E06",
+   "es_comment": true,
+   "dist_campana": 1194.7,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557243,
+   "apto": "F01",
+   "es_comment": true,
+   "dist_campana": 2353.3,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557245,
+   "apto": "F01",
+   "es_comment": true,
+   "dist_campana": 2242.0,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557247,
+   "apto": "F01",
+   "es_comment": true,
+   "dist_campana": 1120.8,
+   "z": 13520.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557262,
+   "apto": "F01",
+   "es_comment": true,
+   "dist_campana": 1875.7,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557309,
+   "apto": "F02",
+   "es_comment": true,
+   "dist_campana": 1839.8,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557311,
+   "apto": "F02",
+   "es_comment": true,
+   "dist_campana": 2208.0,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557313,
+   "apto": "F02",
+   "es_comment": true,
+   "dist_campana": 2333.6,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557315,
+   "apto": "F02",
+   "es_comment": false,
+   "dist_campana": 1071.6,
+   "z": 13520.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557330,
+   "apto": "F02",
+   "es_comment": true,
+   "dist_campana": 2908.7,
+   "z": 14070.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5559033,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 420.2,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5565670,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 237.0,
+   "z": 14060.063,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5568810,
+   "apto": "F17",
+   "es_comment": true,
+   "dist_campana": 2352.7,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5568811,
+   "apto": "F17",
+   "es_comment": true,
+   "dist_campana": 2232.3,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5568812,
+   "apto": "F17",
+   "es_comment": true,
+   "dist_campana": 887.5,
+   "z": 14270.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5568817,
+   "apto": "F17",
+   "es_comment": true,
+   "dist_campana": 1838.9,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5568838,
+   "apto": "F18",
+   "es_comment": true,
+   "dist_campana": 1868.9,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5568839,
+   "apto": "F18",
+   "es_comment": true,
+   "dist_campana": 2206.5,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5568840,
+   "apto": "F18",
+   "es_comment": true,
+   "dist_campana": 2332.7,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5568841,
+   "apto": "F18",
+   "es_comment": true,
+   "dist_campana": 863.3,
+   "z": 14270.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5568867,
+   "apto": "F17",
+   "es_comment": false,
+   "dist_campana": 477.0,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5568897,
+   "apto": "F18",
+   "es_comment": false,
+   "dist_campana": 257.8,
+   "z": 14060.063,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5570622,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 1170.3,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5570624,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 382.0,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5570625,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 641.9,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5570627,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1157.8,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5580898,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 1159.7,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5580900,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 379.8,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5580901,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 637.8,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5580903,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1152.2,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5580973,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 337.4,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5580974,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 597.4,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5580976,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1113.5,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5605821,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2366.7,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5605823,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2187.3,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5605825,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1074.2,
+   "z": 14270.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5605829,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1832.8,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5606174,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1053.8,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5606180,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1830.5,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5608070,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2339.4,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5608677,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2210.4,
+   "z": 13920.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5610948,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2347.5,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5610953,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1047.2,
+   "z": 14270.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5610957,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1854.7,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5610976,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2343.2,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5610979,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2210.4,
+   "z": 13920.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614097,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2160.0,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614104,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1883.5,
+   "z": 14270.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614554,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2409.7,
+   "z": 14870.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614557,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2126.4,
+   "z": 13920.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614559,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1014.3,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614562,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1845.2,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614570,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2464.2,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614573,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2219.2,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614575,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1049.6,
+   "z": 14270.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5614578,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1857.3,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5622244,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 1192.4,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5622247,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 1172.7,
+   "z": 13520.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5622287,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1427.9,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5622290,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1697.1,
+   "z": 13970.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5622292,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1852.0,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5623831,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 1172.7,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5625900,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 1161.3,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5625903,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 1161.3,
+   "z": 13500.305,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5625930,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1421.7,
+   "z": 14270.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5625933,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1756.0,
+   "z": 14870.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5625935,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 2013.4,
+   "z": 13970.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5638939,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 174.6,
+   "z": 14870.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5638942,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 960.1,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5638944,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 434.6,
+   "z": 13920.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639169,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 352.4,
+   "z": 14870.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639172,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1000.2,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639174,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 751.4,
+   "z": 13920.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639239,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 464.2,
+   "z": 13920.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639242,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 423.3,
+   "z": 14870.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639244,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1801.5,
+   "z": 14270.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639247,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 763.2,
+   "z": 14270.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639291,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 363.8,
+   "z": 14070.0,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639308,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 449.5,
+   "z": 14236.27,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639311,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 525.6,
+   "z": 14303.195,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639317,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 1027.2,
+   "z": 14222.243,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5639358,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 373.9,
+   "z": 13993.324,
+   "tipo": "GFCI",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5643360,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 208.1,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5643367,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 237.5,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5643371,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 242.2,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5643374,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 250.2,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5643377,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 268.6,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5643383,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 241.4,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5643386,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 241.7,
+   "z": 14320.0,
+   "tipo": "Simple",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5643423,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 441.0,
+   "z": 14320.0,
+   "tipo": "Triple conmutable",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5643436,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 441.0,
+   "z": 14471.776,
+   "tipo": "Triple conmutable",
+   "familia": "M_Interruptores"
+  },
+  {
+   "id": 5651319,
+   "apto": null,
+   "es_comment": true,
+   "dist_campana": 1048.1,
+   "z": 14270.0,
+   "tipo": "Normal",
+   "familia": "M_Toma doble"
+  },
+  {
+   "id": 5557267,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 858.5,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5557335,
+   "apto": "F02",
+   "es_comment": false,
+   "dist_campana": 834.7,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5568819,
+   "apto": "F17",
+   "es_comment": false,
+   "dist_campana": 881.2,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5568847,
+   "apto": "F18",
+   "es_comment": false,
+   "dist_campana": 849.2,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602061,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 858.5,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602159,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 834.7,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602247,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 858.5,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602258,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 834.7,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602345,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 858.5,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602379,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 858.5,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602861,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 684.8,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 13 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602867,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 556.1,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602888,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 863.2,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 13 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5602894,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 535.2,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 22 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5639120,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 732.5,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 10 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5639152,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 756.8,
+   "z": 15820.0,
+   "tipo": "SONO FLEX 10 trim",
+   "familia": "M_Iluminacion"
+  },
+  {
+   "id": 5529844,
+   "apto": "E06",
+   "es_comment": false,
+   "dist_campana": 219.6,
+   "z": 15620.0,
+   "tipo": "Campana",
+   "familia": "M_Timbre"
+  },
+  {
+   "id": 5529858,
+   "apto": "E06",
+   "es_comment": false,
+   "dist_campana": 226.5,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5557251,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 476.1,
+   "z": 14319.176,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5557253,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 74.9,
+   "z": 15620.0,
+   "tipo": "Campana",
+   "familia": "M_Timbre"
+  },
+  {
+   "id": 5568128,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 225.8,
+   "z": 15620.0,
+   "tipo": "Campana",
+   "familia": "M_Timbre"
+  },
+  {
+   "id": 5568814,
+   "apto": "F17",
+   "es_comment": false,
+   "dist_campana": 518.4,
+   "z": 14319.176,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5568815,
+   "apto": "F17",
+   "es_comment": false,
+   "dist_campana": 7.9,
+   "z": 15620.0,
+   "tipo": "Campana",
+   "familia": "M_Timbre"
+  },
+  {
+   "id": 5568911,
+   "apto": "F18",
+   "es_comment": false,
+   "dist_campana": 249.4,
+   "z": 15620.0,
+   "tipo": "Campana",
+   "familia": "M_Timbre"
+  },
+  {
+   "id": 5570623,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 183.9,
+   "z": 15612.112,
+   "tipo": "Campana",
+   "familia": "M_Timbre"
+  },
+  {
+   "id": 5570628,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 187.4,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5580899,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 185.1,
+   "z": 15620.0,
+   "tipo": "Campana",
+   "familia": "M_Timbre"
+  },
+  {
+   "id": 5580904,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 221.7,
+   "z": 14377.444,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5580972,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 137.4,
+   "z": 15620.0,
+   "tipo": "Campana",
+   "familia": "M_Timbre"
+  },
+  {
+   "id": 5580977,
+   "apto": "F01",
+   "es_comment": false,
+   "dist_campana": 150.6,
+   "z": 14377.444,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640122,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 265.5,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640125,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 273.2,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640128,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 285.6,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640130,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 130.0,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640133,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 188.7,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640136,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 1041.8,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640263,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 240.1,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640305,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 295.5,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640312,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 272.0,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5640319,
+   "apto": null,
+   "es_comment": false,
+   "dist_campana": 272.4,
+   "z": 14320.0,
+   "tipo": "Timbre",
+   "familia": "M_Pulsador - Interruptor"
+  },
+  {
+   "id": 5657458,
+   "apto": "F18",
+   "es_comment": false,
+   "dist_campana": 57.2,
+   "z": 15620.0,
+   "tipo": "Campana",
+   "familia": "M_Timbre"
+  }
+ ]
+}

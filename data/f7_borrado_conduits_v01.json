@@ -1,0 +1,16 @@
+{
+ "fallos": [], 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "resumen": {
+  "fallos": 0, 
+  "fittings_antes": 6, 
+  "conduits_antes": 1526, 
+  "borrados_conduits": 1526, 
+  "protegidos_grupo": 0, 
+  "quedan_conduits": 3, 
+  "borrados_fittings": 6, 
+  "quedan_fittings": 0
+ }, 
+ "generado_utc": "2026-11-23 00:55:07", 
+ "version": "v01_exportar_borrar"
+}

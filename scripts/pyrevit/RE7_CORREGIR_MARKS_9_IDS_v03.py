@@ -1,0 +1,372 @@
+# -*- coding: utf-8 -*-
+"""
+RE7_CORREGIR_MARKS_9_IDS_v03.py
+Corrige los Mark de 9 ElementIds específicos y de cualquier ELEC-TEL/Datos
+que tenga 'SIN CIRCUITO' en el mark.
+
+ENFOQUE: Por apartamento desde el Mark existente (antes del primer "|"),
+NUNCA por zonas geograficas.
+
+Reglas:
+- Para los 9 IDs del JSON: usar apartamento del JSON (F17 o F18)
+- ELEC-TEL / M_Comunicaciones / Datos: circuito = 'Datos', tablero = 'TF'
+- Tomas/otros: buscar circuito real del DXF mas cercano del mismo apartamento
+- Mark: apartamento|tablero|circuito
+- Validar que apartamento del mark coincida con el apartamento fuente
+
+Entrada: data/f7_marks_ajuste_9_ids_v01.json + data/f7_dxf_circuitos_f17_f18_v01.json
+Entorno: pyRevit IronPython 2.7
+"""
+import json
+import math
+import os
+import sys
+import datetime
+import traceback
+
+import clr
+clr.AddReference("RevitAPI")
+clr.AddReference("RevitAPIUI")
+
+from Autodesk.Revit.DB import (
+    BuiltInCategory,
+    ElementId,
+    FilteredElementCollector,
+    LocationCurve,
+    LocationPoint,
+    Transaction,
+)
+from System import Int64
+
+VERSION = "v03_corregir_9_ids"
+DEFAULT_ROOT = r"D:\Work\PROJECTS\RevitElectrico"
+JSON_IDS_PATH = r"D:\Work\PROJECTS\RevitElectrico\data\f7_marks_ajuste_9_ids_v01.json"
+JSON_DXF_PATH = r"D:\Work\PROJECTS\RevitElectrico\data\f7_dxf_circuitos_f17_f18_v01.json"
+
+RADIO_DXF_MM = 400.0
+
+CATEGORIAS_REVIT = [
+    BuiltInCategory.OST_ElectricalFixtures,
+    BuiltInCategory.OST_LightingFixtures,
+    BuiltInCategory.OST_DataDevices,
+    BuiltInCategory.OST_TelephoneDevices,
+    BuiltInCategory.OST_CommunicationDevices,
+    BuiltInCategory.OST_MechanicalEquipment,
+]
+
+
+def _raiz():
+    r = os.environ.get("REVITELECTRICO_ROOT", "").strip()
+    if r and os.path.exists(r):
+        return r
+    return DEFAULT_ROOT
+
+
+def log(msg):
+    print(msg)
+    try:
+        sys.stdout.flush()
+    except Exception:
+        pass
+
+
+def obtener_doc():
+    try:
+        app = __revit__
+        if app is not None and hasattr(app, "ActiveUIDocument"):
+            return app.ActiveUIDocument.Document
+    except Exception:
+        pass
+    try:
+        from pyrevit import revit as _revit
+        if getattr(_revit, "doc", None) is not None:
+            return _revit.doc
+    except Exception:
+        pass
+    return None
+
+
+def id_de(el):
+    v = el.Id
+    if hasattr(v, "IntegerValue"):
+        return int(v.IntegerValue)
+    return int(v.Value)
+
+
+def dist2d(p, q):
+    return math.sqrt((p[0] - q[0]) ** 2 + (p[1] - q[1]) ** 2)
+
+
+def punto_real(el):
+    loc = el.Location
+    if isinstance(loc, LocationPoint):
+        p = loc.Point
+        return [p.X * 304.8, p.Y * 304.8, p.Z * 304.8]
+    if isinstance(loc, LocationCurve):
+        c = loc.Curve
+        p0 = c.GetEndPoint(0)
+        p1 = c.GetEndPoint(1)
+        xm = 0.5 * (p0.X + p1.X) * 304.8
+        ym = 0.5 * (p0.Y + p1.Y) * 304.8
+        zm = 0.5 * (p0.Z + p1.Z) * 304.8
+        return [xm, ym, zm]
+    return None
+
+
+def obtener_parametro(el, nombres):
+    for nombre in nombres:
+        try:
+            p = el.LookupParameter(nombre)
+            if p is not None and not p.IsReadOnly:
+                return p
+        except Exception:
+            continue
+    return None
+
+
+def obtener_valor_parametro(el, nombres):
+    p = obtener_parametro(el, nombres)
+    if p is not None:
+        try:
+            return p.AsString()
+        except Exception:
+            pass
+    return None
+
+
+def familia_tipo(el):
+    try:
+        sym = el.Symbol
+        if sym is not None:
+            from Autodesk.Revit.DB import BuiltInParameter
+            pname = sym.get_Parameter(BuiltInParameter.SYMBOL_NAME_PARAM)
+            if pname is not None:
+                nom = pname.AsString()
+            else:
+                nom = str(sym.Id)
+            return "%s" % nom
+    except Exception:
+        pass
+    return el.Category.Name
+
+
+def apartamento_de_mark(mark):
+    """Extrae el apartamento de un Mark (antes del primer '|')."""
+    if mark and "|" in mark:
+        return mark.split("|")[0]
+    return None
+
+
+def cargar_json(path):
+    with open(path, "r") as f:
+        return json.load(f)
+
+
+def cargar_bloques_dxf(path):
+    datos = cargar_json(path)
+    return datos.get("bloques", [])
+
+
+def es_datos_o_comunicaciones(familia, nombre_bloque_dxf):
+    f = (familia or "").lower()
+    b = (nombre_bloque_dxf or "").lower()
+    if "comunic" in f or "datos" in f or "tel" in f:
+        return True
+    if "elec-tel" in b or "elec-net" in b:
+        return True
+    return False
+
+
+def encontrar_circuito_dxf(x_mm, y_mm, apto, bloques_dxf):
+    """Busca el bloque DXF mas cercano del mismo apartamento."""
+    bloques_apto = [b for b in bloques_dxf if b["apto"] == apto]
+    if not bloques_apto:
+        return None, None, None
+
+    mejor = None
+    mejor_dist = None
+    for b in bloques_apto:
+        d = dist2d([x_mm, y_mm], [b["x"], b["y"]])
+        if mejor_dist is None or d < mejor_dist:
+            mejor = b
+            mejor_dist = d
+
+    if mejor is None or mejor_dist > RADIO_DXF_MM:
+        return None, None, None
+
+    circuito = mejor.get("circuito") or "SIN CIRCUITO"
+    tablero = circuito.split("-")[0] if circuito != "SIN CIRCUITO" and "-" in circuito else apto
+    return circuito, tablero, mejor["nombre"]
+
+
+def main():
+    log("=" * 70)
+    log("RE7_CORREGIR_MARKS_9_IDS_%s" % VERSION)
+    log("utc=%s" % datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"))
+    log("=" * 70)
+
+    doc = obtener_doc()
+    if doc is None:
+        log("ERROR: no hay documento activo.")
+        return 1
+    log("documento=%r" % doc.Title)
+
+    raiz = _raiz()
+
+    # 1. Cargar IDs a corregir (con apartamento del JSON)
+    try:
+        ids_lista = cargar_json(JSON_IDS_PATH)
+    except Exception as ex:
+        log("ERROR cargando JSON de IDs: %s" % ex)
+        return 1
+
+    # 2. Cargar bloques DXF
+    try:
+        bloques_dxf = cargar_bloques_dxf(JSON_DXF_PATH)
+    except Exception as ex:
+        log("ERROR cargando bloques DXF: %s" % ex)
+        return 1
+
+    log("IDs a corregir: %d, Bloques DXF: %d" % (len(ids_lista), len(bloques_dxf)))
+
+    # 3. Obtener TODOS los dispositivos de Revit para corregir ELEC-TEL con SIN CIRCUITO
+    dispositivos_revit = []
+    for cat in CATEGORIAS_REVIT:
+        for el in FilteredElementCollector(doc).OfCategory(cat).ToElements():
+            pt = punto_real(el)
+            if pt is None:
+                continue
+            mark_actual = obtener_valor_parametro(el, ["Mark"])
+            apto_mark = apartamento_de_mark(mark_actual)
+            dispositivos_revit.append({
+                "id": id_de(el),
+                "x": pt[0],
+                "y": pt[1],
+                "z": pt[2],
+                "apto_mark": apto_mark,
+                "familia": familia_tipo(el),
+                "elemento": el,
+                "mark_actual": mark_actual,
+            })
+
+    log("Dispositivos totales en Revit: %d" % len(dispositivos_revit))
+
+    # 4. Procesar
+    ok = 0
+    fail = 0
+
+    ids_a_corregir = {item["id"]: item for item in ids_lista}
+
+    t = Transaction(doc, "RE7_CORREGIR_MARKS_9_IDS_v03")
+    t.Start()
+    try:
+        # A. Corregir los 9 IDs especificos (usar apartamento del JSON)
+        for eid, item in ids_a_corregir.items():
+            el = doc.GetElement(ElementId(Int64(eid)))
+            if el is None:
+                fail += 1
+                log("  FAIL id=%s: elemento no encontrado" % eid)
+                continue
+
+            pt = punto_real(el)
+            if pt is None:
+                fail += 1
+                log("  FAIL id=%s: sin Location.Point/Curve" % eid)
+                continue
+
+            x, y, z = pt
+            familia = familia_tipo(el)
+            apto_json = item.get("apto", "")
+            mark_actual = obtener_valor_parametro(el, ["Mark"])
+            apto_mark = apartamento_de_mark(mark_actual)
+
+            # Usar apartamento del JSON como fuente de verdad
+            apto = apto_json
+            if apto_mark and apto_mark != apto_json:
+                log("  ID %s: Mark dice %s, JSON dice %s -> usando JSON" % (
+                    eid, apto_mark, apto_json))
+
+            es_datos = es_datos_o_comunicaciones(familia, item.get("bloque_dxf", ""))
+
+            if es_datos:
+                circuito = "Datos"
+                tablero = "TF"
+                mark_final = "%s|%s|%s" % (apto, tablero, circuito)
+                log("  ID %s [%s]: Datos -> Mark=%r" % (eid, familia, mark_final))
+            else:
+                circuito, tablero, bloque_nombre = encontrar_circuito_dxf(x, y, apto, bloques_dxf)
+                if not circuito:
+                    fail += 1
+                    log("  FAIL id=%s: no se encontro circuito DXF para apto=%s" % (eid, apto))
+                    continue
+                mark_final = "%s|%s|%s" % (apto, tablero, circuito)
+                log("  ID %s [%s]: DXF circuito=%s -> Mark=%r" % (
+                    eid, familia, circuito, mark_final))
+
+            # Validar que el apartamento del mark coincida con el fuente
+            apto_en_mark_final = mark_final.split("|")[0]
+            if apto_en_mark_final != apto:
+                fail += 1
+                log("  ERROR id=%s: apartamento mark=%s != fuente=%s" % (
+                    eid, apto_en_mark_final, apto))
+                continue
+
+            p_mark = obtener_parametro(el, ["Mark"])
+            if p_mark is None:
+                fail += 1
+                log("  FAIL id=%s: sin parameter Mark" % eid)
+                continue
+            p_mark.Set(mark_final)
+            ok += 1
+
+        # B. Corregir ELEC-TEL/Datos que tengan 'SIN CIRCUITO' en el mark
+        for disp in dispositivos_revit:
+            mark_actual = disp["mark_actual"] or ""
+            if "SIN CIRCUITO" not in mark_actual:
+                continue
+
+            eid = disp["id"]
+            apto_mark = disp["apto_mark"]
+            familia = disp["familia"]
+
+            if not apto_mark:
+                log("  SKIP id=%s: sin apartamento en mark actual" % eid)
+                continue
+
+            if not es_datos_o_comunicaciones(familia, ""):
+                continue
+
+            mark_final = "%s|TF|Datos" % apto_mark
+            log("  ID %s [%s]: SIN CIRCUITO -> Mark=%r" % (eid, familia, mark_final))
+
+            el = disp["elemento"]
+            p_mark = obtener_parametro(el, ["Mark"])
+            if p_mark is None:
+                fail += 1
+                log("  FAIL id=%s: sin parameter Mark" % eid)
+                continue
+            p_mark.Set(mark_final)
+            ok += 1
+
+        t.Commit()
+    except Exception:
+        t.RollBack()
+        log("ERROR: transaccion revertida.")
+        traceback.print_exc()
+        return 1
+
+    log("")
+    log("=" * 70)
+    log("RESULTADO: %d corregidos OK, %d fallos" % (ok, fail))
+    log("=" * 70)
+    return 0 if fail == 0 else 1
+
+
+try:
+    raise SystemExit(main())
+except SystemExit:
+    raise
+except Exception:
+    log("EXCEPCION NO CONTROLADA:")
+    log(traceback.format_exc())
+    raise SystemExit(1)

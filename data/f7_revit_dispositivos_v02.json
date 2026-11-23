@@ -1,0 +1,2917 @@
+{
+  "dispositivos": [
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5557235, 
+      "y_mm": 1511.6579999999999, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10481.616000000000, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5557237, 
+      "y_mm": 1641.6579999999999, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10488.074000000001, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14320.0, 
+      "id": 5557249, 
+      "y_mm": 5606.0180000000000, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10435.773999999999, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5557299, 
+      "y_mm": 4558.3180000000002, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10270.974000000000, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5557303, 
+      "y_mm": 16155.133000000000, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10501.701999999999, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5557305, 
+      "y_mm": 16025.133000000000, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10508.074000000001, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13519.175999999999, 
+      "id": 5557317, 
+      "y_mm": 12060.772999999999, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10503.538000000000, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5557367, 
+      "y_mm": 13090.133000000000, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10270.974000000000, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14320.0, 
+      "id": 5558646, 
+      "y_mm": 1576.6579999999999, 
+      "tipo": "Simple", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10715.773999999999, 
+      "apto": "F17", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14320.0, 
+      "id": 5567671, 
+      "y_mm": 16090.133000000000, 
+      "tipo": "Simple", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10715.773999999999, 
+      "apto": "F18", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5568806, 
+      "y_mm": 1511.6579999999999, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 9850.7739999999994, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5568807, 
+      "y_mm": 1641.6579999999999, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 9850.7739999999994, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14220.0, 
+      "id": 5568808, 
+      "y_mm": 3228.3180000000002, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6556.2120000000004, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14070.0, 
+      "id": 5568809, 
+      "y_mm": 5136.3000000000002, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6556.2120000000004, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14870.0, 
+      "id": 5568810, 
+      "y_mm": 5788.2719999999999, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6556.2129999999997, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13920.0, 
+      "id": 5568811, 
+      "y_mm": 5916.3000000000002, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6556.2129999999997, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14270.0, 
+      "id": 5568812, 
+      "y_mm": 7577.4260000000004, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6556.2120000000004, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14320.0, 
+      "id": 5568813, 
+      "y_mm": 5606.0180000000000, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 9945.7739999999994, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_ClimatizacionV", 
+      "z_mm": 15820.0, 
+      "id": 5568816, 
+      "y_mm": 3267.6520000000000, 
+      "tipo": "Ventilador", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8363.7960000000003, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14270.0, 
+      "id": 5568817, 
+      "y_mm": 6338.2719999999999, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6564.4849999999997, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5568832, 
+      "y_mm": 5256.0180000000000, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8685.7739999999994, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5568833, 
+      "y_mm": 4560.6180000000004, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10120.574000000001, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5568835, 
+      "y_mm": 16155.133000000000, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 9889.8469999999998, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5568836, 
+      "y_mm": 16025.133000000000, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 9883.4740000000002, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14220.0, 
+      "id": 5568837, 
+      "y_mm": 14296.563000000000, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6555.2160000000003, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14270.0, 
+      "id": 5568838, 
+      "y_mm": 11345.004999999999, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6555.2160000000003, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13920.0, 
+      "id": 5568839, 
+      "y_mm": 11744.633000000000, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6555.2160000000003, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14870.0, 
+      "id": 5568840, 
+      "y_mm": 11878.473000000000, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6555.2160000000003, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13519.175999999999, 
+      "id": 5568842, 
+      "y_mm": 12060.772999999999, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 9888.0110000000004, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_ClimatizacionV", 
+      "z_mm": 15820.0, 
+      "id": 5568844, 
+      "y_mm": 14388.892000000000, 
+      "tipo": "Ventilador", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8324.0169999999998, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 14070.0, 
+      "id": 5568845, 
+      "y_mm": 12481.932000000001, 
+      "tipo": "GFCI", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 6557.2039999999997, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5568861, 
+      "y_mm": 13090.133000000000, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 10120.574000000001, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14320.0, 
+      "id": 5568865, 
+      "y_mm": 1576.6579999999999, 
+      "tipo": "Simple", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 9655.7739999999994, 
+      "apto": "F17", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14320.0, 
+      "id": 5568867, 
+      "y_mm": 8077.4260000000004, 
+      "tipo": "Simple", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 7803.4740000000002, 
+      "apto": "F17", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14320.0, 
+      "id": 5568868, 
+      "y_mm": 6408.3180000000002, 
+      "tipo": "Simple", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8743.4740000000002, 
+      "apto": "F17", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Toma doble", 
+      "z_mm": 13520.0, 
+      "id": 5568873, 
+      "y_mm": 5456.0180000000000, 
+      "tipo": "Normal", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8685.7739999999994, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14320.0, 
+      "id": 5568875, 
+      "y_mm": 5190.3680000000004, 
+      "tipo": "Doble", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8743.4740000000002, 
+      "apto": "F17", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Climatizacion", 
+      "z_mm": 14320.0, 
+      "id": 5568876, 
+      "y_mm": 5008.3180000000002, 
+      "tipo": "Interruptor Ventilador", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8685.7739999999994, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14060.063000000000, 
+      "id": 5568897, 
+      "y_mm": 9607.6569999999992, 
+      "tipo": "Simple", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 7563.4740000000002, 
+      "apto": "F18", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14320.0, 
+      "id": 5568898, 
+      "y_mm": 11278.473000000000, 
+      "tipo": "Simple", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8743.4740000000002, 
+      "apto": "F18", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14320.0, 
+      "id": 5568899, 
+      "y_mm": 12476.673000000001, 
+      "tipo": "Doble", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8743.4740000000002, 
+      "apto": "F18", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Climatizacion", 
+      "z_mm": 14320.0, 
+      "id": 5568900, 
+      "y_mm": 12656.673000000001, 
+      "tipo": "Interruptor Ventilador", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 8685.7739999999994, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Interruptores", 
+      "z_mm": 14320.0, 
+      "id": 5568909, 
+      "y_mm": 16090.133000000000, 
+      "tipo": "Simple", 
+      "categoria": "Electrical Fixtures", 
+      "x_mm": 9675.7739999999994, 
+      "apto": "F18", 
+      "nivel": "Piso 5"
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5557271, 
+      "y_mm": 1971.6210000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 10884.255999999999, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5557275, 
+      "y_mm": 4551.6210000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 10888.794000000000, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5557277, 
+      "y_mm": 6811.2860000000001, 
+      "tipo": "SONO FLEX 13 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 10882.504000000001, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5557339, 
+      "y_mm": 15684.923000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 10924.035000000000, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5557343, 
+      "y_mm": 13104.923000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 10928.573000000000, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5557345, 
+      "y_mm": 10845.258000000000, 
+      "tipo": "SONO FLEX 13 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 10922.282999999999, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568818, 
+      "y_mm": 5881.6210000000001, 
+      "tipo": "SONO FLEX 22 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 7644.2060000000001, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568819, 
+      "y_mm": 7182.7719999999999, 
+      "tipo": "SONO FLEX 22 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 7635.7070000000003, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568820, 
+      "y_mm": 1971.6210000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 7648.7439999999997, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568821, 
+      "y_mm": 1971.6210000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 9507.2929999999997, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568822, 
+      "y_mm": 4551.6210000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 7644.2060000000001, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568823, 
+      "y_mm": 4551.6210000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 9502.7549999999992, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568824, 
+      "y_mm": 6811.2860000000001, 
+      "tipo": "SONO FLEX 13 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 9509.0450000000001, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568825, 
+      "y_mm": 781.16600000000005, 
+      "tipo": "SONO FLEX 13 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 8343.6270000000004, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568846, 
+      "y_mm": 11774.923000000001, 
+      "tipo": "SONO FLEX 22 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 7604.4269999999997, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568847, 
+      "y_mm": 10473.772000000001, 
+      "tipo": "SONO FLEX 22 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 7595.9279999999999, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568848, 
+      "y_mm": 15684.923000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 7608.9650000000001, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568849, 
+      "y_mm": 15684.923000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 9467.5139999999992, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568850, 
+      "y_mm": 13104.923000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 7604.4269999999997, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568851, 
+      "y_mm": 13104.923000000001, 
+      "tipo": "SONO FLEX 10 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 9462.9760000000006, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568852, 
+      "y_mm": 10845.258000000000, 
+      "tipo": "SONO FLEX 13 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 9469.2659999999996, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "M_Iluminacion", 
+      "z_mm": 15820.0, 
+      "id": 5568853, 
+      "y_mm": 16875.378000000001, 
+      "tipo": "SONO FLEX 13 trim", 
+      "categoria": "Lighting Fixtures", 
+      "x_mm": 8303.8480000000000, 
+      "apto": "F18", 
+      "nivel": null
+    }, 
+    {
+      "familia": "Consolidation_Point", 
+      "z_mm": 15920.0, 
+      "id": 5568834, 
+      "y_mm": 5328.3180000000002, 
+      "tipo": "CPB12BL", 
+      "categoria": "Data Devices", 
+      "x_mm": 8685.7739999999994, 
+      "apto": "F17", 
+      "nivel": null
+    }, 
+    {
+      "familia": "Consolidation_Point", 
+      "z_mm": 15920.0, 
+      "id": 5568862, 
+      "y_mm": 12458.473000000000, 
+      "tipo": "CPB12BL", 
+      "categoria": "Data Devices", 
+      "x_mm": 8685.7739999999994, 
+      "apto": "F18", 
+      "nivel": null
+    }
+  ], 
+  "conduits_existentes": {
+    "z_mediana_mm": 15930.0, 
+    "detalle": [
+      {
+        "id": 5643464, 
+        "z0_mm": 15920.0, 
+        "y_mm": 10746.400000000000, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12584.5, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643466, 
+        "z0_mm": 15920.0, 
+        "y_mm": 10851.299999999999, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12361.400000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643468, 
+        "z0_mm": 15920.0, 
+        "y_mm": 10512.799999999999, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12904.0, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643470, 
+        "z0_mm": 15920.0, 
+        "y_mm": 11831.100000000000, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12907.5, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643472, 
+        "z0_mm": 15920.0, 
+        "y_mm": 13130.700000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11075.900000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643474, 
+        "z0_mm": 15920.0, 
+        "y_mm": 13148.200000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12881.299999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643476, 
+        "z0_mm": 15920.0, 
+        "y_mm": 15687.200000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12825.299999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643478, 
+        "z0_mm": 15920.0, 
+        "y_mm": 15648.200000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11025.299999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643480, 
+        "z0_mm": 15920.0, 
+        "y_mm": 12616.700000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11845.5, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643482, 
+        "z0_mm": 15767.600000000000, 
+        "y_mm": 12616.700000000001, 
+        "z_med_mm": 14983.799999999999, 
+        "x_mm": 11693.100000000000, 
+        "apto": null, 
+        "z1_mm": 14200.0
+      }, 
+      {
+        "id": 5643484, 
+        "z0_mm": 14140.0, 
+        "y_mm": 9607.7999999999993, 
+        "z_med_mm": 14953.799999999999, 
+        "x_mm": 12884.0, 
+        "apto": null, 
+        "z1_mm": 15767.600000000000
+      }, 
+      {
+        "id": 5643486, 
+        "z0_mm": 15920.0, 
+        "y_mm": 9760.2000000000007, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12883.900000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643488, 
+        "z0_mm": 13929.100000000000, 
+        "y_mm": 14285.600000000000, 
+        "z_med_mm": 14848.400000000000, 
+        "x_mm": 13909.100000000000, 
+        "apto": null, 
+        "z1_mm": 15767.600000000000
+      }, 
+      {
+        "id": 5643490, 
+        "z0_mm": 15920.0, 
+        "y_mm": 13130.700000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12996.400000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643492, 
+        "z0_mm": 15920.0, 
+        "y_mm": 14133.200000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 13148.799999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643494, 
+        "z0_mm": 15920.0, 
+        "y_mm": 14285.600000000000, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 13756.700000000001, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643496, 
+        "z0_mm": 15920.0, 
+        "y_mm": 15687.200000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10833.700000000001, 
+        "apto": "F18", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643498, 
+        "z0_mm": 14162.5, 
+        "y_mm": 16064.100000000000, 
+        "z_med_mm": 14965.0, 
+        "x_mm": 10681.299999999999, 
+        "apto": "F18", 
+        "z1_mm": 15767.600000000000
+      }, 
+      {
+        "id": 5643500, 
+        "z0_mm": 13929.700000000001, 
+        "y_mm": 16064.100000000000, 
+        "z_med_mm": 13745.900000000000, 
+        "x_mm": 10471.299999999999, 
+        "apto": "F18", 
+        "z1_mm": 13562.100000000000
+      }, 
+      {
+        "id": 5643502, 
+        "z0_mm": 13523.299999999999, 
+        "y_mm": 16126.100000000000, 
+        "z_med_mm": 13523.299999999999, 
+        "x_mm": 10471.299999999999, 
+        "apto": "F18", 
+        "z1_mm": 13523.299999999999
+      }, 
+      {
+        "id": 5643504, 
+        "z0_mm": 14082.100000000000, 
+        "y_mm": 16064.100000000000, 
+        "z_med_mm": 14082.100000000000, 
+        "x_mm": 10623.700000000001, 
+        "apto": "F18", 
+        "z1_mm": 14082.100000000000
+      }, 
+      {
+        "id": 5643506, 
+        "z0_mm": 15922.100000000000, 
+        "y_mm": 15747.400000000000, 
+        "z_med_mm": 15922.100000000000, 
+        "x_mm": 10998.400000000000, 
+        "apto": "F18", 
+        "z1_mm": 15922.100000000000
+      }, 
+      {
+        "id": 5643508, 
+        "z0_mm": 15922.100000000000, 
+        "y_mm": 16887.400000000001, 
+        "z_med_mm": 15922.100000000000, 
+        "x_mm": 11150.799999999999, 
+        "apto": null, 
+        "z1_mm": 15922.100000000000
+      }, 
+      {
+        "id": 5643510, 
+        "z0_mm": 15945.0, 
+        "y_mm": 14390.200000000001, 
+        "z_med_mm": 15945.0, 
+        "x_mm": 12103.600000000000, 
+        "apto": null, 
+        "z1_mm": 15945.0
+      }, 
+      {
+        "id": 5643512, 
+        "z0_mm": 15945.0, 
+        "y_mm": 14237.799999999999, 
+        "z_med_mm": 15945.0, 
+        "x_mm": 11664.400000000000, 
+        "apto": null, 
+        "z1_mm": 15945.0
+      }, 
+      {
+        "id": 5643514, 
+        "z0_mm": 15792.600000000000, 
+        "y_mm": 12621.299999999999, 
+        "z_med_mm": 14998.799999999999, 
+        "x_mm": 11664.400000000000, 
+        "apto": null, 
+        "z1_mm": 14205.0
+      }, 
+      {
+        "id": 5643516, 
+        "z0_mm": 13562.100000000000, 
+        "y_mm": 12370.600000000000, 
+        "z_med_mm": 14696.799999999999, 
+        "x_mm": 11664.400000000000, 
+        "apto": null, 
+        "z1_mm": 15831.600000000000
+      }, 
+      {
+        "id": 5643518, 
+        "z0_mm": 15984.0, 
+        "y_mm": 12370.600000000000, 
+        "z_med_mm": 15984.0, 
+        "x_mm": 11816.799999999999, 
+        "apto": null, 
+        "z1_mm": 15984.0
+      }, 
+      {
+        "id": 5643520, 
+        "z0_mm": 15805.799999999999, 
+        "y_mm": 12557.200000000001, 
+        "z_med_mm": 14884.900000000000, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 13964.0
+      }, 
+      {
+        "id": 5643522, 
+        "z0_mm": 13917.900000000000, 
+        "y_mm": 12499.600000000000, 
+        "z_med_mm": 13917.400000000000, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 13916.900000000000
+      }, 
+      {
+        "id": 5643524, 
+        "z0_mm": 13916.700000000001, 
+        "y_mm": 11675.5, 
+        "z_med_mm": 13916.700000000001, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 13916.700000000001
+      }, 
+      {
+        "id": 5643526, 
+        "z0_mm": 14323.100000000000, 
+        "y_mm": 11407.400000000000, 
+        "z_med_mm": 14523.700000000001, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 14724.299999999999
+      }, 
+      {
+        "id": 5643528, 
+        "z0_mm": 14876.700000000001, 
+        "y_mm": 11559.799999999999, 
+        "z_med_mm": 14876.700000000001, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 14876.700000000001
+      }, 
+      {
+        "id": 5643530, 
+        "z0_mm": 14266.100000000000, 
+        "y_mm": 11215.0, 
+        "z_med_mm": 14266.100000000000, 
+        "x_mm": 14079.299999999999, 
+        "apto": null, 
+        "z1_mm": 14266.100000000000
+      }, 
+      {
+        "id": 5643532, 
+        "z0_mm": 14110.400000000000, 
+        "y_mm": 11407.400000000000, 
+        "z_med_mm": 14166.100000000000, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 14221.700000000001
+      }, 
+      {
+        "id": 5643534, 
+        "z0_mm": 14159.400000000000, 
+        "y_mm": 11160.700000000001, 
+        "z_med_mm": 14963.5, 
+        "x_mm": 11674.400000000000, 
+        "apto": null, 
+        "z1_mm": 15767.600000000000
+      }, 
+      {
+        "id": 5643536, 
+        "z0_mm": 15920.0, 
+        "y_mm": 11160.700000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11522.0, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643538, 
+        "z0_mm": 15920.0, 
+        "y_mm": 11008.299999999999, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11003.400000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643540, 
+        "z0_mm": 15920.0, 
+        "y_mm": 10704.100000000000, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10331.299999999999, 
+        "apto": "F18", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643542, 
+        "z0_mm": 15920.0, 
+        "y_mm": 10856.400000000000, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10483.900000000000, 
+        "apto": "F18", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643544, 
+        "z0_mm": 15129.799999999999, 
+        "y_mm": 10539.600000000000, 
+        "z_med_mm": 15448.700000000001, 
+        "x_mm": 10331.299999999999, 
+        "apto": "F18", 
+        "z1_mm": 15767.600000000000
+      }, 
+      {
+        "id": 5643546, 
+        "z0_mm": 15970.0, 
+        "y_mm": 10221.400000000000, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 10740.0, 
+        "apto": "F18", 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643548, 
+        "z0_mm": 15970.0, 
+        "y_mm": 10415.100000000000, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 10546.400000000000, 
+        "apto": "F18", 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643550, 
+        "z0_mm": 14899.700000000001, 
+        "y_mm": 10221.400000000000, 
+        "z_med_mm": 15338.0, 
+        "x_mm": 11664.400000000000, 
+        "apto": null, 
+        "z1_mm": 15776.299999999999
+      }, 
+      {
+        "id": 5643552, 
+        "z0_mm": 14455.600000000000, 
+        "y_mm": 12091.100000000000, 
+        "z_med_mm": 15115.900000000000, 
+        "x_mm": 10546.400000000000, 
+        "apto": "F18", 
+        "z1_mm": 15776.299999999999
+      }, 
+      {
+        "id": 5643554, 
+        "z0_mm": 288220.0, 
+        "y_mm": 10071.0, 
+        "z_med_mm": 288220.0, 
+        "x_mm": 14079.299999999999, 
+        "apto": null, 
+        "z1_mm": 288220.0
+      }, 
+      {
+        "id": 5643556, 
+        "z0_mm": 288220.0, 
+        "y_mm": 10114.400000000000, 
+        "z_med_mm": 288220.0, 
+        "x_mm": 14079.299999999999, 
+        "apto": null, 
+        "z1_mm": 288220.0
+      }, 
+      {
+        "id": 5643558, 
+        "z0_mm": 288220.0, 
+        "y_mm": 251268.70000000001, 
+        "z_med_mm": 288220.0, 
+        "x_mm": 218384.20000000001, 
+        "apto": null, 
+        "z1_mm": 288220.0
+      }, 
+      {
+        "id": 5643560, 
+        "z0_mm": 14929.200000000001, 
+        "y_mm": 10071.0, 
+        "z_med_mm": 15352.299999999999, 
+        "x_mm": 11664.400000000000, 
+        "apto": null, 
+        "z1_mm": 15775.5
+      }, 
+      {
+        "id": 5643562, 
+        "z0_mm": 15969.200000000001, 
+        "y_mm": 10071.0, 
+        "z_med_mm": 15969.200000000001, 
+        "x_mm": 11858.100000000000, 
+        "apto": null, 
+        "z1_mm": 15969.200000000001
+      }, 
+      {
+        "id": 5643564, 
+        "z0_mm": 15775.5, 
+        "y_mm": 10071.0, 
+        "z_med_mm": 15049.299999999999, 
+        "x_mm": 14045.799999999999, 
+        "apto": null, 
+        "z1_mm": 14323.100000000000
+      }, 
+      {
+        "id": 5643566, 
+        "z0_mm": 14916.799999999999, 
+        "y_mm": 10144.400000000000, 
+        "z_med_mm": 15321.600000000000, 
+        "x_mm": 11659.400000000000, 
+        "apto": null, 
+        "z1_mm": 15726.299999999999
+      }, 
+      {
+        "id": 5643568, 
+        "z0_mm": 15920.0, 
+        "y_mm": 10281.299999999999, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11796.299999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643570, 
+        "z0_mm": 15920.0, 
+        "y_mm": 10427.0, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12050.0, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643572, 
+        "z0_mm": 15970.0, 
+        "y_mm": 13234.400000000000, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 10587.200000000001, 
+        "apto": "F18", 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643574, 
+        "z0_mm": 15970.0, 
+        "y_mm": 13168.299999999999, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 10735.799999999999, 
+        "apto": "F18", 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643576, 
+        "z0_mm": 15970.0, 
+        "y_mm": 12519.799999999999, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 11246.299999999999, 
+        "apto": null, 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643578, 
+        "z0_mm": 15817.600000000000, 
+        "y_mm": 10304.600000000000, 
+        "z_med_mm": 15346.600000000000, 
+        "x_mm": 11659.400000000000, 
+        "apto": null, 
+        "z1_mm": 14875.5
+      }, 
+      {
+        "id": 5643580, 
+        "z0_mm": 15970.0, 
+        "y_mm": 10304.600000000000, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 11398.700000000001, 
+        "apto": null, 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643582, 
+        "z0_mm": 15817.600000000000, 
+        "y_mm": 13234.400000000000, 
+        "z_med_mm": 15753.799999999999, 
+        "x_mm": 10226.200000000001, 
+        "apto": "F18", 
+        "z1_mm": 15690.0
+      }, 
+      {
+        "id": 5643584, 
+        "z0_mm": 15920.0, 
+        "y_mm": 13101.799999999999, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10371.5, 
+        "apto": "F18", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643586, 
+        "z0_mm": 15780.299999999999, 
+        "y_mm": 13101.799999999999, 
+        "z_med_mm": 14865.600000000000, 
+        "x_mm": 10231.799999999999, 
+        "apto": "F18", 
+        "z1_mm": 13950.900000000000
+      }, 
+      {
+        "id": 5643588, 
+        "z0_mm": 15850.900000000000, 
+        "y_mm": 14557.200000000001, 
+        "z_med_mm": 15850.900000000000, 
+        "x_mm": 13655.200000000001, 
+        "apto": null, 
+        "z1_mm": 15850.900000000000
+      }, 
+      {
+        "id": 5643590, 
+        "z0_mm": 15850.900000000000, 
+        "y_mm": 14363.600000000000, 
+        "z_med_mm": 15850.900000000000, 
+        "x_mm": 11748.100000000000, 
+        "apto": null, 
+        "z1_mm": 15850.900000000000
+      }, 
+      {
+        "id": 5643592, 
+        "z0_mm": 15631.5, 
+        "y_mm": 14557.200000000001, 
+        "z_med_mm": 14948.799999999999, 
+        "x_mm": 13848.799999999999, 
+        "apto": null, 
+        "z1_mm": 14266.100000000000
+      }, 
+      {
+        "id": 5643594, 
+        "z0_mm": 15677.400000000000, 
+        "y_mm": 12333.400000000000, 
+        "z_med_mm": 15677.400000000000, 
+        "x_mm": 11679.400000000000, 
+        "apto": null, 
+        "z1_mm": 15677.400000000000
+      }, 
+      {
+        "id": 5643596, 
+        "z0_mm": 14220.0, 
+        "y_mm": 14810.600000000000, 
+        "z_med_mm": 14220.0, 
+        "x_mm": 13863.200000000001, 
+        "apto": null, 
+        "z1_mm": 14220.0
+      }, 
+      {
+        "id": 5643598, 
+        "z0_mm": 15920.0, 
+        "y_mm": 6938.6999999999998, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12584.5, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643600, 
+        "z0_mm": 15920.0, 
+        "y_mm": 6833.8000000000002, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12361.400000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643602, 
+        "z0_mm": 15920.0, 
+        "y_mm": 7171.1999999999998, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12904.0, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643604, 
+        "z0_mm": 15920.0, 
+        "y_mm": 5854.0, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12907.5, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643606, 
+        "z0_mm": 15920.0, 
+        "y_mm": 4583.3000000000002, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11075.900000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643608, 
+        "z0_mm": 15920.0, 
+        "y_mm": 4536.8000000000002, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12881.299999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643610, 
+        "z0_mm": 15920.0, 
+        "y_mm": 1997.9000000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12825.299999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643612, 
+        "z0_mm": 15920.0, 
+        "y_mm": 2036.8000000000000, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11025.299999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643614, 
+        "z0_mm": 15920.0, 
+        "y_mm": 5090.1000000000004, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11819.799999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643616, 
+        "z0_mm": 15767.600000000000, 
+        "y_mm": 5090.1000000000004, 
+        "z_med_mm": 14943.799999999999, 
+        "x_mm": 11667.400000000000, 
+        "apto": null, 
+        "z1_mm": 14120.0
+      }, 
+      {
+        "id": 5643618, 
+        "z0_mm": 15920.0, 
+        "y_mm": 7880.1999999999998, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12885.100000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643620, 
+        "z0_mm": 13929.100000000000, 
+        "y_mm": 3399.5, 
+        "z_med_mm": 14848.400000000000, 
+        "x_mm": 13909.100000000000, 
+        "apto": null, 
+        "z1_mm": 15767.600000000000
+      }, 
+      {
+        "id": 5643622, 
+        "z0_mm": 15920.0, 
+        "y_mm": 4546.5, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12938.700000000001, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643624, 
+        "z0_mm": 15920.0, 
+        "y_mm": 4390.3999999999996, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 13028.799999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643626, 
+        "z0_mm": 15920.0, 
+        "y_mm": 3399.5, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 13756.700000000001, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643628, 
+        "z0_mm": 15920.0, 
+        "y_mm": 1964.5, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10833.700000000001, 
+        "apto": "F17", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643630, 
+        "z0_mm": 14162.5, 
+        "y_mm": 1621.0, 
+        "z_med_mm": 14965.0, 
+        "x_mm": 10681.299999999999, 
+        "apto": "F17", 
+        "z1_mm": 15767.600000000000
+      }, 
+      {
+        "id": 5643632, 
+        "z0_mm": 13929.700000000001, 
+        "y_mm": 1621.0, 
+        "z_med_mm": 13745.900000000000, 
+        "x_mm": 10471.299999999999, 
+        "apto": "F17", 
+        "z1_mm": 13562.100000000000
+      }, 
+      {
+        "id": 5643634, 
+        "z0_mm": 13523.299999999999, 
+        "y_mm": 1559.0, 
+        "z_med_mm": 13523.299999999999, 
+        "x_mm": 10471.299999999999, 
+        "apto": "F17", 
+        "z1_mm": 13523.299999999999
+      }, 
+      {
+        "id": 5643636, 
+        "z0_mm": 14082.100000000000, 
+        "y_mm": 1621.0, 
+        "z_med_mm": 14082.100000000000, 
+        "x_mm": 10623.700000000001, 
+        "apto": "F17", 
+        "z1_mm": 14082.100000000000
+      }, 
+      {
+        "id": 5643638, 
+        "z0_mm": 15922.100000000000, 
+        "y_mm": 1937.5999999999999, 
+        "z_med_mm": 15922.100000000000, 
+        "x_mm": 10998.400000000000, 
+        "apto": "F17", 
+        "z1_mm": 15922.100000000000
+      }, 
+      {
+        "id": 5643640, 
+        "z0_mm": 15922.100000000000, 
+        "y_mm": 797.60000000000002, 
+        "z_med_mm": 15922.100000000000, 
+        "x_mm": 11150.799999999999, 
+        "apto": null, 
+        "z1_mm": 15922.100000000000
+      }, 
+      {
+        "id": 5643642, 
+        "z0_mm": 15945.0, 
+        "y_mm": 3294.9000000000001, 
+        "z_med_mm": 15945.0, 
+        "x_mm": 12103.600000000000, 
+        "apto": null, 
+        "z1_mm": 15945.0
+      }, 
+      {
+        "id": 5643644, 
+        "z0_mm": 15945.0, 
+        "y_mm": 3447.3000000000002, 
+        "z_med_mm": 15945.0, 
+        "x_mm": 11677.900000000000, 
+        "apto": null, 
+        "z1_mm": 15945.0
+      }, 
+      {
+        "id": 5643646, 
+        "z0_mm": 15792.600000000000, 
+        "y_mm": 5044.0, 
+        "z_med_mm": 14976.0, 
+        "x_mm": 11677.900000000000, 
+        "apto": null, 
+        "z1_mm": 14159.400000000000
+      }, 
+      {
+        "id": 5643648, 
+        "z0_mm": 13562.100000000000, 
+        "y_mm": 5314.5, 
+        "z_med_mm": 14696.799999999999, 
+        "x_mm": 11664.400000000000, 
+        "apto": null, 
+        "z1_mm": 15831.600000000000
+      }, 
+      {
+        "id": 5643650, 
+        "z0_mm": 15984.0, 
+        "y_mm": 5314.5, 
+        "z_med_mm": 15984.0, 
+        "x_mm": 11816.799999999999, 
+        "apto": null, 
+        "z1_mm": 15984.0
+      }, 
+      {
+        "id": 5643652, 
+        "z0_mm": 15831.700000000001, 
+        "y_mm": 5127.3999999999996, 
+        "z_med_mm": 14897.799999999999, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 13964.0
+      }, 
+      {
+        "id": 5643654, 
+        "z0_mm": 13917.900000000000, 
+        "y_mm": 5185.5, 
+        "z_med_mm": 13917.400000000000, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 13916.900000000000
+      }, 
+      {
+        "id": 5643656, 
+        "z0_mm": 13916.700000000001, 
+        "y_mm": 6009.6000000000004, 
+        "z_med_mm": 13916.700000000001, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 13916.700000000001
+      }, 
+      {
+        "id": 5643658, 
+        "z0_mm": 14323.100000000000, 
+        "y_mm": 6277.6999999999998, 
+        "z_med_mm": 14523.700000000001, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 14724.299999999999
+      }, 
+      {
+        "id": 5643660, 
+        "z0_mm": 14876.700000000001, 
+        "y_mm": 6125.3000000000002, 
+        "z_med_mm": 14876.700000000001, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 14876.700000000001
+      }, 
+      {
+        "id": 5643662, 
+        "z0_mm": 14266.100000000000, 
+        "y_mm": 6428.8000000000002, 
+        "z_med_mm": 14266.100000000000, 
+        "x_mm": 14079.299999999999, 
+        "apto": null, 
+        "z1_mm": 14266.100000000000
+      }, 
+      {
+        "id": 5643664, 
+        "z0_mm": 14069.100000000000, 
+        "y_mm": 6277.6999999999998, 
+        "z_med_mm": 14145.400000000000, 
+        "x_mm": 13860.700000000001, 
+        "apto": null, 
+        "z1_mm": 14221.700000000001
+      }, 
+      {
+        "id": 5643666, 
+        "z0_mm": 14159.400000000000, 
+        "y_mm": 6524.3000000000002, 
+        "z_med_mm": 14963.5, 
+        "x_mm": 11674.400000000000, 
+        "apto": null, 
+        "z1_mm": 15767.600000000000
+      }, 
+      {
+        "id": 5643668, 
+        "z0_mm": 15920.0, 
+        "y_mm": 6524.3000000000002, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11522.0, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643670, 
+        "z0_mm": 15920.0, 
+        "y_mm": 6676.6999999999998, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11003.400000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643672, 
+        "z0_mm": 15920.0, 
+        "y_mm": 6981.0, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10331.299999999999, 
+        "apto": "F17", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643674, 
+        "z0_mm": 15920.0, 
+        "y_mm": 6828.6999999999998, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10483.900000000000, 
+        "apto": "F17", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643676, 
+        "z0_mm": 15129.799999999999, 
+        "y_mm": 7145.5, 
+        "z_med_mm": 15448.700000000001, 
+        "x_mm": 10331.299999999999, 
+        "apto": "F17", 
+        "z1_mm": 15767.600000000000
+      }, 
+      {
+        "id": 5643678, 
+        "z0_mm": 15970.0, 
+        "y_mm": 7463.6999999999998, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 10698.799999999999, 
+        "apto": "F17", 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643680, 
+        "z0_mm": 15970.0, 
+        "y_mm": 7311.3000000000002, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 10546.400000000000, 
+        "apto": "F17", 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643682, 
+        "z0_mm": 14899.700000000001, 
+        "y_mm": 7463.6999999999998, 
+        "z_med_mm": 15358.600000000000, 
+        "x_mm": 11664.400000000000, 
+        "apto": null, 
+        "z1_mm": 15817.600000000000
+      }, 
+      {
+        "id": 5643684, 
+        "z0_mm": 14455.600000000000, 
+        "y_mm": 5594.0, 
+        "z_med_mm": 15136.600000000000, 
+        "x_mm": 10546.400000000000, 
+        "apto": "F17", 
+        "z1_mm": 15817.600000000000
+      }, 
+      {
+        "id": 5643686, 
+        "z0_mm": 14929.200000000001, 
+        "y_mm": 7614.1000000000004, 
+        "z_med_mm": 15373.0, 
+        "x_mm": 11664.400000000000, 
+        "apto": null, 
+        "z1_mm": 15816.799999999999
+      }, 
+      {
+        "id": 5643688, 
+        "z0_mm": 15969.200000000001, 
+        "y_mm": 7614.1000000000004, 
+        "z_med_mm": 15969.200000000001, 
+        "x_mm": 11816.799999999999, 
+        "apto": null, 
+        "z1_mm": 15969.200000000001
+      }, 
+      {
+        "id": 5643690, 
+        "z0_mm": 15816.799999999999, 
+        "y_mm": 7614.1000000000004, 
+        "z_med_mm": 15070.0, 
+        "x_mm": 14045.799999999999, 
+        "apto": null, 
+        "z1_mm": 14323.100000000000
+      }, 
+      {
+        "id": 5643692, 
+        "z0_mm": 14916.799999999999, 
+        "y_mm": 7540.6999999999998, 
+        "z_med_mm": 15308.700000000001, 
+        "x_mm": 11659.400000000000, 
+        "apto": null, 
+        "z1_mm": 15700.5
+      }, 
+      {
+        "id": 5643694, 
+        "z0_mm": 15920.0, 
+        "y_mm": 7403.8000000000002, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 11796.299999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643696, 
+        "z0_mm": 15920.0, 
+        "y_mm": 7258.1000000000004, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12050.0, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643698, 
+        "z0_mm": 15970.0, 
+        "y_mm": 4450.6999999999998, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 10378.600000000000, 
+        "apto": "F17", 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643700, 
+        "z0_mm": 15970.0, 
+        "y_mm": 7228.1000000000004, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 11246.299999999999, 
+        "apto": null, 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643702, 
+        "z0_mm": 15817.600000000000, 
+        "y_mm": 7380.5, 
+        "z_med_mm": 15346.600000000000, 
+        "x_mm": 11659.400000000000, 
+        "apto": null, 
+        "z1_mm": 14875.5
+      }, 
+      {
+        "id": 5643704, 
+        "z0_mm": 15970.0, 
+        "y_mm": 7380.5, 
+        "z_med_mm": 15970.0, 
+        "x_mm": 11398.700000000001, 
+        "apto": null, 
+        "z1_mm": 15970.0
+      }, 
+      {
+        "id": 5643706, 
+        "z0_mm": 15817.600000000000, 
+        "y_mm": 4450.6999999999998, 
+        "z_med_mm": 15753.799999999999, 
+        "x_mm": 10226.200000000001, 
+        "apto": "F17", 
+        "z1_mm": 15690.0
+      }, 
+      {
+        "id": 5643708, 
+        "z0_mm": 15920.0, 
+        "y_mm": 4583.1999999999998, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10371.5, 
+        "apto": "F17", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643710, 
+        "z0_mm": 15780.299999999999, 
+        "y_mm": 4583.1999999999998, 
+        "z_med_mm": 14865.600000000000, 
+        "x_mm": 10231.799999999999, 
+        "apto": "F17", 
+        "z1_mm": 13950.900000000000
+      }, 
+      {
+        "id": 5643712, 
+        "z0_mm": 15850.900000000000, 
+        "y_mm": 3127.8000000000002, 
+        "z_med_mm": 15850.900000000000, 
+        "x_mm": 13655.200000000001, 
+        "apto": null, 
+        "z1_mm": 15850.900000000000
+      }, 
+      {
+        "id": 5643714, 
+        "z0_mm": 15850.900000000000, 
+        "y_mm": 3321.5, 
+        "z_med_mm": 15850.900000000000, 
+        "x_mm": 11749.900000000000, 
+        "apto": null, 
+        "z1_mm": 15850.900000000000
+      }, 
+      {
+        "id": 5643716, 
+        "z0_mm": 15657.299999999999, 
+        "y_mm": 3127.8000000000002, 
+        "z_med_mm": 14961.700000000001, 
+        "x_mm": 13848.799999999999, 
+        "apto": null, 
+        "z1_mm": 14266.100000000000
+      }, 
+      {
+        "id": 5643718, 
+        "z0_mm": 15677.400000000000, 
+        "y_mm": 5351.6999999999998, 
+        "z_med_mm": 15677.400000000000, 
+        "x_mm": 11679.400000000000, 
+        "apto": null, 
+        "z1_mm": 15677.400000000000
+      }, 
+      {
+        "id": 5643720, 
+        "z0_mm": 14220.0, 
+        "y_mm": 2874.5, 
+        "z_med_mm": 14220.0, 
+        "x_mm": 13863.200000000001, 
+        "apto": null, 
+        "z1_mm": 14220.0
+      }, 
+      {
+        "id": 5643722, 
+        "z0_mm": 15953.299999999999, 
+        "y_mm": 12476.700000000001, 
+        "z_med_mm": 15953.299999999999, 
+        "x_mm": 11893.799999999999, 
+        "apto": null, 
+        "z1_mm": 15953.299999999999
+      }, 
+      {
+        "id": 5643724, 
+        "z0_mm": 15897.200000000001, 
+        "y_mm": 9990.1000000000004, 
+        "z_med_mm": 15897.200000000001, 
+        "x_mm": 12087.5, 
+        "apto": null, 
+        "z1_mm": 15897.200000000001
+      }, 
+      {
+        "id": 5643726, 
+        "z0_mm": 15953.299999999999, 
+        "y_mm": 12283.0, 
+        "z_med_mm": 15953.299999999999, 
+        "x_mm": 12087.5, 
+        "apto": null, 
+        "z1_mm": 15953.299999999999
+      }, 
+      {
+        "id": 5643728, 
+        "z0_mm": 15940.700000000001, 
+        "y_mm": 10136.900000000000, 
+        "z_med_mm": 15945.0, 
+        "x_mm": 12087.5, 
+        "apto": null, 
+        "z1_mm": 15949.299999999999
+      }, 
+      {
+        "id": 5643730, 
+        "z0_mm": 15817.600000000000, 
+        "y_mm": 12716.700000000001, 
+        "z_med_mm": 15773.799999999999, 
+        "x_mm": 11640.700000000001, 
+        "apto": null, 
+        "z1_mm": 15730.0
+      }, 
+      {
+        "id": 5643732, 
+        "z0_mm": 14139.5, 
+        "y_mm": 8050.3999999999996, 
+        "z_med_mm": 14953.299999999999, 
+        "x_mm": 12884.200000000001, 
+        "apto": null, 
+        "z1_mm": 15767.100000000000
+      }, 
+      {
+        "id": 5643736, 
+        "z0_mm": 15920.0, 
+        "y_mm": 13076.700000000001, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12841.100000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643738, 
+        "z0_mm": 15920.0, 
+        "y_mm": 12769.100000000000, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12588.100000000000, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643740, 
+        "z0_mm": 15920.0, 
+        "y_mm": 4937.6999999999998, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 12848.799999999999, 
+        "apto": null, 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643742, 
+        "z0_mm": 15920.0, 
+        "y_mm": 15885.900000000000, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10681.299999999999, 
+        "apto": "F18", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643744, 
+        "z0_mm": 15920.0, 
+        "y_mm": 1812.0999999999999, 
+        "z_med_mm": 15920.0, 
+        "x_mm": 10681.299999999999, 
+        "apto": "F17", 
+        "z1_mm": 15920.0
+      }, 
+      {
+        "id": 5643746, 
+        "z0_mm": 15984.0, 
+        "y_mm": 12558.200000000001, 
+        "z_med_mm": 15984.0, 
+        "x_mm": 13708.299999999999, 
+        "apto": null, 
+        "z1_mm": 15984.0
+      }, 
+      {
+        "id": 5643748, 
+        "z0_mm": 15984.0, 
+        "y_mm": 12419.0, 
+        "z_med_mm": 15984.0, 
+        "x_mm": 13345.5, 
+        "apto": null, 
+        "z1_mm": 15984.0
+      }, 
+      {
+        "id": 5643750, 
+        "z0_mm": 15984.0, 
+        "y_mm": 5205.1000000000004, 
+        "z_med_mm": 15984.0, 
+        "x_mm": 13729.600000000000, 
+        "apto": null, 
+        "z1_mm": 15984.0
+      }, 
+      {
+        "id": 5643752, 
+        "z0_mm": 15946.0, 
+        "y_mm": 12531.700000000001, 
+        "z_med_mm": 15946.0, 
+        "x_mm": 11933.799999999999, 
+        "apto": null, 
+        "z1_mm": 15946.0
+      }, 
+      {
+        "id": 5643754, 
+        "z0_mm": 15884.0, 
+        "y_mm": 10045.299999999999, 
+        "z_med_mm": 15884.0, 
+        "x_mm": 12127.5, 
+        "apto": null, 
+        "z1_mm": 15884.0
+      }, 
+      {
+        "id": 5643756, 
+        "z0_mm": 15946.0, 
+        "y_mm": 12338.0, 
+        "z_med_mm": 15946.0, 
+        "x_mm": 12127.5, 
+        "apto": null, 
+        "z1_mm": 15946.0
+      }, 
+      {
+        "id": 5646924, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7577.3999999999996, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 6556.1999999999998, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646926, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7203.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7489.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646928, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7203.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7330.8999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646930, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7982.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7381.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646932, 
+        "z0_mm": 15930.0, 
+        "y_mm": 5190.3999999999996, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8743.5, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646934, 
+        "z0_mm": 15930.0, 
+        "y_mm": 5008.3000000000002, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8685.7999999999993, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646936, 
+        "z0_mm": 15930.0, 
+        "y_mm": 4560.6000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 10120.600000000000, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646938, 
+        "z0_mm": 15930.0, 
+        "y_mm": 4513.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9449.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646940, 
+        "z0_mm": 15930.0, 
+        "y_mm": 1973.0999999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9409.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646942, 
+        "z0_mm": 15930.0, 
+        "y_mm": 1983.0999999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9499.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646944, 
+        "z0_mm": 15930.0, 
+        "y_mm": 1983.0999999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9647.5, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646946, 
+        "z0_mm": 15930.0, 
+        "y_mm": 1943.0999999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9459.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646948, 
+        "z0_mm": 15930.0, 
+        "y_mm": 793.39999999999998, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9459.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646950, 
+        "z0_mm": 15930.0, 
+        "y_mm": 1576.7000000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9655.7999999999993, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646952, 
+        "z0_mm": 15930.0, 
+        "y_mm": 4523.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7589.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646954, 
+        "z0_mm": 15930.0, 
+        "y_mm": 3383.0999999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7589.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646956, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7479.8000000000002, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8820.6000000000004, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646958, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7479.8000000000002, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9475.5, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646960, 
+        "z0_mm": 15930.0, 
+        "y_mm": 6823.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9409.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646962, 
+        "z0_mm": 15930.0, 
+        "y_mm": 6823.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8240.2000000000007, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646964, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7215.5, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8240.2000000000007, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646966, 
+        "z0_mm": 15930.0, 
+        "y_mm": 5943.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7589.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646968, 
+        "z0_mm": 15930.0, 
+        "y_mm": 4510.8000000000002, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8629.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646970, 
+        "z0_mm": 15930.0, 
+        "y_mm": 5783.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7589.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646972, 
+        "z0_mm": 15930.0, 
+        "y_mm": 4583.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7629.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646974, 
+        "z0_mm": 15930.0, 
+        "y_mm": 4955.6000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8020.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646976, 
+        "z0_mm": 15930.0, 
+        "y_mm": 5184.8000000000002, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8020.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646978, 
+        "z0_mm": 15930.0, 
+        "y_mm": 1641.7000000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9850.7999999999993, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646980, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7628.3999999999996, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7330.8999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646982, 
+        "z0_mm": 15930.0, 
+        "y_mm": 6817.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9520.2999999999993, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646984, 
+        "z0_mm": 15930.0, 
+        "y_mm": 6817.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 10019.799999999999, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646986, 
+        "z0_mm": 15930.0, 
+        "y_mm": 4563.1000000000004, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9418.6000000000004, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646988, 
+        "z0_mm": 15930.0, 
+        "y_mm": 6408.3000000000002, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8743.5, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646990, 
+        "z0_mm": 15930.0, 
+        "y_mm": 6396.1999999999998, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9429.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646992, 
+        "z0_mm": 15930.0, 
+        "y_mm": 6436.1999999999998, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9469.3999999999996, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646994, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7607.5, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8807.2999999999993, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646996, 
+        "z0_mm": 15930.0, 
+        "y_mm": 7607.5, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 10134.700000000001, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5646998, 
+        "z0_mm": 15930.0, 
+        "y_mm": 5788.3000000000002, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 6556.1999999999998, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647000, 
+        "z0_mm": 15930.0, 
+        "y_mm": 5785.0, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8634.6000000000004, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647002, 
+        "z0_mm": 15930.0, 
+        "y_mm": 1641.7000000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 10488.100000000000, 
+        "apto": "F17", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647004, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10100.700000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 6662.3999999999996, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647006, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10479.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7472.1999999999998, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647008, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10479.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7313.6999999999998, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647010, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10289.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8784.6000000000004, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647012, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10289.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9457.3999999999996, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647014, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10899.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9452.2000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647016, 
+        "z0_mm": 15930.0, 
+        "y_mm": 11257.600000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9452.2000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647018, 
+        "z0_mm": 15930.0, 
+        "y_mm": 12476.700000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8743.5, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647020, 
+        "z0_mm": 15930.0, 
+        "y_mm": 12656.700000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8685.7999999999993, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647022, 
+        "z0_mm": 15930.0, 
+        "y_mm": 13119.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9392.2000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647024, 
+        "z0_mm": 15930.0, 
+        "y_mm": 13169.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9432.2000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647026, 
+        "z0_mm": 15930.0, 
+        "y_mm": 15709.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9392.2000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647028, 
+        "z0_mm": 15930.0, 
+        "y_mm": 15699.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9482.2000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647030, 
+        "z0_mm": 15930.0, 
+        "y_mm": 15699.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9630.2999999999993, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647032, 
+        "z0_mm": 15930.0, 
+        "y_mm": 16090.100000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9675.7999999999993, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647034, 
+        "z0_mm": 15930.0, 
+        "y_mm": 13159.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7615.8000000000002, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647036, 
+        "z0_mm": 15930.0, 
+        "y_mm": 14299.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7615.8000000000002, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647038, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10859.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9492.2000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647040, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10850.600000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 10039.0, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647042, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10859.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9392.2000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647044, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10859.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8223.0, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647046, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10466.799999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8223.0, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647048, 
+        "z0_mm": 15930.0, 
+        "y_mm": 11739.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7572.1999999999998, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647050, 
+        "z0_mm": 15930.0, 
+        "y_mm": 13172.400000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8623.8999999999996, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647052, 
+        "z0_mm": 15930.0, 
+        "y_mm": 14404.700000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8623.8999999999996, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647054, 
+        "z0_mm": 15930.0, 
+        "y_mm": 11899.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7572.1999999999998, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647056, 
+        "z0_mm": 15930.0, 
+        "y_mm": 13099.299999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7612.1999999999998, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647058, 
+        "z0_mm": 15930.0, 
+        "y_mm": 12726.700000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8003.1000000000004, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647060, 
+        "z0_mm": 15930.0, 
+        "y_mm": 12497.600000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8003.1000000000004, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647062, 
+        "z0_mm": 15930.0, 
+        "y_mm": 16025.100000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9883.5, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647064, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10054.0, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 7313.6999999999998, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647066, 
+        "z0_mm": 15930.0, 
+        "y_mm": 13119.799999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9489.1000000000004, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647068, 
+        "z0_mm": 15930.0, 
+        "y_mm": 12481.900000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 6557.1999999999998, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647070, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10123.200000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 8786.2000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647072, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10122.799999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9147.6000000000004, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647074, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10119.900000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9419.1000000000004, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647076, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10118.400000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9613.5, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647078, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10121.900000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9743.7000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647080, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10134.200000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9822.6000000000004, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647082, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10158.799999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9863.0, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647084, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10199.5, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9877.7999999999993, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647086, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10260.0, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9879.8999999999996, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647088, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10344.100000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9879.8999999999996, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647090, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10456.100000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9880.1000000000004, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647092, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10600.200000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9880.2999999999993, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647094, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10781.0, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9880.5, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647096, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10813.799999999999, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9880.5, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647098, 
+        "z0_mm": 15930.0, 
+        "y_mm": 10892.400000000000, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9880.6000000000004, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647100, 
+        "z0_mm": 15930.0, 
+        "y_mm": 11002.700000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9880.7000000000007, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647102, 
+        "z0_mm": 15930.0, 
+        "y_mm": 11269.700000000001, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9880.7999999999993, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }, 
+      {
+        "id": 5647104, 
+        "z0_mm": 15930.0, 
+        "y_mm": 11586.5, 
+        "z_med_mm": 15930.0, 
+        "x_mm": 9880.8999999999996, 
+        "apto": "F18", 
+        "z1_mm": 15930.0
+      }
+    ], 
+    "total": 237
+  }, 
+  "documento": {
+    "titulo": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+    "ruta": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c.rvt"
+  }, 
+  "tipos_conduit": [
+    {
+      "id": 112216, 
+      "nombre": "TuboE", 
+      "params": []
+    }, 
+    {
+      "id": 112217, 
+      "nombre": "Tuberia", 
+      "params": []
+    }, 
+    {
+      "id": 5508657, 
+      "nombre": "TuboC", 
+      "params": []
+    }
+  ], 
+  "generado_utc": "2026-11-22 16:01:30", 
+  "zonas": {
+    "F17": {
+      "x_min": 6500.0, 
+      "x_max": 11000.0, 
+      "y_max": 8800.0, 
+      "y_min": 500.0
+    }, 
+    "F18": {
+      "x_min": 6500.0, 
+      "x_max": 11000.0, 
+      "y_max": 17000.0, 
+      "y_min": 8800.0
+    }
+  }, 
+  "version": "v02"
+}

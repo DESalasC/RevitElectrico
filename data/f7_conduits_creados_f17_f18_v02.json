@@ -1,0 +1,4270 @@
+{
+  "conduits": [
+    {
+      "conduit_id": 5644101, 
+      "b_mm_real": [
+        5361.8890000000001, 
+        10718.973000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0001-S01", 
+      "largo_real_mm": 2231.0, 
+      "a_mm_esperado": [
+        3130.8890000000001, 
+        10718.973000000000, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0001", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 2231.0, 
+      "b_mm_esperado": [
+        5361.8890000000001, 
+        10718.973000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3130.8890000000001, 
+        10718.973000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644103, 
+      "b_mm_real": [
+        5361.8890000000001, 
+        10824.973000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0001-S02", 
+      "largo_real_mm": 106.0, 
+      "a_mm_esperado": [
+        5361.8890000000001, 
+        10718.973000000000, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0001", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 106.0, 
+      "b_mm_esperado": [
+        5361.8890000000001, 
+        10824.973000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5361.8890000000001, 
+        10718.973000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644105, 
+      "b_mm_real": [
+        3119.8890000000001, 
+        8964.9730000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0002-S01", 
+      "largo_real_mm": 1754.0, 
+      "a_mm_esperado": [
+        3119.8890000000001, 
+        10718.973000000000, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0002", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 1754.0, 
+      "b_mm_esperado": [
+        3119.8890000000001, 
+        8964.9730000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3119.8890000000001, 
+        10718.973000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644107, 
+      "b_mm_real": [
+        3190.8890000000001, 
+        8964.9730000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0002-S02", 
+      "largo_real_mm": 71.0, 
+      "a_mm_esperado": [
+        3119.8890000000001, 
+        8964.9730000000000, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0002", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 71.0, 
+      "b_mm_esperado": [
+        3190.8890000000001, 
+        8964.9730000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3119.8890000000001, 
+        8964.9730000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644109, 
+      "b_mm_real": [
+        3139.8890000000001, 
+        10193.973000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0003-S01", 
+      "largo_real_mm": 419.38600000000002, 
+      "a_mm_esperado": [
+        3157.8890000000001, 
+        10612.973000000000, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0003", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 419.38600000000002, 
+      "b_mm_esperado": [
+        3139.8890000000001, 
+        10193.973000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3157.8890000000001, 
+        10612.973000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644111, 
+      "b_mm_real": [
+        3448.8890000000001, 
+        10274.973000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0003-S02", 
+      "largo_real_mm": 319.44000000000000, 
+      "a_mm_esperado": [
+        3139.8890000000001, 
+        10193.973000000000, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0003", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 319.44000000000000, 
+      "b_mm_esperado": [
+        3448.8890000000001, 
+        10274.973000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3139.8890000000001, 
+        10193.973000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644113, 
+      "b_mm_real": [
+        5359.8890000000001, 
+        11160.973000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0004-S01", 
+      "largo_real_mm": 109.0, 
+      "a_mm_esperado": [
+        5359.8890000000001, 
+        11269.973000000000, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0004", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 109.0, 
+      "b_mm_esperado": [
+        5359.8890000000001, 
+        11160.973000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5359.8890000000001, 
+        11269.973000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644115, 
+      "b_mm_real": [
+        5390.8890000000001, 
+        11160.973000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0004-S02", 
+      "largo_real_mm": 31.0, 
+      "a_mm_esperado": [
+        5359.8890000000001, 
+        11160.973000000000, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0004", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 31.0, 
+      "b_mm_esperado": [
+        5390.8890000000001, 
+        11160.973000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5359.8890000000001, 
+        11160.973000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644117, 
+      "b_mm_real": [
+        3212.8890000000001, 
+        8849.9730000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0005-S01", 
+      "largo_real_mm": 100.0, 
+      "a_mm_esperado": [
+        3212.8890000000001, 
+        8949.9730000000000, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0005", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 100.0, 
+      "b_mm_esperado": [
+        3212.8890000000001, 
+        8849.9730000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3212.8890000000001, 
+        8949.9730000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644119, 
+      "b_mm_real": [
+        6775.8890000000001, 
+        13420.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0006-S01", 
+      "largo_real_mm": 1328.0, 
+      "a_mm_esperado": [
+        5447.8890000000001, 
+        13420.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0006", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1328.0, 
+      "b_mm_esperado": [
+        6775.8890000000001, 
+        13420.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5447.8890000000001, 
+        13420.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644121, 
+      "b_mm_real": [
+        6775.8890000000001, 
+        11522.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0006-S02", 
+      "largo_real_mm": 1898.0, 
+      "a_mm_esperado": [
+        6775.8890000000001, 
+        13420.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0006", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1898.0, 
+      "b_mm_esperado": [
+        6775.8890000000001, 
+        11522.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6775.8890000000001, 
+        13420.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644123, 
+      "b_mm_real": [
+        6697.8890000000001, 
+        11522.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0006-S03", 
+      "largo_real_mm": 78.0, 
+      "a_mm_esperado": [
+        6775.8890000000001, 
+        11522.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0006", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 78.0, 
+      "b_mm_esperado": [
+        6697.8890000000001, 
+        11522.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6775.8890000000001, 
+        11522.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644125, 
+      "b_mm_real": [
+        6089.8890000000001, 
+        7836.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0007-S01", 
+      "largo_real_mm": 2489.0, 
+      "a_mm_esperado": [
+        6089.8890000000001, 
+        10325.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0007", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 2489.0, 
+      "b_mm_esperado": [
+        6089.8890000000001, 
+        7836.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6089.8890000000001, 
+        10325.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644127, 
+      "b_mm_real": [
+        6099.8890000000001, 
+        6606.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0008-S01", 
+      "largo_real_mm": 1149.0, 
+      "a_mm_esperado": [
+        6099.8890000000001, 
+        7755.9730000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0008", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1149.0, 
+      "b_mm_esperado": [
+        6099.8890000000001, 
+        6606.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6099.8890000000001, 
+        7755.9730000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644129, 
+      "b_mm_real": [
+        4975.8890000000001, 
+        6606.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0008-S02", 
+      "largo_real_mm": 1124.0, 
+      "a_mm_esperado": [
+        6099.8890000000001, 
+        6606.9730000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0008", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1124.0, 
+      "b_mm_esperado": [
+        4975.8890000000001, 
+        6606.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6099.8890000000001, 
+        6606.9730000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644131, 
+      "b_mm_real": [
+        5275.8890000000001, 
+        11597.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0009-S01", 
+      "largo_real_mm": 2006.0, 
+      "a_mm_esperado": [
+        3269.8890000000001, 
+        11597.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0009", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 2006.0, 
+      "b_mm_esperado": [
+        5275.8890000000001, 
+        11597.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3269.8890000000001, 
+        11597.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644133, 
+      "b_mm_real": [
+        5275.8890000000001, 
+        11413.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0009-S02", 
+      "largo_real_mm": 184.0, 
+      "a_mm_esperado": [
+        5275.8890000000001, 
+        11597.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0009", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 184.0, 
+      "b_mm_esperado": [
+        5275.8890000000001, 
+        11413.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5275.8890000000001, 
+        11597.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644135, 
+      "b_mm_real": [
+        4880.8890000000001, 
+        12635.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0010-S01", 
+      "largo_real_mm": 1169.0, 
+      "a_mm_esperado": [
+        6049.8890000000001, 
+        12635.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0010", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1169.0, 
+      "b_mm_esperado": [
+        4880.8890000000001, 
+        12635.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6049.8890000000001, 
+        12635.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644137, 
+      "b_mm_real": [
+        4880.8890000000001, 
+        13028.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0010-S02", 
+      "largo_real_mm": 393.0, 
+      "a_mm_esperado": [
+        4880.8890000000001, 
+        12635.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0010", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 393.0, 
+      "b_mm_esperado": [
+        4880.8890000000001, 
+        13028.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4880.8890000000001, 
+        12635.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644139, 
+      "b_mm_real": [
+        4263.8890000000001, 
+        13028.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0010-S03", 
+      "largo_real_mm": 617.0, 
+      "a_mm_esperado": [
+        4880.8890000000001, 
+        13028.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0010", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 617.0, 
+      "b_mm_esperado": [
+        4263.8890000000001, 
+        13028.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4880.8890000000001, 
+        13028.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644141, 
+      "b_mm_real": [
+        4229.8890000000001, 
+        9195.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0011-S01", 
+      "largo_real_mm": 1140.0, 
+      "a_mm_esperado": [
+        4229.8890000000001, 
+        10335.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0011", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1140.0, 
+      "b_mm_esperado": [
+        4229.8890000000001, 
+        9195.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4229.8890000000001, 
+        10335.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644143, 
+      "b_mm_real": [
+        3270.8890000000001, 
+        9195.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0011-S02", 
+      "largo_real_mm": 959.0, 
+      "a_mm_esperado": [
+        4229.8890000000001, 
+        9195.9730000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0011", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 959.0, 
+      "b_mm_esperado": [
+        3270.8890000000001, 
+        9195.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4229.8890000000001, 
+        9195.9730000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644145, 
+      "b_mm_real": [
+        4270.8890000000001, 
+        10375.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0012-S01", 
+      "largo_real_mm": 1789.0, 
+      "a_mm_esperado": [
+        6059.8890000000001, 
+        10375.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0012", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1789.0, 
+      "b_mm_esperado": [
+        4270.8890000000001, 
+        10375.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6059.8890000000001, 
+        10375.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644147, 
+      "b_mm_real": [
+        4261.8890000000001, 
+        7785.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0013-S01", 
+      "largo_real_mm": 1788.0, 
+      "a_mm_esperado": [
+        6049.8890000000001, 
+        7785.9730000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0013", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1788.0, 
+      "b_mm_esperado": [
+        4261.8890000000001, 
+        7785.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6049.8890000000001, 
+        7785.9730000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644149, 
+      "b_mm_real": [
+        5269.8890000000001, 
+        9091.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0014-S01", 
+      "largo_real_mm": 1232.0, 
+      "a_mm_esperado": [
+        5269.8890000000001, 
+        10323.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0014", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1232.0, 
+      "b_mm_esperado": [
+        5269.8890000000001, 
+        9091.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5269.8890000000001, 
+        10323.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644151, 
+      "b_mm_real": [
+        4971.8890000000001, 
+        9091.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0014-S02", 
+      "largo_real_mm": 298.0, 
+      "a_mm_esperado": [
+        5269.8890000000001, 
+        9091.9730000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0014", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 298.0, 
+      "b_mm_esperado": [
+        4971.8890000000001, 
+        9091.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5269.8890000000001, 
+        9091.9730000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644153, 
+      "b_mm_real": [
+        4660.8890000000001, 
+        10768.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0015-S01", 
+      "largo_real_mm": 540.37900000000002, 
+      "a_mm_esperado": [
+        4269.8890000000001, 
+        10395.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0015", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 540.37900000000002, 
+      "b_mm_esperado": [
+        4660.8890000000001, 
+        10768.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4269.8890000000001, 
+        10395.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644155, 
+      "b_mm_real": [
+        4660.8890000000001, 
+        10997.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0015-S02", 
+      "largo_real_mm": 229.0, 
+      "a_mm_esperado": [
+        4660.8890000000001, 
+        10768.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0015", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 229.0, 
+      "b_mm_esperado": [
+        4660.8890000000001, 
+        10997.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4660.8890000000001, 
+        10768.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644157, 
+      "b_mm_real": [
+        5229.8890000000001, 
+        10997.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0015-S03", 
+      "largo_real_mm": 569.0, 
+      "a_mm_esperado": [
+        4660.8890000000001, 
+        10997.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0015", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 569.0, 
+      "b_mm_esperado": [
+        5229.8890000000001, 
+        10997.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4660.8890000000001, 
+        10997.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644159, 
+      "b_mm_real": [
+        4229.8890000000001, 
+        13003.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0016-S01", 
+      "largo_real_mm": 1248.0, 
+      "a_mm_esperado": [
+        4229.8890000000001, 
+        11755.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0016", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1248.0, 
+      "b_mm_esperado": [
+        4229.8890000000001, 
+        13003.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4229.8890000000001, 
+        11755.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644161, 
+      "b_mm_real": [
+        6116.8890000000001, 
+        13292.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0017-S01", 
+      "largo_real_mm": 655.0, 
+      "a_mm_esperado": [
+        5461.8890000000001, 
+        13292.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0017", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 655.0, 
+      "b_mm_esperado": [
+        6116.8890000000001, 
+        13292.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5461.8890000000001, 
+        13292.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644163, 
+      "b_mm_real": [
+        6116.8890000000001, 
+        12707.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0017-S02", 
+      "largo_real_mm": 585.0, 
+      "a_mm_esperado": [
+        6116.8890000000001, 
+        13292.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0017", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 585.0, 
+      "b_mm_esperado": [
+        6116.8890000000001, 
+        12707.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6116.8890000000001, 
+        13292.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644165, 
+      "b_mm_real": [
+        4229.8890000000001, 
+        10455.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0018-S01", 
+      "largo_real_mm": 1140.0, 
+      "a_mm_esperado": [
+        4229.8890000000001, 
+        11595.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0018", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1140.0, 
+      "b_mm_esperado": [
+        4229.8890000000001, 
+        10455.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4229.8890000000001, 
+        11595.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644167, 
+      "b_mm_real": [
+        6069.8890000000001, 
+        12208.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0019-S01", 
+      "largo_real_mm": 495.0, 
+      "a_mm_esperado": [
+        5574.8890000000001, 
+        12208.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0019", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 495.0, 
+      "b_mm_esperado": [
+        6069.8890000000001, 
+        12208.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5574.8890000000001, 
+        12208.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644169, 
+      "b_mm_real": [
+        6109.8890000000001, 
+        12248.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0019-S02", 
+      "largo_real_mm": 56.569000000000003, 
+      "a_mm_esperado": [
+        6069.8890000000001, 
+        12208.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0019", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 56.569000000000003, 
+      "b_mm_esperado": [
+        6109.8890000000001, 
+        12248.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6069.8890000000001, 
+        12208.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644171, 
+      "b_mm_real": [
+        6109.8890000000001, 
+        12595.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0019-S03", 
+      "largo_real_mm": 347.0, 
+      "a_mm_esperado": [
+        6109.8890000000001, 
+        12248.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0019", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 347.0, 
+      "b_mm_esperado": [
+        6109.8890000000001, 
+        12595.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6109.8890000000001, 
+        12248.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644173, 
+      "b_mm_real": [
+        6660.8890000000001, 
+        12629.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0020-S01", 
+      "largo_real_mm": 500.0, 
+      "a_mm_esperado": [
+        6160.8890000000001, 
+        12629.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0020", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 500.0, 
+      "b_mm_esperado": [
+        6660.8890000000001, 
+        12629.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6160.8890000000001, 
+        12629.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644175, 
+      "b_mm_real": [
+        6660.8890000000001, 
+        12902.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0020-S02", 
+      "largo_real_mm": 273.0, 
+      "a_mm_esperado": [
+        6660.8890000000001, 
+        12629.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0020", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 273.0, 
+      "b_mm_esperado": [
+        6660.8890000000001, 
+        12902.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6660.8890000000001, 
+        12629.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644177, 
+      "b_mm_real": [
+        3344.8890000000001, 
+        12132.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0021-S01", 
+      "largo_real_mm": 87.0, 
+      "a_mm_esperado": [
+        3257.8890000000001, 
+        12132.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0021", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 87.0, 
+      "b_mm_esperado": [
+        3344.8890000000001, 
+        12132.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3257.8890000000001, 
+        12132.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644179, 
+      "b_mm_real": [
+        3344.8890000000001, 
+        11613.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0021-S02", 
+      "largo_real_mm": 519.0, 
+      "a_mm_esperado": [
+        3344.8890000000001, 
+        12132.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0021", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 519.0, 
+      "b_mm_esperado": [
+        3344.8890000000001, 
+        11613.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3344.8890000000001, 
+        12132.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644181, 
+      "b_mm_real": [
+        3265.8890000000001, 
+        11613.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0021-S03", 
+      "largo_real_mm": 79.0, 
+      "a_mm_esperado": [
+        3344.8890000000001, 
+        11613.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0021", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 79.0, 
+      "b_mm_esperado": [
+        3265.8890000000001, 
+        11613.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3344.8890000000001, 
+        11613.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644183, 
+      "b_mm_real": [
+        6134.8890000000001, 
+        10375.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0022-S01", 
+      "largo_real_mm": 506.0, 
+      "a_mm_esperado": [
+        6640.8890000000001, 
+        10375.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0022", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 506.0, 
+      "b_mm_esperado": [
+        6134.8890000000001, 
+        10375.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6640.8890000000001, 
+        10375.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644185, 
+      "b_mm_real": [
+        3971.8890000000001, 
+        13015.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0023-S01", 
+      "largo_real_mm": 158.0, 
+      "a_mm_esperado": [
+        4129.8890000000001, 
+        13015.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0023", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 158.0, 
+      "b_mm_esperado": [
+        3971.8890000000001, 
+        13015.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4129.8890000000001, 
+        13015.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644187, 
+      "b_mm_real": [
+        3971.8890000000001, 
+        13362.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0023-S02", 
+      "largo_real_mm": 347.0, 
+      "a_mm_esperado": [
+        3971.8890000000001, 
+        13015.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0023", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 347.0, 
+      "b_mm_esperado": [
+        3971.8890000000001, 
+        13362.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3971.8890000000001, 
+        13015.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644189, 
+      "b_mm_real": [
+        6288.8890000000001, 
+        7795.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0024-S01", 
+      "largo_real_mm": 149.0, 
+      "a_mm_esperado": [
+        6139.8890000000001, 
+        7795.9730000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0024", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 149.0, 
+      "b_mm_esperado": [
+        6288.8890000000001, 
+        7795.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6139.8890000000001, 
+        7795.9730000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644191, 
+      "b_mm_real": [
+        6288.8890000000001, 
+        7572.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0024-S02", 
+      "largo_real_mm": 223.0, 
+      "a_mm_esperado": [
+        6288.8890000000001, 
+        7795.9730000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0024", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 223.0, 
+      "b_mm_esperado": [
+        6288.8890000000001, 
+        7572.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6288.8890000000001, 
+        7795.9730000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644193, 
+      "b_mm_real": [
+        5269.8890000000001, 
+        10413.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0025-S01", 
+      "largo_real_mm": 342.0, 
+      "a_mm_esperado": [
+        5269.8890000000001, 
+        10755.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0025", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 342.0, 
+      "b_mm_esperado": [
+        5269.8890000000001, 
+        10413.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        5269.8890000000001, 
+        10755.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644195, 
+      "b_mm_real": [
+        3971.8890000000001, 
+        13763.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0026-S01", 
+      "largo_real_mm": 322.0, 
+      "a_mm_esperado": [
+        3971.8890000000001, 
+        13441.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0026", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 322.0, 
+      "b_mm_esperado": [
+        3971.8890000000001, 
+        13763.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3971.8890000000001, 
+        13441.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644197, 
+      "b_mm_real": [
+        3216.8890000000001, 
+        12095.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0027-S01", 
+      "largo_real_mm": 310.0, 
+      "a_mm_esperado": [
+        3216.8890000000001, 
+        11785.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0027", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 310.0, 
+      "b_mm_esperado": [
+        3216.8890000000001, 
+        12095.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3216.8890000000001, 
+        11785.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644199, 
+      "b_mm_real": [
+        4155.8890000000001, 
+        13794.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0028-S01", 
+      "largo_real_mm": 134.0, 
+      "a_mm_esperado": [
+        4021.8890000000001, 
+        13794.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0028", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 134.0, 
+      "b_mm_esperado": [
+        4155.8890000000001, 
+        13794.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4021.8890000000001, 
+        13794.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644201, 
+      "b_mm_real": [
+        6489.8890000000001, 
+        7356.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0029-S01", 
+      "largo_real_mm": 119.0, 
+      "a_mm_esperado": [
+        6489.8890000000001, 
+        7475.9730000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0029", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 119.0, 
+      "b_mm_esperado": [
+        6489.8890000000001, 
+        7356.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6489.8890000000001, 
+        7475.9730000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644203, 
+      "b_mm_real": [
+        4201.8890000000001, 
+        13927.973000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0030-S01", 
+      "largo_real_mm": 106.0, 
+      "a_mm_esperado": [
+        4201.8890000000001, 
+        13821.973000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0030", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 106.0, 
+      "b_mm_esperado": [
+        4201.8890000000001, 
+        13927.973000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        4201.8890000000001, 
+        13821.973000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644205, 
+      "b_mm_real": [
+        6443.8890000000001, 
+        7515.9730000000000, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0031-S01", 
+      "largo_real_mm": 104.0, 
+      "a_mm_esperado": [
+        6339.8890000000001, 
+        7515.9730000000000, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0031", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 104.0, 
+      "b_mm_esperado": [
+        6443.8890000000001, 
+        7515.9730000000000, 
+        15870.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6339.8890000000001, 
+        7515.9730000000000, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644207, 
+      "b_mm_real": [
+        5346.8890000000001, 
+        13393.973000000000, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0032-S01", 
+      "largo_real_mm": 2079.0, 
+      "a_mm_esperado": [
+        3267.8890000000001, 
+        13393.973000000000, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0032", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 2079.0, 
+      "b_mm_esperado": [
+        5346.8890000000001, 
+        13393.973000000000, 
+        15900.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3267.8890000000001, 
+        13393.973000000000, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644209, 
+      "b_mm_real": [
+        3208.8890000000001, 
+        12194.973000000000, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0033-S01", 
+      "largo_real_mm": 1149.0, 
+      "a_mm_esperado": [
+        3208.8890000000001, 
+        13343.973000000000, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0033", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1149.0, 
+      "b_mm_esperado": [
+        3208.8890000000001, 
+        12194.973000000000, 
+        15900.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3208.8890000000001, 
+        13343.973000000000, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644211, 
+      "b_mm_real": [
+        3088.8890000000001, 
+        11725.973000000000, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0034-S01", 
+      "largo_real_mm": 78.0, 
+      "a_mm_esperado": [
+        3166.8890000000001, 
+        11725.973000000000, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0034", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 78.0, 
+      "b_mm_esperado": [
+        3088.8890000000001, 
+        11725.973000000000, 
+        15900.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3166.8890000000001, 
+        11725.973000000000, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644213, 
+      "b_mm_real": [
+        3088.8890000000001, 
+        10960.973000000000, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0034-S02", 
+      "largo_real_mm": 765.0, 
+      "a_mm_esperado": [
+        3088.8890000000001, 
+        11725.973000000000, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0034", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 765.0, 
+      "b_mm_esperado": [
+        3088.8890000000001, 
+        10960.973000000000, 
+        15900.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3088.8890000000001, 
+        11725.973000000000, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644215, 
+      "b_mm_real": [
+        3168.8890000000001, 
+        10960.973000000000, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0034-S03", 
+      "largo_real_mm": 80.0, 
+      "a_mm_esperado": [
+        3088.8890000000001, 
+        10960.973000000000, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0034", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 80.0, 
+      "b_mm_esperado": [
+        3168.8890000000001, 
+        10960.973000000000, 
+        15900.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        3088.8890000000001, 
+        10960.973000000000, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644217, 
+      "b_mm_real": [
+        -19480.619999999999, 
+        11925.495000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0035-S01", 
+      "largo_real_mm": 85.0, 
+      "a_mm_esperado": [
+        -19480.619999999999, 
+        11840.495000000001, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0035", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 85.0, 
+      "b_mm_esperado": [
+        -19480.619999999999, 
+        11925.495000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19480.619999999999, 
+        11840.495000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644219, 
+      "b_mm_real": [
+        -21635.619999999999, 
+        11925.495000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0035-S02", 
+      "largo_real_mm": 2155.0, 
+      "a_mm_esperado": [
+        -19480.619999999999, 
+        11925.495000000001, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0035", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 2155.0, 
+      "b_mm_esperado": [
+        -21635.619999999999, 
+        11925.495000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19480.619999999999, 
+        11925.495000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644221, 
+      "b_mm_real": [
+        -21675.619999999999, 
+        11965.495000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0035-S03", 
+      "largo_real_mm": 56.569000000000003, 
+      "a_mm_esperado": [
+        -21635.619999999999, 
+        11925.495000000001, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0035", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 56.569000000000003, 
+      "b_mm_esperado": [
+        -21675.619999999999, 
+        11965.495000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21635.619999999999, 
+        11925.495000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644223, 
+      "b_mm_real": [
+        -21675.619999999999, 
+        13604.495000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0035-S04", 
+      "largo_real_mm": 1639.0, 
+      "a_mm_esperado": [
+        -21675.619999999999, 
+        11965.495000000001, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0035", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 1639.0, 
+      "b_mm_esperado": [
+        -21675.619999999999, 
+        13604.495000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21675.619999999999, 
+        11965.495000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644225, 
+      "b_mm_real": [
+        -21625.619999999999, 
+        13604.495000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0035-S05", 
+      "largo_real_mm": 50.0, 
+      "a_mm_esperado": [
+        -21675.619999999999, 
+        13604.495000000001, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0035", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 50.0, 
+      "b_mm_esperado": [
+        -21625.619999999999, 
+        13604.495000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21675.619999999999, 
+        13604.495000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644227, 
+      "b_mm_real": [
+        -19557.619999999999, 
+        11236.495000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0036-S01", 
+      "largo_real_mm": 243.82400000000001, 
+      "a_mm_esperado": [
+        -19594.619999999999, 
+        11477.495000000001, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0036", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 243.82400000000001, 
+      "b_mm_esperado": [
+        -19557.619999999999, 
+        11236.495000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19594.619999999999, 
+        11477.495000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644229, 
+      "b_mm_real": [
+        -19286.619999999999, 
+        11247.495000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.030000000000001, 
+      "id_ref": "RT-0036-S02", 
+      "largo_real_mm": 271.22300000000001, 
+      "a_mm_esperado": [
+        -19557.619999999999, 
+        11236.495000000001, 
+        15930.0
+      ], 
+      "polilinea_id": "RT-0036", 
+      "servicio": "COMUNICACIONES", 
+      "tamano": "3/4", 
+      "largo_esperado_mm": 271.22300000000001, 
+      "b_mm_esperado": [
+        -19286.619999999999, 
+        11247.495000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19557.619999999999, 
+        11236.495000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644231, 
+      "b_mm_real": [
+        -18728.619999999999, 
+        14743.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0037-S01", 
+      "largo_real_mm": 2490.0, 
+      "a_mm_esperado": [
+        -18728.619999999999, 
+        12253.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0037", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 2490.0, 
+      "b_mm_esperado": [
+        -18728.619999999999, 
+        14743.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18728.619999999999, 
+        12253.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644233, 
+      "b_mm_real": [
+        -18718.619999999999, 
+        15973.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0038-S01", 
+      "largo_real_mm": 1150.0, 
+      "a_mm_esperado": [
+        -18718.619999999999, 
+        14823.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0038", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1150.0, 
+      "b_mm_esperado": [
+        -18718.619999999999, 
+        15973.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18718.619999999999, 
+        14823.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644235, 
+      "b_mm_real": [
+        -19843.619999999999, 
+        15973.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0038-S02", 
+      "largo_real_mm": 1125.0, 
+      "a_mm_esperado": [
+        -18718.619999999999, 
+        15973.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0038", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1125.0, 
+      "b_mm_esperado": [
+        -19843.619999999999, 
+        15973.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18718.619999999999, 
+        15973.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644237, 
+      "b_mm_real": [
+        -19937.619999999999, 
+        9943.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0039-S01", 
+      "largo_real_mm": 1169.0, 
+      "a_mm_esperado": [
+        -18768.619999999999, 
+        9943.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0039", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1169.0, 
+      "b_mm_esperado": [
+        -19937.619999999999, 
+        9943.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18768.619999999999, 
+        9943.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644239, 
+      "b_mm_real": [
+        -19937.619999999999, 
+        9551.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0039-S02", 
+      "largo_real_mm": 392.0, 
+      "a_mm_esperado": [
+        -19937.619999999999, 
+        9943.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0039", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 392.0, 
+      "b_mm_esperado": [
+        -19937.619999999999, 
+        9551.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19937.619999999999, 
+        9943.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644241, 
+      "b_mm_real": [
+        -20554.619999999999, 
+        9551.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0039-S03", 
+      "largo_real_mm": 617.0, 
+      "a_mm_esperado": [
+        -19937.619999999999, 
+        9551.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0039", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 617.0, 
+      "b_mm_esperado": [
+        -20554.619999999999, 
+        9551.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19937.619999999999, 
+        9551.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644243, 
+      "b_mm_real": [
+        -20544.619999999999, 
+        13383.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0040-S01", 
+      "largo_real_mm": 1140.0, 
+      "a_mm_esperado": [
+        -20544.619999999999, 
+        12243.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0040", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1140.0, 
+      "b_mm_esperado": [
+        -20544.619999999999, 
+        13383.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20544.619999999999, 
+        12243.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644245, 
+      "b_mm_real": [
+        -21521.619999999999, 
+        13383.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0040-S02", 
+      "largo_real_mm": 977.0, 
+      "a_mm_esperado": [
+        -20544.619999999999, 
+        13383.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0040", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 977.0, 
+      "b_mm_esperado": [
+        -21521.619999999999, 
+        13383.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20544.619999999999, 
+        13383.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644247, 
+      "b_mm_real": [
+        -20556.619999999999, 
+        14793.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0041-S01", 
+      "largo_real_mm": 1788.0, 
+      "a_mm_esperado": [
+        -18768.619999999999, 
+        14793.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0041", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1788.0, 
+      "b_mm_esperado": [
+        -20556.619999999999, 
+        14793.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18768.619999999999, 
+        14793.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644249, 
+      "b_mm_real": [
+        -20548.619999999999, 
+        12203.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0042-S01", 
+      "largo_real_mm": 1780.0, 
+      "a_mm_esperado": [
+        -18768.619999999999, 
+        12203.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0042", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1780.0, 
+      "b_mm_esperado": [
+        -20548.619999999999, 
+        12203.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18768.619999999999, 
+        12203.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644251, 
+      "b_mm_real": [
+        -19536.619999999999, 
+        13489.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0043-S01", 
+      "largo_real_mm": 1233.0, 
+      "a_mm_esperado": [
+        -19536.619999999999, 
+        12256.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0043", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1233.0, 
+      "b_mm_esperado": [
+        -19536.619999999999, 
+        13489.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19536.619999999999, 
+        12256.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644253, 
+      "b_mm_real": [
+        -19834.619999999999, 
+        13489.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0043-S02", 
+      "largo_real_mm": 298.0, 
+      "a_mm_esperado": [
+        -19536.619999999999, 
+        13489.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0043", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 298.0, 
+      "b_mm_esperado": [
+        -19834.619999999999, 
+        13489.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19536.619999999999, 
+        13489.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644255, 
+      "b_mm_real": [
+        -20157.619999999999, 
+        11811.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0044-S01", 
+      "largo_real_mm": 539.69000000000005, 
+      "a_mm_esperado": [
+        -20548.619999999999, 
+        12183.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0044", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 539.69000000000005, 
+      "b_mm_esperado": [
+        -20157.619999999999, 
+        11811.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20548.619999999999, 
+        12183.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644257, 
+      "b_mm_real": [
+        -20157.619999999999, 
+        11582.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0044-S02", 
+      "largo_real_mm": 229.0, 
+      "a_mm_esperado": [
+        -20157.619999999999, 
+        11811.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0044", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 229.0, 
+      "b_mm_esperado": [
+        -20157.619999999999, 
+        11582.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20157.619999999999, 
+        11811.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644259, 
+      "b_mm_real": [
+        -19588.619999999999, 
+        11582.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0044-S03", 
+      "largo_real_mm": 569.0, 
+      "a_mm_esperado": [
+        -20157.619999999999, 
+        11582.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0044", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 569.0, 
+      "b_mm_esperado": [
+        -19588.619999999999, 
+        11582.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20157.619999999999, 
+        11582.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644261, 
+      "b_mm_real": [
+        -20588.619999999999, 
+        9575.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0045-S01", 
+      "largo_real_mm": 1248.0, 
+      "a_mm_esperado": [
+        -20588.619999999999, 
+        10823.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0045", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1248.0, 
+      "b_mm_esperado": [
+        -20588.619999999999, 
+        9575.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20588.619999999999, 
+        10823.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644263, 
+      "b_mm_real": [
+        -18703.619999999999, 
+        9373.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0046-S01", 
+      "largo_real_mm": 672.0, 
+      "a_mm_esperado": [
+        -19375.619999999999, 
+        9373.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0046", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 672.0, 
+      "b_mm_esperado": [
+        -18703.619999999999, 
+        9373.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19375.619999999999, 
+        9373.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644265, 
+      "b_mm_real": [
+        -18703.619999999999, 
+        9902.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0046-S02", 
+      "largo_real_mm": 529.0, 
+      "a_mm_esperado": [
+        -18703.619999999999, 
+        9373.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0046", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 529.0, 
+      "b_mm_esperado": [
+        -18703.619999999999, 
+        9902.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18703.619999999999, 
+        9373.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644267, 
+      "b_mm_real": [
+        -20588.619999999999, 
+        12124.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0047-S01", 
+      "largo_real_mm": 1141.0, 
+      "a_mm_esperado": [
+        -20588.619999999999, 
+        10983.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0047", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1141.0, 
+      "b_mm_esperado": [
+        -20588.619999999999, 
+        12124.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20588.619999999999, 
+        10983.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644269, 
+      "b_mm_real": [
+        -18708.619999999999, 
+        10342.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0048-S01", 
+      "largo_real_mm": 359.0, 
+      "a_mm_esperado": [
+        -18708.619999999999, 
+        9983.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0048", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 359.0, 
+      "b_mm_esperado": [
+        -18708.619999999999, 
+        10342.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18708.619999999999, 
+        9983.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644271, 
+      "b_mm_real": [
+        -19267.619999999999, 
+        10342.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0048-S02", 
+      "largo_real_mm": 559.0, 
+      "a_mm_esperado": [
+        -18708.619999999999, 
+        10342.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0048", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 559.0, 
+      "b_mm_esperado": [
+        -19267.619999999999, 
+        10342.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18708.619999999999, 
+        10342.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644273, 
+      "b_mm_real": [
+        -18121.619999999999, 
+        9935.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0049-S01", 
+      "largo_real_mm": 547.05799999999999, 
+      "a_mm_esperado": [
+        -18668.619999999999, 
+        9943.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0049", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 547.05799999999999, 
+      "b_mm_esperado": [
+        -18121.619999999999, 
+        9935.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18668.619999999999, 
+        9943.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644275, 
+      "b_mm_real": [
+        -18121.619999999999, 
+        9691.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0049-S02", 
+      "largo_real_mm": 244.0, 
+      "a_mm_esperado": [
+        -18121.619999999999, 
+        9935.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0049", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 244.0, 
+      "b_mm_esperado": [
+        -18121.619999999999, 
+        9691.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18121.619999999999, 
+        9935.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644277, 
+      "b_mm_real": [
+        -18164.619999999999, 
+        12204.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0050-S01", 
+      "largo_real_mm": 507.0, 
+      "a_mm_esperado": [
+        -18671.619999999999, 
+        12204.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0050", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 507.0, 
+      "b_mm_esperado": [
+        -18164.619999999999, 
+        12204.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18671.619999999999, 
+        12204.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644279, 
+      "b_mm_real": [
+        -20846.619999999999, 
+        9563.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0051-S01", 
+      "largo_real_mm": 158.0, 
+      "a_mm_esperado": [
+        -20688.619999999999, 
+        9563.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0051", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 158.0, 
+      "b_mm_esperado": [
+        -20846.619999999999, 
+        9563.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20688.619999999999, 
+        9563.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644281, 
+      "b_mm_real": [
+        -20846.619999999999, 
+        9216.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0051-S02", 
+      "largo_real_mm": 347.0, 
+      "a_mm_esperado": [
+        -20846.619999999999, 
+        9563.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0051", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 347.0, 
+      "b_mm_esperado": [
+        -20846.619999999999, 
+        9216.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20846.619999999999, 
+        9563.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644283, 
+      "b_mm_real": [
+        -18530.619999999999, 
+        14783.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0052-S01", 
+      "largo_real_mm": 148.0, 
+      "a_mm_esperado": [
+        -18678.619999999999, 
+        14783.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0052", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 148.0, 
+      "b_mm_esperado": [
+        -18530.619999999999, 
+        14783.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18678.619999999999, 
+        14783.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644285, 
+      "b_mm_real": [
+        -18530.619999999999, 
+        15006.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0052-S02", 
+      "largo_real_mm": 223.0, 
+      "a_mm_esperado": [
+        -18530.619999999999, 
+        14783.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0052", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 223.0, 
+      "b_mm_esperado": [
+        -18530.619999999999, 
+        15006.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18530.619999999999, 
+        14783.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644287, 
+      "b_mm_real": [
+        -19536.619999999999, 
+        12167.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0053-S01", 
+      "largo_real_mm": 343.0, 
+      "a_mm_esperado": [
+        -19536.619999999999, 
+        11824.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0053", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 343.0, 
+      "b_mm_esperado": [
+        -19536.619999999999, 
+        12167.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19536.619999999999, 
+        11824.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644289, 
+      "b_mm_real": [
+        -20846.619999999999, 
+        8816.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0054-S01", 
+      "largo_real_mm": 322.0, 
+      "a_mm_esperado": [
+        -20846.619999999999, 
+        9138.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0054", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 322.0, 
+      "b_mm_esperado": [
+        -20846.619999999999, 
+        8816.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20846.619999999999, 
+        9138.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644291, 
+      "b_mm_real": [
+        -21548.619999999999, 
+        10483.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0055-S01", 
+      "largo_real_mm": 310.0, 
+      "a_mm_esperado": [
+        -21548.619999999999, 
+        10793.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0055", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 310.0, 
+      "b_mm_esperado": [
+        -21548.619999999999, 
+        10483.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21548.619999999999, 
+        10793.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644293, 
+      "b_mm_real": [
+        -18328.619999999999, 
+        15238.495000000001, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0056-S01", 
+      "largo_real_mm": 135.0, 
+      "a_mm_esperado": [
+        -18328.619999999999, 
+        15103.495000000001, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0056", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 135.0, 
+      "b_mm_esperado": [
+        -18328.619999999999, 
+        15238.495000000001, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18328.619999999999, 
+        15103.495000000001, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644295, 
+      "b_mm_real": [
+        -20662.619999999999, 
+        8784.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0057-S01", 
+      "largo_real_mm": 134.0, 
+      "a_mm_esperado": [
+        -20796.619999999999, 
+        8784.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0057", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 134.0, 
+      "b_mm_esperado": [
+        -20662.619999999999, 
+        8784.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20796.619999999999, 
+        8784.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644297, 
+      "b_mm_real": [
+        -20616.619999999999, 
+        8636.4950000000008, 
+        15870.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0058-S01", 
+      "largo_real_mm": 121.0, 
+      "a_mm_esperado": [
+        -20616.619999999999, 
+        8757.4950000000008, 
+        15870.0
+      ], 
+      "polilinea_id": "RT-0058", 
+      "servicio": "ILUMINACION", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 121.0, 
+      "b_mm_esperado": [
+        -20616.619999999999, 
+        8636.4950000000008, 
+        15870.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -20616.619999999999, 
+        8757.4950000000008, 
+        15870.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644299, 
+      "b_mm_real": [
+        -19012.619999999999, 
+        9207.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S01", 
+      "largo_real_mm": 362.0, 
+      "a_mm_esperado": [
+        -19374.619999999999, 
+        9207.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 362.0, 
+      "b_mm_esperado": [
+        -19012.619999999999, 
+        9207.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19374.619999999999, 
+        9207.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644301, 
+      "b_mm_real": [
+        -18741.619999999999, 
+        9204.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S02", 
+      "largo_real_mm": 271.01700000000000, 
+      "a_mm_esperado": [
+        -19012.619999999999, 
+        9207.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 271.01700000000000, 
+      "b_mm_esperado": [
+        -18741.619999999999, 
+        9204.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -19012.619999999999, 
+        9207.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644303, 
+      "b_mm_real": [
+        -18547.619999999999, 
+        9202.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S03", 
+      "largo_real_mm": 194.00999999999999, 
+      "a_mm_esperado": [
+        -18741.619999999999, 
+        9204.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 194.00999999999999, 
+      "b_mm_esperado": [
+        -18547.619999999999, 
+        9202.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18741.619999999999, 
+        9204.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644305, 
+      "b_mm_real": [
+        -18416.619999999999, 
+        9206.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S04", 
+      "largo_real_mm": 131.06100000000001, 
+      "a_mm_esperado": [
+        -18547.619999999999, 
+        9202.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 131.06100000000001, 
+      "b_mm_esperado": [
+        -18416.619999999999, 
+        9206.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18547.619999999999, 
+        9202.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644307, 
+      "b_mm_real": [
+        -18337.619999999999, 
+        9218.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S05", 
+      "largo_real_mm": 79.906000000000006, 
+      "a_mm_esperado": [
+        -18416.619999999999, 
+        9206.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 79.906000000000006, 
+      "b_mm_esperado": [
+        -18337.619999999999, 
+        9218.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18416.619999999999, 
+        9206.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644309, 
+      "b_mm_real": [
+        -18297.619999999999, 
+        9243.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S06", 
+      "largo_real_mm": 47.170000000000002, 
+      "a_mm_esperado": [
+        -18337.619999999999, 
+        9218.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 47.170000000000002, 
+      "b_mm_esperado": [
+        -18297.619999999999, 
+        9243.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18337.619999999999, 
+        9218.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644311, 
+      "b_mm_real": [
+        -18282.619999999999, 
+        9283.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S07", 
+      "largo_real_mm": 42.719999999999999, 
+      "a_mm_esperado": [
+        -18297.619999999999, 
+        9243.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 42.719999999999999, 
+      "b_mm_esperado": [
+        -18282.619999999999, 
+        9283.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18297.619999999999, 
+        9243.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644313, 
+      "b_mm_real": [
+        -18280.619999999999, 
+        9344.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S08", 
+      "largo_real_mm": 61.033000000000001, 
+      "a_mm_esperado": [
+        -18282.619999999999, 
+        9283.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 61.033000000000001, 
+      "b_mm_esperado": [
+        -18280.619999999999, 
+        9344.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18282.619999999999, 
+        9283.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644315, 
+      "b_mm_real": [
+        -18280.619999999999, 
+        9428.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S09", 
+      "largo_real_mm": 84.0, 
+      "a_mm_esperado": [
+        -18280.619999999999, 
+        9344.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 84.0, 
+      "b_mm_esperado": [
+        -18280.619999999999, 
+        9428.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18280.619999999999, 
+        9344.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644317, 
+      "b_mm_real": [
+        -18280.619999999999, 
+        9540.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S10", 
+      "largo_real_mm": 112.0, 
+      "a_mm_esperado": [
+        -18280.619999999999, 
+        9428.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 112.0, 
+      "b_mm_esperado": [
+        -18280.619999999999, 
+        9540.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18280.619999999999, 
+        9428.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644319, 
+      "b_mm_real": [
+        -18280.619999999999, 
+        9684.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S11", 
+      "largo_real_mm": 144.0, 
+      "a_mm_esperado": [
+        -18280.619999999999, 
+        9540.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 144.0, 
+      "b_mm_esperado": [
+        -18280.619999999999, 
+        9684.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18280.619999999999, 
+        9540.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644321, 
+      "b_mm_real": [
+        -18280.619999999999, 
+        9865.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S12", 
+      "largo_real_mm": 181.0, 
+      "a_mm_esperado": [
+        -18280.619999999999, 
+        9684.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 181.0, 
+      "b_mm_esperado": [
+        -18280.619999999999, 
+        9865.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18280.619999999999, 
+        9684.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644323, 
+      "b_mm_real": [
+        -18279.619999999999, 
+        9898.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S13", 
+      "largo_real_mm": 33.015000000000001, 
+      "a_mm_esperado": [
+        -18280.619999999999, 
+        9865.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 33.015000000000001, 
+      "b_mm_esperado": [
+        -18279.619999999999, 
+        9898.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18280.619999999999, 
+        9865.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644325, 
+      "b_mm_real": [
+        -18279.619999999999, 
+        9976.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S14", 
+      "largo_real_mm": 78.0, 
+      "a_mm_esperado": [
+        -18279.619999999999, 
+        9898.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 78.0, 
+      "b_mm_esperado": [
+        -18279.619999999999, 
+        9976.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18279.619999999999, 
+        9898.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644327, 
+      "b_mm_real": [
+        -18279.619999999999, 
+        10087.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S15", 
+      "largo_real_mm": 111.0, 
+      "a_mm_esperado": [
+        -18279.619999999999, 
+        9976.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 111.0, 
+      "b_mm_esperado": [
+        -18279.619999999999, 
+        10087.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18279.619999999999, 
+        9976.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644329, 
+      "b_mm_real": [
+        -18279.619999999999, 
+        10354.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S16", 
+      "largo_real_mm": 267.0, 
+      "a_mm_esperado": [
+        -18279.619999999999, 
+        10087.495000000001, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 267.0, 
+      "b_mm_esperado": [
+        -18279.619999999999, 
+        10354.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18279.619999999999, 
+        10087.495000000001, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644331, 
+      "b_mm_real": [
+        -18279.619999999999, 
+        10670.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S17", 
+      "largo_real_mm": 316.0, 
+      "a_mm_esperado": [
+        -18279.619999999999, 
+        10354.495000000001, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 316.0, 
+      "b_mm_esperado": [
+        -18279.619999999999, 
+        10670.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18279.619999999999, 
+        10354.495000000001, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644333, 
+      "b_mm_real": [
+        -18279.619999999999, 
+        11041.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0059-S18", 
+      "largo_real_mm": 371.0, 
+      "a_mm_esperado": [
+        -18279.619999999999, 
+        10670.495000000001, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0059", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 371.0, 
+      "b_mm_esperado": [
+        -18279.619999999999, 
+        11041.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -18279.619999999999, 
+        10670.495000000001, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644335, 
+      "b_mm_real": [
+        -21565.619999999999, 
+        11379.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0060-S01", 
+      "largo_real_mm": 248.00200000000001, 
+      "a_mm_esperado": [
+        -21564.619999999999, 
+        11627.495000000001, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0060", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 248.00200000000001, 
+      "b_mm_esperado": [
+        -21565.619999999999, 
+        11379.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21564.619999999999, 
+        11627.495000000001, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644337, 
+      "b_mm_real": [
+        -19582.619999999999, 
+        11386.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0060-S02", 
+      "largo_real_mm": 1983.0119999999999, 
+      "a_mm_esperado": [
+        -21565.619999999999, 
+        11379.495000000001, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0060", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1983.0119999999999, 
+      "b_mm_esperado": [
+        -19582.619999999999, 
+        11386.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21565.619999999999, 
+        11379.495000000001, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644339, 
+      "b_mm_real": [
+        -19483.619999999999, 
+        9185.4950000000008, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0061-S01", 
+      "largo_real_mm": 2015.0, 
+      "a_mm_esperado": [
+        -21498.619999999999, 
+        9185.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0061", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 2015.0, 
+      "b_mm_esperado": [
+        -19483.619999999999, 
+        9185.4950000000008, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21498.619999999999, 
+        9185.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644341, 
+      "b_mm_real": [
+        -21552.619999999999, 
+        10384.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0062-S01", 
+      "largo_real_mm": 1148.0110000000000, 
+      "a_mm_esperado": [
+        -21557.619999999999, 
+        9236.4950000000008, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0062", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 1148.0110000000000, 
+      "b_mm_esperado": [
+        -21552.619999999999, 
+        10384.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21557.619999999999, 
+        9236.4950000000008, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644343, 
+      "b_mm_real": [
+        -21746.619999999999, 
+        10853.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0063-S01", 
+      "largo_real_mm": 148.0, 
+      "a_mm_esperado": [
+        -21598.619999999999, 
+        10853.495000000001, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0063", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 148.0, 
+      "b_mm_esperado": [
+        -21746.619999999999, 
+        10853.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21598.619999999999, 
+        10853.495000000001, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644345, 
+      "b_mm_real": [
+        -21746.619999999999, 
+        11689.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0063-S02", 
+      "largo_real_mm": 836.0, 
+      "a_mm_esperado": [
+        -21746.619999999999, 
+        10853.495000000001, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0063", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 836.0, 
+      "b_mm_esperado": [
+        -21746.619999999999, 
+        11689.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21746.619999999999, 
+        10853.495000000001, 
+        15900.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644347, 
+      "b_mm_real": [
+        -21597.619999999999, 
+        11688.495000000001, 
+        15900.0
+      ], 
+      "diametro_mm": 15.850000000000000, 
+      "id_ref": "RT-0063-S03", 
+      "largo_real_mm": 149.00299999999999, 
+      "a_mm_esperado": [
+        -21746.619999999999, 
+        11689.495000000001, 
+        15900.0
+      ], 
+      "polilinea_id": "RT-0063", 
+      "servicio": "TOMAS", 
+      "tamano": "1/2", 
+      "largo_esperado_mm": 149.00299999999999, 
+      "b_mm_esperado": [
+        -21597.619999999999, 
+        11688.495000000001, 
+        15900.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        -21746.619999999999, 
+        11689.495000000001, 
+        15900.0
+      ]
+    }
+  ], 
+  "nivel": {
+    "elevacion_mm": 13220.0, 
+    "id": 192512, 
+    "nombre": "Piso 5"
+  }, 
+  "generado_utc": "2026-11-22 05:10:44", 
+  "script": "RE7_CREAR_CONDUITS_F17_F18_v02", 
+  "parametros": {
+    "total_segmentos": 124, 
+    "tipos_conduit": 3
+  }, 
+  "documento": {
+    "titulo": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01b", 
+    "ruta": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01b.rvt"
+  }, 
+  "offsets": {
+    "Apartamento Tipo F 17": {
+      "dy_mm": -7996460.0269999998, 
+      "detalle": "cluster=1,3 n_disps=11 n_match=20/116", 
+      "n_match": 20, 
+      "apto": "Apartamento Tipo F 17", 
+      "cluster": "1,3", 
+      "n_extremos": 116, 
+      "dx_mm": -6516461.1109999996
+    }, 
+    "Apartamentos Tipo F 18": {
+      "dy_mm": -9663899.5050000008, 
+      "detalle": "cluster=-7,3 n_disps=9 n_match=27/132", 
+      "n_match": 27, 
+      "apto": "Apartamentos Tipo F 18", 
+      "cluster": "-7,3", 
+      "n_extremos": 132, 
+      "dx_mm": -6510974.6200000001
+    }
+  }, 
+  "resumen": {
+    "creados": 124, 
+    "fallos": 0, 
+    "verificados_fallo": 0, 
+    "verificados_ok": 124
+  }, 
+  "cobertura_pre_creacion": {
+    "max_mm": 1889.3299999999999, 
+    "cubiertos_300mm": 61, 
+    "p50_mm": 521.20000000000005, 
+    "total_extremos": 248, 
+    "p95_mm": 1065.0400000000000
+  }, 
+  "fallos": [], 
+  "version": "v02"
+}

@@ -1,0 +1,217 @@
+{
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "resumen": {
+  "dispositivos": 860, 
+  "fallos": 0, 
+  "asignados": 29, 
+  "candidatos": 29, 
+  "campanas": 10
+ }, 
+ "generado_utc": "2026-11-22 23:45:04", 
+ "candidatos": [
+  {
+   "id": 5639120, 
+   "apto": "B16", 
+   "tipo": "SONO FLEX 10 trim", 
+   "es_campana": false, 
+   "familia": "M_Iluminacion"
+  }, 
+  {
+   "id": 5639291, 
+   "apto": "B16", 
+   "tipo": "GFCI", 
+   "es_campana": false, 
+   "familia": "M_Toma doble"
+  }, 
+  {
+   "id": 5565670, 
+   "apto": "F02", 
+   "tipo": "Simple", 
+   "es_campana": false, 
+   "familia": "M_Interruptores"
+  }, 
+  {
+   "id": 5568128, 
+   "apto": "F02", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }, 
+  {
+   "id": 5559033, 
+   "apto": "F01", 
+   "tipo": "Simple", 
+   "es_campana": false, 
+   "familia": "M_Interruptores"
+  }, 
+  {
+   "id": 5570623, 
+   "apto": "E05", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }, 
+  {
+   "id": 5570628, 
+   "apto": "E05", 
+   "tipo": "Timbre", 
+   "es_campana": false, 
+   "familia": "M_Pulsador - Interruptor"
+  }, 
+  {
+   "id": 5640312, 
+   "apto": "F02", 
+   "tipo": "Timbre", 
+   "es_campana": false, 
+   "familia": "M_Pulsador - Interruptor"
+  }, 
+  {
+   "id": 5668220, 
+   "apto": "F18", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }, 
+  {
+   "id": 5568819, 
+   "apto": "F17", 
+   "tipo": "SONO FLEX 22 trim", 
+   "es_campana": false, 
+   "familia": "M_Iluminacion"
+  }, 
+  {
+   "id": 5557267, 
+   "apto": "F01", 
+   "tipo": "SONO FLEX 22 trim", 
+   "es_campana": false, 
+   "familia": "M_Iluminacion"
+  }, 
+  {
+   "id": 5568847, 
+   "apto": "F18", 
+   "tipo": "SONO FLEX 22 trim", 
+   "es_campana": false, 
+   "familia": "M_Iluminacion"
+  }, 
+  {
+   "id": 5568867, 
+   "apto": "F17", 
+   "tipo": "Simple", 
+   "es_campana": false, 
+   "familia": "M_Interruptores"
+  }, 
+  {
+   "id": 5568897, 
+   "apto": "F18", 
+   "tipo": "Simple", 
+   "es_campana": false, 
+   "familia": "M_Interruptores"
+  }, 
+  {
+   "id": 5557335, 
+   "apto": "F02", 
+   "tipo": "SONO FLEX 22 trim", 
+   "es_campana": false, 
+   "familia": "M_Iluminacion"
+  }, 
+  {
+   "id": 5557251, 
+   "apto": "F01", 
+   "tipo": "Timbre", 
+   "es_campana": false, 
+   "familia": "M_Pulsador - Interruptor"
+  }, 
+  {
+   "id": 5557253, 
+   "apto": "F01", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }, 
+  {
+   "id": 5568814, 
+   "apto": "F17", 
+   "tipo": "Timbre", 
+   "es_campana": false, 
+   "familia": "M_Pulsador - Interruptor"
+  }, 
+  {
+   "id": 5568815, 
+   "apto": "F17", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }, 
+  {
+   "id": 5568911, 
+   "apto": "F18", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }, 
+  {
+   "id": 5529844, 
+   "apto": "E06", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }, 
+  {
+   "id": 5529858, 
+   "apto": "E06", 
+   "tipo": "Timbre", 
+   "es_campana": false, 
+   "familia": "M_Pulsador - Interruptor"
+  }, 
+  {
+   "id": 5643383, 
+   "apto": "F02", 
+   "tipo": "Simple", 
+   "es_campana": false, 
+   "familia": "M_Interruptores"
+  }, 
+  {
+   "id": 5643436, 
+   "apto": "B16", 
+   "tipo": "Triple conmutable", 
+   "es_campana": false, 
+   "familia": "M_Interruptores"
+  }, 
+  {
+   "id": 5580899, 
+   "apto": "E08", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }, 
+  {
+   "id": 5580904, 
+   "apto": "E08", 
+   "tipo": "Timbre", 
+   "es_campana": false, 
+   "familia": "M_Pulsador - Interruptor"
+  }, 
+  {
+   "id": 5580972, 
+   "apto": "E07", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }, 
+  {
+   "id": 5580977, 
+   "apto": "E07", 
+   "tipo": "Timbre", 
+   "es_campana": false, 
+   "familia": "M_Pulsador - Interruptor"
+  }, 
+  {
+   "id": 5657458, 
+   "apto": "B16", 
+   "tipo": "Campana", 
+   "es_campana": true, 
+   "familia": "M_Timbre"
+  }
+ ], 
+ "version": "v01_cocina"
+}

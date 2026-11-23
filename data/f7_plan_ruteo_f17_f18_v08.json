@@ -1,0 +1,3699 @@
+{
+  "version": "v08",
+  "generado_utc": "2026-11-22 16:09:07",
+  "parametros": {
+    "z_plano_mm": 15930.0,
+    "nivel_piso5_mm": 13220.0,
+    "radio1_mm": 600.0,
+    "radio2_mm": 1800.0,
+    "largo_min_mm": 3.0,
+    "offset_comms_mm": 40.0
+  },
+  "apartamentos": {
+    "F17": {
+      "dxf_aparatos": 31,
+      "revit_dispositivos": 35,
+      "emparejados": 23,
+      "aristas_completas": 27,
+      "aristas_parciales": 10,
+      "conduits_plan": 72,
+      "unmatched_dxf": [
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8690.136,
+          "y": 5347.727
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8690.136,
+          "y": 5497.711
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8690.136,
+          "y": 5208.318
+        },
+        {
+          "bloque": "ELEC-TIMBRE",
+          "x": 7566.04,
+          "y": 8161.188
+        },
+        {
+          "bloque": "ELEC-CAMPANA",
+          "x": 7331.286,
+          "y": 8009.688
+        },
+        {
+          "bloque": "ELEC-EXT",
+          "x": 10008.107,
+          "y": 7142.991
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8690.136,
+          "y": 5069.095
+        },
+        {
+          "bloque": "ELEC-EXT",
+          "x": 10367.164,
+          "y": 7134.882
+        }
+      ],
+      "unmatched_revit": [
+        {
+          "familia": "M_Interruptores",
+          "tipo": "Simple",
+          "x": 10715.774,
+          "y": 1576.658,
+          "z": 14320.0,
+          "id": 5558646
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "Normal",
+          "x": 6556.212,
+          "y": 3228.318,
+          "z": 14220.0,
+          "id": 5568808
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "GFCI",
+          "x": 6556.212,
+          "y": 5136.3,
+          "z": 14070.0,
+          "id": 5568809
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "Normal",
+          "x": 6556.213,
+          "y": 5788.272,
+          "z": 14870.0,
+          "id": 5568810
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "Normal",
+          "x": 6556.213,
+          "y": 5916.3,
+          "z": 13920.0,
+          "id": 5568811
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "Normal",
+          "x": 6556.212,
+          "y": 7577.426,
+          "z": 14270.0,
+          "id": 5568812
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "GFCI",
+          "x": 6564.485,
+          "y": 6338.272,
+          "z": 14270.0,
+          "id": 5568817
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "Normal",
+          "x": 8685.774,
+          "y": 5256.018,
+          "z": 13520.0,
+          "id": 5568832
+        },
+        {
+          "familia": "M_Iluminacion",
+          "tipo": "SONO FLEX 10 trim",
+          "x": 10884.256,
+          "y": 1971.621,
+          "z": 15820.0,
+          "id": 5557271
+        },
+        {
+          "familia": "M_Iluminacion",
+          "tipo": "SONO FLEX 10 trim",
+          "x": 10888.794,
+          "y": 4551.621,
+          "z": 15820.0,
+          "id": 5557275
+        },
+        {
+          "familia": "M_Iluminacion",
+          "tipo": "SONO FLEX 13 trim",
+          "x": 10882.504,
+          "y": 6811.286,
+          "z": 15820.0,
+          "id": 5557277
+        },
+        {
+          "familia": "M_Iluminacion",
+          "tipo": "SONO FLEX 13 trim",
+          "x": 8343.627,
+          "y": 781.166,
+          "z": 15820.0,
+          "id": 5568825
+        }
+      ],
+      "matches": [
+        {
+          "dxf_idx": 37,
+          "bloque": "ELEC-I-S-1-5A",
+          "dxf_x": 7561.616,
+          "dxf_y": 7958.188,
+          "revit_id": 5568867,
+          "revit_familia": "M_Interruptores",
+          "revit_tipo": "Simple",
+          "revit_x": 7803.474,
+          "revit_y": 8077.426,
+          "revit_z": 14320.0,
+          "dist_mm": 269.65,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 44,
+          "bloque": "Bala Stil Led 22W",
+          "dxf_x": 7589.429,
+          "dxf_y": 7190.88,
+          "revit_id": 5568819,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 22 trim",
+          "revit_x": 7635.707,
+          "revit_y": 7182.772,
+          "revit_z": 15820.0,
+          "dist_mm": 46.98,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 47,
+          "bloque": "Bala Stil Led 10W",
+          "dxf_x": 7597.927,
+          "dxf_y": 4559.73,
+          "revit_id": 5568822,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 10 trim",
+          "revit_x": 7644.206,
+          "revit_y": 4551.621,
+          "revit_z": 15820.0,
+          "dist_mm": 46.98,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 43,
+          "bloque": "Bala Stil Led 22W",
+          "dxf_x": 7597.927,
+          "dxf_y": 5889.73,
+          "revit_id": 5568818,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 22 trim",
+          "revit_x": 7644.206,
+          "revit_y": 5881.621,
+          "revit_z": 15820.0,
+          "dist_mm": 46.98,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 45,
+          "bloque": "Bala Stil Led 10W",
+          "dxf_x": 7602.465,
+          "dxf_y": 1979.73,
+          "revit_id": 5568820,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 10 trim",
+          "revit_x": 7648.744,
+          "revit_y": 1971.621,
+          "revit_z": 15820.0,
+          "dist_mm": 46.98,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 39,
+          "bloque": "ELEC-F-VENT",
+          "dxf_x": 8317.518,
+          "dxf_y": 3275.76,
+          "revit_id": 5568816,
+          "revit_familia": "M_ClimatizacionV",
+          "revit_tipo": "Ventilador",
+          "revit_x": 8363.796,
+          "revit_y": 3267.652,
+          "revit_z": 15820.0,
+          "dist_mm": 46.98,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 40,
+          "bloque": "ELEC-F-CONTROL",
+          "dxf_x": 8628.208,
+          "dxf_y": 5012.028,
+          "revit_id": 5568876,
+          "revit_familia": "M_Climatizacion",
+          "revit_tipo": "Interruptor Ventilador",
+          "revit_x": 8685.774,
+          "revit_y": 5008.318,
+          "revit_z": 14320.0,
+          "dist_mm": 57.69,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 36,
+          "bloque": "ELEC-I-S-2-5A",
+          "dxf_x": 8639.148,
+          "dxf_y": 5194.598,
+          "revit_id": 5568875,
+          "revit_familia": "M_Interruptores",
+          "revit_tipo": "Doble",
+          "revit_x": 8743.474,
+          "revit_y": 5190.368,
+          "revit_z": 14320.0,
+          "dist_mm": 104.41,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 28,
+          "bloque": "ELEC-NET-PAU",
+          "dxf_x": 8683.143,
+          "dxf_y": 5262.288,
+          "revit_id": 5568834,
+          "revit_familia": "Consolidation_Point",
+          "revit_tipo": "CPB12BL",
+          "revit_x": 8685.774,
+          "revit_y": 5328.318,
+          "revit_z": 15920.0,
+          "dist_mm": 66.08,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 41,
+          "bloque": "ELEC-T-D-t-15A",
+          "dxf_x": 8684.807,
+          "dxf_y": 5542.516,
+          "revit_id": 5568873,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "Normal",
+          "revit_x": 8685.774,
+          "revit_y": 5456.018,
+          "revit_z": 13520.0,
+          "dist_mm": 86.5,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 52,
+          "bloque": "ELEC-I-S-1-5A",
+          "dxf_x": 8879.422,
+          "dxf_y": 6401.086,
+          "revit_id": 5568868,
+          "revit_familia": "M_Interruptores",
+          "revit_tipo": "Simple",
+          "revit_x": 8743.474,
+          "revit_y": 6408.318,
+          "revit_z": 14320.0,
+          "dist_mm": 136.14,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 48,
+          "bloque": "Bala Stil Led 10W",
+          "dxf_x": 9456.477,
+          "dxf_y": 4559.73,
+          "revit_id": 5568823,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 10 trim",
+          "revit_x": 9502.755,
+          "revit_y": 4551.621,
+          "revit_z": 15820.0,
+          "dist_mm": 46.98,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 46,
+          "bloque": "Bala Stil Led 10W",
+          "dxf_x": 9461.015,
+          "dxf_y": 1979.73,
+          "revit_id": 5568821,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 10 trim",
+          "revit_x": 9507.293,
+          "revit_y": 1971.621,
+          "revit_z": 15820.0,
+          "dist_mm": 46.98,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 49,
+          "bloque": "Bala Stil Led 13W",
+          "dxf_x": 9462.767,
+          "dxf_y": 6819.395,
+          "revit_id": 5568824,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 13 trim",
+          "revit_x": 9509.045,
+          "revit_y": 6811.286,
+          "revit_z": 15820.0,
+          "dist_mm": 46.98,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 38,
+          "bloque": "ELEC-I-S-1-5A",
+          "dxf_x": 9656.765,
+          "dxf_y": 1710.113,
+          "revit_id": 5568865,
+          "revit_familia": "M_Interruptores",
+          "revit_tipo": "Simple",
+          "revit_x": 9655.774,
+          "revit_y": 1576.658,
+          "revit_z": 14320.0,
+          "dist_mm": 133.46,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 32,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dxf_x": 9846.859,
+          "dxf_y": 1540.496,
+          "revit_id": 5568806,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "GFCI",
+          "revit_x": 9850.774,
+          "revit_y": 1511.658,
+          "revit_z": 13520.0,
+          "dist_mm": 29.1,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 33,
+          "bloque": "ELEC-T-D-t-15A",
+          "dxf_x": 9850.016,
+          "dxf_y": 1657.107,
+          "revit_id": 5568807,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "Normal",
+          "revit_x": 9850.774,
+          "revit_y": 1641.658,
+          "revit_z": 13520.0,
+          "dist_mm": 15.47,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 51,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dxf_x": 10016.879,
+          "dxf_y": 5641.765,
+          "revit_id": 5568813,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "GFCI",
+          "revit_x": 9945.774,
+          "revit_y": 5606.018,
+          "revit_z": 14320.0,
+          "dist_mm": 79.58,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 53,
+          "bloque": "ELEC-T-D-t-15A",
+          "dxf_x": 10110.016,
+          "dxf_y": 4561.073,
+          "revit_id": 5568833,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "Normal",
+          "revit_x": 10120.574,
+          "revit_y": 4560.618,
+          "revit_z": 13520.0,
+          "dist_mm": 10.57,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 58,
+          "bloque": "ELEC-T-D-t-15A",
+          "dxf_x": 10271.974,
+          "dxf_y": 4558.126,
+          "revit_id": 5557299,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "Normal",
+          "revit_x": 10270.974,
+          "revit_y": 4558.318,
+          "revit_z": 13520.0,
+          "dist_mm": 1.02,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 56,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dxf_x": 10328.392,
+          "dxf_y": 5633.656,
+          "revit_id": 5557249,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "GFCI",
+          "revit_x": 10435.774,
+          "revit_y": 5606.018,
+          "revit_z": 14320.0,
+          "dist_mm": 110.88,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 55,
+          "bloque": "ELEC-T-D-t-15A",
+          "dxf_x": 10476.768,
+          "dxf_y": 1648.998,
+          "revit_id": 5557237,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "Normal",
+          "revit_x": 10488.074,
+          "revit_y": 1641.658,
+          "revit_z": 13520.0,
+          "dist_mm": 13.48,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 54,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dxf_x": 10498.411,
+          "dxf_y": 1532.387,
+          "revit_id": 5557235,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "GFCI",
+          "revit_x": 10481.616,
+          "revit_y": 1511.658,
+          "revit_z": 13520.0,
+          "dist_mm": 26.68,
+          "radio_usado": 600.0
+        }
+      ],
+      "conduits": [
+        {
+          "apto": "F17",
+          "poly": 31,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8743.474,
+            5190.368,
+            14320.0
+          ],
+          "b": [
+            8743.474,
+            5190.368,
+            15930.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F17",
+          "poly": 31,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8743.755,
+            5138.88,
+            15930.0
+          ],
+          "b": [
+            8696.995,
+            5138.88,
+            15930.0
+          ],
+          "largo_mm": 46.76
+        },
+        {
+          "apto": "F17",
+          "poly": 31,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8696.995,
+            5138.88,
+            15930.0
+          ],
+          "b": [
+            8696.995,
+            5061.4,
+            15930.0
+          ],
+          "largo_mm": 77.48
+        },
+        {
+          "apto": "F17",
+          "poly": 31,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8685.774,
+            5008.318,
+            15930.0
+          ],
+          "b": [
+            8685.774,
+            5008.318,
+            14320.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F17",
+          "poly": 33,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            10270.974,
+            4558.318,
+            13520.0
+          ],
+          "b": [
+            10270.974,
+            4558.318,
+            15930.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F17",
+          "poly": 33,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9999.123,
+            4563.302,
+            15930.0
+          ],
+          "b": [
+            10457.717,
+            4563.302,
+            15930.0
+          ],
+          "largo_mm": 458.594
+        },
+        {
+          "apto": "F17",
+          "poly": 33,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            10457.717,
+            4563.302,
+            15930.0
+          ],
+          "b": [
+            9540.605,
+            4555.001,
+            15930.0
+          ],
+          "largo_mm": 917.149
+        },
+        {
+          "apto": "F17",
+          "poly": 33,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9502.755,
+            4551.621,
+            15930.0
+          ],
+          "b": [
+            9502.755,
+            4551.621,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 34,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9502.755,
+            4551.621,
+            15820.0
+          ],
+          "b": [
+            9502.755,
+            4551.621,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 34,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9495.707,
+            4505.001,
+            15930.0
+          ],
+          "b": [
+            9495.707,
+            2015.301,
+            15930.0
+          ],
+          "largo_mm": 2489.7
+        },
+        {
+          "apto": "F17",
+          "poly": 34,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9507.293,
+            1971.621,
+            15930.0
+          ],
+          "b": [
+            9507.293,
+            1971.621,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 35,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9507.293,
+            1971.621,
+            15820.0
+          ],
+          "b": [
+            9507.293,
+            1971.621,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 35,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9455.707,
+            1965.001,
+            15930.0
+          ],
+          "b": [
+            7667.508,
+            1965.001,
+            15930.0
+          ],
+          "largo_mm": 1788.199
+        },
+        {
+          "apto": "F17",
+          "poly": 35,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7648.744,
+            1971.621,
+            15930.0
+          ],
+          "b": [
+            7648.744,
+            1971.621,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 36,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9507.293,
+            1971.621,
+            15820.0
+          ],
+          "b": [
+            9507.293,
+            1971.621,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 36,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9545.707,
+            1975.001,
+            15930.0
+          ],
+          "b": [
+            9414.24,
+            1975.001,
+            15930.0
+          ],
+          "largo_mm": 131.467
+        },
+        {
+          "apto": "F17",
+          "poly": 36,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9414.24,
+            1975.001,
+            15930.0
+          ],
+          "b": [
+            9173.711,
+            2215.53,
+            15930.0
+          ],
+          "largo_mm": 340.16
+        },
+        {
+          "apto": "F17",
+          "poly": 36,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9173.711,
+            2215.53,
+            15930.0
+          ],
+          "b": [
+            9651.453,
+            1731.201,
+            15930.0
+          ],
+          "largo_mm": 680.303
+        },
+        {
+          "apto": "F17",
+          "poly": 36,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9850.774,
+            1511.658,
+            15930.0
+          ],
+          "b": [
+            9850.774,
+            1511.658,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F17",
+          "poly": 37,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9507.293,
+            1971.621,
+            15820.0
+          ],
+          "b": [
+            9507.293,
+            1971.621,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 37,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9505.707,
+            1935.001,
+            15930.0
+          ],
+          "b": [
+            9458.438,
+            1935.001,
+            15930.0
+          ],
+          "largo_mm": 47.269
+        },
+        {
+          "apto": "F17",
+          "poly": 37,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9458.438,
+            1935.001,
+            15930.0
+          ],
+          "b": [
+            9458.438,
+            1576.655,
+            15930.0
+          ],
+          "largo_mm": 358.346
+        },
+        {
+          "apto": "F17",
+          "poly": 37,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9655.774,
+            1576.658,
+            15930.0
+          ],
+          "b": [
+            9655.774,
+            1576.658,
+            14320.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F17",
+          "poly": 38,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9655.774,
+            1576.658,
+            14320.0
+          ],
+          "b": [
+            9655.774,
+            1576.658,
+            15930.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F17",
+          "poly": 38,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9698.438,
+            1569.655,
+            15930.0
+          ],
+          "b": [
+            9806.744,
+            1674.272,
+            15930.0
+          ],
+          "largo_mm": 150.582
+        },
+        {
+          "apto": "F17",
+          "poly": 38,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9850.774,
+            1511.658,
+            15930.0
+          ],
+          "b": [
+            9850.774,
+            1511.658,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F17",
+          "poly": 41,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9509.045,
+            6811.286,
+            15820.0
+          ],
+          "b": [
+            9509.045,
+            6811.286,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 41,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9455.707,
+            6815.001,
+            15930.0
+          ],
+          "b": [
+            8286.462,
+            6815.001,
+            15930.0
+          ],
+          "largo_mm": 1169.245
+        },
+        {
+          "apto": "F17",
+          "poly": 41,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8286.462,
+            6815.001,
+            15930.0
+          ],
+          "b": [
+            8286.462,
+            7207.441,
+            15930.0
+          ],
+          "largo_mm": 392.44
+        },
+        {
+          "apto": "F17",
+          "poly": 41,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8286.462,
+            7207.441,
+            15930.0
+          ],
+          "b": [
+            7669.046,
+            7207.441,
+            15930.0
+          ],
+          "largo_mm": 617.416
+        },
+        {
+          "apto": "F17",
+          "poly": 41,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7635.707,
+            7182.772,
+            15930.0
+          ],
+          "b": [
+            7635.707,
+            7182.772,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 42,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7644.206,
+            5881.621,
+            15820.0
+          ],
+          "b": [
+            7644.206,
+            5881.621,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 42,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7635.708,
+            5935.001,
+            15930.0
+          ],
+          "b": [
+            7635.708,
+            7182.772,
+            15930.0
+          ],
+          "largo_mm": 1247.771
+        },
+        {
+          "apto": "F17",
+          "poly": 42,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7635.707,
+            7182.772,
+            15930.0
+          ],
+          "b": [
+            7635.707,
+            7182.772,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 44,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7644.206,
+            5881.621,
+            15820.0
+          ],
+          "b": [
+            7644.206,
+            5881.621,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 44,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7635.708,
+            5775.001,
+            15930.0
+          ],
+          "b": [
+            7635.708,
+            4634.501,
+            15930.0
+          ],
+          "largo_mm": 1140.5
+        },
+        {
+          "apto": "F17",
+          "poly": 44,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7644.206,
+            4551.621,
+            15930.0
+          ],
+          "b": [
+            7644.206,
+            4551.621,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 45,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7644.206,
+            4551.621,
+            15820.0
+          ],
+          "b": [
+            7644.206,
+            4551.621,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 45,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7675.708,
+            4575.001,
+            15930.0
+          ],
+          "b": [
+            8063.861,
+            4963.154,
+            15930.0
+          ],
+          "largo_mm": 548.931
+        },
+        {
+          "apto": "F17",
+          "poly": 45,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8063.861,
+            4963.154,
+            15930.0
+          ],
+          "b": [
+            8063.861,
+            5220.314,
+            15930.0
+          ],
+          "largo_mm": 257.16
+        },
+        {
+          "apto": "F17",
+          "poly": 45,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8063.861,
+            5220.314,
+            15930.0
+          ],
+          "b": [
+            8592.765,
+            5220.314,
+            15930.0
+          ],
+          "largo_mm": 528.904
+        },
+        {
+          "apto": "F17",
+          "poly": 45,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8592.765,
+            5220.314,
+            15930.0
+          ],
+          "b": [
+            8591.882,
+            5250.864,
+            15930.0
+          ],
+          "largo_mm": 30.563
+        },
+        {
+          "apto": "F17",
+          "poly": 45,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8685.774,
+            5328.318,
+            15930.0
+          ],
+          "b": [
+            8685.774,
+            5328.318,
+            15920.0
+          ],
+          "largo_mm": 10.0
+        },
+        {
+          "apto": "F17",
+          "poly": 46,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9655.774,
+            1576.658,
+            14320.0
+          ],
+          "b": [
+            9655.774,
+            1576.658,
+            15930.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F17",
+          "poly": 46,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9848.438,
+            1529.655,
+            15930.0
+          ],
+          "b": [
+            9850.187,
+            1641.661,
+            15930.0
+          ],
+          "largo_mm": 112.02
+        },
+        {
+          "apto": "F17",
+          "poly": 46,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9850.774,
+            1641.658,
+            15930.0
+          ],
+          "b": [
+            9850.774,
+            1641.658,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F17",
+          "poly": 46,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9850.774,
+            1641.658,
+            13520.0
+          ],
+          "b": [
+            9850.774,
+            1641.658,
+            15930.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F17",
+          "poly": 46,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9850.187,
+            1641.661,
+            15930.0
+          ],
+          "b": [
+            9850.187,
+            1768.652,
+            15930.0
+          ],
+          "largo_mm": 126.991
+        },
+        {
+          "apto": "F17",
+          "poly": 46,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9850.187,
+            1768.652,
+            15930.0
+          ],
+          "b": [
+            9853.344,
+            1514.705,
+            15930.0
+          ],
+          "largo_mm": 253.967
+        },
+        {
+          "apto": "F17",
+          "poly": 46,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9850.774,
+            1511.658,
+            15930.0
+          ],
+          "b": [
+            9850.774,
+            1511.658,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F17",
+          "poly": 49,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9502.755,
+            4551.621,
+            15820.0
+          ],
+          "b": [
+            9502.755,
+            4551.621,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 49,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9464.906,
+            4555.001,
+            15930.0
+          ],
+          "b": [
+            7675.807,
+            4555.001,
+            15930.0
+          ],
+          "largo_mm": 1789.099
+        },
+        {
+          "apto": "F17",
+          "poly": 49,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7644.206,
+            4551.621,
+            15930.0
+          ],
+          "b": [
+            7644.206,
+            4551.621,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 50,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8743.474,
+            6408.318,
+            14320.0
+          ],
+          "b": [
+            8743.474,
+            6408.318,
+            15930.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F17",
+          "poly": 50,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8798.432,
+            6403.455,
+            15930.0
+          ],
+          "b": [
+            8202.921,
+            6403.455,
+            15930.0
+          ],
+          "largo_mm": 595.511
+        },
+        {
+          "apto": "F17",
+          "poly": 50,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8202.921,
+            6403.455,
+            15930.0
+          ],
+          "b": [
+            9445.732,
+            6403.455,
+            15930.0
+          ],
+          "largo_mm": 1242.81
+        },
+        {
+          "apto": "F17",
+          "poly": 50,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9445.732,
+            6403.455,
+            15930.0
+          ],
+          "b": [
+            9515.707,
+            6403.455,
+            15930.0
+          ],
+          "largo_mm": 69.975
+        },
+        {
+          "apto": "F17",
+          "poly": 50,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9515.707,
+            6403.455,
+            15930.0
+          ],
+          "b": [
+            9515.707,
+            6774.996,
+            15930.0
+          ],
+          "largo_mm": 371.541
+        },
+        {
+          "apto": "F17",
+          "poly": 50,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9509.045,
+            6811.286,
+            15930.0
+          ],
+          "b": [
+            9509.045,
+            6811.286,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 51,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            10435.774,
+            5606.018,
+            14320.0
+          ],
+          "b": [
+            10435.774,
+            5606.018,
+            15930.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F17",
+          "poly": 51,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            10242.058,
+            5682.602,
+            15930.0
+          ],
+          "b": [
+            10498.354,
+            5682.602,
+            15930.0
+          ],
+          "largo_mm": 256.296
+        },
+        {
+          "apto": "F17",
+          "poly": 51,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            10498.354,
+            5682.602,
+            15930.0
+          ],
+          "b": [
+            9985.877,
+            5674.493,
+            15930.0
+          ],
+          "largo_mm": 512.541
+        },
+        {
+          "apto": "F17",
+          "poly": 51,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9945.774,
+            5606.018,
+            15930.0
+          ],
+          "b": [
+            9945.774,
+            5606.018,
+            14320.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F17",
+          "poly": 52,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7644.206,
+            5881.621,
+            15820.0
+          ],
+          "b": [
+            7644.206,
+            5881.621,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F17",
+          "poly": 52,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7644.169,
+            5776.908,
+            15930.0
+          ],
+          "b": [
+            6643.682,
+            5776.908,
+            15930.0
+          ],
+          "largo_mm": 1000.487
+        },
+        {
+          "apto": "F17",
+          "poly": 52,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            6643.682,
+            5776.908,
+            15930.0
+          ],
+          "b": [
+            4634.565,
+            5776.908,
+            15930.0
+          ],
+          "largo_mm": 2009.117
+        },
+        {
+          "apto": "F17",
+          "poly": 52,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            4634.565,
+            5776.908,
+            15930.0
+          ],
+          "b": [
+            8635.613,
+            5776.908,
+            15930.0
+          ],
+          "largo_mm": 4001.048
+        },
+        {
+          "apto": "F17",
+          "poly": 52,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8635.613,
+            5776.908,
+            15930.0
+          ],
+          "b": [
+            8635.613,
+            5514.682,
+            15930.0
+          ],
+          "largo_mm": 262.226
+        },
+        {
+          "apto": "F17",
+          "poly": 52,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8685.774,
+            5456.018,
+            15930.0
+          ],
+          "b": [
+            8685.774,
+            5456.018,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F17",
+          "poly": 53,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            10488.074,
+            1641.658,
+            13520.0
+          ],
+          "b": [
+            10488.074,
+            1641.658,
+            15930.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F17",
+          "poly": 53,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            10507.148,
+            1641.662,
+            15930.0
+          ],
+          "b": [
+            10479.055,
+            1514.71,
+            15930.0
+          ],
+          "largo_mm": 130.023
+        },
+        {
+          "apto": "F17",
+          "poly": 53,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            10481.616,
+            1511.658,
+            15930.0
+          ],
+          "b": [
+            10481.616,
+            1511.658,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        }
+      ],
+      "rutas": [
+        {
+          "poly": 27,
+          "layer": "ELEC-POWER- PIPE",
+          "n_hits": 0,
+          "n_matched": 0,
+          "n_tramos": 0
+        },
+        {
+          "poly": 28,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 29,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 30,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 31,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 6,
+          "n_matched": 3,
+          "n_tramos": 4
+        },
+        {
+          "poly": 32,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 4,
+          "n_matched": 2,
+          "n_tramos": 0
+        },
+        {
+          "poly": 33,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 3,
+          "n_tramos": 4
+        },
+        {
+          "poly": 34,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 35,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 36,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 4,
+          "n_matched": 4,
+          "n_tramos": 5
+        },
+        {
+          "poly": 37,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 4
+        },
+        {
+          "poly": 38,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 3,
+          "n_tramos": 3
+        },
+        {
+          "poly": 39,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 40,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 41,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 5
+        },
+        {
+          "poly": 42,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 43,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 44,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 45,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 7,
+          "n_matched": 4,
+          "n_tramos": 6
+        },
+        {
+          "poly": 46,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 3,
+          "n_tramos": 7
+        },
+        {
+          "poly": 47,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 48,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 49,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 50,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 6
+        },
+        {
+          "poly": 51,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 4,
+          "n_matched": 2,
+          "n_tramos": 4
+        },
+        {
+          "poly": 52,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 4,
+          "n_matched": 2,
+          "n_tramos": 6
+        },
+        {
+          "poly": 53,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 54,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 0
+        },
+        {
+          "poly": 55,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 0,
+          "n_tramos": 0
+        },
+        {
+          "poly": 56,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 1,
+          "n_tramos": 0
+        }
+      ]
+    },
+    "F18": {
+      "dxf_aparatos": 28,
+      "revit_dispositivos": 32,
+      "emparejados": 19,
+      "aristas_completas": 25,
+      "aristas_parciales": 9,
+      "conduits_plan": 60,
+      "unmatched_dxf": [
+        {
+          "bloque": "ELEC-EXT",
+          "x": 10360.263,
+          "y": 10525.369
+        },
+        {
+          "bloque": "ELEC-TIMBRE",
+          "x": 7548.811,
+          "y": 9505.198
+        },
+        {
+          "bloque": "ELEC-CAMPANA",
+          "x": 7314.057,
+          "y": 9672.698
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8682.318,
+          "y": 12548.148
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8682.318,
+          "y": 12698.132
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8682.318,
+          "y": 12408.74
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 8685.774,
+          "y": 12308.867
+        },
+        {
+          "bloque": "ELEC-EXT",
+          "x": 10038.096,
+          "y": 10549.2
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8685.701,
+          "y": 12266.334
+        }
+      ],
+      "unmatched_revit": [
+        {
+          "familia": "M_Toma doble",
+          "tipo": "GFCI",
+          "x": 10501.702,
+          "y": 16155.133,
+          "z": 13520.0,
+          "id": 5557303
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "Normal",
+          "x": 10508.074,
+          "y": 16025.133,
+          "z": 13520.0,
+          "id": 5557305
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "GFCI",
+          "x": 10503.538,
+          "y": 12060.773,
+          "z": 13519.176,
+          "id": 5557317
+        },
+        {
+          "familia": "M_Interruptores",
+          "tipo": "Simple",
+          "x": 10715.774,
+          "y": 16090.133,
+          "z": 14320.0,
+          "id": 5567671
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "Normal",
+          "x": 6555.216,
+          "y": 14296.563,
+          "z": 14220.0,
+          "id": 5568837
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "GFCI",
+          "x": 6555.216,
+          "y": 11345.005,
+          "z": 14270.0,
+          "id": 5568838
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "Normal",
+          "x": 6555.216,
+          "y": 11744.633,
+          "z": 13920.0,
+          "id": 5568839
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "Normal",
+          "x": 6555.216,
+          "y": 11878.473,
+          "z": 14870.0,
+          "id": 5568840
+        },
+        {
+          "familia": "M_Toma doble",
+          "tipo": "GFCI",
+          "x": 6557.204,
+          "y": 12481.932,
+          "z": 14070.0,
+          "id": 5568845
+        },
+        {
+          "familia": "M_Iluminacion",
+          "tipo": "SONO FLEX 10 trim",
+          "x": 10924.035,
+          "y": 15684.923,
+          "z": 15820.0,
+          "id": 5557339
+        },
+        {
+          "familia": "M_Iluminacion",
+          "tipo": "SONO FLEX 10 trim",
+          "x": 10928.573,
+          "y": 13104.923,
+          "z": 15820.0,
+          "id": 5557343
+        },
+        {
+          "familia": "M_Iluminacion",
+          "tipo": "SONO FLEX 13 trim",
+          "x": 10922.283,
+          "y": 10845.258,
+          "z": 15820.0,
+          "id": 5557345
+        },
+        {
+          "familia": "M_Iluminacion",
+          "tipo": "SONO FLEX 13 trim",
+          "x": 8303.848,
+          "y": 16875.378,
+          "z": 15820.0,
+          "id": 5568853
+        }
+      ],
+      "matches": [
+        {
+          "dxf_idx": 9,
+          "bloque": "ELEC-I-S-1-5A",
+          "dxf_x": 7544.387,
+          "dxf_y": 9724.198,
+          "revit_id": 5568897,
+          "revit_familia": "M_Interruptores",
+          "revit_tipo": "Simple",
+          "revit_x": 7563.474,
+          "revit_y": 9607.657,
+          "revit_z": 14060.063,
+          "dist_mm": 118.09,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 20,
+          "bloque": "Bala Stil Led 22W",
+          "dxf_x": 7572.2,
+          "dxf_y": 10491.506,
+          "revit_id": 5568847,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 22 trim",
+          "revit_x": 7595.928,
+          "revit_y": 10473.772,
+          "revit_z": 15820.0,
+          "dist_mm": 29.62,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 19,
+          "bloque": "Bala Stil Led 22W",
+          "dxf_x": 7580.698,
+          "dxf_y": 11792.657,
+          "revit_id": 5568846,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 22 trim",
+          "revit_x": 7604.427,
+          "revit_y": 11774.923,
+          "revit_z": 15820.0,
+          "dist_mm": 29.62,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 23,
+          "bloque": "Bala Stil Led 10W",
+          "dxf_x": 7580.698,
+          "dxf_y": 13122.657,
+          "revit_id": 5568850,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 10 trim",
+          "revit_x": 7604.427,
+          "revit_y": 13104.923,
+          "revit_z": 15820.0,
+          "dist_mm": 29.62,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 21,
+          "bloque": "Bala Stil Led 10W",
+          "dxf_x": 7585.236,
+          "dxf_y": 15702.657,
+          "revit_id": 5568848,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 10 trim",
+          "revit_x": 7608.965,
+          "revit_y": 15684.923,
+          "revit_z": 15820.0,
+          "dist_mm": 29.62,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 12,
+          "bloque": "ELEC-F-VENT",
+          "dxf_x": 8300.289,
+          "dxf_y": 14406.626,
+          "revit_id": 5568844,
+          "revit_familia": "M_ClimatizacionV",
+          "revit_tipo": "Ventilador",
+          "revit_x": 8324.017,
+          "revit_y": 14388.892,
+          "revit_z": 15820.0,
+          "dist_mm": 29.62,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 13,
+          "bloque": "ELEC-F-CONTROL",
+          "dxf_x": 8623.281,
+          "dxf_y": 12671.516,
+          "revit_id": 5568900,
+          "revit_familia": "M_Climatizacion",
+          "revit_tipo": "Interruptor Ventilador",
+          "revit_x": 8685.774,
+          "revit_y": 12656.673,
+          "revit_z": 14320.0,
+          "dist_mm": 64.23,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 5,
+          "bloque": "ELEC-NET-PAU",
+          "dxf_x": 8624.238,
+          "dxf_y": 12507.394,
+          "revit_id": 5568862,
+          "revit_familia": "Consolidation_Point",
+          "revit_tipo": "CPB12BL",
+          "revit_x": 8685.774,
+          "revit_y": 12458.473,
+          "revit_z": 15920.0,
+          "dist_mm": 78.61,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 8,
+          "bloque": "ELEC-I-S-2-5A",
+          "dxf_x": 8634.22,
+          "dxf_y": 12488.947,
+          "revit_id": 5568899,
+          "revit_familia": "M_Interruptores",
+          "revit_tipo": "Doble",
+          "revit_x": 8743.474,
+          "revit_y": 12476.673,
+          "revit_z": 14320.0,
+          "dist_mm": 109.94,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 11,
+          "bloque": "ELEC-I-S-1-5A",
+          "dxf_x": 8844.741,
+          "dxf_y": 11244.339,
+          "revit_id": 5568898,
+          "revit_familia": "M_Interruptores",
+          "revit_tipo": "Simple",
+          "revit_x": 8743.474,
+          "revit_y": 11278.473,
+          "revit_z": 14320.0,
+          "dist_mm": 106.87,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 24,
+          "bloque": "Bala Stil Led 10W",
+          "dxf_x": 9439.248,
+          "dxf_y": 13122.657,
+          "revit_id": 5568851,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 10 trim",
+          "revit_x": 9462.976,
+          "revit_y": 13104.923,
+          "revit_z": 15820.0,
+          "dist_mm": 29.62,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 22,
+          "bloque": "Bala Stil Led 10W",
+          "dxf_x": 9443.786,
+          "dxf_y": 15702.657,
+          "revit_id": 5568849,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 10 trim",
+          "revit_x": 9467.514,
+          "revit_y": 15684.923,
+          "revit_z": 15820.0,
+          "dist_mm": 29.62,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 25,
+          "bloque": "Bala Stil Led 13W",
+          "dxf_x": 9445.538,
+          "dxf_y": 10862.992,
+          "revit_id": 5568852,
+          "revit_familia": "M_Iluminacion",
+          "revit_tipo": "SONO FLEX 13 trim",
+          "revit_x": 9469.266,
+          "revit_y": 10845.258,
+          "revit_z": 15820.0,
+          "dist_mm": 29.62,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 10,
+          "bloque": "ELEC-I-S-1-5A",
+          "dxf_x": 9639.536,
+          "dxf_y": 15972.274,
+          "revit_id": 5568909,
+          "revit_familia": "M_Interruptores",
+          "revit_tipo": "Simple",
+          "revit_x": 9675.774,
+          "revit_y": 16090.133,
+          "revit_z": 14320.0,
+          "dist_mm": 123.3,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 2,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dxf_x": 9829.63,
+          "dxf_y": 16156.891,
+          "revit_id": 5568835,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "GFCI",
+          "revit_x": 9889.847,
+          "revit_y": 16155.133,
+          "revit_z": 13520.0,
+          "dist_mm": 60.24,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 3,
+          "bloque": "ELEC-T-D-t-15A",
+          "dxf_x": 9834.815,
+          "dxf_y": 16022.579,
+          "revit_id": 5568836,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "Normal",
+          "revit_x": 9883.474,
+          "revit_y": 16025.133,
+          "revit_z": 13520.0,
+          "dist_mm": 48.73,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 4,
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "dxf_x": 9881.614,
+          "dxf_y": 12060.773,
+          "revit_id": 5568842,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "GFCI",
+          "revit_x": 9888.011,
+          "revit_y": 12060.773,
+          "revit_z": 13519.176,
+          "dist_mm": 6.4,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 27,
+          "bloque": "ELEC-T-D-t-15A",
+          "dxf_x": 10098.887,
+          "dxf_y": 13122.885,
+          "revit_id": 5568861,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "Normal",
+          "revit_x": 10120.574,
+          "revit_y": 13090.133,
+          "revit_z": 13520.0,
+          "dist_mm": 39.28,
+          "radio_usado": 600.0
+        },
+        {
+          "dxf_idx": 1,
+          "bloque": "ELEC-T-D-t-15A",
+          "dxf_x": 10270.974,
+          "dxf_y": 13111.335,
+          "revit_id": 5557367,
+          "revit_familia": "M_Toma doble",
+          "revit_tipo": "Normal",
+          "revit_x": 10270.974,
+          "revit_y": 13090.133,
+          "revit_z": 13520.0,
+          "dist_mm": 21.2,
+          "radio_usado": 600.0
+        }
+      ],
+      "conduits": [
+        {
+          "apto": "F18",
+          "poly": 5,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9469.266,
+            10845.258,
+            15820.0
+          ],
+          "b": [
+            9469.266,
+            10845.258,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 5,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9475.928,
+            10881.542,
+            15930.0
+          ],
+          "b": [
+            9475.928,
+            11263.257,
+            15930.0
+          ],
+          "largo_mm": 381.715
+        },
+        {
+          "apto": "F18",
+          "poly": 5,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9475.928,
+            11263.257,
+            15930.0
+          ],
+          "b": [
+            8791.854,
+            11291.731,
+            15930.0
+          ],
+          "largo_mm": 684.666
+        },
+        {
+          "apto": "F18",
+          "poly": 5,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8743.474,
+            11278.473,
+            15930.0
+          ],
+          "b": [
+            8743.474,
+            11278.473,
+            14320.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F18",
+          "poly": 6,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8743.474,
+            12476.673,
+            14320.0
+          ],
+          "b": [
+            8743.474,
+            12476.673,
+            15930.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F18",
+          "poly": 6,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8743.755,
+            12528.16,
+            15930.0
+          ],
+          "b": [
+            8696.994,
+            12528.16,
+            15930.0
+          ],
+          "largo_mm": 46.761
+        },
+        {
+          "apto": "F18",
+          "poly": 6,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8696.994,
+            12528.16,
+            15930.0
+          ],
+          "b": [
+            8696.994,
+            12603.591,
+            15930.0
+          ],
+          "largo_mm": 75.431
+        },
+        {
+          "apto": "F18",
+          "poly": 6,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8685.774,
+            12656.673,
+            15930.0
+          ],
+          "b": [
+            8685.774,
+            12656.673,
+            14320.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F18",
+          "poly": 8,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9462.976,
+            13104.923,
+            15820.0
+          ],
+          "b": [
+            9462.976,
+            13104.923,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 8,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9415.928,
+            13101.542,
+            15930.0
+          ],
+          "b": [
+            7636.029,
+            13101.542,
+            15930.0
+          ],
+          "largo_mm": 1779.899
+        },
+        {
+          "apto": "F18",
+          "poly": 8,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7604.427,
+            13104.923,
+            15930.0
+          ],
+          "b": [
+            7604.427,
+            13104.923,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 9,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9462.976,
+            13104.923,
+            15820.0
+          ],
+          "b": [
+            9462.976,
+            13104.923,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 9,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9455.928,
+            13151.542,
+            15930.0
+          ],
+          "b": [
+            9455.928,
+            15641.242,
+            15930.0
+          ],
+          "largo_mm": 2489.7
+        },
+        {
+          "apto": "F18",
+          "poly": 9,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9467.514,
+            15684.923,
+            15930.0
+          ],
+          "b": [
+            9467.514,
+            15684.923,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 10,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9467.514,
+            15684.923,
+            15820.0
+          ],
+          "b": [
+            9467.514,
+            15684.923,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 10,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9415.928,
+            15691.542,
+            15930.0
+          ],
+          "b": [
+            7627.729,
+            15691.542,
+            15930.0
+          ],
+          "largo_mm": 1788.199
+        },
+        {
+          "apto": "F18",
+          "poly": 10,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7608.965,
+            15684.923,
+            15930.0
+          ],
+          "b": [
+            7608.965,
+            15684.923,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 11,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9467.514,
+            15684.923,
+            15820.0
+          ],
+          "b": [
+            9467.514,
+            15684.923,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 11,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9505.928,
+            15681.542,
+            15930.0
+          ],
+          "b": [
+            9664.192,
+            15681.542,
+            15930.0
+          ],
+          "largo_mm": 158.264
+        },
+        {
+          "apto": "F18",
+          "poly": 11,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9664.192,
+            15681.542,
+            15930.0
+          ],
+          "b": [
+            9664.192,
+            15925.348,
+            15930.0
+          ],
+          "largo_mm": 243.806
+        },
+        {
+          "apto": "F18",
+          "poly": 11,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9664.192,
+            15925.348,
+            15930.0
+          ],
+          "b": [
+            9678.968,
+            15924.901,
+            15930.0
+          ],
+          "largo_mm": 14.783
+        },
+        {
+          "apto": "F18",
+          "poly": 11,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9883.474,
+            16025.133,
+            15930.0
+          ],
+          "b": [
+            9883.474,
+            16025.133,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F18",
+          "poly": 12,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9467.514,
+            15684.923,
+            15820.0
+          ],
+          "b": [
+            9467.514,
+            15684.923,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 12,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9465.928,
+            15721.542,
+            15930.0
+          ],
+          "b": [
+            9478.438,
+            16090.135,
+            15930.0
+          ],
+          "largo_mm": 368.805
+        },
+        {
+          "apto": "F18",
+          "poly": 12,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9675.774,
+            16090.133,
+            15930.0
+          ],
+          "b": [
+            9675.774,
+            16090.133,
+            14320.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F18",
+          "poly": 13,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9675.774,
+            16090.133,
+            14320.0
+          ],
+          "b": [
+            9675.774,
+            16090.133,
+            15930.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F18",
+          "poly": 13,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9727.265,
+            16090.133,
+            15930.0
+          ],
+          "b": [
+            9608.964,
+            16208.434,
+            15930.0
+          ],
+          "largo_mm": 167.303
+        },
+        {
+          "apto": "F18",
+          "poly": 13,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9608.964,
+            16208.434,
+            15930.0
+          ],
+          "b": [
+            9842.788,
+            15969.049,
+            15930.0
+          ],
+          "largo_mm": 334.632
+        },
+        {
+          "apto": "F18",
+          "poly": 13,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9889.847,
+            16155.133,
+            15930.0
+          ],
+          "b": [
+            9889.847,
+            16155.133,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F18",
+          "poly": 16,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9469.266,
+            10845.258,
+            15820.0
+          ],
+          "b": [
+            9469.266,
+            10845.258,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 16,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9415.928,
+            10841.542,
+            15930.0
+          ],
+          "b": [
+            8246.683,
+            10841.542,
+            15930.0
+          ],
+          "largo_mm": 1169.245
+        },
+        {
+          "apto": "F18",
+          "poly": 16,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8246.683,
+            10841.542,
+            15930.0
+          ],
+          "b": [
+            8246.683,
+            11233.98,
+            15930.0
+          ],
+          "largo_mm": 392.438
+        },
+        {
+          "apto": "F18",
+          "poly": 16,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8246.683,
+            11233.98,
+            15930.0
+          ],
+          "b": [
+            7629.266,
+            11233.98,
+            15930.0
+          ],
+          "largo_mm": 617.417
+        },
+        {
+          "apto": "F18",
+          "poly": 16,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7629.266,
+            11233.98,
+            15930.0
+          ],
+          "b": [
+            7629.266,
+            10449.104,
+            15930.0
+          ],
+          "largo_mm": 784.876
+        },
+        {
+          "apto": "F18",
+          "poly": 16,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7595.928,
+            10473.772,
+            15930.0
+          ],
+          "b": [
+            7595.928,
+            10473.772,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 17,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7604.427,
+            11774.923,
+            15820.0
+          ],
+          "b": [
+            7604.427,
+            11774.923,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 17,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7595.929,
+            11721.542,
+            15930.0
+          ],
+          "b": [
+            7595.929,
+            12969.312,
+            15930.0
+          ],
+          "largo_mm": 1247.77
+        },
+        {
+          "apto": "F18",
+          "poly": 17,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7595.929,
+            12969.312,
+            15930.0
+          ],
+          "b": [
+            7595.928,
+            10473.772,
+            15930.0
+          ],
+          "largo_mm": 2495.54
+        },
+        {
+          "apto": "F18",
+          "poly": 17,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7595.928,
+            10473.772,
+            15930.0
+          ],
+          "b": [
+            7595.928,
+            10473.772,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 20,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7604.427,
+            11774.923,
+            15820.0
+          ],
+          "b": [
+            7604.427,
+            11774.923,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 20,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7595.929,
+            11881.542,
+            15930.0
+          ],
+          "b": [
+            7595.929,
+            13022.042,
+            15930.0
+          ],
+          "largo_mm": 1140.5
+        },
+        {
+          "apto": "F18",
+          "poly": 20,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7604.427,
+            13104.923,
+            15930.0
+          ],
+          "b": [
+            7604.427,
+            13104.923,
+            15820.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 21,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7604.427,
+            13104.923,
+            15820.0
+          ],
+          "b": [
+            7604.427,
+            13104.923,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 21,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7635.929,
+            13081.542,
+            15930.0
+          ],
+          "b": [
+            7240.141,
+            13477.33,
+            15930.0
+          ],
+          "largo_mm": 559.729
+        },
+        {
+          "apto": "F18",
+          "poly": 21,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            7240.141,
+            13477.33,
+            15930.0
+          ],
+          "b": [
+            6322.344,
+            14395.127,
+            15930.0
+          ],
+          "largo_mm": 1297.961
+        },
+        {
+          "apto": "F18",
+          "poly": 21,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            6322.344,
+            14395.127,
+            15930.0
+          ],
+          "b": [
+            4185.694,
+            16531.777,
+            15930.0
+          ],
+          "largo_mm": 3021.68
+        },
+        {
+          "apto": "F18",
+          "poly": 21,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            4185.694,
+            16531.777,
+            15930.0
+          ],
+          "b": [
+            8633.557,
+            12448.631,
+            15930.0
+          ],
+          "largo_mm": 6037.845
+        },
+        {
+          "apto": "F18",
+          "poly": 21,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            8685.774,
+            12458.473,
+            15930.0
+          ],
+          "b": [
+            8685.774,
+            12458.473,
+            15920.0
+          ],
+          "largo_mm": 10.0
+        },
+        {
+          "apto": "F18",
+          "poly": 22,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9675.774,
+            16090.133,
+            14320.0
+          ],
+          "b": [
+            9675.774,
+            16090.133,
+            15930.0
+          ],
+          "largo_mm": 1610.0
+        },
+        {
+          "apto": "F18",
+          "poly": 22,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9868.438,
+            16137.135,
+            15930.0
+          ],
+          "b": [
+            9880.859,
+            16137.135,
+            15930.0
+          ],
+          "largo_mm": 12.421
+        },
+        {
+          "apto": "F18",
+          "poly": 22,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9880.859,
+            16137.135,
+            15930.0
+          ],
+          "b": [
+            9880.859,
+            16025.13,
+            15930.0
+          ],
+          "largo_mm": 112.005
+        },
+        {
+          "apto": "F18",
+          "poly": 22,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9883.474,
+            16025.133,
+            15930.0
+          ],
+          "b": [
+            9883.474,
+            16025.133,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F18",
+          "poly": 22,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9883.474,
+            16025.133,
+            13520.0
+          ],
+          "b": [
+            9883.474,
+            16025.133,
+            15930.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F18",
+          "poly": 22,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9880.859,
+            16025.13,
+            15930.0
+          ],
+          "b": [
+            9880.859,
+            16152.611,
+            15930.0
+          ],
+          "largo_mm": 127.481
+        },
+        {
+          "apto": "F18",
+          "poly": 22,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9880.859,
+            16152.611,
+            15930.0
+          ],
+          "b": [
+            9892.417,
+            16152.085,
+            15930.0
+          ],
+          "largo_mm": 11.57
+        },
+        {
+          "apto": "F18",
+          "poly": 22,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9889.847,
+            16155.133,
+            15930.0
+          ],
+          "b": [
+            9889.847,
+            16155.133,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        },
+        {
+          "apto": "F18",
+          "poly": 24,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9462.976,
+            13104.923,
+            15820.0
+          ],
+          "b": [
+            9462.976,
+            13104.923,
+            15930.0
+          ],
+          "largo_mm": 110.0
+        },
+        {
+          "apto": "F18",
+          "poly": 24,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9512.8,
+            13102.022,
+            15930.0
+          ],
+          "b": [
+            9029.845,
+            13102.022,
+            15930.0
+          ],
+          "largo_mm": 482.955
+        },
+        {
+          "apto": "F18",
+          "poly": 24,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            9029.845,
+            13102.022,
+            15930.0
+          ],
+          "b": [
+            9995.741,
+            13098.554,
+            15930.0
+          ],
+          "largo_mm": 965.902
+        },
+        {
+          "apto": "F18",
+          "poly": 24,
+          "layer": "ELEC-LIGHT-PIPE",
+          "type_id": 112216,
+          "comms": false,
+          "a": [
+            10270.974,
+            13090.133,
+            15930.0
+          ],
+          "b": [
+            10270.974,
+            13090.133,
+            13520.0
+          ],
+          "largo_mm": 2410.0
+        }
+      ],
+      "rutas": [
+        {
+          "poly": 0,
+          "layer": "ELEC-POWER- PIPE",
+          "n_hits": 0,
+          "n_matched": 0,
+          "n_tramos": 0
+        },
+        {
+          "poly": 1,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 2,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 3,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 4,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 5,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 4
+        },
+        {
+          "poly": 6,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 8,
+          "n_matched": 3,
+          "n_tramos": 4
+        },
+        {
+          "poly": 7,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 5,
+          "n_matched": 3,
+          "n_tramos": 0
+        },
+        {
+          "poly": 8,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 9,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 10,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 11,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 3,
+          "n_tramos": 5
+        },
+        {
+          "poly": 12,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 13,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 3,
+          "n_tramos": 4
+        },
+        {
+          "poly": 14,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 15,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 16,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 6
+        },
+        {
+          "poly": 17,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 4
+        },
+        {
+          "poly": 18,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 1,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 19,
+          "layer": "ELEC-POWER- PIPE",
+          "n_hits": 6,
+          "n_matched": 2,
+          "n_tramos": 0
+        },
+        {
+          "poly": 20,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 2,
+          "n_tramos": 3
+        },
+        {
+          "poly": 21,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 9,
+          "n_matched": 4,
+          "n_tramos": 6
+        },
+        {
+          "poly": 22,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 3,
+          "n_tramos": 8
+        },
+        {
+          "poly": 23,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 2,
+          "n_matched": 1,
+          "n_tramos": 0
+        },
+        {
+          "poly": 24,
+          "layer": "ELEC-LIGHT-PIPE",
+          "n_hits": 3,
+          "n_matched": 3,
+          "n_tramos": 4
+        },
+        {
+          "poly": 25,
+          "layer": "ELEC-POWER- PIPE",
+          "n_hits": 6,
+          "n_matched": 2,
+          "n_tramos": 0
+        },
+        {
+          "poly": 26,
+          "layer": "ELEC-POWER- PIPE",
+          "n_hits": 2,
+          "n_matched": 1,
+          "n_tramos": 0
+        }
+      ]
+    }
+  },
+  "resumen_global": {}
+}

@@ -1,0 +1,1010 @@
+{
+  "fuente_dxf": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-T5-P5_bloques_electricos-XPL.dxf",
+  "generado_utc": "2026-11-22 17:53:35",
+  "zonas": {
+    "F17": {
+      "x_min": 6500.0,
+      "x_max": 11000.0,
+      "y_min": 500.0,
+      "y_max": 8800.0
+    },
+    "F18": {
+      "x_min": 6500.0,
+      "x_max": 11000.0,
+      "y_min": 8800.0,
+      "y_max": 17000.0
+    }
+  },
+  "paneles": [
+    {
+      "nombre": "TB-Parcial",
+      "x": 11603.074,
+      "y": 10154.163,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": 8784.412,
+      "y": 10158.263,
+      "apto": "F18"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": 8814.102,
+      "y": 7512.337,
+      "apto": "F17"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": 11602.667,
+      "y": 7497.049,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": 6512.912,
+      "y": 6863.245,
+      "apto": "F17"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": 6515.593,
+      "y": 10803.697,
+      "apto": "F18"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -5650.604,
+      "y": 10385.306,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -5650.604,
+      "y": 7305.012,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -14369.361,
+      "y": 7513.816,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Parcial",
+      "x": -14318.821,
+      "y": 10155.811,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -17108.021,
+      "y": 10167.983,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -17125.912,
+      "y": 7522.352,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -22119.563,
+      "y": 7513.818,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Parcial",
+      "x": -22118.668,
+      "y": 10180.232,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Parcial",
+      "x": -29356.576,
+      "y": 10806.383,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Parcial",
+      "x": -29374.316,
+      "y": 6948.317,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -43087.746,
+      "y": 6850.953,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -43108.311,
+      "y": 10783.831,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -46342.351,
+      "y": 9566.725,
+      "apto": "SIN_ZONA"
+    },
+    {
+      "nombre": "TB-Panel",
+      "x": -46280.514,
+      "y": 8131.646,
+      "apto": "SIN_ZONA"
+    }
+  ],
+  "apartamentos": {
+    "F17": {
+      "total_componentes": 60,
+      "componentes": [
+        {
+          "bloque": "ELEC-NET-PAU",
+          "x": 8683.143,
+          "y": 5262.288,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 6523.533,
+          "y": 3012.341,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 6523.533,
+          "y": 3162.325,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 6523.533,
+          "y": 2872.932,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8690.136,
+          "y": 5347.727,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8690.136,
+          "y": 5497.711,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8690.136,
+          "y": 5208.318,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 9846.859,
+          "y": 1540.496,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 9850.016,
+          "y": 1657.107,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 6523.534,
+          "y": 3388.247,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 6520.953,
+          "y": 5161.088,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 6524.159,
+          "y": 5794.57,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 6524.159,
+          "y": 5924.445,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 6524.159,
+          "y": 7581.241,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TIMBRE",
+          "x": 7566.04,
+          "y": 8161.188,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-CAMPANA",
+          "x": 7331.286,
+          "y": 8009.688,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-I-S-2-5A",
+          "x": 8639.148,
+          "y": 5194.598,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-I-S-1-5A",
+          "x": 7561.616,
+          "y": 7958.188,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-I-S-1-5A",
+          "x": 9656.765,
+          "y": 1710.113,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-F-VENT",
+          "x": 8317.518,
+          "y": 3275.76,
+          "apto": "F17",
+          "rot": 240.0
+        },
+        {
+          "bloque": "ELEC-F-CONTROL",
+          "x": 8628.208,
+          "y": 5012.028,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 6520.953,
+          "y": 6330.102,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 8684.807,
+          "y": 5542.516,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-EXT",
+          "x": 10008.107,
+          "y": 7142.991,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 22W",
+          "x": 7597.927,
+          "y": 5889.73,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 22W",
+          "x": 7589.429,
+          "y": 7190.88,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 7602.465,
+          "y": 1979.73,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 9461.015,
+          "y": 1979.73,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 7597.927,
+          "y": 4559.73,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 9456.477,
+          "y": 4559.73,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 13W",
+          "x": 9462.767,
+          "y": 6819.395,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 13W",
+          "x": 8297.349,
+          "y": 789.274,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8690.136,
+          "y": 5069.095,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "2FT2N",
+          "x": 7898.353,
+          "y": 7582.692,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "1FTNR",
+          "x": 7322.064,
+          "y": 7325.701,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "2FT2N",
+          "x": 6567.096,
+          "y": 7125.218,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTNR",
+          "x": 7589.364,
+          "y": 6534.01,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1TN2R",
+          "x": 8118.422,
+          "y": 5200.433,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 8436.183,
+          "y": 1956.188,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 9444.463,
+          "y": 1144.909,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTNR",
+          "x": 9640.467,
+          "y": 1804.595,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTN2R",
+          "x": 9466.21,
+          "y": 3313.364,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 10016.879,
+          "y": 5641.765,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-I-S-1-5A",
+          "x": 8879.422,
+          "y": 6401.086,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "1FTN2R",
+          "x": 8787.991,
+          "y": 4557.888,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 10110.016,
+          "y": 4561.073,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 9720.664,
+          "y": 6815.795,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 10498.411,
+          "y": 1532.387,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 10476.768,
+          "y": 1648.998,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 10328.392,
+          "y": 5633.656,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-I-S-1-5A",
+          "x": 10688.506,
+          "y": 1702.004,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-EXT",
+          "x": 10367.164,
+          "y": 7134.882,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 10884.256,
+          "y": 1971.621,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 10888.794,
+          "y": 4551.621,
+          "apto": "F17",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 13W",
+          "x": 10882.504,
+          "y": 6811.286,
+          "apto": "F17",
+          "rot": 0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 10889.519,
+          "y": 1176.734,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTNR",
+          "x": 10696.796,
+          "y": 1786.554,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTN2R",
+          "x": 10892.703,
+          "y": 3184.977,
+          "apto": "F17",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 10271.974,
+          "y": 4558.126,
+          "apto": "F17",
+          "rot": 270.0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 10538.493,
+          "y": 6814.354,
+          "apto": "F17",
+          "rot": 0
+        }
+      ],
+      "pendicion_revision": true,
+      "marque_en_revit": false
+    },
+    "F18": {
+      "total_componentes": 62,
+      "componentes": [
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 10518.365,
+          "y": 16159.755,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 10516.835,
+          "y": 16026.638,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 10503.538,
+          "y": 12060.773,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-I-S-1-5A",
+          "x": 10728.572,
+          "y": 15973.633,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-EXT",
+          "x": 10360.263,
+          "y": 10525.369,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 10924.035,
+          "y": 15684.923,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 10928.573,
+          "y": 13104.923,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 13W",
+          "x": 10922.283,
+          "y": 10845.258,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 10929.298,
+          "y": 16356.722,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTNR",
+          "x": 10736.576,
+          "y": 15716.542,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTN2R",
+          "x": 10932.482,
+          "y": 14324.965,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "2FT2N",
+          "x": 10936.561,
+          "y": 10415.667,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 10270.974,
+          "y": 13111.335,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 10594.821,
+          "y": 10858.178,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 9829.63,
+          "y": 16156.891,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 9834.815,
+          "y": 16022.579,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 6532.898,
+          "y": 14294.14,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 6532.898,
+          "y": 14670.004,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 6532.898,
+          "y": 14520.02,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 6532.898,
+          "y": 14809.413,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 6556.212,
+          "y": 12593.763,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 6559.417,
+          "y": 11887.397,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 6559.417,
+          "y": 11757.522,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 6559.417,
+          "y": 10100.726,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 9881.614,
+          "y": 12060.773,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-NET-PAU",
+          "x": 8624.238,
+          "y": 12507.394,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TIMBRE",
+          "x": 7548.811,
+          "y": 9505.198,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-CAMPANA",
+          "x": 7314.057,
+          "y": 9672.698,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-I-S-2-5A",
+          "x": 8634.22,
+          "y": 12488.947,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-I-S-1-5A",
+          "x": 7544.387,
+          "y": 9724.198,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-I-S-1-5A",
+          "x": 9639.536,
+          "y": 15972.274,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "ELEC-I-S-1-5A",
+          "x": 8844.741,
+          "y": 11244.339,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-F-VENT",
+          "x": 8300.289,
+          "y": 14406.626,
+          "apto": "F18",
+          "rot": 300.0
+        },
+        {
+          "bloque": "ELEC-F-CONTROL",
+          "x": 8623.281,
+          "y": 12671.516,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-T-GFCI-t-15A",
+          "x": 6556.212,
+          "y": 11351.865,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8682.318,
+          "y": 12548.148,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8682.318,
+          "y": 12698.132,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8682.318,
+          "y": 12408.74,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 8685.774,
+          "y": 12308.867,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-EXT",
+          "x": 10038.096,
+          "y": 10549.2,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 22W",
+          "x": 7580.698,
+          "y": 11792.657,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 22W",
+          "x": 7572.2,
+          "y": 10491.506,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 7585.236,
+          "y": 15702.657,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 9443.786,
+          "y": 15702.657,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 7580.698,
+          "y": 13122.657,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 10W",
+          "x": 9439.248,
+          "y": 13122.657,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "Bala Stil Led 13W",
+          "x": 9445.538,
+          "y": 10862.992,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "Bala Stil Led 13W",
+          "x": 8280.12,
+          "y": 16893.112,
+          "apto": "F18",
+          "rot": 180.0
+        },
+        {
+          "bloque": "2FT2N",
+          "x": 7881.124,
+          "y": 10109.374,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "2FT2N",
+          "x": 6602.355,
+          "y": 11193.515,
+          "apto": "F18",
+          "rot": 270.0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 9641.086,
+          "y": 10856.912,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "1FTNR",
+          "x": 7572.135,
+          "y": 11083.672,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTNR",
+          "x": 9623.237,
+          "y": 15734.275,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTN2R",
+          "x": 8378.865,
+          "y": 13117.218,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "1FTN2R",
+          "x": 9448.981,
+          "y": 14342.699,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 8418.954,
+          "y": 15723.787,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "1FTNR",
+          "x": 7304.835,
+          "y": 10192.839,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1TNR",
+          "x": 9425.74,
+          "y": 16358.201,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "ELEC-TEL",
+          "x": 8685.701,
+          "y": 12266.334,
+          "apto": "F18",
+          "rot": 90.0
+        },
+        {
+          "bloque": "1FTN2R",
+          "x": 8167.027,
+          "y": 12502.785,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "2FT2N",
+          "x": 9027.416,
+          "y": 10287.174,
+          "apto": "F18",
+          "rot": 0
+        },
+        {
+          "bloque": "ELEC-T-D-t-15A",
+          "x": 10098.887,
+          "y": 13122.885,
+          "apto": "F18",
+          "rot": 90.0
+        }
+      ],
+      "pendicion_revision": true,
+      "marque_en_revit": false
+    }
+  }
+}

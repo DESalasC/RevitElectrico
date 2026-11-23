@@ -1,0 +1,267 @@
+==========================================================================================
+APARTAMENTO F17
+==========================================================================================
+
+APARATOS DXF (31):
+  Bala Stil Led 10W              (7602.5  , 1979.7  )
+  Bala Stil Led 10W              (9461.0  , 1979.7  )
+  Bala Stil Led 10W              (7597.9  , 4559.7  )
+  Bala Stil Led 10W              (9456.5  , 4559.7  )
+  Bala Stil Led 13W              (9462.8  , 6819.4  )
+  Bala Stil Led 22W              (7597.9  , 5889.7  )
+  Bala Stil Led 22W              (7589.4  , 7190.9  )
+  ELEC-CAMPANA                   (7331.3  , 8009.7  )
+  ELEC-EXT                       (10008.1 , 7143.0  )
+  ELEC-EXT                       (10367.2 , 7134.9  )
+  ELEC-F-CONTROL                 (8628.2  , 5012.0  )
+  ELEC-F-VENT                    (8317.5  , 3275.8  )
+  ELEC-I-S-1-5A                  (7561.6  , 7958.2  )
+  ELEC-I-S-1-5A                  (9656.8  , 1710.1  )
+  ELEC-I-S-1-5A                  (8879.4  , 6401.1  )
+  ELEC-I-S-2-5A                  (8639.1  , 5194.6  )
+  ELEC-NET-PAU                   (8683.1  , 5262.3  )
+  ELEC-T-D-t-15A                 (9850.0  , 1657.1  )
+  ELEC-T-D-t-15A                 (8684.8  , 5542.5  )
+  ELEC-T-D-t-15A                 (10110.0 , 4561.1  )
+  ELEC-T-D-t-15A                 (10476.8 , 1649.0  )
+  ELEC-T-D-t-15A                 (10272.0 , 4558.1  )
+  ELEC-T-GFCI-t-15A              (9846.9  , 1540.5  )
+  ELEC-T-GFCI-t-15A              (10016.9 , 5641.8  )
+  ELEC-T-GFCI-t-15A              (10498.4 , 1532.4  )
+  ELEC-T-GFCI-t-15A              (10328.4 , 5633.7  )
+  ELEC-TEL                       (8690.1  , 5347.7  )
+  ELEC-TEL                       (8690.1  , 5497.7  )
+  ELEC-TEL                       (8690.1  , 5208.3  )
+  ELEC-TEL                       (8690.1  , 5069.1  )
+  ELEC-TIMBRE                    (7566.0  , 8161.2  )
+
+DISPOSITIVOS REVIT (45):
+  id=5568826   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6551.2  , 3028.3  ) Z=14220.0
+  id=5568827   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6551.2  , 3128.3  ) Z=14220.0
+  id=5568828   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6551.2  , 2928.3  ) Z=14220.0
+  id=5568829   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (8685.8  , 5156.0  ) Z=13520.0
+  id=5568830   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (8685.8  , 5056.0  ) Z=13520.0
+  id=5568831   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (8685.8  , 5356.0  ) Z=13520.0
+  id=5568814   | OST_CommunicationDevices | M_Pulsador - Interruptor | Timbre               | (7832.4  , 8142.4  ) Z=14319.2
+  id=5568815   | OST_CommunicationDevices | M_Timbre               | Campana              | (7338.7  , 8012.4  ) Z=15620.0
+  id=5628152   | OST_MechanicalEquipment  | EA                     | EA 1010              | (10382.2 , 7174.1  ) Z=15020.0
+  id=5628242   | OST_MechanicalEquipment  | EA                     | EA 1010              | (10049.4 , 7174.1  ) Z=15020.0
+  id=5557271   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (10884.3 , 1971.6  ) Z=15820.0
+  id=5557275   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (10888.8 , 4551.6  ) Z=15820.0
+  id=5557277   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (10882.5 , 6811.3  ) Z=15820.0
+  id=5568818   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 22 trim    | (7644.2  , 5881.6  ) Z=15820.0
+  id=5568819   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 22 trim    | (7635.7  , 7182.8  ) Z=15820.0
+  id=5568820   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (7648.7  , 1971.6  ) Z=15820.0
+  id=5568821   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (9507.3  , 1971.6  ) Z=15820.0
+  id=5568822   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (7644.2  , 4551.6  ) Z=15820.0
+  id=5568823   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (9502.8  , 4551.6  ) Z=15820.0
+  id=5568824   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (9509.0  , 6811.3  ) Z=15820.0
+  id=5568825   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (8343.6  , 781.2   ) Z=15820.0
+  id=5557235   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (10481.6 , 1511.7  ) Z=13520.0
+  id=5557237   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (10488.1 , 1641.7  ) Z=13520.0
+  id=5557249   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (10435.8 , 5606.0  ) Z=14320.0
+  id=5557299   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (10271.0 , 4558.3  ) Z=13520.0
+  id=5558646   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (10715.8 , 1576.7  ) Z=14320.0
+  id=5568806   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (9850.8  , 1511.7  ) Z=13520.0
+  id=5568807   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (9850.8  , 1641.7  ) Z=13520.0
+  id=5568808   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6556.2  , 3228.3  ) Z=14220.0
+  id=5568809   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (6556.2  , 5136.3  ) Z=14070.0
+  id=5568810   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6556.2  , 5788.3  ) Z=14870.0
+  id=5568811   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6556.2  , 5916.3  ) Z=13920.0
+  id=5568812   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6556.2  , 7577.4  ) Z=14270.0
+  id=5568813   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (9945.8  , 5606.0  ) Z=14320.0
+  id=5568816   | OST_ElectricalFixtures   | M_ClimatizacionV       | Ventilador           | (8363.8  , 3267.7  ) Z=15820.0
+  id=5568817   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (6564.5  , 6338.3  ) Z=14270.0
+  id=5568832   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (8685.8  , 5256.0  ) Z=13520.0
+  id=5568833   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (10120.6 , 4560.6  ) Z=13520.0
+  id=5568865   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (9655.8  , 1576.7  ) Z=14320.0
+  id=5568867   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (7803.5  , 8077.4  ) Z=14320.0
+  id=5568868   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (8743.5  , 6408.3  ) Z=14320.0
+  id=5568873   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (8685.8  , 5456.0  ) Z=13520.0
+  id=5568875   | OST_ElectricalFixtures   | M_Interruptores        | Doble                | (8743.5  , 5190.4  ) Z=14320.0
+  id=5568876   | OST_ElectricalFixtures   | M_Climatizacion        | Interruptor Ventilador | (8685.8  , 5008.3  ) Z=14320.0
+  id=5568834   | OST_DataDevices          | Consolidation_Point    | CPB12BL              | (8685.8  , 5328.3  ) Z=15920.0
+
+------------------------------------------------------------------------------------------
+EMPAREJAMIENTO DXF -> REVIT (radio 400 mm):
+------------------------------------------------------------------------------------------
+  OK   Bala Stil Led 10W              DXF(7602,1980) -> id=5568820   OST_LightingFixtures     M_Iluminacion          SONO FLEX 10 trim    dist=47mm
+  OK   Bala Stil Led 10W              DXF(9461,1980) -> id=5568821   OST_LightingFixtures     M_Iluminacion          SONO FLEX 10 trim    dist=47mm
+  OK   Bala Stil Led 10W              DXF(7598,4560) -> id=5568822   OST_LightingFixtures     M_Iluminacion          SONO FLEX 10 trim    dist=47mm
+  OK   Bala Stil Led 10W              DXF(9456,4560) -> id=5568823   OST_LightingFixtures     M_Iluminacion          SONO FLEX 10 trim    dist=47mm
+  OK   Bala Stil Led 13W              DXF(9463,6819) -> id=5568824   OST_LightingFixtures     M_Iluminacion          SONO FLEX 13 trim    dist=47mm
+  OK   Bala Stil Led 22W              DXF(7598,5890) -> id=5568818   OST_LightingFixtures     M_Iluminacion          SONO FLEX 22 trim    dist=47mm
+  OK   Bala Stil Led 22W              DXF(7589,7191) -> id=5568819   OST_LightingFixtures     M_Iluminacion          SONO FLEX 22 trim    dist=47mm
+  OK   ELEC-CAMPANA                   DXF(7331,8010) -> id=5568815   OST_CommunicationDevices M_Timbre               Campana              dist=8mm
+  FALTA ELEC-EXT                       DXF(10008,7143) -> SIN contraparte en REVIT
+  FALTA ELEC-EXT                       DXF(10367,7135) -> SIN contraparte en REVIT
+  OK   ELEC-F-CONTROL                 DXF(8628,5012) -> id=5568876   OST_ElectricalFixtures   M_Climatizacion        Interruptor Ventilador dist=58mm
+  OK   ELEC-F-VENT                    DXF(8318,3276) -> id=5568816   OST_ElectricalFixtures   M_ClimatizacionV       Ventilador           dist=47mm
+  OK   ELEC-I-S-1-5A                  DXF(7562,7958) -> id=5568867   OST_ElectricalFixtures   M_Interruptores        Simple               dist=270mm
+  OK   ELEC-I-S-1-5A                  DXF(9657,1710) -> id=5568865   OST_ElectricalFixtures   M_Interruptores        Simple               dist=133mm
+  OK   ELEC-I-S-1-5A                  DXF(8879,6401) -> id=5568868   OST_ElectricalFixtures   M_Interruptores        Simple               dist=136mm
+  OK   ELEC-I-S-2-5A                  DXF(8639,5195) -> id=5568875   OST_ElectricalFixtures   M_Interruptores        Doble                dist=104mm
+  OK   ELEC-NET-PAU                   DXF(8683,5262) -> id=5568834   OST_DataDevices          Consolidation_Point    CPB12BL              dist=66mm
+  OK   ELEC-T-D-t-15A                 DXF(9850,1657) -> id=5568807   OST_ElectricalFixtures   M_Toma doble           Normal               dist=15mm
+  OK   ELEC-T-D-t-15A                 DXF(8685,5543) -> id=5568873   OST_ElectricalFixtures   M_Toma doble           Normal               dist=87mm
+  OK   ELEC-T-D-t-15A                 DXF(10110,4561) -> id=5568833   OST_ElectricalFixtures   M_Toma doble           Normal               dist=11mm
+  OK   ELEC-T-D-t-15A                 DXF(10477,1649) -> id=5557237   OST_ElectricalFixtures   M_Toma doble           Normal               dist=13mm
+  OK   ELEC-T-D-t-15A                 DXF(10272,4558) -> id=5557299   OST_ElectricalFixtures   M_Toma doble           Normal               dist=1mm
+  OK   ELEC-T-GFCI-t-15A              DXF(9847,1540) -> id=5568806   OST_ElectricalFixtures   M_Toma doble           GFCI                 dist=29mm
+  OK   ELEC-T-GFCI-t-15A              DXF(10017,5642) -> id=5568813   OST_ElectricalFixtures   M_Toma doble           GFCI                 dist=80mm
+  OK   ELEC-T-GFCI-t-15A              DXF(10498,1532) -> id=5557235   OST_ElectricalFixtures   M_Toma doble           GFCI                 dist=27mm
+  OK   ELEC-T-GFCI-t-15A              DXF(10328,5634) -> id=5557249   OST_ElectricalFixtures   M_Toma doble           GFCI                 dist=111mm
+  OK   ELEC-TEL                       DXF(8690,5348) -> id=5568831   OST_TelephoneDevices     M_Comunicaciones       Datos                dist=9mm
+  OK   ELEC-TEL                       DXF(8690,5498) -> id=5568829   OST_TelephoneDevices     M_Comunicaciones       Datos                dist=342mm
+  OK   ELEC-TEL                       DXF(8690,5208) -> id=5568830   OST_TelephoneDevices     M_Comunicaciones       Datos                dist=152mm
+  FALTA ELEC-TEL                       DXF(8690,5069) -> SIN contraparte en REVIT
+  OK   ELEC-TIMBRE                    DXF(7566,8161) -> id=5568814   OST_CommunicationDevices M_Pulsador - Interruptor Timbre               dist=267mm
+
+DISPOSITIVOS REVIT SIN DIAGRAMA DXF (17):
+  id=5558646   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (10715.8 , 1576.7  ) Z=14320.0
+  id=5568809   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (6556.2  , 5136.3  ) Z=14070.0
+  id=5568817   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (6564.5  , 6338.3  ) Z=14270.0
+  id=5568808   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6556.2  , 3228.3  ) Z=14220.0
+  id=5568810   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6556.2  , 5788.3  ) Z=14870.0
+  id=5568811   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6556.2  , 5916.3  ) Z=13920.0
+  id=5568812   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6556.2  , 7577.4  ) Z=14270.0
+  id=5568832   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (8685.8  , 5256.0  ) Z=13520.0
+  id=5557271   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (10884.3 , 1971.6  ) Z=15820.0
+  id=5557275   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (10888.8 , 4551.6  ) Z=15820.0
+  id=5557277   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (10882.5 , 6811.3  ) Z=15820.0
+  id=5568825   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (8343.6  , 781.2   ) Z=15820.0
+  id=5628152   | OST_MechanicalEquipment  | EA                     | EA 1010              | (10382.2 , 7174.1  ) Z=15020.0
+  id=5628242   | OST_MechanicalEquipment  | EA                     | EA 1010              | (10049.4 , 7174.1  ) Z=15020.0
+  id=5568826   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6551.2  , 3028.3  ) Z=14220.0
+  id=5568827   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6551.2  , 3128.3  ) Z=14220.0
+  id=5568828   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6551.2  , 2928.3  ) Z=14220.0
+==========================================================================================
+APARTAMENTO F18
+==========================================================================================
+
+APARATOS DXF (28):
+  Bala Stil Led 10W              (7585.2  , 15702.7 )
+  Bala Stil Led 10W              (9443.8  , 15702.7 )
+  Bala Stil Led 10W              (7580.7  , 13122.7 )
+  Bala Stil Led 10W              (9439.2  , 13122.7 )
+  Bala Stil Led 13W              (9445.5  , 10863.0 )
+  Bala Stil Led 22W              (7580.7  , 11792.7 )
+  Bala Stil Led 22W              (7572.2  , 10491.5 )
+  ELEC-CAMPANA                   (7314.1  , 9672.7  )
+  ELEC-EXT                       (10360.3 , 10525.4 )
+  ELEC-EXT                       (10038.1 , 10549.2 )
+  ELEC-F-CONTROL                 (8623.3  , 12671.5 )
+  ELEC-F-VENT                    (8300.3  , 14406.6 )
+  ELEC-I-S-1-5A                  (7544.4  , 9724.2  )
+  ELEC-I-S-1-5A                  (9639.5  , 15972.3 )
+  ELEC-I-S-1-5A                  (8844.7  , 11244.3 )
+  ELEC-I-S-2-5A                  (8634.2  , 12488.9 )
+  ELEC-NET-PAU                   (8624.2  , 12507.4 )
+  ELEC-T-D-t-15A                 (10271.0 , 13111.3 )
+  ELEC-T-D-t-15A                 (9834.8  , 16022.6 )
+  ELEC-T-D-t-15A                 (8685.8  , 12308.9 )
+  ELEC-T-D-t-15A                 (10098.9 , 13122.9 )
+  ELEC-T-GFCI-t-15A              (9829.6  , 16156.9 )
+  ELEC-T-GFCI-t-15A              (9881.6  , 12060.8 )
+  ELEC-TEL                       (8682.3  , 12548.1 )
+  ELEC-TEL                       (8682.3  , 12698.1 )
+  ELEC-TEL                       (8682.3  , 12408.7 )
+  ELEC-TEL                       (8685.7  , 12266.3 )
+  ELEC-TIMBRE                    (7548.8  , 9505.2  )
+
+DISPOSITIVOS REVIT (43):
+  id=5568854   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6555.2  , 14650.8 ) Z=14220.0
+  id=5568855   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6555.2  , 14501.6 ) Z=14220.0
+  id=5568856   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6555.2  , 14796.6 ) Z=14220.0
+  id=5568857   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (8685.8  , 12321.0 ) Z=13520.0
+  id=5568858   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (8685.8  , 12396.0 ) Z=13520.0
+  id=5568859   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (8685.8  , 12471.0 ) Z=13520.0
+  id=5568860   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (8685.8  , 12245.8 ) Z=13520.0
+  id=5568843   | OST_CommunicationDevices | M_Pulsador - Interruptor | Timbre               | (7572.5  , 9542.7  ) Z=14319.2
+  id=5568911   | OST_CommunicationDevices | M_Timbre               | Campana              | (7563.5  , 9672.7  ) Z=15620.0
+  id=5628048   | OST_MechanicalEquipment  | EA                     | EA 1010              | (10342.2 , 10511.0 ) Z=15020.0
+  id=5628093   | OST_MechanicalEquipment  | EA                     | EA 1010              | (10049.4 , 10511.0 ) Z=15020.0
+  id=5557339   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (10924.0 , 15684.9 ) Z=15820.0
+  id=5557343   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (10928.6 , 13104.9 ) Z=15820.0
+  id=5557345   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (10922.3 , 10845.3 ) Z=15820.0
+  id=5568846   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 22 trim    | (7604.4  , 11774.9 ) Z=15820.0
+  id=5568847   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 22 trim    | (7595.9  , 10473.8 ) Z=15820.0
+  id=5568848   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (7609.0  , 15684.9 ) Z=15820.0
+  id=5568849   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (9467.5  , 15684.9 ) Z=15820.0
+  id=5568850   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (7604.4  , 13104.9 ) Z=15820.0
+  id=5568851   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (9463.0  , 13104.9 ) Z=15820.0
+  id=5568852   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (9469.3  , 10845.3 ) Z=15820.0
+  id=5568853   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (8303.8  , 16875.4 ) Z=15820.0
+  id=5557303   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (10501.7 , 16155.1 ) Z=13520.0
+  id=5557305   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (10508.1 , 16025.1 ) Z=13520.0
+  id=5557317   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (10503.5 , 12060.8 ) Z=13519.2
+  id=5557367   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (10271.0 , 13090.1 ) Z=13520.0
+  id=5567671   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (10715.8 , 16090.1 ) Z=14320.0
+  id=5568835   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (9889.8  , 16155.1 ) Z=13520.0
+  id=5568836   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (9883.5  , 16025.1 ) Z=13520.0
+  id=5568837   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6555.2  , 14296.6 ) Z=14220.0
+  id=5568838   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (6555.2  , 11345.0 ) Z=14270.0
+  id=5568839   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6555.2  , 11744.6 ) Z=13920.0
+  id=5568840   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6555.2  , 11878.5 ) Z=14870.0
+  id=5568842   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (9888.0  , 12060.8 ) Z=13519.2
+  id=5568844   | OST_ElectricalFixtures   | M_ClimatizacionV       | Ventilador           | (8324.0  , 14388.9 ) Z=15820.0
+  id=5568845   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (6557.2  , 12481.9 ) Z=14070.0
+  id=5568861   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (10120.6 , 13090.1 ) Z=13520.0
+  id=5568897   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (7563.5  , 9607.7  ) Z=14060.1
+  id=5568898   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (8743.5  , 11278.5 ) Z=14320.0
+  id=5568899   | OST_ElectricalFixtures   | M_Interruptores        | Doble                | (8743.5  , 12476.7 ) Z=14320.0
+  id=5568900   | OST_ElectricalFixtures   | M_Climatizacion        | Interruptor Ventilador | (8685.8  , 12656.7 ) Z=14320.0
+  id=5568909   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (9675.8  , 16090.1 ) Z=14320.0
+  id=5568862   | OST_DataDevices          | Consolidation_Point    | CPB12BL              | (8685.8  , 12458.5 ) Z=15920.0
+
+------------------------------------------------------------------------------------------
+EMPAREJAMIENTO DXF -> REVIT (radio 400 mm):
+------------------------------------------------------------------------------------------
+  OK   Bala Stil Led 10W              DXF(7585,15703) -> id=5568848   OST_LightingFixtures     M_Iluminacion          SONO FLEX 10 trim    dist=30mm
+  OK   Bala Stil Led 10W              DXF(9444,15703) -> id=5568849   OST_LightingFixtures     M_Iluminacion          SONO FLEX 10 trim    dist=30mm
+  OK   Bala Stil Led 10W              DXF(7581,13123) -> id=5568850   OST_LightingFixtures     M_Iluminacion          SONO FLEX 10 trim    dist=30mm
+  OK   Bala Stil Led 10W              DXF(9439,13123) -> id=5568851   OST_LightingFixtures     M_Iluminacion          SONO FLEX 10 trim    dist=30mm
+  OK   Bala Stil Led 13W              DXF(9446,10863) -> id=5568852   OST_LightingFixtures     M_Iluminacion          SONO FLEX 13 trim    dist=30mm
+  OK   Bala Stil Led 22W              DXF(7581,11793) -> id=5568846   OST_LightingFixtures     M_Iluminacion          SONO FLEX 22 trim    dist=30mm
+  OK   Bala Stil Led 22W              DXF(7572,10492) -> id=5568847   OST_LightingFixtures     M_Iluminacion          SONO FLEX 22 trim    dist=30mm
+  OK   ELEC-CAMPANA                   DXF(7314,9673) -> id=5568911   OST_CommunicationDevices M_Timbre               Campana              dist=249mm
+  FALTA ELEC-EXT                       DXF(10360,10525) -> SIN contraparte en REVIT
+  FALTA ELEC-EXT                       DXF(10038,10549) -> SIN contraparte en REVIT
+  OK   ELEC-F-CONTROL                 DXF(8623,12672) -> id=5568900   OST_ElectricalFixtures   M_Climatizacion        Interruptor Ventilador dist=64mm
+  OK   ELEC-F-VENT                    DXF(8300,14407) -> id=5568844   OST_ElectricalFixtures   M_ClimatizacionV       Ventilador           dist=30mm
+  OK   ELEC-I-S-1-5A                  DXF(7544,9724) -> id=5568897   OST_ElectricalFixtures   M_Interruptores        Simple               dist=118mm
+  OK   ELEC-I-S-1-5A                  DXF(9640,15972) -> id=5568909   OST_ElectricalFixtures   M_Interruptores        Simple               dist=123mm
+  OK   ELEC-I-S-1-5A                  DXF(8845,11244) -> id=5568898   OST_ElectricalFixtures   M_Interruptores        Simple               dist=107mm
+  OK   ELEC-I-S-2-5A                  DXF(8634,12489) -> id=5568899   OST_ElectricalFixtures   M_Interruptores        Doble                dist=110mm
+  OK   ELEC-NET-PAU                   DXF(8624,12507) -> id=5568862   OST_DataDevices          Consolidation_Point    CPB12BL              dist=79mm
+  OK   ELEC-T-D-t-15A                 DXF(10271,13111) -> id=5557367   OST_ElectricalFixtures   M_Toma doble           Normal               dist=21mm
+  OK   ELEC-T-D-t-15A                 DXF(9835,16023) -> id=5568836   OST_ElectricalFixtures   M_Toma doble           Normal               dist=49mm
+  FALTA ELEC-T-D-t-15A                 DXF(8686,12309) -> SIN contraparte en REVIT
+  OK   ELEC-T-D-t-15A                 DXF(10099,13123) -> id=5568861   OST_ElectricalFixtures   M_Toma doble           Normal               dist=39mm
+  OK   ELEC-T-GFCI-t-15A              DXF(9830,16157) -> id=5568835   OST_ElectricalFixtures   M_Toma doble           GFCI                 dist=60mm
+  OK   ELEC-T-GFCI-t-15A              DXF(9882,12061) -> id=5568842   OST_ElectricalFixtures   M_Toma doble           GFCI                 dist=6mm
+  OK   ELEC-TEL                       DXF(8682,12548) -> id=5568859   OST_TelephoneDevices     M_Comunicaciones       Datos                dist=77mm
+  OK   ELEC-TEL                       DXF(8682,12698) -> id=5568858   OST_TelephoneDevices     M_Comunicaciones       Datos                dist=302mm
+  OK   ELEC-TEL                       DXF(8682,12409) -> id=5568857   OST_TelephoneDevices     M_Comunicaciones       Datos                dist=88mm
+  OK   ELEC-TEL                       DXF(8686,12266) -> id=5568860   OST_TelephoneDevices     M_Comunicaciones       Datos                dist=21mm
+  OK   ELEC-TIMBRE                    DXF(7549,9505) -> id=5568843   OST_CommunicationDevices M_Pulsador - Interruptor Timbre               dist=44mm
+
+DISPOSITIVOS REVIT SIN DIAGRAMA DXF (18):
+  id=5567671   | OST_ElectricalFixtures   | M_Interruptores        | Simple               | (10715.8 , 16090.1 ) Z=14320.0
+  id=5557303   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (10501.7 , 16155.1 ) Z=13520.0
+  id=5557317   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (10503.5 , 12060.8 ) Z=13519.2
+  id=5568838   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (6555.2  , 11345.0 ) Z=14270.0
+  id=5568845   | OST_ElectricalFixtures   | M_Toma doble           | GFCI                 | (6557.2  , 12481.9 ) Z=14070.0
+  id=5557305   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (10508.1 , 16025.1 ) Z=13520.0
+  id=5568837   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6555.2  , 14296.6 ) Z=14220.0
+  id=5568839   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6555.2  , 11744.6 ) Z=13920.0
+  id=5568840   | OST_ElectricalFixtures   | M_Toma doble           | Normal               | (6555.2  , 11878.5 ) Z=14870.0
+  id=5557339   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (10924.0 , 15684.9 ) Z=15820.0
+  id=5557343   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 10 trim    | (10928.6 , 13104.9 ) Z=15820.0
+  id=5557345   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (10922.3 , 10845.3 ) Z=15820.0
+  id=5568853   | OST_LightingFixtures     | M_Iluminacion          | SONO FLEX 13 trim    | (8303.8  , 16875.4 ) Z=15820.0
+  id=5628048   | OST_MechanicalEquipment  | EA                     | EA 1010              | (10342.2 , 10511.0 ) Z=15020.0
+  id=5628093   | OST_MechanicalEquipment  | EA                     | EA 1010              | (10049.4 , 10511.0 ) Z=15020.0
+  id=5568854   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6555.2  , 14650.8 ) Z=14220.0
+  id=5568855   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6555.2  , 14501.6 ) Z=14220.0
+  id=5568856   | OST_TelephoneDevices     | M_Comunicaciones       | Datos                | (6555.2  , 14796.6 ) Z=14220.0

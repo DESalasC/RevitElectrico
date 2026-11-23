@@ -1,0 +1,62 @@
+==============================================================================
+RE7_PROPONER_MARKS_TODOS_v02
+utc=2026-11-22 23:10:54
+==============================================================================
+Dispositivos DXF globales: 899 (sin codigo de apto: 0)
+Con circuito desde bloque DXF: 889 / 899
+Sin circuito (se resolvera por tipo en la propuesta): 10
+Inventario Revit: 876 dispositivos
+
+------------------------------------------------------------------------------
+ALINEACION (dispositivos con Mark completo, testigos)
+   E06    n=45  mediana=  70.9 mm  mismo_apto=45/45
+   E08a   n=2   mediana=  26.1 mm  mismo_apto=0/2
+   F01    n=68  mediana=  43.4 mm  mismo_apto=30/68
+   F02    n=32  mediana=  18.1 mm  mismo_apto=28/32
+   F17    n=42  mediana=  47.0 mm  mismo_apto=33/42
+   F18    n=33  mediana=  29.6 mm  mismo_apto=32/33
+Dispositivos en posicion apilada (>=4 en 20 mm): 16
+
+------------------------------------------------------------------------------
+PROPUESTA
+Dispositivos en inventario: 876
+Ya tenian Mark completo: 77
+Correcciones de Mark contradictorio: 34
+Conflictos no corregidos (evidencia debil): 6
+Propuestas: 789
+   match <= 350 mm: 761
+   match 350-800 mm: 28
+Sin match: 4
+Propuestas SIN CIRCUITO: 11
+Aplicables automaticamente: 754 | NO aplicables (revisar): 35
+Distancia de match: mediana=34.3 p90=134.6 max=1432.0 mm
+
+Propuestas por apartamento:
+   B15    64
+   B16    67
+   C14    54
+   D13    54
+   E05    45
+   E06    40
+   E07    64
+   E07A   43
+   E08    50
+   E08A   40
+   F01    30
+   F01A   33
+   F01B   35
+   F02    31
+   F02A   33
+   F02B   29
+   F17    7
+   F17A   30
+   F18    7
+   F18A   33
+
+Sin match (primeros 25 de 4):
+   id=5552284 [M_ClimatizacionV | Ventilador] (-602,-1443,-0)
+   id=5552290 [M_Iluminacion | SONO FLEX 10 trim] (-384,-1838,-0)
+   id=5552291 [M_Iluminacion | SONO FLEX 10 trim] (-950,-1838,-0)
+   id=5552295 [M_Iluminacion | SONO FLEX 13 trim] (-596,-2201,-0)
+
+JSON: D:\Work\PROJECTS\RevitElectrico\data\f7_marks_propuestos_todos_v02.json

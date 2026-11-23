@@ -1,0 +1,3566 @@
+{
+  "borrado_previo": {
+    "ids": [
+      5644101, 
+      5644103, 
+      5644105, 
+      5644107, 
+      5644109, 
+      5644111, 
+      5644113, 
+      5644115, 
+      5644117, 
+      5644119, 
+      5644121, 
+      5644123, 
+      5644125, 
+      5644127, 
+      5644129, 
+      5644131, 
+      5644133, 
+      5644135, 
+      5644137, 
+      5644139, 
+      5644141, 
+      5644143, 
+      5644145, 
+      5644147, 
+      5644149, 
+      5644151, 
+      5644153, 
+      5644155, 
+      5644157, 
+      5644159, 
+      5644161, 
+      5644163, 
+      5644165, 
+      5644167, 
+      5644169, 
+      5644171, 
+      5644173, 
+      5644175, 
+      5644177, 
+      5644179, 
+      5644181, 
+      5644183, 
+      5644185, 
+      5644187, 
+      5644189, 
+      5644191, 
+      5644193, 
+      5644195, 
+      5644197, 
+      5644199, 
+      5644201, 
+      5644203, 
+      5644205, 
+      5644207, 
+      5644209, 
+      5644211, 
+      5644213, 
+      5644215, 
+      5644217, 
+      5644219, 
+      5644221, 
+      5644223, 
+      5644225, 
+      5644227, 
+      5644229, 
+      5644231, 
+      5644233, 
+      5644235, 
+      5644237, 
+      5644239, 
+      5644241, 
+      5644243, 
+      5644245, 
+      5644247, 
+      5644249, 
+      5644251, 
+      5644253, 
+      5644255, 
+      5644257, 
+      5644259, 
+      5644261, 
+      5644263, 
+      5644265, 
+      5644267, 
+      5644269, 
+      5644271, 
+      5644273, 
+      5644275, 
+      5644277, 
+      5644279, 
+      5644281, 
+      5644283, 
+      5644285, 
+      5644287, 
+      5644289, 
+      5644291, 
+      5644293, 
+      5644295, 
+      5644297, 
+      5644299, 
+      5644301, 
+      5644303, 
+      5644305, 
+      5644307, 
+      5644309, 
+      5644311, 
+      5644313, 
+      5644315, 
+      5644317, 
+      5644319, 
+      5644321, 
+      5644323, 
+      5644325, 
+      5644327, 
+      5644329, 
+      5644331, 
+      5644333, 
+      5644335, 
+      5644337, 
+      5644339, 
+      5644341, 
+      5644343, 
+      5644345, 
+      5644347
+    ], 
+    "contador": 124
+  }, 
+  "nivel": {
+    "elevacion_mm": 13220.0, 
+    "id": 192512, 
+    "nombre": "Piso 5"
+  }, 
+  "generado_utc": "2026-11-22 05:20:46", 
+  "conduits": [
+    {
+      "conduit_id": 5644355, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        8778.7299999999996, 
+        7562.9330000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 2079.2330000000002, 
+      "a_mm_esperado": [
+        6699.4970000000003, 
+        7562.9330000000000, 
+        15930.0
+      ], 
+      "index": 0, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 2079.2330000000002, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8778.7299999999996, 
+        7562.9330000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6699.4970000000003, 
+        7562.9330000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644357, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7403.2629999999999, 
+        7184.8019999999997, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 158.50399999999999, 
+      "a_mm_esperado": [
+        7561.7669999999998, 
+        7184.8019999999997, 
+        15930.0
+      ], 
+      "index": 1, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 158.50399999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7403.2629999999999, 
+        7184.8019999999997, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7561.7669999999998, 
+        7184.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644359, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7403.2629999999999, 
+        7531.7190000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 346.91699999999997, 
+      "a_mm_esperado": [
+        7403.2629999999999, 
+        7184.8019999999997, 
+        15930.0
+      ], 
+      "index": 2, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 346.91699999999997, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7403.2629999999999, 
+        7531.7190000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7403.2629999999999, 
+        7184.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644361, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7587.4679999999998, 
+        7963.8019999999997, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 133.69999999999999, 
+      "a_mm_esperado": [
+        7453.7680000000000, 
+        7963.8019999999997, 
+        15930.0
+      ], 
+      "index": 3, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 133.69999999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7587.4679999999998, 
+        7963.8019999999997, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7453.7680000000000, 
+        7963.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644363, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7633.7669999999998, 
+        8096.1700000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 105.36799999999999, 
+      "a_mm_esperado": [
+        7633.7669999999998, 
+        7990.8019999999997, 
+        15930.0
+      ], 
+      "index": 4, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 105.36799999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7633.7669999999998, 
+        8096.1700000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7633.7669999999998, 
+        7990.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644365, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8711.7669999999998, 
+        5046.7629999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 78.039000000000001, 
+      "a_mm_esperado": [
+        8711.7669999999998, 
+        5124.8019999999997, 
+        15930.0
+      ], 
+      "index": 5, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 78.039000000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8711.7669999999998, 
+        5046.7629999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8711.7669999999998, 
+        5124.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644367, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8701.7669999999998, 
+        4582.0550000000003, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 342.74700000000001, 
+      "a_mm_esperado": [
+        8701.7669999999998, 
+        4924.8019999999997, 
+        15930.0
+      ], 
+      "index": 6, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 342.74700000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8701.7669999999998, 
+        4582.0550000000003, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8701.7669999999998, 
+        4924.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644369, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9566.6650000000009, 
+        4544.8019999999997, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 505.79599999999999, 
+      "a_mm_esperado": [
+        10072.460999999999, 
+        4544.8019999999997, 
+        15930.0
+      ], 
+      "index": 7, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 505.79599999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9566.6650000000009, 
+        4544.8019999999997, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        10072.460999999999, 
+        4544.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644371, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9521.7669999999998, 
+        2005.0920000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 2489.7100000000000, 
+      "a_mm_esperado": [
+        9521.7669999999998, 
+        4494.8019999999997, 
+        15930.0
+      ], 
+      "index": 8, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 2489.7100000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9521.7669999999998, 
+        2005.0920000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9521.7669999999998, 
+        4494.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644373, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7693.5450000000001, 
+        1954.8019999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1788.2220000000000, 
+      "a_mm_esperado": [
+        9481.7669999999998, 
+        1954.8019999999999, 
+        15930.0
+      ], 
+      "index": 9, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1788.2220000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7693.5450000000001, 
+        1954.8019999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9481.7669999999998, 
+        1954.8019999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644375, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9719.8760000000002, 
+        1964.8019999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 148.10900000000001, 
+      "a_mm_esperado": [
+        9571.7669999999998, 
+        1964.8019999999999, 
+        15930.0
+      ], 
+      "index": 10, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 148.10900000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9719.8760000000002, 
+        1964.8019999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9571.7669999999998, 
+        1964.8019999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644377, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9719.8760000000002, 
+        1741.7310000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 223.07100000000000, 
+      "a_mm_esperado": [
+        9719.8760000000002, 
+        1964.8019999999999, 
+        15930.0
+      ], 
+      "index": 11, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 223.07100000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9719.8760000000002, 
+        1741.7310000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9719.8760000000002, 
+        1964.8019999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644379, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9531.7669999999998, 
+        775.12800000000004, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1149.6740000000000, 
+      "a_mm_esperado": [
+        9531.7669999999998, 
+        1924.8019999999999, 
+        15930.0
+      ], 
+      "index": 12, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1149.6740000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9531.7669999999998, 
+        775.12800000000004, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9531.7669999999998, 
+        1924.8019999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644381, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8406.8889999999992, 
+        775.12800000000004, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1124.8779999999999, 
+      "a_mm_esperado": [
+        9531.7669999999998, 
+        775.12800000000004, 
+        15930.0
+      ], 
+      "index": 13, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1124.8779999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8406.8889999999992, 
+        775.12800000000004, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9531.7669999999998, 
+        775.12800000000004, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644383, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9875.1769999999997, 
+        1684.8019999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 103.41000000000000, 
+      "a_mm_esperado": [
+        9771.7669999999998, 
+        1684.8019999999999, 
+        15930.0
+      ], 
+      "index": 14, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 103.41000000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9875.1769999999997, 
+        1684.8019999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9771.7669999999998, 
+        1684.8019999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644385, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7661.7669999999998, 
+        3364.8180000000002, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1139.9839999999999, 
+      "a_mm_esperado": [
+        7661.7669999999998, 
+        4504.8019999999997, 
+        15930.0
+      ], 
+      "index": 15, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1139.9839999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7661.7669999999998, 
+        3364.8180000000002, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7661.7669999999998, 
+        4504.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644387, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        6702.1040000000003, 
+        3364.8180000000002, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 959.66300000000001, 
+      "a_mm_esperado": [
+        7661.7669999999998, 
+        3364.8180000000002, 
+        15930.0
+      ], 
+      "index": 16, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 959.66300000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        6702.1040000000003, 
+        3364.8180000000002, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7661.7669999999998, 
+        3364.8180000000002, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644389, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9547.8559999999998, 
+        7461.5410000000002, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 654.94299999999998, 
+      "a_mm_esperado": [
+        8892.9130000000005, 
+        7461.5410000000002, 
+        15930.0
+      ], 
+      "index": 17, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 654.94299999999998, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9547.8559999999998, 
+        7461.5410000000002, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8892.9130000000005, 
+        7461.5410000000002, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644391, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9547.8559999999998, 
+        6876.0100000000002, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 585.53099999999995, 
+      "a_mm_esperado": [
+        9547.8559999999998, 
+        7461.5410000000002, 
+        15930.0
+      ], 
+      "index": 18, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 585.53099999999995, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9547.8559999999998, 
+        6876.0100000000002, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9547.8559999999998, 
+        7461.5410000000002, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644393, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8312.5220000000008, 
+        6804.8019999999997, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1169.2449999999999, 
+      "a_mm_esperado": [
+        9481.7669999999998, 
+        6804.8019999999997, 
+        15930.0
+      ], 
+      "index": 19, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1169.2449999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8312.5220000000008, 
+        6804.8019999999997, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9481.7669999999998, 
+        6804.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644395, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8312.5220000000008, 
+        7197.2410000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 392.43900000000002, 
+      "a_mm_esperado": [
+        8312.5220000000008, 
+        6804.8019999999997, 
+        15930.0
+      ], 
+      "index": 20, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 392.43900000000002, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8312.5220000000008, 
+        7197.2410000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8312.5220000000008, 
+        6804.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644397, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7695.0980000000000, 
+        7197.2410000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 617.42399999999998, 
+      "a_mm_esperado": [
+        8312.5220000000008, 
+        7197.2410000000000, 
+        15930.0
+      ], 
+      "index": 21, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 617.42399999999998, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7695.0980000000000, 
+        7197.2410000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8312.5220000000008, 
+        7197.2410000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644399, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7661.7669999999998, 
+        7172.5720000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1247.7700000000000, 
+      "a_mm_esperado": [
+        7661.7669999999998, 
+        5924.8019999999997, 
+        15930.0
+      ], 
+      "index": 22, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1247.7700000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7661.7669999999998, 
+        7172.5720000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7661.7669999999998, 
+        5924.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644401, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8701.7669999999998, 
+        3260.2060000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1232.3019999999999, 
+      "a_mm_esperado": [
+        8701.7669999999998, 
+        4492.5079999999998, 
+        15930.0
+      ], 
+      "index": 23, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1232.3019999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8701.7669999999998, 
+        3260.2060000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8701.7669999999998, 
+        4492.5079999999998, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644403, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8403.4020000000000, 
+        3260.2060000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 298.36500000000001, 
+      "a_mm_esperado": [
+        8701.7669999999998, 
+        3260.2060000000001, 
+        15930.0
+      ], 
+      "index": 24, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 298.36500000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8403.4020000000000, 
+        3260.2060000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8701.7669999999998, 
+        3260.2060000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644405, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7661.7669999999998, 
+        4624.2879999999996, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1140.5139999999999, 
+      "a_mm_esperado": [
+        7661.7669999999998, 
+        5764.8019999999997, 
+        15930.0
+      ], 
+      "index": 25, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1140.5139999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7661.7669999999998, 
+        4624.2879999999996, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7661.7669999999998, 
+        5764.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644407, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8092.6909999999998, 
+        4937.3320000000003, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 540.0, 
+      "a_mm_esperado": [
+        7701.7669999999998, 
+        4564.8019999999997, 
+        15930.0
+      ], 
+      "index": 26, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 540.0, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8092.6909999999998, 
+        4937.3320000000003, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7701.7669999999998, 
+        4564.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644409, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8092.6909999999998, 
+        5166.5259999999998, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 229.19399999999999, 
+      "a_mm_esperado": [
+        8092.6909999999998, 
+        4937.3320000000003, 
+        15930.0
+      ], 
+      "index": 27, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 229.19399999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8092.6909999999998, 
+        5166.5259999999998, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8092.6909999999998, 
+        4937.3320000000003, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644411, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8661.5889999999999, 
+        5166.5259999999998, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 568.89800000000002, 
+      "a_mm_esperado": [
+        8092.6909999999998, 
+        5166.5259999999998, 
+        15930.0
+      ], 
+      "index": 28, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 568.89800000000002, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8661.5889999999999, 
+        5166.5259999999998, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8092.6909999999998, 
+        5166.5259999999998, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644413, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9921.7669999999998, 
+        1525.2349999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 119.56699999999999, 
+      "a_mm_esperado": [
+        9921.7669999999998, 
+        1644.8019999999999, 
+        15930.0
+      ], 
+      "index": 29, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 119.56699999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9921.7669999999998, 
+        1525.2349999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9921.7669999999998, 
+        1644.8019999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644415, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7403.2629999999999, 
+        7932.0050000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 321.92200000000003, 
+      "a_mm_esperado": [
+        7403.2629999999999, 
+        7610.0829999999996, 
+        15930.0
+      ], 
+      "index": 30, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 321.92200000000003, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7403.2629999999999, 
+        7932.0050000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7403.2629999999999, 
+        7610.0829999999996, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644417, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        10092.162000000000, 
+        6798.8159999999998, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 499.52199999999999, 
+      "a_mm_esperado": [
+        9592.6399999999994, 
+        6798.8159999999998, 
+        15930.0
+      ], 
+      "index": 31, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 499.52199999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        10092.162000000000, 
+        6798.8159999999998, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9592.6399999999994, 
+        6798.8159999999998, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644419, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        10092.162000000000, 
+        7071.7030000000004, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 272.88700000000000, 
+      "a_mm_esperado": [
+        10092.162000000000, 
+        6798.8159999999998, 
+        15930.0
+      ], 
+      "index": 32, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 272.88700000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        10092.162000000000, 
+        7071.7030000000004, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        10092.162000000000, 
+        6798.8159999999998, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644421, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7701.8519999999999, 
+        4544.8019999999997, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1789.1140000000000, 
+      "a_mm_esperado": [
+        9490.9660000000003, 
+        4544.8019999999997, 
+        15930.0
+      ], 
+      "index": 33, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1789.1140000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7701.8519999999999, 
+        4544.8019999999997, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9490.9660000000003, 
+        4544.8019999999997, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644423, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9501.7669999999998, 
+        6377.9150000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 495.04899999999998, 
+      "a_mm_esperado": [
+        9006.7180000000008, 
+        6377.9150000000000, 
+        15930.0
+      ], 
+      "index": 34, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 495.04899999999998, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9501.7669999999998, 
+        6377.9150000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9006.7180000000008, 
+        6377.9150000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644425, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9541.7669999999998, 
+        6417.9150000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 56.569000000000003, 
+      "a_mm_esperado": [
+        9501.7669999999998, 
+        6377.9150000000000, 
+        15930.0
+      ], 
+      "index": 35, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 56.569000000000003, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9541.7669999999998, 
+        6417.9150000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9501.7669999999998, 
+        6377.9150000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644427, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9541.7669999999998, 
+        6764.8019999999997, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 346.88700000000000, 
+      "a_mm_esperado": [
+        9541.7669999999998, 
+        6417.9150000000000, 
+        15930.0
+      ], 
+      "index": 36, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 346.88700000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9541.7669999999998, 
+        6764.8019999999997, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9541.7669999999998, 
+        6417.9150000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644429, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        10207.023999999999, 
+        7589.1890000000003, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1327.4330000000000, 
+      "a_mm_esperado": [
+        8879.5910000000003, 
+        7589.1890000000003, 
+        15930.0
+      ], 
+      "index": 37, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1327.4330000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        10207.023999999999, 
+        7589.1890000000003, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8879.5910000000003, 
+        7589.1890000000003, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644431, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        10207.023999999999, 
+        5691.9319999999998, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1897.2570000000001, 
+      "a_mm_esperado": [
+        10207.023999999999, 
+        7589.1890000000003, 
+        15930.0
+      ], 
+      "index": 38, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1897.2570000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        10207.023999999999, 
+        5691.9319999999998, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        10207.023999999999, 
+        7589.1890000000003, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644433, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        10129.320000000000, 
+        5691.9319999999998, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 77.703999999999994, 
+      "a_mm_esperado": [
+        10207.023999999999, 
+        5691.9319999999998, 
+        15930.0
+      ], 
+      "index": 39, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 77.703999999999994, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        10129.320000000000, 
+        5691.9319999999998, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        10207.023999999999, 
+        5691.9319999999998, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644435, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8706.9840000000004, 
+        5766.7089999999998, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 2005.7560000000001, 
+      "a_mm_esperado": [
+        6701.2280000000001, 
+        5766.7089999999998, 
+        15930.0
+      ], 
+      "index": 40, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 2005.7560000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8706.9840000000004, 
+        5766.7089999999998, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6701.2280000000001, 
+        5766.7089999999998, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644437, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8706.9840000000004, 
+        5582.8720000000003, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 183.83699999999999, 
+      "a_mm_esperado": [
+        8706.9840000000004, 
+        5766.7089999999998, 
+        15930.0
+      ], 
+      "index": 41, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 183.83699999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8706.9840000000004, 
+        5582.8720000000003, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8706.9840000000004, 
+        5766.7089999999998, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644439, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        10568.180000000000, 
+        1517.1270000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 119.56699999999999, 
+      "a_mm_esperado": [
+        10568.180000000000, 
+        1636.6940000000000, 
+        15930.0
+      ], 
+      "index": 42, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 119.56699999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        10568.180000000000, 
+        1517.1270000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        10568.180000000000, 
+        1636.6940000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644441, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        8758.9069999999992, 
+        10132.476000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 2014.7460000000001, 
+      "a_mm_esperado": [
+        6744.1610000000001, 
+        10132.056000000000, 
+        15930.0
+      ], 
+      "index": 43, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 2014.7460000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8758.9069999999992, 
+        10132.476000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6744.1610000000001, 
+        10132.056000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644443, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7395.4399999999996, 
+        10510.606000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 158.50399999999999, 
+      "a_mm_esperado": [
+        7553.9440000000004, 
+        10510.606000000000, 
+        15930.0
+      ], 
+      "index": 44, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 158.50399999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7395.4399999999996, 
+        10510.606000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7553.9440000000004, 
+        10510.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644445, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7395.4399999999996, 
+        10163.690000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 346.91600000000000, 
+      "a_mm_esperado": [
+        7395.4399999999996, 
+        10510.606000000000, 
+        15930.0
+      ], 
+      "index": 45, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 346.91600000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7395.4399999999996, 
+        10163.690000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7395.4399999999996, 
+        10510.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644447, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7579.6450000000004, 
+        9731.6059999999998, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 133.70099999999999, 
+      "a_mm_esperado": [
+        7445.9440000000004, 
+        9731.6059999999998, 
+        15930.0
+      ], 
+      "index": 46, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 133.70099999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7579.6450000000004, 
+        9731.6059999999998, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7445.9440000000004, 
+        9731.6059999999998, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644449, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7625.9440000000004, 
+        9583.2389999999996, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 121.36700000000000, 
+      "a_mm_esperado": [
+        7625.9440000000004, 
+        9704.6059999999998, 
+        15930.0
+      ], 
+      "index": 47, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 121.36700000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7625.9440000000004, 
+        9583.2389999999996, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7625.9440000000004, 
+        9704.6059999999998, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644451, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9539.0969999999998, 
+        10320.606000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 672.71500000000003, 
+      "a_mm_esperado": [
+        8866.3819999999996, 
+        10320.606000000000, 
+        15930.0
+      ], 
+      "index": 48, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 672.71500000000003, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9539.0969999999998, 
+        10320.606000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8866.3819999999996, 
+        10320.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644453, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9539.0969999999998, 
+        10849.656999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 529.05100000000004, 
+      "a_mm_esperado": [
+        9539.0969999999998, 
+        10320.606000000000, 
+        15930.0
+      ], 
+      "index": 49, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 529.05100000000004, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9539.0969999999998, 
+        10849.656999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9539.0969999999998, 
+        10320.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644455, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9533.9439999999995, 
+        11288.927000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 358.32100000000003, 
+      "a_mm_esperado": [
+        9533.9439999999995, 
+        10930.606000000000, 
+        15930.0
+      ], 
+      "index": 50, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 358.32100000000003, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9533.9439999999995, 
+        11288.927000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9533.9439999999995, 
+        10930.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644457, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8974.8289999999997, 
+        11288.927000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 559.11500000000001, 
+      "a_mm_esperado": [
+        9533.9439999999995, 
+        11288.927000000000, 
+        15930.0
+      ], 
+      "index": 51, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 559.11500000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8974.8289999999997, 
+        11288.927000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9533.9439999999995, 
+        11288.927000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644459, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8716.2450000000008, 
+        12649.804000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 78.040000000000006, 
+      "a_mm_esperado": [
+        8716.2450000000008, 
+        12571.763999999999, 
+        15930.0
+      ], 
+      "index": 52, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 78.040000000000006, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8716.2450000000008, 
+        12649.804000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8716.2450000000008, 
+        12571.763999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644461, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8705.6929999999993, 
+        13114.200999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 342.74700000000001, 
+      "a_mm_esperado": [
+        8705.6929999999993, 
+        12771.454000000000, 
+        15930.0
+      ], 
+      "index": 53, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 342.74700000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8705.6929999999993, 
+        13114.200999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8705.6929999999993, 
+        12771.454000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644463, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7694.0290000000005, 
+        13150.606000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1779.9150000000000, 
+      "a_mm_esperado": [
+        9473.9439999999995, 
+        13150.606000000000, 
+        15930.0
+      ], 
+      "index": 54, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1779.9150000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7694.0290000000005, 
+        13150.606000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9473.9439999999995, 
+        13150.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644465, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9513.9439999999995, 
+        15690.316000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 2489.7100000000000, 
+      "a_mm_esperado": [
+        9513.9439999999995, 
+        13200.606000000000, 
+        15930.0
+      ], 
+      "index": 55, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 2489.7100000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9513.9439999999995, 
+        15690.316000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9513.9439999999995, 
+        13200.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644467, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7685.7219999999998, 
+        15740.606000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1788.2220000000000, 
+      "a_mm_esperado": [
+        9473.9439999999995, 
+        15740.606000000000, 
+        15930.0
+      ], 
+      "index": 56, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1788.2220000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7685.7219999999998, 
+        15740.606000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9473.9439999999995, 
+        15740.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644469, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9712.0529999999999, 
+        15730.606000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 148.10900000000001, 
+      "a_mm_esperado": [
+        9563.9439999999995, 
+        15730.606000000000, 
+        15930.0
+      ], 
+      "index": 57, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 148.10900000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9712.0529999999999, 
+        15730.606000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9563.9439999999995, 
+        15730.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644471, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9712.0529999999999, 
+        15953.677000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 223.07100000000000, 
+      "a_mm_esperado": [
+        9712.0529999999999, 
+        15730.606000000000, 
+        15930.0
+      ], 
+      "index": 58, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 223.07100000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9712.0529999999999, 
+        15953.677000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9712.0529999999999, 
+        15730.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644473, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9864.3150000000005, 
+        16002.137000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 91.555999999999997, 
+      "a_mm_esperado": [
+        9772.7710000000006, 
+        16003.603999999999, 
+        15930.0
+      ], 
+      "index": 59, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 91.555999999999997, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9864.3150000000005, 
+        16002.137000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9772.7710000000006, 
+        16003.603999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644475, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7697.5370000000003, 
+        14330.590000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1139.9839999999999, 
+      "a_mm_esperado": [
+        7697.5370000000003, 
+        13190.606000000000, 
+        15930.0
+      ], 
+      "index": 60, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1139.9839999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7697.5370000000003, 
+        14330.590000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7697.5370000000003, 
+        13190.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644477, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        6720.8739999999998, 
+        14330.590000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 976.66300000000001, 
+      "a_mm_esperado": [
+        7697.5370000000003, 
+        14330.590000000000, 
+        15930.0
+      ], 
+      "index": 61, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 976.66300000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        6720.8739999999998, 
+        14330.590000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7697.5370000000003, 
+        14330.590000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644479, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        10120.712000000000, 
+        10881.924999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 546.83699999999999, 
+      "a_mm_esperado": [
+        9573.9439999999995, 
+        10890.606000000000, 
+        15930.0
+      ], 
+      "index": 62, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 546.83699999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        10120.712000000000, 
+        10881.924999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9573.9439999999995, 
+        10890.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644481, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        10120.712000000000, 
+        10637.888999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 244.03600000000000, 
+      "a_mm_esperado": [
+        10120.712000000000, 
+        10881.924999999999, 
+        15930.0
+      ], 
+      "index": 63, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 244.03600000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        10120.712000000000, 
+        10637.888999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        10120.712000000000, 
+        10881.924999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644483, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8304.6990000000005, 
+        10890.606000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1169.2449999999999, 
+      "a_mm_esperado": [
+        9473.9439999999995, 
+        10890.606000000000, 
+        15930.0
+      ], 
+      "index": 64, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1169.2449999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8304.6990000000005, 
+        10890.606000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9473.9439999999995, 
+        10890.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644485, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8304.6990000000005, 
+        10498.168000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 392.43799999999999, 
+      "a_mm_esperado": [
+        8304.6990000000005, 
+        10890.606000000000, 
+        15930.0
+      ], 
+      "index": 65, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 392.43799999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8304.6990000000005, 
+        10498.168000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8304.6990000000005, 
+        10890.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644487, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7687.2749999999996, 
+        10498.168000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 617.42399999999998, 
+      "a_mm_esperado": [
+        8304.6990000000005, 
+        10498.168000000000, 
+        15930.0
+      ], 
+      "index": 66, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 617.42399999999998, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7687.2749999999996, 
+        10498.168000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8304.6990000000005, 
+        10498.168000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644489, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7653.9440000000004, 
+        10522.835999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1247.7700000000000, 
+      "a_mm_esperado": [
+        7653.9440000000004, 
+        11770.606000000000, 
+        15930.0
+      ], 
+      "index": 67, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1247.7700000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7653.9440000000004, 
+        10522.835999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7653.9440000000004, 
+        11770.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644491, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8705.6929999999993, 
+        14436.049999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1232.3019999999999, 
+      "a_mm_esperado": [
+        8705.6929999999993, 
+        13203.748000000000, 
+        15930.0
+      ], 
+      "index": 68, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1232.3019999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8705.6929999999993, 
+        14436.049999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8705.6929999999993, 
+        13203.748000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644493, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8407.3279999999995, 
+        14436.049999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 298.36500000000001, 
+      "a_mm_esperado": [
+        8705.6929999999993, 
+        14436.049999999999, 
+        15930.0
+      ], 
+      "index": 69, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 298.36500000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8407.3279999999995, 
+        14436.049999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8705.6929999999993, 
+        14436.049999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644495, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        8660.5300000000007, 
+        12359.740000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 21.276000000000000, 
+      "a_mm_esperado": [
+        8660.5300000000007, 
+        12338.464000000000, 
+        15930.0
+      ], 
+      "index": 70, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 21.276000000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8660.5300000000007, 
+        12359.740000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8660.5300000000007, 
+        12338.464000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644497, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7653.9440000000004, 
+        13071.120999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 1140.5150000000001, 
+      "a_mm_esperado": [
+        7653.9440000000004, 
+        11930.606000000000, 
+        15930.0
+      ], 
+      "index": 71, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 1140.5150000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7653.9440000000004, 
+        13071.120999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7653.9440000000004, 
+        11930.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644499, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8084.8680000000004, 
+        12758.076999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 539.99900000000002, 
+      "a_mm_esperado": [
+        7693.9440000000004, 
+        13130.606000000000, 
+        15930.0
+      ], 
+      "index": 72, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 539.99900000000002, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8084.8680000000004, 
+        12758.076999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7693.9440000000004, 
+        13130.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644501, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8084.8680000000004, 
+        12528.882000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 229.19499999999999, 
+      "a_mm_esperado": [
+        8084.8680000000004, 
+        12758.076999999999, 
+        15930.0
+      ], 
+      "index": 73, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 229.19499999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8084.8680000000004, 
+        12528.882000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8084.8680000000004, 
+        12758.076999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644503, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        8653.7649999999994, 
+        12528.882000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 568.89700000000005, 
+      "a_mm_esperado": [
+        8084.8680000000004, 
+        12528.882000000000, 
+        15930.0
+      ], 
+      "index": 74, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 568.89700000000005, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8653.7649999999994, 
+        12528.882000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8084.8680000000004, 
+        12528.882000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644505, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        9913.9439999999995, 
+        16185.173000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 134.56700000000001, 
+      "a_mm_esperado": [
+        9913.9439999999995, 
+        16050.606000000000, 
+        15930.0
+      ], 
+      "index": 75, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 134.56700000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9913.9439999999995, 
+        16185.173000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9913.9439999999995, 
+        16050.606000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644507, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        7395.4399999999996, 
+        9763.4030000000002, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 321.92300000000000, 
+      "a_mm_esperado": [
+        7395.4399999999996, 
+        10085.325999999999, 
+        15930.0
+      ], 
+      "index": 76, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 321.92300000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        7395.4399999999996, 
+        9763.4030000000002, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        7395.4399999999996, 
+        10085.325999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644509, 
+      "layer": "ELEC-LIGHT-PIPE", 
+      "b_mm_real": [
+        10077.485000000001, 
+        13151.085999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 16.0, 
+      "largo_real_mm": 506.66899999999998, 
+      "a_mm_esperado": [
+        9570.8160000000007, 
+        13151.085999999999, 
+        15930.0
+      ], 
+      "index": 77, 
+      "servicio": "ILUMINACION", 
+      "largo_esperado_mm": 506.66899999999998, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        10077.485000000001, 
+        13151.085999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9570.8160000000007, 
+        13151.085999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644511, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        6676.3339999999998, 
+        12326.624000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 248.22100000000000, 
+      "a_mm_esperado": [
+        6678.2010000000000, 
+        12574.838000000000, 
+        15930.0
+      ], 
+      "index": 78, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 248.22100000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        6676.3339999999998, 
+        12326.624000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6678.2010000000000, 
+        12574.838000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644513, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        8660.1260000000002, 
+        12333.174000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 1983.8030000000001, 
+      "a_mm_esperado": [
+        6676.3339999999998, 
+        12326.624000000000, 
+        15930.0
+      ], 
+      "index": 79, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 1983.8030000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        8660.1260000000002, 
+        12333.174000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        6676.3339999999998, 
+        12326.624000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644515, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9229.3209999999999, 
+        10154.099000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 361.40600000000001, 
+      "a_mm_esperado": [
+        8867.9150000000009, 
+        10154.576999999999, 
+        15930.0
+      ], 
+      "index": 80, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 361.40600000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9229.3209999999999, 
+        10154.099000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        8867.9150000000009, 
+        10154.576999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644517, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9500.8029999999999, 
+        10151.263999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 271.49700000000001, 
+      "a_mm_esperado": [
+        9229.3209999999999, 
+        10154.099000000000, 
+        15930.0
+      ], 
+      "index": 81, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 271.49700000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9500.8029999999999, 
+        10151.263999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9229.3209999999999, 
+        10154.099000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644519, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9695.2250000000004, 
+        10149.759000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 194.42800000000000, 
+      "a_mm_esperado": [
+        9500.8029999999999, 
+        10151.263999999999, 
+        15930.0
+      ], 
+      "index": 82, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 194.42800000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9695.2250000000004, 
+        10149.759000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9500.8029999999999, 
+        10151.263999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644521, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9825.4490000000005, 
+        10153.277000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 130.27199999999999, 
+      "a_mm_esperado": [
+        9695.2250000000004, 
+        10149.759000000000, 
+        15930.0
+      ], 
+      "index": 83, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 130.27199999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9825.4490000000005, 
+        10153.277000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9695.2250000000004, 
+        10149.759000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644523, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9904.3400000000001, 
+        10165.504999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 79.832999999999998, 
+      "a_mm_esperado": [
+        9825.4490000000005, 
+        10153.277000000000, 
+        15930.0
+      ], 
+      "index": 84, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 79.832999999999998, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9904.3400000000001, 
+        10165.504999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9825.4490000000005, 
+        10153.277000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644525, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9944.7610000000004, 
+        10190.136000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 47.334000000000003, 
+      "a_mm_esperado": [
+        9904.3400000000001, 
+        10165.504999999999, 
+        15930.0
+      ], 
+      "index": 85, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 47.334000000000003, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9944.7610000000004, 
+        10190.136000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9904.3400000000001, 
+        10165.504999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644527, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9959.5750000000007, 
+        10230.858000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 43.332999999999998, 
+      "a_mm_esperado": [
+        9944.7610000000004, 
+        10190.136000000000, 
+        15930.0
+      ], 
+      "index": 86, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 43.332999999999998, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9959.5750000000007, 
+        10230.858000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9944.7610000000004, 
+        10190.136000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644529, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9961.6460000000006, 
+        10291.361999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 60.539000000000001, 
+      "a_mm_esperado": [
+        9959.5750000000007, 
+        10230.858000000000, 
+        15930.0
+      ], 
+      "index": 87, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 60.539000000000001, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9961.6460000000006, 
+        10291.361999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9959.5750000000007, 
+        10230.858000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644531, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9961.6890000000003, 
+        10375.451999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 84.090000000000003, 
+      "a_mm_esperado": [
+        9961.6460000000006, 
+        10291.361999999999, 
+        15930.0
+      ], 
+      "index": 88, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 84.090000000000003, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9961.6890000000003, 
+        10375.451999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9961.6460000000006, 
+        10291.361999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644533, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9961.8199999999997, 
+        10487.386000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 111.93400000000000, 
+      "a_mm_esperado": [
+        9961.6890000000003, 
+        10375.451999999999, 
+        15930.0
+      ], 
+      "index": 89, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 111.93400000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9961.8199999999997, 
+        10487.386000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9961.6890000000003, 
+        10375.451999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644535, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9962.0069999999996, 
+        10631.538000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 144.15199999999999, 
+      "a_mm_esperado": [
+        9961.8199999999997, 
+        10487.386000000000, 
+        15930.0
+      ], 
+      "index": 90, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 144.15199999999999, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9962.0069999999996, 
+        10631.538000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9961.8199999999997, 
+        10487.386000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644537, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9962.2189999999991, 
+        10812.281999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 180.74400000000000, 
+      "a_mm_esperado": [
+        9962.0069999999996, 
+        10631.538000000000, 
+        15930.0
+      ], 
+      "index": 91, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 180.74400000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9962.2189999999991, 
+        10812.281999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9962.0069999999996, 
+        10631.538000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644539, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9962.25, 
+        10845.147000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 32.865000000000002, 
+      "a_mm_esperado": [
+        9962.2189999999991, 
+        10812.281999999999, 
+        15930.0
+      ], 
+      "index": 92, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 32.865000000000002, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9962.25, 
+        10845.147000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9962.2189999999991, 
+        10812.281999999999, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644541, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9962.3220000000001, 
+        10923.735000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 78.587999999999994, 
+      "a_mm_esperado": [
+        9962.25, 
+        10845.147000000001, 
+        15930.0
+      ], 
+      "index": 93, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 78.587999999999994, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9962.3220000000001, 
+        10923.735000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9962.25, 
+        10845.147000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644543, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9962.4240000000009, 
+        11033.989000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 110.25400000000000, 
+      "a_mm_esperado": [
+        9962.3220000000001, 
+        10923.735000000001, 
+        15930.0
+      ], 
+      "index": 94, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 110.25400000000000, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9962.4240000000009, 
+        11033.989000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9962.3220000000001, 
+        10923.735000000001, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644545, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9962.5900000000001, 
+        11301.034000000000, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 267.04500000000002, 
+      "a_mm_esperado": [
+        9962.4240000000009, 
+        11033.989000000000, 
+        15930.0
+      ], 
+      "index": 95, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 267.04500000000002, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9962.5900000000001, 
+        11301.034000000000, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9962.4240000000009, 
+        11033.989000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644547, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9962.6859999999997, 
+        11617.790000000001, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 316.75599999999997, 
+      "a_mm_esperado": [
+        9962.5900000000001, 
+        11301.034000000000, 
+        15930.0
+      ], 
+      "index": 96, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 316.75599999999997, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9962.6859999999997, 
+        11617.790000000001, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9962.5900000000001, 
+        11301.034000000000, 
+        15930.0
+      ]
+    }, 
+    {
+      "conduit_id": 5644549, 
+      "layer": "ELEC-POWER- PIPE", 
+      "b_mm_real": [
+        9962.6779999999999, 
+        11988.629999999999, 
+        15930.0
+      ], 
+      "diametro_mm": 21.0, 
+      "largo_real_mm": 370.83999999999997, 
+      "a_mm_esperado": [
+        9962.6859999999997, 
+        11617.790000000001, 
+        15930.0
+      ], 
+      "index": 97, 
+      "servicio": "FUERZA", 
+      "largo_esperado_mm": 370.83999999999997, 
+      "z_mm": 15930.0, 
+      "b_mm_esperado": [
+        9962.6779999999999, 
+        11988.629999999999, 
+        15930.0
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dist_b_mm": 0.0, 
+      "dist_a_mm": 0.0, 
+      "verificado": true, 
+      "a_mm_real": [
+        9962.6859999999997, 
+        11617.790000000001, 
+        15930.0
+      ]
+    }
+  ], 
+  "script": "RE7_CREAR_CONDUITS_F17_F18_v05", 
+  "parametros": {
+    "total_segmentos": 98, 
+    "z_conduit_mm": 15930.0, 
+    "tipos_conduit": 3
+  }, 
+  "documento": {
+    "titulo": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01b", 
+    "ruta": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01b.rvt"
+  }, 
+  "resumen": {
+    "creados": 98, 
+    "fallos": 0, 
+    "verificados_fallo": 0, 
+    "verificados_ok": 98
+  }, 
+  "fallos": [], 
+  "version": "v05", 
+  "offsets_calculados": {
+    "Apartamento Tipo F 17": {
+      "std_y_mm": 173.18000000000001, 
+      "n_matches": 28, 
+      "cobertura": 59.600000000000001, 
+      "detalle": [
+        "  match: dxf=(8683.1,5262.3) revit=(8685.8,5256.0) dx=2.6 dy=-6.3 dist=6.8", 
+        "  match: dxf=(8690.1,5347.7) revit=(8685.8,5256.0) dx=-4.4 dy=-91.7 dist=91.8", 
+        "  match: dxf=(8690.1,5497.7) revit=(8685.8,5456.0) dx=-4.4 dy=-41.7 dist=41.9", 
+        "  match: dxf=(8690.1,5208.3) revit=(8685.8,5256.0) dx=-4.4 dy=47.7 dist=47.9", 
+        "  match: dxf=(9846.9,1540.5) revit=(9850.8,1511.7) dx=3.9 dy=-28.8 dist=29.1", 
+        "  match: dxf=(9850.0,1657.1) revit=(9850.8,1641.7) dx=0.8 dy=-15.4 dist=15.5", 
+        "  match: dxf=(7566.0,8161.2) revit=(7803.5,8077.4) dx=237.4 dy=-83.8 dist=251.8", 
+        "  match: dxf=(7331.3,8009.7) revit=(7803.5,8077.4) dx=472.2 dy=67.7 dist=477.0", 
+        "  match: dxf=(8639.1,5194.6) revit=(8685.8,5256.0) dx=46.6 dy=61.4 dist=77.1", 
+        "  match: dxf=(7561.6,7958.2) revit=(7803.5,8077.4) dx=241.9 dy=119.2 dist=269.7", 
+        "  match: dxf=(9656.8,1710.1) revit=(9655.8,1576.7) dx=-1.0 dy=-133.5 dist=133.5", 
+        "  match: dxf=(8317.5,3275.8) revit=(8363.8,3267.7) dx=46.3 dy=-8.1 dist=47.0", 
+        "  match: dxf=(8628.2,5012.0) revit=(8685.8,5008.3) dx=57.6 dy=-3.7 dist=57.7", 
+        "  match: dxf=(8684.8,5542.5) revit=(8685.8,5456.0) dx=1.0 dy=-86.5 dist=86.5", 
+        "  match: dxf=(9461.0,1979.7) revit=(9655.8,1576.7) dx=194.8 dy=-403.1 dist=447.7", 
+        "  match: dxf=(8690.1,5069.1) revit=(8685.8,5008.3) dx=-4.4 dy=-60.8 dist=60.9", 
+        "  match: dxf=(8463.5,6821.4) revit=(8743.5,6408.3) dx=280.0 dy=-413.1 dist=499.1", 
+        "  match: dxf=(9444.5,1144.9) revit=(9655.8,1576.7) dx=211.3 dy=431.7 dist=480.7", 
+        "  match: dxf=(9640.5,1804.6) revit=(9655.8,1576.7) dx=15.3 dy=-227.9 dist=228.5", 
+        "  match: dxf=(10016.9,5641.8) revit=(9945.8,5606.0) dx=-71.1 dy=-35.7 dist=79.6", 
+        "  match: dxf=(8879.4,6401.1) revit=(8743.5,6408.3) dx=-135.9 dy=7.2 dist=136.1", 
+        "  match: dxf=(8788.0,4557.9) revit=(8685.8,5008.3) dx=-102.2 dy=450.4 dist=461.9", 
+        "  match: dxf=(10110.0,4561.1) revit=(10120.6,4560.6) dx=10.6 dy=-0.5 dist=10.6", 
+        "  match: dxf=(9690.5,4562.7) revit=(10120.6,4560.6) dx=430.1 dy=-2.0 dist=430.1", 
+        "  match: dxf=(10498.4,1532.4) revit=(10481.6,1511.7) dx=-16.8 dy=-20.7 dist=26.7", 
+        "  match: dxf=(10476.8,1649.0) revit=(10488.1,1641.7) dx=11.3 dy=-7.3 dist=13.5", 
+        "  match: dxf=(10328.4,5633.7) revit=(10435.8,5606.0) dx=107.4 dy=-27.6 dist=110.9", 
+        "  match: dxf=(10272.0,4558.1) revit=(10271.0,4558.3) dx=-1.0 dy=0.2 dist=1.0"
+      ], 
+      "apto": "Apartamento Tipo F 17", 
+      "dx_mm": 72.337999999999994, 
+      "std_x_mm": 145.31999999999999, 
+      "n_inserts_dxf": 47, 
+      "dy_mm": -18.308000000000000
+    }, 
+    "Apartamentos Tipo F 18": {
+      "std_y_mm": 141.03000000000000, 
+      "n_matches": 23, 
+      "cobertura": 51.100000000000001, 
+      "detalle": [
+        "  match: dxf=(10271.0,13111.3) revit=(10271.0,13090.1) dx=0.0 dy=-21.2 dist=21.2", 
+        "  match: dxf=(9829.6,16156.9) revit=(9889.8,16155.1) dx=60.2 dy=-1.8 dist=60.2", 
+        "  match: dxf=(9834.8,16022.6) revit=(9883.5,16025.1) dx=48.7 dy=2.6 dist=48.7", 
+        "  match: dxf=(9881.6,12060.8) revit=(9888.0,12060.8) dx=6.4 dy=-0.0 dist=6.4", 
+        "  match: dxf=(8624.2,12507.4) revit=(8743.5,12476.7) dx=119.2 dy=-30.7 dist=123.1", 
+        "  match: dxf=(7548.8,9505.2) revit=(7563.5,9607.7) dx=14.7 dy=102.5 dist=103.5", 
+        "  match: dxf=(7314.1,9672.7) revit=(7563.5,9607.7) dx=249.4 dy=-65.0 dist=257.8", 
+        "  match: dxf=(8634.2,12488.9) revit=(8743.5,12476.7) dx=109.3 dy=-12.3 dist=109.9", 
+        "  match: dxf=(7544.4,9724.2) revit=(7563.5,9607.7) dx=19.1 dy=-116.5 dist=118.1", 
+        "  match: dxf=(9639.5,15972.3) revit=(9675.8,16090.1) dx=36.2 dy=117.9 dist=123.3", 
+        "  match: dxf=(8844.7,11244.3) revit=(8743.5,11278.5) dx=-101.3 dy=34.1 dist=106.9", 
+        "  match: dxf=(8300.3,14406.6) revit=(8324.0,14388.9) dx=23.7 dy=-17.7 dist=29.6", 
+        "  match: dxf=(8623.3,12671.5) revit=(8685.8,12656.7) dx=62.5 dy=-14.8 dist=64.2", 
+        "  match: dxf=(8682.3,12548.1) revit=(8743.5,12476.7) dx=61.2 dy=-71.5 dist=94.1", 
+        "  match: dxf=(8682.3,12698.1) revit=(8685.8,12656.7) dx=3.5 dy=-41.5 dist=41.6", 
+        "  match: dxf=(8682.3,12408.7) revit=(8743.5,12476.7) dx=61.2 dy=67.9 dist=91.4", 
+        "  match: dxf=(8685.8,12308.9) revit=(8743.5,12476.7) dx=57.7 dy=167.8 dist=177.4", 
+        "  match: dxf=(9443.8,15702.7) revit=(9675.8,16090.1) dx=232.0 dy=387.5 dist=451.6", 
+        "  match: dxf=(9623.2,15734.3) revit=(9675.8,16090.1) dx=52.5 dy=355.9 dist=359.7", 
+        "  match: dxf=(9425.7,16358.2) revit=(9675.8,16090.1) dx=250.0 dy=-268.1 dist=366.6", 
+        "  match: dxf=(8685.7,12266.3) revit=(8743.5,12476.7) dx=57.8 dy=210.3 dist=218.1", 
+        "  match: dxf=(10098.9,13122.9) revit=(10120.6,13090.1) dx=21.7 dy=-32.8 dist=39.3", 
+        "  match: dxf=(9686.1,13122.1) revit=(10120.6,13090.1) dx=434.5 dy=-31.9 dist=435.7"
+      ], 
+      "apto": "Apartamentos Tipo F 18", 
+      "dx_mm": 81.744000000000000, 
+      "std_x_mm": 110.30000000000000, 
+      "n_inserts_dxf": 45, 
+      "dy_mm": 31.329999999999998
+    }
+  }
+}

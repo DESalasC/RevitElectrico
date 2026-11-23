@@ -1,0 +1,1957 @@
+{
+  "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+  "resumen": {
+    "fallos": 0, 
+    "sin_apartamento": 664, 
+    "total": 880, 
+    "asignados_ok": 216
+  }, 
+  "generado_utc": "2026-11-22 21:24:05", 
+  "resultados": [
+    {
+      "id": 5529723, 
+      "mark_anterior": "E06|DC|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Simple conmutable"
+    }, 
+    {
+      "id": 5529727, 
+      "mark_anterior": "E06|DB|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5529730, 
+      "mark_anterior": "E06|85|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5529732, 
+      "mark_anterior": "E06|CE|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Doble conmutable"
+    }, 
+    {
+      "id": 5529736, 
+      "mark_anterior": "E06|6D|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5529739, 
+      "mark_anterior": "E06|107|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Ventilador"
+    }, 
+    {
+      "id": 5529757, 
+      "mark_anterior": "E06|D7|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5529763, 
+      "mark_anterior": "E06|84|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5529775, 
+      "mark_anterior": "E06|110|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Ventilador"
+    }, 
+    {
+      "id": 5529781, 
+      "mark_anterior": "E06|148|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Interruptor Ventilador"
+    }, 
+    {
+      "id": 5529783, 
+      "mark_anterior": "E06|86|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5529787, 
+      "mark_anterior": "E06|164|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Interruptor Ventilador"
+    }, 
+    {
+      "id": 5529796, 
+      "mark_anterior": "E06|DA|TE-03", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5529798, 
+      "mark_anterior": "E06|92|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5529802, 
+      "mark_anterior": "E06|BD|TE-03", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5529805, 
+      "mark_anterior": "E06|EE|TE-03", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5529807, 
+      "mark_anterior": "E06|DF|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Triple"
+    }, 
+    {
+      "id": 5529811, 
+      "mark_anterior": "E06|103|TE-09", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5529814, 
+      "mark_anterior": "E06|BC|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5529840, 
+      "mark_anterior": "E06|104|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5529849, 
+      "mark_anterior": "E06|BB|TE-03", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5529852, 
+      "mark_anterior": "E06|111|TE-07", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5529855, 
+      "mark_anterior": "E06|9E|TE-03", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": "Cocina", 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5557235, 
+      "mark_anterior": "F01|TF 01|M_Toma_doble_34.444_5.028_GFCI", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5557237, 
+      "mark_anterior": "F01|TF 01|M_Toma_doble_34.373_5.410_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557239, 
+      "mark_anterior": "F01|TF 01|M_Toma_doble_45.395_11.075_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557241, 
+      "mark_anterior": "F01|TF 01|M_Toma_doble_45.400_16.906_GFCI", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5557243, 
+      "mark_anterior": "F01|TF 01|M_Toma_doble_45.559_18.965_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557245, 
+      "mark_anterior": "F01|TF 01|M_Toma_doble_45.559_19.391_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557247, 
+      "mark_anterior": "F01|TF 01|M_Toma_doble_46.084_24.826_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557249, 
+      "mark_anterior": "F01|TF|TF-11", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5557259, 
+      "mark_anterior": "F01|TF 01|M_ClimatizacionV_39.461_10.721_Ventilad", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Ventilador"
+    }, 
+    {
+      "id": 5557262, 
+      "mark_anterior": "F01|TF 01|M_Toma_doble_45.569_20.721_GFCI", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": "Cocina", 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5557297, 
+      "mark_anterior": "F01|TF 01|M_Toma_doble_38.456_17.694_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557299, 
+      "mark_anterior": "F01|TF|TF-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557303, 
+      "mark_anterior": "F02|TF 01|M_Toma_doble_34.509_53.018_GFCI", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5557305, 
+      "mark_anterior": "F02|TF 01|M_Toma_doble_34.504_52.581_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557307, 
+      "mark_anterior": "F02|TF 01|M_Toma_doble_45.394_46.840_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557309, 
+      "mark_anterior": "F02|TF 01|M_Toma_doble_45.492_41.022_GFCI", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": "Cocina", 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5557311, 
+      "mark_anterior": "F02|TF 01|M_Toma_doble_45.466_38.956_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557313, 
+      "mark_anterior": "F02|TF 01|M_Toma_doble_45.466_38.530_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557315, 
+      "mark_anterior": "F02|TF 01|M_Toma_doble_46.084_33.084_Normal", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5557317, 
+      "mark_anterior": "F02|TF 01|M_Toma_doble_34.460_39.569_GFCI", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5557327, 
+      "mark_anterior": "F02|TF 01|M_ClimatizacionV_39.592_47.208_Ventilad", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Ventilador"
+    }, 
+    {
+      "id": 5557330, 
+      "mark_anterior": "F02|TF 01|M_Toma_doble_45.477_37.199_GFCI", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": "Cocina", 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5557367, 
+      "mark_anterior": "F02|TF|TF-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568806, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568807, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568808, 
+      "mark_anterior": "F17", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F17|TF|SIN CIRCUITO", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568809, 
+      "mark_anterior": "F17_COCINA", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F17|TF|SIN CIRCUITO", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568810, 
+      "mark_anterior": "F17_COCINA", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F17|TF|SIN CIRCUITO", 
+      "apto": "F17", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568811, 
+      "mark_anterior": "F17_COCINA", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F17|TF|SIN CIRCUITO", 
+      "apto": "F17", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568812, 
+      "mark_anterior": "F17_COCINA", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F17|TF|SIN CIRCUITO", 
+      "apto": "F17", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568813, 
+      "mark_anterior": "F17|TF|TF-11", 
+      "circuito": "TF-11", 
+      "mark": "F17|TF|TF-11", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568816, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Ventilador"
+    }, 
+    {
+      "id": 5568817, 
+      "mark_anterior": "F17_COCINA", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F17|TF|SIN CIRCUITO", 
+      "apto": "F17", 
+      "comment": "Cocina", 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568833, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568835, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568836, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568837, 
+      "mark_anterior": "F18", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F18|TF|SIN CIRCUITO", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568838, 
+      "mark_anterior": "F18_COCINA", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F18|TF|SIN CIRCUITO", 
+      "apto": "F18", 
+      "comment": "Cocina", 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568839, 
+      "mark_anterior": "F18_COCINA", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F18|TF|SIN CIRCUITO", 
+      "apto": "F18", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568840, 
+      "mark_anterior": "F18_COCINA", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F18|TF|SIN CIRCUITO", 
+      "apto": "F18", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568841, 
+      "mark_anterior": "F18_COCINA", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F18|TF|SIN CIRCUITO", 
+      "apto": "F18", 
+      "comment": "Cocina", 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568842, 
+      "mark_anterior": "F18|TF|TF-11", 
+      "circuito": "TF-11", 
+      "mark": "F18|TF|TF-11", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568844, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Ventilador"
+    }, 
+    {
+      "id": 5568861, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568865, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568867, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568868, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568873, 
+      "mark_anterior": "F17|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F17|TF|TF-03", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568875, 
+      "mark_anterior": "F17|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F17|TF|TF-03", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Doble"
+    }, 
+    {
+      "id": 5568876, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Interruptor Ventilador"
+    }, 
+    {
+      "id": 5568897, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568898, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568899, 
+      "mark_anterior": "F18|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F18|TF|TF-03", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Doble"
+    }, 
+    {
+      "id": 5568900, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Interruptor Ventilador"
+    }, 
+    {
+      "id": 5568909, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5639166, 
+      "mark_anterior": "E08a|TE08a|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E08a|TF|SIN CIRCUITO", 
+      "apto": "E08a", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5652660, 
+      "mark_anterior": "E08a|TE08a|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E08a|TF|SIN CIRCUITO", 
+      "apto": "E08a", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5529721, 
+      "mark_anterior": "E06|12A|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5529751, 
+      "mark_anterior": "E06|11F|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5529754, 
+      "mark_anterior": "E06|128|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5529766, 
+      "mark_anterior": "E06|138|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5529790, 
+      "mark_anterior": "E06|129|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5529793, 
+      "mark_anterior": "E06|139|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5529832, 
+      "mark_anterior": "E06|112|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5529835, 
+      "mark_anterior": "E06|11E|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5529838, 
+      "mark_anterior": "E06|13A|TE-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5557265, 
+      "mark_anterior": "F01|TF 01|M_Iluminacion_41.822_19.297_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5557267, 
+      "mark_anterior": "F01|TF 01|M_Iluminacion_41.850_23.566_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5557269, 
+      "mark_anterior": "F01|TF 01|M_Iluminacion_41.807_6.469_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5557271, 
+      "mark_anterior": "F01|TF 01|M_Iluminacion_35.709_6.469_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5557273, 
+      "mark_anterior": "F01|TF 01|M_Iluminacion_41.822_14.933_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5557275, 
+      "mark_anterior": "F01|TF 01|M_Iluminacion_35.724_14.933_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5557277, 
+      "mark_anterior": "F01|TF 01|M_Iluminacion_35.704_22.347_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5557279, 
+      "mark_anterior": "F01|TF 01|M_Iluminacion_39.527_2.563_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5557333, 
+      "mark_anterior": "F02|TF 01|M_Iluminacion_41.953_38.632_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5557335, 
+      "mark_anterior": "F02|TF 01|M_Iluminacion_41.980_34.363_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5557337, 
+      "mark_anterior": "F02|TF 01|M_Iluminacion_41.938_51.460_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5557339, 
+      "mark_anterior": "F02|TF 01|M_Iluminacion_35.840_51.460_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5557341, 
+      "mark_anterior": "F02|TF 01|M_Iluminacion_41.953_42.995_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5557343, 
+      "mark_anterior": "F02|TF 01|M_Iluminacion_35.855_42.995_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5557345, 
+      "mark_anterior": "F02|TF 01|M_Iluminacion_35.834_35.582_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5557347, 
+      "mark_anterior": "F02|TF 01|M_Iluminacion_39.658_55.365_SONOFLE", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5568818, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5568819, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5568820, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568821, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568822, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568823, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568824, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5568846, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5568847, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5568848, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568849, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568850, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568851, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568852, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5529820, 
+      "mark_anterior": "E06|BE|SIN CIRCUITO", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "CPB6BL"
+    }, 
+    {
+      "id": 5557301, 
+      "mark_anterior": "F01|TF 01|Consolidation_Point_38.397_16.948_CPB12BL", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "CPB12BL"
+    }, 
+    {
+      "id": 5557369, 
+      "mark_anterior": "F02|TF 01|Consolidation_Point_38.395_40.974_CPB12BL", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "CPB12BL"
+    }, 
+    {
+      "id": 5568834, 
+      "mark_anterior": "F17|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F17|TF|TF-03", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "CPB12BL"
+    }, 
+    {
+      "id": 5568862, 
+      "mark_anterior": "F18|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F18|TF|TF-03", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "CPB12BL"
+    }, 
+    {
+      "id": 5570615, 
+      "mark_anterior": "F02|TF 01|CP_15", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "CPB6BL"
+    }, 
+    {
+      "id": 5580891, 
+      "mark_anterior": "F02|TF 01|CP_16", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "CPB6BL"
+    }, 
+    {
+      "id": 5580964, 
+      "mark_anterior": "F02|TF 01|CP_17", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "CPB6BL"
+    }, 
+    {
+      "id": 5529742, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529745, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529748, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529760, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529769, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529772, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529817, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529823, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529826, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529829, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557281, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557283, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557285, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557287, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557289, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557293, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557349, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557351, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557353, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557355, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557357, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557359, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557361, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568826, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568827, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568828, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568829, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568830, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568831, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568854, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568855, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568856, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568857, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568858, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568859, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568860, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570590, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570591, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570592, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570596, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570599, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570600, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570614, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570616, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570617, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570618, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580866, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580867, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580868, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580872, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580875, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580876, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580890, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580892, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580893, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580894, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580939, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580940, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580941, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580945, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580948, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580949, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580963, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580965, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580966, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580967, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5648843, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5653564, 
+      "mark_anterior": "F17|TF|TF-04", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5653580, 
+      "mark_anterior": "F17|TF|TF-05", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529844, 
+      "mark_anterior": "E06|EF|TE-03", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5529858, 
+      "mark_anterior": "E06|96|TE-03", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "E06|TF|SIN CIRCUITO", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Timbre"
+    }, 
+    {
+      "id": 5557251, 
+      "mark_anterior": "F01|TF 01|M_Pulsador__Interruptor_42.103_26.920_Timbre", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Timbre"
+    }, 
+    {
+      "id": 5557253, 
+      "mark_anterior": "F01|TF 01|M_Timbre_42.697_26.252_Campana", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5568128, 
+      "mark_anterior": "F01|TF 01|M_Timbre_43_69", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5568814, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Timbre"
+    }, 
+    {
+      "id": 5568815, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5568911, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5570623, 
+      "mark_anterior": "F01|TF 01|M_Timbre_43_74", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5570628, 
+      "mark_anterior": "F01|TF 01|M_Timbre_43_75", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Timbre"
+    }, 
+    {
+      "id": 5580899, 
+      "mark_anterior": "F01|TF 01|M_Timbre_43_76", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5580904, 
+      "mark_anterior": "F01|TF 01|M_Timbre_43_77", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Timbre"
+    }, 
+    {
+      "id": 5580972, 
+      "mark_anterior": "F01|TF 01|M_Timbre_43_78", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5580977, 
+      "mark_anterior": "F01|TF 01|M_Timbre_43_79", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Timbre"
+    }, 
+    {
+      "id": 5557263, 
+      "mark_anterior": "F01|TF 01|EA_34.013_23.408_Extintor", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "EA 1010"
+    }, 
+    {
+      "id": 5557331, 
+      "mark_anterior": "F02|TF 01|EA_33.990_34.532_Extintor", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "EA 1010"
+    }, 
+    {
+      "id": 5628048, 
+      "mark_anterior": "F02|TF|TF-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F02|TF|SIN CIRCUITO", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "EA 1010"
+    }, 
+    {
+      "id": 5628093, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "EA 1010"
+    }, 
+    {
+      "id": 5628152, 
+      "mark_anterior": "F01|TF|TF-01", 
+      "circuito": "SIN CIRCUITO", 
+      "mark": "F01|TF|SIN CIRCUITO", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "EA 1010"
+    }, 
+    {
+      "id": 5628242, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "EA 1010"
+    }
+  ], 
+  "version": "v01_final"
+}

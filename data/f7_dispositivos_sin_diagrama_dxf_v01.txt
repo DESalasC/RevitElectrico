@@ -1,0 +1,73 @@
+F7 - Dispositivos de REVIT SIN diagrama DXF (faltantes de ruteo automático)
+==========================================================================
+Origen: plan v08 (data/f7_plan_ruteo_f17_f18_v08.json)
+Documento: STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c
+Generado: 2026-11-22
+Metodo: comparacion entre dispositivos OST_ElectricalFixtures/OST_LightingFixtures/OST_DataDevices
+        en zonas F17/F18 de CENTRAL-V01c y la topologia de polilineas de conducto del DXF XPL.
+
+Estos dispositivos existen en el modelo Revit pero NO aparecen en ninguna polilinea de
+conduito del DXF. Por tanto el ruteo v08 no les puede asignar conduit automaticamente.
+Quedan SIN conduit y deben resolverse manualmente o mediante heuristica (conexion al
+conduit mas cercano).
+
+----------------------------------------------------------------------
+APTO F17 — Dispositivos REVIT sin diagrama DXF (12)
+----------------------------------------------------------------------
+  id=5558646   M_Interruptores | Simple          (10716, 1577)   Z=14320 mm  (1100 mm sobre nivel)
+  id=5568808   M_Toma doble | Normal             (6556, 3228)    Z=14220 mm
+  id=5568809   M_Toma doble | GFCI               (6556, 5136)    Z=14070 mm
+  id=5568810   M_Toma doble | Normal             (6556, 5788)    Z=14870 mm
+  id=5568811   M_Toma doble | Normal             (6556, 5916)    Z=13920 mm
+  id=5568812   M_Toma doble | Normal             (6556, 7577)    Z=14270 mm
+  id=5568817   M_Toma doble | GFCI               (6564, 6338)    Z=14270 mm
+  id=5568832   M_Toma doble | Normal             (8686, 5256)    Z=13520 mm  (300 mm sobre nivel)
+  id=5557271   M_Iluminacion | SONO FLEX 10 trim (10884, 1972)   Z=15820 mm  (2600 mm)
+  id=5557275   M_Iluminacion | SONO FLEX 10 trim (10889, 4552)   Z=15820 mm  (2600 mm)
+  id=5557277   M_Iluminacion | SONO FLEX 13 trim (10883, 6811)   Z=15820 mm  (2600 mm)
+  id=5568825   M_Iluminacion | SONO FLEX 13 trim (8344, 781)     Z=15820 mm  (2600 mm)
+
+----------------------------------------------------------------------
+APTO F18 — Dispositivos REVIT sin diagrama DXF (13)
+----------------------------------------------------------------------
+  id=5557303   M_Toma doble | GFCI               (10502, 16155)  Z=13520 mm
+  id=5557305   M_Toma doble | Normal             (10508, 16025)  Z=13520 mm
+  id=5557317   M_Toma doble | GFCI               (10504, 12061)  Z=13519 mm
+  id=5567671   M_Interruptores | Simple          (10716, 16090)  Z=14320 mm
+  id=5568837   M_Toma doble | Normal             (6555, 14297)   Z=14220 mm
+  id=5568838   M_Toma doble | GFCI               (6555, 11345)   Z=14270 mm
+  id=5568839   M_Toma doble | Normal             (6555, 11745)   Z=13920 mm
+  id=5568840   M_Toma doble | Normal             (6555, 11878)   Z=14870 mm
+  id=5568845   M_Toma doble | GFCI               (6557, 12482)   Z=14070 mm
+  id=5557339   M_Iluminacion | SONO FLEX 10 trim (10924, 15685)  Z=15820 mm
+  id=5557343   M_Iluminacion | SONO FLEX 10 trim (10929, 13105)  Z=15820 mm
+  id=5557345   M_Iluminacion | SONO FLEX 13 trim (10922, 10845)  Z=15820 mm
+  id=5568853   M_Iluminacion | SONO FLEX 13 trim (8304, 16875)   Z=15820 mm
+
+----------------------------------------------------------------------
+RESUMEN
+----------------------------------------------------------------------
+Dispositivos REVIT sin diagrama DXF: 25  (F17=12, F18=13)
+  - Tomas doble Normal: 9  (F17=6, F18=3)
+  - Tomas doble GFCI:   6  (F17=2, F18=4)
+  - Interruptores Simple: 2  (F17=1, F18=1)
+  - Iluminacion SONO FLEX: 8  (F17=4, F18=4)
+
+----------------------------------------------------------------------
+Nota adicional: dispositivos DXF sin contraparte en REVIT (no se pueden anclar)
+----------------------------------------------------------------------
+APTO F17 (8): ELEC-TEL x4, ELEC-TIMBRE x1, ELEC-CAMPANA x1, ELEC-EXT x2
+APTO F18 (9): ELEC-EXT x2, ELEC-TIMBRE x1, ELEC-CAMPANA x1, ELEC-TEL x4, ELEC-T-D-t-15A x1
+
+Estos aparecen en el diagrama DXF pero no hay dispositivo colocado en Revit, por lo que
+no hay extremo fisico al que anclar un conduit. Se requieren las familias correspondientes
+(colocacion manual del operador) antes de poder rutear esas ramas.
+
+----------------------------------------------------------------------
+Decisiones pendientes del operador
+----------------------------------------------------------------------
+1. ¿Conectar los 25 dispositivos REVIT sin DXF al conduit mas cercano (heuristica) o
+   dejarlos para ruteo manual?
+2. Los 132 conduits del plan v08 se crean con TuboE (id=112216, hipotesis Ø21).
+   Las comunicaciones (TuboC, 2 tubos) no se crean: no hay dispositivos de datos
+   colocados en Revit F17/F18.

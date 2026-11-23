@@ -1,0 +1,604 @@
+{
+  "version": "v01",
+  "generado_utc": "2026-11-22 20:11:19",
+  "dxf": "D:\\Work\\PROJECTS\\RevitElectrico\\ArchivosBase\\STM-T5-P5_bloques_electricos-XPL.dxf",
+  "resumen": {
+    "total_bloques": 59,
+    "f17": 31,
+    "f18": 28,
+    "con_circuito": 59,
+    "sin_circuito": 0
+  },
+  "bloques": [
+    {
+      "nombre": "ELEC-EXT",
+      "x": 10360.26326796967,
+      "y": 10525.36854917579,
+      "apto": "F18",
+      "handle": "119F3",
+      "circuito": "TF-01",
+      "circuito_dist": 200.53264493936615,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 10270.97448689971,
+      "y": 13111.33528724499,
+      "apto": "F18",
+      "handle": "11A49",
+      "circuito": "TF-01",
+      "circuito_dist": 221.59904250160227,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 9829.63039224442,
+      "y": 16156.89077639436,
+      "apto": "F18",
+      "handle": "11A51",
+      "circuito": "TF-01",
+      "circuito_dist": 198.84464569374387,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 9834.815241219629,
+      "y": 16022.57856089342,
+      "apto": "F18",
+      "handle": "11A52",
+      "circuito": "TF-01",
+      "circuito_dist": 225.59300979250796,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 9881.613645280127,
+      "y": 12060.77277240077,
+      "apto": "F18",
+      "handle": "11A5B",
+      "circuito": "TF-11",
+      "circuito_dist": 150.90839449884785,
+      "circuito_texto": "TF-11"
+    },
+    {
+      "nombre": "ELEC-NET-PAU",
+      "x": 8624.23780143481,
+      "y": 12507.39377432801,
+      "apto": "F18",
+      "handle": "11A5C",
+      "circuito": "TF-03",
+      "circuito_dist": 546.2087233863431,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-TIMBRE",
+      "x": 7548.811393138844,
+      "y": 9505.198302426617,
+      "apto": "F18",
+      "handle": "11A5D",
+      "circuito": "TF-01",
+      "circuito_dist": 116.13397406238197,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-CAMPANA",
+      "x": 7314.057355320625,
+      "y": 9672.698302427547,
+      "apto": "F18",
+      "handle": "11A5E",
+      "circuito": "TF-01",
+      "circuito_dist": 396.59780489245827,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-I-S-2-5A",
+      "x": 8634.219876274445,
+      "y": 12488.94664525033,
+      "apto": "F18",
+      "handle": "11A5F",
+      "circuito": "TF-03",
+      "circuito_dist": 538.8933342238169,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-I-S-1-5A",
+      "x": 7544.386668298654,
+      "y": 9724.198301696571,
+      "apto": "F18",
+      "handle": "11A60",
+      "circuito": "TF-01",
+      "circuito_dist": 326.04997852209794,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-I-S-1-5A",
+      "x": 9639.536106988638,
+      "y": 15972.273911799,
+      "apto": "F18",
+      "handle": "11A61",
+      "circuito": "TF-01",
+      "circuito_dist": 298.36229118477956,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-I-S-1-5A",
+      "x": 8844.741323936902,
+      "y": 11244.3394746468,
+      "apto": "F18",
+      "handle": "11A67",
+      "circuito": "TF-01",
+      "circuito_dist": 606.7046267321832,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-F-VENT",
+      "x": 8300.289009387692,
+      "y": 14406.62612903362,
+      "apto": "F18",
+      "handle": "11A69",
+      "circuito": "TF-01",
+      "circuito_dist": 35.564354841755666,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-F-CONTROL",
+      "x": 8623.28061965209,
+      "y": 12671.51646932649,
+      "apto": "F18",
+      "handle": "11A6A",
+      "circuito": "TF-01",
+      "circuito_dist": 475.74392232262994,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-TEL",
+      "x": 8682.318237459936,
+      "y": 12548.14847816924,
+      "apto": "F18",
+      "handle": "11A6F",
+      "circuito": "TF-01",
+      "circuito_dist": 529.6971697039377,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-TEL",
+      "x": 8682.318237459936,
+      "y": 12698.13208867872,
+      "apto": "F18",
+      "handle": "11A70",
+      "circuito": "TF-01",
+      "circuito_dist": 414.30638036292663,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-TEL",
+      "x": 8682.318237459936,
+      "y": 12408.73957572472,
+      "apto": "F18",
+      "handle": "11A71",
+      "circuito": "TF-03",
+      "circuito_dist": 519.5698688572107,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 8685.774486899756,
+      "y": 12308.86677682947,
+      "apto": "F18",
+      "handle": "11A81",
+      "circuito": "TF-03",
+      "circuito_dist": 468.0467334589396,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-EXT",
+      "x": 10038.09555998562,
+      "y": 10549.2003891699,
+      "apto": "F18",
+      "handle": "11A8D",
+      "circuito": "TF-01",
+      "circuito_dist": 448.5711757103475,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 22W",
+      "x": 7580.698320171546,
+      "y": 11792.65665154322,
+      "apto": "F18",
+      "handle": "11A94",
+      "circuito": "TF-01",
+      "circuito_dist": 177.09090706027754,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 22W",
+      "x": 7572.199707136956,
+      "y": 10491.50609814343,
+      "apto": "F18",
+      "handle": "11A95",
+      "circuito": "TF-01",
+      "circuito_dist": 232.31162739518942,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 10W",
+      "x": 7585.236341787645,
+      "y": 15702.65665154307,
+      "apto": "F18",
+      "handle": "11A96",
+      "circuito": "TF-01",
+      "circuito_dist": 165.34403747176853,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 10W",
+      "x": 9443.786145269863,
+      "y": 15702.65665154307,
+      "apto": "F18",
+      "handle": "11A97",
+      "circuito": "TF-01",
+      "circuito_dist": 404.2173378759759,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 10W",
+      "x": 7580.698320171546,
+      "y": 13122.65665154315,
+      "apto": "F18",
+      "handle": "11A98",
+      "circuito": "TF-01",
+      "circuito_dist": 73.73250524461069,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 10W",
+      "x": 9439.248123653764,
+      "y": 13122.65665154315,
+      "apto": "F18",
+      "handle": "11A99",
+      "circuito": "TF-01",
+      "circuito_dist": 479.0579793077149,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 13W",
+      "x": 9445.537704868097,
+      "y": 10862.99183371831,
+      "apto": "F18",
+      "handle": "11A9A",
+      "circuito": "TF-01",
+      "circuito_dist": 435.6945208665069,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-TEL",
+      "x": 8685.701112543324,
+      "y": 12266.33360670808,
+      "apto": "F18",
+      "handle": "11ACE",
+      "circuito": "TF-03",
+      "circuito_dist": 449.6452868496294,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 10098.88660068641,
+      "y": 13122.88458524565,
+      "apto": "F18",
+      "handle": "11AD7",
+      "circuito": "TF-01",
+      "circuito_dist": 314.55187165068946,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-NET-PAU",
+      "x": 8683.14335640133,
+      "y": 5262.287880952349,
+      "apto": "F17",
+      "handle": "11AE2",
+      "circuito": "TF-03",
+      "circuito_dist": 361.2156659030297,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-TEL",
+      "x": 8690.135556186962,
+      "y": 5347.72725699796,
+      "apto": "F17",
+      "handle": "11AE6",
+      "circuito": "TF-03",
+      "circuito_dist": 275.60003064198145,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-TEL",
+      "x": 8690.135556186962,
+      "y": 5497.710867507444,
+      "apto": "F17",
+      "handle": "11AE7",
+      "circuito": "TF-03",
+      "circuito_dist": 128.77340081967603,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-TEL",
+      "x": 8690.135556186962,
+      "y": 5208.318354553433,
+      "apto": "F17",
+      "handle": "11AE8",
+      "circuito": "TF-03",
+      "circuito_dist": 414.1086019731712,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 9846.859448324409,
+      "y": 1540.495655069329,
+      "apto": "F17",
+      "handle": "11AE9",
+      "circuito": "TF-01",
+      "circuito_dist": 286.67524019154484,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 9850.015766112338,
+      "y": 1657.107187562936,
+      "apto": "F17",
+      "handle": "11AEA",
+      "circuito": "TF-01",
+      "circuito_dist": 212.9949852856881,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-TIMBRE",
+      "x": 7566.040449218831,
+      "y": 8161.18812903707,
+      "apto": "F17",
+      "handle": "11AF0",
+      "circuito": "TF-01",
+      "circuito_dist": 726.7033394714996,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-CAMPANA",
+      "x": 7331.28641140061,
+      "y": 8009.688129036142,
+      "apto": "F17",
+      "handle": "11AF1",
+      "circuito": "TF-01",
+      "circuito_dist": 454.39755593322434,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-I-S-2-5A",
+      "x": 8639.147548956455,
+      "y": 5194.59757057883,
+      "apto": "F17",
+      "handle": "11AF2",
+      "circuito": "TF-03",
+      "circuito_dist": 435.3124223045601,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-I-S-1-5A",
+      "x": 7561.615724378639,
+      "y": 7958.188129767115,
+      "apto": "F17",
+      "handle": "11AF3",
+      "circuito": "TF-01",
+      "circuito_dist": 635.9666196368919,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-I-S-1-5A",
+      "x": 9656.765163068627,
+      "y": 1710.112519664684,
+      "apto": "F17",
+      "handle": "11AF4",
+      "circuito": "TF-01",
+      "circuito_dist": 297.1722040962024,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-F-VENT",
+      "x": 8317.518065467677,
+      "y": 3275.760302430064,
+      "apto": "F17",
+      "handle": "11AFB",
+      "circuito": "TF-01",
+      "circuito_dist": 130.2786346056247,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-F-CONTROL",
+      "x": 8628.208292334108,
+      "y": 5012.027746502674,
+      "apto": "F17",
+      "handle": "11AFC",
+      "circuito": "TF-01",
+      "circuito_dist": 576.7779846599915,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 8684.807396800357,
+      "y": 5542.516012584068,
+      "apto": "F17",
+      "handle": "11B0D",
+      "circuito": "TF-03",
+      "circuito_dist": 89.49993821026077,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-EXT",
+      "x": 10008.10698165536,
+      "y": 7142.991068378371,
+      "apto": "F17",
+      "handle": "11B18",
+      "circuito": "TF-01",
+      "circuito_dist": 140.81165624208185,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 22W",
+      "x": 7597.927376251532,
+      "y": 5889.729779920465,
+      "apto": "F17",
+      "handle": "11B1E",
+      "circuito": "TF-01",
+      "circuito_dist": 123.95425816532841,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 22W",
+      "x": 7589.428763216942,
+      "y": 7190.880333320258,
+      "apto": "F17",
+      "handle": "11B1F",
+      "circuito": "TF-01",
+      "circuito_dist": 135.26694429751754,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 10W",
+      "x": 7602.465397867631,
+      "y": 1979.729779920611,
+      "apto": "F17",
+      "handle": "11B20",
+      "circuito": "TF-01",
+      "circuito_dist": 66.73385806370815,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 10W",
+      "x": 9461.01520134985,
+      "y": 1979.729779920611,
+      "apto": "F17",
+      "handle": "11B21",
+      "circuito": "TF-01",
+      "circuito_dist": 374.3451919788674,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 10W",
+      "x": 7597.927376251532,
+      "y": 4559.729779920539,
+      "apto": "F17",
+      "handle": "11B22",
+      "circuito": "TF-01",
+      "circuito_dist": 172.42571952219402,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 10W",
+      "x": 9456.47717973375,
+      "y": 4559.729779920539,
+      "apto": "F17",
+      "handle": "11B23",
+      "circuito": "TF-01",
+      "circuito_dist": 338.27436021258,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "Bala Stil Led 13W",
+      "x": 9462.766760948085,
+      "y": 6819.394597745379,
+      "apto": "F17",
+      "handle": "11B24",
+      "circuito": "TF-01",
+      "circuito_dist": 441.1714145156227,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-TEL",
+      "x": 8690.135556186962,
+      "y": 5069.095144646019,
+      "apto": "F17",
+      "handle": "11B45",
+      "circuito": "TF-03",
+      "circuito_dist": 552.8845286422021,
+      "circuito_texto": "TF-03"
+    },
+    {
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 10016.87910762771,
+      "y": 5641.764760358712,
+      "apto": "F17",
+      "handle": "11B57",
+      "circuito": "TF-11",
+      "circuito_dist": 280.75823573146715,
+      "circuito_texto": "TF-11"
+    },
+    {
+      "nombre": "ELEC-I-S-1-5A",
+      "x": 8879.42216289441,
+      "y": 6401.086485854188,
+      "apto": "F17",
+      "handle": "11B58",
+      "circuito": "TF-01",
+      "circuito_dist": 498.0406050164667,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 10110.01576611234,
+      "y": 4561.073174185526,
+      "apto": "F17",
+      "handle": "11B67",
+      "circuito": "TF-01",
+      "circuito_dist": 100.79051604318937,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 10498.41125570327,
+      "y": 1532.386928591391,
+      "apto": "F17",
+      "handle": "11B74",
+      "circuito": "TF-01",
+      "circuito_dist": 277.24775683998075,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 10476.76807567375,
+      "y": 1648.998461084998,
+      "apto": "F17",
+      "handle": "11B75",
+      "circuito": "TF-01",
+      "circuito_dist": 363.924913989015,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-GFCI-t-15A",
+      "x": 10328.39159639996,
+      "y": 5633.656033880775,
+      "apto": "F17",
+      "handle": "11B7B",
+      "circuito": "TF-11",
+      "circuito_dist": 141.05999487377687,
+      "circuito_texto": "TF-11"
+    },
+    {
+      "nombre": "ELEC-EXT",
+      "x": 10367.16372237231,
+      "y": 7134.882341900435,
+      "apto": "F17",
+      "handle": "11BA5",
+      "circuito": "TF-01",
+      "circuito_dist": 184.53874342363272,
+      "circuito_texto": "TF-01"
+    },
+    {
+      "nombre": "ELEC-T-D-t-15A",
+      "x": 10271.97448689971,
+      "y": 4558.125666917012,
+      "apto": "F17",
+      "handle": "11BF5",
+      "circuito": "TF-01",
+      "circuito_dist": 143.99544127333687,
+      "circuito_texto": "TF-01"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "v01",
+  "script": "RE7_ALIGN_COORDS_v01",
+  "offsets": {
+    "Apartamento Tipo F 17": {
+      "apto": "Apartamento Tipo F 17",
+      "cluster": "-6,5",
+      "dx_mm": -6537337.889,
+      "dy_mm": -7991368.144,
+      "n_extremos": 116,
+      "n_match": 25,
+      "detalle": "cluster=-6,5 n_disps=8 n_match=25/116"
+    },
+    "Apartamentos Tipo F 18": {
+      "apto": "Apartamentos Tipo F 18",
+      "cluster": "-7,3",
+      "dx_mm": -6510978.492,
+      "dy_mm": -9663867.348,
+      "n_extremos": 132,
+      "n_match": 31,
+      "detalle": "cluster=-7,3 n_disps=13 n_match=31/132"
+    }
+  }
+}

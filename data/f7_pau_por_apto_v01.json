@@ -1,0 +1,127 @@
+{
+ "version": "v01",
+ "fuente": "dxf_dispositivos_absolutos_v02 (ELEC-NET-PAU)",
+ "total": 20,
+ "pau": [
+  {
+   "apto": "F18",
+   "x": 8624.2,
+   "y": 12507.4,
+   "apto_dxf": "Apartamentos Tipo F 18"
+  },
+  {
+   "apto": "F17",
+   "x": 8683.1,
+   "y": 5262.3,
+   "apto_dxf": "Apartamento Tipo F 17"
+  },
+  {
+   "apto": "E06",
+   "x": 5075.1,
+   "y": 11688.6,
+   "apto_dxf": "Apartamento Tipo E 06"
+  },
+  {
+   "apto": "E05",
+   "x": 5079.9,
+   "y": 5985.6,
+   "apto_dxf": "ApaRtamento Tipo E 05"
+  },
+  {
+   "apto": "E07",
+   "x": -4587.8,
+   "y": 5985.5,
+   "apto_dxf": "Apartamento Tipo E 07"
+  },
+  {
+   "apto": "E08",
+   "x": -4587.8,
+   "y": 11608.9,
+   "apto_dxf": "Apartamento Tipo E 08"
+  },
+  {
+   "apto": "F18A",
+   "x": -17219.3,
+   "y": 12511.5,
+   "apto_dxf": "Apartamentos Tipo F 18a"
+  },
+  {
+   "apto": "F17A",
+   "x": -17223.4,
+   "y": 5271.9,
+   "apto_dxf": "Apartamento Tipo F 17a"
+  },
+  {
+   "apto": "F01A",
+   "x": -14263.1,
+   "y": 5177.2,
+   "apto_dxf": "Apartamento Tipo F 01a"
+  },
+  {
+   "apto": "F02B",
+   "x": -21989.0,
+   "y": 12514.2,
+   "apto_dxf": "Apartamento Tipo F 02b"
+  },
+  {
+   "apto": "F01B",
+   "x": -22013.3,
+   "y": 5177.2,
+   "apto_dxf": "Apartamento Tipo F 01b"
+  },
+  {
+   "apto": "F02A",
+   "x": -14212.5,
+   "y": 12489.8,
+   "apto_dxf": "Apartamento Tipo F 02a"
+  },
+  {
+   "apto": "D13",
+   "x": -28324.2,
+   "y": 11689.9,
+   "apto_dxf": "ELEC-Apartamento Tipo D 13"
+  },
+  {
+   "apto": "C14",
+   "x": -28458.5,
+   "y": 5964.0,
+   "apto_dxf": "ELEC-Apartamento Tipo C 14"
+  },
+  {
+   "apto": "E07A",
+   "x": -42003.8,
+   "y": 5967.6,
+   "apto_dxf": "Apartamento Tipo E 07a"
+  },
+  {
+   "apto": "E08A",
+   "x": -41989.7,
+   "y": 11582.9,
+   "apto_dxf": "Apartamento Tipo E 08a"
+  },
+  {
+   "apto": "B16",
+   "x": -46920.1,
+   "y": 11669.6,
+   "apto_dxf": "Apartamento Tipo B 16"
+  },
+  {
+   "apto": "B15",
+   "x": -46931.3,
+   "y": 6028.7,
+   "apto_dxf": "Apartamento Tipo B 15"
+  },
+  {
+   "apto": "F02",
+   "x": 11702.9,
+   "y": 12488.9,
+   "apto_dxf": "Apartamento Tipo F 02"
+  },
+  {
+   "apto": "F01",
+   "x": 11703.3,
+   "y": 5165.9,
+   "apto_dxf": "Apartamento Tipo F 01"
+  }
+ ]
+}

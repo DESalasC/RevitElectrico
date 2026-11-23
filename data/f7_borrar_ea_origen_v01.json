@@ -1,0 +1,201 @@
+{
+ "generado_utc": "2026-11-22 23:44:41", 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "version": "v01_borrar_ea_origen", 
+ "resumen": {
+  "fallos": 0, 
+  "no_existen": 0, 
+  "omitidos": 0, 
+  "borrados": 16, 
+  "aun_existen": 0, 
+  "ids_solicitados": 16, 
+  "verificados": 16
+ }, 
+ "fallos": [], 
+ "objetivo": {
+  "x": 125.0, 
+  "y": 0.0, 
+  "tipo": "EA 1010", 
+  "tol_mm": 60.0
+ }, 
+ "no_existen": [], 
+ "omitidos": [], 
+ "borrados": [
+  {
+   "familia": "EA", 
+   "id": 5551691, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5551725, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5552287, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5552323, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5552359, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5552395, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5552804, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5552840, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5552876, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5552942, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5553931, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5553963, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5553993, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5554039, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": null, 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5557263, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": "F01|TF|SIN CIRCUITO", 
+   "x": 125.0
+  }, 
+  {
+   "familia": "EA", 
+   "id": 5557331, 
+   "y": 0.0, 
+   "z": 1747.5999999999999, 
+   "tipo": "EA 1010", 
+   "categoria": "Mechanical Equipment", 
+   "comment": null, 
+   "mark": "F02|TF|SIN CIRCUITO", 
+   "x": 125.0
+  }
+ ]
+}

@@ -1,0 +1,995 @@
+{
+  "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+  "resumen": {
+    "fallos": 0, 
+    "sin_apartamento": 667, 
+    "total_dispositivos": 881, 
+    "sin_circuito": 105, 
+    "asignados_ok": 109
+  }, 
+  "generado_utc": "2026-11-22 21:18:50", 
+  "resultados": [
+    {
+      "id": 5568806, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568807, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568813, 
+      "mark_anterior": "F17|TF|TF-11", 
+      "circuito": "TF-11", 
+      "mark": "F17|TF|TF-11", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568816, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Ventilador"
+    }, 
+    {
+      "id": 5568833, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568835, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568836, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568842, 
+      "mark_anterior": "F18|TF|TF-11", 
+      "circuito": "TF-11", 
+      "mark": "F18|TF|TF-11", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "GFCI"
+    }, 
+    {
+      "id": 5568844, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Ventilador"
+    }, 
+    {
+      "id": 5568861, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568865, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568867, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568868, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568873, 
+      "mark_anterior": "F17|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F17|TF|TF-03", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Normal"
+    }, 
+    {
+      "id": 5568875, 
+      "mark_anterior": "F17|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F17|TF|TF-03", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Doble"
+    }, 
+    {
+      "id": 5568876, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Interruptor Ventilador"
+    }, 
+    {
+      "id": 5568897, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568898, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568899, 
+      "mark_anterior": "F18|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F18|TF|TF-03", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Doble"
+    }, 
+    {
+      "id": 5568900, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Interruptor Ventilador"
+    }, 
+    {
+      "id": 5568909, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Simple"
+    }, 
+    {
+      "id": 5568818, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5568819, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5568820, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568821, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568822, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568823, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568824, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5568846, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5568847, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 22 trim"
+    }, 
+    {
+      "id": 5568848, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568849, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568850, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568851, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 10 trim"
+    }, 
+    {
+      "id": 5568852, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "SONO FLEX 13 trim"
+    }, 
+    {
+      "id": 5568834, 
+      "mark_anterior": "F17|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F17|TF|TF-03", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "CPB12BL"
+    }, 
+    {
+      "id": 5568862, 
+      "mark_anterior": "F18|TF|TF-03", 
+      "circuito": "TF-03", 
+      "mark": "F18|TF|TF-03", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "CPB12BL"
+    }, 
+    {
+      "id": 5529742, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529745, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529748, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529760, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529769, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529772, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529817, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529823, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529826, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5529829, 
+      "mark_anterior": "E06|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "E06|TF|Datos", 
+      "apto": "E06", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557281, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557283, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557285, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557287, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557289, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557293, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557349, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557351, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557353, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557355, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557357, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557359, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5557361, 
+      "mark_anterior": "F02|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F02|TF|Datos", 
+      "apto": "F02", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568826, 
+      "mark_anterior": "F17", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568827, 
+      "mark_anterior": "F17", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568828, 
+      "mark_anterior": "F17", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568829, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568830, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568831, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568854, 
+      "mark_anterior": "F18", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568855, 
+      "mark_anterior": "F18", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568856, 
+      "mark_anterior": "F18", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568857, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568858, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568859, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568860, 
+      "mark_anterior": "F18|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F18|TF|Datos", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570590, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570591, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570592, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570596, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570599, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570600, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570614, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570616, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570617, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5570618, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580866, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580867, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580868, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580872, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580875, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580876, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580890, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580892, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580893, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580894, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580939, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580940, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580941, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580945, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580948, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580949, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580963, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580965, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580966, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5580967, 
+      "mark_anterior": "F01|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F01|TF|Datos", 
+      "apto": "F01", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5648843, 
+      "mark_anterior": "F17|TF|Datos", 
+      "circuito": "Datos", 
+      "mark": "F17|TF|Datos", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Datos"
+    }, 
+    {
+      "id": 5568814, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Timbre"
+    }, 
+    {
+      "id": 5568815, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5568911, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "Campana"
+    }, 
+    {
+      "id": 5628093, 
+      "mark_anterior": "F18|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F18|TF|TF-01", 
+      "apto": "F18", 
+      "comment": null, 
+      "familia": "EA 1010"
+    }, 
+    {
+      "id": 5628242, 
+      "mark_anterior": "F17|TF|TF-01", 
+      "circuito": "TF-01", 
+      "mark": "F17|TF|TF-01", 
+      "apto": "F17", 
+      "comment": null, 
+      "familia": "EA 1010"
+    }
+  ], 
+  "version": "v01_conv_vault"
+}

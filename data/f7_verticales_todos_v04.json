@@ -1,0 +1,179 @@
+{
+ "por_apartamento": {
+  "F17": {
+   "seg": 1, 
+   "saltados": 30, 
+   "fallos": 0, 
+   "disp": 36, 
+   "dedup": 5, 
+   "risers": 1
+  }, 
+  "C14": {
+   "seg": 58, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 54, 
+   "dedup": 7, 
+   "risers": 47
+  }, 
+  "D13": {
+   "seg": 54, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 53, 
+   "dedup": 9, 
+   "risers": 44
+  }, 
+  "E07": {
+   "seg": 53, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 48, 
+   "dedup": 5, 
+   "risers": 43
+  }, 
+  "E07A": {
+   "seg": 49, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 43, 
+   "dedup": 4, 
+   "risers": 39
+  }, 
+  "F02A": {
+   "seg": 40, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 33, 
+   "dedup": 2, 
+   "risers": 31
+  }, 
+  "F01": {
+   "seg": 46, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 39, 
+   "dedup": 5, 
+   "risers": 34
+  }, 
+  "E05": {
+   "seg": 47, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 41, 
+   "dedup": 2, 
+   "risers": 39
+  }, 
+  "F01B": {
+   "seg": 40, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 33, 
+   "dedup": 2, 
+   "risers": 31
+  }, 
+  "F01A": {
+   "seg": 40, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 33, 
+   "dedup": 2, 
+   "risers": 31
+  }, 
+  "F02B": {
+   "seg": 39, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 29, 
+   "dedup": 0, 
+   "risers": 29
+  }, 
+  "E08": {
+   "seg": 53, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 49, 
+   "dedup": 6, 
+   "risers": 43
+  }, 
+  "F18A": {
+   "seg": 38, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 33, 
+   "dedup": 3, 
+   "risers": 30
+  }, 
+  "F02": {
+   "seg": 40, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 39, 
+   "dedup": 7, 
+   "risers": 32
+  }, 
+  "E08A": {
+   "seg": 44, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 40, 
+   "dedup": 4, 
+   "risers": 36
+  }, 
+  "B16": {
+   "seg": 71, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 66, 
+   "dedup": 9, 
+   "risers": 57
+  }, 
+  "E06": {
+   "seg": 53, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 49, 
+   "dedup": 6, 
+   "risers": 43
+  }, 
+  "B15": {
+   "seg": 51, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 49, 
+   "dedup": 5, 
+   "risers": 44
+  }, 
+  "F17A": {
+   "seg": 37, 
+   "saltados": 0, 
+   "fallos": 0, 
+   "disp": 30, 
+   "dedup": 2, 
+   "risers": 28
+  }, 
+  "F18": {
+   "seg": 2, 
+   "saltados": 27, 
+   "fallos": 0, 
+   "disp": 34, 
+   "dedup": 5, 
+   "risers": 2
+  }
+ }, 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "resumen": {
+  "fallos": 0, 
+  "conduits_totales": 982, 
+  "saltados_apilados": 0, 
+  "segmentos": 856, 
+  "saltados_existente": 57, 
+  "dispositivos": 838, 
+  "dedup": 90, 
+  "creados": 684, 
+  "apartamentos": 20
+ }, 
+ "generado_utc": "2026-11-22 23:55:25", 
+ "version": "v04_vert_todos", 
+ "fallos_detalle": []
+}
