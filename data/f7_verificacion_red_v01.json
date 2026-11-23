@@ -1,0 +1,22 @@
+{
+ "version": "v01_verificar_red", 
+ "tramos_plan": 136, 
+ "plan": "D:\\Work\\PROJECTS\\RevitElectrico\\data\\f7_creado_ruteo_F01_F02_v09.json", 
+ "z_min_mm": 13519.200000000001, 
+ "conduits_modelo": 136, 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "sin_diametro_legible": 0, 
+ "emparejados": 136, 
+ "z_max_mm": 15930.0, 
+ "fuera_de_plan": 0, 
+ "por_diametro": {
+  "19.0": 28, 
+  "16.0": 108
+ }, 
+ "diametro_distinto": 0, 
+ "sin_conduit": 0, 
+ "veredicto": "OK", 
+ "longitud_total_m": 183.27000000000001, 
+ "detalle_diametro_distinto": [], 
+ "generado_utc": "2026-11-23 02:25:26"
+}

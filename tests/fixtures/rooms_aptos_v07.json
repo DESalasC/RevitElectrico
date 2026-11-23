@@ -1,0 +1,31 @@
+{
+  "descripcion": "Fixture sintetico del router v07: rooms, dominancia por apartamento, agrupacion por recinto y cocina de tres alturas.",
+  "dispositivos": [
+    {"id": 1, "pt": [1000.0, 1000.0, 14220.0], "mark": "F01|TF 01|C1", "familia": "M_Toma doble", "tipo": "Toma doble", "room_id": 10, "host_id": 900},
+    {"id": 2, "pt": [1300.0, 1000.0, 14220.0], "mark": "F01|TF 01|C1", "familia": "M_Toma doble", "tipo": "Toma doble", "room_id": 10, "host_id": 900},
+    {"id": 3, "pt": [1600.0, 1000.0, 14520.0], "mark": "F01|TF 01|C2", "familia": "M_Iluminacion", "tipo": "Luminaria", "room_id": 10, "host_id": null},
+    {"id": 4, "pt": [1100.0, 1500.0, 14220.0], "mark": "F01|TF 01|C1", "familia": "M_Toma doble", "tipo": "Toma doble", "room_id": null, "host_id": 901},
+    {"id": 5, "pt": [1400.0, 1500.0, 14220.0], "mark": "F17|TF 17|C1", "familia": "M_Toma doble", "tipo": "Toma doble", "room_id": 10, "host_id": 902},
+    {"id": 6, "pt": [1700.0, 1500.0, 14220.0], "mark": "F01|TF 01|C3", "familia": "M_Toma doble", "tipo": "Toma doble", "room_id": null, "host_id": null},
+    {"id": 7, "pt": [2000.0, 2000.0, 14270.0], "mark": "F01|TF 01|D1", "familia": "M_Comunicaciones", "tipo": "Comunicaciones", "room_id": 11, "host_id": 903},
+    {"id": 8, "pt": [2040.0, 2000.0, 14270.0], "mark": "F01|TF 01|D1", "familia": "M_Comunicaciones", "tipo": "Comunicaciones", "room_id": 11, "host_id": 903},
+    {"id": 9, "pt": [2400.0, 1000.0, 13620.0], "mark": "F01|TF 01|C1", "familia": "M_Toma doble", "tipo": "Toma GFCI", "room_id": 12, "host_id": 904},
+    {"id": 10, "pt": [2400.0, 1000.0, 13920.0], "mark": "F01|TF 01|C1", "familia": "M_Toma doble", "tipo": "Toma GFCI", "room_id": 12, "host_id": 904},
+    {"id": 11, "pt": [2400.0, 1000.0, 14220.0], "mark": "F01|TF 01|C1", "familia": "M_Toma doble", "tipo": "Toma GFCI", "room_id": 12, "host_id": 904},
+    {"id": 12, "pt": [2400.0, 1000.0, 15000.0], "mark": "F01|TF 01|C1", "familia": "M_Toma doble", "tipo": "Toma GFCI", "room_id": 99, "host_id": 905}
+  ],
+  "ids_cocina": [9, 10, 11, 12],
+  "esperado": {
+    "apto_mark": {"F01|TF 01|C1": "F01", "F17|TF 17|C1": "F17", "sin_prefijo": null},
+    "dominante_room": {"10": "F01", "11": "F01", "12": "F01", "99": "F01"},
+    "clave_apto_f01_room_10": ["room", 10],
+    "clave_apto_f17_room_10": ["host", 902],
+    "clave_sin_room_sin_host": null,
+    "grupos_normales": 2,
+    "normales_sin_recinto": 1,
+    "dedup_f01": 1,
+    "grupos_cocina": 2,
+    "cocina_room_12": 3,
+    "grupos_datos": 1
+  }
+}

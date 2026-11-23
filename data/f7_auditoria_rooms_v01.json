@@ -1,0 +1,5912 @@
+{
+ "version": "v01_auditar_rooms", 
+ "generado_utc": "2026-11-23 02:14:22", 
+ "resumen_global": {
+  "rooms": 191, 
+  "dispositivos_marcados": 836, 
+  "rooms_mezclan_aptos": 5, 
+  "bajantes_estimadas_total": 417, 
+  "dispositivos_sin_room": 214, 
+  "rooms_sin_prefijo": 191, 
+  "rooms_apto_no_coincide": 0
+ }, 
+ "resumen_aptos": {
+  "E08": {
+   "con_room": 30, 
+   "sin_room": 19, 
+   "estimacion": {
+    "datos_dispositivos": 6, 
+    "dedup": 6, 
+    "grupos_cocina": 4, 
+    "normales_sin_recinto": 1, 
+    "claves_detalle": [
+     "host:2765787", 
+     "host:2765794", 
+     "host:2765800", 
+     "host:2765802", 
+     "host:2765810", 
+     "host:2766041", 
+     "room:5679137", 
+     "room:5690706", 
+     "room:5690715", 
+     "room:5690717", 
+     "room:5690719"
+    ], 
+    "normales_dispositivos": 31, 
+    "claves_normales": 11, 
+    "representantes": 43, 
+    "cocina_dispositivos": 6, 
+    "grupos_datos": 4, 
+    "bajantes_estimadas": 20
+   }, 
+   "dispositivos": 49, 
+   "rooms_usados": 5
+  }, 
+  "F01": {
+   "con_room": 28, 
+   "sin_room": 8, 
+   "estimacion": {
+    "datos_dispositivos": 4, 
+    "dedup": 4, 
+    "grupos_cocina": 6, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:2764963", 
+     "host:4829436", 
+     "host:4829438", 
+     "host:4829441", 
+     "host:4829442", 
+     "room:5679143", 
+     "room:5690688", 
+     "room:5690692"
+    ], 
+    "normales_dispositivos": 21, 
+    "claves_normales": 8, 
+    "representantes": 32, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 3, 
+    "bajantes_estimadas": 17
+   }, 
+   "dispositivos": 36, 
+   "rooms_usados": 4
+  }, 
+  "F01B": {
+   "con_room": 25, 
+   "sin_room": 8, 
+   "estimacion": {
+    "datos_dispositivos": 4, 
+    "dedup": 3, 
+    "grupos_cocina": 6, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:4049526", 
+     "host:4049736", 
+     "host:4049758", 
+     "host:4049808", 
+     "room:5679195", 
+     "room:5690741", 
+     "room:5690743", 
+     "room:5690771"
+    ], 
+    "normales_dispositivos": 19, 
+    "claves_normales": 8, 
+    "representantes": 30, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 4, 
+    "bajantes_estimadas": 18
+   }, 
+   "dispositivos": 33, 
+   "rooms_usados": 4
+  }, 
+  "F02": {
+   "con_room": 28, 
+   "sin_room": 11, 
+   "estimacion": {
+    "datos_dispositivos": 2, 
+    "dedup": 8, 
+    "grupos_cocina": 6, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:2765823", 
+     "host:2765825", 
+     "host:2765828", 
+     "host:2765829", 
+     "host:4829431", 
+     "room:5679135", 
+     "room:5679152", 
+     "room:5679153", 
+     "room:5690712"
+    ], 
+    "normales_dispositivos": 21, 
+    "claves_normales": 9, 
+    "representantes": 31, 
+    "cocina_dispositivos": 8, 
+    "grupos_datos": 2, 
+    "bajantes_estimadas": 17
+   }, 
+   "dispositivos": 39, 
+   "rooms_usados": 4
+  }, 
+  "F02A": {
+   "con_room": 26, 
+   "sin_room": 7, 
+   "estimacion": {
+    "datos_dispositivos": 4, 
+    "dedup": 3, 
+    "grupos_cocina": 5, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:3102359", 
+     "host:3102362", 
+     "host:3102363", 
+     "host:3799350", 
+     "room:5679177", 
+     "room:5690723", 
+     "room:5690725", 
+     "room:5690729"
+    ], 
+    "normales_dispositivos": 19, 
+    "claves_normales": 8, 
+    "representantes": 30, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 3, 
+    "bajantes_estimadas": 16
+   }, 
+   "dispositivos": 33, 
+   "rooms_usados": 4
+  }, 
+  "C14": {
+   "con_room": 42, 
+   "sin_room": 12, 
+   "estimacion": {
+    "datos_dispositivos": 8, 
+    "dedup": 7, 
+    "grupos_cocina": 7, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:4048620", 
+     "host:4048622", 
+     "host:4048633", 
+     "host:4048641", 
+     "host:4048644", 
+     "host:4048738", 
+     "host:4048836", 
+     "host:5343960", 
+     "room:5679193", 
+     "room:5679208", 
+     "room:5679213", 
+     "room:5679231", 
+     "room:5679232", 
+     "room:5690739", 
+     "room:5690753", 
+     "room:5695217", 
+     "room:5695775"
+    ], 
+    "normales_dispositivos": 31, 
+    "claves_normales": 17, 
+    "representantes": 47, 
+    "cocina_dispositivos": 8, 
+    "grupos_datos": 6, 
+    "bajantes_estimadas": 30
+   }, 
+   "dispositivos": 54, 
+   "rooms_usados": 10
+  }, 
+  "B16": {
+   "con_room": 53, 
+   "sin_room": 13, 
+   "estimacion": {
+    "datos_dispositivos": 8, 
+    "dedup": 10, 
+    "grupos_cocina": 7, 
+    "normales_sin_recinto": 1, 
+    "claves_detalle": [
+     "host:2280766", 
+     "host:2280770", 
+     "host:2280775", 
+     "host:2280783", 
+     "host:2280784", 
+     "host:2280785", 
+     "host:2280787", 
+     "host:2280813", 
+     "host:3711658", 
+     "host:3711659", 
+     "room:5679181", 
+     "room:5679206", 
+     "room:5679220", 
+     "room:5679222", 
+     "room:5679228", 
+     "room:5690759", 
+     "room:5694094", 
+     "room:5694644", 
+     "room:5695769", 
+     "room:5695771"
+    ], 
+    "normales_dispositivos": 41, 
+    "claves_normales": 20, 
+    "representantes": 56, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 6, 
+    "bajantes_estimadas": 34
+   }, 
+   "dispositivos": 66, 
+   "rooms_usados": 10
+  }, 
+  "F17A": {
+   "con_room": 23, 
+   "sin_room": 6, 
+   "estimacion": {
+    "datos_dispositivos": 4, 
+    "dedup": 3, 
+    "grupos_cocina": 6, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:4049097", 
+     "host:4049100", 
+     "host:4049313", 
+     "host:4049811", 
+     "room:5679192", 
+     "room:5690745", 
+     "room:5690747", 
+     "room:5690773"
+    ], 
+    "normales_dispositivos": 15, 
+    "claves_normales": 8, 
+    "representantes": 26, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 4, 
+    "bajantes_estimadas": 18
+   }, 
+   "dispositivos": 29, 
+   "rooms_usados": 4
+  }, 
+  "E07A": {
+   "con_room": 34, 
+   "sin_room": 9, 
+   "estimacion": {
+    "datos_dispositivos": 6, 
+    "dedup": 5, 
+    "grupos_cocina": 4, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:3754330", 
+     "host:3754332", 
+     "host:3754335", 
+     "host:3754336", 
+     "host:3754366", 
+     "host:3754544", 
+     "room:5679249", 
+     "room:5694077", 
+     "room:5694079", 
+     "room:5694081", 
+     "room:5695032", 
+     "room:5695781"
+    ], 
+    "normales_dispositivos": 28, 
+    "claves_normales": 12, 
+    "representantes": 38, 
+    "cocina_dispositivos": 4, 
+    "grupos_datos": 6, 
+    "bajantes_estimadas": 22
+   }, 
+   "dispositivos": 43, 
+   "rooms_usados": 6
+  }, 
+  "F18A": {
+   "con_room": 26, 
+   "sin_room": 7, 
+   "estimacion": {
+    "datos_dispositivos": 3, 
+    "dedup": 4, 
+    "grupos_cocina": 5, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:3102359", 
+     "host:3102362", 
+     "host:3102861", 
+     "host:3799349", 
+     "room:5679178", 
+     "room:5679240", 
+     "room:5690727", 
+     "room:5690735"
+    ], 
+    "normales_dispositivos": 19, 
+    "claves_normales": 8, 
+    "representantes": 29, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 3, 
+    "bajantes_estimadas": 16
+   }, 
+   "dispositivos": 33, 
+   "rooms_usados": 4
+  }, 
+  "F02B": {
+   "con_room": 22, 
+   "sin_room": 7, 
+   "estimacion": {
+    "datos_dispositivos": 6, 
+    "dedup": 0, 
+    "grupos_cocina": 5, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:3103327", 
+     "host:3103772", 
+     "host:3103835", 
+     "room:5679189", 
+     "room:5679210", 
+     "room:5690731", 
+     "room:5690733"
+    ], 
+    "normales_dispositivos": 16, 
+    "claves_normales": 7, 
+    "representantes": 29, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 2, 
+    "bajantes_estimadas": 14
+   }, 
+   "dispositivos": 29, 
+   "rooms_usados": 4
+  }, 
+  "F18": {
+   "con_room": 24, 
+   "sin_room": 11, 
+   "estimacion": {
+    "datos_dispositivos": 2, 
+    "dedup": 6, 
+    "grupos_cocina": 5, 
+    "normales_sin_recinto": 2, 
+    "claves_detalle": [
+     "host:2765823", 
+     "host:2765825", 
+     "host:2765826", 
+     "host:3930634", 
+     "room:5679134", 
+     "room:5679141", 
+     "room:5690684", 
+     "room:5690710", 
+     "room:5694086"
+    ], 
+    "normales_dispositivos": 21, 
+    "claves_normales": 9, 
+    "representantes": 29, 
+    "cocina_dispositivos": 6, 
+    "grupos_datos": 2, 
+    "bajantes_estimadas": 18
+   }, 
+   "dispositivos": 35, 
+   "rooms_usados": 5
+  }, 
+  "E08A": {
+   "con_room": 30, 
+   "sin_room": 10, 
+   "estimacion": {
+    "datos_dispositivos": 5, 
+    "dedup": 4, 
+    "grupos_cocina": 4, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:3170924", 
+     "host:3170926", 
+     "host:3170929", 
+     "host:3170930", 
+     "host:3170976", 
+     "host:3171082", 
+     "host:3747868", 
+     "room:5679166", 
+     "room:5690755", 
+     "room:5690757", 
+     "room:5690767", 
+     "room:5690769", 
+     "room:5695767"
+    ], 
+    "normales_dispositivos": 27, 
+    "claves_normales": 13, 
+    "representantes": 36, 
+    "cocina_dispositivos": 4, 
+    "grupos_datos": 5, 
+    "bajantes_estimadas": 22
+   }, 
+   "dispositivos": 40, 
+   "rooms_usados": 6
+  }, 
+  "F01A": {
+   "con_room": 26, 
+   "sin_room": 7, 
+   "estimacion": {
+    "datos_dispositivos": 3, 
+    "dedup": 4, 
+    "grupos_cocina": 5, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:4049097", 
+     "host:4049100", 
+     "host:4049101", 
+     "host:4049812", 
+     "room:5679191", 
+     "room:5690749", 
+     "room:5690751", 
+     "room:5690775"
+    ], 
+    "normales_dispositivos": 19, 
+    "claves_normales": 8, 
+    "representantes": 29, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 3, 
+    "bajantes_estimadas": 16
+   }, 
+   "dispositivos": 33, 
+   "rooms_usados": 4
+  }, 
+  "F17": {
+   "con_room": 30, 
+   "sin_room": 12, 
+   "estimacion": {
+    "datos_dispositivos": 7, 
+    "dedup": 7, 
+    "grupos_cocina": 6, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:2764942", 
+     "host:4829436", 
+     "host:4829438", 
+     "host:4829439", 
+     "host:4830562", 
+     "room:5679142", 
+     "room:5690690", 
+     "room:5690692", 
+     "room:5691617"
+    ], 
+    "normales_dispositivos": 21, 
+    "claves_normales": 9, 
+    "representantes": 35, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 5, 
+    "bajantes_estimadas": 20
+   }, 
+   "dispositivos": 42, 
+   "rooms_usados": 6
+  }, 
+  "B15": {
+   "con_room": 38, 
+   "sin_room": 10, 
+   "estimacion": {
+    "datos_dispositivos": 7, 
+    "dedup": 5, 
+    "grupos_cocina": 6, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:3732557", 
+     "host:3732561", 
+     "host:3732565", 
+     "host:3732572", 
+     "host:3732574", 
+     "host:3732576", 
+     "host:3732842", 
+     "room:5679186", 
+     "room:5679227", 
+     "room:5679233", 
+     "room:5679247", 
+     "room:5694086", 
+     "room:5694088", 
+     "room:5694090", 
+     "room:5694092", 
+     "room:5695783", 
+     "room:5695785"
+    ], 
+    "normales_dispositivos": 30, 
+    "claves_normales": 17, 
+    "representantes": 43, 
+    "cocina_dispositivos": 6, 
+    "grupos_datos": 6, 
+    "bajantes_estimadas": 29
+   }, 
+   "dispositivos": 48, 
+   "rooms_usados": 10
+  }, 
+  "E06": {
+   "con_room": 33, 
+   "sin_room": 16, 
+   "estimacion": {
+    "datos_dispositivos": 6, 
+    "dedup": 6, 
+    "grupos_cocina": 5, 
+    "normales_sin_recinto": 3, 
+    "claves_detalle": [
+     "host:2765793", 
+     "host:2765799", 
+     "host:2765803", 
+     "host:2765812", 
+     "host:2766040", 
+     "room:5679162", 
+     "room:5690686", 
+     "room:5690704", 
+     "room:5690708", 
+     "room:5691615", 
+     "room:5695779"
+    ], 
+    "normales_dispositivos": 31, 
+    "claves_normales": 11, 
+    "representantes": 43, 
+    "cocina_dispositivos": 6, 
+    "grupos_datos": 4, 
+    "bajantes_estimadas": 23
+   }, 
+   "dispositivos": 49, 
+   "rooms_usados": 6
+  }, 
+  "E07": {
+   "con_room": 37, 
+   "sin_room": 11, 
+   "estimacion": {
+    "datos_dispositivos": 6, 
+    "dedup": 5, 
+    "grupos_cocina": 3, 
+    "normales_sin_recinto": 1, 
+    "claves_detalle": [
+     "host:4829405", 
+     "host:4829410", 
+     "host:4829413", 
+     "host:4829418", 
+     "host:4829424", 
+     "host:4829629", 
+     "room:5679133", 
+     "room:5679145", 
+     "room:5690700", 
+     "room:5690702", 
+     "room:5690721", 
+     "room:5690777"
+    ], 
+    "normales_dispositivos": 32, 
+    "claves_normales": 12, 
+    "representantes": 43, 
+    "cocina_dispositivos": 5, 
+    "grupos_datos": 4, 
+    "bajantes_estimadas": 20
+   }, 
+   "dispositivos": 48, 
+   "rooms_usados": 6
+  }, 
+  "D13": {
+   "con_room": 41, 
+   "sin_room": 12, 
+   "estimacion": {
+    "datos_dispositivos": 6, 
+    "dedup": 10, 
+    "grupos_cocina": 6, 
+    "normales_sin_recinto": 0, 
+    "claves_detalle": [
+     "host:3101271", 
+     "host:3101273", 
+     "host:3101282", 
+     "host:3101284", 
+     "host:3101292", 
+     "host:3101295", 
+     "host:3101520", 
+     "host:3101817", 
+     "room:5679211", 
+     "room:5679223", 
+     "room:5679224", 
+     "room:5679225", 
+     "room:5679226", 
+     "room:5679236", 
+     "room:5679245", 
+     "room:5690737"
+    ], 
+    "normales_dispositivos": 30, 
+    "claves_normales": 16, 
+    "representantes": 43, 
+    "cocina_dispositivos": 7, 
+    "grupos_datos": 5, 
+    "bajantes_estimadas": 27
+   }, 
+   "dispositivos": 53, 
+   "rooms_usados": 9
+  }, 
+  "E05": {
+   "con_room": 35, 
+   "sin_room": 9, 
+   "estimacion": {
+    "datos_dispositivos": 5, 
+    "dedup": 4, 
+    "grupos_cocina": 4, 
+    "normales_sin_recinto": 1, 
+    "claves_detalle": [
+     "host:4829409", 
+     "host:4829415", 
+     "host:4829419", 
+     "host:4829426", 
+     "host:4829628", 
+     "room:5679160", 
+     "room:5679161", 
+     "room:5690694", 
+     "room:5690696", 
+     "room:5690698", 
+     "room:5690779"
+    ], 
+    "normales_dispositivos": 29, 
+    "claves_normales": 11, 
+    "representantes": 40, 
+    "cocina_dispositivos": 6, 
+    "grupos_datos": 4, 
+    "bajantes_estimadas": 20
+   }, 
+   "dispositivos": 44, 
+   "rooms_usados": 6
+  }
+ }, 
+ "documento": "STM-FJR-TORRE5-A-M3-R23-P01-CENTRAL-V01c", 
+ "nivel": {
+  "elevacion_mm": 13220.0, 
+  "nombre": "Piso 5"
+ }, 
+ "problemas": [
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679180
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679181
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679182
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679183
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679184
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679185
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679186
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679187
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679188
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679189
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679190
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679191
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679192
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679193
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679194
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679195
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679196
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679197
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679198
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679199
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679200
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679201
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679202
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679203
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679204
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679205
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679206
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679207
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679208
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679209
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679210
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679211
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679212
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679213
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679214
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679215
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679216
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679217
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679218
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679219
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679220
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679221
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679222
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679223
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679224
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679225
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679226
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679227
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679228
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679229
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679230
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679231
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679232
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679233
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679234
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679235
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679236
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679237
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679238
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679239
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679240
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679241
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679242
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679243
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679244
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679245
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679246
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679247
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679248
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679249
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679250
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679251
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5691615
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5691617
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690684
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690686
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690688
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690690
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690692
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690694
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690696
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690698
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690700
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690702
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690704
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690706
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690708
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690710
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690712
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695032
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690715
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690717
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690719
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690721
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690723
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690725
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690727
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690729
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690731
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690733
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690735
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690737
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690739
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690741
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690743
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690745
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690747
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690749
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690751
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690753
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690755
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690757
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690759
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690761
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690764
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690767
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690769
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690771
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690773
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690775
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690777
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690779
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690781
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690784
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5690787
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694077
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694079
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694081
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694083
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694086
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694088
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694090
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694092
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694094
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5694644
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695217
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695767
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695769
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695771
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695775
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695779
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695781
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695783
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5695785
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679133
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679134
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679135
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679136
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679137
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679138
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679139
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679140
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679141
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679142
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679143
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679144
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679145
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679146
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679147
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679148
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679149
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679150
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679151
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679152
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679153
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679154
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679155
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679156
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679157
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679158
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679159
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679160
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679161
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679162
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679163
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679164
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679165
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679166
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679167
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679168
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679169
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679170
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679171
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679172
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679173
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679174
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679175
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679176
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679177
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679178
+  }, 
+  {
+   "nombre": "Room", 
+   "tipo": "room_sin_prefijo_apto", 
+   "room": 5679179
+  }, 
+  {
+   "aptos": {
+    "F01": 11, 
+    "F17": 1
+   }, 
+   "nombre": "Room", 
+   "tipo": "room_mezcla_aptos", 
+   "room": 5690692
+  }, 
+  {
+   "aptos": {
+    "E05": 11, 
+    "F01": 1, 
+    "(sin mark)": 1
+   }, 
+   "nombre": "Room", 
+   "tipo": "room_mezcla_aptos", 
+   "room": 5690694
+  }, 
+  {
+   "aptos": {
+    "B15": 9, 
+    "(sin mark)": 1, 
+    "F18": 1
+   }, 
+   "nombre": "Room", 
+   "tipo": "room_mezcla_aptos", 
+   "room": 5694086
+  }, 
+  {
+   "aptos": {
+    "B15": 6, 
+    "(sin mark)": 2, 
+    "F17": 3
+   }, 
+   "nombre": "Room", 
+   "tipo": "room_mezcla_aptos", 
+   "room": 5694088
+  }, 
+  {
+   "aptos": {
+    "B15": 2, 
+    "(sin mark)": 2, 
+    "F17": 3
+   }, 
+   "nombre": "Room", 
+   "tipo": "room_mezcla_aptos", 
+   "room": 5694092
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679136
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679138
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679139
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679140
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679144
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679146
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679147
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679148
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679149
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679150
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679151
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679154
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679156
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679158
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679159
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679163
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679164
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679165
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679167
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679168
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679174
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679175
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679176
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679180
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679182
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679183
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679184
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679185
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679187
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679188
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679190
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679194
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679196
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679197
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679198
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679199
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679200
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679201
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679203
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679204
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679205
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679207
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679209
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679212
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679214
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679217
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679218
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679219
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679221
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679234
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679235
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679237
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679238
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679239
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679241
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679242
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679243
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679244
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679246
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679250
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5679251
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5690761
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5690764
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5690781
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5690784
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5690787
+  }, 
+  {
+   "limite_mm": 0.0, 
+   "nombre": "Room", 
+   "tipo": "room_limite_bajo", 
+   "room": 5694083
+  }, 
+  {
+   "id": 5529723, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3200.0999999999999, 
+    16433.599999999999, 
+    14320.0
+   ], 
+   "mark": "E06|TE|TE-01"
+  }, 
+  {
+   "id": 5529732, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3200.3000000000002, 
+    15166.600000000000, 
+    14320.0
+   ], 
+   "mark": "E06|TE|TE-01"
+  }, 
+  {
+   "id": 5529783, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    2198.1999999999998, 
+    13366.0, 
+    14320.0
+   ], 
+   "mark": "E06|TE|TE-01"
+  }, 
+  {
+   "id": 5529796, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    5952.0, 
+    11978.400000000000, 
+    13520.0
+   ], 
+   "mark": "E06|TF|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5529798, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    2169.0999999999999, 
+    12110.100000000000, 
+    14320.0
+   ], 
+   "mark": "E06|TE|TE-01"
+  }, 
+  {
+   "id": 5529807, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3253.6999999999998, 
+    11900.600000000000, 
+    14320.0
+   ], 
+   "mark": "E06|TE|TE-09"
+  }, 
+  {
+   "id": 5529811, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3197.6999999999998, 
+    11738.400000000000, 
+    14320.0
+   ], 
+   "mark": "E06|TE|TE-09"
+  }, 
+  {
+   "id": 5529840, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3253.6999999999998, 
+    10107.700000000001, 
+    14320.0
+   ], 
+   "mark": "E06|TE|TE-01"
+  }, 
+  {
+   "id": 5529846, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    4734.6000000000004, 
+    9612.7000000000007, 
+    13920.0
+   ], 
+   "mark": "E06|TE|TE-03"
+  }, 
+  {
+   "id": 5529849, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    4994.6000000000004, 
+    9612.7000000000007, 
+    14870.0
+   ], 
+   "mark": "E06|TE|TE-03"
+  }, 
+  {
+   "id": 5529852, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    2693.6999999999998, 
+    9620.7000000000007, 
+    14270.0
+   ], 
+   "mark": "E06|TE|TE-07"
+  }, 
+  {
+   "id": 5529855, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    5510.6000000000004, 
+    9620.7000000000007, 
+    14270.0
+   ], 
+   "mark": "E06|TE|TE-03"
+  }, 
+  {
+   "id": 5552284, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -601.79999999999995, 
+    -1443.0, 
+    -0.0
+   ], 
+   "mark": ""
+  }, 
+  {
+   "id": 5557235, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    10950.299999999999, 
+    1511.7000000000000, 
+    13520.0
+   ], 
+   "mark": "F01|TF|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5558646, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    11184.5, 
+    1576.7000000000000, 
+    14320.0
+   ], 
+   "mark": ""
+  }, 
+  {
+   "id": 5559033, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    12600.600000000000, 
+    8077.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F01|TF|TF-01"
+  }, 
+  {
+   "id": 5559201, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    11648.100000000000, 
+    6413.1999999999998, 
+    14320.0
+   ], 
+   "mark": "F01|TF|TF-01"
+  }, 
+  {
+   "id": 5561329, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    11648.100000000000, 
+    5219.1999999999998, 
+    14320.0
+   ], 
+   "mark": "F01|TF|TF-03"
+  }, 
+  {
+   "id": 5565670, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    12828.100000000000, 
+    9607.7000000000007, 
+    14060.100000000000
+   ], 
+   "mark": "F02|TF|TF-01"
+  }, 
+  {
+   "id": 5565891, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    11648.100000000000, 
+    11278.5, 
+    14320.0
+   ], 
+   "mark": "F02|TF|TF-01"
+  }, 
+  {
+   "id": 5566054, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    11648.100000000000, 
+    12476.700000000001, 
+    14320.0
+   ], 
+   "mark": "F02|TF|TF-03"
+  }, 
+  {
+   "id": 5567671, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    10715.799999999999, 
+    16090.100000000000, 
+    14320.0
+   ], 
+   "mark": "F02|TF|TF-01"
+  }, 
+  {
+   "id": 5568806, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    10319.5, 
+    1511.7000000000000, 
+    13520.0
+   ], 
+   "mark": "F17|TF|TF-01"
+  }, 
+  {
+   "id": 5568837, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    6555.1999999999998, 
+    14296.600000000000, 
+    14220.0
+   ], 
+   "mark": "F18|TF|TF-01"
+  }, 
+  {
+   "id": 5568865, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    10124.5, 
+    1576.7000000000000, 
+    14320.0
+   ], 
+   "mark": "F17|TF|TF-01"
+  }, 
+  {
+   "id": 5568867, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    7803.5, 
+    8077.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F17|TF|TF-01"
+  }, 
+  {
+   "id": 5568868, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    8743.5, 
+    6408.3000000000002, 
+    14320.0
+   ], 
+   "mark": "F17|TF|TF-01"
+  }, 
+  {
+   "id": 5568875, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    8743.5, 
+    5190.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F17|TF|TF-03"
+  }, 
+  {
+   "id": 5568897, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    7563.5, 
+    9607.7000000000007, 
+    14060.100000000000
+   ], 
+   "mark": "F18|TF|TF-01"
+  }, 
+  {
+   "id": 5568898, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    8743.5, 
+    11278.5, 
+    14320.0
+   ], 
+   "mark": "F18|TF|TF-01"
+  }, 
+  {
+   "id": 5568899, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    8743.5, 
+    12476.700000000001, 
+    14320.0
+   ], 
+   "mark": "F18|TF|TF-03"
+  }, 
+  {
+   "id": 5568909, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    9675.7999999999993, 
+    16090.100000000000, 
+    14320.0
+   ], 
+   "mark": "F18|TF|TF-01"
+  }, 
+  {
+   "id": 5570104, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    5396.8999999999996, 
+    11657.600000000000, 
+    15839.799999999999
+   ], 
+   "mark": ""
+  }, 
+  {
+   "id": 5570584, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3200.0999999999999, 
+    1191.5, 
+    14320.0
+   ], 
+   "mark": "E05|TE|TE-01"
+  }, 
+  {
+   "id": 5570603, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    2198.1999999999998, 
+    4259.1000000000004, 
+    14320.0
+   ], 
+   "mark": "E05|TE|TE-01"
+  }, 
+  {
+   "id": 5570608, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    2169.0999999999999, 
+    5515.0, 
+    14320.0
+   ], 
+   "mark": "E05|TE|TE-09"
+  }, 
+  {
+   "id": 5570611, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3253.6999999999998, 
+    5724.5, 
+    14320.0
+   ], 
+   "mark": "E05|TE|TE-09"
+  }, 
+  {
+   "id": 5570612, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3197.6999999999998, 
+    5886.6999999999998, 
+    14320.0
+   ], 
+   "mark": "E05|TE|TE-09"
+  }, 
+  {
+   "id": 5570622, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3253.6999999999998, 
+    7597.3999999999996, 
+    14320.0
+   ], 
+   "mark": "E05|TE|TE-01"
+  }, 
+  {
+   "id": 5580863, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2389.5, 
+    15166.600000000000, 
+    14320.0
+   ], 
+   "mark": "E08|TE|TE-01"
+  }, 
+  {
+   "id": 5580879, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -1387.2000000000000, 
+    13366.0, 
+    14320.0
+   ], 
+   "mark": "E08|TE|TE-01"
+  }, 
+  {
+   "id": 5580880, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2447.0999999999999, 
+    13348.400000000000, 
+    14320.0
+   ], 
+   "mark": "E08|TE|TE-01"
+  }, 
+  {
+   "id": 5580883, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -5141.0, 
+    11978.400000000000, 
+    13520.0
+   ], 
+   "mark": "E08|TE|TE-03"
+  }, 
+  {
+   "id": 5580884, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -1359.9000000000001, 
+    12110.100000000000, 
+    14320.0
+   ], 
+   "mark": "E08|TE|TE-01"
+  }, 
+  {
+   "id": 5580887, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2444.5, 
+    11900.600000000000, 
+    14320.0
+   ], 
+   "mark": "E08|TE|TE-09"
+  }, 
+  {
+   "id": 5580898, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2444.5, 
+    10027.700000000001, 
+    14320.0
+   ], 
+   "mark": "E08|TE|TE-01"
+  }, 
+  {
+   "id": 5580900, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -3923.5999999999999, 
+    9612.7000000000007, 
+    13920.0
+   ], 
+   "mark": "E08|TE|TE-03"
+  }, 
+  {
+   "id": 5580901, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -4183.6000000000004, 
+    9612.7000000000007, 
+    14870.0
+   ], 
+   "mark": "E08|TE|TE-03"
+  }, 
+  {
+   "id": 5580902, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -1882.8000000000000, 
+    9620.7000000000007, 
+    14270.0
+   ], 
+   "mark": "E08|TE|TE-07"
+  }, 
+  {
+   "id": 5580903, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -4699.6999999999998, 
+    9620.7000000000007, 
+    14270.0
+   ], 
+   "mark": "E08|TE|TE-05"
+  }, 
+  {
+   "id": 5580930, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -4585.8999999999996, 
+    11657.600000000000, 
+    15839.799999999999
+   ], 
+   "mark": "E08|TE|TE-03"
+  }, 
+  {
+   "id": 5580952, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -1387.2000000000000, 
+    4259.1000000000004, 
+    14320.0
+   ], 
+   "mark": "E07|TE|TE-01"
+  }, 
+  {
+   "id": 5580953, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2447.0999999999999, 
+    4276.6999999999998, 
+    14320.0
+   ], 
+   "mark": "E07|TE|TE-01"
+  }, 
+  {
+   "id": 5580957, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -1359.9000000000001, 
+    5515.0, 
+    14320.0
+   ], 
+   "mark": "E07|TE|TE-01"
+  }, 
+  {
+   "id": 5580971, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2444.5, 
+    7597.3999999999996, 
+    14320.0
+   ], 
+   "mark": "E07|TE|TE-07"
+  }, 
+  {
+   "id": 5580979, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -4585.8999999999996, 
+    5967.5, 
+    15839.799999999999
+   ], 
+   "mark": "E07|TE|TE-05"
+  }, 
+  {
+   "id": 5582652, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2344.3000000000002, 
+    16475.599999999999, 
+    14320.100000000000
+   ], 
+   "mark": "E08|TE|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5582834, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3200.0999999999999, 
+    16475.599999999999, 
+    14320.100000000000
+   ], 
+   "mark": "E06|TE|TE-01"
+  }, 
+  {
+   "id": 5582838, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3200.0999999999999, 
+    1149.5, 
+    14320.100000000000
+   ], 
+   "mark": "E05|TE|TE-01"
+  }, 
+  {
+   "id": 5582842, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2344.3000000000002, 
+    1149.5, 
+    14320.100000000000
+   ], 
+   "mark": "E07|TE|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5589003, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2389.5, 
+    2463.3000000000002, 
+    14320.0
+   ], 
+   "mark": "E07|TE|TE-01"
+  }, 
+  {
+   "id": 5592212, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3200.3000000000002, 
+    15161.799999999999, 
+    14320.0
+   ], 
+   "mark": "E06|TE|TE-01"
+  }, 
+  {
+   "id": 5592218, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    3200.3000000000002, 
+    2463.3000000000002, 
+    14320.0
+   ], 
+   "mark": "E05|TE|TE-01"
+  }, 
+  {
+   "id": 5592224, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2389.5, 
+    15161.799999999999, 
+    14320.0
+   ], 
+   "mark": "E08|TE|TE-01"
+  }, 
+  {
+   "id": 5619374, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -20393.5, 
+    1542.0, 
+    14220.0
+   ], 
+   "mark": "Tomadobl_GFCI_-23152_1542"
+  }, 
+  {
+   "id": 5619377, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -20393.5, 
+    1658.5999999999999, 
+    14220.0
+   ], 
+   "mark": "Tomadobl_Normal_-23174_1659"
+  }, 
+  {
+   "id": 5620191, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -19853.099999999999, 
+    3414.6999999999998, 
+    14220.0
+   ], 
+   "mark": "F01B|TF|TF-01"
+  }, 
+  {
+   "id": 5639200, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -39582.300000000003, 
+    9672.7000000000007, 
+    14220.0
+   ], 
+   "mark": "E08A|TE|TE-07"
+  }, 
+  {
+   "id": 5639294, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -50698.800000000003, 
+    17183.799999999999, 
+    14220.0
+   ], 
+   "mark": "Tomadobl_GFCI_-50699_16364"
+  }, 
+  {
+   "id": 5643359, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -14261.100000000000, 
+    5196.1000000000004, 
+    14320.0
+   ], 
+   "mark": "F01A|TF|TF-03"
+  }, 
+  {
+   "id": 5643360, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -13083.900000000000, 
+    8077.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F01A|TF|TF-01"
+  }, 
+  {
+   "id": 5643361, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -15212.0, 
+    1595.0, 
+    14320.0
+   ], 
+   "mark": "F01A|TF|TF-01"
+  }, 
+  {
+   "id": 5643362, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -14261.100000000000, 
+    6391.3000000000002, 
+    14320.0
+   ], 
+   "mark": "F01A|TF|TF-01"
+  }, 
+  {
+   "id": 5643363, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -14261.100000000000, 
+    5013.5, 
+    14320.0
+   ], 
+   "mark": "F01A|TF|TF-03"
+  }, 
+  {
+   "id": 5643365, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -16283.200000000001, 
+    1595.0, 
+    14320.0
+   ], 
+   "mark": "F17A|TF|TF-01"
+  }, 
+  {
+   "id": 5643366, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -17165.700000000001, 
+    5108.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F17A|TF|TF-03"
+  }, 
+  {
+   "id": 5643367, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -18378.400000000001, 
+    8077.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F17A|TF|TF-01"
+  }, 
+  {
+   "id": 5643369, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -17165.700000000001, 
+    6411.1000000000004, 
+    14320.0
+   ], 
+   "mark": "F17A|TF|TF-01"
+  }, 
+  {
+   "id": 5643370, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -17165.700000000001, 
+    12497.5, 
+    14320.0
+   ], 
+   "mark": "F18A|TF|TF-03"
+  }, 
+  {
+   "id": 5643371, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -18348.0, 
+    9607.7000000000007, 
+    14320.0
+   ], 
+   "mark": "F18A|TF|TF-01"
+  }, 
+  {
+   "id": 5643372, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -17165.700000000001, 
+    11254.100000000000, 
+    14320.0
+   ], 
+   "mark": "F18A|TF|TF-01"
+  }, 
+  {
+   "id": 5643373, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -17165.700000000001, 
+    12680.100000000000, 
+    14320.0
+   ], 
+   "mark": "F18A|TF|TF-01"
+  }, 
+  {
+   "id": 5643374, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -20866.200000000001, 
+    9607.7000000000007, 
+    14320.0
+   ], 
+   "mark": "F02B|TF|TF-01"
+  }, 
+  {
+   "id": 5643375, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -22040.200000000001, 
+    5196.1000000000004, 
+    14320.0
+   ], 
+   "mark": "F01B|TF|TF-03"
+  }, 
+  {
+   "id": 5643377, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -20897.099999999999, 
+    8077.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F01B|TF|TF-01"
+  }, 
+  {
+   "id": 5643378, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -22962.200000000001, 
+    1595.0, 
+    14320.0
+   ], 
+   "mark": "F01B|TF|TF-01"
+  }, 
+  {
+   "id": 5643379, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -22040.200000000001, 
+    6391.3000000000002, 
+    14320.0
+   ], 
+   "mark": "F01B|TF|TF-01"
+  }, 
+  {
+   "id": 5643380, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -22040.200000000001, 
+    5013.5, 
+    14320.0
+   ], 
+   "mark": "F01B|TF|TF-03"
+  }, 
+  {
+   "id": 5643382, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    11648.100000000000, 
+    12470.100000000000, 
+    14320.0
+   ], 
+   "mark": "F02|TF|TF-03"
+  }, 
+  {
+   "id": 5643383, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    12823.400000000000, 
+    9607.7000000000007, 
+    14320.0
+   ], 
+   "mark": "F02|TF|TF-01"
+  }, 
+  {
+   "id": 5643384, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    11648.100000000000, 
+    12652.600000000000, 
+    14320.0
+   ], 
+   "mark": "F02|TF|TF-03"
+  }, 
+  {
+   "id": 5643385, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -14261.100000000000, 
+    12471.0, 
+    14320.0
+   ], 
+   "mark": "F02A|TF|TF-03"
+  }, 
+  {
+   "id": 5643386, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -13066.299999999999, 
+    9607.7000000000007, 
+    14320.0
+   ], 
+   "mark": "F02A|TF|TF-01"
+  }, 
+  {
+   "id": 5643387, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -15161.5, 
+    16090.100000000000, 
+    14320.0
+   ], 
+   "mark": "F02A|TF|TF-01"
+  }, 
+  {
+   "id": 5643388, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -14261.100000000000, 
+    11239.5, 
+    14320.0
+   ], 
+   "mark": "F02A|TF|TF-01"
+  }, 
+  {
+   "id": 5643389, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -14261.100000000000, 
+    12653.600000000000, 
+    14320.0
+   ], 
+   "mark": "F02A|TF|TF-03"
+  }, 
+  {
+   "id": 5643390, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -16252.900000000000, 
+    16090.100000000000, 
+    14320.0
+   ], 
+   "mark": "F18A|TF|TF-01"
+  }, 
+  {
+   "id": 5643391, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -22040.200000000001, 
+    12495.400000000000, 
+    14320.0
+   ], 
+   "mark": "F02B|TF|TF-03"
+  }, 
+  {
+   "id": 5643392, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -22961.299999999999, 
+    16090.100000000000, 
+    14320.0
+   ], 
+   "mark": "F02B|TF|TF-01"
+  }, 
+  {
+   "id": 5643393, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -22040.200000000001, 
+    11263.900000000000, 
+    14320.0
+   ], 
+   "mark": "F02B|TF|TF-01"
+  }, 
+  {
+   "id": 5643394, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -22040.200000000001, 
+    12678.0, 
+    14320.0
+   ], 
+   "mark": "F02B|TF|TF-03"
+  }, 
+  {
+   "id": 5643395, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -25304.799999999999, 
+    13356.299999999999, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-01"
+  }, 
+  {
+   "id": 5643396, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -26278.099999999999, 
+    10146.5, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-01"
+  }, 
+  {
+   "id": 5643398, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -26322.299999999999, 
+    12092.299999999999, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-11"
+  }, 
+  {
+   "id": 5643400, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -25255.200000000001, 
+    12145.100000000000, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-01"
+  }, 
+  {
+   "id": 5643401, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -26291.400000000001, 
+    14486.299999999999, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-01"
+  }, 
+  {
+   "id": 5643402, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -39048.5, 
+    4074.1999999999998, 
+    14320.0
+   ], 
+   "mark": "E07A|TE|TE-01"
+  }, 
+  {
+   "id": 5643403, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -39038.5, 
+    5562.5, 
+    14320.0
+   ], 
+   "mark": "E07A|TE|TE-01"
+  }, 
+  {
+   "id": 5643404, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40082.699999999997, 
+    2517.5, 
+    14320.0
+   ], 
+   "mark": "E07A|TE|TE-01"
+  }, 
+  {
+   "id": 5643406, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40090.0, 
+    1280.5, 
+    14320.0
+   ], 
+   "mark": "E07A|TE|TE-01"
+  }, 
+  {
+   "id": 5643408, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40082.699999999997, 
+    5752.0, 
+    14320.0
+   ], 
+   "mark": "E07A|TE|TE-09"
+  }, 
+  {
+   "id": 5643409, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40082.699999999997, 
+    7525.0, 
+    14320.0
+   ], 
+   "mark": "E07A|TE|TE-07"
+  }, 
+  {
+   "id": 5643410, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -39048.5, 
+    4241.1999999999998, 
+    14320.0
+   ], 
+   "mark": "E07A|TE|TE-01"
+  }, 
+  {
+   "id": 5643411, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40082.699999999997, 
+    4273.8000000000002, 
+    14320.0
+   ], 
+   "mark": "E07A|TE|TE-01"
+  }, 
+  {
+   "id": 5643412, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -39048.5, 
+    13400.0, 
+    14320.0
+   ], 
+   "mark": "E08A|TE|TE-01"
+  }, 
+  {
+   "id": 5643413, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -39038.5, 
+    12038.700000000001, 
+    14320.0
+   ], 
+   "mark": "E08A|TE|TE-01"
+  }, 
+  {
+   "id": 5643414, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40082.699999999997, 
+    15216.799999999999, 
+    14320.0
+   ], 
+   "mark": "E08A|TE|TE-01"
+  }, 
+  {
+   "id": 5643415, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40090.0, 
+    16334.299999999999, 
+    14320.0
+   ], 
+   "mark": "E08A|TE|TE-01"
+  }, 
+  {
+   "id": 5643416, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40082.699999999997, 
+    11833.400000000000, 
+    14320.0
+   ], 
+   "mark": "E08A|TE|TE-09"
+  }, 
+  {
+   "id": 5643417, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40082.699999999997, 
+    10162.400000000000, 
+    14320.0
+   ], 
+   "mark": "E08A|TE|TE-01"
+  }, 
+  {
+   "id": 5643418, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -39048.5, 
+    13566.900000000000, 
+    14320.0
+   ], 
+   "mark": "E08A|TE|TE-01"
+  }, 
+  {
+   "id": 5643419, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -40082.699999999997, 
+    13410.299999999999, 
+    14389.5
+   ], 
+   "mark": "E08A|TE|TE-01"
+  }, 
+  {
+   "id": 5643420, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -52983.0, 
+    6568.8999999999996, 
+    14320.0
+   ], 
+   "mark": "B15|TB|TB-01"
+  }, 
+  {
+   "id": 5643421, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -51767.599999999999, 
+    4888.8999999999996, 
+    14320.0
+   ], 
+   "mark": "B15|TB|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5643422, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -48731.0, 
+    3456.5, 
+    14320.0
+   ], 
+   "mark": "B15|TB|TB-01"
+  }, 
+  {
+   "id": 5643423, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -44485.900000000001, 
+    6032.0, 
+    14320.0
+   ], 
+   "mark": "B15|TB|TB-01"
+  }, 
+  {
+   "id": 5643425, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -47819.400000000001, 
+    2468.8000000000002, 
+    14320.0
+   ], 
+   "mark": "B15|TB|TB-01"
+  }, 
+  {
+   "id": 5643426, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -50585.5, 
+    1809.8000000000000, 
+    14405.799999999999
+   ], 
+   "mark": "B15|TB|TB-01"
+  }, 
+  {
+   "id": 5643430, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -46542.300000000003, 
+    4936.8999999999996, 
+    14296.200000000001
+   ], 
+   "mark": "B15|TB|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5643431, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -50585.5, 
+    3708.9000000000001, 
+    14320.0
+   ], 
+   "mark": "B15|TB|TB-01"
+  }, 
+  {
+   "id": 5643432, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -49844.099999999999, 
+    4888.8999999999996, 
+    14320.0
+   ], 
+   "mark": "B15|TB|TB-01"
+  }, 
+  {
+   "id": 5643433, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -53066.599999999999, 
+    11108.200000000001, 
+    14320.0
+   ], 
+   "mark": "B16|TB|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5643434, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -51850.900000000001, 
+    12783.100000000000, 
+    14320.0
+   ], 
+   "mark": "B16|TB|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5643435, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -48734.5, 
+    14242.799999999999, 
+    14320.0
+   ], 
+   "mark": "B16|TB|TB-07"
+  }, 
+  {
+   "id": 5643436, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -44485.900000000001, 
+    11661.299999999999, 
+    14471.799999999999
+   ], 
+   "mark": "B16|TB|TB-05"
+  }, 
+  {
+   "id": 5643437, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -47819.400000000001, 
+    15196.799999999999, 
+    14320.0
+   ], 
+   "mark": "B16|TB|TB-01"
+  }, 
+  {
+   "id": 5643439, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -50600.099999999999, 
+    15895.400000000000, 
+    14320.0
+   ], 
+   "mark": "B16|TB|TB-01"
+  }, 
+  {
+   "id": 5643440, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -50622.400000000001, 
+    16392.299999999999, 
+    14320.0
+   ], 
+   "mark": "B16|TB|TB-01"
+  }, 
+  {
+   "id": 5643441, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -50600.099999999999, 
+    13860.200000000001, 
+    14320.0
+   ], 
+   "mark": "B16|TB|TB-01"
+  }, 
+  {
+   "id": 5643442, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -46517.0, 
+    12748.600000000000, 
+    14320.0
+   ], 
+   "mark": "B16|TB|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5643444, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -49919.400000000001, 
+    12783.100000000000, 
+    14424.400000000000
+   ], 
+   "mark": "B16|TB|TB-01"
+  }, 
+  {
+   "id": 5643445, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -48874.5, 
+    13806.600000000000, 
+    14320.0
+   ], 
+   "mark": "B16|TB|TB-01"
+  }, 
+  {
+   "id": 5643446, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -30818.400000000001, 
+    6272.5, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-09"
+  }, 
+  {
+   "id": 5643447, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    2481.5, 
+    14320.0
+   ], 
+   "mark": "C14|TC|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5643448, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    4598.1000000000004, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-09"
+  }, 
+  {
+   "id": 5643449, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -25304.799999999999, 
+    4332.1999999999998, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-01"
+  }, 
+  {
+   "id": 5643450, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -26278.200000000001, 
+    7439.1999999999998, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-01"
+  }, 
+  {
+   "id": 5643451, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -26322.400000000001, 
+    5596.6000000000004, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-11"
+  }, 
+  {
+   "id": 5643452, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -25255.299999999999, 
+    5541.1000000000004, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-01"
+  }, 
+  {
+   "id": 5643453, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    4376.6000000000004, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-09"
+  }, 
+  {
+   "id": 5643454, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    4369.1000000000004, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-09"
+  }, 
+  {
+   "id": 5643455, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -26291.5, 
+    3201.8000000000002, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-01"
+  }, 
+  {
+   "id": 5643456, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -30481.0, 
+    11415.299999999999, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-09"
+  }, 
+  {
+   "id": 5643457, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    15206.600000000000, 
+    14320.0
+   ], 
+   "mark": "D13|TD|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5643458, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    12990.0, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-09"
+  }, 
+  {
+   "id": 5643459, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    13178.600000000000, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-09"
+  }, 
+  {
+   "id": 5643460, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    13188.600000000000, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-09"
+  }, 
+  {
+   "id": 5643461, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    2481.0999999999999, 
+    14320.0
+   ], 
+   "mark": "C14|TC|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5643462, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -29316.400000000001, 
+    15206.600000000000, 
+    14320.0
+   ], 
+   "mark": "D13|TD|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5552290, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -383.89999999999998, 
+    -1838.0, 
+    -0.0
+   ], 
+   "mark": ""
+  }, 
+  {
+   "id": 5552291, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -950.39999999999998, 
+    -1838.0, 
+    -0.0
+   ], 
+   "mark": ""
+  }, 
+  {
+   "id": 5552295, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -595.70000000000005, 
+    -2200.9000000000001, 
+    -0.0
+   ], 
+   "mark": ""
+  }, 
+  {
+   "id": 5557279, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    12047.900000000000, 
+    781.20000000000005, 
+    15820.0
+   ], 
+   "mark": "F01|TF|TF-01"
+  }, 
+  {
+   "id": 5568825, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    8343.6000000000004, 
+    781.20000000000005, 
+    15820.0
+   ], 
+   "mark": "F17|TF|TF-01"
+  }, 
+  {
+   "id": 5639124, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -48479.800000000003, 
+    11303.799999999999, 
+    15820.0
+   ], 
+   "mark": "B16|TB|TB-01"
+  }, 
+  {
+   "id": 5529820, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    5396.8999999999996, 
+    11560.700000000001, 
+    15920.0
+   ], 
+   "mark": "E06|TF|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5557301, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    11705.799999999999, 
+    5230.1000000000004, 
+    15920.0
+   ], 
+   "mark": "F01|TF|TF-03"
+  }, 
+  {
+   "id": 5557369, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    11705.799999999999, 
+    12458.5, 
+    15920.0
+   ], 
+   "mark": "F02|TF|TF-03"
+  }, 
+  {
+   "id": 5568834, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    8685.7999999999993, 
+    5328.3000000000002, 
+    15920.0
+   ], 
+   "mark": "F17|TF|TF-03"
+  }, 
+  {
+   "id": 5568862, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    8685.7999999999993, 
+    12458.5, 
+    15920.0
+   ], 
+   "mark": "F18|TF|TF-03"
+  }, 
+  {
+   "id": 5570615, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    5080.3000000000002, 
+    6068.5, 
+    15920.0
+   ], 
+   "mark": "F02|TF|SIN CIRCUITO"
+  }, 
+  {
+   "id": 5580891, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -4585.8999999999996, 
+    11560.700000000001, 
+    15920.0
+   ], 
+   "mark": "E08|TE|TE-03"
+  }, 
+  {
+   "id": 5580964, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -4585.8999999999996, 
+    6064.3999999999996, 
+    15920.0
+   ], 
+   "mark": "E07|TE|TE-05"
+  }, 
+  {
+   "id": 5568826, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    6551.1999999999998, 
+    3028.3000000000002, 
+    14220.0
+   ], 
+   "mark": "F17|TF|Datos"
+  }, 
+  {
+   "id": 5568827, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    6551.1999999999998, 
+    3128.3000000000002, 
+    14220.0
+   ], 
+   "mark": "F17|TF|Datos"
+  }, 
+  {
+   "id": 5568828, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    6551.1999999999998, 
+    2928.3000000000002, 
+    14220.0
+   ], 
+   "mark": "F17|TF|Datos"
+  }, 
+  {
+   "id": 5568854, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    6555.1999999999998, 
+    14650.799999999999, 
+    14220.0
+   ], 
+   "mark": "F18|TF|Datos"
+  }, 
+  {
+   "id": 5568855, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    6555.1999999999998, 
+    14501.600000000000, 
+    14220.0
+   ], 
+   "mark": "F18|TF|Datos"
+  }, 
+  {
+   "id": 5568856, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    6555.1999999999998, 
+    14796.600000000000, 
+    14220.0
+   ], 
+   "mark": "F18|TF|Datos"
+  }, 
+  {
+   "id": 5580875, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2447.0999999999999, 
+    14063.200000000001, 
+    13520.0
+   ], 
+   "mark": "E08|TE|Datos"
+  }, 
+  {
+   "id": 5580876, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2447.0999999999999, 
+    13963.200000000001, 
+    13520.0
+   ], 
+   "mark": "E08|TE|Datos"
+  }, 
+  {
+   "id": 5580948, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2447.0999999999999, 
+    3561.9000000000001, 
+    13520.0
+   ], 
+   "mark": "E07|TE|Datos"
+  }, 
+  {
+   "id": 5580949, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -2447.0999999999999, 
+    3661.9000000000001, 
+    13520.0
+   ], 
+   "mark": "E07|TE|Datos"
+  }, 
+  {
+   "id": 5529858, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    4478.8000000000002, 
+    9542.7000000000007, 
+    14320.0
+   ], 
+   "mark": "E06|TE|TE-03"
+  }, 
+  {
+   "id": 5557251, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    12559.200000000001, 
+    8142.3999999999996, 
+    14319.200000000001
+   ], 
+   "mark": "F01|TF|TF-01"
+  }, 
+  {
+   "id": 5568814, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    7832.3999999999996, 
+    8142.3999999999996, 
+    14319.200000000001
+   ], 
+   "mark": "F17|TF|TF-01"
+  }, 
+  {
+   "id": 5568911, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    7735.3000000000002, 
+    9672.7000000000007, 
+    15899.100000000000
+   ], 
+   "mark": "F18|TF|TF-01"
+  }, 
+  {
+   "id": 5570628, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    4473.6999999999998, 
+    8142.3999999999996, 
+    14320.0
+   ], 
+   "mark": "E05|TE|TE-01"
+  }, 
+  {
+   "id": 5580899, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -3723.5999999999999, 
+    9612.7000000000007, 
+    15620.0
+   ], 
+   "mark": "E08|TE|TE-01"
+  }, 
+  {
+   "id": 5580904, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -3662.1999999999998, 
+    9482.7000000000007, 
+    14377.400000000000
+   ], 
+   "mark": "E08|TE|TE-01"
+  }, 
+  {
+   "id": 5580977, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -3662.1999999999998, 
+    8142.3999999999996, 
+    14377.400000000000
+   ], 
+   "mark": "E07|TE|TE-01"
+  }, 
+  {
+   "id": 5640122, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -18373.299999999999, 
+    8142.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F17A|TF|TF-01"
+  }, 
+  {
+   "id": 5640125, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -18343.599999999999, 
+    9542.7000000000007, 
+    14320.0
+   ], 
+   "mark": "F18A|TF|TF-01"
+  }, 
+  {
+   "id": 5640128, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -20870.599999999999, 
+    9542.7000000000007, 
+    14320.0
+   ], 
+   "mark": "F02B|TF|TF-01"
+  }, 
+  {
+   "id": 5640130, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -41304.099999999999, 
+    8142.3999999999996, 
+    14320.0
+   ], 
+   "mark": "E07A|TE|TE-01"
+  }, 
+  {
+   "id": 5640133, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -41358.199999999997, 
+    9542.7000000000007, 
+    14320.0
+   ], 
+   "mark": "E08A|TE|TE-01"
+  }, 
+  {
+   "id": 5640136, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -44428.300000000003, 
+    6784.1999999999998, 
+    14470.5
+   ], 
+   "mark": "B15|TB|TB-01"
+  }, 
+  {
+   "id": 5640139, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -44428.300000000003, 
+    10896.200000000001, 
+    14635.799999999999
+   ], 
+   "mark": "B16|TB|TB-01"
+  }, 
+  {
+   "id": 5640142, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -27484.299999999999, 
+    8142.3999999999996, 
+    14320.0
+   ], 
+   "mark": "C14|TC|TC-03"
+  }, 
+  {
+   "id": 5640145, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -27446.0, 
+    9542.7000000000007, 
+    14320.0
+   ], 
+   "mark": "D13|TD|TD-03"
+  }, 
+  {
+   "id": 5640263, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -13087.600000000000, 
+    8142.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F01A|TF|TF-01"
+  }, 
+  {
+   "id": 5640305, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -20901.5, 
+    8142.3999999999996, 
+    14320.0
+   ], 
+   "mark": "F01B|TF|TF-01"
+  }, 
+  {
+   "id": 5640312, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    12819.0, 
+    9542.7000000000007, 
+    14320.0
+   ], 
+   "mark": "F02|TF|TF-01"
+  }, 
+  {
+   "id": 5640319, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -13070.799999999999, 
+    9542.7000000000007, 
+    14320.0
+   ], 
+   "mark": "F02A|TF|TF-01"
+  }, 
+  {
+   "id": 5627494, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -23240.099999999999, 
+    10526.900000000000, 
+    15020.0
+   ], 
+   "mark": "F02B|TF|TF-01"
+  }, 
+  {
+   "id": 5627588, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -15855.700000000001, 
+    10526.900000000000, 
+    15020.0
+   ], 
+   "mark": "F18A|TF|TF-01"
+  }, 
+  {
+   "id": 5627668, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -15551.100000000000, 
+    10526.900000000000, 
+    15020.0
+   ], 
+   "mark": "F02A|TF|TF-01"
+  }, 
+  {
+   "id": 5627747, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -15571.100000000000, 
+    7158.1999999999998, 
+    15020.0
+   ], 
+   "mark": "F01A|TF|TF-01"
+  }, 
+  {
+   "id": 5627838, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -15855.700000000001, 
+    7158.1999999999998, 
+    15020.0
+   ], 
+   "mark": "F17A|TF|TF-01"
+  }, 
+  {
+   "id": 5627878, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    -23317.200000000001, 
+    7158.1999999999998, 
+    15020.0
+   ], 
+   "mark": "F01B|TF|TF-01"
+  }, 
+  {
+   "id": 5628048, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    10342.200000000001, 
+    10511.0, 
+    15020.0
+   ], 
+   "mark": "F02|TF|TF-01"
+  }, 
+  {
+   "id": 5628093, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    10049.400000000000, 
+    10511.0, 
+    15020.0
+   ], 
+   "mark": "F18|TF|TF-01"
+  }, 
+  {
+   "id": 5628152, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    10382.200000000001, 
+    7174.1000000000004, 
+    15020.0
+   ], 
+   "mark": "F01|TF|TF-01"
+  }, 
+  {
+   "id": 5628242, 
+   "tipo": "dispositivo_sin_room", 
+   "pt": [
+    10049.400000000000, 
+    7174.1000000000004, 
+    15020.0
+   ], 
+   "mark": "F17|TF|TF-01"
+  }
+ ], 
+ "modificado_sin_guardar": false, 
+ "rooms": [
+  {
+   "id": 5679133, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "1", 
+   "area_m2": 2.6000000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679134, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "2", 
+   "area_m2": 2.9800000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679135, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "3", 
+   "area_m2": 2.9800000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679136, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "4", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679137, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "5", 
+   "area_m2": 9.3499999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679138, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "6", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679139, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "7", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679140, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "8", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679141, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "9", 
+   "area_m2": 5.0800000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679142, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "10", 
+   "area_m2": 3.0, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679143, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "11", 
+   "area_m2": 3.0, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679144, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "12", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679145, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "13", 
+   "area_m2": 9.3499999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679146, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "14", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679147, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "15", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679148, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "16", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679149, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "17", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679150, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "18", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679151, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "19", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679152, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "20", 
+   "area_m2": 12.369999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679153, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "21", 
+   "area_m2": 6.8499999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679154, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "22", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679155, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "23", 
+   "area_m2": 0.10000000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679156, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "24", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679157, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "25", 
+   "area_m2": 0.10000000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679158, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "26", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679159, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "27", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679160, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "28", 
+   "area_m2": 11.650000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679161, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "29", 
+   "area_m2": 2.6000000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679162, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "30", 
+   "area_m2": 11.490000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679163, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "31", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679164, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "32", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679165, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "33", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679166, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "34", 
+   "area_m2": 1.3200000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679167, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "35", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679168, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "36", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679169, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "37", 
+   "area_m2": 1.7100000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679170, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "38", 
+   "area_m2": 0.25, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679171, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "39", 
+   "area_m2": 3.0800000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679172, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "40", 
+   "area_m2": 2.7100000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679173, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "41", 
+   "area_m2": 2.7100000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679174, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "42", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679175, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "43", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679176, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "44", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679177, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "45", 
+   "area_m2": 2.9500000000000002, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679178, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "46", 
+   "area_m2": 2.9399999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679179, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "47", 
+   "area_m2": 3.0800000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679180, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "48", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679181, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "49", 
+   "area_m2": 9.7100000000000009, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679182, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "50", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679183, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "51", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679184, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "52", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679185, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "53", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679186, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "54", 
+   "area_m2": 9.6600000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679187, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "55", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679188, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "56", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679189, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "57", 
+   "area_m2": 2.8300000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679190, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "58", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679191, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "59", 
+   "area_m2": 2.9500000000000002, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679192, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "60", 
+   "area_m2": 2.9399999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679193, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "61", 
+   "area_m2": 1.3700000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679194, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "62", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679195, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "63", 
+   "area_m2": 2.8300000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679196, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "64", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679197, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "65", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679198, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "66", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679199, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "67", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679200, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "68", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679201, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "69", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679202, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "70", 
+   "area_m2": 1.7100000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679203, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "71", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679204, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "72", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679205, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "73", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679206, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "74", 
+   "area_m2": 3.1299999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679207, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "75", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679208, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "76", 
+   "area_m2": 2.7000000000000002, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679209, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "77", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679210, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "78", 
+   "area_m2": 5.3099999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679211, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "79", 
+   "area_m2": 6.6699999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679212, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "80", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679213, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "81", 
+   "area_m2": 1.3600000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679214, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "82", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679215, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "83", 
+   "area_m2": 3.2400000000000002, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679216, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "84", 
+   "area_m2": 2.4500000000000002, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679217, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "85", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679218, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "86", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679219, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "87", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679220, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "88", 
+   "area_m2": 7.1200000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679221, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "89", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679222, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "90", 
+   "area_m2": 3.1699999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679223, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "91", 
+   "area_m2": 10.770000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679224, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "92", 
+   "area_m2": 14.960000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679225, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "93", 
+   "area_m2": 9.7300000000000004, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679226, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "94", 
+   "area_m2": 3.6699999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679227, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "95", 
+   "area_m2": 3.2000000000000002, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679228, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "96", 
+   "area_m2": 9.9000000000000004, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679229, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "97", 
+   "area_m2": 0.029999999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679230, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "98", 
+   "area_m2": 13.550000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679231, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "99", 
+   "area_m2": 9.6099999999999994, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679232, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "100", 
+   "area_m2": 14.800000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679233, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "101", 
+   "area_m2": 3.4900000000000002, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679234, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "102", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679235, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "103", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679236, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "104", 
+   "area_m2": 1.8200000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679237, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "105", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679238, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "106", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679239, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "107", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679240, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "108", 
+   "area_m2": 5.3200000000000003, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679241, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "109", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679242, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "110", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679243, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "111", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679244, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "112", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679245, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "113", 
+   "area_m2": 2.5299999999999998, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679246, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "114", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679247, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "115", 
+   "area_m2": 3.1400000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679248, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "116", 
+   "area_m2": 73.879999999999995, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679249, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "117", 
+   "area_m2": 1.3200000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679250, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "118", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5679251, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "119", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690684, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "120", 
+   "area_m2": 12.390000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690686, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "121", 
+   "area_m2": 9.0299999999999994, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690688, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "122", 
+   "area_m2": 6.9299999999999997, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690690, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "123", 
+   "area_m2": 12.470000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690692, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "124", 
+   "area_m2": 12.539999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690694, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "125", 
+   "area_m2": 7.3399999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690696, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "126", 
+   "area_m2": 1.3999999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690698, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "127", 
+   "area_m2": 9.4000000000000004, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690700, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "128", 
+   "area_m2": 11.990000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690702, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "129", 
+   "area_m2": 7.0599999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690704, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "130", 
+   "area_m2": 2.5699999999999998, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690706, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "131", 
+   "area_m2": 4.3099999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690708, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "132", 
+   "area_m2": 7.3099999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690710, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "133", 
+   "area_m2": 6.7300000000000004, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690712, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "134", 
+   "area_m2": 5.1299999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690715, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "135", 
+   "area_m2": 9.1699999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690717, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "136", 
+   "area_m2": 11.789999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690719, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "137", 
+   "area_m2": 6.9199999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690721, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "138", 
+   "area_m2": 1.4900000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690723, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "139", 
+   "area_m2": 7.4100000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690725, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "140", 
+   "area_m2": 13.300000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690727, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "141", 
+   "area_m2": 12.710000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690729, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "142", 
+   "area_m2": 5.1900000000000004, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690731, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "143", 
+   "area_m2": 12.680000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690733, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "144", 
+   "area_m2": 7.1200000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690735, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "145", 
+   "area_m2": 7.1200000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690737, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "146", 
+   "area_m2": 9.5, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690739, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "147", 
+   "area_m2": 9.3100000000000005, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690741, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "148", 
+   "area_m2": 12.609999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690743, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "149", 
+   "area_m2": 7.1200000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690745, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "150", 
+   "area_m2": 7.1200000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690747, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "151", 
+   "area_m2": 12.640000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690749, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "152", 
+   "area_m2": 12.630000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690751, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "153", 
+   "area_m2": 6.9500000000000002, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690753, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "154", 
+   "area_m2": 10.130000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690755, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "155", 
+   "area_m2": 10.820000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690757, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "156", 
+   "area_m2": 9.5, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690759, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "157", 
+   "area_m2": 19.579999999999998, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690761, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "158", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690764, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "159", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690767, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "160", 
+   "area_m2": 6.5199999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690769, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "161", 
+   "area_m2": 2.9300000000000002, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690771, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "162", 
+   "area_m2": 5.3200000000000003, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690773, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "163", 
+   "area_m2": 5.3099999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690775, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "164", 
+   "area_m2": 5.0700000000000003, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690777, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "165", 
+   "area_m2": 8.9800000000000004, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690779, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "166", 
+   "area_m2": 8.9100000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690781, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "167", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690784, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "168", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5690787, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "169", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5691615, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "170", 
+   "area_m2": 1.7400000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5691617, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "171", 
+   "area_m2": 6.7199999999999998, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694077, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "172", 
+   "area_m2": 9.3499999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694079, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "173", 
+   "area_m2": 2.8500000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694081, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "174", 
+   "area_m2": 10.800000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694083, 
+   "limite_mm": 0.0, 
+   "base_mm": 0.0, 
+   "numero": "175", 
+   "area_m2": null, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694086, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "176", 
+   "area_m2": 19.530000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694088, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "177", 
+   "area_m2": 7.0599999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694090, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "178", 
+   "area_m2": 3.3700000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694092, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "179", 
+   "area_m2": 9.5700000000000003, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694094, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "180", 
+   "area_m2": 2.8500000000000001, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5694644, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "181", 
+   "area_m2": 3.5099999999999998, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695032, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "182", 
+   "area_m2": 6.5599999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695217, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "183", 
+   "area_m2": 7.0499999999999998, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695767, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "184", 
+   "area_m2": 8.8200000000000003, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695769, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "185", 
+   "area_m2": 6.5199999999999996, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695771, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "186", 
+   "area_m2": 3.9800000000000000, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695775, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "187", 
+   "area_m2": 2.5299999999999998, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695779, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "188", 
+   "area_m2": 9.4000000000000004, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695781, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "189", 
+   "area_m2": 23.699999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695783, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "190", 
+   "area_m2": 6.4699999999999998, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }, 
+  {
+   "id": 5695785, 
+   "limite_mm": 16220.0, 
+   "base_mm": 0.0, 
+   "numero": "191", 
+   "area_m2": 3.8799999999999999, 
+   "nombre": "Room", 
+   "nivel": "Piso 5"
+  }
+ ]
+}
