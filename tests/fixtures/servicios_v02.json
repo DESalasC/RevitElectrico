@@ -1,0 +1,21 @@
+{
+  "descripcion": "Fixture del resolutor de superposiciones v02: placa doble de interruptores, colineales del MST, verticales de servicios distintos y dedup exacto.",
+  "dispositivos": [
+    {"id": 1, "x": 1000.0, "y": 1000.0, "z": 15720.0, "mark": "F01|TF 01|I1", "familia": "M_Iluminacion", "tipo": "Luminaria"},
+    {"id": 2, "x": 4000.0, "y": 1000.0, "z": 15720.0, "mark": "F01|TF 01|I1", "familia": "M_Iluminacion", "tipo": "Luminaria"},
+    {"id": 3, "x": 2500.0, "y": 1000.0, "z": 15720.0, "mark": "F01|TF 01|I1", "familia": "M_Iluminacion", "tipo": "Luminaria"},
+    {"id": 4, "x": 1000.0, "y": 3000.0, "z": 14320.0, "mark": "F01|TF 01|I1", "familia": "M_Interruptores", "tipo": "Simple"},
+    {"id": 5, "x": 1000.0, "y": 3010.0, "z": 14320.0, "mark": "F01|TF 01|I1", "familia": "M_Interruptores", "tipo": "Doble"},
+    {"id": 6, "x": 6000.0, "y": 6000.0, "z": 14220.0, "mark": "F01|TF 01|C2", "familia": "M_Toma doble", "tipo": "Toma doble"},
+    {"id": 7, "x": 6000.0, "y": 6000.0, "z": 14220.0, "mark": "F01|TF 01|D1", "familia": "M_Comunicaciones", "tipo": "Comunicaciones"}
+  ],
+  "ids_cocina": [],
+  "esperado": {
+    "dedup_exacto": 0,
+    "verticales_descartadas": 0,
+    "solapes_restantes": 0,
+    "bajadas_interruptor": 1,
+    "bajada_z_fin": 14320.0,
+    "vertical_datos_offset_x": 6040.0
+  }
+}

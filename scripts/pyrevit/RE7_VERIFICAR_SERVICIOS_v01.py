@@ -30,10 +30,22 @@ from Autodesk.Revit.DB import (
 VERSION = "v01_verificar_servicios"
 FT_A_MM = 304.8
 DEFAULT_ROOT = r"D:\Work\PROJECTS\RevitElectrico"
-PLAN = os.path.join(DEFAULT_ROOT, "data", "f7_creado_servicios_F01_F02_v01.json")
+PLAN_DEFECTO = os.path.join(DEFAULT_ROOT, "data",
+                            "f7_creado_servicios_F01_F02_v01.json")
 OUT = os.path.join(DEFAULT_ROOT, "data", "f7_verificacion_servicios_v01.json")
 TOL_MM = 2.0
 NOMBRES_DIAM = ["Diameter(Trade Size)", "Diameter", "Size"]
+
+
+def leer_plan():
+    try:
+        g = globals().get("inputs")
+        if isinstance(g, dict) and g.get("plan"):
+            p = g["plan"]
+            return p if os.path.isabs(p) else os.path.join(DEFAULT_ROOT, p)
+    except Exception:
+        pass
+    return PLAN_DEFECTO
 
 
 def log(msg):
@@ -154,9 +166,10 @@ def main():
         return 1
     log("documento=%r" % doc.Title)
 
-    with open(PLAN) as f:
+    with open(leer_plan()) as f:
         plan = json.load(f)
     tramos = plan["tramos"]
+    log("plan=%s" % PLAN_DEFECTO if not globals().get("inputs") else "plan=inputs")
     log("tramos en el plan: %d" % len(tramos))
 
     modelo = {}
@@ -198,7 +211,7 @@ def main():
                 "generado_utc": datetime.datetime.utcnow().strftime(
                     "%Y-%m-%d %H:%M:%S"),
                 "documento": doc.Title,
-                "plan": PLAN,
+                "plan": leer_plan(),
                 "conduits_modelo": len(modelo),
                 "por_servicio_modelo": sorted(
                     set((m["servicio"] or "") for m in modelo.values())),
