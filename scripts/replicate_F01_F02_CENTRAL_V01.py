@@ -41,6 +41,7 @@ except Exception as e:
 # Configuración
 REVITELECTRICO_ROOT = r"D:\Work\PROJECTS\RevitElectrico"
 DATA_DIR = os.path.join(REVITELECTRICO_ROOT, "data")
+CHECKPOINT_DIR = os.path.join(DATA_DIR, "checkpoints", "replica_F01_F02")
 
 # TypeIds confirmados para CENTRAL-V01
 CONDUIT_TYPE_IDS = {
@@ -100,6 +101,25 @@ def _safe_int(val):
 def _load_json(path):
     with open(path, 'r') as f:
         return json.load(f)
+
+
+def _checkpoint_path(apartamento):
+    return os.path.join(CHECKPOINT_DIR, "{}_checkpoint.json".format(apartamento))
+
+
+def _load_checkpoint(apartamento):
+    path = _checkpoint_path(apartamento)
+    if os.path.exists(path):
+        with open(path, 'r') as f:
+            return json.load(f)
+    return {"done_ids": [], "timestamp": None}
+
+
+def _save_checkpoint(apartamento, done_ids):
+    os.makedirs(CHECKPOINT_DIR, exist_ok=True)
+    with open(_checkpoint_path(apartamento), 'w') as f:
+        json.dump({"done_ids": sorted(done_ids), "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")}, f, indent=2)
+
 
 def _collect_family_symbols(doc):
     """Devuelve dict {(family_name, type_name): FamilySymbol} y {type_id: FamilySymbol}."""
@@ -518,7 +538,7 @@ def crear_conduits(doc, ruteo_data, conduit_type_map):
 
     return results
 
-def replicar_apartamento(doc, apartamento, inventario_data, ruteo_data, report_path=None):
+def replicar_apartamento(doc, apartamento, inventario_data, ruteo_data, report_path=None, batch_size=10):
     """Réplica un apartamento completo (dispositivos + ruteo)."""
     print("\n" + "="*60)
     print("REPLICANDO {} EN CENTRAL-V01".format(apartamento))
@@ -568,53 +588,66 @@ def replicar_apartamento(doc, apartamento, inventario_data, ruteo_data, report_p
 
     results = {"dispositivos": [], "ruteo": None}
 
-    # Transacción única para todo
-    with revit.Transaction("Replica {} F01/F02".format(apartamento)):
-        # 1. Colocar dispositivos
-        print("\n[INFO] Colocando dispositivos...")
-        for i, d in enumerate(dispositivos, 1):
-            fam = d["familia_revit"]
-            tip = d["tipo_revit"]
-            rot = d["rotacion_grados"]
-            alt_mm = int(d["altura_local_m"] * 1000)
+    # Checkpoint: saltar dispositivos ya colocados
+    ckpt = _load_checkpoint(apartamento)
+    done_ids = set(ckpt.get("done_ids", []))
+    pendientes = [d for d in dispositivos if d["element_id"] not in done_ids]
+    print("[INFO] Dispositivos pendientes: {} / {}".format(len(pendientes), len(dispositivos)))
 
-            # Coordenadas con offset
-            x_mm = d["posicion"]["x_m"] * 1000 + offset_x
-            y_mm = d["posicion"]["y_m"] * 1000 + offset_y
-            z_abs_mm = (nivel_elevacion + d["altura_local_m"]) * 1000
+    # 1. Colocar dispositivos en lotes (una transacción por lote)
+    print("\n[INFO] Colocando dispositivos...")
+    for i in range(0, len(pendientes), batch_size):
+        lote = pendientes[i:i + batch_size]
+        print("[INFO] Lote {}: dispositivos {}-{}".format(
+            i // batch_size + 1, i + 1, min(i + batch_size, len(pendientes))))
+        with revit.Transaction("Replica {} lote {}".format(apartamento, i // batch_size + 1)):
+            for d in lote:
+                fam = d["familia_revit"]
+                tip = d["tipo_revit"]
+                rot = d["rotacion_grados"]
+                alt_mm = int(d["altura_local_m"] * 1000)
 
-            print("[{}/{}] {} {} -> ".format(i, len(dispositivos), d["element_id"], d["nombre_dxf"] if "nombre_dxf" in d else fam))
+                # Coordenadas con offset
+                x_mm = d["posicion"]["x_m"] * 1000 + offset_x
+                y_mm = d["posicion"]["y_m"] * 1000 + offset_y
+                z_abs_mm = (nivel_elevacion + d["altura_local_m"]) * 1000
 
-            sym, resolved_type = _find_symbol(family_symbols, fam, tip)
-            if sym is None:
+                print("[{}/{}] {} {} -> ".format(i + lote.index(d) + 1, len(pendientes), d["element_id"], d["nombre_dxf"] if "nombre_dxf" in d else fam))
+
+                sym, resolved_type = _find_symbol(family_symbols, fam, tip)
+                if sym is None:
+                    r = dict(d)
+                    r["status"] = "error"
+                    r["error"] = "Symbol not found: {} / {}".format(fam, tip)
+                    results["dispositivos"].append(r)
+                    print("        ERROR: Symbol not found")
+                    continue
+
+                # Decidir estrategia por familia
+                if fam in FAMILIAS_MURO_FACE:
+                    result = _place_on_wall_face(doc, d, sym, x_mm, y_mm, z_abs_mm, walls)
+                elif fam in FAMILIAS_TECHO_FACE:
+                    result = _place_on_ceiling_face(doc, d, sym, x_mm, y_mm, z_abs_mm, ceilings)
+                else:
+                    result = _place_level_based(doc, d, sym, x_mm, y_mm, alt_mm, level_id, rot)
+
                 r = dict(d)
-                r["status"] = "error"
-                r["error"] = "Symbol not found: {} / {}".format(fam, tip)
+                r.update(result)
                 results["dispositivos"].append(r)
-                print("        ERROR: Symbol not found")
-                continue
+                status = result.get("status", "unknown")
+                if status == "ok":
+                    print("        OK (elem={}, rot={}°)".format(result.get("element_id"), result.get("rotation_deg", 0)))
+                elif status == "ok_with_warning":
+                    print("        OK-WARN (elem={}, warn={})".format(result.get("element_id"), result.get("warning", "")[:60]))
+                else:
+                    print("        ERROR: {}".format(result.get("error", "?")[:100]))
 
-            # Decidir estrategia por familia
-            if fam in FAMILIAS_MURO_FACE:
-                result = _place_on_wall_face(doc, d, sym, x_mm, y_mm, z_abs_mm, walls)
-            elif fam in FAMILIAS_TECHO_FACE:
-                result = _place_on_ceiling_face(doc, d, sym, x_mm, y_mm, z_abs_mm, ceilings)
-            else:
-                result = _place_level_based(doc, d, sym, x_mm, y_mm, alt_mm, level_id, rot)
+        done_ids.update(d["element_id"] for d in lote)
+        _save_checkpoint(apartamento, done_ids)
 
-            r = dict(d)
-            r.update(result)
-            results["dispositivos"].append(r)
-            status = result.get("status", "unknown")
-            if status == "ok":
-                print("        OK (elem={}, rot={}°)".format(result.get("element_id"), result.get("rotation_deg", 0)))
-            elif status == "ok_with_warning":
-                print("        OK-WARN (elem={}, warn={})".format(result.get("element_id"), result.get("warning", "")[:60]))
-            else:
-                print("        ERROR: {}".format(result.get("error", "?")[:100]))
-
-        # 2. Crear ruteo de conduits
-        print("\n[INFO] Creando ruteo de conduits...")
+    # 2. Crear ruteo de conduits (transacción aparte)
+    print("\n[INFO] Creando ruteo de conduits...")
+    with revit.Transaction("Replica {} ruteo".format(apartamento)):
         results["ruteo"] = crear_conduits(doc, ruteo_data, conduit_type_map)
 
     # Reporte
@@ -721,11 +754,11 @@ def main():
 
     # Replicar F01
     report_f01 = os.path.join(report_dir, "replica_F01_{}.json".format(time.strftime("%Y%m%d_%H%M%S")))
-    replicar_apartamento(doc, "F01", inventario_data, ruteo_data, report_f01)
+    replicar_apartamento(doc, "F01", inventario_data, ruteo_data, report_f01, batch_size=10)
 
     # Replicar F02
     report_f02 = os.path.join(report_dir, "replica_F02_{}.json".format(time.strftime("%Y%m%d_%H%M%S")))
-    replicar_apartamento(doc, "F02", inventario_data, ruteo_data, report_f02)
+    replicar_apartamento(doc, "F02", inventario_data, ruteo_data, report_f02, batch_size=10)
 
     print("\n" + "="*70)
     print("REPLICACIÓN COMPLETA")
